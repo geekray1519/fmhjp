@@ -1,6 +1,7 @@
 import { categories } from "@/data/categories";
 import { CategoryCard } from "@/components/CategoryCard";
-import { Search } from "lucide-react";
+import { AdBanner } from "@/components/AdBanner";
+import { Search, BookOpen, Star, TrendingUp } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -10,6 +11,17 @@ export default function Home() {
       cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0),
     0
   );
+
+  // Pick starred resources from across categories for the featured section
+  const featuredResources = categories
+    .flatMap((cat) =>
+      cat.subcategories.flatMap((sub) =>
+        sub.resources
+          .filter((r) => r.starred)
+          .map((r) => ({ ...r, categoryTitle: cat.title, categorySlug: cat.slug, categoryIcon: cat.icon }))
+      )
+    )
+    .slice(0, 8);
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,12 +52,13 @@ export default function Home() {
             <Search size={16} />
             リソースを検索
           </Link>
-          <a
-            href="#categories"
+          <Link
+            href="/beginners-guide"
             className="inline-flex items-center gap-2 px-6 py-3 border border-border rounded-xl font-medium text-sm hover:bg-card transition-colors"
           >
-            カテゴリを見る
-          </a>
+            <BookOpen size={16} />
+            初心者ガイド
+          </Link>
         </div>
 
         <div className="mt-12 flex items-center justify-center gap-8 sm:gap-16 text-center animate-fade-in" style={{ animationDelay: "300ms" }}>
@@ -66,6 +79,39 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Featured Resources */}
+      <section className="pb-12">
+        <div className="flex items-center gap-2 mb-6">
+          <TrendingUp size={20} className="text-accent" />
+          <h2 className="text-xl font-bold">今週のおすすめ</h2>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          {featuredResources.map((resource, i) => (
+            <a
+              key={resource.name}
+              href={resource.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block p-4 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 transition-all duration-300 hover:shadow-lg hover:shadow-accent/5 animate-fade-in"
+              style={{ animationDelay: `${i * 50}ms` }}
+            >
+              <div className="flex items-center gap-2 mb-2">
+                <Star size={12} className="text-amber-400 fill-amber-400" />
+                <span className="text-xs text-muted">{resource.categoryIcon} {resource.categoryTitle}</span>
+              </div>
+              <h3 className="font-semibold text-sm group-hover:text-accent transition-colors truncate">
+                {resource.name}
+              </h3>
+              <p className="mt-1 text-xs text-muted leading-relaxed line-clamp-2">
+                {resource.description}
+              </p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <AdBanner slot="home-top" className="mb-8" />
+
       <section id="categories" className="pb-16">
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-2xl font-bold">カテゴリ一覧</h2>
@@ -77,6 +123,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <AdBanner slot="home-bottom" className="mb-8" />
     </div>
   );
 }

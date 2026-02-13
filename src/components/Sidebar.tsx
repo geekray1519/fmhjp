@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { categories } from "@/data/categories";
-import { Home } from "lucide-react";
+import { Home, BookOpen } from "lucide-react";
 
 interface SidebarProps {
   open: boolean;
@@ -46,6 +46,22 @@ export function Sidebar({ open, onClose }: SidebarProps) {
           >
             <Home size={18} />
             <span>ホーム</span>
+          </Link>
+
+          <Link
+            href="/beginners-guide"
+            onClick={onClose}
+            className={`
+              flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium
+              transition-all duration-200
+              ${pathname === "/beginners-guide"
+                ? "bg-accent/10 text-accent"
+                : "text-muted hover:text-foreground hover:bg-card"
+              }
+            `}
+          >
+            <BookOpen size={18} />
+            <span>初心者ガイド</span>
           </Link>
 
           <div className="pt-4 pb-2">

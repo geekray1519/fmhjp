@@ -17,7 +17,10 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "FMHJP - 無料リソースガイド",
+  title: {
+    default: "FMHJP - 無料リソースガイド",
+    template: "%s | FMHJP",
+  },
   description:
     "インターネット上の無料リソースを集めた最大のコレクション。ソフトウェア、エンターテインメント、教育、プライバシーツールなど。",
   keywords: [
@@ -28,13 +31,40 @@ export const metadata: Metadata = {
     "プライバシー",
     "広告ブロック",
     "ダウンロード",
+    "FMHJP",
+    "無料アプリ",
+    "オープンソース",
+    "VPN",
+    "アニメ",
+    "漫画",
+    "ゲーム",
+    "AI",
   ],
+  metadataBase: new URL("https://fmhjp.vercel.app"),
   openGraph: {
     title: "FMHJP - 無料リソースガイド",
     description:
-      "インターネット上の無料リソースを集めた最大のコレクション。",
+      "インターネット上の無料リソースを集めた最大のコレクション。ソフトウェア、エンターテインメント、教育、プライバシーツールなど。",
     type: "website",
     locale: "ja_JP",
+    siteName: "FMHJP",
+    url: "https://fmhjp.vercel.app",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FMHJP - 無料リソースガイド",
+    description: "インターネット上の無料リソースを集めた最大のコレクション。",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  alternates: {
+    canonical: "https://fmhjp.vercel.app",
   },
 };
 

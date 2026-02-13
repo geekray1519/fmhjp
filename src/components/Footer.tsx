@@ -17,6 +17,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted">
               <li><Link href="/" className="hover:text-foreground transition-colors">ホーム</Link></li>
               <li><Link href="/search" className="hover:text-foreground transition-colors">検索</Link></li>
+              <li><Link href="/beginners-guide" className="hover:text-foreground transition-colors">初心者ガイド</Link></li>
               <li><Link href="/privacy" className="hover:text-foreground transition-colors">広告ブロック / プライバシー</Link></li>
               <li><Link href="/ai" className="hover:text-foreground transition-colors">人工知能</Link></li>
             </ul>

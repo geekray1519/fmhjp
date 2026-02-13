@@ -80,6 +80,55 @@ export const categories: Category[] = [
           { name: "Signal", url: "https://signal.org/", description: "エンドツーエンド暗号化メッセンジャー。", starred: true, tags: ["メッセンジャー"] },
           { name: "Proton Mail", url: "https://proton.me/mail", description: "暗号化メールサービス。1GB無料。", starred: true, tags: ["メール", "暗号化"] },
         ]
+      },
+      {
+        id: "file-scanners",
+        title: "ファイルスキャナー",
+        resources: [
+          { name: "Hybrid Analysis", url: "https://www.hybrid-analysis.com/", description: "クラウド型マルウェア解析サービス。詳細レポートが見やすい。", starred: true, tags: ["スキャナー", "解析"] },
+          { name: "ANY.RUN", url: "https://any.run/", description: "対話型サンドボックスで不審ファイルを検証できる。", starred: true, tags: ["サンドボックス", "解析"] },
+          { name: "MetaDefender", url: "https://metadefender.opswat.com/", description: "複数エンジンでのファイル検査に対応。", tags: ["スキャナー", "マルチエンジン"] },
+          { name: "Jotti", url: "https://virusscan.jotti.org/", description: "軽量なオンラインウイルススキャン。", tags: ["スキャナー", "オンライン"] },
+          { name: "Filescan.io", url: "https://www.filescan.io/", description: "URLとファイルの安全性をまとめて確認できる。", tags: ["スキャナー", "URL"] },
+          { name: "Cuckoo Sandbox", url: "https://cuckoo.cert.ee/", description: "サンプルの挙動解析に使える公開サンドボックス。", tags: ["サンドボックス", "マルウェア"] },
+          { name: "YARA", url: "https://virustotal.github.io/yara/", description: "マルウェア判定ルールを作成・適用できる標準ツール。", tags: ["ルール", "分析"] },
+          { name: "Triage", url: "https://tria.ge/", description: "脅威分析向けに人気の高いオンライン解析環境。", starred: true, tags: ["解析", "サンドボックス"] },
+        ]
+      },
+      {
+        id: "browser-privacy",
+        title: "ブラウザプライバシー",
+        resources: [
+          { name: "Mullvad Browser", url: "https://mullvad.net/en/browser", description: "指紋対策を重視したプライバシーブラウザ。", starred: true, tags: ["ブラウザ", "指紋対策"] },
+          { name: "LibreWolf", url: "https://librewolf.net/", description: "Firefoxベースで追跡対策が強化されたブラウザ。", tags: ["ブラウザ", "Firefox"] },
+          { name: "Brave", url: "https://brave.com/", description: "標準で広告・トラッカーを遮断するChromium系ブラウザ。", tags: ["ブラウザ", "追跡防止"] },
+          { name: "Arkenfox user.js", url: "https://github.com/arkenfox/user.js", description: "Firefoxの高度なプライバシー設定テンプレート。", starred: true, tags: ["Firefox", "設定"] },
+          { name: "Privacy Guides Browser Guide", url: "https://www.privacyguides.org/en/desktop-browsers/", description: "ブラウザ選定と設定の最新ガイド。", tags: ["ガイド", "ブラウザ"] },
+          { name: "Cover Your Tracks", url: "https://coveryourtracks.eff.org/", description: "ブラウザ指紋の追跡耐性を測定できるテスト。", tags: ["指紋対策", "テスト"] },
+        ]
+      },
+      {
+        id: "encrypted-messengers",
+        title: "暗号化メッセンジャー",
+        resources: [
+          { name: "Session", url: "https://getsession.org/", description: "電話番号不要で使える匿名性重視メッセンジャー。", tags: ["メッセンジャー", "匿名"] },
+          { name: "Briar", url: "https://briarproject.org/", description: "P2P通信に対応したオフライン耐性の高いチャット。", starred: true, tags: ["P2P", "メッセンジャー"] },
+          { name: "Matrix", url: "https://matrix.org/", description: "分散型チャット基盤。複数クライアントで利用可能。", tags: ["分散型", "チャット"] },
+          { name: "Jami", url: "https://jami.net/", description: "サーバーレスで使える分散型メッセンジャー。", tags: ["分散型", "P2P"] },
+          { name: "Element", url: "https://element.io/", description: "Matrix向けの定番クライアント。", tags: ["Matrix", "クライアント"] },
+          { name: "Delta Chat", url: "https://delta.chat/", description: "メール基盤を使った暗号化チャット。", tags: ["メール", "暗号化"] },
+        ]
+      },
+      {
+        id: "email-privacy",
+        title: "メールプライバシー",
+        resources: [
+          { name: "Tuta", url: "https://tuta.com/", description: "暗号化機能を備えたプライバシー重視メール。", starred: true, tags: ["メール", "暗号化"] },
+          { name: "Disroot Email", url: "https://disroot.org/en/services/email", description: "コミュニティ運営のプライバシー配慮メール。", tags: ["メール", "コミュニティ"] },
+          { name: "SimpleLogin", url: "https://simplelogin.io/", description: "メールエイリアスで本アドレスを秘匿できる。", starred: true, tags: ["エイリアス", "匿名"] },
+          { name: "Addy.io", url: "https://addy.io/", description: "使い捨てに近いメール転送エイリアスを作成可能。", tags: ["エイリアス", "転送"] },
+          { name: "Firefox Relay", url: "https://relay.firefox.com/", description: "Mozilla提供のメールマスクサービス。", tags: ["エイリアス", "Mozilla"] },
+        ]
       }
     ]
   },
@@ -148,6 +197,44 @@ export const categories: Category[] = [
           { name: "Open WebUI", url: "https://openwebui.com/", description: "セルフホスト型Webインターフェース。", starred: true, tags: ["ローカル", "Web"] },
           { name: "GPT4All", url: "https://www.nomic.ai/gpt4all", description: "ローカルで動くAIチャットボット。", tags: ["ローカル"] },
         ]
+      },
+      {
+        id: "coding-ai",
+        title: "コーディングAI",
+        resources: [
+          { name: "Aider", url: "https://aider.chat/", description: "Git連携が強力なCLI型コーディングAI。", starred: true, tags: ["開発", "CLI"] },
+          { name: "Continue", url: "https://www.continue.dev/", description: "VS Code/JetBrainsで使えるオープンソース補助。", starred: true, tags: ["開発", "拡張機能"] },
+          { name: "Codeium", url: "https://codeium.com/", description: "無料枠の広いコード補完サービス。", tags: ["補完", "開発"] },
+          { name: "Tabby", url: "https://tabby.tabbyml.com/", description: "セルフホスト可能なコード補完AI。", tags: ["セルフホスト", "補完"] },
+          { name: "OpenHands", url: "https://github.com/All-Hands-AI/OpenHands", description: "オープンソースの自律型開発エージェント。", tags: ["開発", "オープンソース"] },
+          { name: "Sourcegraph Cody", url: "https://sourcegraph.com/cody", description: "大規模コードベース検索と補完に強いAI。", tags: ["開発", "検索"] },
+          { name: "OpenRouter", url: "https://openrouter.ai/", description: "複数LLM APIを統一的に扱える中継サービス。", tags: ["API", "LLM"] },
+          { name: "GroqCloud", url: "https://console.groq.com/", description: "高速推論向けのLLM APIプレイグラウンド。", tags: ["API", "高速"] },
+        ]
+      },
+      {
+        id: "ai-music",
+        title: "音楽AI",
+        resources: [
+          { name: "Suno", url: "https://suno.com/", description: "歌入り楽曲を生成できる人気サービス。", starred: true, tags: ["音楽生成", "作曲"] },
+          { name: "Udio", url: "https://www.udio.com/", description: "高品質な音楽生成が可能なAI。", starred: true, tags: ["音楽生成", "高品質"] },
+          { name: "Stable Audio", url: "https://www.stableaudio.com/", description: "効果音やBGM制作に向く音声生成AI。", tags: ["音声生成", "BGM"] },
+          { name: "Riffusion", url: "https://www.riffusion.com/", description: "短いフレーズを素早く試せる音楽生成。", tags: ["音楽生成", "実験"] },
+          { name: "ElevenLabs", url: "https://elevenlabs.io/", description: "自然な音声合成とボイス生成が可能。", tags: ["音声合成", "ナレーション"] },
+          { name: "Kits AI", url: "https://www.kits.ai/", description: "AIボイス変換や歌声制作に使える。", tags: ["ボイス", "変換"] },
+        ]
+      },
+      {
+        id: "ai-productivity",
+        title: "AI生産性ツール",
+        resources: [
+          { name: "Notion AI", url: "https://www.notion.com/product/ai", description: "文書要約とタスク整理を一体化できる。", tags: ["要約", "ノート"] },
+          { name: "Perplexity Spaces", url: "https://www.perplexity.ai/spaces", description: "調査メモを共有しながら検索できる。", tags: ["検索", "調査"] },
+          { name: "Gamma", url: "https://gamma.app/", description: "プレゼン資料を素早く生成できる。", tags: ["資料作成", "プレゼン"] },
+          { name: "Napkin", url: "https://www.napkin.ai/", description: "文章から図解を自動作成するビジュアルAI。", tags: ["図解", "可視化"] },
+          { name: "Otter", url: "https://otter.ai/", description: "会議の自動文字起こしと要約を提供。", tags: ["文字起こし", "会議"] },
+          { name: "Whisper Web", url: "https://huggingface.co/spaces/openai/whisper", description: "Whisperベースで音声文字起こしを試せる。", tags: ["文字起こし", "音声"] },
+        ]
       }
     ]
   },
@@ -193,6 +280,29 @@ export const categories: Category[] = [
           { name: "Niconico", url: "https://www.nicovideo.jp/", description: "日本の動画プラットフォーム。コメント機能が特徴。", starred: true, tags: ["日本"] },
           { name: "Dailymotion", url: "https://www.dailymotion.com/", description: "フランスの動画プラットフォーム。", starred: true, tags: ["フランス"] },
         ]
+      },
+      {
+        id: "subtitle-tools",
+        title: "字幕・プレイヤーツール",
+        resources: [
+          { name: "OpenSubtitles", url: "https://www.opensubtitles.org/", description: "多言語字幕を検索できる定番サイト。", starred: true, tags: ["字幕", "検索"] },
+          { name: "Subscene", url: "https://subscene.com/", description: "映画やドラマ字幕の投稿コミュニティ。", tags: ["字幕", "コミュニティ"] },
+          { name: "Subtitle Edit", url: "https://www.nikse.dk/subtitleedit", description: "字幕の編集・同期調整に便利なツール。", tags: ["字幕", "編集"] },
+          { name: "Aegisub", url: "https://aegisub.org/", description: "高度な字幕作成に向いたオープンソースソフト。", tags: ["字幕", "オープンソース"] },
+          { name: "MPV", url: "https://mpv.io/", description: "軽量で高機能な動画プレイヤー。字幕拡張も豊富。", starred: true, tags: ["プレイヤー", "軽量"] },
+          { name: "VLC", url: "https://www.videolan.org/vlc/", description: "幅広い形式を再生できる定番プレイヤー。", starred: true, tags: ["プレイヤー", "定番"] },
+        ]
+      },
+      {
+        id: "anime-trackers",
+        title: "アニメ管理・追跡",
+        resources: [
+          { name: "AniList", url: "https://anilist.co/", description: "アニメ視聴履歴と評価を管理できる。", starred: true, tags: ["管理", "アニメ"] },
+          { name: "MyAnimeList", url: "https://myanimelist.net/", description: "作品データベースとレビューが豊富。", starred: true, tags: ["データベース", "アニメ"] },
+          { name: "Kitsu", url: "https://kitsu.io/", description: "シンプルに視聴進捗を管理できる。", tags: ["管理", "進捗"] },
+          { name: "Bangumi", url: "https://bgm.tv/", description: "日本・中国圏で使われる視聴管理サービス。", tags: ["管理", "コミュニティ"] },
+          { name: "Simkl", url: "https://simkl.com/", description: "アニメ・映画・TVを横断して視聴管理できる。", tags: ["管理", "横断"] },
+        ]
       }
     ]
   },
@@ -228,6 +338,42 @@ export const categories: Category[] = [
         resources: [
           { name: "Apple Podcasts", url: "https://www.apple.com/apple-podcasts/", description: "Appleのポッドキャストプラットフォーム。", tags: ["Apple"] },
           { name: "Pocket Casts", url: "https://pocketcasts.com/", description: "クロスプラットフォーム対応ポッドキャストアプリ。", starred: true, tags: ["アプリ"] },
+        ]
+      },
+      {
+        id: "internet-radio",
+        title: "インターネットラジオ",
+        resources: [
+          { name: "TuneIn", url: "https://tunein.com/", description: "世界中のラジオ局を聴ける総合サービス。", starred: true, tags: ["ラジオ", "世界"] },
+          { name: "Radio Garden", url: "https://radio.garden/", description: "地球儀から各国ラジオを直感的に探せる。", starred: true, tags: ["ラジオ", "探索"] },
+          { name: "SomaFM", url: "https://somafm.com/", description: "広告なしで聴ける独立系ネットラジオ。", tags: ["ラジオ", "広告なし"] },
+          { name: "NTS", url: "https://www.nts.live/", description: "実験的・クラブ系番組が豊富な音楽ラジオ。", tags: ["ラジオ", "クラブ"] },
+          { name: "DI.FM", url: "https://www.di.fm/", description: "電子音楽ジャンルに特化したラジオ。", tags: ["ラジオ", "電子音楽"] },
+          { name: "myTuner", url: "https://mytuner-radio.com/", description: "地域別にラジオ局を検索しやすい。", tags: ["ラジオ", "検索"] },
+        ]
+      },
+      {
+        id: "music-discovery",
+        title: "音楽発見ツール",
+        resources: [
+          { name: "Last.fm", url: "https://www.last.fm/", description: "再生履歴から好みを分析し新曲を提案。", starred: true, tags: ["発見", "履歴"] },
+          { name: "Rate Your Music", url: "https://rateyourmusic.com/", description: "ジャンル深掘りに強いレビュー型データベース。", tags: ["レビュー", "データベース"] },
+          { name: "Discogs", url: "https://www.discogs.com/", description: "リリース情報とクレジット参照に便利。", tags: ["データベース", "コレクション"] },
+          { name: "MusicBrainz", url: "https://musicbrainz.org/", description: "オープンな音楽メタデータを提供。", tags: ["メタデータ", "オープン"] },
+          { name: "Album of The Year", url: "https://www.albumoftheyear.org/", description: "新譜の評価を横断的に確認できる。", tags: ["レビュー", "新譜"] },
+          { name: "Bandcamp", url: "https://bandcamp.com/", description: "インディー音楽の発掘と購入に強い。", starred: true, tags: ["インディー", "購入"] },
+        ]
+      },
+      {
+        id: "audio-tools",
+        title: "音声ツール",
+        resources: [
+          { name: "Audacity", url: "https://www.audacityteam.org/", description: "無料で使える定番オーディオ編集ソフト。", starred: true, tags: ["編集", "無料"] },
+          { name: "Ocenaudio", url: "https://www.ocenaudio.com/", description: "軽快に使えるクロスプラットフォーム編集ソフト。", tags: ["編集", "軽量"] },
+          { name: "MusicBrainz Picard", url: "https://picard.musicbrainz.org/", description: "音楽ファイルのタグ整理に便利。", tags: ["タグ編集", "整理"] },
+          { name: "LosslessCut", url: "https://github.com/mifi/lossless-cut", description: "再エンコードなしで音声・動画を高速カット。", tags: ["カット", "高速"] },
+          { name: "ffmpeg", url: "https://ffmpeg.org/", description: "音声変換・抽出の自動化に必須のCLI。", starred: true, tags: ["変換", "CLI"] },
+          { name: "Lidarr", url: "https://lidarr.audio/", description: "音楽ライブラリを自動管理できる。", tags: ["ライブラリ", "自動化"] },
         ]
       }
     ]
@@ -267,6 +413,47 @@ export const categories: Category[] = [
         resources: [
           { name: "Epic Games Store", url: "https://store.epicgames.com/free-games", description: "毎週無料ゲーム配布。", starred: true, tags: ["無料", "週替わり"] },
           { name: "r/FreeGameFindings", url: "https://www.reddit.com/r/FreeGameFindings/", description: "無料ゲーム情報のRedditコミュニティ。", starred: true, tags: ["Reddit", "情報"] },
+        ]
+      },
+      {
+        id: "vr-games",
+        title: "VRゲーム",
+        resources: [
+          { name: "VRPirates Wiki", url: "https://vrpirates.wiki/", description: "VR関連リソースを整理したWiki。", starred: true, tags: ["VR", "Wiki"] },
+          { name: "SideQuest", url: "https://sidequestvr.com/", description: "Quest向けアプリ配布で定番のプラットフォーム。", starred: true, tags: ["VR", "Quest"] },
+          { name: "ALVR", url: "https://github.com/alvr-org/ALVR", description: "PC VRゲームを無線でヘッドセットへ配信。", tags: ["VR", "配信"] },
+          { name: "UEVR", url: "https://uevr.io/", description: "Unreal EngineゲームをVR化するツール。", tags: ["VR", "ツール"] },
+          { name: "heyVR", url: "https://heyvr.io/", description: "ブラウザでVRタイトルを探せる。", tags: ["VR", "ブラウザ"] },
+          { name: "OpenComposite", url: "https://gitlab.com/znixian/OpenOVR", description: "SteamVR負荷を下げる互換レイヤー。", tags: ["VR", "最適化"] },
+          { name: "Revive", url: "https://github.com/LibreVR/Revive", description: "Oculus向けタイトルを他環境で動かす互換ツール。", tags: ["VR", "互換"] },
+          { name: "The Gear VR Vault", url: "https://vault.gearvr.net/", description: "古いVRアプリの保存アーカイブ。", tags: ["VR", "アーカイブ"] },
+        ]
+      },
+      {
+        id: "abandonware",
+        title: "放棄ソフト・レトロPC",
+        resources: [
+          { name: "My Abandonware", url: "https://www.myabandonware.com/", description: "古典PCゲームを幅広く検索できる。", starred: true, tags: ["レトロ", "PC"] },
+          { name: "Abandonware DOS", url: "https://www.abandonwaredos.com/", description: "DOS時代の作品アーカイブが豊富。", tags: ["DOS", "レトロ"] },
+          { name: "Old Games Download", url: "https://oldgamesdownload.com/", description: "旧作PCゲームの配布情報をまとめる。", tags: ["レトロ", "PC"] },
+          { name: "Collection Chamber", url: "https://collectionchamber.blogspot.com/", description: "埋もれたPCタイトルのキュレーション。", tags: ["レトロ", "キュレーション"] },
+          { name: "GamesNostalgia", url: "https://gamesnostalgia.com/", description: "複数プラットフォームの旧作を扱う。", tags: ["レトロ", "アーカイブ"] },
+          { name: "DOS Games Archive", url: "https://www.dosgamesarchive.com/", description: "ブラウザで遊べるDOSゲームも収録。", tags: ["DOS", "ブラウザ"] },
+          { name: "Vetusware", url: "https://vetusware.com/category/Games/", description: "旧ソフトを中心にした長寿アーカイブ。", tags: ["アーカイブ", "旧作"] },
+        ]
+      },
+      {
+        id: "rom-sites",
+        title: "ROMサイト",
+        resources: [
+          { name: "r/ROMs Megathread", url: "https://r-roms.github.io/", description: "主要ROM配布先を体系的に整理した索引。", starred: true, tags: ["ROM", "索引"] },
+          { name: "Vimm's Lair", url: "https://vimm.net/", description: "レトロ機中心の定番ROMアーカイブ。", starred: true, tags: ["ROM", "レトロ"] },
+          { name: "CDRomance", url: "https://cdromance.org/", description: "翻訳版や改造ROMの情報が豊富。", tags: ["ROM", "翻訳"] },
+          { name: "Myrient", url: "https://myrient.erista.me/", description: "No-Intro/Redump系の収集に使われる。", tags: ["ROM", "アーカイブ"] },
+          { name: "ROM Hustler", url: "https://romhustler.org/", description: "複数機種のROMを横断検索できる。", tags: ["ROM", "検索"] },
+          { name: "Romspure", url: "https://romspure.cc/", description: "携帯機を含むROM配布が充実。", tags: ["ROM", "携帯機"] },
+          { name: "hShop", url: "https://hshop.erista.me/", description: "3DS向けタイトル収集で人気。", tags: ["ROM", "3DS"] },
+          { name: "No-Intro Dat-O-Matic", url: "https://datomatic.no-intro.org/", description: "ROM検証用データベースとして有用。", tags: ["ROM", "検証"] },
         ]
       }
     ]
