@@ -6,6 +6,7 @@ import { Sidebar } from "./Sidebar";
 import { Footer } from "./Footer";
 import { ScrollToTop } from "./ScrollToTop";
 import { MobileNav } from "./MobileNav";
+import { KeyboardShortcuts } from "./KeyboardShortcuts";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -25,6 +26,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       </div>
       <ScrollToTop />
       <MobileNav />
+      <KeyboardShortcuts />
     </div>
   );
 }

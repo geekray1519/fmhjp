@@ -44,6 +44,21 @@ function SearchContent() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [starredOnly, setStarredOnly] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  // "/" key focuses search input
+  useEffect(() => {
+    const handleSlash = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement;
+      if (target.tagName === "INPUT" || target.tagName === "TEXTAREA") return;
+      if (e.key === "/" && !e.metaKey && !e.ctrlKey) {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", handleSlash);
+    return () => document.removeEventListener("keydown", handleSlash);
+  }, []);
 
   // Debounced search
   useEffect(() => {
@@ -134,6 +149,7 @@ function SearchContent() {
       <div className="relative mb-6">
         <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-muted" size={20} />
         <input
+          ref={searchInputRef}
           type="text"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
