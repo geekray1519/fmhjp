@@ -319,6 +319,25 @@ html {
   display: none;
 }
 
+/* Details/summary hover styles */
+details > summary {
+  cursor: pointer;
+  user-select: none;
+}
+details > summary:hover {
+  color: var(--accent);
+}
+details[open] > summary {
+  color: var(--accent);
+}
+details > summary::marker {
+  display: none;
+  content: '';
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 /* Print styles */
 @media print {
   header, footer, aside, nav,

@@ -24,6 +24,7 @@ export function ResourceCard({ resource }: ResourceCardProps) {
   const { showToast } = useToast();
   const { isBookmarked, toggleBookmark } = useBookmarks();
   const [copied, setCopied] = useState(false);
+  const [showMirrors, setShowMirrors] = useState(false);
   const bookmarked = isBookmarked(resource.url);
 
   const handleCopyUrl = (e: React.MouseEvent) => {
@@ -89,10 +90,17 @@ export function ResourceCard({ resource }: ResourceCardProps) {
               </span>
             )}
             {resource.mirrors && resource.mirrors.length > 0 && (
-              <span className="inline-flex items-center gap-1 px-2 py-0.5 text-[10px] rounded-full bg-card-hover text-muted border border-border">
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  setShowMirrors(!showMirrors);
+                }}
+                className="inline-flex items-center gap-1 px-2 py-0.5 text-[10px] rounded-full bg-card-hover text-muted border border-border hover:border-accent/30 hover:text-accent transition-all"
+              >
                 <Link2 size={8} />
                 ミラー: {resource.mirrors.length}
-              </span>
+              </button>
             )}
             {resource.tags && resource.tags.slice(0, 3).map((tag) => (
               <span
@@ -102,6 +110,29 @@ export function ResourceCard({ resource }: ResourceCardProps) {
                 {tag}
               </span>
             ))}
+          {/* Expandable mirror links */}
+          {showMirrors && resource.mirrors && resource.mirrors.length > 0 && (
+            <div className="mt-2 p-2 rounded-lg bg-card-hover border border-border space-y-1">
+              <p className="text-[10px] font-medium text-muted mb-1">代替リンク:</p>
+              {resource.mirrors.map((mirror, idx) => {
+                let mirrorDomain = "";
+                try { mirrorDomain = new URL(mirror).hostname.replace(/^www\./, ""); } catch { /* */ }
+                return (
+                  <a
+                    key={idx}
+                    href={mirror}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="flex items-center gap-2 px-2 py-1 rounded-md text-[10px] text-muted hover:text-accent hover:bg-background transition-colors"
+                  >
+                    <ExternalLink size={8} className="shrink-0" />
+                    <span className="truncate">{mirrorDomain || mirror}</span>
+                  </a>
+                );
+              })}
+            </div>
+          )}
           </div>
         </div>
         <div className="flex items-center gap-0.5 shrink-0 mt-1">
