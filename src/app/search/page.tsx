@@ -1,0 +1,142 @@
+"use client";
+
+import { useState, useMemo, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
+import { categories } from "@/data/categories";
+import { ResourceCard } from "@/components/ResourceCard";
+import { SearchResult } from "@/lib/types";
+import { Search, X } from "lucide-react";
+
+function SearchContent() {
+  const searchParams = useSearchParams();
+  const initialQuery = searchParams.get("q") || "";
+  const [query, setQuery] = useState(initialQuery);
+
+  const results = useMemo<SearchResult[]>(() => {
+    if (!query.trim()) return [];
+    const q = query.toLowerCase();
+    const found: SearchResult[] = [];
+
+    for (const cat of categories) {
+      for (const sub of cat.subcategories) {
+        for (const resource of sub.resources) {
+          const searchText = [
+            resource.name,
+            resource.description,
+            ...(resource.tags || []),
+          ]
+            .join(" ")
+            .toLowerCase();
+          if (searchText.includes(q)) {
+            found.push({
+              category: cat.title,
+              categorySlug: cat.slug,
+              subcategory: sub.title,
+              resource,
+            });
+          }
+        }
+      }
+    }
+    return found;
+  }, [query]);
+
+  const groupedResults = useMemo(() => {
+    const groups = new Map<string, SearchResult[]>();
+    for (const r of results) {
+      const existing = groups.get(r.category) || [];
+      existing.push(r);
+      groups.set(r.category, existing);
+    }
+    return groups;
+  }, [results]);
+
+  return (
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h1 className="text-3xl font-bold mb-6">検索</h1>
+
+      <div className="relative mb-8">
+        <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-muted" size={20} />
+        <input
+          type="text"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="リソースを検索... (例: VPN, 広告ブロック, アニメ)"
+          className="w-full pl-12 pr-12 py-4 bg-card border border-border rounded-2xl text-base focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-all placeholder:text-muted"
+          autoFocus
+        />
+        {query && (
+          <button
+            onClick={() => setQuery("")}
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-muted hover:text-foreground transition-colors"
+          >
+            <X size={18} />
+          </button>
+        )}
+      </div>
+
+      {query.trim() ? (
+        <>
+          <p className="text-sm text-muted mb-6">
+            「{query}」の検索結果: <span className="font-medium text-foreground">{results.length}</span> 件
+          </p>
+
+          {results.length === 0 ? (
+            <div className="text-center py-16">
+              <div className="text-6xl mb-4">🔍</div>
+              <h2 className="text-xl font-bold mb-2">結果が見つかりません</h2>
+              <p className="text-sm text-muted">
+                別のキーワードで検索してみてください。
+              </p>
+            </div>
+          ) : (
+            <div className="space-y-8">
+              {Array.from(groupedResults.entries()).map(([catName, items]) => (
+                <section key={catName}>
+                  <h2 className="text-lg font-bold mb-3 flex items-center gap-2">
+                    <span>{categories.find(c => c.title === catName)?.icon}</span>
+                    {catName}
+                    <span className="text-xs text-muted font-normal">({items.length})</span>
+                  </h2>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {items.map((item) => (
+                      <ResourceCard key={item.resource.name + item.subcategory} resource={item.resource} />
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </div>
+          )}
+        </>
+      ) : (
+        <div className="text-center py-16">
+          <div className="text-6xl mb-4">✨</div>
+          <h2 className="text-xl font-bold mb-2">何をお探しですか？</h2>
+          <p className="text-sm text-muted max-w-md mx-auto">
+            上の検索ボックスにキーワードを入力して、無料リソースを検索しましょう。
+            VPN、広告ブロック、アニメ、ゲームなど何でも見つかります。
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-2">
+            {["VPN", "広告ブロック", "アニメ", "エミュレーター", "AI", "漫画", "YouTube"].map((tag) => (
+              <button
+                key={tag}
+                onClick={() => setQuery(tag)}
+                className="px-4 py-2 text-sm rounded-full bg-card border border-border hover:bg-card-hover hover:border-accent/30 transition-all"
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<div className="max-w-5xl mx-auto px-4 py-8 text-center text-muted">読み込み中...</div>}>
+      <SearchContent />
+    </Suspense>
+  );
+}
