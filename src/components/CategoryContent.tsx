@@ -3,7 +3,7 @@
 import { useState, useCallback } from "react";
 import { Category } from "@/lib/types";
 import { ResourceCard } from "@/components/ResourceCard";
-import { AdBanner } from "@/components/AdBanner";
+import { AdBanner, InFeedAd } from "@/components/AdBanner";
 import { Star, Filter, ChevronDown, ChevronRight, ArrowUp } from "lucide-react";
 
 interface CategoryContentProps {
@@ -164,7 +164,9 @@ export function CategoryContent({ category }: CategoryContentProps) {
                 </>
               )}
 
-              {i === 1 && <AdBanner slot="category-mid" className="mt-6" />}
+              {i === 1 && <AdBanner className="mt-6" />}
+              {i === 5 && <InFeedAd className="mt-6" />}
+              {i === 10 && <AdBanner className="mt-6" />}
             </section>
           );
         })}

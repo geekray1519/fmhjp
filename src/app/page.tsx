@@ -1,6 +1,6 @@
 import { categories } from "@/data";
 import { CategoryCard } from "@/components/CategoryCard";
-import { AdBanner } from "@/components/AdBanner";
+import { AdBanner, InFeedAd } from "@/components/AdBanner";
 import { Search, BookOpen, Star, TrendingUp, Sparkles } from "lucide-react";
 import Link from "next/link";
 
@@ -140,7 +140,7 @@ export default function Home() {
         </div>
       </section>
 
-      <AdBanner slot="home-top" className="mb-8" />
+      <InFeedAd className="mb-8" />
 
       {/* Popular Categories */}
       <section className="pb-12">
@@ -176,7 +176,7 @@ export default function Home() {
         </div>
       </section>
 
-      <AdBanner slot="home-bottom" className="mb-8" />
+      <AdBanner className="mb-8" />
     </div>
   );
 }

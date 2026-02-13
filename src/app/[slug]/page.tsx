@@ -75,7 +75,7 @@ export default async function CategoryPage({ params }: PageProps) {
 
       <CategoryContent category={category} />
 
-      <AdBanner slot="category-bottom" className="mt-8" />
+      <AdBanner className="mt-8" />
 
       {/* Prev / Next navigation */}
       <div className="mt-12 pt-8 border-t border-border grid grid-cols-2 gap-4">
