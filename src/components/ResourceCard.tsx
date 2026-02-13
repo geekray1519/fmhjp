@@ -73,7 +73,7 @@ export function ResourceCard({ resource }: ResourceCardProps) {
         </div>
         <ExternalLink
           size={14}
-          className="text-muted group-hover:text-accent transition-colors shrink-0 mt-1 opacity-0 group-hover:opacity-100"
+          className="text-muted/70 group-hover:text-accent transition-colors shrink-0 mt-1"
         />
       </div>
     </a>

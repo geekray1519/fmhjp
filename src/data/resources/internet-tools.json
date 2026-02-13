@@ -28,17 +28,11 @@
         {
           "name": "Namechk",
           "url": "https://namechk.com/",
-          "description": "Check Username Availability"
-        },
-        {
-          "name": "User Scanner",
-          "url": "https://github.com/kaifcodec/user-scanner/",
-          "description": "Check Username Availability"
-        },
-        {
-          "name": "IUS",
-          "url": "https://instantusername.com/",
-          "description": "Check Username Availability"
+          "description": "Check Username Availability",
+          "mirrors": [
+            "https://github.com/kaifcodec/user-scanner/",
+            "https://instantusername.com/"
+          ]
         },
         {
           "name": "UsernameGenerator",
@@ -60,37 +54,15 @@
           "name": "fast",
           "url": "https://fast.com/",
           "description": "Speed Tests",
-          "starred": true
-        },
-        {
-          "name": "Blur Info",
-          "url": "https://userstyles.world/style/17413",
-          "description": "Speed Tests"
-        },
-        {
-          "name": "CLI",
-          "url": "https://github.com/sindresorhus/fast-cli",
-          "description": "Speed Tests"
-        },
-        {
-          "name": "Cloudflare Speed Test",
-          "url": "https://speed.cloudflare.com/",
-          "description": "Speed Tests"
-        },
-        {
-          "name": "OpenSpeedTest",
-          "url": "https://openspeedtest.com/",
-          "description": "Speed Tests"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/openspeedtest/Speed-Test",
-          "description": "Speed Tests"
-        },
-        {
-          "name": "LibreSpeed",
-          "url": "https://librespeed.org/",
-          "description": "Speed Tests"
+          "starred": true,
+          "mirrors": [
+            "https://userstyles.world/style/17413",
+            "https://github.com/sindresorhus/fast-cli",
+            "https://speed.cloudflare.com/",
+            "https://openspeedtest.com/",
+            "https://github.com/openspeedtest/Speed-Test",
+            "https://librespeed.org/"
+          ]
         },
         {
           "name": "Safing Portmaster",
@@ -105,27 +77,19 @@
         {
           "name": "Pinging",
           "url": "https://www.pinging.net/",
-          "description": "Network Testing / Ping Monitors"
-        },
-        {
-          "name": "GlobalPing",
-          "url": "https://globalping.io/",
-          "description": "Network Testing / Ping Monitors"
-        },
-        {
-          "name": "PingTracer",
-          "url": "https://github.com/bp2008/pingtracer",
-          "description": "Network Testing / Ping Monitors"
+          "description": "Network Testing / Ping Monitors",
+          "mirrors": [
+            "https://globalping.io/",
+            "https://github.com/bp2008/pingtracer"
+          ]
         },
         {
           "name": "NetBlocks",
           "url": "https://api.webprobe.org/",
-          "description": "Internet Performance Monitor"
-        },
-        {
-          "name": "OpenNetMeter",
-          "url": "https://github.com/Ashfaaq18/OpenNetMeter",
-          "description": "Internet Performance Monitor"
+          "description": "Internet Performance Monitor",
+          "mirrors": [
+            "https://github.com/Ashfaaq18/OpenNetMeter"
+          ]
         },
         {
           "name": "WiFi Analyzer",
@@ -150,17 +114,11 @@
         {
           "name": "NETworkManager",
           "url": "https://borntoberoot.net/NETworkManager/",
-          "description": "Network Manager"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/BornToBeRoot/NETworkManager",
-          "description": "Network Manager"
-        },
-        {
-          "name": "WLan10",
-          "url": "https://github.com/afit/wlan10",
-          "description": "Network Manager"
+          "description": "Network Manager",
+          "mirrors": [
+            "https://github.com/BornToBeRoot/NETworkManager",
+            "https://github.com/afit/wlan10"
+          ]
         },
         {
           "name": "mRemoteNG",
@@ -200,37 +158,21 @@
         {
           "name": "PortChecker",
           "url": "https://portchecker.co/",
-          "description": "Port Checkers"
-        },
-        {
-          "name": "CanYouSeeMe",
-          "url": "https://canyouseeme.org/",
-          "description": "Port Checkers"
-        },
-        {
-          "name": "ping.pe",
-          "url": "https://ping.pe/",
-          "description": "Port Checkers"
-        },
-        {
-          "name": "PortCheckers",
-          "url": "https://www.portcheckers.com/",
-          "description": "Port Checkers"
-        },
-        {
-          "name": "RustCat",
-          "url": "https://github.com/robiot/rustcat",
-          "description": "Port Checkers"
+          "description": "Port Checkers",
+          "mirrors": [
+            "https://canyouseeme.org/",
+            "https://ping.pe/",
+            "https://www.portcheckers.com/",
+            "https://github.com/robiot/rustcat"
+          ]
         },
         {
           "name": "Waveform Test",
           "url": "https://www.waveform.com/tools/bufferbloat",
-          "description": "Test Bufferbloat / Ping Under Load"
-        },
-        {
-          "name": "LibreQoS Test",
-          "url": "https://bufferbloat.libreqos.com/",
-          "description": "Test Bufferbloat / Ping Under Load"
+          "description": "Test Bufferbloat / Ping Under Load",
+          "mirrors": [
+            "https://bufferbloat.libreqos.com/"
+          ]
         },
         {
           "name": "PacketSender",
@@ -247,53 +189,25 @@
           "name": "Bitwarden",
           "url": "https://bitwarden.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Alt Client",
-          "url": "https://github.com/AChep/keyguard-app",
-          "description": ""
-        },
-        {
-          "name": "X",
-          "url": "https://x.com/bitwarden",
-          "description": ""
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://reddit.com/r/bitwarden",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/bitwarden",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/AChep/keyguard-app",
+            "https://x.com/bitwarden",
+            "https://reddit.com/r/bitwarden",
+            "https://github.com/bitwarden"
+          ]
         },
         {
           "name": "KeePass",
           "url": "https://keepass.info/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Forks",
-          "url": "https://keepass.info/download.html",
-          "description": ""
-        },
-        {
-          "name": "Plugins",
-          "url": "https://keepass.info/plugins.html",
-          "description": ""
-        },
-        {
-          "name": "Read-Only",
-          "url": "https://subdavis.com/Tusk/",
-          "description": ""
-        },
-        {
-          "name": "KeePassXC",
-          "url": "https://keepassxc.org/",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://keepass.info/download.html",
+            "https://keepass.info/plugins.html",
+            "https://subdavis.com/Tusk/",
+            "https://keepassxc.org/"
+          ]
         },
         {
           "name": "Proton Pass",
@@ -319,12 +233,10 @@
         {
           "name": "KeeWeb",
           "url": "https://keeweb.info/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/keeweb/keeweb",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/keeweb/keeweb"
+          ]
         },
         {
           "name": "Spectre",
@@ -352,28 +264,20 @@
           "name": "Freedium",
           "url": "https://freedium-mirror.cfd/",
           "description": "Bypass Medium Paywalls",
-          "starred": true
-        },
-        {
-          "name": "ReadMedium",
-          "url": "https://readmedium.com/",
-          "description": "Bypass Medium Paywalls"
-        },
-        {
-          "name": "Medium Parser",
-          "url": "https://github.com/Xatta-Trone/medium-parser-extension",
-          "description": "Bypass Medium Paywalls"
+          "starred": true,
+          "mirrors": [
+            "https://readmedium.com/",
+            "https://github.com/Xatta-Trone/medium-parser-extension"
+          ]
         },
         {
           "name": "wallabag",
           "url": "https://wallabag.org/",
           "description": "Self-Hosted",
-          "starred": true
-        },
-        {
-          "name": "Ladder",
-          "url": "https://github.com/everywall/ladder",
-          "description": "Self-Hosted"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/everywall/ladder"
+          ]
         },
         {
           "name": "PaywallBuster",
@@ -432,17 +336,11 @@
           "name": "Linkstack",
           "url": "https://linkstack.org",
           "description": "Unlimited / Custom URLs / Self-Hosted",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/LinkStackOrg/LinkStack",
-          "description": "Unlimited / Custom URLs / Self-Hosted"
-        },
-        {
-          "name": "LittleLink",
-          "url": "https://littlelink.io/",
-          "description": "Unlimited / Custom URLs / Self-Hosted"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/LinkStackOrg/LinkStack",
+            "https://littlelink.io/"
+          ]
         },
         {
           "name": "Carrd",
@@ -503,12 +401,10 @@
         {
           "name": "ReCAPTCHA Demo",
           "url": "https://www.google.com/recaptcha/api2/demo",
-          "description": "reCAPTCHA Demos / Get Captcha Tokens"
-        },
-        {
-          "name": "reCAPTCHA test",
-          "url": "https://patrickhlauke.github.io/recaptcha/",
-          "description": "reCAPTCHA Demos / Get Captcha Tokens"
+          "description": "reCAPTCHA Demos / Get Captcha Tokens",
+          "mirrors": [
+            "https://patrickhlauke.github.io/recaptcha/"
+          ]
         }
       ]
     },
@@ -526,114 +422,50 @@
           "name": "Mumble",
           "url": "https://www.mumble.info/",
           "description": "Voice Chat",
-          "starred": true
-        },
-        {
-          "name": "Jam",
-          "url": "https://jam.systems/",
-          "description": "Voice Chat"
-        },
-        {
-          "name": "TeaSpeak",
-          "url": "https://teaspeak.de/gb/",
-          "description": "Voice Chat"
-        },
-        {
-          "name": "TeamSpeak",
-          "url": "https://www.teamspeak.com/",
-          "description": "Voice Chat"
-        },
-        {
-          "name": "Warning",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/teamspeak-warning.md",
-          "description": "Voice Chat"
+          "starred": true,
+          "mirrors": [
+            "https://jam.systems/",
+            "https://teaspeak.de/gb/",
+            "https://www.teamspeak.com/",
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/teamspeak-warning.md"
+          ]
         },
         {
           "name": "Hack.chat",
           "url": "https://hack.chat/",
           "description": "Minimal / Chats that Work Without Sign-Up",
-          "starred": true
-        },
-        {
-          "name": "Shick",
-          "url": "https://shick.me/",
-          "description": "Minimal / Chats that Work Without Sign-Up"
-        },
-        {
-          "name": "LeapChat",
-          "url": "https://www.leapchat.org/",
-          "description": "Minimal / Chats that Work Without Sign-Up"
-        },
-        {
-          "name": "otr.to",
-          "url": "https://otr.to/",
-          "description": "Minimal / Chats that Work Without Sign-Up"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/jermainee/otr.to",
-          "description": "Minimal / Chats that Work Without Sign-Up"
-        },
-        {
-          "name": "Chitchatter",
-          "url": "https://chitchatter.im/",
-          "description": "Minimal / Chats that Work Without Sign-Up"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/jeremyckahn/chitchatter",
-          "description": "Minimal / Chats that Work Without Sign-Up"
-        },
-        {
-          "name": "tik.io",
-          "url": "https://tlk.io/",
-          "description": "Minimal / Chats that Work Without Sign-Up"
+          "starred": true,
+          "mirrors": [
+            "https://shick.me/",
+            "https://www.leapchat.org/",
+            "https://otr.to/",
+            "https://github.com/jermainee/otr.to",
+            "https://chitchatter.im/",
+            "https://github.com/jeremyckahn/chitchatter",
+            "https://tlk.io/"
+          ]
         },
         {
           "name": "Gajim",
           "url": "https://gajim.org/",
           "description": "XMPP Clients",
-          "starred": true
-        },
-        {
-          "name": "CoyIM",
-          "url": "https://coy.im/",
-          "description": "XMPP Clients"
-        },
-        {
-          "name": "Profanity",
-          "url": "https://profanity-im.github.io/",
-          "description": "XMPP Clients"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/profanity-im/profanity",
-          "description": "XMPP Clients"
-        },
-        {
-          "name": "xabber",
-          "url": "https://www.xabber.com/",
-          "description": "XMPP Clients"
+          "starred": true,
+          "mirrors": [
+            "https://coy.im/",
+            "https://profanity-im.github.io/",
+            "https://github.com/profanity-im/profanity",
+            "https://www.xabber.com/"
+          ]
         },
         {
           "name": "Pidgin",
           "url": "https://www.pidgin.im/",
-          "description": "Combine Web Apps / Chat Services"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://keep.imfreedom.org/pidgin/pidgin/",
-          "description": "Combine Web Apps / Chat Services"
-        },
-        {
-          "name": "Ferdium",
-          "url": "https://ferdium.org/",
-          "description": "Combine Web Apps / Chat Services"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ferdium/ferdium-app",
-          "description": "Combine Web Apps / Chat Services"
+          "description": "Combine Web Apps / Chat Services",
+          "mirrors": [
+            "https://keep.imfreedom.org/pidgin/pidgin/",
+            "https://ferdium.org/",
+            "https://github.com/ferdium/ferdium-app"
+          ]
         },
         {
           "name": "MatterBridge",
@@ -643,17 +475,11 @@
         {
           "name": "Miranda NG",
           "url": "https://www.miranda-ng.org/en/",
-          "description": "General Chat Apps"
-        },
-        {
-          "name": "Escargot",
-          "url": "https://escargot.chat/",
-          "description": "General Chat Apps"
-        },
-        {
-          "name": "WeeChat",
-          "url": "https://weechat.org/",
-          "description": "General Chat Apps"
+          "description": "General Chat Apps",
+          "mirrors": [
+            "https://escargot.chat/",
+            "https://weechat.org/"
+          ]
         },
         {
           "name": "Twist",
@@ -663,12 +489,10 @@
         {
           "name": "Altus",
           "url": "https://github.com/amanharwara/altus",
-          "description": "WhatsApp Clients"
-        },
-        {
-          "name": "WAO",
-          "url": "https://dedg3.com/wao/",
-          "description": "WhatsApp Clients"
+          "description": "WhatsApp Clients",
+          "mirrors": [
+            "https://dedg3.com/wao/"
+          ]
         },
         {
           "name": "WhatsApp-Chat-Exporter",
@@ -699,22 +523,10 @@
           "description": "Video Chat",
           "tags": [
             "GitHub"
-          ]
-        },
-        {
-          "name": "2",
-          "url": "https://mirotalk.up.railway.app/",
-          "description": "Video Chat",
-          "tags": [
-            "GitHub"
-          ]
-        },
-        {
-          "name": "MiroTalk SFU",
-          "url": "https://sfu.mirotalk.com/",
-          "description": "Video Chat",
-          "tags": [
-            "GitHub"
+          ],
+          "mirrors": [
+            "https://mirotalk.up.railway.app/",
+            "https://sfu.mirotalk.com/"
           ]
         },
         {
@@ -824,30 +636,11 @@
           "description": "RSS Feed / Tool Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/s/aboutrss",
-          "description": "RSS Feed / Tool Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "RSSTango",
-          "url": "https://rentry.org/rrstango",
-          "description": "RSS Feed / Tool Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "RSS",
-          "url": "https://gist.github.com/thefranke/63853a6f8c499dc97bc17838f6cedcc2",
-          "description": "RSS Feed / Tool Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://t.me/s/aboutrss",
+            "https://rentry.org/rrstango",
+            "https://gist.github.com/thefranke/63853a6f8c499dc97bc17838f6cedcc2"
           ]
         },
         {
@@ -868,12 +661,10 @@
         {
           "name": "RSS.app",
           "url": "https://rss.app/",
-          "description": "RSS Feed Search"
-        },
-        {
-          "name": "Feedle",
-          "url": "https://feedle.world/",
-          "description": "RSS Feed Search"
+          "description": "RSS Feed Search",
+          "mirrors": [
+            "https://feedle.world/"
+          ]
         },
         {
           "name": "Kill the Newsletter",
@@ -919,22 +710,12 @@
           "name": "Feedbro",
           "url": "https://nodetics.com/feedbro/",
           "description": "Browser Extensions",
-          "starred": true
-        },
-        {
-          "name": "Sage-Like",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/sage-like/",
-          "description": "Browser Extensions"
-        },
-        {
-          "name": "Brief",
-          "url": "https://github.com/brief-rss/brief",
-          "description": "Browser Extensions"
-        },
-        {
-          "name": "Fraidycat",
-          "url": "https://fraidyc.at/",
-          "description": "Browser Extensions"
+          "starred": true,
+          "mirrors": [
+            "https://addons.mozilla.org/en-US/firefox/addon/sage-like/",
+            "https://github.com/brief-rss/brief",
+            "https://fraidyc.at/"
+          ]
         },
         {
           "name": "Fluent Reader",
@@ -985,37 +766,15 @@
         {
           "name": "NewsPipe",
           "url": "https://github.com/cedricbonhomme/newspipe",
-          "description": "Self-Hosted RSS Readers"
-        },
-        {
-          "name": "Miniflux",
-          "url": "https://miniflux.app/",
-          "description": "Self-Hosted RSS Readers"
-        },
-        {
-          "name": "selfoss",
-          "url": "https://selfoss.aditu.de/",
-          "description": "Self-Hosted RSS Readers"
-        },
-        {
-          "name": "FreshRSS",
-          "url": "https://freshrss.org/",
-          "description": "Self-Hosted RSS Readers"
-        },
-        {
-          "name": "Fusion",
-          "url": "https://github.com/0x2E/fusion",
-          "description": "Self-Hosted RSS Readers"
-        },
-        {
-          "name": "rss",
-          "url": "https://codeberg.org/danb/rss",
-          "description": "Self-Hosted RSS Readers"
-        },
-        {
-          "name": "CommaFeed",
-          "url": "https://www.commafeed.com/#/welcome",
-          "description": "Self-Hosted RSS Readers"
+          "description": "Self-Hosted RSS Readers",
+          "mirrors": [
+            "https://miniflux.app/",
+            "https://selfoss.aditu.de/",
+            "https://freshrss.org/",
+            "https://github.com/0x2E/fusion",
+            "https://codeberg.org/danb/rss",
+            "https://www.commafeed.com/#/welcome"
+          ]
         }
       ]
     },
@@ -1027,12 +786,10 @@
           "name": "RSS Bridge",
           "url": "https://rss-bridge.org/bridge01/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/RSS-Bridge/rss-bridge",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/RSS-Bridge/rss-bridge"
+          ]
         },
         {
           "name": "MoRSS",
@@ -1052,12 +809,10 @@
         {
           "name": "RSS Finder",
           "url": "https://rss-finder.rook1e.com/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/0x2E/rss-finder",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/0x2E/rss-finder"
+          ]
         },
         {
           "name": "FetchRSS",
@@ -1092,132 +847,52 @@
         {
           "name": "SimilarSiteSearch",
           "url": "https://www.similarsitesearch.com/",
-          "description": "Similar Site Searches"
-        },
-        {
-          "name": "SimilarWeb",
-          "url": "https://similarweb.com/",
-          "description": "Similar Site Searches"
-        },
-        {
-          "name": "SitesLikes",
-          "url": "https://www.siteslike.com/",
-          "description": "Similar Site Searches"
-        },
-        {
-          "name": "TopSimilarSites",
-          "url": "https://topsimilarsites.com/",
-          "description": "Similar Site Searches"
-        },
-        {
-          "name": "SimilarSites",
-          "url": "https://similarsites.com/",
-          "description": "Similar Site Searches"
-        },
-        {
-          "name": "OpenDirectory",
-          "url": "https://odir.us/",
-          "description": "Similar Site Searches"
-        },
-        {
-          "name": "SiteLike.org",
-          "url": "https://www.sitelike.org/",
-          "description": "Similar Site Searches"
+          "description": "Similar Site Searches",
+          "mirrors": [
+            "https://similarweb.com/",
+            "https://www.siteslike.com/",
+            "https://topsimilarsites.com/",
+            "https://similarsites.com/",
+            "https://odir.us/",
+            "https://www.sitelike.org/"
+          ]
         },
         {
           "name": "sitedorks",
           "url": "https://github.com/Zarcolio/sitedorks",
-          "description": "Search Engine Dorking Tools"
-        },
-        {
-          "name": "Dorks-collections-list",
-          "url": "https://github.com/cipher387/Dorks-collections-list/",
-          "description": "Search Engine Dorking Tools"
-        },
-        {
-          "name": "OSINT Dorks",
-          "url": "https://github.com/BushidoUK/OSINT-SearchOperators",
-          "description": "Search Engine Dorking Tools"
-        },
-        {
-          "name": "Google Dork List",
-          "url": "https://www.boxpiper.com/posts/google-dork-list",
-          "description": "Search Engine Dorking Tools"
-        },
-        {
-          "name": "Dork Genius",
-          "url": "https://dorkgenius.com/",
-          "description": "Search Engine Dorking Tools"
-        },
-        {
-          "name": "DorkSearch",
-          "url": "https://www.dorksearch.com/",
-          "description": "Search Engine Dorking Tools"
+          "description": "Search Engine Dorking Tools",
+          "mirrors": [
+            "https://github.com/cipher387/Dorks-collections-list/",
+            "https://github.com/BushidoUK/OSINT-SearchOperators",
+            "https://www.boxpiper.com/posts/google-dork-list",
+            "https://dorkgenius.com/",
+            "https://www.dorksearch.com/"
+          ]
         },
         {
           "name": "UserSearch",
           "url": "https://usersearch.com/",
-          "description": "Username Search"
-        },
-        {
-          "name": "2",
-          "url": "https://usersearch.org/",
-          "description": "Username Search"
-        },
-        {
-          "name": "Sherlock",
-          "url": "https://github.com/sherlock-project/sherlock",
-          "description": "Username Search"
-        },
-        {
-          "name": "Maigret",
-          "url": "https://github.com/soxoj/maigret",
-          "description": "Username Search"
-        },
-        {
-          "name": "Nexfil",
-          "url": "https://github.com/thewhiteh4t/nexfil",
-          "description": "Username Search"
-        },
-        {
-          "name": "Lullar",
-          "url": "https://lullar-com-3.appspot.com/",
-          "description": "Username Search"
-        },
-        {
-          "name": "Blackbird",
-          "url": "https://github.com/p1ngul1n0/blackbird",
-          "description": "Username Search"
-        },
-        {
-          "name": "WhatsMyName",
-          "url": "https://whatsmyname.app/",
-          "description": "Username Search"
+          "description": "Username Search",
+          "mirrors": [
+            "https://usersearch.org/",
+            "https://github.com/sherlock-project/sherlock",
+            "https://github.com/soxoj/maigret",
+            "https://github.com/thewhiteh4t/nexfil",
+            "https://lullar-com-3.appspot.com/",
+            "https://github.com/p1ngul1n0/blackbird",
+            "https://whatsmyname.app/"
+          ]
         },
         {
           "name": "Soovle",
           "url": "https://www.seo.com/soovle/",
-          "description": "Popular Keyword Search"
-        },
-        {
-          "name": "Keyword.io",
-          "url": "https://www.keyword.io/",
-          "description": "Popular Keyword Search"
-        },
-        {
-          "name": "SearchEngineReports",
-          "url": "https://searchenginereports.net/",
-          "description": "Popular Keyword Search"
-        },
-        {
-          "name": "ContentIdeas",
-          "url": "https://contentideas.io/",
-          "description": "Popular Keyword Search"
-        },
-        {
-          "name": "Keyword Tool",
-          "url": "https://keywordtool.io/",
-          "description": "Popular Keyword Search"
+          "description": "Popular Keyword Search",
+          "mirrors": [
+            "https://www.keyword.io/",
+            "https://searchenginereports.net/",
+            "https://contentideas.io/",
+            "https://keywordtool.io/"
+          ]
         },
         {
           "name": "DuckDuckBang",
@@ -1230,37 +905,27 @@
         {
           "name": "KeywordSheeter",
           "url": "https://keywordsheeter.com/",
-          "description": "Keyword Research Tools"
-        },
-        {
-          "name": "Spyfu",
-          "url": "https://www.spyfu.com/",
-          "description": "Keyword Research Tools"
+          "description": "Keyword Research Tools",
+          "mirrors": [
+            "https://www.spyfu.com/"
+          ]
         },
         {
           "name": "BoardReader",
           "url": "https://boardreader.com/",
-          "description": "Forum Search Engine"
-        },
-        {
-          "name": "CrowdView",
-          "url": "https://crowdview.ai/",
-          "description": "Forum Search Engine"
-        },
-        {
-          "name": "FindAForum",
-          "url": "https://www.findaforum.net/",
-          "description": "Forum Search Engine"
+          "description": "Forum Search Engine",
+          "mirrors": [
+            "https://crowdview.ai/",
+            "https://www.findaforum.net/"
+          ]
         },
         {
           "name": "Raw Web",
           "url": "https://rawweb.org/",
-          "description": "Blog Search"
-        },
-        {
-          "name": "BlogErnity",
-          "url": "http://www.bloggernity.com/",
-          "description": "Blog Search"
+          "description": "Blog Search",
+          "mirrors": [
+            "http://www.bloggernity.com/"
+          ]
         },
         {
           "name": "VHSearch",
@@ -1270,17 +935,11 @@
         {
           "name": "4chanSearch",
           "url": "https://4chansearch.com/",
-          "description": "4chan Search"
-        },
-        {
-          "name": "4chansearch.org",
-          "url": "https://4chansearch.org/",
-          "description": "4chan Search"
-        },
-        {
-          "name": "4search",
-          "url": "https://4search.neocities.org/",
-          "description": "4chan Search"
+          "description": "4chan Search",
+          "mirrors": [
+            "https://4chansearch.org/",
+            "https://4search.neocities.org/"
+          ]
         },
         {
           "name": "tumbex",
@@ -1308,12 +967,10 @@
         {
           "name": "Intelligence X",
           "url": "https://intelx.io/tools",
-          "description": "Multiple Search Tools"
-        },
-        {
-          "name": "Aware-Online",
-          "url": "https://www.aware-online.com/en/osint-tools/",
-          "description": "Multiple Search Tools"
+          "description": "Multiple Search Tools",
+          "mirrors": [
+            "https://www.aware-online.com/en/osint-tools/"
+          ]
         },
         {
           "name": "Refseek",
@@ -1328,12 +985,10 @@
         {
           "name": "GrayHatWarfare",
           "url": "https://buckets.grayhatwarfare.com/",
-          "description": "Amazon S3 Buckets Search"
-        },
-        {
-          "name": "OpenBuckets",
-          "url": "https://openbuckets.io/",
-          "description": "Amazon S3 Buckets Search"
+          "description": "Amazon S3 Buckets Search",
+          "mirrors": [
+            "https://openbuckets.io/"
+          ]
         },
         {
           "name": "Yandex Search Operators",
@@ -1356,17 +1011,11 @@
         {
           "name": "Shodan",
           "url": "https://www.shodan.io/",
-          "description": "Internet Connected Device / Public Assets Search"
-        },
-        {
-          "name": "FOFA",
-          "url": "https://fofa.info/",
-          "description": "Internet Connected Device / Public Assets Search"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/FofaInfo/Awesome-FOFA",
-          "description": "Internet Connected Device / Public Assets Search"
+          "description": "Internet Connected Device / Public Assets Search",
+          "mirrors": [
+            "https://fofa.info/",
+            "https://github.com/FofaInfo/Awesome-FOFA"
+          ]
         },
         {
           "name": "OCCRP Aleph",
@@ -1431,12 +1080,10 @@
         {
           "name": "useful-forks",
           "url": "https://useful-forks.github.io/",
-          "description": "GitHub Fork Search"
-        },
-        {
-          "name": "GitPop3",
-          "url": "https://andremiras.github.io/gitpop3/",
-          "description": "GitHub Fork Search"
+          "description": "GitHub Fork Search",
+          "mirrors": [
+            "https://andremiras.github.io/gitpop3/"
+          ]
         },
         {
           "name": "MyCroftProject",
@@ -1455,72 +1102,25 @@
           "description": "Search Engine Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Search Engine Index",
-          "url": "https://en.wikipedia.org/wiki/List_of_search_engines",
-          "description": "Search Engine Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "DirectSearch.Net",
-          "url": "http://www.directsearch.net/",
-          "description": "Search Engine Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Search Engine Colossus",
-          "url": "https://www.searchenginecolossus.com/",
-          "description": "Search Engine Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Advanced Search Tools",
-          "url": "https://start.me/p/nRADzL/advanced-search-tools",
-          "description": "Search Engine Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Search-Engine",
-          "url": "https://start.me/p/wM7y15/search-engine",
-          "description": "Search Engine Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://wikipedia.org/wiki/List_of_search_engines",
+            "http://www.directsearch.net/",
+            "https://www.searchenginecolossus.com/",
+            "https://start.me/p/nRADzL/advanced-search-tools",
+            "https://start.me/p/wM7y15/search-engine"
           ]
         },
         {
           "name": "Search All",
           "url": "https://www.searchall.net/",
-          "description": "Multi-Site Search"
-        },
-        {
-          "name": "WebSitesSearch",
-          "url": "https://web-sites-search.web.app/",
-          "description": "Multi-Site Search"
-        },
-        {
-          "name": "CombinedSearch",
-          "url": "https://combinedsearch.io/",
-          "description": "Multi-Site Search"
-        },
-        {
-          "name": "gnod Search",
-          "url": "https://www.gnod.com/search/",
-          "description": "Multi-Site Search"
-        },
-        {
-          "name": "AIO Search",
-          "url": "https://www.aiosearch.com/",
-          "description": "Multi-Site Search"
+          "description": "Multi-Site Search",
+          "mirrors": [
+            "https://web-sites-search.web.app/",
+            "https://combinedsearch.io/",
+            "https://www.gnod.com/search/",
+            "https://www.aiosearch.com/"
+          ]
         },
         {
           "name": "100 Search Engines",
@@ -1530,12 +1130,10 @@
         {
           "name": "Jumps",
           "url": "https://jumps.io/",
-          "description": "Site Quick Search"
-        },
-        {
-          "name": "Yubnub",
-          "url": "https://yubnub.org/",
-          "description": "Site Quick Search"
+          "description": "Site Quick Search",
+          "mirrors": [
+            "https://yubnub.org/"
+          ]
         },
         {
           "name": "Trovu.net",
@@ -1561,22 +1159,18 @@
         {
           "name": "TheOldNet",
           "url": "https://theoldnet.com/",
-          "description": "Oldschool / Retro Site Search Engines"
-        },
-        {
-          "name": "OldVista",
-          "url": "https://www.oldavista.com/",
-          "description": "Oldschool / Retro Site Search Engines"
+          "description": "Oldschool / Retro Site Search Engines",
+          "mirrors": [
+            "https://www.oldavista.com/"
+          ]
         },
         {
           "name": "OceanHero",
           "url": "https://oceanhero.today/",
-          "description": "Ocean Protection Search Engines"
-        },
-        {
-          "name": "ekoru",
-          "url": "https://ekoru.org/",
-          "description": "Ocean Protection Search Engines"
+          "description": "Ocean Protection Search Engines",
+          "mirrors": [
+            "https://ekoru.org/"
+          ]
         },
         {
           "name": "Ecosia",
@@ -1586,12 +1180,10 @@
         {
           "name": "Presearch",
           "url": "https://presearch.com/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/presearchofficial",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/presearchofficial"
+          ]
         },
         {
           "name": "Bing",
@@ -1601,17 +1193,11 @@
         {
           "name": "Google",
           "url": "https://google.com/",
-          "description": ""
-        },
-        {
-          "name": "AI Mode",
-          "url": "https://google.com/aimode",
-          "description": ""
-        },
-        {
-          "name": "2",
-          "url": "https://www.google.com/search?udm=50",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://google.com/aimode",
+            "https://www.google.com/search?udm=50"
+          ]
         },
         {
           "name": "Lycos",
@@ -1676,17 +1262,11 @@
         {
           "name": "Whoogle Search",
           "url": "https://github.com/benbusby/whoogle-search",
-          "description": "Self-Hosted Search Engines"
-        },
-        {
-          "name": "ZincSearch",
-          "url": "https://zincsearch-docs.zinc.dev/",
-          "description": "Self-Hosted Search Engines"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/zincsearch/zincsearch",
-          "description": "Self-Hosted Search Engines"
+          "description": "Self-Hosted Search Engines",
+          "mirrors": [
+            "https://zincsearch-docs.zinc.dev/",
+            "https://github.com/zincsearch/zincsearch"
+          ]
         }
       ]
     },
@@ -1700,54 +1280,24 @@
           "description": "Custom Search Engine Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Awesome CSEs",
-          "url": "https://github.com/davzoku/awesome-custom-search-engines",
-          "description": "Custom Search Engine Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Boolean Strings",
-          "url": "https://booleanstrings.com/all-the-40-forty-custom-search-engines/",
-          "description": "Custom Search Engine Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/davzoku/awesome-custom-search-engines",
+            "https://booleanstrings.com/all-the-40-forty-custom-search-engines/"
           ]
         },
         {
           "name": "Virgil Game Search",
           "url": "https://virgil.samidy.com/Games/",
           "description": "Multi-Site Search Engines",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/SamidyFR/Virgil",
-          "description": "Multi-Site Search Engines"
-        },
-        {
-          "name": "Rezi Search",
-          "url": "https://rezi.one/",
-          "description": "Multi-Site Search Engines"
-        },
-        {
-          "name": "Playseek",
-          "url": "https://playseek.app/",
-          "description": "Multi-Site Search Engines"
-        },
-        {
-          "name": "Game Download CSE",
-          "url": "https://cse.google.com/cse?cx=006516753008110874046:cbjowp5sdqg",
-          "description": "Multi-Site Search Engines"
-        },
-        {
-          "name": "r/PiratedGames CSE",
-          "url": "https://cse.google.com/cse?cx=20c2a3e5f702049aa",
-          "description": "Multi-Site Search Engines"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/SamidyFR/Virgil",
+            "https://rezi.one/",
+            "https://playseek.app/",
+            "https://cse.google.com/cse?cx=006516753008110874046:cbjowp5sdqg",
+            "https://cse.google.com/cse?cx=20c2a3e5f702049aa"
+          ]
         },
         {
           "name": "TV Streaming CSE",
@@ -1775,17 +1325,11 @@
         {
           "name": "Virgil Software Search",
           "url": "https://virgil.samidy.com/Software/",
-          "description": "Search Software Sites"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/SamidyFR/Virgil",
-          "description": "Search Software Sites"
-        },
-        {
-          "name": "Software CSE",
-          "url": "https://cse.google.com/cse?cx=ae17d0c72fa6cbcd4",
-          "description": "Search Software Sites"
+          "description": "Search Software Sites",
+          "mirrors": [
+            "https://github.com/SamidyFR/Virgil",
+            "https://cse.google.com/cse?cx=ae17d0c72fa6cbcd4"
+          ]
         },
         {
           "name": "Torrent CSE",
@@ -1828,27 +1372,13 @@
         {
           "name": "Virgil APK Search",
           "url": "https://virgil.samidy.com/Mobile",
-          "description": "Search Android APK Sites"
-        },
-        {
-          "name": "Android APK CSE",
-          "url": "https://cse.google.com/cse?cx=e0d1769ccf74236e8",
-          "description": "Search Android APK Sites"
-        },
-        {
-          "name": "2",
-          "url": "https://cse.google.com/cse?cx=73948689c2c206528",
-          "description": "Search Android APK Sites"
-        },
-        {
-          "name": "3",
-          "url": "https://cse.google.com/cse?cx=a805854b6a196d6a6",
-          "description": "Search Android APK Sites"
-        },
-        {
-          "name": "Apps & Games Search",
-          "url": "https://cse.google.com/cse?cx=066a762d5699f4d91",
-          "description": "Search Android APK Sites"
+          "description": "Search Android APK Sites",
+          "mirrors": [
+            "https://cse.google.com/cse?cx=e0d1769ccf74236e8",
+            "https://cse.google.com/cse?cx=73948689c2c206528",
+            "https://cse.google.com/cse?cx=a805854b6a196d6a6",
+            "https://cse.google.com/cse?cx=066a762d5699f4d91"
+          ]
         },
         {
           "name": "Extensions CSE",
@@ -1882,12 +1412,10 @@
         {
           "name": "Anime Streaming CSE",
           "url": "https://cse.google.com/cse?cx=006516753008110874046:vzcl7wcfhei",
-          "description": "Search Anime Streaming Sites"
-        },
-        {
-          "name": "Kuroiru",
-          "url": "https://kuroiru.co/",
-          "description": "Search Anime Streaming Sites"
+          "description": "Search Anime Streaming Sites",
+          "mirrors": [
+            "https://kuroiru.co/"
+          ]
         },
         {
           "name": "Anime Download CSE",
@@ -1921,12 +1449,10 @@
         {
           "name": "PastebinSearch",
           "url": "https://cipher387.github.io/pastebinsearchengines/",
-          "description": "Search Pastebins"
-        },
-        {
-          "name": "Paste Skimmer",
-          "url": "https://sites.google.com/view/l33tech/tools/pasteskimmer",
-          "description": "Search Pastebins"
+          "description": "Search Pastebins",
+          "mirrors": [
+            "https://sites.google.com/view/l33tech/tools/pasteskimmer"
+          ]
         },
         {
           "name": "File Host Search",
@@ -1954,12 +1480,10 @@
         {
           "name": "Telegago",
           "url": "https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0",
-          "description": "Telegram CSE"
-        },
-        {
-          "name": "TG CSE",
-          "url": "https://cse.google.com/cse?cx=006249643689853114236:a3iibfpwexa",
-          "description": "Telegram CSE"
+          "description": "Telegram CSE",
+          "mirrors": [
+            "https://cse.google.com/cse?cx=006249643689853114236:a3iibfpwexa"
+          ]
         }
       ]
     },
@@ -2064,27 +1588,13 @@
         {
           "name": "ChangeDetection.io",
           "url": "https://github.com/dgtlmoon/changedetection.io",
-          "description": "Page Change Detection / Notification"
-        },
-        {
-          "name": "urlwatch",
-          "url": "https://thp.io/2008/urlwatch/",
-          "description": "Page Change Detection / Notification"
-        },
-        {
-          "name": "Visualping",
-          "url": "https://visualping.io/",
-          "description": "Page Change Detection / Notification"
-        },
-        {
-          "name": "Changd",
-          "url": "https://github.com/paschmann/changd",
-          "description": "Page Change Detection / Notification"
-        },
-        {
-          "name": "Follow That Page",
-          "url": "https://www.followthatpage.com/",
-          "description": "Page Change Detection / Notification"
+          "description": "Page Change Detection / Notification",
+          "mirrors": [
+            "https://thp.io/2008/urlwatch/",
+            "https://visualping.io/",
+            "https://github.com/paschmann/changd",
+            "https://www.followthatpage.com/"
+          ]
         },
         {
           "name": "Linkify Plus Plus",
@@ -2094,17 +1604,11 @@
         {
           "name": "Open Bulk URL",
           "url": "https://openbulkurl.com/",
-          "description": "Bulk Open URLs"
-        },
-        {
-          "name": "Multiple Link Opener",
-          "url": "https://urltoolshub.com/multiple-link-opener/",
-          "description": "Bulk Open URLs"
-        },
-        {
-          "name": "OpenAllURLs",
-          "url": "https://www.openallurls.com/",
-          "description": "Bulk Open URLs"
+          "description": "Bulk Open URLs",
+          "mirrors": [
+            "https://urltoolshub.com/multiple-link-opener/",
+            "https://www.openallurls.com/"
+          ]
         },
         {
           "name": "Link Lock",
@@ -2114,12 +1618,10 @@
         {
           "name": "scrt.link",
           "url": "https://scrt.link/",
-          "description": "Temporary Single-Use Links"
-        },
-        {
-          "name": "Temporary URL",
-          "url": "https://www.temporary-url.com/",
-          "description": "Temporary Single-Use Links"
+          "description": "Temporary Single-Use Links",
+          "mirrors": [
+            "https://www.temporary-url.com/"
+          ]
         },
         {
           "name": "W.A.R. Links Checker Premium",
@@ -2249,12 +1751,10 @@
           "name": "WhereGoes",
           "url": "https://wheregoes.com/",
           "description": "Check Paths of Redirects / Short Links",
-          "starred": true
-        },
-        {
-          "name": "Redirect Detective",
-          "url": "https://redirectdetective.com/",
-          "description": "Check Paths of Redirects / Short Links"
+          "starred": true,
+          "mirrors": [
+            "https://redirectdetective.com/"
+          ]
         },
         {
           "name": "Shortshare",
@@ -2444,27 +1944,13 @@
         {
           "name": "Suri",
           "url": "https://github.com/surishortlink/suri",
-          "description": "Self-Hosted Link Shorteners"
-        },
-        {
-          "name": "MPNG.IN",
-          "url": "https://github.com/thewalkingtoast/mpngin",
-          "description": "Self-Hosted Link Shorteners"
-        },
-        {
-          "name": "Snapp",
-          "url": "https://github.com/urania-dev/snapp",
-          "description": "Self-Hosted Link Shorteners"
-        },
-        {
-          "name": "Dub.co",
-          "url": "https://github.com/dubinc/dub",
-          "description": "Self-Hosted Link Shorteners"
-        },
-        {
-          "name": "Shlink",
-          "url": "https://github.com/shlinkio/shlink",
-          "description": "Self-Hosted Link Shorteners"
+          "description": "Self-Hosted Link Shorteners",
+          "mirrors": [
+            "https://github.com/thewalkingtoast/mpngin",
+            "https://github.com/urania-dev/snapp",
+            "https://github.com/dubinc/dub",
+            "https://github.com/shlinkio/shlink"
+          ]
         }
       ]
     },
@@ -2526,7 +2012,7 @@
         },
         {
           "name": "Email Providers",
-          "url": "https://en.wikipedia.org/wiki/Comparison_of_webmail_providers",
+          "url": "https://wikipedia.org/wiki/Comparison_of_webmail_providers",
           "description": "Provider Comparisons",
           "tags": [
             "index"
@@ -2536,12 +2022,10 @@
           "name": "InboxReads",
           "url": "https://inboxreads.co/",
           "description": "Email Newsletter Archive",
-          "starred": true
-        },
-        {
-          "name": "Readsom",
-          "url": "https://readsom.com/",
-          "description": "Email Newsletter Archive"
+          "starred": true,
+          "mirrors": [
+            "https://readsom.com/"
+          ]
         },
         {
           "name": "Outlook",
@@ -2556,17 +2040,11 @@
         {
           "name": "Boomerang",
           "url": "https://www.boomeranggmail.com/",
-          "description": "Scheduled Email Sending & Reminders"
-        },
-        {
-          "name": "NudgeMail",
-          "url": "https://nudgemail.com/",
-          "description": "Scheduled Email Sending & Reminders"
-        },
-        {
-          "name": "FollowupThen",
-          "url": "https://www.followupthen.com/",
-          "description": "Scheduled Email Sending & Reminders"
+          "description": "Scheduled Email Sending & Reminders",
+          "mirrors": [
+            "https://nudgemail.com/",
+            "https://www.followupthen.com/"
+          ]
         },
         {
           "name": "Useplaintext",
@@ -2603,27 +2081,13 @@
           "name": "Betterbird",
           "url": "https://www.betterbird.eu/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Thunderbird",
-          "url": "https://www.thunderbird.net/en-US/",
-          "description": ""
-        },
-        {
-          "name": "Tray Icon",
-          "url": "https://github.com/Ximi1970/systray-x",
-          "description": ""
-        },
-        {
-          "name": "Matrix",
-          "url": "https://matrix.to/#/#thunderbird:mozilla.org",
-          "description": ""
-        },
-        {
-          "name": "Note",
-          "url": "https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#thunderbird",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://www.thunderbird.net/en-US/",
+            "https://github.com/Ximi1970/systray-x",
+            "https://matrix.to/#/#thunderbird:mozilla.org",
+            "https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#thunderbird"
+          ]
         },
         {
           "name": "Mailspring",
@@ -2714,12 +2178,10 @@
           "name": "Mail.tm",
           "url": "https://mail.tm/",
           "description": "Forever / 7 Days / 1 Domain",
-          "starred": true
-        },
-        {
-          "name": "Mail.gw",
-          "url": "https://mail.gw/",
-          "description": "Forever / 7 Days / 1 Domain"
+          "starred": true,
+          "mirrors": [
+            "https://mail.gw/"
+          ]
         },
         {
           "name": "temp-mail.org",
@@ -2736,47 +2198,17 @@
         {
           "name": "EduMail",
           "url": "https://edumailfree.com/",
-          "description": ".Edu Addresses"
-        },
-        {
-          "name": "Zenvex",
-          "url": "https://zenvex.dev/",
-          "description": ".Edu Addresses"
-        },
-        {
-          "name": "2",
-          "url": "https://www.temporam.com/",
-          "description": ".Edu Addresses"
-        },
-        {
-          "name": "3",
-          "url": "https://tempsmail.org/",
-          "description": ".Edu Addresses"
-        },
-        {
-          "name": "4",
-          "url": "https://tempmail.pw",
-          "description": ".Edu Addresses"
-        },
-        {
-          "name": "5",
-          "url": "https://www.emailgenerator.org/",
-          "description": ".Edu Addresses"
-        },
-        {
-          "name": "6",
-          "url": "https://edumail.su/",
-          "description": ".Edu Addresses"
-        },
-        {
-          "name": "Tempumail",
-          "url": "https://tempumail.com/edu-mail-generator",
-          "description": ".Edu Addresses"
-        },
-        {
-          "name": "etempmail",
-          "url": "https://eTempMail.com/",
-          "description": ".Edu Addresses"
+          "description": ".Edu Addresses",
+          "mirrors": [
+            "https://zenvex.dev/",
+            "https://www.temporam.com/",
+            "https://tempsmail.org/",
+            "https://tempmail.pw",
+            "https://www.emailgenerator.org/",
+            "https://edumail.su/",
+            "https://tempumail.com/edu-mail-generator",
+            "https://eTempMail.com/"
+          ]
         },
         {
           "name": "Guerrilla Mail",
@@ -2856,11 +2288,6 @@
           "description": "Forever / 7 Days / 9 Domains /.onion"
         },
         {
-          "name": "NanoMail",
-          "url": "https://nano-mail.vercel.app/",
-          "description": "Forever / 7 Days / 1 Domain"
-        },
-        {
           "name": "Temporary-Mail",
           "url": "https://temporary-mail.net/",
           "description": "Forever / 11 Domains"
@@ -2883,22 +2310,18 @@
         {
           "name": "Spambox",
           "url": "https://spambox.xyz/",
-          "description": "Forever / 1 Day / 4 Domains"
-        },
-        {
-          "name": "Trashinbox",
-          "url": "https://trashinbox.net/",
-          "description": "Forever / 1 Day / 4 Domains"
+          "description": "Forever / 1 Day / 4 Domains",
+          "mirrors": [
+            "https://trashinbox.net/"
+          ]
         },
         {
           "name": "Maildrop",
           "url": "https://maildrop.cc/",
-          "description": "Forever / 1 Day / 1 Domain"
-        },
-        {
-          "name": "Trashmail",
-          "url": "https://trashmail.ws/",
-          "description": "Forever / 1 Day / 1 Domain"
+          "description": "Forever / 1 Day / 1 Domain",
+          "mirrors": [
+            "https://trashmail.ws/"
+          ]
         },
         {
           "name": "cs.email",
@@ -2908,27 +2331,19 @@
         {
           "name": "Email Generator",
           "url": "https://generator.email/",
-          "description": "50+ Domains"
-        },
-        {
-          "name": "Fake Email",
-          "url": "https://email-fake.com/",
-          "description": "50+ Domains"
-        },
-        {
-          "name": "TempM",
-          "url": "https://tempm.com/",
-          "description": "50+ Domains"
+          "description": "50+ Domains",
+          "mirrors": [
+            "https://email-fake.com/",
+            "https://tempm.com/"
+          ]
         },
         {
           "name": "DisposableMail",
           "url": "https://www.disposablemail.com/",
-          "description": "14 Days / 14 Days / 1 Domain"
-        },
-        {
-          "name": "FakeMail",
-          "url": "https://www.fakemail.net/",
-          "description": "14 Days / 14 Days / 1 Domain"
+          "description": "14 Days / 14 Days / 1 Domain",
+          "mirrors": [
+            "https://www.fakemail.net/"
+          ]
         },
         {
           "name": "FEX+",
@@ -2988,12 +2403,10 @@
         {
           "name": "MintEmail.com",
           "url": "https://www.mintemail.com/",
-          "description": "1 Hour / 1 Hour / 1 Domain"
-        },
-        {
-          "name": "tempail.com",
-          "url": "https://tempail.com/",
-          "description": "1 Hour / 1 Hour / 1 Domain"
+          "description": "1 Hour / 1 Hour / 1 Domain",
+          "mirrors": [
+            "https://tempail.com/"
+          ]
         },
         {
           "name": "Mohmal",
@@ -3003,62 +2416,38 @@
         {
           "name": "MinuteInbox",
           "url": "https://minuteinbox.com/",
-          "description": "10 Minute Lifespan Emails"
-        },
-        {
-          "name": "10minemail.com",
-          "url": "https://10minemail.com/",
-          "description": "10 Minute Lifespan Emails"
-        },
-        {
-          "name": "10minutemail.com",
-          "url": "https://10minutemail.com/",
-          "description": "10 Minute Lifespan Emails"
-        },
-        {
-          "name": "Linshi Email",
-          "url": "https://www.linshi-email.com/en",
-          "description": "10 Minute Lifespan Emails"
+          "description": "10 Minute Lifespan Emails",
+          "mirrors": [
+            "https://10minemail.com/",
+            "https://10minutemail.com/",
+            "https://www.linshi-email.com/en"
+          ]
         },
         {
           "name": "mail-temp.com",
           "url": "https://mail-temp.com/",
-          "description": "50+ Domains"
-        },
-        {
-          "name": "emailfake.com",
-          "url": "https://emailfake.com/",
-          "description": "50+ Domains"
+          "description": "50+ Domains",
+          "mirrors": [
+            "https://emailfake.com/"
+          ]
         },
         {
           "name": "AnonymMail.net",
           "url": "https://anonymmail.net/",
-          "description": "5 Domains"
-        },
-        {
-          "name": "Mail.td",
-          "url": "https://mail.td/",
-          "description": "5 Domains"
+          "description": "5 Domains",
+          "mirrors": [
+            "https://mail.td/"
+          ]
         },
         {
           "name": "EmailOnDeck",
           "url": "https://www.emailondeck.com/",
-          "description": "1 Domain"
-        },
-        {
-          "name": "EmailTemp",
-          "url": "https://emailtemp.org/",
-          "description": "1 Domain"
-        },
-        {
-          "name": "Haribu",
-          "url": "https://haribu.net/",
-          "description": "1 Domain"
-        },
-        {
-          "name": "tempmaili.com",
-          "url": "https://tempmaili.com/",
-          "description": "1 Domain"
+          "description": "1 Domain",
+          "mirrors": [
+            "https://emailtemp.org/",
+            "https://haribu.net/",
+            "https://tempmaili.com/"
+          ]
         },
         {
           "name": "TMail",
@@ -3071,7 +2460,7 @@
           "description": "More Temp Mail Sites"
         }
       ],
-      "note": "If you're looking for something more private and convenient, check out our Email Aliasing section. For details about tags, refer to this resource."
+      "note": "If you're looking for something more private and convenient, 参照：our Email Aliasing section. For details about tags, refer to this resource."
     },
     {
       "id": "internet-tools-email-aliasing",
@@ -3083,26 +2472,19 @@
           "description": "",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/fynks/email-aliasing-comparison",
-          "description": "",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/fynks/email-aliasing-comparison"
           ]
         },
         {
           "name": "DuckDuckGo Email Protection",
           "url": "https://duckduckgo.com/email/",
           "description": "Email Aliasing / Send Mail / Unlimited Guide",
-          "starred": true
-        },
-        {
-          "name": "Qwacky",
-          "url": "https://github.com/Lanshuns/Qwacky",
-          "description": "Email Aliasing / Send Mail / Unlimited Guide"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/Lanshuns/Qwacky"
+          ]
         },
         {
           "name": "addy.io",
@@ -3150,32 +2532,20 @@
           "name": "Floccus",
           "url": "https://floccus.org/",
           "description": "Bookmark / Tab Sync",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/floccusaddon/floccus",
-          "description": "Bookmark / Tab Sync"
-        },
-        {
-          "name": "BookmarkHub",
-          "url": "https://github.com/dudor/BookmarkHub",
-          "description": "Bookmark / Tab Sync"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/floccusaddon/floccus",
+            "https://github.com/dudor/BookmarkHub"
+          ]
         },
         {
           "name": "linkhut",
           "url": "https://ln.ht/",
-          "description": "Social Bookmarking"
-        },
-        {
-          "name": "Linkhorse",
-          "url": "https://link.horse/",
-          "description": "Social Bookmarking"
-        },
-        {
-          "name": "TinyGem",
-          "url": "https://tinygem.org/",
-          "description": "Social Bookmarking"
+          "description": "Social Bookmarking",
+          "mirrors": [
+            "https://link.horse/",
+            "https://tinygem.org/"
+          ]
         },
         {
           "name": "SuperMemory",
@@ -3321,32 +2691,14 @@
         {
           "name": "Linkwarden",
           "url": "https://github.com/linkwarden/linkwarden",
-          "description": "Self-Hosted Managers"
-        },
-        {
-          "name": "KaraKeep",
-          "url": "https://karakeep.app/",
-          "description": "Self-Hosted Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/karakeep-app/karakeep",
-          "description": "Self-Hosted Managers"
-        },
-        {
-          "name": "Shaarli",
-          "url": "https://github.com/shaarli/Shaarli",
-          "description": "Self-Hosted Managers"
-        },
-        {
-          "name": "LinkAce",
-          "url": "https://www.linkace.org/",
-          "description": "Self-Hosted Managers"
-        },
-        {
-          "name": "linkding",
-          "url": "https://github.com/sissbruecker/linkding",
-          "description": "Self-Hosted Managers"
+          "description": "Self-Hosted Managers",
+          "mirrors": [
+            "https://karakeep.app/",
+            "https://github.com/karakeep-app/karakeep",
+            "https://github.com/shaarli/Shaarli",
+            "https://www.linkace.org/",
+            "https://github.com/sissbruecker/linkding"
+          ]
         },
         {
           "name": "Awesome Startpage",
@@ -3368,17 +2720,11 @@
           "name": "WebOasis",
           "url": "https://behu.io/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://ndsamuelson.github.io/weboas-is/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ParrotDevelopers/WebOasis/",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://ndsamuelson.github.io/weboas-is/",
+            "https://github.com/ParrotDevelopers/WebOasis/"
+          ]
         },
         {
           "name": "MONKNOW",
@@ -3464,12 +2810,10 @@
         {
           "name": "Fluidity",
           "url": "https://prettycoffee.github.io/fluidity/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/PrettyCoffee/fluidity",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/PrettyCoffee/fluidity"
+          ]
         },
         {
           "name": "AllMyFaves",
@@ -3496,49 +2840,37 @@
           "name": "Anori",
           "url": "https://anori.app/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/OlegWock/anori",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/OlegWock/anori"
+          ]
         },
         {
           "name": "Mue",
           "url": "https://muetab.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/mue/mue",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/mue/mue"
+          ]
         },
         {
           "name": "Bonjourr",
           "url": "https://bonjourr.fr/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/victrme/Bonjourr",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/victrme/Bonjourr"
+          ]
         },
         {
           "name": "Renewed Tab",
           "url": "https://renewedtab.com/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/zYjR54b",
-          "description": ""
-        },
-        {
-          "name": "GitLab",
-          "url": "https://gitlab.com/renewedtab/renewedtab/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.gg/zYjR54b",
+            "https://gitlab.com/renewedtab/renewedtab/"
+          ]
         },
         {
           "name": "mtab",
@@ -3591,22 +2923,10 @@
           "description": "Compare Popular Browsers",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Eylenburg Comparisons",
-          "url": "https://eylenburg.github.io/browser_comparison.htm",
-          "description": "Compare Popular Browsers",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "ATH Comparisons",
-          "url": "https://browsers.avoidthehack.com/",
-          "description": "Compare Popular Browsers",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://eylenburg.github.io/browser_comparison.htm",
+            "https://browsers.avoidthehack.com/"
           ]
         },
         {
@@ -3621,12 +2941,10 @@
           "name": "BrowserBench",
           "url": "https://browserbench.org/",
           "description": "Browser Benchmark Tests",
-          "starred": true
-        },
-        {
-          "name": "WPT",
-          "url": "https://wpt.fyi",
-          "description": "Browser Benchmark Tests"
+          "starred": true,
+          "mirrors": [
+            "https://wpt.fyi"
+          ]
         },
         {
           "name": "⁠Browser Tamer",
@@ -3660,17 +2978,11 @@
         {
           "name": "Rambox",
           "url": "https://rambox.app/",
-          "description": "Web App Browsers"
-        },
-        {
-          "name": "Kera",
-          "url": "https://desktop.kerahq.com/",
-          "description": "Web App Browsers"
-        },
-        {
-          "name": "Tangram",
-          "url": "https://github.com/sonnyp/Tangram",
-          "description": "Web App Browsers"
+          "description": "Web App Browsers",
+          "mirrors": [
+            "https://desktop.kerahq.com/",
+            "https://github.com/sonnyp/Tangram"
+          ]
         },
         {
           "name": "ThemeBeta",
@@ -3717,22 +3029,12 @@
           "name": "Firefox",
           "url": "https://www.firefox.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Nightly",
-          "url": "https://www.firefox.com/channel/desktop/#nightly",
-          "description": ""
-        },
-        {
-          "name": "Beta",
-          "url": "https://www.firefox.com/channel/desktop/#beta",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/mozilla-firefox/firefox",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://www.firefox.com/channel/desktop/#nightly",
+            "https://www.firefox.com/channel/desktop/#beta",
+            "https://github.com/mozilla-firefox/firefox"
+          ]
         },
         {
           "name": "Firefox Trains",
@@ -3744,22 +3046,12 @@
           "name": "arkenfox",
           "url": "https://github.com/arkenfox/user.js",
           "description": "Firefox user.js Tweaks / Warning",
-          "starred": true
-        },
-        {
-          "name": "Video",
-          "url": "https://youtu.be/F7-bW2y6lcI",
-          "description": "Firefox user.js Tweaks / Warning"
-        },
-        {
-          "name": "GUI",
-          "url": "https://arkenfox.github.io/gui/",
-          "description": "Firefox user.js Tweaks / Warning"
-        },
-        {
-          "name": "Betterfox",
-          "url": "https://github.com/yokoffing/Betterfox",
-          "description": "Firefox user.js Tweaks / Warning"
+          "starred": true,
+          "mirrors": [
+            "https://youtu.be/F7-bW2y6lcI",
+            "https://arkenfox.github.io/gui/",
+            "https://github.com/yokoffing/Betterfox"
+          ]
         },
         {
           "name": "Firefox Keyboard Shortcuts",
@@ -3794,12 +3086,10 @@
         {
           "name": "r/FirefoxCSS",
           "url": "https://reddit.com/r/FirefoxCSS",
-          "description": "Firefox CSS Resources"
-        },
-        {
-          "name": "Firefox CSS Hacks",
-          "url": "https://github.com/MrOtherGuy/firefox-csshacks",
-          "description": "Firefox CSS Resources"
+          "description": "Firefox CSS Resources",
+          "mirrors": [
+            "https://github.com/MrOtherGuy/firefox-csshacks"
+          ]
         },
         {
           "name": "Want My RSS",
@@ -3823,14 +3113,9 @@
           "description": "Open-Source Extension Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "MyBrowserAddon",
-          "url": "https://mybrowseraddon.com/",
-          "description": "Open-Source Extension Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://mybrowseraddon.com/"
           ]
         },
         {
@@ -3843,28 +3128,20 @@
           "name": "Dark Reader",
           "url": "https://darkreader.org/",
           "description": "Dark Mode",
-          "starred": true
-        },
-        {
-          "name": "Midnight Lizard",
-          "url": "https://midnight-lizard.org/",
-          "description": "Dark Mode"
-        },
-        {
-          "name": "Custom Dark Mode",
-          "url": "https://mybrowseraddon.com/custom-dark-mode.html",
-          "description": "Dark Mode"
+          "starred": true,
+          "mirrors": [
+            "https://midnight-lizard.org/",
+            "https://mybrowseraddon.com/custom-dark-mode.html"
+          ]
         },
         {
           "name": "Auto Tab Discard",
           "url": "https://webextension.org/listing/tab-discard.html",
           "description": "Discard Inactive Tabs",
-          "starred": true
-        },
-        {
-          "name": "Tab Wrangler",
-          "url": "https://github.com/tabwrangler/tabwrangler",
-          "description": "Discard Inactive Tabs"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/tabwrangler/tabwrangler"
+          ]
         },
         {
           "name": "CRX Viewer",
@@ -3889,37 +3166,15 @@
         {
           "name": "Vimium",
           "url": "https://vimium.github.io/",
-          "description": "Keyboard Shortcuts"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/philc/vimium",
-          "description": "Keyboard Shortcuts"
-        },
-        {
-          "name": "Surfingkeys",
-          "url": "https://github.com/brookhong/Surfingkeys",
-          "description": "Keyboard Shortcuts"
-        },
-        {
-          "name": "Tridactyl",
-          "url": "https://tridactyl.xyz/",
-          "description": "Keyboard Shortcuts"
-        },
-        {
-          "name": "Web Search Navigator",
-          "url": "https://github.com/infokiller/web-search-navigator",
-          "description": "Keyboard Shortcuts"
-        },
-        {
-          "name": "Shortkeys",
-          "url": "https://www.shortkeys.app/",
-          "description": "Keyboard Shortcuts"
-        },
-        {
-          "name": "Vimium C",
-          "url": "https://github.com/gdh1995/vimium-c",
-          "description": "Keyboard Shortcuts"
+          "description": "Keyboard Shortcuts",
+          "mirrors": [
+            "https://github.com/philc/vimium",
+            "https://github.com/brookhong/Surfingkeys",
+            "https://tridactyl.xyz/",
+            "https://github.com/infokiller/web-search-navigator",
+            "https://www.shortkeys.app/",
+            "https://github.com/gdh1995/vimium-c"
+          ]
         },
         {
           "name": "Custom Scrollbars",
@@ -3957,22 +3212,18 @@
         {
           "name": "AutoRefresh",
           "url": "https://autorefresh.io/",
-          "description": "Refresh Tabs"
-        },
-        {
-          "name": "Tab Auto Refresh",
-          "url": "https://mybrowseraddon.com/tab-auto-refresh.html",
-          "description": "Refresh Tabs"
+          "description": "Refresh Tabs",
+          "mirrors": [
+            "https://mybrowseraddon.com/tab-auto-refresh.html"
+          ]
         },
         {
           "name": "Dictionaries",
           "url": "https://github.com/pnlpal/dictionariez",
-          "description": "Popup Dictionaries"
-        },
-        {
-          "name": "Definer",
-          "url": "https://lumetrium.com/definer/",
-          "description": "Popup Dictionaries"
+          "description": "Popup Dictionaries",
+          "mirrors": [
+            "https://lumetrium.com/definer/"
+          ]
         },
         {
           "name": "CustomRightClickMenu",
@@ -3982,12 +3233,10 @@
         {
           "name": "BigSearch",
           "url": "https://github.com/garywill/BigSearch",
-          "description": "Context Search"
-        },
-        {
-          "name": "SearchJumper",
-          "url": "https://hoothin.github.io/SearchJumper/",
-          "description": "Context Search"
+          "description": "Context Search",
+          "mirrors": [
+            "https://hoothin.github.io/SearchJumper/"
+          ]
         },
         {
           "name": "Selecton",
@@ -4007,22 +3256,18 @@
         {
           "name": "PageZipper",
           "url": "https://www.printwhatyoulike.com/pagezipper",
-          "description": "Merges a Sites \"Next\" Pages"
-        },
-        {
-          "name": "AutoPagerize",
-          "url": "http://autopagerize.net/",
-          "description": "Merges a Sites \"Next\" Pages"
+          "description": "Merges a Sites \"Next\" Pages",
+          "mirrors": [
+            "http://autopagerize.net/"
+          ]
         },
         {
           "name": "Turn Off the Lights",
           "url": "https://www.turnoffthelights.com/",
-          "description": "Play Videos in Theater Mode"
-        },
-        {
-          "name": "Theater Mode",
-          "url": "https://mybrowseraddon.com/theater-mode.html",
-          "description": "Play Videos in Theater Mode"
+          "description": "Play Videos in Theater Mode",
+          "mirrors": [
+            "https://mybrowseraddon.com/theater-mode.html"
+          ]
         },
         {
           "name": "GlobalSpeed",
@@ -4067,32 +3312,26 @@
         {
           "name": "⁠Circadian",
           "url": "https://github.com/Pasithea0/circadian-extension",
-          "description": "Auto-Adjust Display Color / Temperature"
-        },
-        {
-          "name": "Screen Color Temperature",
-          "url": "https://mybrowseraddon.com/screen-color-temperature.html",
-          "description": "Auto-Adjust Display Color / Temperature"
+          "description": "Auto-Adjust Display Color / Temperature",
+          "mirrors": [
+            "https://mybrowseraddon.com/screen-color-temperature.html"
+          ]
         },
         {
           "name": "ColorZilla",
           "url": "https://www.colorzilla.com/",
-          "description": "Color Picker"
-        },
-        {
-          "name": "ColorFish",
-          "url": "https://ui.vision/colorfish",
-          "description": "Color Picker"
+          "description": "Color Picker",
+          "mirrors": [
+            "https://ui.vision/colorfish"
+          ]
         },
         {
           "name": "Clippings",
           "url": "https://aecreations.io/clippings/index.php",
-          "description": "Clipboard Manager"
-        },
-        {
-          "name": "Quick Copy",
-          "url": "https://github.com/ramitmittal/quick-copy",
-          "description": "Clipboard Manager"
+          "description": "Clipboard Manager",
+          "mirrors": [
+            "https://github.com/ramitmittal/quick-copy"
+          ]
         },
         {
           "name": "Emoji Addon",
@@ -4141,12 +3380,10 @@
         {
           "name": "Get-cookies.txt",
           "url": "https://github.com/kairi003/Get-cookies.txt-LOCALLY",
-          "description": "Cookies Exporters"
-        },
-        {
-          "name": "ExportCookies",
-          "url": "https://github.com/rotemdan/ExportCookies",
-          "description": "Cookies Exporters"
+          "description": "Cookies Exporters",
+          "mirrors": [
+            "https://github.com/rotemdan/ExportCookies"
+          ]
         },
         {
           "name": "Cookie-Editor",
@@ -4156,22 +3393,12 @@
         {
           "name": "Link Gopher",
           "url": "https://sites.google.com/site/linkgopher/",
-          "description": "Extract / Copy Links on Webpages"
-        },
-        {
-          "name": "Link Extractor",
-          "url": "https://link-extractor.cssnr.com/",
-          "description": "Extract / Copy Links on Webpages"
-        },
-        {
-          "name": "Copy Selected Links",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/copy-selected-links/",
-          "description": "Extract / Copy Links on Webpages"
-        },
-        {
-          "name": "CopyLinks++",
-          "url": "https://github.com/MichelePezza/CopyLinksplusplus",
-          "description": "Extract / Copy Links on Webpages"
+          "description": "Extract / Copy Links on Webpages",
+          "mirrors": [
+            "https://link-extractor.cssnr.com/",
+            "https://addons.mozilla.org/en-US/firefox/addon/copy-selected-links/",
+            "https://github.com/MichelePezza/CopyLinksplusplus"
+          ]
         },
         {
           "name": "CopyTabTitleUrl",
@@ -4181,12 +3408,10 @@
         {
           "name": "Distil",
           "url": "https://distill.io/",
-          "description": "Page Change Detection / Notification"
-        },
-        {
-          "name": "Update Scanner",
-          "url": "https://sneakypete81.github.io/updatescanner/",
-          "description": "Page Change Detection / Notification"
+          "description": "Page Change Detection / Notification",
+          "mirrors": [
+            "https://sneakypete81.github.io/updatescanner/"
+          ]
         },
         {
           "name": "Offline Mode",
@@ -4261,27 +3486,19 @@
         {
           "name": "GoFullPage",
           "url": "https://gofullpage.com/",
-          "description": "Full Page Screenshots"
-        },
-        {
-          "name": "Easy Screenshot",
-          "url": "https://webextension.org/listing/screenshot.html",
-          "description": "Full Page Screenshots"
-        },
-        {
-          "name": "FireShot",
-          "url": "https://addons.mozilla.org/firefox/addon/fireshot/",
-          "description": "Full Page Screenshots"
+          "description": "Full Page Screenshots",
+          "mirrors": [
+            "https://webextension.org/listing/screenshot.html",
+            "https://addons.mozilla.org/firefox/addon/fireshot/"
+          ]
         },
         {
           "name": "Bulk URL Opener",
           "url": "https://bulkurlopener.com/",
-          "description": "Open Multiple URLs in One Click"
-        },
-        {
-          "name": "Open-Multiple-URLs",
-          "url": "https://github.com/htrinter/Open-Multiple-URLs/",
-          "description": "Open Multiple URLs in One Click"
+          "description": "Open Multiple URLs in One Click",
+          "mirrors": [
+            "https://github.com/htrinter/Open-Multiple-URLs/"
+          ]
         },
         {
           "name": "PronounDB",
@@ -4296,17 +3513,11 @@
         {
           "name": "Tab Session Manager",
           "url": "https://tab-session-manager.sienori.com/",
-          "description": "Session Managers"
-        },
-        {
-          "name": "Sessionic",
-          "url": "https://github.com/navorite/sessionic",
-          "description": "Session Managers"
-        },
-        {
-          "name": "Session Buddy",
-          "url": "https://sessionbuddy.com/",
-          "description": "Session Managers"
+          "description": "Session Managers",
+          "mirrors": [
+            "https://github.com/navorite/sessionic",
+            "https://sessionbuddy.com/"
+          ]
         },
         {
           "name": "Peek",
@@ -4336,17 +3547,11 @@
         {
           "name": "Firefox Containers",
           "url": "https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/",
-          "description": "Separate Firefox Sessions / Guide"
-        },
-        {
-          "name": "Container Tab Groups",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/container-tab-groups/",
-          "description": "Separate Firefox Sessions / Guide"
-        },
-        {
-          "name": "Temporary Containers",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/",
-          "description": "Separate Firefox Sessions / Guide"
+          "description": "Separate Firefox Sessions / Guide",
+          "mirrors": [
+            "https://addons.mozilla.org/en-US/firefox/addon/container-tab-groups/",
+            "https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/"
+          ]
         },
         {
           "name": "ContextSearch web-ext",
@@ -4429,12 +3634,10 @@
         {
           "name": "Firefox Color",
           "url": "https://color.firefox.com/",
-          "description": "Custom Firefox Theme Creation"
-        },
-        {
-          "name": "SwiftTheme",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/swifttheme/",
-          "description": "Custom Firefox Theme Creation"
+          "description": "Custom Firefox Theme Creation",
+          "mirrors": [
+            "https://addons.mozilla.org/en-US/firefox/addon/swifttheme/"
+          ]
         },
         {
           "name": "Adaptive Tab Bar Colour",
@@ -4489,22 +3692,10 @@
           "description": "Chrome Addon Stores",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Chrome-Extension",
-          "url": "https://github.com/harshita214/Chrome-Extension",
-          "description": "Chrome Addon Stores",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Crx4Chrome",
-          "url": "https://www.crx4chrome.com/",
-          "description": "Chrome Addon Stores",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/harshita214/Chrome-Extension",
+            "https://www.crx4chrome.com/"
           ]
         },
         {
@@ -4522,17 +3713,11 @@
         {
           "name": "Extensity",
           "url": "https://chromewebstore.google.com/detail/extensity/jjmflmamggggndanpgfnpelongoepncg",
-          "description": "Extension Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/sergiokas/Extensity",
-          "description": "Extension Managers"
-        },
-        {
-          "name": "Extension Manager",
-          "url": "https://chromewebstore.google.com/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco",
-          "description": "Extension Managers"
+          "description": "Extension Managers",
+          "mirrors": [
+            "https://github.com/sergiokas/Extensity",
+            "https://chromewebstore.google.com/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco"
+          ]
         },
         {
           "name": "⁠CRX Downloader",
@@ -4625,27 +3810,13 @@
         {
           "name": "⁠Tabler",
           "url": "https://tabler.one/",
-          "description": "Tab Managers"
-        },
-        {
-          "name": "Supatabs",
-          "url": "https://supatabs.com/",
-          "description": "Tab Managers"
-        },
-        {
-          "name": "Prune",
-          "url": "https://chromewebstore.google.com/detail/prune/gblddboefgbljpngfhgekbpoigikbenh",
-          "description": "Tab Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/tbrockman/prune",
-          "description": "Tab Managers"
-        },
-        {
-          "name": "Tab Modifier",
-          "url": "https://github.com/furybee/chrome-tab-modifier",
-          "description": "Tab Managers"
+          "description": "Tab Managers",
+          "mirrors": [
+            "https://supatabs.com/",
+            "https://chromewebstore.google.com/detail/prune/gblddboefgbljpngfhgekbpoigikbenh",
+            "https://github.com/tbrockman/prune",
+            "https://github.com/furybee/chrome-tab-modifier"
+          ]
         },
         {
           "name": "Lazy Tabs",
@@ -4665,12 +3836,10 @@
         {
           "name": "uAutoPagerize",
           "url": "https://chromewebstore.google.com/detail/kdplapeciagkkjoignnkfpbfkebcfbpb",
-          "description": "Merges a Sites \"Next\" Pages"
-        },
-        {
-          "name": "Infy Scroll",
-          "url": "https://chromewebstore.google.com/detail/infy-scroll/gdnpnkfophbmbpcjdlbiajpkgdndlino",
-          "description": "Merges a Sites \"Next\" Pages"
+          "description": "Merges a Sites \"Next\" Pages",
+          "mirrors": [
+            "https://chromewebstore.google.com/detail/infy-scroll/gdnpnkfophbmbpcjdlbiajpkgdndlino"
+          ]
         },
         {
           "name": "Amino",
@@ -4710,12 +3879,10 @@
         {
           "name": "Turn Off the Lights",
           "url": "https://www.turnoffthelights.com/",
-          "description": "Dark Mode"
-        },
-        {
-          "name": "Dark Reader Script",
-          "url": "https://gist.github.com/kfur/266c456dd69072eb7533f457ee5f18a0",
-          "description": "Dark Mode"
+          "description": "Dark Mode",
+          "mirrors": [
+            "https://gist.github.com/kfur/266c456dd69072eb7533f457ee5f18a0"
+          ]
         },
         {
           "name": "CSE",
@@ -4742,60 +3909,32 @@
           "description": "Userscript Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "XIU2",
-          "url": "https://github.com/XIU2/UserScript",
-          "description": "Userscript Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Userscript.zone",
-          "url": "https://www.userscript.zone/",
-          "description": "Userscript Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/XIU2/UserScript",
+            "https://www.userscript.zone/"
           ]
         },
         {
           "name": "Violentmonkey",
           "url": "https://violentmonkey.github.io/",
           "description": "Userscript Managers",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/XHtUNSm6Xc",
-          "description": "Userscript Managers"
-        },
-        {
-          "name": "Tampermonkey",
-          "url": "https://www.tampermonkey.net/",
-          "description": "Userscript Managers"
-        },
-        {
-          "name": "Firemonkey",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/firemonkey/",
-          "description": "Userscript Managers"
+          "starred": true,
+          "mirrors": [
+            "https://discord.gg/XHtUNSm6Xc",
+            "https://www.tampermonkey.net/",
+            "https://addons.mozilla.org/en-US/firefox/addon/firemonkey/"
+          ]
         },
         {
           "name": "Greasy Fork",
           "url": "https://greasyfork.org/",
           "description": "Install Userscripts",
-          "starred": true
-        },
-        {
-          "name": "OpenUserJS",
-          "url": "https://openuserjs.org/",
-          "description": "Install Userscripts"
-        },
-        {
-          "name": "Userscripts",
-          "url": "https://userscripts-mirror.org/",
-          "description": "Install Userscripts"
+          "starred": true,
+          "mirrors": [
+            "https://openuserjs.org/",
+            "https://userscripts-mirror.org/"
+          ]
         },
         {
           "name": "Picviewer CE+",
@@ -4880,23 +4019,19 @@
           "name": "Web Archives",
           "url": "https://github.com/dessant/web-archives",
           "description": "Browser Extensions",
-          "starred": true
-        },
-        {
-          "name": "Resurrect Pages Fork",
-          "url": "https://github.com/Albirew/resurrect-pages-isup-edition",
-          "description": "Browser Extensions"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/Albirew/resurrect-pages-isup-edition"
+          ]
         },
         {
           "name": "CachedView",
           "url": "https://cachedview.nl/",
           "description": "Aggregate Cache Results",
-          "starred": true
-        },
-        {
-          "name": "Quick Cache",
-          "url": "https://cybdetective.com/quickcacheandarhivesearch.html",
-          "description": "Aggregate Cache Results"
+          "starred": true,
+          "mirrors": [
+            "https://cybdetective.com/quickcacheandarhivesearch.html"
+          ]
         },
         {
           "name": "Ghost Archive",
@@ -4961,12 +4096,10 @@
           "name": "MarkDownload",
           "url": "https://github.com/deathau/markdownload",
           "description": "Download Web Pages as Markdown Files",
-          "starred": true
-        },
-        {
-          "name": "MarkdownDown",
-          "url": "https://markdowndown.vercel.app/",
-          "description": "Download Web Pages as Markdown Files"
+          "starred": true,
+          "mirrors": [
+            "https://markdowndown.vercel.app/"
+          ]
         },
         {
           "name": "HTTrack",
@@ -4993,12 +4126,10 @@
         {
           "name": "Monolith",
           "url": "https://github.com/Y2Z/monolith",
-          "description": "Save Webpages as HTML"
-        },
-        {
-          "name": "Single File",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/single-file",
-          "description": "Save Webpages as HTML"
+          "description": "Save Webpages as HTML",
+          "mirrors": [
+            "https://addons.mozilla.org/en-US/firefox/addon/single-file"
+          ]
         },
         {
           "name": "WAIL",
@@ -5011,12 +4142,10 @@
         {
           "name": "ReplayWeb",
           "url": "https://replayweb.page/",
-          "description": "View Web Archive Files"
-        },
-        {
-          "name": "OldWeb",
-          "url": "https://oldweb.today/",
-          "description": "View Web Archive Files"
+          "description": "View Web Archive Files",
+          "mirrors": [
+            "https://oldweb.today/"
+          ]
         },
         {
           "name": "ArchiveWeb.page",
@@ -5036,52 +4165,24 @@
         {
           "name": "DownloadNet (dn)",
           "url": "https://github.com/dosyago/dn",
-          "description": "Offline Website Readers"
-        },
-        {
-          "name": "Kiwix",
-          "url": "https://kiwix.org/en/",
-          "description": "Offline Website Readers"
-        },
-        {
-          "name": "Zim Reader",
-          "url": "https://zimit.kiwix.org/",
-          "description": "Offline Website Readers"
-        },
-        {
-          "name": "Wiki DL Guide",
-          "url": "https://practicalbetterments.com/download-all-of-wikipedia-on-your-phone/",
-          "description": "Offline Website Readers"
+          "description": "Offline Website Readers",
+          "mirrors": [
+            "https://kiwix.org/en/",
+            "https://zimit.kiwix.org/",
+            "https://practicalbetterments.com/download-all-of-wikipedia-on-your-phone/"
+          ]
         },
         {
           "name": "Wget2",
           "url": "https://gitlab.com/gnuwget/wget2",
-          "description": "Website Downloaders"
-        },
-        {
-          "name": "Commands",
-          "url": "https://www.whatismybrowser.com/developers/tools/wget-wizard/",
-          "description": "Website Downloaders"
-        },
-        {
-          "name": "SuckIT",
-          "url": "https://github.com/skallwar/suckit",
-          "description": "Website Downloaders"
-        },
-        {
-          "name": "Cyotek WebCopy",
-          "url": "https://www.cyotek.com/cyotek-webcopy",
-          "description": "Website Downloaders"
-        },
-        {
-          "name": "Website Downloader",
-          "url": "https://github.com/AhmadIbrahiim/Website-downloader",
-          "description": "Website Downloaders"
-        },
-        {
-          "name": "PageRip",
-          "url": "https://webpagerip.com/",
-          "description": "Website Downloaders"
+          "description": "Website Downloaders",
+          "mirrors": [
+            "https://www.whatismybrowser.com/developers/tools/wget-wizard/",
+            "https://github.com/skallwar/suckit",
+            "https://www.cyotek.com/cyotek-webcopy",
+            "https://github.com/AhmadIbrahiim/Website-downloader",
+            "https://webpagerip.com/"
+          ]
         },
         {
           "name": "Archivematica",
@@ -5115,14 +4216,9 @@
           "description": "Web Scraping Tools / Resources",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Web Scraping FYI",
-          "url": "https://webscraping.fyi/",
-          "description": "Web Scraping Tools / Resources",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://webscraping.fyi/"
           ]
         },
         {
@@ -5199,12 +4295,10 @@
           "name": "IntelTechniques",
           "url": "https://inteltechniques.com/index.html",
           "description": "OSINT Resources",
-          "starred": true
-        },
-        {
-          "name": "OSINT Techniques",
-          "url": "https://www.osinttechniques.com/",
-          "description": "OSINT Resources"
+          "starred": true,
+          "mirrors": [
+            "https://www.osinttechniques.com/"
+          ]
         },
         {
           "name": "Analyst Research Tools",
@@ -5383,12 +4477,10 @@
         {
           "name": "OSINT for Countries",
           "url": "https://github.com/wddadk/OSINT-for-countries",
-          "description": "Indexes Organized by Country"
-        },
-        {
-          "name": "V2",
-          "url": "https://github.com/paulpogoda/OSINT-for-countries-V2.0",
-          "description": "Indexes Organized by Country"
+          "description": "Indexes Organized by Country",
+          "mirrors": [
+            "https://github.com/paulpogoda/OSINT-for-countries-V2.0"
+          ]
         },
         {
           "name": "DiscordOSINT",
@@ -5398,12 +4490,10 @@
         {
           "name": "Awesome Telegram OSINT",
           "url": "https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT",
-          "description": "Telegram OSINT Indexes"
-        },
-        {
-          "name": "The OSINT Toolbox",
-          "url": "https://github.com/The-Osint-Toolbox/Telegram-OSINT",
-          "description": "Telegram OSINT Indexes"
+          "description": "Telegram OSINT Indexes",
+          "mirrors": [
+            "https://github.com/The-Osint-Toolbox/Telegram-OSINT"
+          ]
         }
       ]
     }

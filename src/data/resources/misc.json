@@ -16,22 +16,10 @@
           "description": "All Awesome Lists",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "GitHub Topics",
-          "url": "https://github.com/topics/awesome",
-          "description": "All Awesome Lists",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/topics/awesome-list",
-          "description": "All Awesome Lists",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/topics/awesome",
+            "https://github.com/topics/awesome-list"
           ]
         },
         {
@@ -92,52 +80,24 @@
         {
           "name": "xRanks",
           "url": "https://xranks.com/",
-          "description": "Site Rankings"
-        },
-        {
-          "name": "Start.me Stats",
-          "url": "https://start.me/sites/int",
-          "description": "Site Rankings"
-        },
-        {
-          "name": "StatCrop",
-          "url": "https://www.statscrop.com/websites/top-sites/",
-          "description": "Site Rankings"
-        },
-        {
-          "name": "HypeStat",
-          "url": "https://hypestat.com/",
-          "description": "Site Rankings"
-        },
-        {
-          "name": "10 Million Sites",
-          "url": "https://www.domcop.com/top-10-million-websites",
-          "description": "Site Rankings"
-        },
-        {
-          "name": "CuteStat",
-          "url": "https://www.cutestat.com/",
-          "description": "Site Rankings"
+          "description": "Site Rankings",
+          "mirrors": [
+            "https://start.me/sites/int",
+            "https://www.statscrop.com/websites/top-sites/",
+            "https://hypestat.com/",
+            "https://www.domcop.com/top-10-million-websites",
+            "https://www.cutestat.com/"
+          ]
         },
         {
           "name": "findPWA",
           "url": "https://findpwa.com/",
-          "description": "Web App Indexes"
-        },
-        {
-          "name": "Store.app",
-          "url": "https://store.app/",
-          "description": "Web App Indexes"
-        },
-        {
-          "name": "SaaS Discovery",
-          "url": "https://saasdiscovery.com/",
-          "description": "Web App Indexes"
-        },
-        {
-          "name": "Electron",
-          "url": "https://www.electronjs.org/apps",
-          "description": "Web App Indexes"
+          "description": "Web App Indexes",
+          "mirrors": [
+            "https://store.app/",
+            "https://saasdiscovery.com/",
+            "https://www.electronjs.org/apps"
+          ]
         },
         {
           "name": "SmartLinks",
@@ -180,22 +140,18 @@
         {
           "name": "OldSchoolSitesCatalogue",
           "url": "https://github.com/rarelygoeshere/OldSchoolSitesCatalogue",
-          "description": "Oldschool Site Indexes"
-        },
-        {
-          "name": "href.cool",
-          "url": "https://href.cool/",
-          "description": "Oldschool Site Indexes"
+          "description": "Oldschool Site Indexes",
+          "mirrors": [
+            "https://href.cool/"
+          ]
         },
         {
           "name": "DeletedCity",
           "url": "http://deletedcity.net/",
-          "description": "Geocities Site Indexes"
-        },
-        {
-          "name": "Restorativland",
-          "url": "https://geocities.restorativland.org/",
-          "description": "Geocities Site Indexes"
+          "description": "Geocities Site Indexes",
+          "mirrors": [
+            "https://geocities.restorativland.org/"
+          ]
         },
         {
           "name": "National Archives",
@@ -210,17 +166,11 @@
         {
           "name": "Gazetteer of Wikis",
           "url": "https://meta.miraheze.org/wiki/Gazetteer_of_wikis",
-          "description": "Miraheze Wiki Indexes"
-        },
-        {
-          "name": "Wiki Stats",
-          "url": "https://wikistats.wmcloud.org/display.php?t=mh",
-          "description": "Miraheze Wiki Indexes"
-        },
-        {
-          "name": "WikiDiscover",
-          "url": "https://meta.miraheze.org/wiki/Special:WikiDiscover",
-          "description": "Miraheze Wiki Indexes"
+          "description": "Miraheze Wiki Indexes",
+          "mirrors": [
+            "https://wikistats.wmcloud.org/display.php?t=mh",
+            "https://meta.miraheze.org/wiki/Special:WikiDiscover"
+          ]
         },
         {
           "name": "NetSplit",
@@ -360,17 +310,11 @@
         {
           "name": "FreeCycle",
           "url": "https://www.freecycle.org/",
-          "description": "Free Stuff Exchange / Gifting Communities"
-        },
-        {
-          "name": "TrashNothing",
-          "url": "https://trashnothing.com/",
-          "description": "Free Stuff Exchange / Gifting Communities"
-        },
-        {
-          "name": "Freegle",
-          "url": "https://www.ilovefreegle.org/",
-          "description": "Free Stuff Exchange / Gifting Communities"
+          "description": "Free Stuff Exchange / Gifting Communities",
+          "mirrors": [
+            "https://trashnothing.com/",
+            "https://www.ilovefreegle.org/"
+          ]
         },
         {
           "name": "r/GooglePlayDeals",
@@ -415,12 +359,10 @@
         {
           "name": "FreeReadFeed",
           "url": "https://www.freereadfeed.com/",
-          "description": "Free Kindle Releases"
-        },
-        {
-          "name": "eReaderIQ",
-          "url": "https://www.ereaderiq.com/freebies",
-          "description": "Free Kindle Releases"
+          "description": "Free Kindle Releases",
+          "mirrors": [
+            "https://www.ereaderiq.com/freebies"
+          ]
         },
         {
           "name": "r/FREE",
@@ -475,22 +417,12 @@
         {
           "name": "SteamGifts",
           "url": "https://www.steamgifts.com/",
-          "description": "Steam Games"
-        },
-        {
-          "name": "Free250",
-          "url": "https://steam250.com/price/free",
-          "description": "Steam Games"
-        },
-        {
-          "name": "r/FreeGamesOnSteam",
-          "url": "https://reddit.com/r/FreeGamesOnSteam",
-          "description": "Steam Games"
-        },
-        {
-          "name": "SteamDB",
-          "url": "https://steamdb.info/upcoming/free/",
-          "description": "Steam Games"
+          "description": "Steam Games",
+          "mirrors": [
+            "https://steam250.com/price/free",
+            "https://reddit.com/r/FreeGamesOnSteam",
+            "https://steamdb.info/upcoming/free/"
+          ]
         },
         {
           "name": "Key Hub",
@@ -562,12 +494,10 @@
         {
           "name": "Epic Games Free",
           "url": "https://www.epicgames.com/store/en-US/free-games",
-          "description": "Free Epic Games"
-        },
-        {
-          "name": "Epic Free Games",
-          "url": "https://t.me/epicfreegames",
-          "description": "Free Epic Games"
+          "description": "Free Epic Games",
+          "mirrors": [
+            "https://t.me/epicfreegames"
+          ]
         },
         {
           "name": "EpicFreeGamesList",
@@ -587,12 +517,10 @@
         {
           "name": "⁠VRDB",
           "url": "https://vrdb.app/games?min_price=0&max_price=0",
-          "description": "VR Games"
-        },
-        {
-          "name": "QuestStoreDB",
-          "url": "https://queststoredb.com/free_apps/",
-          "description": "VR Games"
+          "description": "VR Games",
+          "mirrors": [
+            "https://queststoredb.com/free_apps/"
+          ]
         },
         {
           "name": "NobsGames",
@@ -620,12 +548,10 @@
         {
           "name": "r/FreeGameFindings",
           "url": "https://reddit.com/r/FreeGameFindings",
-          "description": ""
-        },
-        {
-          "name": "Socials",
-          "url": "https://freegamefindings.ca/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://freegamefindings.ca/"
+          ]
         },
         {
           "name": "r/Freegamestuff",
@@ -662,12 +588,10 @@
         {
           "name": "r/Assistance",
           "url": "https://www.reddit.com/r/Assistance/",
-          "description": "Assistance / Donation Subreddits"
-        },
-        {
-          "name": "r/borrow",
-          "url": "https://www.reddit.com/r/borrow/",
-          "description": "Assistance / Donation Subreddits"
+          "description": "Assistance / Donation Subreddits",
+          "mirrors": [
+            "https://www.reddit.com/r/borrow/"
+          ]
         },
         {
           "name": "r/Homeless",
@@ -687,27 +611,13 @@
         {
           "name": "CharityNavigator",
           "url": "https://www.charitynavigator.org/",
-          "description": "Charity Ratings / Resources"
-        },
-        {
-          "name": "Arab.org",
-          "url": "https://arab.org/",
-          "description": "Charity Ratings / Resources"
-        },
-        {
-          "name": "CharityWatch",
-          "url": "https://www.charitywatch.org/",
-          "description": "Charity Ratings / Resources"
-        },
-        {
-          "name": "ProPublica",
-          "url": "https://projects.propublica.org/nonprofits/",
-          "description": "Charity Ratings / Resources"
-        },
-        {
-          "name": "GiveWell",
-          "url": "https://www.givewell.org",
-          "description": "Charity Ratings / Resources"
+          "description": "Charity Ratings / Resources",
+          "mirrors": [
+            "https://arab.org/",
+            "https://www.charitywatch.org/",
+            "https://projects.propublica.org/nonprofits/",
+            "https://www.givewell.org"
+          ]
         },
         {
           "name": "Free Rice",
@@ -745,37 +655,15 @@
           "name": "Grocy",
           "url": "https://grocy.info/",
           "description": "Grocery / Pantry Managers",
-          "starred": true
-        },
-        {
-          "name": "Android",
-          "url": "https://patrickzedler.com/grocy/",
-          "description": "Grocery / Pantry Managers"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/grocy",
-          "description": "Grocery / Pantry Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/grocy/grocy",
-          "description": "Grocery / Pantry Managers"
-        },
-        {
-          "name": "Listonic",
-          "url": "https://new.app.listonic.com/en",
-          "description": "Grocery / Pantry Managers"
-        },
-        {
-          "name": "KitchenOwl",
-          "url": "https://kitchenowl.org/",
-          "description": "Grocery / Pantry Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/TomBursch/kitchenowl",
-          "description": "Grocery / Pantry Managers"
+          "starred": true,
+          "mirrors": [
+            "https://patrickzedler.com/grocy/",
+            "https://www.reddit.com/r/grocy",
+            "https://github.com/grocy/grocy",
+            "https://new.app.listonic.com/en",
+            "https://kitchenowl.org/",
+            "https://github.com/TomBursch/kitchenowl"
+          ]
         },
         {
           "name": "Sporked",
@@ -787,12 +675,10 @@
           "name": "Still Tasty",
           "url": "https://www.stilltasty.com/",
           "description": "Shelf Life Guides",
-          "starred": true
-        },
-        {
-          "name": "EatByDate",
-          "url": "https://www.eatbydate.com/",
-          "description": "Shelf Life Guides"
+          "starred": true,
+          "mirrors": [
+            "https://www.eatbydate.com/"
+          ]
         },
         {
           "name": "OpenTable",
@@ -816,12 +702,10 @@
         {
           "name": "FoodExpirationDates",
           "url": "https://github.com/lorenzovngl/FoodExpirationDates",
-          "description": "Food Expiration Trackers"
-        },
-        {
-          "name": "Fridgey",
-          "url": "https://f-droid.org/packages/lying.fengfeng.foodrecords/",
-          "description": "Food Expiration Trackers"
+          "description": "Food Expiration Trackers",
+          "mirrors": [
+            "https://f-droid.org/packages/lying.fengfeng.foodrecords/"
+          ]
         },
         {
           "name": "⁠Cook Well",
@@ -894,73 +778,29 @@
           "name": "Tandoor Recipes",
           "url": "https://docs.tandoor.dev/",
           "description": "Recipe Managers",
-          "starred": true
-        },
-        {
-          "name": "Mealie",
-          "url": "https://mealie.io/",
-          "description": "Recipe Managers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/QuStdQGSGK",
-          "description": "Recipe Managers"
-        },
-        {
-          "name": "⁠GrubPick",
-          "url": "https://grubpick.com/",
-          "description": "Recipe Managers"
-        },
-        {
-          "name": "Cooked",
-          "url": "https://cooked.wiki/",
-          "description": "Recipe Managers"
-        },
-        {
-          "name": "ManageMeals",
-          "url": "https://managemeals.com/",
-          "description": "Recipe Managers"
+          "starred": true,
+          "mirrors": [
+            "https://mealie.io/",
+            "https://discord.com/invite/QuStdQGSGK",
+            "https://grubpick.com/",
+            "https://cooked.wiki/",
+            "https://managemeals.com/"
+          ]
         },
         {
           "name": "Noods.io",
           "url": "https://noods.io/",
           "description": "Extract Recipes from Sites / Firefox / Chrome",
-          "starred": true
-        },
-        {
-          "name": "⁠Gobsmacked",
-          "url": "https://gobsmacked.io/",
-          "description": "Extract Recipes from Sites / Firefox / Chrome"
-        },
-        {
-          "name": "Just the Recipe",
-          "url": "https://www.justtherecipe.com/",
-          "description": "Extract Recipes from Sites / Firefox / Chrome"
-        },
-        {
-          "name": "WheresTheDish",
-          "url": "https://www.wheresthedish.com/",
-          "description": "Extract Recipes from Sites / Firefox / Chrome"
-        },
-        {
-          "name": "⁠Forkestrate",
-          "url": "https://app.forkestrate.com/",
-          "description": "Extract Recipes from Sites / Firefox / Chrome"
-        },
-        {
-          "name": "Copy Me That",
-          "url": "https://www.copymethat.com/",
-          "description": "Extract Recipes from Sites / Firefox / Chrome"
-        },
-        {
-          "name": "drizzlelemons",
-          "url": "https://www.drizzlelemons.com/",
-          "description": "Extract Recipes from Sites / Firefox / Chrome"
-        },
-        {
-          "name": "PlainOldRecipe",
-          "url": "https://www.plainoldrecipe.com/",
-          "description": "Extract Recipes from Sites / Firefox / Chrome"
+          "starred": true,
+          "mirrors": [
+            "https://gobsmacked.io/",
+            "https://www.justtherecipe.com/",
+            "https://www.wheresthedish.com/",
+            "https://app.forkestrate.com/",
+            "https://www.copymethat.com/",
+            "https://www.drizzlelemons.com/",
+            "https://www.plainoldrecipe.com/"
+          ]
         },
         {
           "name": "SuperCook",
@@ -971,12 +811,10 @@
         {
           "name": "MyFridgeFood",
           "url": "https://myfridgefood.com/",
-          "description": "Find Recipes Based on Ingredients"
-        },
-        {
-          "name": "WhiskIt",
-          "url": "https://whiskit.ai/",
-          "description": "Find Recipes Based on Ingredients"
+          "description": "Find Recipes Based on Ingredients",
+          "mirrors": [
+            "https://whiskit.ai/"
+          ]
         },
         {
           "name": "FoodSubs",
@@ -991,12 +829,10 @@
         {
           "name": "Fit Men Cook",
           "url": "https://fitmencook.com/",
-          "description": "Recipes"
-        },
-        {
-          "name": "PunchFork",
-          "url": "https://www.punchfork.com/",
-          "description": "Recipes"
+          "description": "Recipes",
+          "mirrors": [
+            "https://www.punchfork.com/"
+          ]
         },
         {
           "name": "Search-22",
@@ -1005,7 +841,7 @@
         },
         {
           "name": "Wikibook Recipes",
-          "url": "https://en.wikibooks.org/wiki/Category:Cookbook",
+          "url": "https://wikibooks.org/wiki/Category:Cookbook",
           "description": "Recipe Wiki"
         },
         {
@@ -1091,38 +927,22 @@
           "name": "/coffee/",
           "url": "https://dan.valeena.dev/guides/coffee-guide/",
           "description": "Coffee Brewing Masterlists / Guides",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://rentry.co/coffeeguide",
-          "description": "Coffee Brewing Masterlists / Guides"
-        },
-        {
-          "name": "Coffee Time General",
-          "url": "https://pastebin.com/UEzwuyLz",
-          "description": "Coffee Brewing Masterlists / Guides"
+          "starred": true,
+          "mirrors": [
+            "https://rentry.co/coffeeguide",
+            "https://pastebin.com/UEzwuyLz"
+          ]
         },
         {
           "name": "Beanconqueror",
           "url": "https://beanconqueror.com/",
           "description": "Coffee Tracking Apps / Timers",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/graphefruit/Beanconqueror",
-          "description": "Coffee Tracking Apps / Timers"
-        },
-        {
-          "name": "Timer.Coffee",
-          "url": "https://www.timer.coffee",
-          "description": "Coffee Tracking Apps / Timers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/antonkarliner/timer-coffee",
-          "description": "Coffee Tracking Apps / Timers"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/graphefruit/Beanconqueror",
+            "https://www.timer.coffee",
+            "https://github.com/antonkarliner/timer-coffee"
+          ]
         },
         {
           "name": "Cofi",
@@ -1229,12 +1049,10 @@
         {
           "name": "Sweet Home 3D",
           "url": "https://www.sweethome3d.com/",
-          "description": "Interior Design Apps"
-        },
-        {
-          "name": "Homestyler",
-          "url": "https://www.homestyler.com/",
-          "description": "Interior Design Apps"
+          "description": "Interior Design Apps",
+          "mirrors": [
+            "https://www.homestyler.com/"
+          ]
         },
         {
           "name": "BlockLayer",
@@ -1268,46 +1086,23 @@
           "description": "Marijuana Subreddits",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Marijuana Subs",
-          "url": "https://www.reddit.com/r/trees/wiki/entreddits_social",
-          "description": "Marijuana Subreddits",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://www.reddit.com/r/trees/wiki/entreddits_social"
           ]
         },
         {
           "name": "EarthEasy",
           "url": "https://learn.eartheasy.com/",
           "description": "Gardening Guides",
-          "starred": true
-        },
-        {
-          "name": "How To Garden",
-          "url": "https://www.bhg.com/gardening/how-to-garden/",
-          "description": "Gardening Guides"
-        },
-        {
-          "name": "HappySprout",
-          "url": "https://www.happysprout.com",
-          "description": "Gardening Guides"
-        },
-        {
-          "name": "Growing Guide",
-          "url": "https://blog.planter.garden/",
-          "description": "Gardening Guides"
-        },
-        {
-          "name": "GrowStuff",
-          "url": "https://www.growstuff.org/",
-          "description": "Gardening Guides"
-        },
-        {
-          "name": "GrowVeg",
-          "url": "https://www.growveg.com/",
-          "description": "Gardening Guides"
+          "starred": true,
+          "mirrors": [
+            "https://www.bhg.com/gardening/how-to-garden/",
+            "https://www.happysprout.com",
+            "https://blog.planter.garden/",
+            "https://www.growstuff.org/",
+            "https://www.growveg.com/"
+          ]
         },
         {
           "name": "r/Gardening",
@@ -1324,12 +1119,10 @@
         {
           "name": "PictureThis",
           "url": "https://www.picturethisai.com/",
-          "description": "Plant Identification Tools / Android / iOS"
-        },
-        {
-          "name": "Pl@ntNet",
-          "url": "https://identify.plantnet.org/",
-          "description": "Plant Identification Tools / Android / iOS"
+          "description": "Plant Identification Tools / Android / iOS",
+          "mirrors": [
+            "https://identify.plantnet.org/"
+          ]
         },
         {
           "name": "WildFlowerSearch",
@@ -1349,17 +1142,11 @@
         {
           "name": "Florae",
           "url": "https://github.com/aeri/Florae",
-          "description": "Plant Care Reminders"
-        },
-        {
-          "name": "Plant-it",
-          "url": "https://plant-it.org/",
-          "description": "Plant Care Reminders"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/MDeLuise/plant-it",
-          "description": "Plant Care Reminders"
+          "description": "Plant Care Reminders",
+          "mirrors": [
+            "https://plant-it.org/",
+            "https://github.com/MDeLuise/plant-it"
+          ]
         },
         {
           "name": "WorldOfSucculents",
@@ -1374,12 +1161,10 @@
         {
           "name": "Gardenia",
           "url": "https://www.gardenia.net/",
-          "description": "Garden Design Resources"
-        },
-        {
-          "name": "Garden Design",
-          "url": "https://www.gardendesign.com/",
-          "description": "Garden Design Resources"
+          "description": "Garden Design Resources",
+          "mirrors": [
+            "https://www.gardendesign.com/"
+          ]
         },
         {
           "name": "r/UrbanGardening",
@@ -1409,22 +1194,18 @@
         {
           "name": "World Hardiness Zones",
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/World_Hardiness_Zones.png",
-          "description": "Global Map of Hardiness Zones"
-        },
-        {
-          "name": "Plantmaps",
-          "url": "https://www.plantmaps.com/",
-          "description": "Global Map of Hardiness Zones"
+          "description": "Global Map of Hardiness Zones",
+          "mirrors": [
+            "https://www.plantmaps.com/"
+          ]
         },
         {
           "name": "r/Microgrowery",
           "url": "https://reddit.com/r/microgrowery/",
-          "description": "Cannabis Growing Communities"
-        },
-        {
-          "name": "GrassCity",
-          "url": "https://forum.grasscity.com/",
-          "description": "Cannabis Growing Communities"
+          "description": "Cannabis Growing Communities",
+          "mirrors": [
+            "https://forum.grasscity.com/"
+          ]
         },
         {
           "name": "SeedFinder",
@@ -1442,42 +1223,22 @@
         {
           "name": "Startmycar",
           "url": "https://www.startmycar.com",
-          "description": "Car Repair Sites"
-        },
-        {
-          "name": "CarCareKiosk",
-          "url": "https://www.carcarekiosk.com/",
-          "description": "Car Repair Sites"
-        },
-        {
-          "name": "CarComplaints",
-          "url": "https://www.carcomplaints.com/",
-          "description": "Car Repair Sites"
+          "description": "Car Repair Sites",
+          "mirrors": [
+            "https://www.carcarekiosk.com/",
+            "https://www.carcomplaints.com/"
+          ]
         },
         {
           "name": "JDMFSM",
           "url": "https://jdmfsm.info/Auto/",
-          "description": "Auto Repair Manuals"
-        },
-        {
-          "name": "Charm",
-          "url": "https://charm.li/",
-          "description": "Auto Repair Manuals"
-        },
-        {
-          "name": "CarPDFManual",
-          "url": "https://www.carpdfmanual.com/",
-          "description": "Auto Repair Manuals"
-        },
-        {
-          "name": "iFitIt Vehicle",
-          "url": "https://www.ifixit.com/Device/Car_and_Truck",
-          "description": "Auto Repair Manuals"
-        },
-        {
-          "name": "ProCarManuals",
-          "url": "https://procarmanuals.com/",
-          "description": "Auto Repair Manuals"
+          "description": "Auto Repair Manuals",
+          "mirrors": [
+            "https://charm.li/",
+            "https://www.carpdfmanual.com/",
+            "https://www.ifixit.com/Device/Car_and_Truck",
+            "https://procarmanuals.com/"
+          ]
         },
         {
           "name": "Ownersman.com",
@@ -1487,12 +1248,10 @@
         {
           "name": "PremierProduct",
           "url": "https://www.premierproducts-uk.co.uk/",
-          "description": "Vehicle Manuals"
-        },
-        {
-          "name": "Auto Manual",
-          "url": "https://www.auto-manual.com/",
-          "description": "Vehicle Manuals"
+          "description": "Vehicle Manuals",
+          "mirrors": [
+            "https://www.auto-manual.com/"
+          ]
         },
         {
           "name": "Cars.com",
@@ -1550,33 +1309,21 @@
         {
           "name": "Alibi",
           "url": "https://github.com/Myzel394/Alibi",
-          "description": "Mobile Dashcams"
-        },
-        {
-          "name": "DroidDashcam",
-          "url": "https://play.google.com/store/apps/details?id=com.helge.droiddashcam",
-          "description": "Mobile Dashcams"
+          "description": "Mobile Dashcams",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.helge.droiddashcam"
+          ]
         },
         {
           "name": "Atlas Obscura",
           "url": "https://www.atlasobscura.com/",
           "description": "Travel Guides",
-          "starred": true
-        },
-        {
-          "name": "Mobile",
-          "url": "https://app.atlasobscura.com/",
-          "description": "Travel Guides"
-        },
-        {
-          "name": "Wikivoyage",
-          "url": "https://www.wikivoyage.org",
-          "description": "Travel Guides"
-        },
-        {
-          "name": "WikiTravel",
-          "url": "https://wikitravel.org/",
-          "description": "Travel Guides"
+          "starred": true,
+          "mirrors": [
+            "https://app.atlasobscura.com/",
+            "https://www.wikivoyage.org",
+            "https://wikitravel.org/"
+          ]
         },
         {
           "name": "⁠CozyCozy",
@@ -1646,37 +1393,15 @@
           "name": "ADS-B Exchange",
           "url": "https://globe.adsbexchange.com/",
           "description": "Live Flight Trackers",
-          "starred": true
-        },
-        {
-          "name": "FlightRadar24",
-          "url": "https://www.flightradar24.com/",
-          "description": "Live Flight Trackers"
-        },
-        {
-          "name": "PlaneFinder",
-          "url": "https://planefinder.net/",
-          "description": "Live Flight Trackers"
-        },
-        {
-          "name": "Airplanes.live",
-          "url": "https://globe.airplanes.live/",
-          "description": "Live Flight Trackers"
-        },
-        {
-          "name": "Radarbox",
-          "url": "https://www.airnavradar.com/",
-          "description": "Live Flight Trackers"
-        },
-        {
-          "name": "Air Loom",
-          "url": "https://objectiveunclear.com/airloom.html",
-          "description": "Live Flight Trackers"
-        },
-        {
-          "name": "FlightAware",
-          "url": "https://www.flightaware.com/",
-          "description": "Live Flight Trackers"
+          "starred": true,
+          "mirrors": [
+            "https://www.flightradar24.com/",
+            "https://planefinder.net/",
+            "https://globe.airplanes.live/",
+            "https://www.airnavradar.com/",
+            "https://objectiveunclear.com/airloom.html",
+            "https://www.flightaware.com/"
+          ]
         },
         {
           "name": "VisaIndex",
@@ -1686,12 +1411,10 @@
         {
           "name": "Google Flights",
           "url": "https://www.google.com/travel/flights",
-          "description": "Compare / Book Flights"
-        },
-        {
-          "name": "⁠SkyScanner",
-          "url": "https://skyscanner.net/",
-          "description": "Compare / Book Flights"
+          "description": "Compare / Book Flights",
+          "mirrors": [
+            "https://skyscanner.net/"
+          ]
         },
         {
           "name": "seats.aero",
@@ -1735,22 +1458,10 @@
           "description": "Atlases",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "ArcGIS Living Atlas",
-          "url": "https://livingatlas.arcgis.com/",
-          "description": "Atlases",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Cool Maps",
-          "url": "https://coolmaps.esri.com/",
-          "description": "Atlases",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://livingatlas.arcgis.com/",
+            "https://coolmaps.esri.com/"
           ]
         },
         {
@@ -1765,27 +1476,13 @@
           "name": "CrisisWatch",
           "url": "https://www.crisisgroup.org/crisiswatch",
           "description": "Global Conflicts Map",
-          "starred": true
-        },
-        {
-          "name": "ACLED",
-          "url": "https://acleddata.com/data/",
-          "description": "Global Conflicts Map"
-        },
-        {
-          "name": "Global Conflict Tracker",
-          "url": "https://www.cfr.org/global-conflict-tracker",
-          "description": "Global Conflicts Map"
-        },
-        {
-          "name": "LiveUAMap",
-          "url": "https://liveuamap.com/",
-          "description": "Global Conflicts Map"
-        },
-        {
-          "name": "Israeli-Palestine Conflict",
-          "url": "https://israelpalestine.liveuamap.com/",
-          "description": "Global Conflicts Map"
+          "starred": true,
+          "mirrors": [
+            "https://acleddata.com/data/",
+            "https://www.cfr.org/global-conflict-tracker",
+            "https://liveuamap.com/",
+            "https://israelpalestine.liveuamap.com/"
+          ]
         },
         {
           "name": "Maps.com",
@@ -1810,12 +1507,10 @@
         {
           "name": "Copernix",
           "url": "https://copernix.io/",
-          "description": "Explore a Map with Wikipedia"
-        },
-        {
-          "name": "Local Map",
-          "url": "https://www.matthewsiu.com/local-map",
-          "description": "Explore a Map with Wikipedia"
+          "description": "Explore a Map with Wikipedia",
+          "mirrors": [
+            "https://www.matthewsiu.com/local-map"
+          ]
         },
         {
           "name": "Flickr Map",
@@ -1835,17 +1530,11 @@
         {
           "name": "Urbex",
           "url": "https://urbexology.com/",
-          "description": "Urban Exploration / Abandoned Place Maps"
-        },
-        {
-          "name": "UER",
-          "url": "https://www.uer.ca/locations/gmaps/",
-          "description": "Urban Exploration / Abandoned Place Maps"
-        },
-        {
-          "name": "Forum",
-          "url": "https://www.uer.ca/forum_showcats.asp",
-          "description": "Urban Exploration / Abandoned Place Maps"
+          "description": "Urban Exploration / Abandoned Place Maps",
+          "mirrors": [
+            "https://www.uer.ca/locations/gmaps/",
+            "https://www.uer.ca/forum_showcats.asp"
+          ]
         },
         {
           "name": "⁠Arcade Database",
@@ -1865,12 +1554,10 @@
         {
           "name": "MapChart",
           "url": "https://mapchart.net/",
-          "description": "Create Custom Maps"
-        },
-        {
-          "name": "Qgis",
-          "url": "https://qgis.org/",
-          "description": "Create Custom Maps"
+          "description": "Create Custom Maps",
+          "mirrors": [
+            "https://qgis.org/"
+          ]
         },
         {
           "name": "There to Where",
@@ -1885,12 +1572,10 @@
         {
           "name": "⁠CartoArt",
           "url": "https://carto-art.vercel.app/",
-          "description": "Map Poster Generators"
-        },
-        {
-          "name": "Map to Poster",
-          "url": "https://github.com/originalankur/maptoposter",
-          "description": "Map Poster Generators"
+          "description": "Map Poster Generators",
+          "mirrors": [
+            "https://github.com/originalankur/maptoposter"
+          ]
         },
         {
           "name": "Dawarich",
@@ -1918,12 +1603,10 @@
         {
           "name": "Freedom House",
           "url": "https://freedomhouse.org/explore-the-map",
-          "description": "Freedom Maps"
-        },
-        {
-          "name": "Civicus Monitor",
-          "url": "https://monitor.civicus.org/",
-          "description": "Freedom Maps"
+          "description": "Freedom Maps",
+          "mirrors": [
+            "https://monitor.civicus.org/"
+          ]
         },
         {
           "name": "Trans Rights Map",
@@ -1943,32 +1626,20 @@
         {
           "name": "Notable People",
           "url": "https://tjukanovt.github.io/notable-people",
-          "description": "Notable People Maps"
-        },
-        {
-          "name": "People Map",
-          "url": "https://pudding.cool/2019/05/people-map/",
-          "description": "Notable People Maps"
+          "description": "Notable People Maps",
+          "mirrors": [
+            "https://pudding.cool/2019/05/people-map/"
+          ]
         },
         {
           "name": "NUKEMAP",
           "url": "https://nuclearsecrecy.com/nukemap/",
-          "description": "Interactive Damage Effect Maps"
-        },
-        {
-          "name": "NukeSim",
-          "url": "https://www.nukesim.com/",
-          "description": "Interactive Damage Effect Maps"
-        },
-        {
-          "name": "Bomb Blast",
-          "url": "https://outrider.org/nuclear-weapons/interactive/bomb-blast",
-          "description": "Interactive Damage Effect Maps"
-        },
-        {
-          "name": "MISSILEMAP",
-          "url": "https://nuclearsecrecy.com/missilemap/",
-          "description": "Interactive Damage Effect Maps"
+          "description": "Interactive Damage Effect Maps",
+          "mirrors": [
+            "https://www.nukesim.com/",
+            "https://outrider.org/nuclear-weapons/interactive/bomb-blast",
+            "https://nuclearsecrecy.com/missilemap/"
+          ]
         },
         {
           "name": "CAD Mapper",
@@ -1976,7 +1647,7 @@
           "description": "Free CAD Files"
         }
       ],
-      "note": "Remember it's 常に good to cross-check flight prices across multiple providers + the airline's site itself to be sure you're getting the best deal."
+      "note": "Remember it's 常に good to cross-check flight prices across multiple providers + the airline's サイト itself to be sure you're getting the best deal."
     },
     {
       "id": "misc-navigation-transport",
@@ -1986,58 +1657,26 @@
           "name": "Google Maps",
           "url": "https://www.google.com/maps/",
           "description": "Online / Offline Maps",
-          "starred": true
-        },
-        {
-          "name": "Apple Maps",
-          "url": "https://beta.maps.apple.com/",
-          "description": "Online / Offline Maps"
-        },
-        {
-          "name": "Bing Maps",
-          "url": "https://www.bing.com/maps",
-          "description": "Online / Offline Maps"
-        },
-        {
-          "name": "OsmAnd",
-          "url": "https://osmand.net/",
-          "description": "Online / Offline Maps"
-        },
-        {
-          "name": "Mapy",
-          "url": "https://mapy.com",
-          "description": "Online / Offline Maps"
+          "starred": true,
+          "mirrors": [
+            "https://beta.maps.apple.com/",
+            "https://www.bing.com/maps",
+            "https://osmand.net/",
+            "https://mapy.com"
+          ]
         },
         {
           "name": "CoMaps",
           "url": "https://www.comaps.app/",
           "description": "Offline Maps",
-          "starred": true
-        },
-        {
-          "name": "Source Code",
-          "url": "https://codeberg.org/comaps/comaps",
-          "description": "Offline Maps"
-        },
-        {
-          "name": "Organic Maps",
-          "url": "https://organicmaps.app/",
-          "description": "Offline Maps"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/organicmaps/",
-          "description": "Offline Maps"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/OrganicMaps",
-          "description": "Offline Maps"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/organicmaps/organicmaps",
-          "description": "Offline Maps"
+          "starred": true,
+          "mirrors": [
+            "https://codeberg.org/comaps/comaps",
+            "https://organicmaps.app/",
+            "https://www.reddit.com/r/organicmaps/",
+            "https://t.me/OrganicMaps",
+            "https://github.com/organicmaps/organicmaps"
+          ]
         },
         {
           "name": "OpenStreetMap",
@@ -2075,12 +1714,10 @@
         {
           "name": "Wikiroutes",
           "url": "https://wikiroutes.info/",
-          "description": "Public Transport Maps"
-        },
-        {
-          "name": "CityMapper",
-          "url": "https://citymapper.com/",
-          "description": "Public Transport Maps"
+          "description": "Public Transport Maps",
+          "mirrors": [
+            "https://citymapper.com/"
+          ]
         },
         {
           "name": "AnyTrip",
@@ -2113,32 +1750,20 @@
         {
           "name": "ALPR Watch",
           "url": "https://alprwatch.org/",
-          "description": "AI Automated License Plate Reader Cameras / ALPR Maps"
-        },
-        {
-          "name": "DeFlock",
-          "url": "https://deflock.me/",
-          "description": "AI Automated License Plate Reader Cameras / ALPR Maps"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/aV7v4R3sKT",
-          "description": "AI Automated License Plate Reader Cameras / ALPR Maps"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/FoggedLens/deflock",
-          "description": "AI Automated License Plate Reader Cameras / ALPR Maps"
+          "description": "AI Automated License Plate Reader Cameras / ALPR Maps",
+          "mirrors": [
+            "https://deflock.me/",
+            "https://discord.gg/aV7v4R3sKT",
+            "https://github.com/FoggedLens/deflock"
+          ]
         },
         {
           "name": "People Over Papers",
           "url": "https://iceout.org/en/",
-          "description": "ICE Activity Information / Maps"
-        },
-        {
-          "name": "ICE Map",
-          "url": "https://www.icemap.dev/",
-          "description": "ICE Activity Information / Maps"
+          "description": "ICE Activity Information / Maps",
+          "mirrors": [
+            "https://www.icemap.dev/"
+          ]
         },
         {
           "name": "⁠Geo Share",
@@ -2194,12 +1819,10 @@
         {
           "name": "SignalBox",
           "url": "https://www.map.signalbox.io/",
-          "description": "UK Live Train Maps"
-        },
-        {
-          "name": "Live Tube Map",
-          "url": "https://www.londonunderground.live/",
-          "description": "UK Live Train Maps"
+          "description": "UK Live Train Maps",
+          "mirrors": [
+            "https://www.londonunderground.live/"
+          ]
         },
         {
           "name": "Train positions",
@@ -2226,47 +1849,17 @@
           "name": "Windy",
           "url": "https://www.windy.com/",
           "description": "General Weather / Climate Maps",
-          "starred": true
-        },
-        {
-          "name": "Ventusky",
-          "url": "https://www.ventusky.com/",
-          "description": "General Weather / Climate Maps"
-        },
-        {
-          "name": "⁠WXCharts",
-          "url": "https://wxcharts.com/",
-          "description": "General Weather / Climate Maps"
-        },
-        {
-          "name": "Earth Observatory",
-          "url": "https://earthobservatory.nasa.gov/global-maps",
-          "description": "General Weather / Climate Maps"
-        },
-        {
-          "name": "Zoom Earth",
-          "url": "https://zoom.earth/",
-          "description": "General Weather / Climate Maps"
-        },
-        {
-          "name": "Weatherwise",
-          "url": "https://web.weatherwise.app/",
-          "description": "General Weather / Climate Maps"
-        },
-        {
-          "name": "Earth Now",
-          "url": "https://climate.nasa.gov/earth-now/",
-          "description": "General Weather / Climate Maps"
-        },
-        {
-          "name": "Earth",
-          "url": "https://earth.nullschool.net/",
-          "description": "General Weather / Climate Maps"
-        },
-        {
-          "name": "satellite-map.gosur",
-          "url": "https://satellite-map.gosur.com/",
-          "description": "General Weather / Climate Maps"
+          "starred": true,
+          "mirrors": [
+            "https://www.ventusky.com/",
+            "https://wxcharts.com/",
+            "https://earthobservatory.nasa.gov/global-maps",
+            "https://zoom.earth/",
+            "https://web.weatherwise.app/",
+            "https://climate.nasa.gov/earth-now/",
+            "https://earth.nullschool.net/",
+            "https://satellite-map.gosur.com/"
+          ]
         },
         {
           "name": "⁠CyclonicWx",
@@ -2329,12 +1922,10 @@
         {
           "name": "Blitzortung.org",
           "url": "https://www.blitzortung.org/en/live_lightning_maps.php",
-          "description": "Lightning / Thunderstorms Maps"
-        },
-        {
-          "name": "Lightning Maps",
-          "url": "https://www.lightningmaps.org/",
-          "description": "Lightning / Thunderstorms Maps"
+          "description": "Lightning / Thunderstorms Maps",
+          "mirrors": [
+            "https://www.lightningmaps.org/"
+          ]
         },
         {
           "name": "ClearOutside",
@@ -2349,12 +1940,10 @@
         {
           "name": "Light Pollution Map",
           "url": "https://lightpollutionmap.info/",
-          "description": "Light Pollution Maps"
-        },
-        {
-          "name": "lightpollutionmap",
-          "url": "https://lightpollutionmap.app",
-          "description": "Light Pollution Maps"
+          "description": "Light Pollution Maps",
+          "mirrors": [
+            "https://lightpollutionmap.app"
+          ]
         },
         {
           "name": "CPRE",
@@ -2400,17 +1989,11 @@
         {
           "name": "MarineTraffic",
           "url": "https://www.marinetraffic.com/",
-          "description": "Live Ship Trackers"
-        },
-        {
-          "name": "CruiseMapper",
-          "url": "https://www.cruisemapper.com/",
-          "description": "Live Ship Trackers"
-        },
-        {
-          "name": "MyShipTracking",
-          "url": "https://www.myshiptracking.com/",
-          "description": "Live Ship Trackers"
+          "description": "Live Ship Trackers",
+          "mirrors": [
+            "https://www.cruisemapper.com/",
+            "https://www.myshiptracking.com/"
+          ]
         },
         {
           "name": "EuroBirdPortal",
@@ -2499,12 +2082,10 @@
         {
           "name": "River Runner",
           "url": "https://river-runner.samlearner.com/",
-          "description": "Raindrop Tracking Map"
-        },
-        {
-          "name": "3D Map",
-          "url": "https://river-runner-global.samlearner.com/",
-          "description": "Raindrop Tracking Map"
+          "description": "Raindrop Tracking Map",
+          "mirrors": [
+            "https://river-runner-global.samlearner.com/"
+          ]
         },
         {
           "name": "Global Wetlands",
@@ -2558,14 +2139,9 @@
           "description": "Historical Map Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "David Rumsey Map Collection",
-          "url": "https://www.davidrumsey.com/",
-          "description": "Historical Map Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://www.davidrumsey.com/"
           ]
         },
         {
@@ -2617,12 +2193,10 @@
         {
           "name": "r/oldmaps",
           "url": "https://www.reddit.com/r/oldmaps/",
-          "description": "Historical Maps Community"
-        },
-        {
-          "name": "r/papertowns",
-          "url": "https://www.reddit.com/r/papertowns/",
-          "description": "Historical Maps Community"
+          "description": "Historical Maps Community",
+          "mirrors": [
+            "https://www.reddit.com/r/papertowns/"
+          ]
         },
         {
           "name": "Historical City Maps",
@@ -2732,12 +2306,10 @@
         {
           "name": "CellMapper",
           "url": "https://www.cellmapper.net/",
-          "description": "Cell Tower Maps"
-        },
-        {
-          "name": "OpenCelliD",
-          "url": "https://opencellid.org/",
-          "description": "Cell Tower Maps"
+          "description": "Cell Tower Maps",
+          "mirrors": [
+            "https://opencellid.org/"
+          ]
         },
         {
           "name": "Spectrum Ownership Map",
@@ -2779,12 +2351,10 @@
         {
           "name": "FacilMap",
           "url": "https://facilmap.org/",
-          "description": "OSM Web Apps"
-        },
-        {
-          "name": "OsmAPP",
-          "url": "https://osmapp.org/",
-          "description": "OSM Web Apps"
+          "description": "OSM Web Apps",
+          "mirrors": [
+            "https://osmapp.org/"
+          ]
         },
         {
           "name": "OpenMapTiles",
@@ -2804,12 +2374,10 @@
         {
           "name": "Mapillary",
           "url": "https://www.mapillary.com/",
-          "description": "Open Street View Data"
-        },
-        {
-          "name": "Mapcarta",
-          "url": "https://mapcarta.com/",
-          "description": "Open Street View Data"
+          "description": "Open Street View Data",
+          "mirrors": [
+            "https://mapcarta.com/"
+          ]
         },
         {
           "name": "Instant Street View",
@@ -2819,12 +2387,10 @@
         {
           "name": "MapCrunch",
           "url": "https://www.mapcrunch.com/",
-          "description": "Random Street View"
-        },
-        {
-          "name": "Random Street View",
-          "url": "https://randomstreetview.com/",
-          "description": "Random Street View"
+          "description": "Random Street View",
+          "mirrors": [
+            "https://randomstreetview.com/"
+          ]
         },
         {
           "name": "city roads",
@@ -2855,7 +2421,7 @@
         },
         {
           "name": "Current Events Wiki",
-          "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+          "url": "https://wikipedia.org/wiki/Portal:Current_events",
           "description": "Breaking News",
           "starred": true
         },
@@ -2863,12 +2429,10 @@
           "name": "Good News Network",
           "url": "https://www.goodnewsnetwork.org/",
           "description": "Uplifting News",
-          "starred": true
-        },
-        {
-          "name": "Happy Daze",
-          "url": "https://happydaze.io/",
-          "description": "Uplifting News"
+          "starred": true,
+          "mirrors": [
+            "https://happydaze.io/"
+          ]
         },
         {
           "name": "News as Facts",
@@ -2928,37 +2492,15 @@
         {
           "name": "MedicineNet",
           "url": "https://www.medicinenet.com/",
-          "description": "Health News"
-        },
-        {
-          "name": "MedPageToday",
-          "url": "https://www.medpagetoday.com/",
-          "description": "Health News"
-        },
-        {
-          "name": "EverydayHealth",
-          "url": "https://www.everydayhealth.com/",
-          "description": "Health News"
-        },
-        {
-          "name": "Medscape",
-          "url": "https://www.medscape.com/",
-          "description": "Health News"
-        },
-        {
-          "name": "healthline",
-          "url": "https://www.healthline.com/",
-          "description": "Health News"
-        },
-        {
-          "name": "Medicalxpress",
-          "url": "https://medicalxpress.com/",
-          "description": "Health News"
-        },
-        {
-          "name": "WebMD",
-          "url": "https://www.webmd.com/",
-          "description": "Health News"
+          "description": "Health News",
+          "mirrors": [
+            "https://www.medpagetoday.com/",
+            "https://www.everydayhealth.com/",
+            "https://www.medscape.com/",
+            "https://www.healthline.com/",
+            "https://medicalxpress.com/",
+            "https://www.webmd.com/"
+          ]
         },
         {
           "name": "MathURLs",
@@ -2998,57 +2540,37 @@
         {
           "name": "POTUS Tracker",
           "url": "https://potustracker.us/",
-          "description": "Government Executive Orders, Location & more"
-        },
-        {
-          "name": "GovData",
-          "url": "https://www.govactionlist.com/",
-          "description": "Government Executive Orders, Location & more"
-        },
-        {
-          "name": "WikiPolitica",
-          "url": "https://wikipolitica.org/",
-          "description": "Government Executive Orders, Location & more"
+          "description": "Government Executive Orders, Location & more",
+          "mirrors": [
+            "https://www.govactionlist.com/",
+            "https://wikipolitica.org/"
+          ]
         },
         {
           "name": "FlightSaftey",
           "url": "https://asn.flightsafety.org/",
-          "description": "Aviation Incidents / News"
-        },
-        {
-          "name": "PlaneCrashInfo",
-          "url": "https://www.planecrashinfo.com/",
-          "description": "Aviation Incidents / News"
-        },
-        {
-          "name": "AVHerald",
-          "url": "https://avherald.com/",
-          "description": "Aviation Incidents / News"
+          "description": "Aviation Incidents / News",
+          "mirrors": [
+            "https://www.planecrashinfo.com/",
+            "https://avherald.com/"
+          ]
         },
         {
           "name": "Read Something Wonderful",
           "url": "https://readsomethingwonderful.com/",
-          "description": "Random Articles / Blog Posts"
-        },
-        {
-          "name": "Read Something Great",
-          "url": "https://www.readsomethinggreat.com/",
-          "description": "Random Articles / Blog Posts"
-        },
-        {
-          "name": "BoredReading",
-          "url": "https://boredreading.com/",
-          "description": "Random Articles / Blog Posts"
+          "description": "Random Articles / Blog Posts",
+          "mirrors": [
+            "https://www.readsomethinggreat.com/",
+            "https://boredreading.com/"
+          ]
         },
         {
           "name": "Media Bias Fact Check",
           "url": "https://drmikecrowe.github.io/mbfcext/",
-          "description": "Media Bias Checkers"
-        },
-        {
-          "name": "HonestyMeter",
-          "url": "https://www.honestymeter.com/",
-          "description": "Media Bias Checkers"
+          "description": "Media Bias Checkers",
+          "mirrors": [
+            "https://www.honestymeter.com/"
+          ]
         },
         {
           "name": "PressMob",
@@ -3058,12 +2580,10 @@
         {
           "name": "Scribe",
           "url": "https://sr.ht/~edwardloveall/Scribe/",
-          "description": "Medium Frontends"
-        },
-        {
-          "name": "LibMedium",
-          "url": "https://libmedium.batsense.net/",
-          "description": "Medium Frontends"
+          "description": "Medium Frontends",
+          "mirrors": [
+            "https://libmedium.batsense.net/"
+          ]
         }
       ]
     },
@@ -3214,17 +2734,11 @@
         {
           "name": "TuxURLs",
           "url": "https://tuxurls.com/",
-          "description": "Linux News"
-        },
-        {
-          "name": "phoronix",
-          "url": "https://www.phoronix.com/",
-          "description": "Linux News"
-        },
-        {
-          "name": "⁠LWN",
-          "url": "https://lwn.net/Archives/",
-          "description": "Linux News"
+          "description": "Linux News",
+          "mirrors": [
+            "https://www.phoronix.com/",
+            "https://lwn.net/Archives/"
+          ]
         },
         {
           "name": "Liliputing",
@@ -3234,37 +2748,21 @@
         {
           "name": "Geeks3D",
           "url": "https://www.geeks3d.com/",
-          "description": "Hardware News / Reviews"
-        },
-        {
-          "name": "Toms Hardware",
-          "url": "https://www.tomshardware.com/",
-          "description": "Hardware News / Reviews"
-        },
-        {
-          "name": "Overclock3D",
-          "url": "https://overclock3d.net/",
-          "description": "Hardware News / Reviews"
+          "description": "Hardware News / Reviews",
+          "mirrors": [
+            "https://www.tomshardware.com/",
+            "https://overclock3d.net/"
+          ]
         },
         {
           "name": "EmergentMind",
           "url": "https://www.emergentmind.com/",
-          "description": "AI News"
-        },
-        {
-          "name": "⁠TestingCatalog",
-          "url": "https://www.testingcatalog.com/",
-          "description": "AI News"
-        },
-        {
-          "name": "Singularity Hub",
-          "url": "https://singularityhub.com/",
-          "description": "AI News"
-        },
-        {
-          "name": "Dupple",
-          "url": "https://www.dupple.com/techpresso",
-          "description": "AI News"
+          "description": "AI News",
+          "mirrors": [
+            "https://www.testingcatalog.com/",
+            "https://singularityhub.com/",
+            "https://www.dupple.com/techpresso"
+          ]
         },
         {
           "name": "GamesRecap",
@@ -3284,12 +2782,10 @@
         {
           "name": "RestorePrivacy",
           "url": "https://cyberinsider.com/news/",
-          "description": "Privacy / Security News"
-        },
-        {
-          "name": "Privacy International",
-          "url": "https://www.privacyinternational.org/",
-          "description": "Privacy / Security News"
+          "description": "Privacy / Security News",
+          "mirrors": [
+            "https://www.privacyinternational.org/"
+          ]
         }
       ]
     },
@@ -3323,42 +2819,22 @@
         {
           "name": "Hacki",
           "url": "https://github.com/Livinglist/Hacki",
-          "description": "Android Hacker News Apps"
-        },
-        {
-          "name": "Harmoni",
-          "url": "https://play.google.com/store/apps/details?id=com.simon.harmonichackernews",
-          "description": "Android Hacker News Apps"
-        },
-        {
-          "name": "Glider",
-          "url": "https://github.com/Mosc/Glider",
-          "description": "Android Hacker News Apps"
+          "description": "Android Hacker News Apps",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.simon.harmonichackernews",
+            "https://github.com/Mosc/Glider"
+          ]
         },
         {
           "name": "ZCombinator",
           "url": "https://github.com/Livinglist/ZCombinator",
-          "description": "iOS Hacker News Apps"
-        },
-        {
-          "name": "HACK",
-          "url": "https://apps.apple.com/app/id1464477788",
-          "description": "iOS Hacker News Apps"
-        },
-        {
-          "name": "Octal",
-          "url": "https://apps.apple.com/app/id1308885491",
-          "description": "iOS Hacker News Apps"
-        },
-        {
-          "name": "Hackers",
-          "url": "https://apps.apple.com/app/id603503901",
-          "description": "iOS Hacker News Apps"
-        },
-        {
-          "name": "Hacki",
-          "url": "https://apps.apple.com/app/id1602043763",
-          "description": "iOS Hacker News Apps"
+          "description": "iOS Hacker News Apps",
+          "mirrors": [
+            "https://apps.apple.com/app/id1464477788",
+            "https://apps.apple.com/app/id1308885491",
+            "https://apps.apple.com/app/id603503901",
+            "https://apps.apple.com/app/id1602043763"
+          ]
         },
         {
           "name": "Related Submissions",
@@ -3371,12 +2847,10 @@
         {
           "name": "The Hacker Herald",
           "url": "https://hackerherald.com/",
-          "description": "HN Frontends"
-        },
-        {
-          "name": "hckrnws",
-          "url": "https://www.hckrnws.com/",
-          "description": "HN Frontends"
+          "description": "HN Frontends",
+          "mirrors": [
+            "https://www.hckrnws.com/"
+          ]
         },
         {
           "name": "Alexandria Library",
@@ -3386,12 +2860,10 @@
         {
           "name": "HNRankings",
           "url": "https://hnrankings.info/",
-          "description": "Best of / Top Posts Aggregator"
-        },
-        {
-          "name": "Lindy Hacker News",
-          "url": "https://hn.lindylearn.io/",
-          "description": "Best of / Top Posts Aggregator"
+          "description": "Best of / Top Posts Aggregator",
+          "mirrors": [
+            "https://hn.lindylearn.io/"
+          ]
         },
         {
           "name": "⁠Hacker Book",
@@ -3467,14 +2939,9 @@
           "description": "Mental Health Resources",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "mentalillnessmouse",
-          "url": "https://mentalillnessmouse.wordpress.com/helpfulresources/",
-          "description": "Mental Health Resources",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://mentalillnessmouse.wordpress.com/helpfulresources/"
           ]
         },
         {
@@ -3493,27 +2960,13 @@
         {
           "name": "How We Feel",
           "url": "https://play.google.com/store/apps/details?id=org.howwefeel.moodmeter&hl=en-US",
-          "description": "Wellbeing Apps / Journals"
-        },
-        {
-          "name": "iOS",
-          "url": "https://apps.apple.com/app/id1562706384",
-          "description": "Wellbeing Apps / Journals"
-        },
-        {
-          "name": "Nomie",
-          "url": "https://v5.nomie.app/",
-          "description": "Wellbeing Apps / Journals"
-        },
-        {
-          "name": "Koduko",
-          "url": "https://github.com/Mazahir26/koduko",
-          "description": "Wellbeing Apps / Journals"
-        },
-        {
-          "name": "Respawn",
-          "url": "https://respawn.pro/",
-          "description": "Wellbeing Apps / Journals"
+          "description": "Wellbeing Apps / Journals",
+          "mirrors": [
+            "https://apps.apple.com/app/id1562706384",
+            "https://v5.nomie.app/",
+            "https://github.com/Mazahir26/koduko",
+            "https://respawn.pro/"
+          ]
         },
         {
           "name": "You feel like shit.",
@@ -3546,12 +2999,10 @@
         {
           "name": "Medito",
           "url": "https://github.com/meditohq/medito-app",
-          "description": "Meditation App"
-        },
-        {
-          "name": "Heartfulness",
-          "url": "https://www.heartfulnessapp.org/",
-          "description": "Meditation App"
+          "description": "Meditation App",
+          "mirrors": [
+            "https://www.heartfulnessapp.org/"
+          ]
         },
         {
           "name": "IIB Mindfulness",
@@ -3566,22 +3017,12 @@
         {
           "name": "TripSit",
           "url": "https://tripsit.me/",
-          "description": "Drug Information / Side Effects"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/tripsit",
-          "description": "Drug Information / Side Effects"
-        },
-        {
-          "name": "Drugs.com",
-          "url": "https://www.drugs.com/",
-          "description": "Drug Information / Side Effects"
-        },
-        {
-          "name": "DrugBank",
-          "url": "https://go.drugbank.com/",
-          "description": "Drug Information / Side Effects"
+          "description": "Drug Information / Side Effects",
+          "mirrors": [
+            "https://discord.gg/tripsit",
+            "https://www.drugs.com/",
+            "https://go.drugbank.com/"
+          ]
         }
       ]
     },
@@ -3597,7 +3038,7 @@
         },
         {
           "name": "BMI Chart",
-          "url": "https://en.wikipedia.org/wiki/Body_mass_index#/media/File:BMI_chart.png",
+          "url": "https://wikipedia.org/wiki/Body_mass_index#/media/File:BMI_chart.png",
           "description": "BMI Range Graph",
           "starred": true
         },
@@ -3626,27 +3067,24 @@
         {
           "name": "FitoTrack",
           "url": "https://codeberg.org/jannis/FitoTrack",
-          "description": "Fitness Apps"
+          "description": "Fitness Apps",
+          "mirrors": [
+            "https://github.com/brandonp2412/Flexify",
+            "https://www.myfitnesspal.com/"
+          ]
         },
         {
-          "name": "Flexify",
-          "url": "https://github.com/brandonp2412/Flexify",
-          "description": "Fitness Apps"
-        },
-        {
-          "name": "MyFitnessPal",
-          "url": "https://www.myfitnesspal.com/",
-          "description": "Fitness Apps"
+          "name": "⁠Bevel",
+          "url": "https://www.bevel.health/",
+          "description": "Wearable Watch Health Data App"
         },
         {
           "name": "openScale",
           "url": "https://f-droid.org/packages/com.health.openscale/",
-          "description": "Weight & Body Metrics Trackers"
-        },
-        {
-          "name": "trale",
-          "url": "https://github.com/QuantumPhysique/trale",
-          "description": "Weight & Body Metrics Trackers"
+          "description": "Weight & Body Metrics Trackers",
+          "mirrors": [
+            "https://github.com/QuantumPhysique/trale"
+          ]
         },
         {
           "name": "SailRabbit",
@@ -3686,57 +3124,19 @@
         {
           "name": "HealthDirect",
           "url": "https://www.healthdirect.gov.au/",
-          "description": "Government Health Resources"
-        },
-        {
-          "name": "epocrates",
-          "url": "https://www.epocrates.com/",
-          "description": "Government Health Resources"
-        },
-        {
-          "name": "medlineplus",
-          "url": "https://medlineplus.gov/",
-          "description": "Government Health Resources"
-        },
-        {
-          "name": "merckmanuals",
-          "url": "https://www.merckmanuals.com/",
-          "description": "Government Health Resources"
-        },
-        {
-          "name": "mayoclinic",
-          "url": "https://www.mayoclinic.org/",
-          "description": "Government Health Resources"
-        },
-        {
-          "name": "rxlist",
-          "url": "https://www.rxlist.com/",
-          "description": "Government Health Resources"
-        },
-        {
-          "name": "nejm",
-          "url": "https://www.nejm.org/",
-          "description": "Government Health Resources"
-        },
-        {
-          "name": "ncbi",
-          "url": "https://www.ncbi.nlm.nih.gov/pmc/",
-          "description": "Government Health Resources"
-        },
-        {
-          "name": "hhs",
-          "url": "https://www.hhs.gov/",
-          "description": "Government Health Resources"
-        },
-        {
-          "name": "nih",
-          "url": "https://www.nih.gov/",
-          "description": "Government Health Resources"
-        },
-        {
-          "name": "cdc",
-          "url": "https://www.cdc.gov/",
-          "description": "Government Health Resources"
+          "description": "Government Health Resources",
+          "mirrors": [
+            "https://www.epocrates.com/",
+            "https://medlineplus.gov/",
+            "https://www.merckmanuals.com/",
+            "https://www.mayoclinic.org/",
+            "https://www.rxlist.com/",
+            "https://www.nejm.org/",
+            "https://www.ncbi.nlm.nih.gov/pmc/",
+            "https://www.hhs.gov/",
+            "https://www.nih.gov/",
+            "https://www.cdc.gov/"
+          ]
         },
         {
           "name": "oshaction",
@@ -3800,47 +3200,23 @@
           "name": "Boostcamp",
           "url": "https://www.boostcamp.app/",
           "description": "Workout Trackers",
-          "starred": true
-        },
-        {
-          "name": "Hevy",
-          "url": "https://www.hevyapp.com/",
-          "description": "Workout Trackers"
-        },
-        {
-          "name": "⁠Tracked",
-          "url": "https://www.tracked.gg/",
-          "description": "Workout Trackers"
-        },
-        {
-          "name": "⁠Hybrid Calisthenics",
-          "url": "https://www.hybridcalisthenics.com/app",
-          "description": "Workout Trackers"
-        },
-        {
-          "name": "Kenko",
-          "url": "https://github.com/Iamlooker/Kenko",
-          "description": "Workout Trackers"
-        },
-        {
-          "name": "FitNotes",
-          "url": "https://www.fitnotesapp.com/",
-          "description": "Workout Trackers"
-        },
-        {
-          "name": "FitHero",
-          "url": "https://fithero.app/",
-          "description": "Workout Trackers"
+          "starred": true,
+          "mirrors": [
+            "https://www.hevyapp.com/",
+            "https://www.tracked.gg/",
+            "https://www.hybridcalisthenics.com/app",
+            "https://github.com/Iamlooker/Kenko",
+            "https://www.fitnotesapp.com/",
+            "https://fithero.app/"
+          ]
         },
         {
           "name": "Fitness Blender",
           "url": "https://www.fitnessblender.com/videos?exclusive%5B%5D=0",
-          "description": "Workout Videos"
-        },
-        {
-          "name": "⁠Muscle & Strength",
-          "url": "https://www.muscleandstrength.com/exercises",
-          "description": "Workout Videos"
+          "description": "Workout Videos",
+          "mirrors": [
+            "https://www.muscleandstrength.com/exercises"
+          ]
         },
         {
           "name": "Calistree",
@@ -3860,32 +3236,20 @@
         {
           "name": "MuscleWiki",
           "url": "https://musclewiki.com/",
-          "description": "Muscle / Exercise Information Tool"
-        },
-        {
-          "name": "⁠Workout.cool",
-          "url": "https://workout.cool/",
-          "description": "Muscle / Exercise Information Tool"
-        },
-        {
-          "name": "The Casual Gym",
-          "url": "https://gym.naya.com.np/",
-          "description": "Muscle / Exercise Information Tool"
+          "description": "Muscle / Exercise Information Tool",
+          "mirrors": [
+            "https://workout.cool/",
+            "https://gym.naya.com.np/"
+          ]
         },
         {
           "name": "Liftosaur",
           "url": "https://www.liftosaur.com/",
-          "description": "Weightlifting Trackers"
-        },
-        {
-          "name": "LiftLog",
-          "url": "https://github.com/LiamMorrow/LiftLog",
-          "description": "Weightlifting Trackers"
-        },
-        {
-          "name": "StrongLifts",
-          "url": "https://stronglifts.com/",
-          "description": "Weightlifting Trackers"
+          "description": "Weightlifting Trackers",
+          "mirrors": [
+            "https://github.com/LiamMorrow/LiftLog",
+            "https://stronglifts.com/"
+          ]
         },
         {
           "name": "Liftvault",
@@ -3920,12 +3284,10 @@
         {
           "name": "RunnerUp",
           "url": "https://github.com/jonasoreland/runnerup",
-          "description": "Run Trackers"
-        },
-        {
-          "name": "Strava",
-          "url": "https://www.strava.com/",
-          "description": "Run Trackers"
+          "description": "Run Trackers",
+          "mirrors": [
+            "https://www.strava.com/"
+          ]
         },
         {
           "name": "MapMyWalk",
@@ -3935,27 +3297,19 @@
         {
           "name": "GoldenCheetah",
           "url": "https://www.goldencheetah.org/",
-          "description": "Cycling / Biking Trackers"
-        },
-        {
-          "name": "AAT",
-          "url": "https://bailu.ch/aat/",
-          "description": "Cycling / Biking Trackers"
+          "description": "Cycling / Biking Trackers",
+          "mirrors": [
+            "https://bailu.ch/aat/"
+          ]
         },
         {
           "name": "AllTrails",
           "url": "https://www.alltrails.com/",
-          "description": "Hiking / Trail Routes"
-        },
-        {
-          "name": "Wikiloc",
-          "url": "https://www.wikiloc.com/",
-          "description": "Hiking / Trail Routes"
-        },
-        {
-          "name": "TrailRouter",
-          "url": "https://trailrouter.com/",
-          "description": "Hiking / Trail Routes"
+          "description": "Hiking / Trail Routes",
+          "mirrors": [
+            "https://www.wikiloc.com/",
+            "https://trailrouter.com/"
+          ]
         },
         {
           "name": "Wanderer",
@@ -3973,12 +3327,10 @@
         {
           "name": "fastnfitness",
           "url": "https://github.com/brodeurlv/fastnfitness",
-          "description": "Exercise & Activity Trackers"
-        },
-        {
-          "name": "PFCTE",
-          "url": "https://github.com/SecUSo/privacy-friendly-circuit-training-exercises",
-          "description": "Exercise & Activity Trackers"
+          "description": "Exercise & Activity Trackers",
+          "mirrors": [
+            "https://github.com/SecUSo/privacy-friendly-circuit-training-exercises"
+          ]
         },
         {
           "name": "wger",
@@ -4057,22 +3409,12 @@
         {
           "name": "Eat This Much",
           "url": "https://www.eatthismuch.com/",
-          "description": "Meal Prep & Planning Apps / Android, iOS"
-        },
-        {
-          "name": "Mealime",
-          "url": "https://www.mealime.com/",
-          "description": "Meal Prep & Planning Apps / Android, iOS"
-        },
-        {
-          "name": "MealPrepPro",
-          "url": "https://mealpreppro.com/",
-          "description": "Meal Prep & Planning Apps / Android, iOS"
-        },
-        {
-          "name": "Android",
-          "url": "https://play.google.com/store/apps/details?id=com.nibbleapps.meal_prep_pro",
-          "description": "Meal Prep & Planning Apps / Android, iOS"
+          "description": "Meal Prep & Planning Apps / Android, iOS",
+          "mirrors": [
+            "https://www.mealime.com/",
+            "https://mealpreppro.com/",
+            "https://play.google.com/store/apps/details?id=com.nibbleapps.meal_prep_pro"
+          ]
         },
         {
           "name": "Calories-In",
@@ -4102,27 +3444,19 @@
         {
           "name": "Cronometer",
           "url": "https://cronometer.com/",
-          "description": "Track Nutrition & Calories"
-        },
-        {
-          "name": "Energize",
-          "url": "https://codeberg.org/epinez/Energize/",
-          "description": "Track Nutrition & Calories"
-        },
-        {
-          "name": "Waistline",
-          "url": "https://github.com/davidhealey/waistline",
-          "description": "Track Nutrition & Calories"
+          "description": "Track Nutrition & Calories",
+          "mirrors": [
+            "https://codeberg.org/epinez/Energize/",
+            "https://github.com/davidhealey/waistline"
+          ]
         },
         {
           "name": "MyFoodData",
           "url": "https://www.myfooddata.com",
-          "description": "Food Nutrition Info"
-        },
-        {
-          "name": "Spelt",
-          "url": "https://spe.lt/",
-          "description": "Food Nutrition Info"
+          "description": "Food Nutrition Info",
+          "mirrors": [
+            "https://spe.lt/"
+          ]
         },
         {
           "name": "Nutrient Sorter",
@@ -4164,22 +3498,12 @@
           "name": "PlannedParenthood",
           "url": "https://www.plannedparenthood.org/",
           "description": "Abortion Resources",
-          "starred": true
-        },
-        {
-          "name": "Abortion Resources",
-          "url": "https://redd.it/phrcrn",
-          "description": "Abortion Resources"
-        },
-        {
-          "name": "2",
-          "url": "https://redd.it/vm56bs",
-          "description": "Abortion Resources"
-        },
-        {
-          "name": "Safe2Choose",
-          "url": "https://safe2choose.org/",
-          "description": "Abortion Resources"
+          "starred": true,
+          "mirrors": [
+            "https://redd.it/phrcrn",
+            "https://redd.it/vm56bs",
+            "https://safe2choose.org/"
+          ]
         },
         {
           "name": "WomenOnWeb",
@@ -4200,12 +3524,10 @@
         {
           "name": "DoItRight",
           "url": "https://trust.ph/",
-          "description": "Sex Education Resources"
-        },
-        {
-          "name": "Scarleteen",
-          "url": "https://www.scarleteen.com/",
-          "description": "Sex Education Resources"
+          "description": "Sex Education Resources",
+          "mirrors": [
+            "https://www.scarleteen.com/"
+          ]
         },
         {
           "name": "Euki",
@@ -4240,12 +3562,10 @@
         {
           "name": "Trans Harm Reduction",
           "url": "https://transharmreduction.org/",
-          "description": "HRT Safety Guides / Testing"
-        },
-        {
-          "name": "DIY HRT Directory 2.0",
-          "url": "https://diyhrt.info/",
-          "description": "HRT Safety Guides / Testing"
+          "description": "HRT Safety Guides / Testing",
+          "mirrors": [
+            "https://diyhrt.info/"
+          ]
         },
         {
           "name": "Erin's Informed Consent HRT Map",
@@ -4281,12 +3601,10 @@
         {
           "name": "Acoustic Gender",
           "url": "https://acousticgender.space/",
-          "description": "Voice Therapy"
-        },
-        {
-          "name": "Voice Tools",
-          "url": "https://devextras.com/voicetools/",
-          "description": "Voice Therapy"
+          "description": "Voice Therapy",
+          "mirrors": [
+            "https://devextras.com/voicetools/"
+          ]
         },
         {
           "name": "Trans Rights Map",
@@ -4311,22 +3629,12 @@
         {
           "name": "Farhan",
           "url": "https://github.com/tahaak67/Farhan",
-          "description": "Control Phone Addiction"
-        },
-        {
-          "name": "LockMeOut",
-          "url": "https://play.google.com/store/apps/details?id=vikesh.dass.lockmeout",
-          "description": "Control Phone Addiction"
-        },
-        {
-          "name": "DetoxDroid",
-          "url": "https://github.com/flxapps/DetoxDroid",
-          "description": "Control Phone Addiction"
-        },
-        {
-          "name": "StopScroll",
-          "url": "https://play.google.com/store/apps/details?id=com.noscroll.antiscroll",
-          "description": "Control Phone Addiction"
+          "description": "Control Phone Addiction",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=vikesh.dass.lockmeout",
+            "https://github.com/flxapps/DetoxDroid",
+            "https://play.google.com/store/apps/details?id=com.noscroll.antiscroll"
+          ]
         },
         {
           "name": "The Freedom Model",
@@ -4363,22 +3671,12 @@
           "name": "EasyPeasy",
           "url": "https://easypeasymethod.org/",
           "description": "Painlessly Quit Pornography",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://gitlab.com/snuggy/easypeasy",
-          "description": "Painlessly Quit Pornography"
-        },
-        {
-          "name": "Audiobook",
-          "url": "https://youtu.be/ZktxO6adTnI",
-          "description": "Painlessly Quit Pornography"
-        },
-        {
-          "name": "QuitPornEasily",
-          "url": "https://quitporneasily.com/",
-          "description": "Painlessly Quit Pornography"
+          "starred": true,
+          "mirrors": [
+            "https://gitlab.com/snuggy/easypeasy",
+            "https://youtu.be/ZktxO6adTnI",
+            "https://quitporneasily.com/"
+          ]
         },
         {
           "name": "⁠FreeLife",
@@ -4398,22 +3696,12 @@
         {
           "name": "cringeMDb",
           "url": "https://cringemdb.com/",
-          "description": "Find SFW Movies"
-        },
-        {
-          "name": "Age Rating JuJu",
-          "url": "https://www.ageratingjuju.com/",
-          "description": "Find SFW Movies"
-        },
-        {
-          "name": "CommonSenseMedia",
-          "url": "https://www.commonsensemedia.org/",
-          "description": "Find SFW Movies"
-        },
-        {
-          "name": "unconsenting media",
-          "url": "https://www.unconsentingmedia.org",
-          "description": "Find SFW Movies"
+          "description": "Find SFW Movies",
+          "mirrors": [
+            "https://www.ageratingjuju.com/",
+            "https://www.commonsensemedia.org/",
+            "https://www.unconsentingmedia.org"
+          ]
         },
         {
           "name": "Movie Parser",
@@ -4423,32 +3711,20 @@
         {
           "name": "Wingman",
           "url": "https://github.com/wingman-jr-addon/wingman_jr",
-          "description": "Block NSFW Images"
-        },
-        {
-          "name": "HaramBlur",
-          "url": "https://haramblur.com/",
-          "description": "Block NSFW Images"
-        },
-        {
-          "name": "2",
-          "url": "https://linktr.ee/haramblur",
-          "description": "Block NSFW Images"
+          "description": "Block NSFW Images",
+          "mirrors": [
+            "https://haramblur.com/",
+            "https://linktr.ee/haramblur"
+          ]
         },
         {
           "name": "SAA Recovery",
           "url": "https://saa-recovery.org/",
-          "description": "Find Sex Addiction Meetings"
-        },
-        {
-          "name": "Cosa Recovery",
-          "url": "https://cosa-recovery.org/",
-          "description": "Find Sex Addiction Meetings"
-        },
-        {
-          "name": "Smart Recovery",
-          "url": "https://www.smartrecovery.org/",
-          "description": "Find Sex Addiction Meetings"
+          "description": "Find Sex Addiction Meetings",
+          "mirrors": [
+            "https://cosa-recovery.org/",
+            "https://www.smartrecovery.org/"
+          ]
         },
         {
           "name": "Common Q&As",
@@ -4462,54 +3738,38 @@
           "name": "Comparably",
           "url": "https://www.comparably.com/",
           "description": "Compare Companies / Salaries",
-          "starred": true
-        },
-        {
-          "name": "GoodFirms",
-          "url": "https://www.goodfirms.co/",
-          "description": "Compare Companies / Salaries"
+          "starred": true,
+          "mirrors": [
+            "https://www.goodfirms.co/"
+          ]
         },
         {
           "name": "Reverse Interview",
           "url": "https://github.com/viraptor/reverse-interview",
           "description": "Questions to Ask Potential Employers",
-          "starred": true
-        },
-        {
-          "name": "job-interview-questions",
-          "url": "https://github.com/lkostrowski/job-interview-questions-to-ask-companies",
-          "description": "Questions to Ask Potential Employers"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/lkostrowski/job-interview-questions-to-ask-companies"
+          ]
         },
         {
           "name": "Kimai",
           "url": "https://www.kimai.org/",
           "description": "Work Hour Trackers",
-          "starred": true
-        },
-        {
-          "name": "Clockify",
-          "url": "https://clockify.me/",
-          "description": "Work Hour Trackers"
+          "starred": true,
+          "mirrors": [
+            "https://clockify.me/"
+          ]
         },
         {
           "name": "80,000 Hours",
           "url": "https://80000hours.org/",
-          "description": "Explore Career Options"
-        },
-        {
-          "name": "O*NET",
-          "url": "https://www.onetonline.org/",
-          "description": "Explore Career Options"
-        },
-        {
-          "name": "Career Dreamer",
-          "url": "https://grow.google/career-dreamer/",
-          "description": "Explore Career Options"
-        },
-        {
-          "name": "MyNextMove",
-          "url": "https://www.mynextmove.org/",
-          "description": "Explore Career Options"
+          "description": "Explore Career Options",
+          "mirrors": [
+            "https://www.onetonline.org/",
+            "https://grow.google/career-dreamer/",
+            "https://www.mynextmove.org/"
+          ]
         },
         {
           "name": "r/careerguidance",
@@ -4525,6 +3785,11 @@
           "name": "Science Career General",
           "url": "https://sciencecareergeneral.neocities.org/",
           "description": "PhD / STEM Career Study Guides"
+        },
+        {
+          "name": "LibreTexts Business",
+          "url": "https://biz.libretexts.org/",
+          "description": "Business Learning / Guides"
         },
         {
           "name": "JustLanded",
@@ -4609,12 +3874,10 @@
         {
           "name": "Systeme",
           "url": "https://systeme.io/",
-          "description": "Marketing Tools"
-        },
-        {
-          "name": "SendPulse",
-          "url": "https://sendpulse.com/",
-          "description": "Marketing Tools"
+          "description": "Marketing Tools",
+          "mirrors": [
+            "https://sendpulse.com/"
+          ]
         },
         {
           "name": "Marmof",
@@ -4639,17 +3902,11 @@
         {
           "name": "Twain",
           "url": "https://www.twain.ai/",
-          "description": "AI Communication Outreach Assistants"
-        },
-        {
-          "name": "WriteCream",
-          "url": "https://www.writecream.com/",
-          "description": "AI Communication Outreach Assistants"
-        },
-        {
-          "name": "Textcortext",
-          "url": "https://textcortex.com/",
-          "description": "AI Communication Outreach Assistants"
+          "description": "AI Communication Outreach Assistants",
+          "mirrors": [
+            "https://www.writecream.com/",
+            "https://textcortex.com/"
+          ]
         },
         {
           "name": "Cody",
@@ -4659,57 +3916,25 @@
         {
           "name": "PHPCRM",
           "url": "https://www.phpcrm.com/",
-          "description": "Company Management Tools"
-        },
-        {
-          "name": "Tillywork",
-          "url": "https://github.com/tillywork/tillywork",
-          "description": "Company Management Tools"
-        },
-        {
-          "name": "Monday",
-          "url": "https://monday.com/",
-          "description": "Company Management Tools"
-        },
-        {
-          "name": "Twenty",
-          "url": "https://github.com/twentyhq/twenty",
-          "description": "Company Management Tools"
+          "description": "Company Management Tools",
+          "mirrors": [
+            "https://github.com/tillywork/tillywork",
+            "https://monday.com/",
+            "https://github.com/twentyhq/twenty"
+          ]
         },
         {
           "name": "⁠Invoify",
           "url": "https://invoify.vercel.app/",
-          "description": "Invoicing Tools"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/al1abb/invoify",
-          "description": "Invoicing Tools"
-        },
-        {
-          "name": "EasyInvoicePDF",
-          "url": "https://easyinvoicepdf.com",
-          "description": "Invoicing Tools"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/VladSez/easy-invoice-pdf",
-          "description": "Invoicing Tools"
-        },
-        {
-          "name": "Invoicely",
-          "url": "https://invoiceto.me/",
-          "description": "Invoicing Tools"
-        },
-        {
-          "name": "InvoiceNinja",
-          "url": "https://invoiceninja.com/",
-          "description": "Invoicing Tools"
-        },
-        {
-          "name": "Akaunting",
-          "url": "https://akaunting.com/",
-          "description": "Invoicing Tools"
+          "description": "Invoicing Tools",
+          "mirrors": [
+            "https://github.com/al1abb/invoify",
+            "https://easyinvoicepdf.com",
+            "https://github.com/VladSez/easy-invoice-pdf",
+            "https://invoiceto.me/",
+            "https://invoiceninja.com/",
+            "https://akaunting.com/"
+          ]
         },
         {
           "name": "Google Patents",
@@ -4719,12 +3944,10 @@
         {
           "name": "Layoffs.fyi",
           "url": "https://layoffs.fyi/",
-          "description": "Live Layoffs Trackers"
-        },
-        {
-          "name": "⁠WarnTracker",
-          "url": "https://www.warntracker.com/",
-          "description": "Live Layoffs Trackers"
+          "description": "Live Layoffs Trackers",
+          "mirrors": [
+            "https://www.warntracker.com/"
+          ]
         },
         {
           "name": "GoodJobsFirst",
@@ -4751,12 +3974,10 @@
           "name": "5000 Best Job Sites",
           "url": "http://5000best.com/websites/Jobs/",
           "description": "Job Search Sites",
-          "starred": true
-        },
-        {
-          "name": "Indeed",
-          "url": "https://www.indeed.com/",
-          "description": "Job Search Sites"
+          "starred": true,
+          "mirrors": [
+            "https://www.indeed.com/"
+          ]
         },
         {
           "name": "4-Day Week",
@@ -4777,47 +3998,17 @@
         {
           "name": "⁠Welcome To The Jungle",
           "url": "https://www.welcometothejungle.com/",
-          "description": "Job Search"
-        },
-        {
-          "name": "JobBoardSearch",
-          "url": "https://jobboardsearch.com/",
-          "description": "Job Search"
-        },
-        {
-          "name": "⁠HiringCafe",
-          "url": "https://hiring.cafe/",
-          "description": "Job Search"
-        },
-        {
-          "name": "JobsFromSpace",
-          "url": "https://www.jobsfromspace.com/",
-          "description": "Job Search"
-        },
-        {
-          "name": "CyberCoders",
-          "url": "https://www.cybercoders.com/",
-          "description": "Job Search"
-        },
-        {
-          "name": "whoishiring",
-          "url": "https://whoishiring.io/",
-          "description": "Job Search"
-        },
-        {
-          "name": "Toby Tools",
-          "url": "https://rentry.co/qnu6x",
-          "description": "Job Search"
-        },
-        {
-          "name": "The Muse",
-          "url": "https://www.themuse.com/search/",
-          "description": "Job Search"
-        },
-        {
-          "name": "EuroJobs",
-          "url": "https://eurojobs.com/",
-          "description": "Job Search"
+          "description": "Job Search",
+          "mirrors": [
+            "https://jobboardsearch.com/",
+            "https://hiring.cafe/",
+            "https://www.jobsfromspace.com/",
+            "https://www.cybercoders.com/",
+            "https://whoishiring.io/",
+            "https://rentry.co/qnu6x",
+            "https://www.themuse.com/search/",
+            "https://eurojobs.com/"
+          ]
         },
         {
           "name": "Hiring Without Whiteboards",
@@ -4827,12 +4018,10 @@
         {
           "name": "RolePad",
           "url": "https://rolepad.com/",
-          "description": "Job Search Managers"
-        },
-        {
-          "name": "JobSync",
-          "url": "https://github.com/Gsync/jobsync",
-          "description": "Job Search Managers"
+          "description": "Job Search Managers",
+          "mirrors": [
+            "https://github.com/Gsync/jobsync"
+          ]
         },
         {
           "name": "DoorsOpen",
@@ -4847,12 +4036,10 @@
         {
           "name": "SpeedyApply",
           "url": "https://www.speedyapply.com/",
-          "description": "Job Application Autofill Tools"
-        },
-        {
-          "name": "AIHawk",
-          "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
-          "description": "Job Application Autofill Tools"
+          "description": "Job Application Autofill Tools",
+          "mirrors": [
+            "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk"
+          ]
         },
         {
           "name": "ScrapedIn",
@@ -4877,37 +4064,15 @@
           "name": "RX Resume",
           "url": "https://rxresu.me/",
           "description": "Resume Builders",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/amruthpillai/reactive-resume",
-          "description": "Resume Builders"
-        },
-        {
-          "name": "FlowCV",
-          "url": "https://flowcv.com/",
-          "description": "Resume Builders"
-        },
-        {
-          "name": "HeyCV",
-          "url": "https://heycv.app/",
-          "description": "Resume Builders"
-        },
-        {
-          "name": "Resuminator",
-          "url": "https://www.resuminator.in/",
-          "description": "Resume Builders"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/resuminator/resuminator",
-          "description": "Resume Builders"
-        },
-        {
-          "name": "Sheets",
-          "url": "https://sheetsresume.com/builder",
-          "description": "Resume Builders"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/amruthpillai/reactive-resume",
+            "https://flowcv.com/",
+            "https://heycv.app/",
+            "https://www.resuminator.in/",
+            "https://github.com/resuminator/resuminator",
+            "https://sheetsresume.com/builder"
+          ]
         },
         {
           "name": "KickResume Samples",
@@ -4923,22 +4088,12 @@
         {
           "name": "⁠YAMLResume",
           "url": "https://yamlresume.dev/",
-          "description": "YAML Based Resume Builders"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/yamlresume/yamlresume",
-          "description": "YAML Based Resume Builders"
-        },
-        {
-          "name": "RenderCV",
-          "url": "https://rendercv.com/",
-          "description": "YAML Based Resume Builders"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/rendercv/rendercv",
-          "description": "YAML Based Resume Builders"
+          "description": "YAML Based Resume Builders",
+          "mirrors": [
+            "https://github.com/yamlresume/yamlresume",
+            "https://rendercv.com/",
+            "https://github.com/rendercv/rendercv"
+          ]
         },
         {
           "name": "IntelligentCV",
@@ -4948,12 +4103,10 @@
         {
           "name": "ChatProfolio",
           "url": "https://chatprofolio.vercel.app/",
-          "description": "Portfolio Builders"
-        },
-        {
-          "name": "PeerList",
-          "url": "https://peerlist.io/",
-          "description": "Portfolio Builders"
+          "description": "Portfolio Builders",
+          "mirrors": [
+            "https://peerlist.io/"
+          ]
         },
         {
           "name": "CoFolios",
@@ -4972,14 +4125,9 @@
           "description": "Remote Job Resources",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Established Remote",
-          "url": "https://github.com/yanirs/established-remote",
-          "description": "Remote Job Resources",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/yanirs/established-remote"
           ]
         },
         {
@@ -5024,12 +4172,10 @@
         {
           "name": "WeNomad",
           "url": "https://wenomad.so/",
-          "description": "Remote Work Ratings"
-        },
-        {
-          "name": "Nomad List",
-          "url": "https://nomads.com/",
-          "description": "Remote Work Ratings"
+          "description": "Remote Work Ratings",
+          "mirrors": [
+            "https://nomads.com/"
+          ]
         },
         {
           "name": "Jobspresso",
@@ -5165,14 +4311,9 @@
           "starred": true,
           "tags": [
             "GitHub"
-          ]
-        },
-        {
-          "name": "Frontend Interview Handbook",
-          "url": "https://www.frontendinterviewhandbook.com/",
-          "description": "Interview Handbooks",
-          "tags": [
-            "GitHub"
+          ],
+          "mirrors": [
+            "https://www.frontendinterviewhandbook.com/"
           ]
         },
         {
@@ -5246,12 +4387,10 @@
         {
           "name": "Interviews.school",
           "url": "https://interviews.school/",
-          "description": "Interview Preparation Guides"
-        },
-        {
-          "name": "InterviewThis",
-          "url": "https://github.com/Twipped/InterviewThis",
-          "description": "Interview Preparation Guides"
+          "description": "Interview Preparation Guides",
+          "mirrors": [
+            "https://github.com/Twipped/InterviewThis"
+          ]
         },
         {
           "name": "Interview Warmup",
@@ -5276,12 +4415,10 @@
         {
           "name": "AWS re/Start",
           "url": "https://aws.amazon.com/training/restart/",
-          "description": "Cloud Career Training"
-        },
-        {
-          "name": "AWS Training",
-          "url": "https://www.aws.training/",
-          "description": "Cloud Career Training"
+          "description": "Cloud Career Training",
+          "mirrors": [
+            "https://www.aws.training/"
+          ]
         },
         {
           "name": "9Tut",
@@ -5291,32 +4428,20 @@
         {
           "name": "CompTIA",
           "url": "https://www.comptia.org/",
-          "description": "Training / Certifications"
-        },
-        {
-          "name": "Practice",
-          "url": "https://www.examcompass.com/",
-          "description": "Training / Certifications"
-        },
-        {
-          "name": "Cisco Training",
-          "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html",
-          "description": "Training / Certifications"
-        },
-        {
-          "name": "UI.com",
-          "url": "https://www.ui.com/training/",
-          "description": "Training / Certifications"
+          "description": "Training / Certifications",
+          "mirrors": [
+            "https://www.examcompass.com/",
+            "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html",
+            "https://www.ui.com/training/"
+          ]
         },
         {
           "name": "web3.career",
           "url": "https://web3.career/",
-          "description": "Find Web3 Jobs"
-        },
-        {
-          "name": "FindWeb3",
-          "url": "https://findweb3.com/",
-          "description": "Find Web3 Jobs"
+          "description": "Find Web3 Jobs",
+          "mirrors": [
+            "https://findweb3.com/"
+          ]
         }
       ]
     },
@@ -5330,30 +4455,11 @@
           "description": "Startup Resources Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Awesome Launching Platforms",
-          "url": "https://github.com/DirectorySurf/awesome-launch-platforms",
-          "description": "Startup Resources Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Awesome Launch",
-          "url": "https://github.com/soGeneri/awesome-launch",
-          "description": "Startup Resources Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Tools for Startups",
-          "url": "https://docs.google.com/spreadsheets/d/1s6-hGBh0_tqa-jd23fsdYuwbmS8UPmElPqaH-Rnoa_A/htmlview",
-          "description": "Startup Resources Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/DirectorySurf/awesome-launch-platforms",
+            "https://github.com/soGeneri/awesome-launch",
+            "https://docs.google.com/spreadsheets/d/1s6-hGBh0_tqa-jd23fsdYuwbmS8UPmElPqaH-Rnoa_A/htmlview"
           ]
         },
         {
@@ -5382,12 +4488,10 @@
         {
           "name": "280+ Websites to Submit Your Startup",
           "url": "https://airtable.com/shrwqaak73gy83w9A/tblu5RcUft9fYp9Ju/viwFHmIyMniXzlpK4?blocks=show",
-          "description": "Startup Submission Sites"
-        },
-        {
-          "name": "PlacesToPostYourStartup",
-          "url": "https://www.placestopostyourstartup.com/",
-          "description": "Startup Submission Sites"
+          "description": "Startup Submission Sites",
+          "mirrors": [
+            "https://www.placestopostyourstartup.com/"
+          ]
         },
         {
           "name": "WellFound",
@@ -5397,12 +4501,10 @@
         {
           "name": "Business Card Generator",
           "url": "https://business-card-generator.vercel.app/",
-          "description": "Business Cards"
-        },
-        {
-          "name": "Haystack",
-          "url": "https://thehaystackapp.com/",
-          "description": "Business Cards"
+          "description": "Business Cards",
+          "mirrors": [
+            "https://thehaystackapp.com/"
+          ]
         }
       ]
     },
@@ -5448,17 +4550,11 @@
         {
           "name": "LucidSpark",
           "url": "https://lucidspark.com/",
-          "description": "Idea / Collaboration Whiteboards"
-        },
-        {
-          "name": "Creately",
-          "url": "https://creately.com/",
-          "description": "Idea / Collaboration Whiteboards"
-        },
-        {
-          "name": "Miro",
-          "url": "https://miro.com/",
-          "description": "Idea / Collaboration Whiteboards"
+          "description": "Idea / Collaboration Whiteboards",
+          "mirrors": [
+            "https://creately.com/",
+            "https://miro.com/"
+          ]
         },
         {
           "name": "ScreenRec",
@@ -5516,17 +4612,11 @@
         {
           "name": "WeKan",
           "url": "https://github.com/wekan/wekan",
-          "description": "Kanban Boards / Task Managers"
-        },
-        {
-          "name": "Kanboard",
-          "url": "https://kanboard.org/",
-          "description": "Kanban Boards / Task Managers"
-        },
-        {
-          "name": "Planka",
-          "url": "https://planka.app/",
-          "description": "Kanban Boards / Task Managers"
+          "description": "Kanban Boards / Task Managers",
+          "mirrors": [
+            "https://kanboard.org/",
+            "https://planka.app/"
+          ]
         },
         {
           "name": "Airtable",
@@ -5545,93 +4635,46 @@
           "description": "Financial Advice / Resources",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "UK Personal Finance",
-          "url": "https://ukpersonal.finance/",
-          "description": "Financial Advice / Resources",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://ukpersonal.finance/"
           ]
         },
         {
           "name": "TradingView",
           "url": "https://www.tradingview.com/",
           "description": "Market Charting & Analysis Platforms",
-          "starred": true
-        },
-        {
-          "name": "GoCharting",
-          "url": "https://gocharting.com/",
-          "description": "Market Charting & Analysis Platforms"
-        },
-        {
-          "name": "ticker",
-          "url": "https://github.com/achannarasappa/ticker",
-          "description": "Market Charting & Analysis Platforms"
-        },
-        {
-          "name": "finviz",
-          "url": "https://finviz.com/",
-          "description": "Market Charting & Analysis Platforms"
+          "starred": true,
+          "mirrors": [
+            "https://gocharting.com/",
+            "https://github.com/achannarasappa/ticker",
+            "https://finviz.com/"
+          ]
         },
         {
           "name": "StockTicker",
           "url": "https://github.com/premnirmal/StockTicker",
           "description": "Mobile Market Charting & Analysis Platforms",
-          "starred": true
-        },
-        {
-          "name": "Candle",
-          "url": "https://gitlab.com/cosmosapps/candle",
-          "description": "Mobile Market Charting & Analysis Platforms"
+          "starred": true,
+          "mirrors": [
+            "https://gitlab.com/cosmosapps/candle"
+          ]
         },
         {
           "name": "Ghostfolio",
           "url": "https://ghostfol.io/en/start",
           "description": "Finance / Expense Managers",
-          "starred": true
-        },
-        {
-          "name": "Import",
-          "url": "https://github.com/dickwolff/Export-To-Ghostfolio",
-          "description": "Finance / Expense Managers"
-        },
-        {
-          "name": "Paisa",
-          "url": "https://paisa.fyi/",
-          "description": "Finance / Expense Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ananthakumaran/paisa",
-          "description": "Finance / Expense Managers"
-        },
-        {
-          "name": "HomeBank",
-          "url": "https://www.gethomebank.org/en/index.php",
-          "description": "Finance / Expense Managers"
-        },
-        {
-          "name": "Bagels",
-          "url": "https://github.com/EnhancedJax/Bagels",
-          "description": "Finance / Expense Managers"
-        },
-        {
-          "name": "Firefly III",
-          "url": "https://firefly-iii.org/",
-          "description": "Finance / Expense Managers"
-        },
-        {
-          "name": "Money Manager EX",
-          "url": "https://moneymanagerex.org/",
-          "description": "Finance / Expense Managers"
-        },
-        {
-          "name": "Actual",
-          "url": "https://github.com/actualbudget/actual",
-          "description": "Finance / Expense Managers"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/dickwolff/Export-To-Ghostfolio",
+            "https://paisa.fyi/",
+            "https://github.com/ananthakumaran/paisa",
+            "https://www.gethomebank.org/en/index.php",
+            "https://github.com/EnhancedJax/Bagels",
+            "https://firefly-iii.org/",
+            "https://moneymanagerex.org/",
+            "https://github.com/actualbudget/actual"
+          ]
         },
         {
           "name": "Weekly Market Recap",
@@ -5641,17 +4684,11 @@
         {
           "name": "⁠Free File",
           "url": "https://apps.irs.gov/app/freeFile/",
-          "description": "File Taxes for Free / Get Pin / Form Calc"
-        },
-        {
-          "name": "US Taxes",
-          "url": "https://ustaxes.org/",
-          "description": "File Taxes for Free / Get Pin / Form Calc"
-        },
-        {
-          "name": "FreeTaxUSA",
-          "url": "https://www.freetaxusa.com/",
-          "description": "File Taxes for Free / Get Pin / Form Calc"
+          "description": "File Taxes for Free / Get Pin / Form Calc",
+          "mirrors": [
+            "https://ustaxes.org/",
+            "https://www.freetaxusa.com/"
+          ]
         },
         {
           "name": "⁠Infolib",
@@ -5661,32 +4698,14 @@
         {
           "name": "money-manager",
           "url": "https://github.com/moneymanagerex/android-money-manager-ex",
-          "description": "Mobile Finance / Expense Managers"
-        },
-        {
-          "name": "Buckwheat",
-          "url": "https://buckwheat.app/",
-          "description": "Mobile Finance / Expense Managers"
-        },
-        {
-          "name": "My Expenses",
-          "url": "https://www.myexpenses.mobi/",
-          "description": "Mobile Finance / Expense Managers"
-        },
-        {
-          "name": "Cashew",
-          "url": "https://play.google.com/store/apps/details?id=com.budget.tracker_app",
-          "description": "Mobile Finance / Expense Managers"
-        },
-        {
-          "name": "iOS",
-          "url": "https://apps.apple.com/us/app/cashew-expense-budget-tracker/id6463662930",
-          "description": "Mobile Finance / Expense Managers"
-        },
-        {
-          "name": "Sushi",
-          "url": "https://github.com/jerameel/sushi",
-          "description": "Mobile Finance / Expense Managers"
+          "description": "Mobile Finance / Expense Managers",
+          "mirrors": [
+            "https://buckwheat.app/",
+            "https://www.myexpenses.mobi/",
+            "https://play.google.com/store/apps/details?id=com.budget.tracker_app",
+            "https://apps.apple.com/us/app/cashew-expense-budget-tracker/id6463662930",
+            "https://github.com/jerameel/sushi"
+          ]
         },
         {
           "name": "GreenStash",
@@ -5701,12 +4720,10 @@
         {
           "name": "Ledger",
           "url": "https://ledger-cli.org/",
-          "description": "Accounting Systems"
-        },
-        {
-          "name": "hledger",
-          "url": "https://hledger.org/index.html",
-          "description": "Accounting Systems"
+          "description": "Accounting Systems",
+          "mirrors": [
+            "https://hledger.org/index.html"
+          ]
         },
         {
           "name": "PortfolioVisualizer",
@@ -5741,17 +4758,11 @@
         {
           "name": "GamestonkTerminal",
           "url": "https://github.com/OpenBB-finance/OpenBBTerminal",
-          "description": "Investment Research Tools"
-        },
-        {
-          "name": "OpenBB Terminal",
-          "url": "https://openbb.co/",
-          "description": "Investment Research Tools"
-        },
-        {
-          "name": "KoyFin",
-          "url": "https://www.koyfin.com/",
-          "description": "Investment Research Tools"
+          "description": "Investment Research Tools",
+          "mirrors": [
+            "https://openbb.co/",
+            "https://www.koyfin.com/"
+          ]
         },
         {
           "name": "Portfolio Performance",
@@ -5784,12 +4795,10 @@
         {
           "name": "TradingView Webhook Bot",
           "url": "https://github.com/fabston/TradingView-Webhook-Bot",
-          "description": "Send TradingView Alerts to Various Apps"
-        },
-        {
-          "name": "Index",
-          "url": "https://github.com/pAulseperformance/awesome-pinescript",
-          "description": "Send TradingView Alerts to Various Apps"
+          "description": "Send TradingView Alerts to Various Apps",
+          "mirrors": [
+            "https://github.com/pAulseperformance/awesome-pinescript"
+          ]
         },
         {
           "name": "tickrs",
@@ -5799,12 +4808,10 @@
         {
           "name": "⁠BestETF",
           "url": "https://www.bestetf.net/",
-          "description": "ETF Databases"
-        },
-        {
-          "name": "ETFDB",
-          "url": "https://etfdb.com/",
-          "description": "ETF Databases"
+          "description": "ETF Databases",
+          "mirrors": [
+            "https://etfdb.com/"
+          ]
         },
         {
           "name": "DeFi Derivative Landscape",
@@ -5842,46 +4849,13 @@
           "description": "Non-KYC Exchanges / Services",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "i2p",
-          "url": "http://nti3rj4j4disjcm2kvp4eno7otcejbbxv3ggxwr5tpfk4jucah7q.b32.i2p/",
-          "description": "Non-KYC Exchanges / Services",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": ".onion",
-          "url": "http://kycnotmezdiftahfmc34pqbpicxlnx3jbf5p7jypge7gdvduu7i6qjqd.onion/",
-          "description": "Non-KYC Exchanges / Services",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Source Code",
-          "url": "https://codeberg.org/pluja/kycnotme",
-          "description": "Non-KYC Exchanges / Services",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "NotKYC",
-          "url": "https://notkyc.com/",
-          "description": "Non-KYC Exchanges / Services",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "⁠OrangeFren",
-          "url": "https://orangefren.com/",
-          "description": "Non-KYC Exchanges / Services",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "http://nti3rj4j4disjcm2kvp4eno7otcejbbxv3ggxwr5tpfk4jucah7q.b32.i2p/",
+            "http://kycnotmezdiftahfmc34pqbpicxlnx3jbf5p7jypge7gdvduu7i6qjqd.onion/",
+            "https://codeberg.org/pluja/kycnotme",
+            "https://notkyc.com/",
+            "https://orangefren.com/"
           ]
         },
         {
@@ -5922,47 +4896,17 @@
         {
           "name": "BlockChain",
           "url": "https://www.blockchain.com/explorer",
-          "description": "Live Crypto Prices / Blockchain Explorers"
-        },
-        {
-          "name": "CoinWatch",
-          "url": "https://github.com/shorthouse/CoinWatch",
-          "description": "Live Crypto Prices / Blockchain Explorers"
-        },
-        {
-          "name": "Hivexplorer",
-          "url": "https://hivexplorer.com/",
-          "description": "Live Crypto Prices / Blockchain Explorers"
-        },
-        {
-          "name": "BlockChair",
-          "url": "https://blockchair.com/",
-          "description": "Live Crypto Prices / Blockchain Explorers"
-        },
-        {
-          "name": "Mempool",
-          "url": "https://mempool.space/",
-          "description": "Live Crypto Prices / Blockchain Explorers"
-        },
-        {
-          "name": "L2BEAT",
-          "url": "https://l2beat.com/",
-          "description": "Live Crypto Prices / Blockchain Explorers"
-        },
-        {
-          "name": "HiveblockExplorer",
-          "url": "https://hiveblockexplorer.com/",
-          "description": "Live Crypto Prices / Blockchain Explorers"
-        },
-        {
-          "name": "CoinGlass",
-          "url": "https://www.coinglass.com/",
-          "description": "Live Crypto Prices / Blockchain Explorers"
-        },
-        {
-          "name": "LiveCoinWatch",
-          "url": "https://www.livecoinwatch.com/",
-          "description": "Live Crypto Prices / Blockchain Explorers"
+          "description": "Live Crypto Prices / Blockchain Explorers",
+          "mirrors": [
+            "https://github.com/shorthouse/CoinWatch",
+            "https://hivexplorer.com/",
+            "https://blockchair.com/",
+            "https://mempool.space/",
+            "https://l2beat.com/",
+            "https://hiveblockexplorer.com/",
+            "https://www.coinglass.com/",
+            "https://www.livecoinwatch.com/"
+          ]
         },
         {
           "name": "Privacy Watch",
@@ -5987,12 +4931,10 @@
         {
           "name": "Cryptopedia",
           "url": "https://www.gemini.com/cryptopedia",
-          "description": "Crypto Learning Resources"
-        },
-        {
-          "name": "Crypto Canon",
-          "url": "https://a16zcrypto.com/posts/article/crypto-readings-resources/",
-          "description": "Crypto Learning Resources"
+          "description": "Crypto Learning Resources",
+          "mirrors": [
+            "https://a16zcrypto.com/posts/article/crypto-readings-resources/"
+          ]
         },
         {
           "name": "IQ.Wiki",
@@ -6041,12 +4983,10 @@
           "name": "Dark Patterns Tip Line",
           "url": "https://darkpatternstipline.org/",
           "description": "Deceptive Services to Avoid",
-          "starred": true
-        },
-        {
-          "name": "Dark Patterns",
-          "url": "https://hallofshame.design/collection/",
-          "description": "Deceptive Services to Avoid"
+          "starred": true,
+          "mirrors": [
+            "https://hallofshame.design/collection/"
+          ]
         },
         {
           "name": "Dark Patterns Detective",
@@ -6056,22 +4996,18 @@
         {
           "name": "Looria",
           "url": "https://www.looria.com/",
-          "description": "Product / Service Reviews"
-        },
-        {
-          "name": "ProductHunt",
-          "url": "https://producthunt.com/",
-          "description": "Product / Service Reviews"
+          "description": "Product / Service Reviews",
+          "mirrors": [
+            "https://producthunt.com/"
+          ]
         },
         {
           "name": "Pepper",
           "url": "https://www.pepperdeals.com/",
-          "description": "Shopping Deal Communities"
-        },
-        {
-          "name": "SlickDeals",
-          "url": "https://slickdeals.net/",
-          "description": "Shopping Deal Communities"
+          "description": "Shopping Deal Communities",
+          "mirrors": [
+            "https://slickdeals.net/"
+          ]
         },
         {
           "name": "⁠BangYourBuck",
@@ -6091,22 +5027,18 @@
         {
           "name": "⁠NoBids",
           "url": "https://nobids.net/",
-          "description": "eBay Advanced Search"
-        },
-        {
-          "name": "WatchCount",
-          "url": "https://www.watchcount.com/",
-          "description": "eBay Advanced Search"
+          "description": "eBay Advanced Search",
+          "mirrors": [
+            "https://www.watchcount.com/"
+          ]
         },
         {
           "name": "Typo Hound",
           "url": "https://typohound.com/",
-          "description": "eBay Typo Search"
-        },
-        {
-          "name": "FatFingers",
-          "url": "https://fatfingers.com/",
-          "description": "eBay Typo Search"
+          "description": "eBay Typo Search",
+          "mirrors": [
+            "https://fatfingers.com/"
+          ]
         },
         {
           "name": "PicClick",
@@ -6116,12 +5048,10 @@
         {
           "name": "⁠a view from my seat",
           "url": "https://aviewfrommyseat.com/",
-          "description": "See Event Views Before Buying Tickets"
-        },
-        {
-          "name": "UK",
-          "url": "https://aviewfrommyseat.co.uk/",
-          "description": "See Event Views Before Buying Tickets"
+          "description": "See Event Views Before Buying Tickets",
+          "mirrors": [
+            "https://aviewfrommyseat.co.uk/"
+          ]
         },
         {
           "name": "Desenmascara",
@@ -6186,27 +5116,17 @@
         {
           "name": "JetPens Blog",
           "url": "https://www.jetpens.com/blog",
-          "description": "Mechanical Pen / Pencil Guides / Shopping"
+          "description": "Mechanical Pen / Pencil Guides / Shopping / YouTube"
         },
         {
           "name": "⁠Knockology",
           "url": "https://forum.knockology.com/",
-          "description": "Mechanical Pencil Communities"
-        },
-        {
-          "name": "r/mechanicalpencils",
-          "url": "https://www.reddit.com/r/mechanicalpencils/",
-          "description": "Mechanical Pencil Communities"
-        },
-        {
-          "name": "Wiki",
-          "url": "https://www.reddit.com/r/mechanicalpencils/wiki/index/",
-          "description": "Mechanical Pencil Communities"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/2zZfsax",
-          "description": "Mechanical Pencil Communities"
+          "description": "Mechanical Pencil Communities",
+          "mirrors": [
+            "https://www.reddit.com/r/mechanicalpencils/",
+            "https://www.reddit.com/r/mechanicalpencils/wiki/index/",
+            "https://discord.com/invite/2zZfsax"
+          ]
         },
         {
           "name": "⁠Pen Addict",
@@ -6226,12 +5146,10 @@
         {
           "name": "WornOnTV",
           "url": "https://wornontv.net/",
-          "description": "Find Outfits from TV Shows"
-        },
-        {
-          "name": "ShopYourTV",
-          "url": "https://shopyourtv.com/",
-          "description": "Find Outfits from TV Shows"
+          "description": "Find Outfits from TV Shows",
+          "mirrors": [
+            "https://shopyourtv.com/"
+          ]
         },
         {
           "name": "Kolors",
@@ -6266,17 +5184,11 @@
         {
           "name": "Fragrantica",
           "url": "https://www.fragrantica.com/",
-          "description": "Perfume / Fragrance Databases"
-        },
-        {
-          "name": "Basenotes",
-          "url": "https://basenotes.com/",
-          "description": "Perfume / Fragrance Databases"
-        },
-        {
-          "name": "Parfumo",
-          "url": "https://www.parfumo.com/",
-          "description": "Perfume / Fragrance Databases"
+          "description": "Perfume / Fragrance Databases",
+          "mirrors": [
+            "https://basenotes.com/",
+            "https://www.parfumo.com/"
+          ]
         },
         {
           "name": "Models.dev",
@@ -6292,7 +5204,7 @@
           "description": "On-Demand Online Manufacturers"
         }
       ],
-      "note": "It's recommended to store cryptocurrency offline in cold wallets such as Electrum, rather than exchanges like Binance or others. This increases security and gives you full control of your assets. Make sure to install a 広告ブロッカー when using these sites."
+      "note": "It's recommended to store cryptocurrency offline in cold wallets such as Electrum, rather than exchanges like Binance or others. This increases security and gives you full control of your assets. 必ず install a 広告ブロッカー when using these サイトs."
     },
     {
       "id": "misc-electronics",
@@ -6302,100 +5214,48 @@
           "name": "PCPartPicker",
           "url": "https://pcpartpicker.com/",
           "description": "PC Building Sites",
-          "starred": true
-        },
-        {
-          "name": "BuildCores",
-          "url": "http://www.buildcores.com/",
-          "description": "PC Building Sites"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://reddit.com/r/buildcores",
-          "description": "PC Building Sites"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/gxHtZx3Uxe",
-          "description": "PC Building Sites"
-        },
-        {
-          "name": "CGDirector",
-          "url": "https://www.cgdirector.com/pc-builder/",
-          "description": "PC Building Sites"
+          "starred": true,
+          "mirrors": [
+            "http://www.buildcores.com/",
+            "https://reddit.com/r/buildcores",
+            "https://discord.gg/gxHtZx3Uxe",
+            "https://www.cgdirector.com/pc-builder/"
+          ]
         },
         {
           "name": "r/PCMasterrace Builds",
           "url": "https://pcmasterrace.org/builds",
           "description": "PC Building Guides / Video",
-          "starred": true
-        },
-        {
-          "name": "r/BuildaPC Wiki",
-          "url": "https://www.reddit.com/r/buildapc/wiki/index",
-          "description": "PC Building Guides / Video"
-        },
-        {
-          "name": "PC Tiers",
-          "url": "https://pctiers.com/",
-          "description": "PC Building Guides / Video"
+          "starred": true,
+          "mirrors": [
+            "https://www.reddit.com/r/buildapc/wiki/index",
+            "https://pctiers.com/"
+          ]
         },
         {
           "name": "NanoReview",
           "url": "https://nanoreview.net/",
           "description": "Tech / Hardware Comparisons",
-          "starred": true
-        },
-        {
-          "name": "TechPowerup",
-          "url": "https://www.techpowerup.com/",
-          "description": "Tech / Hardware Comparisons"
-        },
-        {
-          "name": "TechGearLab",
-          "url": "https://www.techgearlab.com/",
-          "description": "Tech / Hardware Comparisons"
-        },
-        {
-          "name": "ProductChart",
-          "url": "https://www.productchart.com/",
-          "description": "Tech / Hardware Comparisons"
-        },
-        {
-          "name": "Octoparts",
-          "url": "https://octopart.com/",
-          "description": "Tech / Hardware Comparisons"
-        },
-        {
-          "name": "Technical City",
-          "url": "https://technical.city/",
-          "description": "Tech / Hardware Comparisons"
-        },
-        {
-          "name": "Techspecs",
-          "url": "https://techspecs.io/",
-          "description": "Tech / Hardware Comparisons"
+          "starred": true,
+          "mirrors": [
+            "https://www.techpowerup.com/",
+            "https://www.techgearlab.com/",
+            "https://www.productchart.com/",
+            "https://octopart.com/",
+            "https://technical.city/",
+            "https://techspecs.io/"
+          ]
         },
         {
           "name": "rtings",
           "url": "https://www.rtings.com/",
           "description": "Hardware / Tech Reviews / Clear Cookies Reset Limit",
-          "starred": true
-        },
-        {
-          "name": "X",
-          "url": "https://x.com/rtingsdotcom",
-          "description": "Hardware / Tech Reviews / Clear Cookies Reset Limit"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/GFv6FyUcm7",
-          "description": "Hardware / Tech Reviews / Clear Cookies Reset Limit"
-        },
-        {
-          "name": "⁠LTT Labs",
-          "url": "https://www.lttlabs.com/",
-          "description": "Hardware / Tech Reviews / Clear Cookies Reset Limit"
+          "starred": true,
+          "mirrors": [
+            "https://x.com/rtingsdotcom",
+            "https://discord.gg/GFv6FyUcm7",
+            "https://www.lttlabs.com/"
+          ]
         },
         {
           "name": "Open Benchmarking",
@@ -6407,85 +5267,45 @@
           "name": "GSMArena",
           "url": "https://www.gsmarena.com/",
           "description": "Compare Phones / Prices",
-          "starred": true
-        },
-        {
-          "name": "Guide",
-          "url": "https://www.gsmarena.com/reviews.php3?sTag=Buyers+guide",
-          "description": "Compare Phones / Prices"
-        },
-        {
-          "name": "Prepaid Compare",
-          "url": "https://prepaidcompare.net/",
-          "description": "Compare Phones / Prices"
-        },
-        {
-          "name": "PhoneDB",
-          "url": "https://phonedb.net/",
-          "description": "Compare Phones / Prices"
-        },
-        {
-          "name": "GSMChoice",
-          "url": "https://www.gsmchoice.com/en/",
-          "description": "Compare Phones / Prices"
-        },
-        {
-          "name": "⁠Antutu",
-          "url": "https://www.antutu.com/en/ranking/rank1.htm",
-          "description": "Compare Phones / Prices"
-        },
-        {
-          "name": "Kimovil",
-          "url": "https://www.kimovil.com/en/",
-          "description": "Compare Phones / Prices"
+          "starred": true,
+          "mirrors": [
+            "https://www.gsmarena.com/reviews.php3?sTag=Buyers+guide",
+            "https://prepaidcompare.net/",
+            "https://phonedb.net/",
+            "https://www.gsmchoice.com/en/",
+            "https://www.antutu.com/en/ranking/rank1.htm",
+            "https://www.kimovil.com/en/"
+          ]
         },
         {
           "name": "CPUBenchmark",
           "url": "https://www.cpubenchmark.net/",
           "description": "GPU / CPU Benchmarks",
-          "starred": true
-        },
-        {
-          "name": "Toms GPU Hierarchy",
-          "url": "https://www.tomshardware.com/reviews/gpu-hierarchy",
-          "description": "GPU / CPU Benchmarks"
-        },
-        {
-          "name": "NoteBenchcheck",
-          "url": "https://www.notebookcheck.net/Benchmarks-Tech.123.0.html",
-          "description": "GPU / CPU Benchmarks"
+          "starred": true,
+          "mirrors": [
+            "https://www.tomshardware.com/reviews/gpu-hierarchy",
+            "https://www.notebookcheck.net/Benchmarks-Tech.123.0.html"
+          ]
         },
         {
           "name": "r/MechanicalKeyboards Wiki",
           "url": "https://www.reddit.com/r/MechanicalKeyboards/wiki/index",
           "description": "Mechanical Keyboard Recommendations",
-          "starred": true
-        },
-        {
-          "name": "KeebFinder",
-          "url": "https://keeb-finder.com/",
-          "description": "Mechanical Keyboard Recommendations"
-        },
-        {
-          "name": "Alexotos",
-          "url": "https://www.alexotos.com/keyboard-vendor-list/",
-          "description": "Mechanical Keyboard Recommendations"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/xMQArAaGRB",
-          "description": "Mechanical Keyboard Recommendations"
+          "starred": true,
+          "mirrors": [
+            "https://keeb-finder.com/",
+            "https://www.alexotos.com/keyboard-vendor-list/",
+            "https://discord.com/invite/xMQArAaGRB"
+          ]
         },
         {
           "name": "⁠MouseCTRL",
           "url": "https://mousectrl.com/",
           "description": "Mousepad Comparison Chart",
-          "starred": true
-        },
-        {
-          "name": "Mousepad Mastersheet",
-          "url": "https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/",
-          "description": "Mousepad Comparison Chart"
+          "starred": true,
+          "mirrors": [
+            "https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/"
+          ]
         },
         {
           "name": "Privacy Not Included",
@@ -6528,37 +5348,21 @@
         {
           "name": "NewMaxx's SSD Site",
           "url": "https://borecraft.com/",
-          "description": "SSD Buying Comparisons"
-        },
-        {
-          "name": "Doc",
-          "url": "https://docs.google.com/spreadsheets/d/1B27_j9NDPU3cNlj2HKcrfpJKHkOf-Oi1DbuuQva2gT4/",
-          "description": "SSD Buying Comparisons"
-        },
-        {
-          "name": "SSD Tester",
-          "url": "https://ssd-tester.com/",
-          "description": "SSD Buying Comparisons"
-        },
-        {
-          "name": "JohnnyLucky",
-          "url": "https://www.johnnylucky.org/data-storage/ssd-database.html",
-          "description": "SSD Buying Comparisons"
+          "description": "SSD Buying Comparisons",
+          "mirrors": [
+            "https://docs.google.com/spreadsheets/d/1B27_j9NDPU3cNlj2HKcrfpJKHkOf-Oi1DbuuQva2gT4/",
+            "https://ssd-tester.com/",
+            "https://www.johnnylucky.org/data-storage/ssd-database.html"
+          ]
         },
         {
           "name": "Disk Prices",
           "url": "https://diskprices.com/",
-          "description": "Disk Price Trackers"
-        },
-        {
-          "name": "⁠PricePerGig",
-          "url": "https://pricepergig.com/",
-          "description": "Disk Price Trackers"
-        },
-        {
-          "name": "⁠TerabyteDeals",
-          "url": "https://terabytedeals.com/",
-          "description": "Disk Price Trackers"
+          "description": "Disk Price Trackers",
+          "mirrors": [
+            "https://pricepergig.com/",
+            "https://terabytedeals.com/"
+          ]
         },
         {
           "name": "Jarrod's Tech",
@@ -6588,32 +5392,14 @@
         {
           "name": "Mouse Ratings",
           "url": "https://www.rtings.com/mouse/reviews/best",
-          "description": "Mouse Buying Guides"
-        },
-        {
-          "name": "EloShapes",
-          "url": "https://www.eloshapes.com/",
-          "description": "Mouse Buying Guides"
-        },
-        {
-          "name": "Sensor.fyi",
-          "url": "https://sensor.fyi/info/",
-          "description": "Mouse Buying Guides"
-        },
-        {
-          "name": "RocketJumpNinja",
-          "url": "https://www.rocketjumpninja.com/",
-          "description": "Mouse Buying Guides"
-        },
-        {
-          "name": "r/MouseReview",
-          "url": "https://www.reddit.com/r/MouseReview/",
-          "description": "Mouse Buying Guides"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/mousereview",
-          "description": "Mouse Buying Guides"
+          "description": "Mouse Buying Guides",
+          "mirrors": [
+            "https://www.eloshapes.com/",
+            "https://sensor.fyi/info/",
+            "https://www.rocketjumpninja.com/",
+            "https://www.reddit.com/r/MouseReview/",
+            "https://discord.gg/mousereview"
+          ]
         },
         {
           "name": "PSU Tier List",
@@ -6636,32 +5422,14 @@
         {
           "name": "DisplaySpecifications",
           "url": "https://www.displayspecifications.com/",
-          "description": "Monitor Buying Guides"
-        },
-        {
-          "name": "PC Monitors",
-          "url": "https://pcmonitors.info/",
-          "description": "Monitor Buying Guides"
-        },
-        {
-          "name": "TFTCentral",
-          "url": "https://tftcentral.co.uk/",
-          "description": "Monitor Buying Guides"
-        },
-        {
-          "name": "Monitor Hunter",
-          "url": "https://docs.google.com/document/d/1illeNLsUfZ4KuJ9cIWKwTDUEXUVpplhUYHAiom-FaDo/",
-          "description": "Monitor Buying Guides"
-        },
-        {
-          "name": "Monitor Spreadsheet",
-          "url": "https://docs.google.com/spreadsheets/d/1wBV0U3a1XuP1yFLvs_Ald3FE1y45bVxtS2zBXixsGLs/edit",
-          "description": "Monitor Buying Guides"
-        },
-        {
-          "name": "DisplayNinja",
-          "url": "https://www.displayninja.com/",
-          "description": "Monitor Buying Guides"
+          "description": "Monitor Buying Guides",
+          "mirrors": [
+            "https://pcmonitors.info/",
+            "https://tftcentral.co.uk/",
+            "https://docs.google.com/document/d/1illeNLsUfZ4KuJ9cIWKwTDUEXUVpplhUYHAiom-FaDo/",
+            "https://docs.google.com/spreadsheets/d/1wBV0U3a1XuP1yFLvs_Ald3FE1y45bVxtS2zBXixsGLs/edit",
+            "https://www.displayninja.com/"
+          ]
         },
         {
           "name": "sven dpi",
@@ -6676,47 +5444,30 @@
         {
           "name": "Scarbir",
           "url": "https://www.scarbir.com/",
-          "description": "Headset / Headphone / Earphone Comparisons"
-        },
-        {
-          "name": "r/Headphones Guide",
-          "url": "https://sites.google.com/view/quipa/assistants",
-          "description": "Headset / Headphone / Earphone Comparisons"
-        },
-        {
-          "name": "Squiglink",
-          "url": "https://squig.link/",
-          "description": "Headset / Headphone / Earphone Comparisons"
-        },
-        {
-          "name": "DIY-Audio-Heaven",
-          "url": "https://diyaudioheaven.wordpress.com/",
-          "description": "Headset / Headphone / Earphone Comparisons"
-        },
-        {
-          "name": "Crinacle Graphs",
-          "url": "https://graph.hangout.audio/",
-          "description": "Headset / Headphone / Earphone Comparisons"
-        },
-        {
-          "name": "Crinacle",
-          "url": "https://list.hangout.audio/iem",
-          "description": "Headset / Headphone / Earphone Comparisons"
+          "description": "Headset / Headphone / Earphone Comparisons",
+          "mirrors": [
+            "https://sites.google.com/view/quipa/assistants",
+            "https://squig.link/",
+            "https://diyaudioheaven.wordpress.com/",
+            "https://graph.hangout.audio/",
+            "https://list.hangout.audio/iem"
+          ]
         },
         {
           "name": "Consoomer_Guide",
-          "url": "https://rentry.org/consoomer_guide",
-          "description": "Earphone Shopping Guide"
+          "url": "https://consoomer-guide.pages.dev/",
+          "description": "Earphone Shopping Guide",
+          "mirrors": [
+            "https://rentry.org/consoomer_guide"
+          ]
         },
         {
           "name": "Crinacle's Ultimate IEM List",
           "url": "https://list.hangout.audio/iem/",
-          "description": "In-Ear Monitor Comparisons / Reviews"
-        },
-        {
-          "name": "IEMGazette",
-          "url": "https://4ciemg.github.io/IEMGazette/",
-          "description": "In-Ear Monitor Comparisons / Reviews"
+          "description": "In-Ear Monitor Comparisons / Reviews",
+          "mirrors": [
+            "https://4ciemg.github.io/IEMGazette/"
+          ]
         },
         {
           "name": "SpeakerRanking",
@@ -6726,12 +5477,10 @@
         {
           "name": "Erin's Audio Corner",
           "url": "https://www.erinsaudiocorner.com/",
-          "description": "Audio Equipment Comparisons"
-        },
-        {
-          "name": "Equipboard",
-          "url": "https://equipboard.com/",
-          "description": "Audio Equipment Comparisons"
+          "description": "Audio Equipment Comparisons",
+          "mirrors": [
+            "https://equipboard.com/"
+          ]
         },
         {
           "name": "⁠Audio Test Kitchen",
@@ -6751,12 +5500,10 @@
         {
           "name": "PhoneSized",
           "url": "https://phonesized.com/",
-          "description": "Phone Size Comparisons"
-        },
-        {
-          "name": "HotSpot3D",
-          "url": "https://www.hotspot3d.com/",
-          "description": "Phone Size Comparisons"
+          "description": "Phone Size Comparisons",
+          "mirrors": [
+            "https://www.hotspot3d.com/"
+          ]
         },
         {
           "name": "Gamepadla",
@@ -6780,12 +5527,10 @@
         {
           "name": "RetroCatalog",
           "url": "https://retrocatalog.com/",
-          "description": "Handheld Game Emulation Compatibility / Info"
-        },
-        {
-          "name": "Handheld Emulation Compatibility",
-          "url": "https://docs.google.com/spreadsheets/d/1irg60f9qsZOkhp0cwOU7Cy4rJQeyusEUzTNQzhoTYTU/",
-          "description": "Handheld Game Emulation Compatibility / Info"
+          "description": "Handheld Game Emulation Compatibility / Info",
+          "mirrors": [
+            "https://docs.google.com/spreadsheets/d/1irg60f9qsZOkhp0cwOU7Cy4rJQeyusEUzTNQzhoTYTU/"
+          ]
         },
         {
           "name": "ComparisonTabl.es",
@@ -6805,12 +5550,10 @@
         {
           "name": "Camera Decision",
           "url": "https://cameradecision.com/",
-          "description": "Compare Cameras"
-        },
-        {
-          "name": "Digicamfinder",
-          "url": "https://digicamfinder.com/",
-          "description": "Compare Cameras"
+          "description": "Compare Cameras",
+          "mirrors": [
+            "https://digicamfinder.com/"
+          ]
         },
         {
           "name": "⁠OscarLiang.com",
@@ -6934,12 +5677,10 @@
         {
           "name": "⁠VRDB",
           "url": "https://vrdb.app/",
-          "description": "VR Game / App Price Tracker"
-        },
-        {
-          "name": "QuestStoreDB",
-          "url": "https://queststoredb.com/",
-          "description": "VR Game / App Price Tracker"
+          "description": "VR Game / App Price Tracker",
+          "mirrors": [
+            "https://queststoredb.com/"
+          ]
         }
       ]
     },
@@ -6996,12 +5737,10 @@
         {
           "name": "Pokechange",
           "url": "https://en.pokechange.net/",
-          "description": "Buy / Sell Pokémon Cards"
-        },
-        {
-          "name": "Misprint",
-          "url": "https://www.misprint.com/",
-          "description": "Buy / Sell Pokémon Cards"
+          "description": "Buy / Sell Pokémon Cards",
+          "mirrors": [
+            "https://www.misprint.com/"
+          ]
         },
         {
           "name": "⁠ThePriceDex",
@@ -7011,22 +5750,18 @@
         {
           "name": "Dinosaur Toy Blog",
           "url": "https://dinotoyblog.com/",
-          "description": "Animal Toy Reviews"
-        },
-        {
-          "name": "Animal Toy Blog",
-          "url": "https://animaltoyforum.com/blog/",
-          "description": "Animal Toy Reviews"
+          "description": "Animal Toy Reviews",
+          "mirrors": [
+            "https://animaltoyforum.com/blog/"
+          ]
         },
         {
           "name": "Ty Collector",
           "url": "https://tycollector.com/",
-          "description": "Ty Collectibles Databases"
-        },
-        {
-          "name": "Beaniepedia",
-          "url": "https://beaniepedia.com/",
-          "description": "Ty Collectibles Databases"
+          "description": "Ty Collectibles Databases",
+          "mirrors": [
+            "https://beaniepedia.com/"
+          ]
         },
         {
           "name": "BreyerHorseRef",
@@ -7058,48 +5793,30 @@
           "name": "Dupe",
           "url": "https://dupe.com/",
           "description": "Furniture Duplicate Deals Search",
-          "starred": true
-        },
-        {
-          "name": "wtf.deals",
-          "url": "https://wtf.deals/",
-          "description": "Furniture Duplicate Deals Search"
+          "starred": true,
+          "mirrors": [
+            "https://wtf.deals/"
+          ]
         },
         {
           "name": "Keepa",
           "url": "https://keepa.com/",
           "description": "Amazon Price Trackers / App",
-          "starred": true
-        },
-        {
-          "name": "PriceHistory",
-          "url": "https://pricehistoryapp.com/",
-          "description": "Amazon Price Trackers / App"
-        },
-        {
-          "name": "CamelCamelCamel",
-          "url": "https://camelcamelcamel.com/",
-          "description": "Amazon Price Trackers / App"
-        },
-        {
-          "name": "Charts",
-          "url": "https://greasyfork.org/en/scripts/416590",
-          "description": "Amazon Price Trackers / App"
+          "starred": true,
+          "mirrors": [
+            "https://pricehistoryapp.com/",
+            "https://camelcamelcamel.com/",
+            "https://greasyfork.org/en/scripts/416590"
+          ]
         },
         {
           "name": "Vetted",
           "url": "https://vetted.ai/",
-          "description": "Price Tracking Extensions"
-        },
-        {
-          "name": "Real Price Tracker",
-          "url": "https://www.realpricetracker.com/",
-          "description": "Price Tracking Extensions"
-        },
-        {
-          "name": "FlipsHope",
-          "url": "https://flipshope.com/",
-          "description": "Price Tracking Extensions"
+          "description": "Price Tracking Extensions",
+          "mirrors": [
+            "https://www.realpricetracker.com/",
+            "https://flipshope.com/"
+          ]
         },
         {
           "name": "r/WhatsThisWorth",
@@ -7114,28 +5831,20 @@
         {
           "name": "Valuta EX",
           "url": "https://valuta.exchange/",
-          "description": "Currency Converters"
-        },
-        {
-          "name": "Currency World",
-          "url": "https://currency.world/",
-          "description": "Currency Converters"
+          "description": "Currency Converters",
+          "mirrors": [
+            "https://currency.world/"
+          ]
         },
         {
           "name": "Versus",
           "url": "https://versus.com/",
           "description": "Compare Anything",
-          "starred": true
-        },
-        {
-          "name": "SocialCompare",
-          "url": "https://socialcompare.com/en",
-          "description": "Compare Anything"
-        },
-        {
-          "name": "Diffen",
-          "url": "https://www.diffen.com/",
-          "description": "Compare Anything"
+          "starred": true,
+          "mirrors": [
+            "https://socialcompare.com/en",
+            "https://www.diffen.com/"
+          ]
         },
         {
           "name": "endoflife.date",
@@ -7162,17 +5871,11 @@
         {
           "name": "RANDOM",
           "url": "https://www.random.org/",
-          "description": "Random Generators"
-        },
-        {
-          "name": "The One Generator",
-          "url": "https://theonegenerator.com/",
-          "description": "Random Generators"
-        },
-        {
-          "name": "getrandomgenerator",
-          "url": "https://getrandomgenerator.com/",
-          "description": "Random Generators"
+          "description": "Random Generators",
+          "mirrors": [
+            "https://theonegenerator.com/",
+            "https://getrandomgenerator.com/"
+          ]
         },
         {
           "name": "The Measure Of Things",
@@ -7182,12 +5885,10 @@
         {
           "name": "Compare Sizes",
           "url": "https://comparesizes.com/",
-          "description": "Compare Sizes of Anything"
-        },
-        {
-          "name": "⁠SizeR.jp",
-          "url": "https://sizer.jp/",
-          "description": "Compare Sizes of Anything"
+          "description": "Compare Sizes of Anything",
+          "mirrors": [
+            "https://sizer.jp/"
+          ]
         },
         {
           "name": "Paper Sizes",
@@ -7208,58 +5909,25 @@
           "description": "Retro Style Weather / 80's",
           "tags": [
             "GitHub"
-          ]
-        },
-        {
-          "name": "2",
-          "url": "https://weatherstar.dev/",
-          "description": "Retro Style Weather / 80's",
-          "tags": [
-            "GitHub"
-          ]
-        },
-        {
-          "name": "WeatherScan",
-          "url": "https://weatherscan.net/",
-          "description": "Retro Style Weather / 80's",
-          "tags": [
-            "GitHub"
+          ],
+          "mirrors": [
+            "https://weatherstar.dev/",
+            "https://weatherscan.net/"
           ]
         },
         {
           "name": "Wheel Decide",
           "url": "https://wheeldecide.com/",
-          "description": "Wheel Randomizers"
-        },
-        {
-          "name": "Spinn a Wheel",
-          "url": "https://spinnawheel.com/",
-          "description": "Wheel Randomizers"
-        },
-        {
-          "name": "PickerWheel",
-          "url": "https://pickerwheel.com/",
-          "description": "Wheel Randomizers"
-        },
-        {
-          "name": "SWG",
-          "url": "https://spinthewheelgenerator.com/",
-          "description": "Wheel Randomizers"
-        },
-        {
-          "name": "HeySpinner",
-          "url": "https://heyspinner.com/",
-          "description": "Wheel Randomizers"
-        },
-        {
-          "name": "TheSpinnerWheel",
-          "url": "https://thespinnerwheel.com/",
-          "description": "Wheel Randomizers"
-        },
-        {
-          "name": "Wheel of Names",
-          "url": "https://wheelofnames.com/",
-          "description": "Wheel Randomizers"
+          "description": "Wheel Randomizers",
+          "mirrors": [
+            "https://spinnawheel.com/",
+            "https://ultimatewheelspin.com/",
+            "https://pickerwheel.com/",
+            "https://spinthewheelgenerator.com/",
+            "https://heyspinner.com/",
+            "https://thespinnerwheel.com/",
+            "https://wheelofnames.com/"
+          ]
         },
         {
           "name": "SurveyHeart",
@@ -7269,12 +5937,10 @@
         {
           "name": "Label Studio",
           "url": "https://labelstud.io/",
-          "description": "Data Organizing Tools"
-        },
-        {
-          "name": "Cvat",
-          "url": "https://www.cvat.ai/",
-          "description": "Data Organizing Tools"
+          "description": "Data Organizing Tools",
+          "mirrors": [
+            "https://www.cvat.ai/"
+          ]
         },
         {
           "name": "colnect",
@@ -7289,12 +5955,10 @@
         {
           "name": "Forebears",
           "url": "https://forebears.io/",
-          "description": "Name Etymologies"
-        },
-        {
-          "name": "BehindTheName",
-          "url": "https://www.behindthename.com/",
-          "description": "Name Etymologies"
+          "description": "Name Etymologies",
+          "mirrors": [
+            "https://www.behindthename.com/"
+          ]
         },
         {
           "name": "Acoustic Gender",
@@ -7304,22 +5968,12 @@
         {
           "name": "Timeline Cascade",
           "url": "https://markwhen.com/",
-          "description": "Create Timelines"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/mark-when/markwhen",
-          "description": "Create Timelines"
-        },
-        {
-          "name": "Timeline JS",
-          "url": "https://timeline.knightlab.com/",
-          "description": "Create Timelines"
-        },
-        {
-          "name": "Time.Graphics",
-          "url": "https://time.graphics/",
-          "description": "Create Timelines"
+          "description": "Create Timelines",
+          "mirrors": [
+            "https://github.com/mark-when/markwhen",
+            "https://timeline.knightlab.com/",
+            "https://time.graphics/"
+          ]
         },
         {
           "name": "Timeliner",
@@ -7329,32 +5983,20 @@
         {
           "name": "Familypedia",
           "url": "https://familypedia.fandom.com/",
-          "description": "Find Family Trees"
-        },
-        {
-          "name": "Gramps",
-          "url": "https://gramps-project.org/blog/",
-          "description": "Find Family Trees"
-        },
-        {
-          "name": "FamilySearch",
-          "url": "https://www.familysearch.org/",
-          "description": "Find Family Trees"
-        },
-        {
-          "name": "WikiTree",
-          "url": "https://wikitree.com/",
-          "description": "Find Family Trees"
+          "description": "Find Family Trees",
+          "mirrors": [
+            "https://gramps-project.org/blog/",
+            "https://www.familysearch.org/",
+            "https://wikitree.com/"
+          ]
         },
         {
           "name": "⁠Family Chart",
           "url": "https://github.com/donatso/family-chart",
-          "description": "Create Custom Family Tree"
-        },
-        {
-          "name": "FamilyEcho",
-          "url": "https://www.familyecho.com/",
-          "description": "Create Custom Family Tree"
+          "description": "Create Custom Family Tree",
+          "mirrors": [
+            "https://www.familyecho.com/"
+          ]
         },
         {
           "name": "Ravelry",
@@ -7369,12 +6011,10 @@
         {
           "name": "A Bra That Fits",
           "url": "https://www.abrathatfits.org/calculator.php",
-          "description": "Bra Size Calculators"
-        },
-        {
-          "name": "BraMetric",
-          "url": "https://brametric.com/",
-          "description": "Bra Size Calculators"
+          "description": "Bra Size Calculators",
+          "mirrors": [
+            "https://brametric.com/"
+          ]
         },
         {
           "name": "PEmbroider",
@@ -7404,17 +6044,11 @@
         {
           "name": "Parcelsapp",
           "url": "https://parcelsapp.com/en/",
-          "description": "Mail Package Tracking"
-        },
-        {
-          "name": "Informed Delivery",
-          "url": "https://informeddelivery.usps.com/",
-          "description": "Mail Package Tracking"
-        },
-        {
-          "name": "17Track",
-          "url": "https://www.17track.net/en",
-          "description": "Mail Package Tracking"
+          "description": "Mail Package Tracking",
+          "mirrors": [
+            "https://informeddelivery.usps.com/",
+            "https://www.17track.net/en"
+          ]
         },
         {
           "name": "TemplateMaker",
@@ -7540,12 +6174,10 @@
         {
           "name": "KodyTools",
           "url": "https://www.kodytools.com/",
-          "description": "Data / Text / Design / Cryptography / Unit Conversion"
-        },
-        {
-          "name": "Webacus",
-          "url": "https://webacus.dev/",
-          "description": "Data / Text / Design / Cryptography / Unit Conversion"
+          "description": "Data / Text / Design / Cryptography / Unit Conversion",
+          "mirrors": [
+            "https://webacus.dev/"
+          ]
         },
         {
           "name": "Media.io",
@@ -7614,32 +6246,20 @@
         {
           "name": "Zoneless",
           "url": "https://zoneless.tools/",
-          "description": "Time Zone Visualizers / Comparisons"
-        },
-        {
-          "name": "WorldTimeBuddy",
-          "url": "https://www.worldtimebuddy.com/",
-          "description": "Time Zone Visualizers / Comparisons"
-        },
-        {
-          "name": "EveryTimeZone",
-          "url": "https://everytimezone.com/",
-          "description": "Time Zone Visualizers / Comparisons"
+          "description": "Time Zone Visualizers / Comparisons",
+          "mirrors": [
+            "https://www.worldtimebuddy.com/",
+            "https://everytimezone.com/"
+          ]
         },
         {
           "name": "⁠FocusTube",
           "url": "https://github.com/malekwael229/FocusTube",
-          "description": "Distraction / Doomscroll Blocking Extensions"
-        },
-        {
-          "name": "UnDistracted",
-          "url": "https://www.undistracted.app/",
-          "description": "Distraction / Doomscroll Blocking Extensions"
-        },
-        {
-          "name": "Focus-ToDo",
-          "url": "https://chromewebstore.google.com/detail/ngceodoilcgpmkijopinlkmohnfifjfb",
-          "description": "Distraction / Doomscroll Blocking Extensions"
+          "description": "Distraction / Doomscroll Blocking Extensions",
+          "mirrors": [
+            "https://www.undistracted.app/",
+            "https://chromewebstore.google.com/detail/ngceodoilcgpmkijopinlkmohnfifjfb"
+          ]
         },
         {
           "name": "r/GetMotivated",
@@ -7732,37 +6352,15 @@
         {
           "name": "Plucky",
           "url": "https://pluckyfilter.com/",
-          "description": "Site Blocking Extensions"
-        },
-        {
-          "name": "⁠one sec",
-          "url": "https://one-sec.app/",
-          "description": "Site Blocking Extensions"
-        },
-        {
-          "name": "Block Site",
-          "url": "https://webextension.org/listing/block-site.html",
-          "description": "Site Blocking Extensions"
-        },
-        {
-          "name": "LeechBlock",
-          "url": "https://www.proginosko.com/leechblock",
-          "description": "Site Blocking Extensions"
-        },
-        {
-          "name": "uBlacklist",
-          "url": "https://ublacklist.github.io/docs",
-          "description": "Site Blocking Extensions"
-        },
-        {
-          "name": "Forest",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/forest-stay-focused-be-present/",
-          "description": "Site Blocking Extensions"
-        },
-        {
-          "name": "Chrome",
-          "url": "https://chrome.google.com/webstore/detail/forest-stay-focused-be-pr/kjacjjdnoddnpbbcjilcajfhhbdhkpgk",
-          "description": "Site Blocking Extensions"
+          "description": "Site Blocking Extensions",
+          "mirrors": [
+            "https://one-sec.app/",
+            "https://webextension.org/listing/block-site.html",
+            "https://www.proginosko.com/leechblock",
+            "https://ublacklist.github.io/docs",
+            "https://addons.mozilla.org/en-US/firefox/addon/forest-stay-focused-be-present/",
+            "https://chrome.google.com/webstore/detail/forest-stay-focused-be-pr/kjacjjdnoddnpbbcjilcajfhhbdhkpgk"
+          ]
         },
         {
           "name": "Time Tracker",
@@ -7795,52 +6393,24 @@
         {
           "name": "Event Rally",
           "url": "https://rallly.co/",
-          "description": "Event Date Organizing"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/lukevella/Rallly",
-          "description": "Event Date Organizing"
-        },
-        {
-          "name": "Cally",
-          "url": "https://cally.com/",
-          "description": "Event Date Organizing"
-        },
-        {
-          "name": "LettuceMeet",
-          "url": "https://lettucemeet.com",
-          "description": "Event Date Organizing"
-        },
-        {
-          "name": "Mobilizon",
-          "url": "https://joinmobilizon.org/",
-          "description": "Event Date Organizing"
-        },
-        {
-          "name": "Gancio",
-          "url": "https://gancio.org/",
-          "description": "Event Date Organizing"
+          "description": "Event Date Organizing",
+          "mirrors": [
+            "https://github.com/lukevella/Rallly",
+            "https://cally.com/",
+            "https://lettucemeet.com",
+            "https://joinmobilizon.org/",
+            "https://gancio.org/"
+          ]
         },
         {
           "name": "Luma",
           "url": "https://lu.ma/",
-          "description": "Search or Post Local Events"
-        },
-        {
-          "name": "⁠Heylo",
-          "url": "https://www.heylo.com/",
-          "description": "Search or Post Local Events"
-        },
-        {
-          "name": "⁠Eventbrite",
-          "url": "https://www.eventbrite.com/",
-          "description": "Search or Post Local Events"
-        },
-        {
-          "name": "Meetup",
-          "url": "https://www.meetup.com/",
-          "description": "Search or Post Local Events"
+          "description": "Search or Post Local Events",
+          "mirrors": [
+            "https://www.heylo.com/",
+            "https://www.eventbrite.com/",
+            "https://www.meetup.com/"
+          ]
         },
         {
           "name": "Samay",
@@ -7913,12 +6483,10 @@
         {
           "name": "KittySplit",
           "url": "https://www.kittysplit.com/en/",
-          "description": "Group Expense Splitting Calculator"
-        },
-        {
-          "name": "Spliit",
-          "url": "https://spliit.app/",
-          "description": "Group Expense Splitting Calculator"
+          "description": "Group Expense Splitting Calculator",
+          "mirrors": [
+            "https://spliit.app/"
+          ]
         }
       ]
     },
@@ -7946,53 +6514,25 @@
           "name": "Knockout",
           "url": "https://knockout.chat/",
           "description": "General Forums",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/wjWpapC",
-          "description": "General Forums"
-        },
-        {
-          "name": "comfy box",
-          "url": "https://comfybox.floofey.dog/",
-          "description": "General Forums"
-        },
-        {
-          "name": "SheepishPatio",
-          "url": "https://sheepishpatio.net/",
-          "description": "General Forums"
-        },
-        {
-          "name": "Macintosh Cafe",
-          "url": "https://forum.agoraroad.com/",
-          "description": "General Forums"
+          "starred": true,
+          "mirrors": [
+            "https://discord.gg/wjWpapC",
+            "https://comfybox.floofey.dog/",
+            "https://sheepishpatio.net/",
+            "https://forum.agoraroad.com/"
+          ]
         },
         {
           "name": "SufficientVelocity",
           "url": "https://forums.sufficientvelocity.com/",
           "description": "Fanfiction / Roleplaying Communities",
-          "starred": true
-        },
-        {
-          "name": "Myth Weavers",
-          "url": "https://www.myth-weavers.com/",
-          "description": "Fanfiction / Roleplaying Communities"
-        },
-        {
-          "name": "⁠AltHistory",
-          "url": "https://althistory.com/",
-          "description": "Fanfiction / Roleplaying Communities"
-        },
-        {
-          "name": "RolePlayer",
-          "url": "https://www.roleplayer.me/",
-          "description": "Fanfiction / Roleplaying Communities"
-        },
-        {
-          "name": "SpaceBattles",
-          "url": "https://forums.spacebattles.com/",
-          "description": "Fanfiction / Roleplaying Communities"
+          "starred": true,
+          "mirrors": [
+            "https://www.myth-weavers.com/",
+            "https://althistory.com/",
+            "https://www.roleplayer.me/",
+            "https://forums.spacebattles.com/"
+          ]
         },
         {
           "name": "Frantic Fanfic",
@@ -8002,12 +6542,10 @@
         {
           "name": "bugs",
           "url": "https://nobodyhere.com/bugs/",
-          "description": "Random Topic Forums"
-        },
-        {
-          "name": "Posting.Cool",
-          "url": "https://posting.cool/",
-          "description": "Random Topic Forums"
+          "description": "Random Topic Forums",
+          "mirrors": [
+            "https://posting.cool/"
+          ]
         },
         {
           "name": "Earth Reviews",
@@ -8037,47 +6575,29 @@
         {
           "name": "AnimeSuki",
           "url": "https://forums.animesuki.com/",
-          "description": "Anime Discussion"
-        },
-        {
-          "name": "AnimeUKNews",
-          "url": "https://forums.animeuknews.net/",
-          "description": "Anime Discussion"
-        },
-        {
-          "name": "Fanverse",
-          "url": "https://www.fanverse.org/",
-          "description": "Anime Discussion"
+          "description": "Anime Discussion",
+          "mirrors": [
+            "https://forums.animeuknews.net/",
+            "https://www.fanverse.org/"
+          ]
         },
         {
           "name": "Fora",
           "url": "https://fora.com/communities/",
-          "description": "Specialty Forums"
-        },
-        {
-          "name": "Discourse",
-          "url": "https://discover.discourse.com/",
-          "description": "Specialty Forums"
+          "description": "Specialty Forums",
+          "mirrors": [
+            "https://discover.discourse.com/"
+          ]
         },
         {
           "name": "Resetera",
           "url": "https://www.resetera.com/",
-          "description": "Gaming Forums"
-        },
-        {
-          "name": "RetroGameTalk",
-          "url": "https://retrogametalk.com/",
-          "description": "Gaming Forums"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/RetroGameTalk/",
-          "description": "Gaming Forums"
-        },
-        {
-          "name": "RacketBoy",
-          "url": "https://racketboy.com/forum/",
-          "description": "Gaming Forums"
+          "description": "Gaming Forums",
+          "mirrors": [
+            "https://retrogametalk.com/",
+            "https://www.reddit.com/r/RetroGameTalk/",
+            "https://racketboy.com/forum/"
+          ]
         },
         {
           "name": "TheRPF",
@@ -8107,12 +6627,10 @@
         {
           "name": "TwoCansAndAString",
           "url": "https://twocansandstring.com/",
-          "description": "Anonymous Q&A"
-        },
-        {
-          "name": "TellOnMe",
-          "url": "https://tellonym.me/",
-          "description": "Anonymous Q&A"
+          "description": "Anonymous Q&A",
+          "mirrors": [
+            "https://tellonym.me/"
+          ]
         },
         {
           "name": "Earth 2050",
@@ -8122,12 +6640,10 @@
         {
           "name": "MessageToTheFuture",
           "url": "https://messagetothefutu.re/",
-          "description": "Send Messages to Future Self"
-        },
-        {
-          "name": "FutureMe",
-          "url": "https://www.futureme.org/",
-          "description": "Send Messages to Future Self"
+          "description": "Send Messages to Future Self",
+          "mirrors": [
+            "https://www.futureme.org/"
+          ]
         },
         {
           "name": "PostSecret",
@@ -8137,12 +6653,10 @@
         {
           "name": "PenPal World",
           "url": "https://www.penpalworld.com/",
-          "description": "Pen Pal Community"
-        },
-        {
-          "name": "GlobalPenFriends",
-          "url": "https://www.globalpenfriends.com/",
-          "description": "Pen Pal Community"
+          "description": "Pen Pal Community",
+          "mirrors": [
+            "https://www.globalpenfriends.com/"
+          ]
         },
         {
           "name": "WriteAPrisoner",
@@ -8184,12 +6698,10 @@
         {
           "name": "GigaMacro",
           "url": "https://viewer.gigamacro.com/",
-          "description": "Panoramic Photography"
-        },
-        {
-          "name": "Gigapan",
-          "url": "https://www.gigapan.com/",
-          "description": "Panoramic Photography"
+          "description": "Panoramic Photography",
+          "mirrors": [
+            "https://www.gigapan.com/"
+          ]
         },
         {
           "name": "stringers.live",
@@ -8224,12 +6736,10 @@
         {
           "name": "Sudomemo",
           "url": "https://www.sudomemo.net/",
-          "description": "DS Flipnote Studio Galleries"
-        },
-        {
-          "name": "Kaeru Gallery",
-          "url": "https://gallery.kaeru.world/",
-          "description": "DS Flipnote Studio Galleries"
+          "description": "DS Flipnote Studio Galleries",
+          "mirrors": [
+            "https://gallery.kaeru.world/"
+          ]
         },
         {
           "name": "Toonami Remastered",
@@ -8244,17 +6754,11 @@
         {
           "name": "ThisPersonNotExist",
           "url": "https://thispersonnotexist.org/",
-          "description": "People That Don't Exist"
-        },
-        {
-          "name": "ThisPersonDoesNotExist",
-          "url": "https://www.thispersondoesnotexist.com/",
-          "description": "People That Don't Exist"
-        },
-        {
-          "name": "this-person-does-not-exist",
-          "url": "https://this-person-does-not-exist.com/",
-          "description": "People That Don't Exist"
+          "description": "People That Don't Exist",
+          "mirrors": [
+            "https://www.thispersondoesnotexist.com/",
+            "https://this-person-does-not-exist.com/"
+          ]
         },
         {
           "name": "The Slideshow",
@@ -8284,12 +6788,10 @@
         {
           "name": "Random Screenshot",
           "url": "https://randomscreenshot.com/",
-          "description": "Random Screenshots"
-        },
-        {
-          "name": "Random Prnt.sc",
-          "url": "https://chrishannah.me/prntsc/",
-          "description": "Random Screenshots"
+          "description": "Random Screenshots",
+          "mirrors": [
+            "https://chrishannah.me/prntsc/"
+          ]
         },
         {
           "name": "Random Comic Generator 3.0",
@@ -8309,22 +6811,12 @@
         {
           "name": "THE 88×31 ARCHIVE",
           "url": "https://hellnet.work/8831/",
-          "description": "Oldschool 88x31 Web Badges"
-        },
-        {
-          "name": "Babamos 88x31",
-          "url": "https://cyber.dabamos.de/88x31/index.html",
-          "description": "Oldschool 88x31 Web Badges"
-        },
-        {
-          "name": "88x31 Buttons",
-          "url": "https://anlucas.neocities.org/88x31Buttons",
-          "description": "Oldschool 88x31 Web Badges"
-        },
-        {
-          "name": "Web Badges World",
-          "url": "https://web.badges.world/",
-          "description": "Oldschool 88x31 Web Badges"
+          "description": "Oldschool 88x31 Web Badges",
+          "mirrors": [
+            "https://cyber.dabamos.de/88x31/index.html",
+            "https://anlucas.neocities.org/88x31Buttons",
+            "https://web.badges.world/"
+          ]
         },
         {
           "name": "r/Place Atlas",
@@ -8349,17 +6841,11 @@
         {
           "name": "Cataas",
           "url": "https://cataas.com/cat",
-          "description": "Random Cat Images"
-        },
-        {
-          "name": "CatPics",
-          "url": "https://catpics.lol/",
-          "description": "Random Cat Images"
-        },
-        {
-          "name": "Random Cat",
-          "url": "https://s4il.is-a.dev/randomcat/",
-          "description": "Random Cat Images"
+          "description": "Random Cat Images",
+          "mirrors": [
+            "https://catpics.lol/",
+            "https://s4il.is-a.dev/randomcat/"
+          ]
         },
         {
           "name": "procatinator",
@@ -8454,12 +6940,10 @@
         {
           "name": "Uji",
           "url": "https://ghpages.noahdoersing.com/uji/",
-          "description": "Minimalist Art Generators"
-        },
-        {
-          "name": "Turtletoy",
-          "url": "https://turtletoy.net/",
-          "description": "Minimalist Art Generators"
+          "description": "Minimalist Art Generators",
+          "mirrors": [
+            "https://turtletoy.net/"
+          ]
         },
         {
           "name": "Random Art",
@@ -8479,27 +6963,19 @@
         {
           "name": "Synaptic Spiral",
           "url": "https://synapticspiral.nz/",
-          "description": "Fractal Visualizers / Creators"
-        },
-        {
-          "name": "Mandelbrot Explorer",
-          "url": "https://math.hws.edu/eck/js/mandelbrot/MB.html",
-          "description": "Fractal Visualizers / Creators"
-        },
-        {
-          "name": "WebGPU",
-          "url": "https://math.hws.edu/eck/js/mandelbrot/MBgpu.html",
-          "description": "Fractal Visualizers / Creators"
+          "description": "Fractal Visualizers / Creators",
+          "mirrors": [
+            "https://math.hws.edu/eck/js/mandelbrot/MB.html",
+            "https://math.hws.edu/eck/js/mandelbrot/MBgpu.html"
+          ]
         },
         {
           "name": "Inspirograph",
           "url": "https://inspiral-web.nathanfriend.com/",
-          "description": "Spirograph Tool"
-        },
-        {
-          "name": "SpirographN",
-          "url": "http://seedcode.com/SpirographN/sgn.html",
-          "description": "Spirograph Tool"
+          "description": "Spirograph Tool",
+          "mirrors": [
+            "http://seedcode.com/SpirographN/sgn.html"
+          ]
         },
         {
           "name": "Silk",
@@ -8509,22 +6985,12 @@
         {
           "name": "MandalaGaba",
           "url": "https://www.mandalagaba.com/",
-          "description": "Zen Geometry Tools"
-        },
-        {
-          "name": "Pro Version",
-          "url": "https://pro.mandalagaba.com/",
-          "description": "Zen Geometry Tools"
-        },
-        {
-          "name": "Mandala App",
-          "url": "https://mandala-app.com/",
-          "description": "Zen Geometry Tools"
-        },
-        {
-          "name": "DigitalDoily",
-          "url": "https://codymoose.github.io/web-applications/DigitalDoily/index.html",
-          "description": "Zen Geometry Tools"
+          "description": "Zen Geometry Tools",
+          "mirrors": [
+            "https://pro.mandalagaba.com/",
+            "https://mandala-app.com/",
+            "https://codymoose.github.io/web-applications/DigitalDoily/index.html"
+          ]
         },
         {
           "name": "myMrLx",
@@ -8539,27 +7005,19 @@
         {
           "name": "EmojiMix",
           "url": "https://tikolu.net/emojimix",
-          "description": "Combine Emojis"
-        },
-        {
-          "name": "Emoji Kitchen",
-          "url": "https://emojikitchen.dev/",
-          "description": "Combine Emojis"
+          "description": "Combine Emojis",
+          "mirrors": [
+            "https://emojikitchen.dev/"
+          ]
         },
         {
           "name": "EmoteStud",
           "url": "https://emotestud.io/",
-          "description": "Emoji Creators"
-        },
-        {
-          "name": "Emoji Factory",
-          "url": "https://codepen.io/oliviale/full/qLYNbE",
-          "description": "Emoji Creators"
-        },
-        {
-          "name": "Ccclaymoji",
-          "url": "https://fffuel.co/ccclaymoji/",
-          "description": "Emoji Creators"
+          "description": "Emoji Creators",
+          "mirrors": [
+            "https://codepen.io/oliviale/full/qLYNbE",
+            "https://fffuel.co/ccclaymoji/"
+          ]
         },
         {
           "name": "MyPokeCard",
@@ -8609,22 +7067,12 @@
         {
           "name": "Zoomquilt",
           "url": "https://www.zoomquilt.org/",
-          "description": "Infinite Zooming Paintings"
-        },
-        {
-          "name": "2",
-          "url": "https://zoomquilt2.com/",
-          "description": "Infinite Zooming Paintings"
-        },
-        {
-          "name": "Infinite Zoom",
-          "url": "https://infinitezoom.net/",
-          "description": "Infinite Zooming Paintings"
-        },
-        {
-          "name": "Arkadia",
-          "url": "https://arkadia.xyz/",
-          "description": "Infinite Zooming Paintings"
+          "description": "Infinite Zooming Paintings",
+          "mirrors": [
+            "https://zoomquilt2.com/",
+            "https://infinitezoom.net/",
+            "https://arkadia.xyz/"
+          ]
         },
         {
           "name": "Blue Ball Machine 2",
@@ -8683,33 +7131,21 @@
           "name": "Sandboxels",
           "url": "https://neal.fun/sandboxels/",
           "description": "Falling Sand Physics Sandbox",
-          "starred": true
-        },
-        {
-          "name": "Powder Game 2",
-          "url": "https://dan-ball.jp/en/javagame/dust2/",
-          "description": "Falling Sand Physics Sandbox"
-        },
-        {
-          "name": "Powder Toy",
-          "url": "https://powdertoy.co.uk/",
-          "description": "Falling Sand Physics Sandbox"
-        },
-        {
-          "name": "sandspiel.club",
-          "url": "https://sandspiel.club/",
-          "description": "Falling Sand Physics Sandbox"
+          "starred": true,
+          "mirrors": [
+            "https://dan-ball.jp/en/javagame/dust2/",
+            "https://powdertoy.co.uk/",
+            "https://sandspiel.club/"
+          ]
         },
         {
           "name": "Genetic Cars 2",
           "url": "https://rednuht.org/genetic_cars_2/",
           "description": "Random 2D Car Generator",
-          "starred": true
-        },
-        {
-          "name": "geneticars",
-          "url": "https://geneticars.vercel.app/",
-          "description": "Random 2D Car Generator"
+          "starred": true,
+          "mirrors": [
+            "https://geneticars.vercel.app/"
+          ]
         },
         {
           "name": "Human Benchmark",
@@ -8733,12 +7169,10 @@
         {
           "name": "VentScape",
           "url": "https://www.ventscape.life/",
-          "description": "Speak into a Void"
-        },
-        {
-          "name": "PostSecretVoicemail",
-          "url": "https://www.postsecretvoicemail.com/",
-          "description": "Speak into a Void"
+          "description": "Speak into a Void",
+          "mirrors": [
+            "https://www.postsecretvoicemail.com/"
+          ]
         },
         {
           "name": "AfterTheBeep",
@@ -8778,12 +7212,10 @@
         {
           "name": "Word Blanks",
           "url": "https://www.wordblanks.com/",
-          "description": "Online Mad Libs"
-        },
-        {
-          "name": "Plot Generator",
-          "url": "https://www.plot-generator.org.uk/",
-          "description": "Online Mad Libs"
+          "description": "Online Mad Libs",
+          "mirrors": [
+            "https://www.plot-generator.org.uk/"
+          ]
         },
         {
           "name": "MagicKeyboard",
@@ -8831,22 +7263,12 @@
         {
           "name": "Terminal 00",
           "url": "https://angusnicneven.com/",
-          "description": "Cursed Sites / Horror Games"
-        },
-        {
-          "name": "corru.observer",
-          "url": "https://corru.observer/",
-          "description": "Cursed Sites / Horror Games"
-        },
-        {
-          "name": "lomando",
-          "url": "https://lomando.com/main.html",
-          "description": "Cursed Sites / Horror Games"
-        },
-        {
-          "name": "angelangelangel",
-          "url": "https://angelangelangelangelangel.com/",
-          "description": "Cursed Sites / Horror Games"
+          "description": "Cursed Sites / Horror Games",
+          "mirrors": [
+            "https://corru.observer/",
+            "https://lomando.com/main.html",
+            "https://angelangelangelangelangel.com/"
+          ]
         },
         {
           "name": "Windows93",
@@ -8856,17 +7278,11 @@
         {
           "name": "larsberg",
           "url": "https://www.larsberg.net/#/",
-          "description": "Trippy 3D Experiments"
-        },
-        {
-          "name": "substack",
-          "url": "https://substack.net/",
-          "description": "Trippy 3D Experiments"
-        },
-        {
-          "name": "mrdoob",
-          "url": "https://mrdoob.neocities.org/",
-          "description": "Trippy 3D Experiments"
+          "description": "Trippy 3D Experiments",
+          "mirrors": [
+            "https://substack.net/",
+            "https://mrdoob.neocities.org/"
+          ]
         },
         {
           "name": "Google Doodles",
@@ -8949,17 +7365,11 @@
         {
           "name": "Our World of Text",
           "url": "https://ourworldoftext.com/",
-          "description": "Infinite Community Text Grid"
-        },
-        {
-          "name": "TextWall",
-          "url": "https://tw.2s4.me/",
-          "description": "Infinite Community Text Grid"
-        },
-        {
-          "name": "OurWorldOfText",
-          "url": "https://www.yourworldoftext.com/",
-          "description": "Infinite Community Text Grid"
+          "description": "Infinite Community Text Grid",
+          "mirrors": [
+            "https://tw.2s4.me/",
+            "https://www.yourworldoftext.com/"
+          ]
         },
         {
           "name": "This Is Sand",
@@ -8979,12 +7389,10 @@
         {
           "name": "Generativeplanets",
           "url": "https://zehfernandes.com/generativeplanets/builder",
-          "description": "Planet Generators"
-        },
-        {
-          "name": "Planet",
-          "url": "https://oskarstalberg.com/game/planet/planet.html",
-          "description": "Planet Generators"
+          "description": "Planet Generators",
+          "mirrors": [
+            "https://oskarstalberg.com/game/planet/planet.html"
+          ]
         },
         {
           "name": "Townscaper",
@@ -8994,17 +7402,11 @@
         {
           "name": "Gravity Points",
           "url": "https://codepen.io/akm2/full/rHIsa",
-          "description": "Gravity Simulators"
-        },
-        {
-          "name": "Hermann",
-          "url": "https://www.hermann.is/gravity/",
-          "description": "Gravity Simulators"
-        },
-        {
-          "name": "dmilin1",
-          "url": "https://dmilin1.github.io/PrincipiaJS/build/index.html",
-          "description": "Gravity Simulators"
+          "description": "Gravity Simulators",
+          "mirrors": [
+            "https://www.hermann.is/gravity/",
+            "https://dmilin1.github.io/PrincipiaJS/build/index.html"
+          ]
         },
         {
           "name": "Google Gravity",
@@ -9019,12 +7421,10 @@
         {
           "name": "Super Snowflake Maker",
           "url": "https://supersnowflakemaker.com/",
-          "description": "Make Digital Paper Snowflakes"
-        },
-        {
-          "name": "Fold & Cut",
-          "url": "https://www.onemotion.com/fold-cut-paper/",
-          "description": "Make Digital Paper Snowflakes"
+          "description": "Make Digital Paper Snowflakes",
+          "mirrors": [
+            "https://www.onemotion.com/fold-cut-paper/"
+          ]
         },
         {
           "name": "Iceberger",
@@ -9042,12 +7442,10 @@
         {
           "name": "Checkbox Life",
           "url": "https://huth.me/checkbox-life/",
-          "description": "Checkbox Games"
-        },
-        {
-          "name": "Checkbox Olympics",
-          "url": "https://checkbox.toys/",
-          "description": "Checkbox Games"
+          "description": "Checkbox Games",
+          "mirrors": [
+            "https://checkbox.toys/"
+          ]
         },
         {
           "name": "Fidget Page",
@@ -9097,17 +7495,11 @@
         {
           "name": "EveryoneDraw",
           "url": "https://everyonedraw.com/",
-          "description": "Infinite Online Pixel Art"
-        },
-        {
-          "name": "pixels.land",
-          "url": "https://pixel.land/",
-          "description": "Infinite Online Pixel Art"
-        },
-        {
-          "name": "World of Pixels",
-          "url": "https://ourworldofpixels.com/",
-          "description": "Infinite Online Pixel Art"
+          "description": "Infinite Online Pixel Art",
+          "mirrors": [
+            "https://pixel.land/",
+            "https://ourworldofpixels.com/"
+          ]
         },
         {
           "name": "Spherical Trochoids",
@@ -9142,12 +7534,10 @@
         {
           "name": "danielx",
           "url": "https://danielx.net/composer/",
-          "description": "Mario Paint Composer Ports / Archive"
-        },
-        {
-          "name": "AMS",
-          "url": "https://flyx.org/ams/",
-          "description": "Mario Paint Composer Ports / Archive"
+          "description": "Mario Paint Composer Ports / Archive",
+          "mirrors": [
+            "https://flyx.org/ams/"
+          ]
         },
         {
           "name": "Typatone",
@@ -9212,12 +7602,10 @@
         {
           "name": "Pianoverse",
           "url": "https://pianoverse.net/",
-          "description": "Multiplayer Piano"
-        },
-        {
-          "name": "MultiplayerPiano",
-          "url": "https://multiplayerpiano.com/",
-          "description": "Multiplayer Piano"
+          "description": "Multiplayer Piano",
+          "mirrors": [
+            "https://multiplayerpiano.com/"
+          ]
         },
         {
           "name": "Incredibox",
@@ -9287,85 +7675,45 @@
           "name": "InfiniteConversation",
           "url": "https://infiniteconversation.com/",
           "description": "Never-Ending AI Conversations",
-          "starred": true
-        },
-        {
-          "name": "InfiniteConvo",
-          "url": "https://infiniteconvo.ai/",
-          "description": "Never-Ending AI Conversations"
+          "starred": true,
+          "mirrors": [
+            "https://infiniteconvo.ai/"
+          ]
         },
         {
           "name": "Ranker",
           "url": "https://www.ranker.com/",
           "description": "Create / Explore Lists",
-          "starred": true
-        },
-        {
-          "name": "Rank Engine",
-          "url": "https://www.pubmeeple.com/ranking-engine",
-          "description": "Create / Explore Lists"
-        },
-        {
-          "name": "Listography",
-          "url": "https://listography.com/",
-          "description": "Create / Explore Lists"
-        },
-        {
-          "name": "TheTopsTens",
-          "url": "https://www.thetoptens.com/",
-          "description": "Create / Explore Lists"
-        },
-        {
-          "name": "CopyPasteList",
-          "url": "https://copypastelist.co/",
-          "description": "Create / Explore Lists"
-        },
-        {
-          "name": "ListVerse",
-          "url": "https://listverse.com/",
-          "description": "Create / Explore Lists"
+          "starred": true,
+          "mirrors": [
+            "https://www.pubmeeple.com/ranking-engine",
+            "https://listography.com/",
+            "https://www.thetoptens.com/",
+            "https://copypastelist.co/",
+            "https://listverse.com/"
+          ]
         },
         {
           "name": "Topsters",
           "url": "https://topsters.org/",
           "description": "Create / Explore Tier Lists",
-          "starred": true
-        },
-        {
-          "name": "TierMaker",
-          "url": "https://tiermaker.com/",
-          "description": "Create / Explore Tier Lists"
-        },
-        {
-          "name": "OpenTierBoy",
-          "url": "https://www.opentierboy.com/",
-          "description": "Create / Explore Tier Lists"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/infinia-yzl/opentierboy",
-          "description": "Create / Explore Tier Lists"
+          "starred": true,
+          "mirrors": [
+            "https://tiermaker.com/",
+            "https://www.opentierboy.com/",
+            "https://github.com/infinia-yzl/opentierboy"
+          ]
         },
         {
           "name": "The Lost Media Wiki",
           "url": "https://lostmediawiki.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Forum",
-          "url": "https://forums.lostmediawiki.com/",
-          "description": ""
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/lostmedia/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/NFsM8YbBYH",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://forums.lostmediawiki.com/",
+            "https://www.reddit.com/r/lostmedia/",
+            "https://discord.gg/NFsM8YbBYH"
+          ]
         },
         {
           "name": "Goody2",
@@ -9410,7 +7758,7 @@
         },
         {
           "name": "Unusual Articles",
-          "url": "https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles",
+          "url": "https://wikipedia.org/wiki/Wikipedia:Unusual_articles",
           "description": "Unusual Wiki Articles"
         },
         {
@@ -9509,12 +7857,10 @@
         {
           "name": "Folklore",
           "url": "https://www.folklore.org",
-          "description": "Apple Computer History"
-        },
-        {
-          "name": "TheAppleWiki",
-          "url": "https://theapplewiki.com/",
-          "description": "Apple Computer History"
+          "description": "Apple Computer History",
+          "mirrors": [
+            "https://theapplewiki.com/"
+          ]
         },
         {
           "name": "Crypto Museum",
@@ -9549,17 +7895,11 @@
         {
           "name": "KilledByGoogle",
           "url": "https://killedbygoogle.com/",
-          "description": "Dead Projects Archives"
-        },
-        {
-          "name": "Microsoft Graveyard",
-          "url": "https://microsoftgraveyard.com/",
-          "description": "Dead Projects Archives"
-        },
-        {
-          "name": "SuedByNintendo",
-          "url": "https://www.suedbynintendo.com/",
-          "description": "Dead Projects Archives"
+          "description": "Dead Projects Archives",
+          "mirrors": [
+            "https://microsoftgraveyard.com/",
+            "https://www.suedbynintendo.com/"
+          ]
         },
         {
           "name": "Projectrho",
@@ -9569,12 +7909,10 @@
         {
           "name": "EnigmaLabs",
           "url": "https://enigmalabs.io/",
-          "description": "UFO Sighting Lists / Tracking"
-        },
-        {
-          "name": "UFO Casebook",
-          "url": "https://www.ufocasebook.com/",
-          "description": "UFO Sighting Lists / Tracking"
+          "description": "UFO Sighting Lists / Tracking",
+          "mirrors": [
+            "https://www.ufocasebook.com/"
+          ]
         },
         {
           "name": "BFRO",
@@ -9589,22 +7927,12 @@
         {
           "name": "BreezeWiki",
           "url": "https://breezewiki.com/",
-          "description": "Fandom Frontends"
-        },
-        {
-          "name": "Mirrors",
-          "url": "https://docs.breezewiki.com/Links.html#(part._.Mirrors",
-          "description": "Fandom Frontends"
-        },
-        {
-          "name": "Phantom",
-          "url": "https://ph.kuuro.net/",
-          "description": "Fandom Frontends"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://codeberg.org/phantom-org/phantom",
-          "description": "Fandom Frontends"
+          "description": "Fandom Frontends",
+          "mirrors": [
+            "https://docs.breezewiki.com/Links.html#(part._.Mirrors",
+            "https://ph.kuuro.net/",
+            "https://codeberg.org/phantom-org/phantom"
+          ]
         },
         {
           "name": "BlackDrago",
@@ -9707,12 +8035,10 @@
         {
           "name": "Michaelbach",
           "url": "https://michaelbach.de/ot/",
-          "description": "Optical Illusions"
-        },
-        {
-          "name": "Optical Toys",
-          "url": "https://optical.toys/",
-          "description": "Optical Illusions"
+          "description": "Optical Illusions",
+          "mirrors": [
+            "https://optical.toys/"
+          ]
         },
         {
           "name": "Strobe Illusion",
@@ -9727,17 +8053,11 @@
         {
           "name": "Politiscales",
           "url": "https://politiscales.party/",
-          "description": "Political Alignment Test"
-        },
-        {
-          "name": "8dreams",
-          "url": "https://8dreams.github.io/",
-          "description": "Political Alignment Test"
-        },
-        {
-          "name": "8values",
-          "url": "https://8values.github.io/",
-          "description": "Political Alignment Test"
+          "description": "Political Alignment Test",
+          "mirrors": [
+            "https://8dreams.github.io/",
+            "https://8values.github.io/"
+          ]
         },
         {
           "name": "HowNormalAmI?",
@@ -9747,12 +8067,10 @@
         {
           "name": "Face Shape AI",
           "url": "https://www.detect-face-shape.com",
-          "description": "Face Shape Detectors"
-        },
-        {
-          "name": "Face Shape Detectors",
-          "url": "https://www.faceshapedetectors.org/",
-          "description": "Face Shape Detectors"
+          "description": "Face Shape Detectors",
+          "mirrors": [
+            "https://www.faceshapedetectors.org/"
+          ]
         },
         {
           "name": "You're Getting Old",
@@ -9787,12 +8105,10 @@
         {
           "name": "Where's George?",
           "url": "https://www.wheresgeorge.com/",
-          "description": "Dollar Tracking"
-        },
-        {
-          "name": "TrackDollar",
-          "url": "http://trackdollar.com/",
-          "description": "Dollar Tracking"
+          "description": "Dollar Tracking",
+          "mirrors": [
+            "http://trackdollar.com/"
+          ]
         },
         {
           "name": "WordCount",
@@ -9815,22 +8131,12 @@
           "name": "Explore",
           "url": "https://explore.org/",
           "description": "Animal Cams",
-          "starred": true
-        },
-        {
-          "name": "Mangolinkcam",
-          "url": "https://www.mangolinkcam.com/",
-          "description": "Animal Cams"
-        },
-        {
-          "name": "Africam",
-          "url": "https://africam.com/our-locations/",
-          "description": "Animal Cams"
-        },
-        {
-          "name": "AnimalsLife",
-          "url": "https://animalslife.net/category/shelters/",
-          "description": "Animal Cams"
+          "starred": true,
+          "mirrors": [
+            "https://www.mangolinkcam.com/",
+            "https://africam.com/our-locations/",
+            "https://animalslife.net/category/shelters/"
+          ]
         },
         {
           "name": "WorldCams",
@@ -9905,27 +8211,19 @@
         {
           "name": "San Diego Zoo",
           "url": "https://zoo.sandiegozoo.org/live-cams",
-          "description": "Zoo Webcams"
-        },
-        {
-          "name": "Zqoo.org",
-          "url": "https://www.zoo.org/webcams",
-          "description": "Zoo Webcams"
-        },
-        {
-          "name": "NationalZoo",
-          "url": "https://nationalzoo.si.edu/webcams",
-          "description": "Zoo Webcams"
+          "description": "Zoo Webcams",
+          "mirrors": [
+            "https://www.zoo.org/webcams",
+            "https://nationalzoo.si.edu/webcams"
+          ]
         },
         {
           "name": "Monterey Bay Aquarium",
           "url": "https://www.montereybayaquarium.org/animals/live-cams",
-          "description": "Aquarium Webcams"
-        },
-        {
-          "name": "AquariumOfPacific",
-          "url": "https://www.aquariumofpacific.org/exhibits/webcams",
-          "description": "Aquarium Webcams"
+          "description": "Aquarium Webcams",
+          "mirrors": [
+            "https://www.aquariumofpacific.org/exhibits/webcams"
+          ]
         },
         {
           "name": "BirdCAMs",
@@ -9948,22 +8246,18 @@
         {
           "name": "Insecam",
           "url": "http://www.insecam.org/en/",
-          "description": "Unprotected Webcams"
-        },
-        {
-          "name": "WorldEye",
-          "url": "https://worldeye.cam",
-          "description": "Unprotected Webcams"
+          "description": "Unprotected Webcams",
+          "mirrors": [
+            "https://worldeye.cam"
+          ]
         },
         {
           "name": "r/controllablewebcams",
           "url": "https://reddit.com/r/controllablewebcams",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/wdjtevG",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.gg/wdjtevG"
+          ]
         },
         {
           "name": "snoweye",
@@ -9973,12 +8267,10 @@
         {
           "name": "Airport Webcams",
           "url": "https://airportwebcams.net/",
-          "description": ""
-        },
-        {
-          "name": "X",
-          "url": "https://x.com/AirportWebcams",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://x.com/AirportWebcams"
+          ]
         },
         {
           "name": "FogCam",
@@ -10319,12 +8611,10 @@
         {
           "name": "Things to Do",
           "url": "https://randomthingstodo.com/",
-          "description": "Activity Suggestions"
-        },
-        {
-          "name": "TheZen",
-          "url": "https://thezen.zone/",
-          "description": "Activity Suggestions"
+          "description": "Activity Suggestions",
+          "mirrors": [
+            "https://thezen.zone/"
+          ]
         },
         {
           "name": "rrrather",
@@ -10369,22 +8659,18 @@
         {
           "name": "WindowSwap",
           "url": "https://www.window-swap.com/",
-          "description": "Open Random Windows"
-        },
-        {
-          "name": "VisualVacation",
-          "url": "https://virtualvacation.us/window",
-          "description": "Open Random Windows"
+          "description": "Open Random Windows",
+          "mirrors": [
+            "https://virtualvacation.us/window"
+          ]
         },
         {
           "name": "MoodLight",
           "url": "https://www.moodlight.org/",
-          "description": "Turn Screen into Strobe / Mood Light"
-        },
-        {
-          "name": "Defonic MoodLight",
-          "url": "https://defonic.com/moodlight.html",
-          "description": "Turn Screen into Strobe / Mood Light"
+          "description": "Turn Screen into Strobe / Mood Light",
+          "mirrors": [
+            "https://defonic.com/moodlight.html"
+          ]
         },
         {
           "name": "HYDRA",
@@ -10407,22 +8693,12 @@
         {
           "name": "LMGTFY",
           "url": "https://lmgtfy2.com/",
-          "description": "Remind People that Search Engines Exist"
-        },
-        {
-          "name": "LMDDGTFY",
-          "url": "https://lmddgtfy.net/",
-          "description": "Remind People that Search Engines Exist"
-        },
-        {
-          "name": "LMSPTFY",
-          "url": "https://lmsptfy.com/",
-          "description": "Remind People that Search Engines Exist"
-        },
-        {
-          "name": "GIYBF",
-          "url": "https://giybf.com/",
-          "description": "Remind People that Search Engines Exist"
+          "description": "Remind People that Search Engines Exist",
+          "mirrors": [
+            "https://lmddgtfy.net/",
+            "https://lmsptfy.com/",
+            "https://giybf.com/"
+          ]
         },
         {
           "name": "AfterTheTone",
@@ -10527,22 +8803,18 @@
         {
           "name": "GeekPrank",
           "url": "https://geekprank.com/",
-          "description": "Windows Pranks"
-        },
-        {
-          "name": "Pranx",
-          "url": "https://pranx.com/",
-          "description": "Windows Pranks"
+          "description": "Windows Pranks",
+          "mirrors": [
+            "https://pranx.com/"
+          ]
         },
         {
           "name": "Update Faker",
           "url": "https://updatefaker.com/",
-          "description": "Fake System Update Pranks"
-        },
-        {
-          "name": "Fake Update",
-          "url": "https://fakeupdate.net/",
-          "description": "Fake System Update Pranks"
+          "description": "Fake System Update Pranks",
+          "mirrors": [
+            "https://fakeupdate.net/"
+          ]
         },
         {
           "name": "DownloadHardware",
@@ -10562,22 +8834,12 @@
         {
           "name": "HackTyper",
           "url": "https://hackertyper.net/",
-          "description": "Fake Hacking Screen"
-        },
-        {
-          "name": "HackerTyper",
-          "url": "https://hackertyper.com/",
-          "description": "Fake Hacking Screen"
-        },
-        {
-          "name": "Hoacks",
-          "url": "https://hoacks.com/",
-          "description": "Fake Hacking Screen"
-        },
-        {
-          "name": "Geektyper",
-          "url": "https://geektyper.com/",
-          "description": "Fake Hacking Screen"
+          "description": "Fake Hacking Screen",
+          "mirrors": [
+            "https://hackertyper.com/",
+            "https://hoacks.com/",
+            "https://geektyper.com/"
+          ]
         }
       ]
     }

@@ -21,22 +21,12 @@
         {
           "name": "Croppola",
           "url": "https://croppola.com/",
-          "description": "Cropping Tools"
-        },
-        {
-          "name": "AutoCropper",
-          "url": "https://www.autocropper.io/",
-          "description": "Cropping Tools"
-        },
-        {
-          "name": "Bulk Image Crop",
-          "url": "https://bulkimagecrop.com/",
-          "description": "Cropping Tools"
-        },
-        {
-          "name": "Avatar Cropper",
-          "url": "https://avatarcropper.com/",
-          "description": "Cropping Tools"
+          "description": "Cropping Tools",
+          "mirrors": [
+            "https://www.autocropper.io/",
+            "https://bulkimagecrop.com/",
+            "https://avatarcropper.com/"
+          ]
         },
         {
           "name": "imgsli",
@@ -51,17 +41,11 @@
         {
           "name": "Scribus",
           "url": "https://www.scribus.net/",
-          "description": "Page Layout & Typesetting Programs"
-        },
-        {
-          "name": "Quarkdown",
-          "url": "https://quarkdown.com/",
-          "description": "Page Layout & Typesetting Programs"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/iamgio/quarkdown",
-          "description": "Page Layout & Typesetting Programs"
+          "description": "Page Layout & Typesetting Programs",
+          "mirrors": [
+            "https://quarkdown.com/",
+            "https://github.com/iamgio/quarkdown"
+          ]
         },
         {
           "name": "Images.weserv.nl",
@@ -71,12 +55,10 @@
         {
           "name": "GradientArt",
           "url": "https://gra.dient.art/",
-          "description": "Gradient Editor"
-        },
-        {
-          "name": "TailBlend",
-          "url": "https://tailblend.vercel.app/",
-          "description": "Gradient Editor"
+          "description": "Gradient Editor",
+          "mirrors": [
+            "https://tailblend.vercel.app/"
+          ]
         },
         {
           "name": "Canvas",
@@ -102,109 +84,109 @@
         {
           "name": "GIMP",
           "url": "https://www.gimp.org/",
-          "description": "",
+          "description": "Windows, Mac, Linux",
           "starred": true
         },
         {
           "name": "Photoshop UI",
           "url": "https://github.com/Diolinux/PhotoGIMP",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "Texture Synthesizer",
           "url": "https://github.com/bootchk/resynthesizer",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "Discord",
           "url": "https://discord.gg/kHBNw2B",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "Subreddit",
           "url": "https://www.reddit.com/r/GIMP/",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "GitLab",
           "url": "https://gitlab.gnome.org/GNOME/gimp",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "ImageMagick",
           "url": "https://imagemagick.org/index.php",
-          "description": "",
+          "description": "Windows, Mac, Linux, iOS",
           "starred": true
         },
         {
           "name": "Scripts",
           "url": "https://www.fmwconcepts.com/imagemagick/index.php",
-          "description": ""
+          "description": "Windows, Mac, Linux, iOS"
         },
         {
           "name": "GitHub",
           "url": "https://github.com/imagemagick/imagemagick",
-          "description": ""
+          "description": "Windows, Mac, Linux, iOS"
         },
         {
           "name": "⁠Affinity",
           "url": "https://www.affinity.studio/",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "⁠AffinityOnLinux",
           "url": "https://github.com/ryzendew/Linux-Affinity-Installer",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "No Login Method",
           "url": "https://rentry.co/FMHYB64#affinity",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "LazPaint",
           "url": "https://lazpaint.github.io/",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "GitHub",
           "url": "https://github.com/bgrabitmap/lazpaint/",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "PhotoDemon",
           "url": "https://photodemon.org/",
-          "description": ""
+          "description": "Windows"
         },
         {
           "name": "GitHub",
           "url": "https://github.com/tannerhelland/PhotoDemon",
-          "description": ""
+          "description": "Windows"
         },
         {
           "name": "⁠RapidRAW",
           "url": "https://github.com/CyberTimon/RapidRAW",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "Paint.net",
           "url": "https://www.getpaint.net/index.html",
-          "description": ""
+          "description": "Windows"
         },
         {
           "name": "GitHub",
           "url": "https://github.com/paintdotnet",
-          "description": ""
+          "description": "Windows"
         },
         {
           "name": "Gimel Studio",
           "url": "https://gimelstudio.com/",
-          "description": ""
+          "description": "Windows"
         },
         {
           "name": "GitHub",
           "url": "https://github.com/GimelStudio/GimelStudio",
-          "description": ""
+          "description": "Windows"
         },
         {
           "name": "Hugin",
@@ -343,27 +325,13 @@
           "name": "ObjectRemover",
           "url": "https://objectremover.com/",
           "description": "Object Removers",
-          "starred": true
-        },
-        {
-          "name": "Lama Cleaner",
-          "url": "https://lama-cleaner-docs.vercel.app/",
-          "description": "Object Removers"
-        },
-        {
-          "name": "Inpaint",
-          "url": "https://theinpaint.com/",
-          "description": "Object Removers"
-        },
-        {
-          "name": "Cleanup.pictures",
-          "url": "https://cleanup.pictures/",
-          "description": "Object Removers"
-        },
-        {
-          "name": "HAMA",
-          "url": "https://www.hama.app/",
-          "description": "Object Removers"
+          "starred": true,
+          "mirrors": [
+            "https://lama-cleaner-docs.vercel.app/",
+            "https://theinpaint.com/",
+            "https://cleanup.pictures/",
+            "https://www.hama.app/"
+          ]
         },
         {
           "name": "BRIA RMBG",
@@ -529,42 +497,22 @@
           "name": "Mosh",
           "url": "https://moshpro.app/",
           "description": "Glitch Images",
-          "starred": true
-        },
-        {
-          "name": "Efecto",
-          "url": "https://efecto.app/",
-          "description": "Glitch Images"
-        },
-        {
-          "name": "glitch2",
-          "url": "https://akx.github.io/glitch2/",
-          "description": "Glitch Images"
-        },
-        {
-          "name": "GlitchyImage",
-          "url": "https://glitchyimage.com/",
-          "description": "Glitch Images"
+          "starred": true,
+          "mirrors": [
+            "https://efecto.app/",
+            "https://akx.github.io/glitch2/",
+            "https://glitchyimage.com/"
+          ]
         },
         {
           "name": "PhotoFunia",
           "url": "https://photofunia.com/",
-          "description": "Photo Effects / Filters"
-        },
-        {
-          "name": "effect.app",
-          "url": "https://effect.app/",
-          "description": "Photo Effects / Filters"
-        },
-        {
-          "name": "⁠Tooooools",
-          "url": "https://tooooools.app/",
-          "description": "Photo Effects / Filters"
-        },
-        {
-          "name": "Image Mage",
-          "url": "https://imagemageage.github.io/",
-          "description": "Photo Effects / Filters"
+          "description": "Photo Effects / Filters",
+          "mirrors": [
+            "https://effect.app/",
+            "https://tooooools.app/",
+            "https://imagemageage.github.io/"
+          ]
         },
         {
           "name": "Palettum",
@@ -597,12 +545,10 @@
         {
           "name": "AIDraw",
           "url": "https://ai-draw.tokyo/en/",
-          "description": "Turn Photos into Line Art"
-        },
-        {
-          "name": "⁠FiniteCurve",
-          "url": "https://www.finitecurve.com/",
-          "description": "Turn Photos into Line Art"
+          "description": "Turn Photos into Line Art",
+          "mirrors": [
+            "https://www.finitecurve.com/"
+          ]
         },
         {
           "name": "Tiler",
@@ -627,22 +573,12 @@
         {
           "name": "ordered-dither-maker",
           "url": "https://seleb.github.io/ordered-dither-maker/",
-          "description": "Image Dithering / Bitmap Generators"
-        },
-        {
-          "name": "BDFM",
-          "url": "https://bitmap.designfamilymarket.com/",
-          "description": "Image Dithering / Bitmap Generators"
-        },
-        {
-          "name": "Ditherista",
-          "url": "https://github.com/robertkist/ditherista/",
-          "description": "Image Dithering / Bitmap Generators"
-        },
-        {
-          "name": "Dither Me This",
-          "url": "https://doodad.dev/dither-me-this/",
-          "description": "Image Dithering / Bitmap Generators"
+          "description": "Image Dithering / Bitmap Generators",
+          "mirrors": [
+            "https://bitmap.designfamilymarket.com/",
+            "https://github.com/robertkist/ditherista/",
+            "https://doodad.dev/dither-me-this/"
+          ]
         },
         {
           "name": "Rutt-Etra-Izer",
@@ -713,22 +649,12 @@
         {
           "name": "Magma",
           "url": "https://magma.com/",
-          "description": "Collaborative Drawing"
-        },
-        {
-          "name": "⁠MagicalDraw",
-          "url": "https://draw.kuku.lu/",
-          "description": "Collaborative Drawing"
-        },
-        {
-          "name": "DrawPile",
-          "url": "https://drawpile.net/",
-          "description": "Collaborative Drawing"
-        },
-        {
-          "name": "malmal",
-          "url": "https://malmal.io/",
-          "description": "Collaborative Drawing"
+          "description": "Collaborative Drawing",
+          "mirrors": [
+            "https://draw.kuku.lu/",
+            "https://drawpile.net/",
+            "https://malmal.io/"
+          ]
         },
         {
           "name": "SmoothDraw",
@@ -781,6 +707,11 @@
           "name": "AutoDraw",
           "url": "https://www.autodraw.com/",
           "description": "AI Drawing Tools / Web"
+        },
+        {
+          "name": "VectorPaint",
+          "url": "https://vectorpaint.yaks.co.nz/",
+          "description": "Vector Editor / Painting / Web"
         },
         {
           "name": "⁠Provector",
@@ -900,17 +831,11 @@
         {
           "name": "Animated Drawings",
           "url": "https://sketch.metademolab.com/",
-          "description": "Animate Drawings"
-        },
-        {
-          "name": "FAIR Animated Drawings",
-          "url": "https://fairanimateddrawings.com/site/home",
-          "description": "Animate Drawings"
-        },
-        {
-          "name": "MotorPen",
-          "url": "https://motorpen.com/",
-          "description": "Animate Drawings"
+          "description": "Animate Drawings",
+          "mirrors": [
+            "https://fairanimateddrawings.com/site/home",
+            "https://motorpen.com/"
+          ]
         },
         {
           "name": "DrawTab",
@@ -1016,22 +941,12 @@
         {
           "name": "PixelartVillage",
           "url": "https://pixelartvillage.com/",
-          "description": "Image to Pixel Art Converter / Web"
-        },
-        {
-          "name": "Pixel It",
-          "url": "https://giventofly.github.io/pixelit/",
-          "description": "Image to Pixel Art Converter / Web"
-        },
-        {
-          "name": "PixelartGenerator",
-          "url": "https://pixelartgenerator.app/",
-          "description": "Image to Pixel Art Converter / Web"
-        },
-        {
-          "name": "Pixelart Converter",
-          "url": "https://app.monopro.org/pixel/?lang=en",
-          "description": "Image to Pixel Art Converter / Web"
+          "description": "Image to Pixel Art Converter / Web",
+          "mirrors": [
+            "https://giventofly.github.io/pixelit/",
+            "https://pixelartgenerator.app/",
+            "https://app.monopro.org/pixel/?lang=en"
+          ]
         },
         {
           "name": "Pixelorama",
@@ -1045,12 +960,10 @@
         {
           "name": "pixeldudesmaker",
           "url": "https://0x72.itch.io/pixeldudesmaker",
-          "description": "Sprite Generator / Web"
-        },
-        {
-          "name": "Creature Mixer",
-          "url": "https://kenney.itch.io/creature-mixer",
-          "description": "Sprite Generator / Web"
+          "description": "Sprite Generator / Web",
+          "mirrors": [
+            "https://kenney.itch.io/creature-mixer"
+          ]
         },
         {
           "name": "Nasu",
@@ -1074,17 +987,11 @@
         {
           "name": "Pixel Reconstructor",
           "url": "https://i-win.neocities.org/pixel/",
-          "description": "⁠Pixel Art Upscalers"
-        },
-        {
-          "name": "Pixel Art Upscaler",
-          "url": "https://imaginarycatlab.com/free-pixel-art-upscaler.html",
-          "description": "⁠Pixel Art Upscalers"
-        },
-        {
-          "name": "Pixel Art Scaler",
-          "url": "https://lospec.com/pixel-art-scaler/",
-          "description": "⁠Pixel Art Upscalers"
+          "description": "⁠Pixel Art Upscalers",
+          "mirrors": [
+            "https://imaginarycatlab.com/free-pixel-art-upscaler.html",
+            "https://lospec.com/pixel-art-scaler/"
+          ]
         }
       ]
     },
@@ -1104,73 +1011,49 @@
         {
           "name": "EZGif",
           "url": "https://ezgif.com/",
-          "description": "",
-          "starred": true
-        },
-        {
-          "name": "GIFnText",
-          "url": "https://www.gifntext.com/",
-          "description": ""
+          "description": "Web",
+          "starred": true,
+          "mirrors": [
+            "https://www.gifntext.com/"
+          ]
         },
         {
           "name": "⁠MakeEmoji",
           "url": "https://makeemoji.com/",
-          "description": "Make Custom Animated Emojis"
-        },
-        {
-          "name": "Slackmoji Lab",
-          "url": "https://slackmojilab.com/",
-          "description": "Make Custom Animated Emojis"
+          "description": "Make Custom Animated Emojis",
+          "mirrors": [
+            "https://slackmojilab.com/"
+          ]
         },
         {
           "name": "Gifsicle",
           "url": "http://www.lcdf.org/gifsicle/",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "GitHub",
           "url": "https://github.com/kohler/gifsicle",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "Giphy",
           "url": "https://giphy.com/",
-          "description": "View / Download GIFs"
-        },
-        {
-          "name": "Tenor",
-          "url": "https://tenor.com/",
-          "description": "View / Download GIFs"
-        },
-        {
-          "name": "Gifer",
-          "url": "https://gifer.com/en",
-          "description": "View / Download GIFs"
-        },
-        {
-          "name": "GifCities",
-          "url": "https://gifcities.org/",
-          "description": "View / Download GIFs"
-        },
-        {
-          "name": "Animations",
-          "url": "https://bleuje.com/animationsite/",
-          "description": "View / Download GIFs"
-        },
-        {
-          "name": "GIFBin",
-          "url": "https://gifbin.com/",
-          "description": "View / Download GIFs"
+          "description": "View / Download GIFs",
+          "mirrors": [
+            "https://tenor.com/",
+            "https://gifer.com/en",
+            "https://gifcities.org/",
+            "https://bleuje.com/animationsite/",
+            "https://gifbin.com/"
+          ]
         },
         {
           "name": "DrawIsland",
           "url": "https://drawisland.com/",
-          "description": "Create GIFs from Drawings"
-        },
-        {
-          "name": "Sketch Machine",
-          "url": "https://sketchmachine.net/",
-          "description": "Create GIFs from Drawings"
+          "description": "Create GIFs from Drawings",
+          "mirrors": [
+            "https://sketchmachine.net/"
+          ]
         },
         {
           "name": "ScreenToGif",
@@ -1211,47 +1094,23 @@
           "name": "Know Your Meme",
           "url": "https://knowyourmeme.com/",
           "description": "Meme Databases",
-          "starred": true
-        },
-        {
-          "name": "FindThatMeme",
-          "url": "https://findthatmeme.com/",
-          "description": "Meme Databases"
+          "starred": true,
+          "mirrors": [
+            "https://findthatmeme.com/"
+          ]
         },
         {
           "name": "ImgFlip",
           "url": "https://imgflip.com/memegenerator",
-          "description": "Meme Creators"
-        },
-        {
-          "name": "Meme Generator",
-          "url": "https://www.memegenerator.top/",
-          "description": "Meme Creators"
-        },
-        {
-          "name": "Meme Town",
-          "url": "https://meme.town/",
-          "description": "Meme Creators"
-        },
-        {
-          "name": "MemeBetter",
-          "url": "https://memebetter.com/",
-          "description": "Meme Creators"
-        },
-        {
-          "name": "meme-generator",
-          "url": "https://newfastuff.com/meme-generator/",
-          "description": "Meme Creators"
-        },
-        {
-          "name": "Classic Memes",
-          "url": "https://classic.createa.meme/",
-          "description": "Meme Creators"
-        },
-        {
-          "name": "Emacs Meme Generator",
-          "url": "https://github.com/larsmagne/meme",
-          "description": "Meme Creators"
+          "description": "Meme Creators",
+          "mirrors": [
+            "https://www.memegenerator.top/",
+            "https://meme.town/",
+            "https://memebetter.com/",
+            "https://newfastuff.com/meme-generator/",
+            "https://classic.createa.meme/",
+            "https://github.com/larsmagne/meme"
+          ]
         },
         {
           "name": "MemeCam",
@@ -1349,12 +1208,10 @@
           "name": "Muzli",
           "url": "https://search.muz.li/",
           "description": "Design Inspiration Sites",
-          "starred": true
-        },
-        {
-          "name": "⁠Cosmos",
-          "url": "https://www.cosmos.so/",
-          "description": "Design Inspiration Sites"
+          "starred": true,
+          "mirrors": [
+            "https://www.cosmos.so/"
+          ]
         },
         {
           "name": "People’s Graphic Design Archive",
@@ -1462,12 +1319,10 @@
         {
           "name": "PixelMe",
           "url": "https://xsgames.co/pixelme/",
-          "description": "8-bit Avatar Creators"
-        },
-        {
-          "name": "Avatar Mixer",
-          "url": "https://kenney.itch.io/avatar-mixer",
-          "description": "8-bit Avatar Creators"
+          "description": "8-bit Avatar Creators",
+          "mirrors": [
+            "https://kenney.itch.io/avatar-mixer"
+          ]
         },
         {
           "name": "⁠Square Face Generator",
@@ -1477,22 +1332,12 @@
         {
           "name": "⁠Icon Z",
           "url": "https://icon-z.com/",
-          "description": "Simple Face Avatar Creators"
-        },
-        {
-          "name": "Avatar Maker",
-          "url": "https://avatarmaker.com/",
-          "description": "Simple Face Avatar Creators"
-        },
-        {
-          "name": "Avataaars",
-          "url": "https://getavataaars.com/",
-          "description": "Simple Face Avatar Creators"
-        },
-        {
-          "name": "Personas",
-          "url": "https://personas.draftbit.com/",
-          "description": "Simple Face Avatar Creators"
+          "description": "Simple Face Avatar Creators",
+          "mirrors": [
+            "https://avatarmaker.com/",
+            "https://getavataaars.com/",
+            "https://personas.draftbit.com/"
+          ]
         },
         {
           "name": "MultiAvatar",
@@ -1502,27 +1347,19 @@
         {
           "name": "⁠FreeLogoMaker",
           "url": "https://myfreelogomaker.com/",
-          "description": "Logo Creators"
-        },
-        {
-          "name": "⁠BrandCrowd",
-          "url": "https://www.brandcrowd.com/",
-          "description": "Logo Creators"
-        },
-        {
-          "name": "OnlineLogoMaker",
-          "url": "https://www.onlinelogomaker.com/",
-          "description": "Logo Creators"
+          "description": "Logo Creators",
+          "mirrors": [
+            "https://www.brandcrowd.com/",
+            "https://www.onlinelogomaker.com/"
+          ]
         },
         {
           "name": "Logo Fast",
           "url": "https://logofa.st/",
-          "description": "Simple Logo Creators Based on Premade Icons"
-        },
-        {
-          "name": "LogoFreeway",
-          "url": "https://logofreeway.com/logos.php",
-          "description": "Simple Logo Creators Based on Premade Icons"
+          "description": "Simple Logo Creators Based on Premade Icons",
+          "mirrors": [
+            "https://logofreeway.com/logos.php"
+          ]
         },
         {
           "name": "LogoMaker",
@@ -1638,17 +1475,11 @@
         {
           "name": "ArmorLab",
           "url": "https://armory3d.org/lab/",
-          "description": "Texture Generators"
-        },
-        {
-          "name": "Pixela",
-          "url": "https://pixela.ai/",
-          "description": "Texture Generators"
-        },
-        {
-          "name": "TextureLab",
-          "url": "https://www.texturelab.io/",
-          "description": "Texture Generators"
+          "description": "Texture Generators",
+          "mirrors": [
+            "https://pixela.ai/",
+            "https://www.texturelab.io/"
+          ]
         },
         {
           "name": "TextureLab",
@@ -1667,77 +1498,35 @@
         {
           "name": "DoodDad",
           "url": "https://doodad.dev/pattern-generator",
-          "description": "Pattern Generators"
-        },
-        {
-          "name": "Repeater",
-          "url": "https://repeater.space/",
-          "description": "Pattern Generators"
-        },
-        {
-          "name": "PatternPad",
-          "url": "https://patternpad.com/",
-          "description": "Pattern Generators"
-        },
-        {
-          "name": "patternico",
-          "url": "https://patternico.com/",
-          "description": "Pattern Generators"
-        },
-        {
-          "name": "Repeater",
-          "url": "https://www.richardwestenra.com/repeater/",
-          "description": "Pattern Generators"
-        },
-        {
-          "name": "more.graphics",
-          "url": "https://more.graphics/",
-          "description": "Pattern Generators"
-        },
-        {
-          "name": "Valentina",
-          "url": "https://gitlab.com/smart-pattern/valentina",
-          "description": "Pattern Generators"
-        },
-        {
-          "name": "Haikei",
-          "url": "https://app.haikei.app/",
-          "description": "Pattern Generators"
+          "description": "Pattern Generators",
+          "mirrors": [
+            "https://repeater.space/",
+            "https://patternpad.com/",
+            "https://patternico.com/",
+            "https://www.richardwestenra.com/repeater/",
+            "https://more.graphics/",
+            "https://gitlab.com/smart-pattern/valentina",
+            "https://app.haikei.app/"
+          ]
         },
         {
           "name": "Noise & Gradient",
           "url": "https://www.noiseandgradient.com/",
-          "description": "Background / Gradient Generators"
-        },
-        {
-          "name": "PhotoGradient",
-          "url": "https://photogradient.com/",
-          "description": "Background / Gradient Generators"
-        },
-        {
-          "name": "BGJar",
-          "url": "https://bgjar.com/",
-          "description": "Background / Gradient Generators"
-        },
-        {
-          "name": "MeshGradient",
-          "url": "https://meshgradient.in/",
-          "description": "Background / Gradient Generators"
-        },
-        {
-          "name": "BGGenerator",
-          "url": "https://bggenerator.com/",
-          "description": "Background / Gradient Generators"
+          "description": "Background / Gradient Generators",
+          "mirrors": [
+            "https://photogradient.com/",
+            "https://bgjar.com/",
+            "https://meshgradient.in/",
+            "https://bggenerator.com/"
+          ]
         },
         {
           "name": "Tabbied",
           "url": "https://tabbied.com/",
-          "description": "Art Pattern Generators"
-        },
-        {
-          "name": "Slopes",
-          "url": "https://tinkersynth.com/slopes/",
-          "description": "Art Pattern Generators"
+          "description": "Art Pattern Generators",
+          "mirrors": [
+            "https://tinkersynth.com/slopes/"
+          ]
         },
         {
           "name": "Mixer",
@@ -1763,7 +1552,7 @@
         {
           "name": "Gumroad",
           "url": "https://gumroad.com/",
-          "description": ""
+          "description": "(Enter $0)"
         },
         {
           "name": "psdkeys",
@@ -1943,12 +1732,10 @@
         {
           "name": "PanosFX",
           "url": "https://www.panosfx.com/",
-          "description": "Photoshop Actions"
-        },
-        {
-          "name": "Fix the Photo",
-          "url": "https://fixthephoto.com/free-photoshop-actions",
-          "description": "Photoshop Actions"
+          "description": "Photoshop Actions",
+          "mirrors": [
+            "https://fixthephoto.com/free-photoshop-actions"
+          ]
         },
         {
           "name": "2ndBrain",
@@ -1956,51 +1743,24 @@
           "description": "Image Download Site Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "designer",
-          "url": "https://start.me/p/jj0JAp/designer",
-          "description": "Image Download Site Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://start.me/p/jj0JAp/designer"
           ]
         },
         {
           "name": "gallery-dl",
           "url": "https://github.com/mikf/gallery-dl",
           "description": "Image Download Tools",
-          "starred": true
-        },
-        {
-          "name": "RipMe",
-          "url": "https://github.com/RipMeApp/ripme",
-          "description": "Image Download Tools"
-        },
-        {
-          "name": "WFDownloader",
-          "url": "https://www.wfdownloader.xyz/",
-          "description": "Image Download Tools"
-        },
-        {
-          "name": "ImgDownloader",
-          "url": "https://imgdownloader.com/",
-          "description": "Image Download Tools"
-        },
-        {
-          "name": "SCrawler",
-          "url": "https://github.com/AAndyProgram/SCrawler",
-          "description": "Image Download Tools"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/uFNUXvFFmg",
-          "description": "Image Download Tools"
-        },
-        {
-          "name": "Image Extractor",
-          "url": "https://extract.pics/",
-          "description": "Image Download Tools"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/RipMeApp/ripme",
+            "https://www.wfdownloader.xyz/",
+            "https://imgdownloader.com/",
+            "https://github.com/AAndyProgram/SCrawler",
+            "https://discord.gg/uFNUXvFFmg",
+            "https://extract.pics/"
+          ]
         },
         {
           "name": "same.energy",
@@ -2015,42 +1775,28 @@
         {
           "name": "OpenMoji",
           "url": "https://openmoji.org/",
-          "description": "Emojis"
-        },
-        {
-          "name": "JoyPixels",
-          "url": "https://www.joypixels.com/",
-          "description": "Emojis"
+          "description": "Emojis",
+          "mirrors": [
+            "https://www.joypixels.com/"
+          ]
         },
         {
           "name": "PixelJoint",
           "url": "https://pixeljoint.com/",
-          "description": "Download / Share Pixel Art"
-        },
-        {
-          "name": "Lospec",
-          "url": "https://lospec.com/",
-          "description": "Download / Share Pixel Art"
-        },
-        {
-          "name": "rsrcs",
-          "url": "https://rentry.co/rsrcs",
-          "description": "Download / Share Pixel Art"
+          "description": "Download / Share Pixel Art",
+          "mirrors": [
+            "https://lospec.com/",
+            "https://rentry.co/rsrcs"
+          ]
         },
         {
           "name": "shot.cafe",
           "url": "https://shot.cafe/",
-          "description": "Media Screenshots"
-        },
-        {
-          "name": "FanCaps",
-          "url": "https://fancaps.net/",
-          "description": "Media Screenshots"
-        },
-        {
-          "name": "Film Grab",
-          "url": "https://film-grab.com/",
-          "description": "Media Screenshots"
+          "description": "Media Screenshots",
+          "mirrors": [
+            "https://fancaps.net/",
+            "https://film-grab.com/"
+          ]
         },
         {
           "name": "Footyrenders",
@@ -2070,22 +1816,12 @@
         {
           "name": "Worldvectorlogo",
           "url": "https://worldvectorlogo.com/",
-          "description": "Logo Search / Designs"
-        },
-        {
-          "name": "Brands of the World",
-          "url": "https://www.brandsoftheworld.com/",
-          "description": "Logo Search / Designs"
-        },
-        {
-          "name": "seeklogo",
-          "url": "https://seeklogo.com/",
-          "description": "Logo Search / Designs"
-        },
-        {
-          "name": "SuperTinyIcons",
-          "url": "https://edent.github.io/SuperTinyIcons/",
-          "description": "Logo Search / Designs"
+          "description": "Logo Search / Designs",
+          "mirrors": [
+            "https://www.brandsoftheworld.com/",
+            "https://seeklogo.com/",
+            "https://edent.github.io/SuperTinyIcons/"
+          ]
         },
         {
           "name": "MariaLetta",
@@ -2095,17 +1831,11 @@
         {
           "name": "Block Posters",
           "url": "https://www.blockposters.com/",
-          "description": "Create Printable Posters"
-        },
-        {
-          "name": "PosterRazor",
-          "url": "https://posterazor.sourceforge.io/",
-          "description": "Create Printable Posters"
-        },
-        {
-          "name": "Rasterbator",
-          "url": "https://rasterbator.net/",
-          "description": "Create Printable Posters"
+          "description": "Create Printable Posters",
+          "mirrors": [
+            "https://posterazor.sourceforge.io/",
+            "https://rasterbator.net/"
+          ]
         }
       ]
     },
@@ -2123,12 +1853,10 @@
           "name": "Yandex Images",
           "url": "https://yandex.com/images/",
           "description": "Image Search",
-          "starred": true
-        },
-        {
-          "name": "Mavink",
-          "url": "https://mavink.com/",
-          "description": "Image Search"
+          "starred": true,
+          "mirrors": [
+            "https://mavink.com/"
+          ]
         },
         {
           "name": "SauceNao",
@@ -2205,12 +1933,10 @@
         {
           "name": "trace.moe",
           "url": "https://trace.moe/",
-          "description": "Anime Reverse Image Search"
-        },
-        {
-          "name": "Saucekudasai",
-          "url": "https://saucekudasai.com/",
-          "description": "Anime Reverse Image Search"
+          "description": "Anime Reverse Image Search",
+          "mirrors": [
+            "https://saucekudasai.com/"
+          ]
         },
         {
           "name": "Image_Max_URL",
@@ -2235,33 +1961,21 @@
           "name": "GetPaidStock",
           "url": "https://getpaidstock.com/",
           "description": "Paid Stock Photo Downloaders",
-          "starred": true
-        },
-        {
-          "name": "DownPic",
-          "url": "https://downpic.cc",
-          "description": "Paid Stock Photo Downloaders"
-        },
-        {
-          "name": "Downloader.la",
-          "url": "https://downloader.la/",
-          "description": "Paid Stock Photo Downloaders"
+          "starred": true,
+          "mirrors": [
+            "https://downpic.cc",
+            "https://downloader.la/"
+          ]
         },
         {
           "name": "EveryPixel",
           "url": "https://www.everypixel.com/",
           "description": "Stock Photo Search Engines",
-          "starred": true
-        },
-        {
-          "name": "O-DAN",
-          "url": "https://o-dan.net/en/",
-          "description": "Stock Photo Search Engines"
-        },
-        {
-          "name": "LibreStock",
-          "url": "https://librestock.com/",
-          "description": "Stock Photo Search Engines"
+          "starred": true,
+          "mirrors": [
+            "https://o-dan.net/en/",
+            "https://librestock.com/"
+          ]
         },
         {
           "name": "Unsplash",
@@ -2386,12 +2100,10 @@
         {
           "name": "PNGIMG",
           "url": "https://pngimg.com/",
-          "description": "PNG Photos / Noncommercial License"
-        },
-        {
-          "name": "stickpng",
-          "url": "https://www.stickpng.com/",
-          "description": "PNG Photos / Noncommercial License"
+          "description": "PNG Photos / Noncommercial License",
+          "mirrors": [
+            "https://www.stickpng.com/"
+          ]
         },
         {
           "name": "gfxmountain",
@@ -2411,77 +2123,41 @@
         {
           "name": "Shutterstock Premium",
           "url": "https://t.me/shutterstockpremium",
-          "description": "Shutterstock Telegram Downloaders"
-        },
-        {
-          "name": "freestockphotos",
-          "url": "https://t.me/freestockphotos",
-          "description": "Shutterstock Telegram Downloaders"
-        },
-        {
-          "name": "Shutter",
-          "url": "https://t.me/Shutter",
-          "description": "Shutterstock Telegram Downloaders"
+          "description": "Shutterstock Telegram Downloaders",
+          "mirrors": [
+            "https://t.me/freestockphotos",
+            "https://t.me/Shutter"
+          ]
         },
         {
           "name": "Nohat",
           "url": "https://nohat.cc/",
-          "description": "Stock Photos / Vectors"
-        },
-        {
-          "name": "FreeImages",
-          "url": "https://www.freeimages.com/",
-          "description": "Stock Photos / Vectors"
-        },
-        {
-          "name": "cgispread",
-          "url": "https://cgispread.com/",
-          "description": "Stock Photos / Vectors"
-        },
-        {
-          "name": "Vecteezy",
-          "url": "https://www.vecteezy.com/",
-          "description": "Stock Photos / Vectors"
-        },
-        {
-          "name": "FreeDesignFile",
-          "url": "https://freedesignfile.com/",
-          "description": "Stock Photos / Vectors"
+          "description": "Stock Photos / Vectors",
+          "mirrors": [
+            "https://www.freeimages.com/",
+            "https://cgispread.com/",
+            "https://www.vecteezy.com/",
+            "https://freedesignfile.com/"
+          ]
         },
         {
           "name": "publicdomainvectors",
           "url": "https://publicdomainvectors.org/",
-          "description": "Vector Images"
-        },
-        {
-          "name": "Free Vector",
-          "url": "https://www.freevector.com/",
-          "description": "Vector Images"
-        },
-        {
-          "name": "VectorJunky",
-          "url": "https://www.vectorjunky.com/",
-          "description": "Vector Images"
-        },
-        {
-          "name": "freevectors",
-          "url": "https://www.freevectors.net/",
-          "description": "Vector Images"
-        },
-        {
-          "name": "vector4free",
-          "url": "https://www.vector4free.com/",
-          "description": "Vector Images"
+          "description": "Vector Images",
+          "mirrors": [
+            "https://www.freevector.com/",
+            "https://www.vectorjunky.com/",
+            "https://www.freevectors.net/",
+            "https://www.vector4free.com/"
+          ]
         },
         {
           "name": "VectorPortal",
           "url": "https://www.vectorportal.com/",
-          "description": "Vectores Images / Creative Common Attribution"
-        },
-        {
-          "name": "VectorStock",
-          "url": "https://www.vectorstock.com/free-vectors",
-          "description": "Vectores Images / Creative Common Attribution"
+          "description": "Vectores Images / Creative Common Attribution",
+          "mirrors": [
+            "https://www.vectorstock.com/free-vectors"
+          ]
         },
         {
           "name": "123freevectors",
@@ -2491,20 +2167,14 @@
         {
           "name": "mockups-design",
           "url": "https://mockups-design.com/",
-          "description": "Product Mockups"
-        },
-        {
-          "name": "zippypixels",
-          "url": "https://zippypixels.com/",
-          "description": "Product Mockups"
-        },
-        {
-          "name": "Mockups",
-          "url": "https://mockups.pixeltrue.com/",
-          "description": "Product Mockups"
+          "description": "Product Mockups",
+          "mirrors": [
+            "https://zippypixels.com/",
+            "https://mockups.pixeltrue.com/"
+          ]
         }
       ],
-      "note": "Royalty-free implies images free for personal or commercial use with some usage restrictions (see site's TOS). CC0 stands for Creative Commons Zero and means images are public domain. Sites not tagged have licensing that varies."
+      "note": "Royalty-無料 implies images 無料 for personal or commercial use with some usage restrictions (see サイト's TOS). CC0 stands for Creative Commons Zero and means images are public domain. サイトs not tagged have licensing that varies."
     },
     {
       "id": "image-tools-art-illustrations",
@@ -2532,17 +2202,11 @@
           "name": "Danbooru",
           "url": "https://safebooru.donmai.us/",
           "description": "Anime-Style Image Booru / Downloader",
-          "starred": true
-        },
-        {
-          "name": "Sankaku Complex",
-          "url": "https://chan.sankakucomplex.com/",
-          "description": "Anime-Style Image Booru / Downloader"
-        },
-        {
-          "name": "yande.re",
-          "url": "https://yande.re/",
-          "description": "Anime-Style Image Booru / Downloader"
+          "starred": true,
+          "mirrors": [
+            "https://chan.sankakucomplex.com/",
+            "https://yande.re/"
+          ]
         },
         {
           "name": "hydrus",
@@ -2597,47 +2261,35 @@
         {
           "name": "Safebooru",
           "url": "https://safebooru.org/",
-          "description": "Image Boorus"
-        },
-        {
-          "name": "TBIB",
-          "url": "https://tbib.org/",
-          "description": "Image Boorus"
+          "description": "Image Boorus",
+          "mirrors": [
+            "https://tbib.org/"
+          ]
         },
         {
           "name": "icons8",
           "url": "https://icons8.com/illustrations",
-          "description": ""
+          "description": ", s- 3D Illustrations"
         },
         {
           "name": "LostGeometry",
           "url": "https://lostgeometry.craftwork.design/",
-          "description": ""
+          "description": ", s- 3D Illustrations"
         },
         {
           "name": "3D Illustrations",
           "url": "https://3d.khagwal.com/",
-          "description": ""
+          "description": ", s- 3D Illustrations"
         },
         {
           "name": "StorySet",
           "url": "https://storyset.com/",
-          "description": "Customizable Illustrations"
-        },
-        {
-          "name": "unDraw",
-          "url": "https://undraw.co/illustrations",
-          "description": "Customizable Illustrations"
-        },
-        {
-          "name": "blush",
-          "url": "https://blush.design/",
-          "description": "Customizable Illustrations"
-        },
-        {
-          "name": "Humaaans",
-          "url": "https://www.humaaans.com/",
-          "description": "Customizable Illustrations"
+          "description": "Customizable Illustrations",
+          "mirrors": [
+            "https://undraw.co/illustrations",
+            "https://blush.design/",
+            "https://www.humaaans.com/"
+          ]
         },
         {
           "name": "Pastel",
@@ -2647,12 +2299,10 @@
         {
           "name": "Fresh Folk",
           "url": "https://fresh-folk.com/",
-          "description": "Illustrations of People"
-        },
-        {
-          "name": "lukaszadam",
-          "url": "https://lukaszadam.com/illustrations",
-          "description": "Illustrations of People"
+          "description": "Illustrations of People",
+          "mirrors": [
+            "https://lukaszadam.com/illustrations"
+          ]
         },
         {
           "name": "free-gophers-pack",
@@ -2662,27 +2312,13 @@
         {
           "name": "reshot",
           "url": "https://www.reshot.com/",
-          "description": "Misc Illustrations"
-        },
-        {
-          "name": "freeillustrations",
-          "url": "https://freeillustrations.xyz/",
-          "description": "Misc Illustrations"
-        },
-        {
-          "name": "DrawKit",
-          "url": "https://www.drawkit.com/",
-          "description": "Misc Illustrations"
-        },
-        {
-          "name": "NiceIllustrations",
-          "url": "https://niceillustrations.com/free-illustrations/",
-          "description": "Misc Illustrations"
-        },
-        {
-          "name": "manypixels",
-          "url": "https://www.manypixels.co/gallery",
-          "description": "Misc Illustrations"
+          "description": "Misc Illustrations",
+          "mirrors": [
+            "https://freeillustrations.xyz/",
+            "https://www.drawkit.com/",
+            "https://niceillustrations.com/free-illustrations/",
+            "https://www.manypixels.co/gallery"
+          ]
         },
         {
           "name": "OldBookIllustrations",
@@ -2732,67 +2368,33 @@
         {
           "name": "The Poster DB",
           "url": "https://theposterdb.com/",
-          "description": "Movies / TV"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/ThePosterDB",
-          "description": "Movies / TV"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/NARZqQX",
-          "description": "Movies / TV"
-        },
-        {
-          "name": "DVD Covers",
-          "url": "https://www.dvd-covers.org/",
-          "description": "Movies / TV"
-        },
-        {
-          "name": "MediUX",
-          "url": "https://mediux.pro/",
-          "description": "Movies / TV"
+          "description": "Movies / TV",
+          "mirrors": [
+            "https://www.reddit.com/r/ThePosterDB",
+            "https://discord.com/invite/NARZqQX",
+            "https://www.dvd-covers.org/",
+            "https://mediux.pro/"
+          ]
         },
         {
           "name": "Movie Posters Gallery",
           "url": "https://www.moviepostersgallery.com/",
-          "description": "Movies"
-        },
-        {
-          "name": "Film On Paper",
-          "url": "https://www.filmonpaper.com/posters/",
-          "description": "Movies"
-        },
-        {
-          "name": "The Poster Collector",
-          "url": "https://postercollector.co.uk/",
-          "description": "Movies"
-        },
-        {
-          "name": "IMP Awards",
-          "url": "http://www.impawards.com/",
-          "description": "Movies"
+          "description": "Movies",
+          "mirrors": [
+            "https://www.filmonpaper.com/posters/",
+            "https://postercollector.co.uk/",
+            "http://www.impawards.com/"
+          ]
         },
         {
           "name": "GameTDB",
           "url": "https://www.gametdb.com/",
-          "description": "Games"
-        },
-        {
-          "name": "The Cover Project",
-          "url": "https://www.thecoverproject.net/",
-          "description": "Games"
-        },
-        {
-          "name": "LibRetro Thumbnails",
-          "url": "https://thumbnails.libretro.com/",
-          "description": "Games"
-        },
-        {
-          "name": "Gaming Alexandria",
-          "url": "https://www.gamingalexandria.com/wp/#",
-          "description": "Games"
+          "description": "Games",
+          "mirrors": [
+            "https://www.thecoverproject.net/",
+            "https://thumbnails.libretro.com/",
+            "https://www.gamingalexandria.com/wp/#"
+          ]
         },
         {
           "name": "Cover Century",
@@ -2821,22 +2423,18 @@
         {
           "name": "Download all Images",
           "url": "https://webextension.org/listing/save-images.html",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/belaviyo/save-images/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/belaviyo/save-images/"
+          ]
         },
         {
           "name": "Cute Save Button",
           "url": "https://github.com/Dezaimasu/cute-button",
-          "description": ""
-        },
-        {
-          "name": "Changing the Save Icon",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/cute-save-button-icon.md",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/cute-save-button-icon.md"
+          ]
         },
         {
           "name": "svgexport",
@@ -2874,27 +2472,13 @@
         {
           "name": "Clara.io",
           "url": "https://clara.io/library",
-          "description": "Misc 3D Models"
-        },
-        {
-          "name": "PolyHaven",
-          "url": "https://polyhaven.com/",
-          "description": "Misc 3D Models"
-        },
-        {
-          "name": "CadNav",
-          "url": "https://www.cadnav.com/",
-          "description": "Misc 3D Models"
-        },
-        {
-          "name": "Open3dModel",
-          "url": "https://open3dmodel.com/",
-          "description": "Misc 3D Models"
-        },
-        {
-          "name": "Archibase",
-          "url": "https://archibase.co/",
-          "description": "Misc 3D Models"
+          "description": "Misc 3D Models",
+          "mirrors": [
+            "https://polyhaven.com/",
+            "https://www.cadnav.com/",
+            "https://open3dmodel.com/",
+            "https://archibase.co/"
+          ]
         },
         {
           "name": "Sketchfab",
@@ -2929,22 +2513,12 @@
         {
           "name": "Cults",
           "url": "https://cults3d.com/",
-          "description": "Printable 3D Models / Requires Sign-Up"
-        },
-        {
-          "name": "Thangs",
-          "url": "https://thangs.com/",
-          "description": "Printable 3D Models / Requires Sign-Up"
-        },
-        {
-          "name": "MakerWorld",
-          "url": "https://makerworld.com/",
-          "description": "Printable 3D Models / Requires Sign-Up"
-        },
-        {
-          "name": "Pinshape",
-          "url": "https://pinshape.com/",
-          "description": "Printable 3D Models / Requires Sign-Up"
+          "description": "Printable 3D Models / Requires Sign-Up",
+          "mirrors": [
+            "https://thangs.com/",
+            "https://makerworld.com/",
+            "https://pinshape.com/"
+          ]
         },
         {
           "name": "STLFinder",
@@ -3029,17 +2603,11 @@
         {
           "name": "3DBrute",
           "url": "https://3dbrute.com/",
-          "description": "3D Furniture Models"
-        },
-        {
-          "name": "3DZip",
-          "url": "https://3dzip.org/",
-          "description": "3D Furniture Models"
-        },
-        {
-          "name": "DesignConnected",
-          "url": "https://www.designconnected.com/",
-          "description": "3D Furniture Models"
+          "description": "3D Furniture Models",
+          "mirrors": [
+            "https://3dzip.org/",
+            "https://www.designconnected.com/"
+          ]
         },
         {
           "name": "Vertex",
@@ -3059,22 +2627,12 @@
         {
           "name": "PoseManiacs",
           "url": "https://www.posemaniacs.com/",
-          "description": "Pose References"
-        },
-        {
-          "name": "Anatomy Doc",
-          "url": "https://photos.google.com/share/AF1QipMbaSTp0BlK1kBCKVvfZzyDhcgCZQuaDBbp8v8Lj6hxnBaNh7YWoKwCPCYr-10--A?pli=1&key=cU5OaV9TVWhoMWlVZERnaEc2YVFKQTJHbnVDeWR3",
-          "description": "Pose References"
-        },
-        {
-          "name": "Adorkastock",
-          "url": "https://www.adorkastock.com/",
-          "description": "Pose References"
-        },
-        {
-          "name": "Anatomy360",
-          "url": "https://anatomy360.info/anatomy-scan-reference-dump/",
-          "description": "Pose References"
+          "description": "Pose References",
+          "mirrors": [
+            "https://photos.google.com/share/AF1QipMbaSTp0BlK1kBCKVvfZzyDhcgCZQuaDBbp8v8Lj6hxnBaNh7YWoKwCPCYr-10--A?pli=1&key=cU5OaV9TVWhoMWlVZERnaEc2YVFKQTJHbnVDeWR3",
+            "https://www.adorkastock.com/",
+            "https://anatomy360.info/anatomy-scan-reference-dump/"
+          ]
         }
       ]
     },
@@ -3162,52 +2720,24 @@
         {
           "name": "PoseMy.art",
           "url": "https://app.posemy.art/",
-          "description": "Posing Tools"
-        },
-        {
-          "name": "SetPose",
-          "url": "https://setpose.com/",
-          "description": "Posing Tools"
-        },
-        {
-          "name": "DesignDoll",
-          "url": "https://terawell.net/en/index.php",
-          "description": "Posing Tools"
-        },
-        {
-          "name": "Magic Poser",
-          "url": "https://magicposer.com/",
-          "description": "Posing Tools"
-        },
-        {
-          "name": "Quickposes",
-          "url": "https://quickposes.com/en",
-          "description": "Posing Tools"
-        },
-        {
-          "name": "JustSketchMe",
-          "url": "https://app.justsketch.me/",
-          "description": "Posing Tools"
+          "description": "Posing Tools",
+          "mirrors": [
+            "https://setpose.com/",
+            "https://terawell.net/en/index.php",
+            "https://magicposer.com/",
+            "https://quickposes.com/en",
+            "https://app.justsketch.me/"
+          ]
         },
         {
           "name": "Vectary",
           "url": "https://www.vectary.com/",
-          "description": "Online 3D Modeling Tools"
-        },
-        {
-          "name": "Womp",
-          "url": "https://beta.womp.com/",
-          "description": "Online 3D Modeling Tools"
-        },
-        {
-          "name": "Bloom3D",
-          "url": "https://bloom3d.com/",
-          "description": "Online 3D Modeling Tools"
-        },
-        {
-          "name": "Zdog",
-          "url": "https://zzz.dog/",
-          "description": "Online 3D Modeling Tools"
+          "description": "Online 3D Modeling Tools",
+          "mirrors": [
+            "https://beta.womp.com/",
+            "https://bloom3d.com/",
+            "https://zzz.dog/"
+          ]
         },
         {
           "name": "FaceMaker",
@@ -3222,17 +2752,11 @@
         {
           "name": "ModelViewer",
           "url": "https://modelviewer.dev/",
-          "description": "3D Model Viewers"
-        },
-        {
-          "name": "3DViewer",
-          "url": "https://3dviewer.net/",
-          "description": "3D Model Viewers"
-        },
-        {
-          "name": "F3D",
-          "url": "https://f3d.app/",
-          "description": "3D Model Viewers"
+          "description": "3D Model Viewers",
+          "mirrors": [
+            "https://3dviewer.net/",
+            "https://f3d.app/"
+          ]
         },
         {
           "name": "Armorpaint",
@@ -3247,12 +2771,10 @@
         {
           "name": "MagicaVoxel",
           "url": "https://ephtracy.github.io/",
-          "description": "Voxel Art Editor / Interactive Path Tracing Renderer"
-        },
-        {
-          "name": "Goxel",
-          "url": "https://goxel.xyz/",
-          "description": "Voxel Art Editor / Interactive Path Tracing Renderer"
+          "description": "Voxel Art Editor / Interactive Path Tracing Renderer",
+          "mirrors": [
+            "https://goxel.xyz/"
+          ]
         }
       ]
     },
@@ -3269,12 +2791,10 @@
         {
           "name": "Embossify",
           "url": "https://www.embossify.com/",
-          "description": "Image to 3D Model Converters"
-        },
-        {
-          "name": "Tripo3D",
-          "url": "https://www.tripo3d.ai/app/home",
-          "description": "Image to 3D Model Converters"
+          "description": "Image to 3D Model Converters",
+          "mirrors": [
+            "https://www.tripo3d.ai/app/home"
+          ]
         },
         {
           "name": "3D Transformer",
@@ -3289,12 +2809,10 @@
         {
           "name": "PaintUp",
           "url": "http://technohippy.github.io/teddyjs/",
-          "description": "Make 2D Art into 3D"
-        },
-        {
-          "name": "⁠VGGT",
-          "url": "https://huggingface.co/spaces/facebook/vggt",
-          "description": "Make 2D Art into 3D"
+          "description": "Make 2D Art into 3D",
+          "mirrors": [
+            "https://huggingface.co/spaces/facebook/vggt"
+          ]
         },
         {
           "name": "Keygen",
@@ -3342,22 +2860,12 @@
         {
           "name": "Polymaker",
           "url": "https://wiki.polymaker.com/",
-          "description": "3D Printer Guides / Learning"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/polymaker",
-          "description": "3D Printer Guides / Learning"
-        },
-        {
-          "name": "Teaching Tech",
-          "url": "https://teachingtechyt.github.io/index.html",
-          "description": "3D Printer Guides / Learning"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/teachingtechYT/teachingtechYT.github.io",
-          "description": "3D Printer Guides / Learning"
+          "description": "3D Printer Guides / Learning",
+          "mirrors": [
+            "https://discord.com/invite/polymaker",
+            "https://teachingtechyt.github.io/index.html",
+            "https://github.com/teachingtechYT/teachingtechYT.github.io"
+          ]
         },
         {
           "name": "3D Printer Recs",
@@ -3372,42 +2880,16 @@
         {
           "name": "OrcaSlicer",
           "url": "https://www.orcaslicer.com/",
-          "description": "3D Printing Software"
-        },
-        {
-          "name": "X",
-          "url": "https://x.com/real_OrcaSlicer",
-          "description": "3D Printing Software"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/P4VE9UY9gJ",
-          "description": "3D Printing Software"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/OrcaSlicer/OrcaSlicer",
-          "description": "3D Printing Software"
-        },
-        {
-          "name": "⁠PrusaSlicer",
-          "url": "https://help.prusa3d.com/product/prusaslicer",
-          "description": "3D Printing Software"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/prusa3d/PrusaSlicer",
-          "description": "3D Printing Software"
-        },
-        {
-          "name": "⁠CrealityPrint",
-          "url": "https://github.com/CrealityOfficial/CrealityPrint",
-          "description": "3D Printing Software"
-        },
-        {
-          "name": "Ultimaker Cura",
-          "url": "https://ultimaker.com/software/ultimaker-cura",
-          "description": "3D Printing Software"
+          "description": "3D Printing Software",
+          "mirrors": [
+            "https://x.com/real_OrcaSlicer",
+            "https://discord.gg/P4VE9UY9gJ",
+            "https://github.com/OrcaSlicer/OrcaSlicer",
+            "https://help.prusa3d.com/product/prusaslicer",
+            "https://github.com/prusa3d/PrusaSlicer",
+            "https://github.com/CrealityOfficial/CrealityPrint",
+            "https://ultimaker.com/software/ultimaker-cura"
+          ]
         },
         {
           "name": "⁠e-NABLE",
@@ -3449,22 +2931,18 @@
         {
           "name": "BRL-CAD",
           "url": "https://brlcad.org/",
-          "description": "Cross-Platform CSG CAD Modeling"
-        },
-        {
-          "name": "OpenSCAD",
-          "url": "https://openscad.org/",
-          "description": "Cross-Platform CSG CAD Modeling"
+          "description": "Cross-Platform CSG CAD Modeling",
+          "mirrors": [
+            "https://openscad.org/"
+          ]
         },
         {
           "name": "LibreCAD",
           "url": "https://librecad.org/",
-          "description": "2D CAD Modeling"
-        },
-        {
-          "name": "QCAD",
-          "url": "https://www.qcad.org/en/",
-          "description": "2D CAD Modeling"
+          "description": "2D CAD Modeling",
+          "mirrors": [
+            "https://www.qcad.org/en/"
+          ]
         },
         {
           "name": "Mayo",
@@ -3502,28 +2980,20 @@
           "name": "AntiDupl",
           "url": "https://github.com/ermig1979/AntiDupl",
           "description": "Duplicate Image Removers",
-          "starred": true
-        },
-        {
-          "name": "cbird",
-          "url": "https://github.com/scrubbbbs/cbird",
-          "description": "Duplicate Image Removers"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/scrubbbbs/cbird"
+          ]
         },
         {
           "name": "Slowpoke Pics",
           "url": "https://slow.pics/",
           "description": "Image Comparisons",
-          "starred": true
-        },
-        {
-          "name": "ICAT",
-          "url": "https://www.nvidia.com/en-us/geforce/technologies/icat/",
-          "description": "Image Comparisons"
-        },
-        {
-          "name": "Image Comparison Tool",
-          "url": "https://jklgit.github.io/Image-Comparison-in-Browser/index.html",
-          "description": "Image Comparisons"
+          "starred": true,
+          "mirrors": [
+            "https://www.nvidia.com/en-us/geforce/technologies/icat/",
+            "https://jklgit.github.io/Image-Comparison-in-Browser/index.html"
+          ]
         },
         {
           "name": "odiff",
@@ -3543,12 +3013,10 @@
         {
           "name": "Binternet",
           "url": "https://github.com/Ahwxorg/Binternet",
-          "description": "Pinterest Frontends"
-        },
-        {
-          "name": "Pinvibe",
-          "url": "https://www.pinvibe.com/",
-          "description": "Pinterest Frontends"
+          "description": "Pinterest Frontends",
+          "mirrors": [
+            "https://www.pinvibe.com/"
+          ]
         },
         {
           "name": "Image Color Summarizer",
@@ -3583,42 +3051,28 @@
         {
           "name": "Watermarkly",
           "url": "https://watermarkly.com/",
-          "description": "Image Watermarking"
-        },
-        {
-          "name": "BatchWatermark",
-          "url": "https://batchwatermark.com/",
-          "description": "Image Watermarking"
-        },
-        {
-          "name": "Watermarkup",
-          "url": "https://watermarkup.com/watermark.html",
-          "description": "Image Watermarking"
+          "description": "Image Watermarking",
+          "mirrors": [
+            "https://batchwatermark.com/",
+            "https://watermarkup.com/watermark.html"
+          ]
         },
         {
           "name": "Watermark Remover",
           "url": "https://www.watermarkremover.io/",
-          "description": "Watermark Removal"
-        },
-        {
-          "name": "Unwatermark",
-          "url": "https://unwatermark.ai/",
-          "description": "Watermark Removal"
-        },
-        {
-          "name": "DeWatermark",
-          "url": "https://dewatermark.ai/",
-          "description": "Watermark Removal"
+          "description": "Watermark Removal",
+          "mirrors": [
+            "https://unwatermark.ai/",
+            "https://dewatermark.ai/"
+          ]
         },
         {
           "name": "Glaze",
           "url": "https://glaze.cs.uchicago.edu/index.html",
-          "description": "Protect Digital Art from AI Copies"
-        },
-        {
-          "name": "Nightshade",
-          "url": "https://nightshade.cs.uchicago.edu/downloads.html",
-          "description": "Protect Digital Art from AI Copies"
+          "description": "Protect Digital Art from AI Copies",
+          "mirrors": [
+            "https://nightshade.cs.uchicago.edu/downloads.html"
+          ]
         },
         {
           "name": "APNG Maker",
@@ -3638,37 +3092,15 @@
         {
           "name": "Swapface",
           "url": "https://swapface.org/",
-          "description": "Face Swapping"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/5yPew6Cy6a",
-          "description": "Face Swapping"
-        },
-        {
-          "name": "Face Swapper",
-          "url": "https://faceswapper.ai/",
-          "description": "Face Swapping"
-        },
-        {
-          "name": "FaceSwapVideo",
-          "url": "https://faceswapvideo.io/",
-          "description": "Face Swapping"
-        },
-        {
-          "name": "facy.ai",
-          "url": "https://facy.ai/swap-face-ai/photo",
-          "description": "Face Swapping"
-        },
-        {
-          "name": "AIFaceSwap",
-          "url": "https://aifaceswap.io/",
-          "description": "Face Swapping"
-        },
-        {
-          "name": "FaceFusion",
-          "url": "https://github.com/facefusion/facefusion",
-          "description": "Face Swapping"
+          "description": "Face Swapping",
+          "mirrors": [
+            "https://discord.com/invite/5yPew6Cy6a",
+            "https://faceswapper.ai/",
+            "https://faceswapvideo.io/",
+            "https://facy.ai/swap-face-ai/photo",
+            "https://aifaceswap.io/",
+            "https://github.com/facefusion/facefusion"
+          ]
         },
         {
           "name": "WiseTagger",
@@ -3683,27 +3115,13 @@
         {
           "name": "Cluttr",
           "url": "https://gitlab.com/bearjaws/cluttr",
-          "description": "Image File Organizers / Managers"
-        },
-        {
-          "name": "Diffractor",
-          "url": "https://www.diffractor.com/",
-          "description": "Image File Organizers / Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/diffractor/diffractor",
-          "description": "Image File Organizers / Managers"
-        },
-        {
-          "name": "Exif Sorter",
-          "url": "https://www.amok.am/en/freeware/amok_exif_sorter/",
-          "description": "Image File Organizers / Managers"
-        },
-        {
-          "name": "TagStudio",
-          "url": "https://github.com/TagStudioDev/TagStudio",
-          "description": "Image File Organizers / Managers"
+          "description": "Image File Organizers / Managers",
+          "mirrors": [
+            "https://www.diffractor.com/",
+            "https://github.com/diffractor/diffractor",
+            "https://www.amok.am/en/freeware/amok_exif_sorter/",
+            "https://github.com/TagStudioDev/TagStudio"
+          ]
         },
         {
           "name": "Allusion",
@@ -3786,14 +3204,9 @@
           "description": "Batch Compressor / 20MB Upload",
           "tags": [
             "GitHub"
-          ]
-        },
-        {
-          "name": "TinyJPG",
-          "url": "https://tinyjpg.com/",
-          "description": "Batch Compressor / 20MB Upload",
-          "tags": [
-            "GitHub"
+          ],
+          "mirrors": [
+            "https://tinyjpg.com/"
           ]
         },
         {
@@ -3985,27 +3398,13 @@
           "name": "Capture2Text",
           "url": "https://capture2text.sourceforge.net/",
           "description": "OCR Desktop Apps",
-          "starred": true
-        },
-        {
-          "name": "⁠NormCap",
-          "url": "https://dynobo.github.io/normcap/",
-          "description": "OCR Desktop Apps"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/dynobo/normcap",
-          "description": "OCR Desktop Apps"
-        },
-        {
-          "name": "tesseract",
-          "url": "https://github.com/tesseract-ocr/tesseract",
-          "description": "OCR Desktop Apps"
-        },
-        {
-          "name": "gImageReader",
-          "url": "https://github.com/manisandro/gImageReader",
-          "description": "OCR Desktop Apps"
+          "starred": true,
+          "mirrors": [
+            "https://dynobo.github.io/normcap/",
+            "https://github.com/dynobo/normcap",
+            "https://github.com/tesseract-ocr/tesseract",
+            "https://github.com/manisandro/gImageReader"
+          ]
         },
         {
           "name": "Text Grab",
@@ -4036,6 +3435,11 @@
         {
           "name": "i2ocr",
           "url": "https://www.i2ocr.com/",
+          "description": "Online OCR"
+        },
+        {
+          "name": "GLM-OCR",
+          "url": "https://ocr.z.ai/",
           "description": "Online OCR"
         },
         {
@@ -4125,12 +3529,10 @@
         {
           "name": "nomacs",
           "url": "https://nomacs.org/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/nomacs/nomacs",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/nomacs/nomacs"
+          ]
         },
         {
           "name": "qimgv",
@@ -4145,12 +3547,10 @@
         {
           "name": "Diffractor",
           "url": "https://www.diffractor.com/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/diffractor/diffractor",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/diffractor/diffractor"
+          ]
         },
         {
           "name": "PhotoQt",
@@ -4160,12 +3560,10 @@
         {
           "name": "⁠NeeView",
           "url": "https://neelabo.github.io/NeeView/en-us/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/neelabo/NeeView",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/neelabo/NeeView"
+          ]
         },
         {
           "name": "PicView",
@@ -4210,22 +3608,18 @@
         {
           "name": "BeeRef",
           "url": "https://beeref.org/",
-          "description": "Reference Image Viewers"
-        },
-        {
-          "name": "PureRef",
-          "url": "https://www.pureref.com/",
-          "description": "Reference Image Viewers"
+          "description": "Reference Image Viewers",
+          "mirrors": [
+            "https://www.pureref.com/"
+          ]
         },
         {
           "name": "HDRView",
           "url": "https://github.com/wkjarosz/hdrview",
-          "description": "HDR / Technical Image Viewers"
-        },
-        {
-          "name": "tev",
-          "url": "https://github.com/Tom94/tev",
-          "description": "HDR / Technical Image Viewers"
+          "description": "HDR / Technical Image Viewers",
+          "mirrors": [
+            "https://github.com/Tom94/tev"
+          ]
         },
         {
           "name": "FlipFlip",
@@ -4249,17 +3643,11 @@
         {
           "name": "Immich",
           "url": "https://immich.app/",
-          "description": ""
-        },
-        {
-          "name": "Storage Server",
-          "url": "https://pixelunion.eu/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/immich-app/immich",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://pixelunion.eu/",
+            "https://github.com/immich-app/immich"
+          ]
         },
         {
           "name": "Damselfly",
@@ -4355,7 +3743,7 @@
           ]
         }
       ],
-      "note": "Note that the options listed in this section require self-hosting."
+      "note": "注意： the options listed in this section require self-hosting."
     },
     {
       "id": "image-tools-online-galleries",
@@ -4556,12 +3944,10 @@
           "name": "Flameshot",
           "url": "https://flameshot.org/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/flameshot-org/flameshot",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/flameshot-org/flameshot"
+          ]
         },
         {
           "name": "Zipline",
@@ -4575,12 +3961,10 @@
         {
           "name": "Greenshot",
           "url": "https://getgreenshot.org/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/greenshot/greenshot",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/greenshot/greenshot"
+          ]
         },
         {
           "name": "KSnip",
@@ -4631,27 +4015,19 @@
         {
           "name": "Screenshot Guru",
           "url": "https://screenshot.guru/",
-          "description": "Take Screenshots of Websites"
-        },
-        {
-          "name": "Site-Shot",
-          "url": "https://www.site-shot.com/",
-          "description": "Take Screenshots of Websites"
-        },
-        {
-          "name": "Pikwy",
-          "url": "https://pikwy.com/",
-          "description": "Take Screenshots of Websites"
+          "description": "Take Screenshots of Websites",
+          "mirrors": [
+            "https://www.site-shot.com/",
+            "https://pikwy.com/"
+          ]
         },
         {
           "name": "Screenshot Rocks",
           "url": "https://screenshot.rocks/",
-          "description": "Create Screenshot Mockups of Websites"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/daveearley/screenshot.rocks",
-          "description": "Create Screenshot Mockups of Websites"
+          "description": "Create Screenshot Mockups of Websites",
+          "mirrors": [
+            "https://github.com/daveearley/screenshot.rocks"
+          ]
         },
         {
           "name": "paste.photos",
@@ -4673,62 +4049,26 @@
           "name": "Color Designer",
           "url": "https://colordesigner.io/tools",
           "description": "Color Palette Generators",
-          "starred": true
-        },
-        {
-          "name": "Color Palette Pro",
-          "url": "https://colorpalette.pro/",
-          "description": "Color Palette Generators"
-        },
-        {
-          "name": "Guide",
-          "url": "https://colorpalette.pro/manual",
-          "description": "Color Palette Generators"
-        },
-        {
-          "name": "TheGoodColors",
-          "url": "https://thegoodcolors.com/",
-          "description": "Color Palette Generators"
-        },
-        {
-          "name": "Super Color Palette",
-          "url": "https://supercolorpalette.com/",
-          "description": "Color Palette Generators"
-        },
-        {
-          "name": "Nof",
-          "url": "https://nofpg.netlify.app/",
-          "description": "Color Palette Generators"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Northstrix/nof",
-          "description": "Color Palette Generators"
-        },
-        {
-          "name": "Coolors",
-          "url": "https://coolors.co/",
-          "description": "Color Palette Generators"
+          "starred": true,
+          "mirrors": [
+            "https://colorpalette.pro/",
+            "https://colorpalette.pro/manual",
+            "https://thegoodcolors.com/",
+            "https://supercolorpalette.com/",
+            "https://nofpg.netlify.app/",
+            "https://github.com/Northstrix/nof",
+            "https://coolors.co/"
+          ]
         },
         {
           "name": "Clariss",
           "url": "https://www.clariss.xyz/",
-          "description": "Generate Color Palettes from Images"
-        },
-        {
-          "name": "Color Palette Generator",
-          "url": "https://www.degraeve.com/color-palette",
-          "description": "Generate Color Palettes from Images"
-        },
-        {
-          "name": "Palitra",
-          "url": "https://palitra.app/",
-          "description": "Generate Color Palettes from Images"
-        },
-        {
-          "name": "Color Picker",
-          "url": "https://imagecolorpicker.com/",
-          "description": "Generate Color Palettes from Images"
+          "description": "Generate Color Palettes from Images",
+          "mirrors": [
+            "https://www.degraeve.com/color-palette",
+            "https://palitra.app/",
+            "https://imagecolorpicker.com/"
+          ]
         },
         {
           "name": "Color Space",
@@ -4738,12 +4078,10 @@
         {
           "name": "Colors Wall",
           "url": "https://colorswall.com/",
-          "description": "Generate Random Color Palettes"
-        },
-        {
-          "name": "ColorKit",
-          "url": "https://colorkit.co/color-palette-generator/",
-          "description": "Generate Random Color Palettes"
+          "description": "Generate Random Color Palettes",
+          "mirrors": [
+            "https://colorkit.co/color-palette-generator/"
+          ]
         },
         {
           "name": "Color Kit",
@@ -4753,67 +4091,33 @@
         {
           "name": "Pigment",
           "url": "https://pigment.shapefactory.co/",
-          "description": "Simple Color Palette Generators"
-        },
-        {
-          "name": "Eva Design System",
-          "url": "https://colors.eva.design/",
-          "description": "Simple Color Palette Generators"
-        },
-        {
-          "name": "Scale",
-          "url": "https://hihayk.github.io/scale/",
-          "description": "Simple Color Palette Generators"
-        },
-        {
-          "name": "Huey",
-          "url": "https://huey.design/",
-          "description": "Simple Color Palette Generators"
+          "description": "Simple Color Palette Generators",
+          "mirrors": [
+            "https://colors.eva.design/",
+            "https://hihayk.github.io/scale/",
+            "https://huey.design/"
+          ]
         },
         {
           "name": "ColorBox",
           "url": "https://colorbox.io/",
-          "description": "Advanced Color Palette Generators"
-        },
-        {
-          "name": "hue.tools",
-          "url": "https://hue.tools/",
-          "description": "Advanced Color Palette Generators"
-        },
-        {
-          "name": "Randoma11y",
-          "url": "https://randoma11y.com/",
-          "description": "Advanced Color Palette Generators"
-        },
-        {
-          "name": "accessiblepalette",
-          "url": "https://accessiblepalette.com/",
-          "description": "Advanced Color Palette Generators"
-        },
-        {
-          "name": "colorcolor",
-          "url": "https://colorcolor.in/",
-          "description": "Advanced Color Palette Generators"
+          "description": "Advanced Color Palette Generators",
+          "mirrors": [
+            "https://hue.tools/",
+            "https://randoma11y.com/",
+            "https://accessiblepalette.com/",
+            "https://colorcolor.in/"
+          ]
         },
         {
           "name": "Good Palette",
           "url": "https://goodpalette.io/",
-          "description": "Generate UI Color Palettes"
-        },
-        {
-          "name": "Huemint",
-          "url": "https://huemint.com/",
-          "description": "Generate UI Color Palettes"
-        },
-        {
-          "name": "AI Colors",
-          "url": "https://aicolors.co/",
-          "description": "Generate UI Color Palettes"
-        },
-        {
-          "name": "PaletteMaker",
-          "url": "https://palettemaker.com/",
-          "description": "Generate UI Color Palettes"
+          "description": "Generate UI Color Palettes",
+          "mirrors": [
+            "https://huemint.com/",
+            "https://aicolors.co/",
+            "https://palettemaker.com/"
+          ]
         },
         {
           "name": "Couleur.io",
@@ -4823,12 +4127,10 @@
         {
           "name": "UI Colors",
           "url": "https://uicolors.app/create",
-          "description": "Tailwind CSS Color Generators"
-        },
-        {
-          "name": "Tints",
-          "url": "https://www.tints.dev/",
-          "description": "Tailwind CSS Color Generators"
+          "description": "Tailwind CSS Color Generators",
+          "mirrors": [
+            "https://www.tints.dev/"
+          ]
         },
         {
           "name": "Poolors",
@@ -4860,42 +4162,22 @@
         {
           "name": "Material UI",
           "url": "https://materialui.co/colors/",
-          "description": "Color Pickers"
-        },
-        {
-          "name": "OKLCH",
-          "url": "https://oklch.com/",
-          "description": "Color Pickers"
-        },
-        {
-          "name": "Color Deck",
-          "url": "https://color.obscuredetour.com/",
-          "description": "Color Pickers"
-        },
-        {
-          "name": "Picular",
-          "url": "https://picular.co/",
-          "description": "Color Pickers"
-        },
-        {
-          "name": "ColorKit's Color Picker",
-          "url": "https://colorkit.co/color-picker/",
-          "description": "Color Pickers"
+          "description": "Color Pickers",
+          "mirrors": [
+            "https://oklch.com/",
+            "https://color.obscuredetour.com/",
+            "https://picular.co/",
+            "https://colorkit.co/color-picker/"
+          ]
         },
         {
           "name": "Colorpicker",
           "url": "https://colorpicker.fr/",
-          "description": "Color Picker Desktop Apps"
-        },
-        {
-          "name": "Just Color Picker",
-          "url": "https://annystudio.com/software/colorpicker/",
-          "description": "Color Picker Desktop Apps"
-        },
-        {
-          "name": "epick",
-          "url": "https://github.com/vv9k/epick",
-          "description": "Color Picker Desktop Apps"
+          "description": "Color Picker Desktop Apps",
+          "mirrors": [
+            "https://annystudio.com/software/colorpicker/",
+            "https://github.com/vv9k/epick"
+          ]
         },
         {
           "name": "Colorscales",
@@ -4905,22 +4187,18 @@
         {
           "name": "ColourCode",
           "url": "https://www.toptal.com/designers/colourcode/",
-          "description": "Find Colors by Moving Mouse"
-        },
-        {
-          "name": "Colordot",
-          "url": "https://color.hailpixel.com/",
-          "description": "Find Colors by Moving Mouse"
+          "description": "Find Colors by Moving Mouse",
+          "mirrors": [
+            "https://color.hailpixel.com/"
+          ]
         },
         {
           "name": "Geenes",
           "url": "https://geenes.app/welcome",
-          "description": "Find UI Color Palettes"
-        },
-        {
-          "name": "Leonardo",
-          "url": "https://leonardocolor.io/",
-          "description": "Find UI Color Palettes"
+          "description": "Find UI Color Palettes",
+          "mirrors": [
+            "https://leonardocolor.io/"
+          ]
         },
         {
           "name": "Sorted CSS Colors",
@@ -4930,27 +4208,13 @@
         {
           "name": "Color Hunt",
           "url": "https://colorhunt.co/",
-          "description": "Find Color Palettes"
-        },
-        {
-          "name": "COLOURlovers",
-          "url": "https://www.colourlovers.com/",
-          "description": "Find Color Palettes"
-        },
-        {
-          "name": "SchemeColor",
-          "url": "https://www.schemecolor.com/",
-          "description": "Find Color Palettes"
-        },
-        {
-          "name": "Culrs",
-          "url": "https://culrs.com/",
-          "description": "Find Color Palettes"
-        },
-        {
-          "name": "Colorffy",
-          "url": "https://colorffy.com/",
-          "description": "Find Color Palettes"
+          "description": "Find Color Palettes",
+          "mirrors": [
+            "https://www.colourlovers.com/",
+            "https://www.schemecolor.com/",
+            "https://culrs.com/",
+            "https://colorffy.com/"
+          ]
         },
         {
           "name": "Adobe Color",
@@ -4975,22 +4239,18 @@
         {
           "name": "r/Photography Guide",
           "url": "https://www.reddit.com/r/photography/wiki/introduction",
-          "description": "Photography / Camera Guides"
-        },
-        {
-          "name": "Cambridge In Colour",
-          "url": "https://www.cambridgeincolour.com/",
-          "description": "Photography / Camera Guides"
+          "description": "Photography / Camera Guides",
+          "mirrors": [
+            "https://www.cambridgeincolour.com/"
+          ]
         },
         {
           "name": "Camera Decision",
           "url": "https://cameradecision.com/",
-          "description": "Compare Cameras"
-        },
-        {
-          "name": "Digicamfinder",
-          "url": "https://digicamfinder.com/",
-          "description": "Compare Cameras"
+          "description": "Compare Cameras",
+          "mirrors": [
+            "https://digicamfinder.com/"
+          ]
         },
         {
           "name": "Camera Wiki",
@@ -5005,27 +4265,13 @@
         {
           "name": "darktable",
           "url": "https://www.darktable.org/",
-          "description": "RAW Photo Editors / Windows, Mac, Linux"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/darktable-org/darktable",
-          "description": "RAW Photo Editors / Windows, Mac, Linux"
-        },
-        {
-          "name": "RawTherapee",
-          "url": "https://www.rawtherapee.com/",
-          "description": "RAW Photo Editors / Windows, Mac, Linux"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/RawTherapee/RawTherapee",
-          "description": "RAW Photo Editors / Windows, Mac, Linux"
-        },
-        {
-          "name": "⁠LightZone",
-          "url": "https://github.com/ktgw0316/LightZone",
-          "description": "RAW Photo Editors / Windows, Mac, Linux"
+          "description": "RAW Photo Editors / Windows, Mac, Linux",
+          "mirrors": [
+            "https://github.com/darktable-org/darktable",
+            "https://www.rawtherapee.com/",
+            "https://github.com/RawTherapee/RawTherapee",
+            "https://github.com/ktgw0316/LightZone"
+          ]
         },
         {
           "name": "HDRMerge",
@@ -5098,87 +4344,37 @@
           "name": "FotoForensics",
           "url": "https://www.fotoforensics.com/",
           "description": "Photo Forensics Tools",
-          "starred": true
-        },
-        {
-          "name": "Sherloq",
-          "url": "https://github.com/GuidoBartoli/sherloq",
-          "description": "Photo Forensics Tools"
-        },
-        {
-          "name": "Forensically",
-          "url": "https://29a.ch/photo-forensics/",
-          "description": "Photo Forensics Tools"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/GuidoBartoli/sherloq",
+            "https://29a.ch/photo-forensics/"
+          ]
         },
         {
           "name": "ViewEXIF",
           "url": "https://www.imgonline.com.ua/eng/exif-info.php",
-          "description": "EXIF / Metadata Viewers"
-        },
-        {
-          "name": "Jimpl",
-          "url": "https://jimpl.com/",
-          "description": "EXIF / Metadata Viewers"
-        },
-        {
-          "name": "ExifData",
-          "url": "https://exifdata.com/",
-          "description": "EXIF / Metadata Viewers"
-        },
-        {
-          "name": "OnlineEXIFViewer",
-          "url": "https://onlineexifviewer.com/",
-          "description": "EXIF / Metadata Viewers"
-        },
-        {
-          "name": "ExifLooter",
-          "url": "https://github.com/aydinnyunus/exifLooter",
-          "description": "EXIF / Metadata Viewers"
-        },
-        {
-          "name": "CameraSummary",
-          "url": "https://camerasummary.com/",
-          "description": "EXIF / Metadata Viewers"
+          "description": "EXIF / Metadata Viewers",
+          "mirrors": [
+            "https://jimpl.com/",
+            "https://exifdata.com/",
+            "https://onlineexifviewer.com/",
+            "https://github.com/aydinnyunus/exifLooter",
+            "https://camerasummary.com/"
+          ]
         },
         {
           "name": "exiftool",
           "url": "https://exiftool.org/",
-          "description": "Remove Meta / EXIF Data"
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/FrankBijnen/ExifToolGui/",
-          "description": "Remove Meta / EXIF Data"
-        },
-        {
-          "name": "EXIFRemove",
-          "url": "https://www.exifremove.com/",
-          "description": "Remove Meta / EXIF Data"
-        },
-        {
-          "name": "scrambled-exif",
-          "url": "https://gitlab.com/juanitobananas/scrambled-exif",
-          "description": "Remove Meta / EXIF Data"
-        },
-        {
-          "name": "MetaEditor",
-          "url": "https://metaeditor.picvario.com/",
-          "description": "Remove Meta / EXIF Data"
-        },
-        {
-          "name": "Metadata-Remover",
-          "url": "https://github.com/Anish-M-code/Metadata-Remover",
-          "description": "Remove Meta / EXIF Data"
-        },
-        {
-          "name": "adarsus",
-          "url": "https://www.adarsus.com/en/remove-metadata-online-document-image-video/",
-          "description": "Remove Meta / EXIF Data"
-        },
-        {
-          "name": "VerExif",
-          "url": "https://www.verexif.com/en/",
-          "description": "Remove Meta / EXIF Data"
+          "description": "Remove Meta / EXIF Data",
+          "mirrors": [
+            "https://github.com/FrankBijnen/ExifToolGui/",
+            "https://www.exifremove.com/",
+            "https://gitlab.com/juanitobananas/scrambled-exif",
+            "https://metaeditor.picvario.com/",
+            "https://github.com/Anish-M-code/Metadata-Remover",
+            "https://www.adarsus.com/en/remove-metadata-online-document-image-video/",
+            "https://www.verexif.com/en/"
+          ]
         },
         {
           "name": "Pic2Map",
@@ -5188,32 +4384,20 @@
         {
           "name": "TheExifer",
           "url": "https://www.thexifer.net/",
-          "description": "Image EXIF Data Editors"
-        },
-        {
-          "name": "Photini",
-          "url": "https://github.com/jim-easterbrook/Photini",
-          "description": "Image EXIF Data Editors"
-        },
-        {
-          "name": "ColorPilot",
-          "url": "https://www.colorpilot.com/exif.html",
-          "description": "Image EXIF Data Editors"
+          "description": "Image EXIF Data Editors",
+          "mirrors": [
+            "https://github.com/jim-easterbrook/Photini",
+            "https://www.colorpilot.com/exif.html"
+          ]
         },
         {
           "name": "Picarta",
           "url": "https://picarta.ai/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/g5BAd2UFbs",
-          "description": ""
-        },
-        {
-          "name": "GeoSpy",
-          "url": "https://geospy.net/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.gg/g5BAd2UFbs",
+            "https://geospy.net/"
+          ]
         },
         {
           "name": "Image Identification Project",
@@ -5223,62 +4407,26 @@
         {
           "name": "StegOnline",
           "url": "https://georgeom.net/StegOnline/upload",
-          "description": "Images Steganography Tools"
-        },
-        {
-          "name": "OpenStego",
-          "url": "https://www.openstego.com/",
-          "description": "Images Steganography Tools"
-        },
-        {
-          "name": "OpenPuff",
-          "url": "https://embeddedsw.net/OpenPuff_Steganography_Home.html",
-          "description": "Images Steganography Tools"
-        },
-        {
-          "name": "Steganography-PNG",
-          "url": "https://pedrooaugusto.github.io/steganography-png/",
-          "description": "Images Steganography Tools"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/pedrooaugusto/steganography-png",
-          "description": "Images Steganography Tools"
-        },
-        {
-          "name": "ImSter",
-          "url": "https://github.com/DJayalath/ImSter",
-          "description": "Images Steganography Tools"
-        },
-        {
-          "name": "stegano",
-          "url": "https://bztsrc.gitlab.io/stegano/",
-          "description": "Images Steganography Tools"
-        },
-        {
-          "name": "hide-text",
-          "url": "https://all-tools.github.io/hide-text-in-image/",
-          "description": "Images Steganography Tools"
-        },
-        {
-          "name": "stegpy",
-          "url": "https://github.com/izcoser/stegpy",
-          "description": "Images Steganography Tools"
+          "description": "Images Steganography Tools",
+          "mirrors": [
+            "https://www.openstego.com/",
+            "https://embeddedsw.net/OpenPuff_Steganography_Home.html",
+            "https://pedrooaugusto.github.io/steganography-png/",
+            "https://github.com/pedrooaugusto/steganography-png",
+            "https://github.com/DJayalath/ImSter",
+            "https://bztsrc.gitlab.io/stegano/",
+            "https://all-tools.github.io/hide-text-in-image/",
+            "https://github.com/izcoser/stegpy"
+          ]
         },
         {
           "name": "Aperisolve",
           "url": "https://aperisolve.fr/",
-          "description": "Steganography Analysis Tool"
-        },
-        {
-          "name": "2",
-          "url": "https://www.aperisolve.com/",
-          "description": "Steganography Analysis Tool"
-        },
-        {
-          "name": "stegextract",
-          "url": "https://github.com/evyatarmeged/stegextract",
-          "description": "Steganography Analysis Tool"
+          "description": "Steganography Analysis Tool",
+          "mirrors": [
+            "https://www.aperisolve.com/",
+            "https://github.com/evyatarmeged/stegextract"
+          ]
         },
         {
           "name": "Redacted",

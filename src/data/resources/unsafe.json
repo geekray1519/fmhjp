@@ -16,14 +16,9 @@
           "description": "More Complete Lists",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Uploaders",
-          "url": "https://rentry.org/pgames#untrusted-uploaders",
-          "description": "More Complete Lists",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://rentry.org/pgames#untrusted-uploaders"
           ]
         },
         {
@@ -46,7 +41,7 @@
           ]
         }
       ],
-      "note": "Scene groups do not have their own sites, so it's best to avoid anything claiming to represent one."
+      "note": "Scene groups do not have their own サイトs, so it's best to avoid anything claiming to represent one."
     },
     {
       "id": "unsafe-torrent-sites-clients",
@@ -61,7 +56,7 @@
           ]
         }
       ],
-      "note": "Torrent aggregators pull results from multiple sites, so it's recommended to avoid using them for software and games."
+      "note": "Torrent aggregators pull results from multiple サイトs, so it's recommended to avoid using them for software and games."
     }
   ]
 }

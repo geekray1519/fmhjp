@@ -16,38 +16,12 @@
           "description": "Frontend Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "2",
-          "url": "https://cf.farside.link/",
-          "description": "Frontend Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "canine.tools",
-          "url": "https://canine.tools/services/",
-          "description": "Frontend Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "PrivacyRedirect",
-          "url": "https://privacyredirect.com/",
-          "description": "Frontend Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "alternative-frontends",
-          "url": "https://github.com/ParniDEO/alternative-front-ends-unofficial",
-          "description": "Frontend Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://cf.farside.link/",
+            "https://canine.tools/services/",
+            "https://privacyredirect.com/",
+            "https://github.com/ParniDEO/alternative-front-ends-unofficial"
           ]
         },
         {
@@ -72,22 +46,12 @@
           "name": "LibRedirect",
           "url": "https://libredirect.github.io/",
           "description": "Frontend Redirect Extensions",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/libredirect/browser_extension",
-          "description": "Frontend Redirect Extensions"
-        },
-        {
-          "name": "Predirect",
-          "url": "https://github.com/libreom/predirect",
-          "description": "Frontend Redirect Extensions"
-        },
-        {
-          "name": "Proxy Redirect",
-          "url": "https://openuserjs.org/scripts/sjehuda/Proxy_Redirect",
-          "description": "Frontend Redirect Extensions"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/libredirect/browser_extension",
+            "https://github.com/libreom/predirect",
+            "https://openuserjs.org/scripts/sjehuda/Proxy_Redirect"
+          ]
         },
         {
           "name": "Numblr",
@@ -97,27 +61,19 @@
         {
           "name": "Binternet",
           "url": "https://github.com/Ahwxorg/Binternet",
-          "description": "Pinterest Frontends / Viewers"
-        },
-        {
-          "name": "Pinvibe",
-          "url": "https://www.pinvibe.com/",
-          "description": "Pinterest Frontends / Viewers"
+          "description": "Pinterest Frontends / Viewers",
+          "mirrors": [
+            "https://www.pinvibe.com/"
+          ]
         },
         {
           "name": "Proxitok",
           "url": "https://github.com/pablouser1/ProxiTok",
-          "description": "TikTok Frontends / Viewers"
-        },
-        {
-          "name": "Urlebird",
-          "url": "https://urlebird.com/",
-          "description": "TikTok Frontends / Viewers"
-        },
-        {
-          "name": "OffTikTok",
-          "url": "https://www.offtiktok.com/",
-          "description": "TikTok Frontends / Viewers"
+          "description": "TikTok Frontends / Viewers",
+          "mirrors": [
+            "https://urlebird.com/",
+            "https://www.offtiktok.com/"
+          ]
         },
         {
           "name": "TikTok Tools",
@@ -130,12 +86,10 @@
         {
           "name": "Social-Searcher",
           "url": "https://www.social-searcher.com/",
-          "description": "Social Media Search Engines"
-        },
-        {
-          "name": "WeVerify",
-          "url": "https://cse.google.com/cse?cx=006976128084956795641:ad1xj14zfap",
-          "description": "Social Media Search Engines"
+          "description": "Social Media Search Engines",
+          "mirrors": [
+            "https://cse.google.com/cse?cx=006976128084956795641:ad1xj14zfap"
+          ]
         },
         {
           "name": "Social Media Hacker List",
@@ -171,64 +125,34 @@
           "name": "embeddr.top",
           "url": "https://embeddr.top/",
           "description": "Discord Video Embedders",
-          "starred": true
-        },
-        {
-          "name": "x266.mov",
-          "url": "https://x266.mov/discord-embed/",
-          "description": "Discord Video Embedders"
-        },
-        {
-          "name": "⁠Discord Embed Fixer",
-          "url": "https://fixembed.site/",
-          "description": "Discord Video Embedders"
-        },
-        {
-          "name": "npf.is",
-          "url": "https://discord.nfp.is/",
-          "description": "Discord Video Embedders"
-        },
-        {
-          "name": "stolen.shoes",
-          "url": "https://stolen.shoes/",
-          "description": "Discord Video Embedders"
-        },
-        {
-          "name": "embeds.video",
-          "url": "https://embeds.video/",
-          "description": "Discord Video Embedders"
+          "starred": true,
+          "mirrors": [
+            "https://x266.mov/discord-embed/",
+            "https://fixembed.site/",
+            "https://discord.nfp.is/",
+            "https://stolen.shoes/",
+            "https://embeds.video/"
+          ]
         },
         {
           "name": "embedez",
           "url": "https://embedez.com/",
           "description": "Social Link Embedders",
-          "starred": true
-        },
-        {
-          "name": "X",
-          "url": "https://x.com/embedez",
-          "description": "Social Link Embedders"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/FmW9c8gtCp",
-          "description": "Social Link Embedders"
-        },
-        {
-          "name": "FxEmbed",
-          "url": "https://github.com/FxEmbed/FxEmbed",
-          "description": "Social Link Embedders"
+          "starred": true,
+          "mirrors": [
+            "https://x.com/embedez",
+            "https://discord.gg/FmW9c8gtCp",
+            "https://github.com/FxEmbed/FxEmbed"
+          ]
         },
         {
           "name": "Disblock Origin",
           "url": "https://codeberg.org/AllPurposeMat/Disblock-Origin",
           "description": "Hide Nitro / Boost Ads",
-          "starred": true
-        },
-        {
-          "name": "Discord Adblock",
-          "url": "https://codeberg.org/ridge/Discord-AdBlock",
-          "description": "Hide Nitro / Boost Ads"
+          "starred": true,
+          "mirrors": [
+            "https://codeberg.org/ridge/Discord-AdBlock"
+          ]
         },
         {
           "name": "OpenAsar",
@@ -266,22 +190,12 @@
         {
           "name": "Discord Chat Exporter",
           "url": "https://github.com/Tyrrrz/DiscordChatExporter",
-          "description": "Archive / Export Discord Chats"
-        },
-        {
-          "name": "Python",
-          "url": "https://github.com/mahtoid/DiscordChatExporterPy",
-          "description": "Archive / Export Discord Chats"
-        },
-        {
-          "name": "Discord History Tracker",
-          "url": "https://dht.chylex.com/",
-          "description": "Archive / Export Discord Chats"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/chylex/Discord-History-Tracker",
-          "description": "Archive / Export Discord Chats"
+          "description": "Archive / Export Discord Chats",
+          "mirrors": [
+            "https://github.com/mahtoid/DiscordChatExporterPy",
+            "https://dht.chylex.com/",
+            "https://github.com/chylex/Discord-History-Tracker"
+          ]
         },
         {
           "name": "Wumpus Central",
@@ -299,12 +213,10 @@
         {
           "name": "Discrub",
           "url": "https://github.com/prathercc/discrub-ext",
-          "description": "Message Manipulation Tools / Always Delay 3+ Seconds"
-        },
-        {
-          "name": "Undiscord",
-          "url": "https://github.com/victornpb/undiscord/",
-          "description": "Message Manipulation Tools / Always Delay 3+ Seconds"
+          "description": "Message Manipulation Tools / Always Delay 3+ Seconds",
+          "mirrors": [
+            "https://github.com/victornpb/undiscord/"
+          ]
         },
         {
           "name": "dsc.gg",
@@ -352,12 +264,10 @@
         {
           "name": "Embed Visualizer",
           "url": "https://embed.discord.website/",
-          "description": "Preview Embeds"
-        },
-        {
-          "name": "EB",
-          "url": "https://eb.nadeko.bot/",
-          "description": "Preview Embeds"
+          "description": "Preview Embeds",
+          "mirrors": [
+            "https://eb.nadeko.bot/"
+          ]
         },
         {
           "name": "BetterTwitFix",
@@ -385,27 +295,13 @@
         {
           "name": "Hammertime",
           "url": "https://hammertime.cyou/",
-          "description": "Discord Timestamp Generators"
-        },
-        {
-          "name": "Dank.tools",
-          "url": "https://dank.tools/discord-timestamp",
-          "description": "Discord Timestamp Generators"
-        },
-        {
-          "name": "⁠DiscTimestamps",
-          "url": "https://disctimestamps.com/",
-          "description": "Discord Timestamp Generators"
-        },
-        {
-          "name": "discordtimestampgenerator.net",
-          "url": "https://discordtimestampgenerator.net/",
-          "description": "Discord Timestamp Generators"
-        },
-        {
-          "name": "discord-timestamps",
-          "url": "https://r.3v.fi/discord-timestamps/",
-          "description": "Discord Timestamp Generators"
+          "description": "Discord Timestamp Generators",
+          "mirrors": [
+            "https://dank.tools/discord-timestamp",
+            "https://disctimestamps.com/",
+            "https://discordtimestampgenerator.net/",
+            "https://r.3v.fi/discord-timestamps/"
+          ]
         },
         {
           "name": "haystackfs",
@@ -440,27 +336,13 @@
           "name": "Vencord",
           "url": "https://vencord.dev/",
           "description": "Discord Client Mod",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/D9uwnFnqmd",
-          "description": "Discord Client Mod"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Vendicated/Vencord",
-          "description": "Discord Client Mod"
-        },
-        {
-          "name": "Vesktop",
-          "url": "https://vesktop.dev/",
-          "description": "Discord Client Mod"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Vencord/Vesktop",
-          "description": "Discord Client Mod"
+          "starred": true,
+          "mirrors": [
+            "https://discord.gg/D9uwnFnqmd",
+            "https://github.com/Vendicated/Vencord",
+            "https://vesktop.dev/",
+            "https://github.com/Vencord/Vesktop"
+          ]
         },
         {
           "name": "WebCord",
@@ -474,27 +356,13 @@
         {
           "name": "Equicord",
           "url": "https://equicord.org",
-          "description": "Discord Client Mod / Plugins"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/5Xh2W87egW",
-          "description": "Discord Client Mod / Plugins"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Equicord/Equicord",
-          "description": "Discord Client Mod / Plugins"
-        },
-        {
-          "name": "⁠Equibop",
-          "url": "https://equibop.org/",
-          "description": "Discord Client Mod / Plugins"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Equicord/Equibop",
-          "description": "Discord Client Mod / Plugins"
+          "description": "Discord Client Mod / Plugins",
+          "mirrors": [
+            "https://discord.gg/5Xh2W87egW",
+            "https://github.com/Equicord/Equicord",
+            "https://equibop.org/",
+            "https://github.com/Equicord/Equibop"
+          ]
         },
         {
           "name": "Replugged",
@@ -557,12 +425,10 @@
         {
           "name": "Discord Portable",
           "url": "https://portapps.io/app/discord-portable/",
-          "description": "Portable Discord Stable"
-        },
-        {
-          "name": "PTB PortApps",
-          "url": "https://portapps.io/app/discord-ptb-portable/",
-          "description": "Portable Discord Stable"
+          "description": "Portable Discord Stable",
+          "mirrors": [
+            "https://portapps.io/app/discord-ptb-portable/"
+          ]
         }
       ]
     },
@@ -576,47 +442,30 @@
           "description": "Client Theme Index",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Discord Themes",
-          "url": "https://github.com/topics/discord-theme",
-          "description": "Client Theme Index",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/topics/discord-theme"
           ]
         },
         {
           "name": "Discohook",
           "url": "https://discohook.app/",
           "description": "Embed Generators",
-          "starred": true
-        },
-        {
-          "name": "Embed Creator",
-          "url": "https://embed.dan.onl/",
-          "description": "Embed Generators"
-        },
-        {
-          "name": "Embed Generator",
-          "url": "https://message.style/",
-          "description": "Embed Generators"
+          "starred": true,
+          "mirrors": [
+            "https://embed.dan.onl/",
+            "https://message.style/"
+          ]
         },
         {
           "name": "CustomRP",
           "url": "https://www.customrp.xyz/",
           "description": "Customizable Rich Presence",
-          "starred": true
-        },
-        {
-          "name": "geetRPCS",
-          "url": "https://geetrpcs.vercel.app/",
-          "description": "Customizable Rich Presence"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/makcrtve/geetRPCS",
-          "description": "Customizable Rich Presence"
+          "starred": true,
+          "mirrors": [
+            "https://geetrpcs.vercel.app/",
+            "https://github.com/makcrtve/geetRPCS"
+          ]
         },
         {
           "name": "BD Editor",
@@ -672,27 +521,19 @@
         {
           "name": "mgcounts",
           "url": "https://tags.mgcounts.com/",
-          "description": "Discord Server Tag Lists"
-        },
-        {
-          "name": "Discord.band",
-          "url": "https://discord.band/tags",
-          "description": "Discord Server Tag Lists"
+          "description": "Discord Server Tag Lists",
+          "mirrors": [
+            "https://discord.band/tags"
+          ]
         },
         {
           "name": "Emoji List",
           "url": "https://discords.com/emoji-list",
-          "description": "Discord Emojis / GIFs"
-        },
-        {
-          "name": "Slackmoji",
-          "url": "https://github.com/seanprashad/slackmoji",
-          "description": "Discord Emojis / GIFs"
-        },
-        {
-          "name": "emoji.gg",
-          "url": "https://emoji.gg/",
-          "description": "Discord Emojis / GIFs"
+          "description": "Discord Emojis / GIFs",
+          "mirrors": [
+            "https://github.com/seanprashad/slackmoji",
+            "https://emoji.gg/"
+          ]
         },
         {
           "name": "Discord-Emoji-Downloader",
@@ -815,27 +656,19 @@
         {
           "name": "MonitoRSS",
           "url": "https://monitorss.xyz/",
-          "description": "RSS Discord Bots"
-        },
-        {
-          "name": "ReadyBot",
-          "url": "https://readybot.io/",
-          "description": "RSS Discord Bots"
+          "description": "RSS Discord Bots",
+          "mirrors": [
+            "https://readybot.io/"
+          ]
         },
         {
           "name": "Discord Music Bot",
           "url": "https://github.com/SudhanPlayz/Discord-MusicBot",
-          "description": "Music Bots"
-        },
-        {
-          "name": "Music-bot",
-          "url": "https://github.com/ZerioDev/Music-bot",
-          "description": "Music Bots"
-        },
-        {
-          "name": "MusicBot",
-          "url": "https://github.com/jagrosh/MusicBot",
-          "description": "Music Bots"
+          "description": "Music Bots",
+          "mirrors": [
+            "https://github.com/ZerioDev/Music-bot",
+            "https://github.com/jagrosh/MusicBot"
+          ]
         },
         {
           "name": "Steambase Bot",
@@ -845,17 +678,11 @@
         {
           "name": "Red Discordbot",
           "url": "https://github.com/Cog-Creators/Red-DiscordBot",
-          "description": "Self-Hostable Discord Moderation Bots"
-        },
-        {
-          "name": "Discord-Bot",
-          "url": "https://github.com/CorwinDev/Discord-Bot",
-          "description": "Self-Hostable Discord Moderation Bots"
-        },
-        {
-          "name": "Loritta",
-          "url": "https://github.com/LorittaBot/Loritta",
-          "description": "Self-Hostable Discord Moderation Bots"
+          "description": "Self-Hostable Discord Moderation Bots",
+          "mirrors": [
+            "https://github.com/CorwinDev/Discord-Bot",
+            "https://github.com/LorittaBot/Loritta"
+          ]
         },
         {
           "name": "Wickbot",
@@ -993,69 +820,35 @@
           "name": "Reddit Enhancement Suite",
           "url": "https://redditenhancementsuite.com/",
           "description": "Reddit Enhancement Extensions / Scripts",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/honestbleeps/Reddit-Enhancement-Suite",
-          "description": "Reddit Enhancement Extensions / Scripts"
-        },
-        {
-          "name": "Reddit++",
-          "url": "https://greasyfork.org/en/scripts/490046",
-          "description": "Reddit Enhancement Extensions / Scripts"
-        },
-        {
-          "name": "Reddit Fix",
-          "url": "https://greasyfork.org/en/scripts/404497-reddit-fix",
-          "description": "Reddit Enhancement Extensions / Scripts"
-        },
-        {
-          "name": "Reddit Extension",
-          "url": "https://lawrenzo.com/p/reddit-extension",
-          "description": "Reddit Enhancement Extensions / Scripts"
-        },
-        {
-          "name": "RedditEnhancer",
-          "url": "https://github.com/joelacus/RedditEnhancer",
-          "description": "Reddit Enhancement Extensions / Scripts"
-        },
-        {
-          "name": "RedditMod2",
-          "url": "https://greasyfork.org/en/scripts/29724-redditmod2",
-          "description": "Reddit Enhancement Extensions / Scripts"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/honestbleeps/Reddit-Enhancement-Suite",
+            "https://greasyfork.org/en/scripts/490046",
+            "https://greasyfork.org/en/scripts/404497-reddit-fix",
+            "https://lawrenzo.com/p/reddit-extension",
+            "https://github.com/joelacus/RedditEnhancer",
+            "https://greasyfork.org/en/scripts/29724-redditmod2"
+          ]
         },
         {
           "name": "Redlib",
           "url": "https://github.com/redlib-org/redlib-instances/blob/main/instances.md",
           "description": "Reddit Frontends / Viewers",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/libreddit/libreddit-instances/blob/master/instances.md",
-          "description": "Reddit Frontends / Viewers"
-        },
-        {
-          "name": "Photon",
-          "url": "https://photon-reddit.com/",
-          "description": "Reddit Frontends / Viewers"
-        },
-        {
-          "name": "RDX",
-          "url": "https://rdx.overdevs.com/",
-          "description": "Reddit Frontends / Viewers"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/libreddit/libreddit-instances/blob/master/instances.md",
+            "https://photon-reddit.com/",
+            "https://rdx.overdevs.com/"
+          ]
         },
         {
           "name": "Old Reddit Redirect",
           "url": "https://github.com/tom-james-watson/old-reddit-redirect",
           "description": "Redirect New Reddit to Old",
-          "starred": true
-        },
-        {
-          "name": "Teamdoko Old Reddit",
-          "url": "https://teamdoko.com/products/old-reddit-for-safari",
-          "description": "Redirect New Reddit to Old"
+          "starred": true,
+          "mirrors": [
+            "https://teamdoko.com/products/old-reddit-for-safari"
+          ]
         },
         {
           "name": "Newsit",
@@ -1069,22 +862,18 @@
         {
           "name": "Redditp",
           "url": "https://redditp.com/",
-          "description": "Reddit TikTok Style Viewers"
-        },
-        {
-          "name": "Reddit Viewer",
-          "url": "https://reddit-viewer.com/",
-          "description": "Reddit TikTok Style Viewers"
+          "description": "Reddit TikTok Style Viewers",
+          "mirrors": [
+            "https://reddit-viewer.com/"
+          ]
         },
         {
           "name": "Beleave",
           "url": "https://beleave.virock.org/",
-          "description": "Subreddit Cleaners / Managers"
-        },
-        {
-          "name": "SubCleaner",
-          "url": "https://www.subcleaner.com/",
-          "description": "Subreddit Cleaners / Managers"
+          "description": "Subreddit Cleaners / Managers",
+          "mirrors": [
+            "https://www.subcleaner.com/"
+          ]
         },
         {
           "name": "Bookmarkeddit",
@@ -1097,12 +886,10 @@
         {
           "name": "Reddit Comber",
           "url": "https://redditcomber.com/",
-          "description": "Reddit Keyword Notifications"
-        },
-        {
-          "name": "Sub Notification",
-          "url": "https://redd.it/5mz9z5",
-          "description": "Reddit Keyword Notifications"
+          "description": "Reddit Keyword Notifications",
+          "mirrors": [
+            "https://redd.it/5mz9z5"
+          ]
         },
         {
           "name": "Reddit Preview",
@@ -1236,32 +1023,20 @@
         {
           "name": "Reveddit",
           "url": "https://www.reveddit.com/",
-          "description": "View Deleted Reddit Posts / Comments"
-        },
-        {
-          "name": "Reddit Uncensored",
-          "url": "https://github.com/Fubs/reddit-uncensored",
-          "description": "View Deleted Reddit Posts / Comments"
+          "description": "View Deleted Reddit Posts / Comments",
+          "mirrors": [
+            "https://github.com/Fubs/reddit-uncensored"
+          ]
         },
         {
           "name": "New PullPush",
           "url": "https://ihsoyct.github.io/",
-          "description": "Advanced Reddit Search"
-        },
-        {
-          "name": "Reddit Search",
-          "url": "https://samac.io/",
-          "description": "Advanced Reddit Search"
-        },
-        {
-          "name": "PullPush Search",
-          "url": "https://search.pullpush.io/",
-          "description": "Advanced Reddit Search"
-        },
-        {
-          "name": "Better Reddit Search",
-          "url": "https://betterredditsearch.web.app/",
-          "description": "Advanced Reddit Search"
+          "description": "Advanced Reddit Search",
+          "mirrors": [
+            "https://samac.io/",
+            "https://search.pullpush.io/",
+            "https://betterredditsearch.web.app/"
+          ]
         },
         {
           "name": "Redditle",
@@ -1289,17 +1064,11 @@
         {
           "name": "RedditMetis",
           "url": "https://redditmetis.com/",
-          "description": "Reddit Profile Information"
-        },
-        {
-          "name": "Reddit-User-Analyser",
-          "url": "https://reddit-user-analyser.netlify.app/",
-          "description": "Reddit Profile Information"
-        },
-        {
-          "name": "Redective",
-          "url": "https://www.redective.com/",
-          "description": "Reddit Profile Information"
+          "description": "Reddit Profile Information",
+          "mirrors": [
+            "https://reddit-user-analyser.netlify.app/",
+            "https://www.redective.com/"
+          ]
         },
         {
           "name": "rComments",
@@ -1339,22 +1108,12 @@
           "name": "Vizit",
           "url": "https://redditstuff.github.io/sna/vizit/",
           "description": "Visualize Related Subreddits",
-          "starred": true
-        },
-        {
-          "name": "sayit",
-          "url": "https://anvaka.github.io/sayit/",
-          "description": "Visualize Related Subreddits"
-        },
-        {
-          "name": "subreddit_map",
-          "url": "https://www.jacobsilterra.com/subreddit_map/network/index.html",
-          "description": "Visualize Related Subreddits"
-        },
-        {
-          "name": "SubredditMentionsGraph",
-          "url": "https://dmarx.github.io/SubredditMentionsGraph/network/",
-          "description": "Visualize Related Subreddits"
+          "starred": true,
+          "mirrors": [
+            "https://anvaka.github.io/sayit/",
+            "https://www.jacobsilterra.com/subreddit_map/network/index.html",
+            "https://dmarx.github.io/SubredditMentionsGraph/network/"
+          ]
         },
         {
           "name": "FindAReddit",
@@ -1367,22 +1126,18 @@
         {
           "name": "Subreddit Calculator",
           "url": "https://trevor.shinyapps.io/subalgebra/",
-          "description": "Find Similar Subreddits"
-        },
-        {
-          "name": "redsim",
-          "url": "https://anvaka.github.io/redsim/",
-          "description": "Find Similar Subreddits"
+          "description": "Find Similar Subreddits",
+          "mirrors": [
+            "https://anvaka.github.io/redsim/"
+          ]
         },
         {
           "name": "Map of Reddit",
           "url": "https://anvaka.github.io/map-of-reddit",
-          "description": "Subreddit Maps"
-        },
-        {
-          "name": "Reddit Map",
-          "url": "https://redditmap.social/",
-          "description": "Subreddit Maps"
+          "description": "Subreddit Maps",
+          "mirrors": [
+            "https://redditmap.social/"
+          ]
         },
         {
           "name": "subreddits",
@@ -1397,12 +1152,10 @@
         {
           "name": "Subreddit Stats",
           "url": "https://subredditstats.com/",
-          "description": "Subreddits Stats / Ranking"
-        },
-        {
-          "name": "SubRanking",
-          "url": "https://subranking.com/",
-          "description": "Subreddits Stats / Ranking"
+          "description": "Subreddits Stats / Ranking",
+          "mirrors": [
+            "https://subranking.com/"
+          ]
         },
         {
           "name": "TDirectory",
@@ -1410,38 +1163,12 @@
           "description": "Telegram Channel Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Telemetr",
-          "url": "https://telemetr.io/en",
-          "description": "Telegram Channel Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "TGStat",
-          "url": "https://tgstat.com/",
-          "description": "Telegram Channel Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Awesome Telegram",
-          "url": "https://github.com/ebertti/awesome-telegram",
-          "description": "Telegram Channel Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "TelegramChannels",
-          "url": "https://telegramchannels.me/",
-          "description": "Telegram Channel Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://telemetr.io/en",
+            "https://tgstat.com/",
+            "https://github.com/ebertti/awesome-telegram",
+            "https://telegramchannels.me/"
           ]
         },
         {
@@ -1455,27 +1182,13 @@
         {
           "name": "Telegago",
           "url": "https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0",
-          "description": "Telegram CSEs"
-        },
-        {
-          "name": "2",
-          "url": "https://cse.google.com/cse?cx=006249643689853114236:a3iibfpwexa",
-          "description": "Telegram CSEs"
-        },
-        {
-          "name": "Lyzem",
-          "url": "https://lyzem.com/",
-          "description": "Telegram CSEs"
-        },
-        {
-          "name": "xTea",
-          "url": "https://xtea.io/ts_en.html",
-          "description": "Telegram CSEs"
-        },
-        {
-          "name": "TG-ME",
-          "url": "https://www.tg-me.com/",
-          "description": "Telegram CSEs"
+          "description": "Telegram CSEs",
+          "mirrors": [
+            "https://cse.google.com/cse?cx=006249643689853114236:a3iibfpwexa",
+            "https://lyzem.com/",
+            "https://xtea.io/ts_en.html",
+            "https://www.tg-me.com/"
+          ]
         },
         {
           "name": "SaveRestrictedContentBot",
@@ -1510,22 +1223,12 @@
         {
           "name": "CHPic",
           "url": "https://chpic.su/",
-          "description": "Telegram Sticker / Emojis"
-        },
-        {
-          "name": "Stickers Cloud",
-          "url": "https://stickers.cloud/en",
-          "description": "Telegram Sticker / Emojis"
-        },
-        {
-          "name": "ComBot Stickers",
-          "url": "https://combot.org/telegram/stickers",
-          "description": "Telegram Sticker / Emojis"
-        },
-        {
-          "name": "moe_sticker_bot",
-          "url": "https://t.me/moe_sticker_bot",
-          "description": "Telegram Sticker / Emojis"
+          "description": "Telegram Sticker / Emojis",
+          "mirrors": [
+            "https://stickers.cloud/en",
+            "https://combot.org/telegram/stickers",
+            "https://t.me/moe_sticker_bot"
+          ]
         }
       ]
     },
@@ -1605,27 +1308,13 @@
         {
           "name": "File-Sharing-Bot",
           "url": "https://github.com/CodeXBotz/File-Sharing-Bot",
-          "description": "Upload Files to Telegram"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/CodeXBotz",
-          "description": "Upload Files to Telegram"
-        },
-        {
-          "name": "TelegramCloud",
-          "url": "https://github.com/iw4p/telegram-cloud",
-          "description": "Upload Files to Telegram"
-        },
-        {
-          "name": "easy_share_bot",
-          "url": "https://t.me/easy_share_bot",
-          "description": "Upload Files to Telegram"
-        },
-        {
-          "name": "UploadBot",
-          "url": "https://t.me/uploadbot",
-          "description": "Upload Files to Telegram"
+          "description": "Upload Files to Telegram",
+          "mirrors": [
+            "https://t.me/CodeXBotz",
+            "https://github.com/iw4p/telegram-cloud",
+            "https://t.me/easy_share_bot",
+            "https://t.me/uploadbot"
+          ]
         },
         {
           "name": "TG-FileStreamBot",
@@ -1635,32 +1324,14 @@
         {
           "name": "MediaDownBot",
           "url": "https://t.me/mediadownbot",
-          "description": "Media Downloaders"
-        },
-        {
-          "name": "WZML-X",
-          "url": "https://github.com/SilentDemonSD/WZML-X",
-          "description": "Media Downloaders"
-        },
-        {
-          "name": "Telegram Media Downloader",
-          "url": "https://greasyfork.org/en/scripts/446342",
-          "description": "Media Downloaders"
-        },
-        {
-          "name": "TopSaverBot",
-          "url": "https://t.me/TopSaverBot",
-          "description": "Media Downloaders"
-        },
-        {
-          "name": "CatdlBot",
-          "url": "https://t.me/CatdlBot",
-          "description": "Media Downloaders"
-        },
-        {
-          "name": "DownloadsMasterBot",
-          "url": "https://t.me/DownloadsMasterBot",
-          "description": "Media Downloaders"
+          "description": "Media Downloaders",
+          "mirrors": [
+            "https://github.com/SilentDemonSD/WZML-X",
+            "https://greasyfork.org/en/scripts/446342",
+            "https://t.me/TopSaverBot",
+            "https://t.me/CatdlBot",
+            "https://t.me/DownloadsMasterBot"
+          ]
         },
         {
           "name": "Musvkrobot",
@@ -1670,22 +1341,18 @@
         {
           "name": "GdriveXbot",
           "url": "https://t.me/TheGdriveXBot",
-          "description": "Google Drive Upload Bots"
-        },
-        {
-          "name": "google-drive-telegram-bot",
-          "url": "https://github.com/viperadnan-git/",
-          "description": "Google Drive Upload Bots"
+          "description": "Google Drive Upload Bots",
+          "mirrors": [
+            "https://github.com/viperadnan-git/"
+          ]
         },
         {
           "name": "MEGA Uploader X",
           "url": "https://t.me/MegaUploadXbot",
-          "description": "Remote Mega File Upload Bot"
-        },
-        {
-          "name": "Mega-Bot",
-          "url": "https://github.com/Itz-fork/Mega.nz-Bot",
-          "description": "Remote Mega File Upload Bot"
+          "description": "Remote Mega File Upload Bot",
+          "mirrors": [
+            "https://github.com/Itz-fork/Mega.nz-Bot"
+          ]
         },
         {
           "name": "OneDrive X",
@@ -1700,22 +1367,12 @@
         {
           "name": "convrt_bot",
           "url": "https://t.me/convrt_bot",
-          "description": "File Converters"
-        },
-        {
-          "name": "FileConvertBot",
-          "url": "https://t.me/FileConvertBot",
-          "description": "File Converters"
-        },
-        {
-          "name": "newfileconverterbot",
-          "url": "https://t.me/newfileconverterbot",
-          "description": "File Converters"
-        },
-        {
-          "name": "pdfbot",
-          "url": "https://t.me/pdfbot",
-          "description": "File Converters"
+          "description": "File Converters",
+          "mirrors": [
+            "https://t.me/FileConvertBot",
+            "https://t.me/newfileconverterbot",
+            "https://t.me/pdfbot"
+          ]
         },
         {
           "name": "ILovePDF",
@@ -1734,22 +1391,10 @@
           "description": "Telegram Bots Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "TelegramBotsList",
-          "url": "https://danyspin97.github.io/TelegramBotsList/",
-          "description": "Telegram Bots Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "borodutch.eth",
-          "url": "https://borodutch.com/",
-          "description": "Telegram Bots Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://danyspin97.github.io/TelegramBotsList/",
+            "https://borodutch.com/"
           ]
         },
         {
@@ -1760,12 +1405,10 @@
         {
           "name": "Rose",
           "url": "https://t.me/MissRose_bot",
-          "description": "Telegram Group Managers"
-        },
-        {
-          "name": "GroupHelpBot",
-          "url": "https://t.me/GroupHelpBot",
-          "description": "Telegram Group Managers"
+          "description": "Telegram Group Managers",
+          "mirrors": [
+            "https://t.me/GroupHelpBot"
+          ]
         },
         {
           "name": "TediCross",
@@ -1800,12 +1443,10 @@
         {
           "name": "rss2tg_bot",
           "url": "https://t.me/rss2tg_bot",
-          "description": "RSS Feed Bots"
-        },
-        {
-          "name": "TheFeedReaderBot",
-          "url": "https://t.me/TheFeedReaderBot",
-          "description": "RSS Feed Bots"
+          "description": "RSS Feed Bots",
+          "mirrors": [
+            "https://t.me/TheFeedReaderBot"
+          ]
         },
         {
           "name": "ShortUrlBot",
@@ -1834,37 +1475,27 @@
           "name": "PocketTube",
           "url": "https://pockettube.io/",
           "description": "Subscription Managers",
-          "starred": true
-        },
-        {
-          "name": "Kadium",
-          "url": "https://kadium.kasper.space/",
-          "description": "Subscription Managers"
+          "starred": true,
+          "mirrors": [
+            "https://kadium.kasper.space/"
+          ]
         },
         {
           "name": "Youtube-shorts block",
           "url": "https://github.com/doma-itachi/Youtube-shorts-block",
-          "description": "Play Shorts In The Normal Desktop Interface"
-        },
-        {
-          "name": "Shorts Deflector",
-          "url": "https://evenevan.github.io/shorts-deflector/",
-          "description": "Play Shorts In The Normal Desktop Interface"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/evenevan/shorts-deflector",
-          "description": "Play Shorts In The Normal Desktop Interface"
+          "description": "Play Shorts In The Normal Desktop Interface",
+          "mirrors": [
+            "https://evenevan.github.io/shorts-deflector/",
+            "https://github.com/evenevan/shorts-deflector"
+          ]
         },
         {
           "name": "Remove YouTube Shorts",
           "url": "https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-shorts/",
-          "description": "Hide YouTube Shorts"
-        },
-        {
-          "name": "Hide YT Shorts Filter List",
-          "url": "https://github.com/gijsdev/ublock-hide-yt-shorts",
-          "description": "Hide YouTube Shorts"
+          "description": "Hide YouTube Shorts",
+          "mirrors": [
+            "https://github.com/gijsdev/ublock-hide-yt-shorts"
+          ]
         },
         {
           "name": "YouTube Wrapped",
@@ -1902,12 +1533,10 @@
         {
           "name": "Playboard",
           "url": "https://playboard.co",
-          "description": "YouTube Channel Stats"
-        },
-        {
-          "name": "Viewstats",
-          "url": "https://www.viewstats.com/",
-          "description": "YouTube Channel Stats"
+          "description": "YouTube Channel Stats",
+          "mirrors": [
+            "https://www.viewstats.com/"
+          ]
         },
         {
           "name": "vidIQ",
@@ -1937,12 +1566,10 @@
         {
           "name": "Amara",
           "url": "https://amara.org/en/",
-          "description": "Import Local Subtitles to YouTube / Edge"
-        },
-        {
-          "name": "SubtitlesForYoutube",
-          "url": "https://github.com/yashagarwal1411/SubtitlesForYoutube",
-          "description": "Import Local Subtitles to YouTube / Edge"
+          "description": "Import Local Subtitles to YouTube / Edge",
+          "mirrors": [
+            "https://github.com/yashagarwal1411/SubtitlesForYoutube"
+          ]
         },
         {
           "name": "ChatReplay",
@@ -1957,12 +1584,10 @@
         {
           "name": "YT Boost Chat",
           "url": "https://greasyfork.org/en/scripts/520755",
-          "description": "Reduce YouTube Chat Memory Usage"
-        },
-        {
-          "name": "YT RM3",
-          "url": "https://greasyfork.org/en/scripts/521342",
-          "description": "Reduce YouTube Chat Memory Usage"
+          "description": "Reduce YouTube Chat Memory Usage",
+          "mirrors": [
+            "https://greasyfork.org/en/scripts/521342"
+          ]
         },
         {
           "name": "YT LiveChat Flusher",
@@ -1994,17 +1619,11 @@
           "name": "UnTrap",
           "url": "https://untrap.app/",
           "description": "Distraction-Free YouTube",
-          "starred": true
-        },
-        {
-          "name": "TubeMod",
-          "url": "https://github.com/Pedro-Gregorio/TubeMod",
-          "description": "Distraction-Free YouTube"
-        },
-        {
-          "name": "Less Addictive YouTube",
-          "url": "https://github.com/AlexisDrain/Less-Addictive-YouTube",
-          "description": "Distraction-Free YouTube"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/Pedro-Gregorio/TubeMod",
+            "https://github.com/AlexisDrain/Less-Addictive-YouTube"
+          ]
         },
         {
           "name": "VORAPIS",
@@ -2018,47 +1637,23 @@
         {
           "name": "ImprovedTube",
           "url": "https://improvedtube.com/",
-          "description": "YouTube Enhancement Extensions"
-        },
-        {
-          "name": "YouTube Alchemy",
-          "url": "https://greasyfork.org/en/scripts/521686",
-          "description": "YouTube Enhancement Extensions"
-        },
-        {
-          "name": "Tweaks for YT",
-          "url": "https://inzk.dev/tweaks-for-youtube/",
-          "description": "YouTube Enhancement Extensions"
-        },
-        {
-          "name": "Magic Actions",
-          "url": "https://www.chromeactions.com/",
-          "description": "YouTube Enhancement Extensions"
-        },
-        {
-          "name": "YouTube Tweaks",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-tweaks/",
-          "description": "YouTube Enhancement Extensions"
-        },
-        {
-          "name": "Chrome",
-          "url": "https://chrome.google.com/webstore/detail/youtube-tweaks/oeakphpfoaeggagmgphfejmfjbhjfhhh",
-          "description": "YouTube Enhancement Extensions"
-        },
-        {
-          "name": "Enhancer for YT",
-          "url": "https://www.mrfdev.com/enhancer-for-youtube",
-          "description": "YouTube Enhancement Extensions"
+          "description": "YouTube Enhancement Extensions",
+          "mirrors": [
+            "https://greasyfork.org/en/scripts/521686",
+            "https://inzk.dev/tweaks-for-youtube/",
+            "https://www.chromeactions.com/",
+            "https://addons.mozilla.org/en-US/firefox/addon/youtube-tweaks/",
+            "https://chrome.google.com/webstore/detail/youtube-tweaks/oeakphpfoaeggagmgphfejmfjbhjfhhh",
+            "https://www.mrfdev.com/enhancer-for-youtube"
+          ]
         },
         {
           "name": "PKGA",
           "url": "https://greasyfork.org/en/scripts/442089",
-          "description": "Improved YouTube Theater Mode"
-        },
-        {
-          "name": "YouTube WideScreen",
-          "url": "https://greasyfork.org/en/scripts/409893",
-          "description": "Improved YouTube Theater Mode"
+          "description": "Improved YouTube Theater Mode",
+          "mirrors": [
+            "https://greasyfork.org/en/scripts/409893"
+          ]
         },
         {
           "name": "YouTube Hide Watched",
@@ -2093,12 +1688,10 @@
         {
           "name": "BlockTube",
           "url": "https://github.com/amitbl/blocktube",
-          "description": "YouTube Content Blocker"
-        },
-        {
-          "name": "YTBlock",
-          "url": "https://chromewebstore.google.com/detail/ytblock-block-any-content/nedcanggplmbbgmlpcjiafgjcpdimpea",
-          "description": "YouTube Content Blocker"
+          "description": "YouTube Content Blocker",
+          "mirrors": [
+            "https://chromewebstore.google.com/detail/ytblock-block-any-content/nedcanggplmbbgmlpcjiafgjcpdimpea"
+          ]
         },
         {
           "name": "YouTube Fixes",
@@ -2113,12 +1706,10 @@
         {
           "name": "Focused YouTube",
           "url": "https://github.com/makaroni4/focused_youtube",
-          "description": "Minimalist YouTube"
-        },
-        {
-          "name": "yt-neuter",
-          "url": "https://github.com/mchangrh/yt-neuter",
-          "description": "Minimalist YouTube"
+          "description": "Minimalist YouTube",
+          "mirrors": [
+            "https://github.com/mchangrh/yt-neuter"
+          ]
         },
         {
           "name": "Non-Rounded Design",
@@ -2154,12 +1745,10 @@
           "name": "Invidious",
           "url": "https://invidious.io/",
           "description": "YouTube Frontend / Instances / TUI",
-          "starred": true
-        },
-        {
-          "name": "Materialious",
-          "url": "https://materialio.us/",
-          "description": "YouTube Frontend / Instances / TUI"
+          "starred": true,
+          "mirrors": [
+            "https://materialio.us/"
+          ]
         },
         {
           "name": "GrayJay",
@@ -2175,42 +1764,22 @@
         {
           "name": "Walrus",
           "url": "https://joinwalrus.tv/",
-          "description": "YouTube Watch Parties"
-        },
-        {
-          "name": "Sync-Tube",
-          "url": "https://sync-tube.de/",
-          "description": "YouTube Watch Parties"
-        },
-        {
-          "name": "YouTube Party",
-          "url": "https://youtubeparty.netlify.app/",
-          "description": "YouTube Watch Parties"
-        },
-        {
-          "name": "Hergetto",
-          "url": "https://hergetto.live/",
-          "description": "YouTube Watch Parties"
+          "description": "YouTube Watch Parties",
+          "mirrors": [
+            "https://sync-tube.de/",
+            "https://youtubeparty.netlify.app/",
+            "https://hergetto.live/"
+          ]
         },
         {
           "name": "TwitchTheater",
           "url": "https://twitchtheater.tv/",
-          "description": "Watch Multiple YouTube Videos"
-        },
-        {
-          "name": "VidGrid",
-          "url": "https://vidgrid.tk.gg/",
-          "description": "Watch Multiple YouTube Videos"
-        },
-        {
-          "name": "YouTube Multiplier",
-          "url": "https://www.youtubemultiplier.com/",
-          "description": "Watch Multiple YouTube Videos"
-        },
-        {
-          "name": "ViewSync",
-          "url": "https://viewsync.net/",
-          "description": "Watch Multiple YouTube Videos"
+          "description": "Watch Multiple YouTube Videos",
+          "mirrors": [
+            "https://vidgrid.tk.gg/",
+            "https://www.youtubemultiplier.com/",
+            "https://viewsync.net/"
+          ]
         },
         {
           "name": "YouTube Clone KMP",
@@ -2228,32 +1797,26 @@
         {
           "name": "youtube-local",
           "url": "https://github.com/user234683/youtube-local",
-          "description": "YouTube Frontend"
-        },
-        {
-          "name": "yt-local",
-          "url": "https://git.sr.ht/~heckyel/yt-local",
-          "description": "YouTube Frontend"
+          "description": "YouTube Frontend",
+          "mirrors": [
+            "https://git.sr.ht/~heckyel/yt-local"
+          ]
         },
         {
           "name": "YouT-ube",
           "url": "https://www.yout-ube.com/",
-          "description": "Use YouTube Full Window Player"
-        },
-        {
-          "name": "⁠MUI",
-          "url": "https://muitube.com/",
-          "description": "Use YouTube Full Window Player"
+          "description": "Use YouTube Full Window Player",
+          "mirrors": [
+            "https://muitube.com/"
+          ]
         },
         {
           "name": "Ytfzf",
           "url": "https://github.com/pystardust/ytfzf",
-          "description": "Terminal YouTube Players"
-        },
-        {
-          "name": "YewTube",
-          "url": "https://github.com/mps-youtube/yewtube",
-          "description": "Terminal YouTube Players"
+          "description": "Terminal YouTube Players",
+          "mirrors": [
+            "https://github.com/mps-youtube/yewtube"
+          ]
         },
         {
           "name": "VacuumTube",
@@ -2355,12 +1918,10 @@
         {
           "name": "Multiselect (Firefox)",
           "url": "https://addons.mozilla.org/en-US/firefox/addon/multiselect-for-youtube/",
-          "description": "Playlist Manager"
-        },
-        {
-          "name": "Multiselect (Chrome)",
-          "url": "https://chromewebstore.google.com/detail/gpgbiinpmelaihndlegbgfkmnpofgfei",
-          "description": "Playlist Manager"
+          "description": "Playlist Manager",
+          "mirrors": [
+            "https://chromewebstore.google.com/detail/gpgbiinpmelaihndlegbgfkmnpofgfei"
+          ]
         },
         {
           "name": "Export YT Playlists",
@@ -2380,17 +1941,11 @@
         {
           "name": "YT Playlist Length",
           "url": "https://ytplaylist-len.sharats.dev/",
-          "description": "Playlist Length Checkers"
-        },
-        {
-          "name": "2",
-          "url": "https://ytplaylist-length.codingdeft.com/",
-          "description": "Playlist Length Checkers"
-        },
-        {
-          "name": "Length Checker",
-          "url": "https://youtube-playlist-length-calculator.onrender.com/",
-          "description": "Playlist Length Checkers"
+          "description": "Playlist Length Checkers",
+          "mirrors": [
+            "https://ytplaylist-length.codingdeft.com/",
+            "https://youtube-playlist-length-calculator.onrender.com/"
+          ]
         },
         {
           "name": "YouTubePlaylistMerge",
@@ -2415,12 +1970,10 @@
           "name": "Parabolic",
           "url": "https://github.com/NickvisionApps/Parabolic",
           "description": "Cross-Platform YT-DLP GUIs",
-          "starred": true
-        },
-        {
-          "name": "Tartube",
-          "url": "https://tartube.sourceforge.io/",
-          "description": "Cross-Platform YT-DLP GUIs"
+          "starred": true,
+          "mirrors": [
+            "https://tartube.sourceforge.io/"
+          ]
         },
         {
           "name": "JDownloader",
@@ -2446,47 +1999,23 @@
         {
           "name": "Stacher",
           "url": "https://stacher.io/",
-          "description": "Cross-Platform YT-DL GUIs"
-        },
-        {
-          "name": "youtube-dl-gui",
-          "url": "https://github.com/oleksis/youtube-dl-gui",
-          "description": "Cross-Platform YT-DL GUIs"
-        },
-        {
-          "name": "Open Video Downloader",
-          "url": "https://github.com/StefanLobbenmeier/youtube-dl-gui",
-          "description": "Cross-Platform YT-DL GUIs"
+          "description": "Cross-Platform YT-DL GUIs",
+          "mirrors": [
+            "https://github.com/oleksis/youtube-dl-gui",
+            "https://github.com/StefanLobbenmeier/youtube-dl-gui"
+          ]
         },
         {
           "name": "yt-dlp-gui",
           "url": "https://github.com/kannagi0303/yt-dlp-gui",
-          "description": "YT-DLP GUIs"
-        },
-        {
-          "name": "Easy Installer",
-          "url": "https://github.com/kazukikasama/youtube-dlp-gui-installer",
-          "description": "YT-DLP GUIs"
-        },
-        {
-          "name": "⁠Social Saver",
-          "url": "https://socialsaver.site/",
-          "description": "YT-DLP GUIs"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/VishalKaleria/social-saver/",
-          "description": "YT-DLP GUIs"
-        },
-        {
-          "name": "ytdlp-interface",
-          "url": "https://github.com/ErrorFlynn/ytdlp-interface",
-          "description": "YT-DLP GUIs"
-        },
-        {
-          "name": "Vividl",
-          "url": "https://github.com/Bluegrams/Vividl",
-          "description": "YT-DLP GUIs"
+          "description": "YT-DLP GUIs",
+          "mirrors": [
+            "https://github.com/kazukikasama/youtube-dlp-gui-installer",
+            "https://socialsaver.site/",
+            "https://github.com/VishalKaleria/social-saver/",
+            "https://github.com/ErrorFlynn/ytdlp-interface",
+            "https://github.com/Bluegrams/Vividl"
+          ]
         },
         {
           "name": "Cube YouTube Downloader",
@@ -2537,22 +2066,12 @@
         {
           "name": "Pinchflat",
           "url": "https://github.com/kieraneglin/pinchflat",
-          "description": "Self-Hosted YT-DLP"
-        },
-        {
-          "name": "MeTube",
-          "url": "https://github.com/alexta69/metube",
-          "description": "Self-Hosted YT-DLP"
-        },
-        {
-          "name": "YoutubeDL-Material",
-          "url": "https://github.com/Tzahi12345/YoutubeDL-Material",
-          "description": "Self-Hosted YT-DLP"
-        },
-        {
-          "name": "yt-dlp Web UI",
-          "url": "https://github.com/marcopiovanello/yt-dlp-web-ui",
-          "description": "Self-Hosted YT-DLP"
+          "description": "Self-Hosted YT-DLP",
+          "mirrors": [
+            "https://github.com/alexta69/metube",
+            "https://github.com/Tzahi12345/YoutubeDL-Material",
+            "https://github.com/marcopiovanello/yt-dlp-web-ui"
+          ]
         },
         {
           "name": "ytarchive",
@@ -2567,22 +2086,12 @@
         {
           "name": "YTThumbnailHD",
           "url": "https://ytthumbnailhd.com/",
-          "description": "Download Video Thumbnails"
-        },
-        {
-          "name": "YT-Thumbnail-Grabber",
-          "url": "https://youtube-thumbnail-grabber.org/",
-          "description": "Download Video Thumbnails"
-        },
-        {
-          "name": "ThumbnailDownloader",
-          "url": "https://www.thumbnaildownloader.art/",
-          "description": "Download Video Thumbnails"
-        },
-        {
-          "name": "YT Thumbnail Grabber",
-          "url": "https://youtube-thumbnail-grabber.com/",
-          "description": "Download Video Thumbnails"
+          "description": "Download Video Thumbnails",
+          "mirrors": [
+            "https://youtube-thumbnail-grabber.org/",
+            "https://www.thumbnaildownloader.art/",
+            "https://youtube-thumbnail-grabber.com/"
+          ]
         },
         {
           "name": "youtube-comment-downloader",
@@ -2606,26 +2115,19 @@
           "description": "YouTube Channel Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "YouTube_Channels",
-          "url": "https://github.com/PrejudiceNeutrino/YouTube_Channels",
-          "description": "YouTube Channel Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/PrejudiceNeutrino/YouTube_Channels"
           ]
         },
         {
           "name": "Favoree",
           "url": "https://www.favoree.io/",
           "description": "Discover / Search YouTube Channels",
-          "starred": true
-        },
-        {
-          "name": "ChannelCrawler",
-          "url": "https://channelcrawler.com/",
-          "description": "Discover / Search YouTube Channels"
+          "starred": true,
+          "mirrors": [
+            "https://channelcrawler.com/"
+          ]
         },
         {
           "name": "YouTube Advanced Search",
@@ -2637,32 +2139,20 @@
           "name": "Filmot",
           "url": "https://filmot.com/",
           "description": "Search within YouTube Transcripts / Firefox / Chrome",
-          "starred": true
-        },
-        {
-          "name": "CTRL-F-VIDEO",
-          "url": "https://github.com/Evan-Wildenhain/CTRL-F-VIDEO",
-          "description": "Search within YouTube Transcripts / Firefox / Chrome"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/Evan-Wildenhain/CTRL-F-VIDEO"
+          ]
         },
         {
           "name": "comb.io",
           "url": "https://comb.io/",
-          "description": "Clip / Phrase Search Engines"
-        },
-        {
-          "name": "clip.cafe",
-          "url": "https://clip.cafe/",
-          "description": "Clip / Phrase Search Engines"
-        },
-        {
-          "name": "InPhrase",
-          "url": "https://inphrase.com/",
-          "description": "Clip / Phrase Search Engines"
-        },
-        {
-          "name": "Yarn",
-          "url": "https://yarn.co/",
-          "description": "Clip / Phrase Search Engines"
+          "description": "Clip / Phrase Search Engines",
+          "mirrors": [
+            "https://clip.cafe/",
+            "https://inphrase.com/",
+            "https://yarn.co/"
+          ]
         },
         {
           "name": "yt-fts",
@@ -2680,37 +2170,21 @@
         {
           "name": "MW Geofind",
           "url": "https://mattw.io/youtube-geofind/location",
-          "description": "Find Geotagged Videos"
-        },
-        {
-          "name": "TubeTrotter",
-          "url": "https://www.tubetrotter.live/",
-          "description": "Find Geotagged Videos"
+          "description": "Find Geotagged Videos",
+          "mirrors": [
+            "https://www.tubetrotter.live/"
+          ]
         },
         {
           "name": "YT Comment Viewer",
           "url": "https://commentviewer.com/",
-          "description": "Comment Search / View Censored Comments"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/sameerdash2/comment-viewer",
-          "description": "Comment Search / View Censored Comments"
-        },
-        {
-          "name": "CommentShark",
-          "url": "https://www.commentshark.com/youtube-comment-searcher",
-          "description": "Comment Search / View Censored Comments"
-        },
-        {
-          "name": "Hadzy",
-          "url": "https://hadzy.com/",
-          "description": "Comment Search / View Censored Comments"
-        },
-        {
-          "name": "YCF",
-          "url": "https://ytcomment.kmcat.uk/",
-          "description": "Comment Search / View Censored Comments"
+          "description": "Comment Search / View Censored Comments",
+          "mirrors": [
+            "https://github.com/sameerdash2/comment-viewer",
+            "https://www.commentshark.com/youtube-comment-searcher",
+            "https://hadzy.com/",
+            "https://ytcomment.kmcat.uk/"
+          ]
         },
         {
           "name": "Tokin",
@@ -2720,47 +2194,23 @@
         {
           "name": "IMG_0001",
           "url": "https://walzr.com/IMG_0001",
-          "description": "Find Random YouTube Videos"
-        },
-        {
-          "name": "YTStalker",
-          "url": "https://ytstalker.mov/",
-          "description": "Find Random YouTube Videos"
-        },
-        {
-          "name": "Gloria o Devoto",
-          "url": "https://gloriaodevoto.vercel.app/",
-          "description": "Find Random YouTube Videos"
-        },
-        {
-          "name": "Random Video",
-          "url": "https://random-video.com/",
-          "description": "Find Random YouTube Videos"
+          "description": "Find Random YouTube Videos",
+          "mirrors": [
+            "https://ytstalker.mov/",
+            "https://gloriaodevoto.vercel.app/",
+            "https://random-video.com/"
+          ]
         },
         {
           "name": "YouTube’s Recycle Bin",
           "url": "https://docs.google.com/document/d/1mV5PhumaIJ8mtH8XmohqXkk5fjK_HlqcineMccPQm5A/",
-          "description": "Find Videos with <100 Views"
-        },
-        {
-          "name": "X",
-          "url": "https://x.com/MingKasterMK/",
-          "description": "Find Videos with <100 Views"
-        },
-        {
-          "name": "Project Random",
-          "url": "https://0xbeef.co.uk/random",
-          "description": "Find Videos with <100 Views"
-        },
-        {
-          "name": "ObscureTube",
-          "url": "https://obscuretube.com/",
-          "description": "Find Videos with <100 Views"
-        },
-        {
-          "name": "petittube",
-          "url": "https://petittube.com/fullscreen.php",
-          "description": "Find Videos with <100 Views"
+          "description": "Find Videos with <100 Views",
+          "mirrors": [
+            "https://x.com/MingKasterMK/",
+            "https://0xbeef.co.uk/random",
+            "https://obscuretube.com/",
+            "https://petittube.com/fullscreen.php"
+          ]
         },
         {
           "name": "Find-Unfinished-YT",
@@ -2808,12 +2258,10 @@
         {
           "name": "Hobune",
           "url": "https://hobune.stream/",
-          "description": "YouTube Video Archives"
-        },
-        {
-          "name": "PreserveTube",
-          "url": "https://preservetube.com/",
-          "description": "YouTube Video Archives"
+          "description": "YouTube Video Archives",
+          "mirrors": [
+            "https://preservetube.com/"
+          ]
         },
         {
           "name": "youtubecrawl",
@@ -2823,17 +2271,11 @@
         {
           "name": "Filmot Title Restorer",
           "url": "https://greasyfork.org/en/scripts/430202-filmot-title-restorer",
-          "description": "Restore Titles of Deleted / Private Videos"
-        },
-        {
-          "name": "quite a playlist",
-          "url": "https://quiteaplaylist.com/",
-          "description": "Restore Titles of Deleted / Private Videos"
-        },
-        {
-          "name": "RecoverMy.Video",
-          "url": "https://www.recovermy.video/",
-          "description": "Restore Titles of Deleted / Private Videos"
+          "description": "Restore Titles of Deleted / Private Videos",
+          "mirrors": [
+            "https://quiteaplaylist.com/",
+            "https://www.recovermy.video/"
+          ]
         },
         {
           "name": "Twitch Extensions",
@@ -2847,33 +2289,21 @@
           "name": "FrankerFacez",
           "url": "https://www.frankerfacez.com/",
           "description": "Twitch Enhancement Extensions",
-          "starred": true
-        },
-        {
-          "name": "BetterTTV",
-          "url": "https://betterttv.com/",
-          "description": "Twitch Enhancement Extensions"
-        },
-        {
-          "name": "7TV",
-          "url": "https://7tv.app/",
-          "description": "Twitch Enhancement Extensions"
+          "starred": true,
+          "mirrors": [
+            "https://betterttv.com/",
+            "https://7tv.app/"
+          ]
         },
         {
           "name": "TwitchNoSub",
           "url": "https://github.com/besuper/TwitchNoSub",
           "description": "Watch Sub Only Twitch Videos",
-          "starred": true
-        },
-        {
-          "name": "Sub-Vod",
-          "url": "https://www.sub-vod.fr/",
-          "description": "Watch Sub Only Twitch Videos"
-        },
-        {
-          "name": "twitchnosub",
-          "url": "https://twitchnosub.com/",
-          "description": "Watch Sub Only Twitch Videos"
+          "starred": true,
+          "mirrors": [
+            "https://www.sub-vod.fr/",
+            "https://twitchnosub.com/"
+          ]
         },
         {
           "name": "Stream Scheme",
@@ -2889,12 +2319,10 @@
         {
           "name": "Gumbo",
           "url": "https://github.com/seldszar/gumbo",
-          "description": "Twitch Stream Trackers"
-        },
-        {
-          "name": "Twitch-Live",
-          "url": "https://github.com/yungsamd17/Twitch-Live",
-          "description": "Twitch Stream Trackers"
+          "description": "Twitch Stream Trackers",
+          "mirrors": [
+            "https://github.com/yungsamd17/Twitch-Live"
+          ]
         },
         {
           "name": "HypeTrigger",
@@ -2909,22 +2337,18 @@
         {
           "name": "VODarchive",
           "url": "https://vodarchive.com/",
-          "description": "Twitch Video Archives"
-        },
-        {
-          "name": "TwitchArchive",
-          "url": "https://twitcharchive.com/",
-          "description": "Twitch Video Archives"
+          "description": "Twitch Video Archives",
+          "mirrors": [
+            "https://twitcharchive.com/"
+          ]
         },
         {
           "name": "Twitch Previews",
           "url": "https://github.com/MarkM-dev/Previews-client",
-          "description": "Twitch Video Previews"
-        },
-        {
-          "name": "Previews",
-          "url": "https://previews-app.com/",
-          "description": "Twitch Video Previews"
+          "description": "Twitch Video Previews",
+          "mirrors": [
+            "https://previews-app.com/"
+          ]
         },
         {
           "name": "Unwanted Twitch",
@@ -2949,17 +2373,11 @@
         {
           "name": "TwitchChatDanmaku",
           "url": "https://github.com/wheatup/TwitchChatDanmaku",
-          "description": "Transparent Twitch Chat"
-        },
-        {
-          "name": "Transparent-Twitch-Chat",
-          "url": "https://github.com/chylex/Transparent-Twitch-Chat",
-          "description": "Transparent Twitch Chat"
-        },
-        {
-          "name": "Transparent Twitch Chat Overlay",
-          "url": "https://github.com/baffler/Transparent-Twitch-Chat-Overlay",
-          "description": "Transparent Twitch Chat"
+          "description": "Transparent Twitch Chat",
+          "mirrors": [
+            "https://github.com/chylex/Transparent-Twitch-Chat",
+            "https://github.com/baffler/Transparent-Twitch-Chat-Overlay"
+          ]
         },
         {
           "name": "Screenshot Twitch",
@@ -2974,12 +2392,10 @@
         {
           "name": "TwitchRSS",
           "url": "https://twitchrss.appspot.com/",
-          "description": "Twitch RSS Generators"
-        },
-        {
-          "name": "twitchrss",
-          "url": "https://twitchrss.com/",
-          "description": "Twitch RSS Generators"
+          "description": "Twitch RSS Generators",
+          "mirrors": [
+            "https://twitchrss.com/"
+          ]
         },
         {
           "name": "Streamlink Twitch GUI",
@@ -3029,32 +2445,20 @@
         {
           "name": "SullyGnome",
           "url": "https://sullygnome.com/",
-          "description": "Twitch Stats"
-        },
-        {
-          "name": "TwitchInsights",
-          "url": "https://twitchinsights.net/",
-          "description": "Twitch Stats"
-        },
-        {
-          "name": "StreamCharts",
-          "url": "https://streamscharts.com/",
-          "description": "Twitch Stats"
-        },
-        {
-          "name": "TwitchTracker",
-          "url": "https://twitchtracker.com/",
-          "description": "Twitch Stats"
+          "description": "Twitch Stats",
+          "mirrors": [
+            "https://twitchinsights.net/",
+            "https://streamscharts.com/",
+            "https://twitchtracker.com/"
+          ]
         },
         {
           "name": "Rumble",
           "url": "https://rumble.com/",
-          "description": "Twitch Alternative"
-        },
-        {
-          "name": "Kick",
-          "url": "https://kick.com/",
-          "description": "Twitch Alternative"
+          "description": "Twitch Alternative",
+          "mirrors": [
+            "https://kick.com/"
+          ]
         }
       ]
     },
@@ -3066,37 +2470,21 @@
           "name": "Chatterino",
           "url": "https://chatterino.com/",
           "description": "Twitch Chat Clients",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/SevenTV/chatterino7",
-          "description": "Twitch Chat Clients"
-        },
-        {
-          "name": "Chatterino Homies",
-          "url": "https://chatterinohomies.com/",
-          "description": "Twitch Chat Clients"
-        },
-        {
-          "name": "Chatty",
-          "url": "https://chatty.github.io/",
-          "description": "Twitch Chat Clients"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/SevenTV/chatterino7",
+            "https://chatterinohomies.com/",
+            "https://chatty.github.io/"
+          ]
         },
         {
           "name": "Orion",
           "url": "https://alamminsalo.github.io/orion/",
-          "description": "Twitch Desktop Clients"
-        },
-        {
-          "name": "Twitch App",
-          "url": "https://gitlab.com/linuxbombay/twitch-application/application",
-          "description": "Twitch Desktop Clients"
-        },
-        {
-          "name": "Tress",
-          "url": "https://gitlab.com/Ignamarte/tress",
-          "description": "Twitch Desktop Clients"
+          "description": "Twitch Desktop Clients",
+          "mirrors": [
+            "https://gitlab.com/linuxbombay/twitch-application/application",
+            "https://gitlab.com/Ignamarte/tress"
+          ]
         },
         {
           "name": "SpeechChat",
@@ -3116,37 +2504,15 @@
         {
           "name": "MultiTwitch.tv",
           "url": "https://multitwitch.tv/",
-          "description": "Twitch Multi-Stream"
-        },
-        {
-          "name": "MultiTwitch.co",
-          "url": "https://multitwitch.co/",
-          "description": "Twitch Multi-Stream"
-        },
-        {
-          "name": "Twitch3D",
-          "url": "https://hjjg200.github.io/twitch3d/",
-          "description": "Twitch Multi-Stream"
-        },
-        {
-          "name": "Multi",
-          "url": "https://multi.raredrop.co/",
-          "description": "Twitch Multi-Stream"
-        },
-        {
-          "name": "MultiStre.am",
-          "url": "https://multistre.am/",
-          "description": "Twitch Multi-Stream"
-        },
-        {
-          "name": "MultiStreamer",
-          "url": "https://multistreamer.lucidnet.app/",
-          "description": "Twitch Multi-Stream"
-        },
-        {
-          "name": "TwitchTheater",
-          "url": "https://twitchtheater.tv/",
-          "description": "Twitch Multi-Stream"
+          "description": "Twitch Multi-Stream",
+          "mirrors": [
+            "https://multitwitch.co/",
+            "https://hjjg200.github.io/twitch3d/",
+            "https://multi.raredrop.co/",
+            "https://multistre.am/",
+            "https://multistreamer.lucidnet.app/",
+            "https://twitchtheater.tv/"
+          ]
         },
         {
           "name": "Twitchls",
@@ -3156,12 +2522,10 @@
         {
           "name": "nobody.live",
           "url": "https://nobody.live/",
-          "description": "Random Stream Roulette"
-        },
-        {
-          "name": "Twitch Roulette",
-          "url": "https://twitchroulette.net/",
-          "description": "Random Stream Roulette"
+          "description": "Random Stream Roulette",
+          "mirrors": [
+            "https://twitchroulette.net/"
+          ]
         },
         {
           "name": "Twitch Replay",
@@ -3211,22 +2575,12 @@
         {
           "name": "PurpleTV",
           "url": "https://purpletv.aeong.win/",
-          "description": "Mobile Ad-Free Twitch Apps"
-        },
-        {
-          "name": "Alpha",
-          "url": "https://t.me/pubTwAlpha",
-          "description": "Mobile Ad-Free Twitch Apps"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/pubTw",
-          "description": "Mobile Ad-Free Twitch Apps"
-        },
-        {
-          "name": "TwitchAdBlock",
-          "url": "https://github.com/level3tjg/TwitchAdBlock",
-          "description": "Mobile Ad-Free Twitch Apps"
+          "description": "Mobile Ad-Free Twitch Apps",
+          "mirrors": [
+            "https://t.me/pubTwAlpha",
+            "https://t.me/pubTw",
+            "https://github.com/level3tjg/TwitchAdBlock"
+          ]
         }
       ]
     },
@@ -3237,37 +2591,27 @@
         {
           "name": "ClipsGameLab",
           "url": "https://clipsgamelab.github.io/#/download",
-          "description": "Video Downloaders"
-        },
-        {
-          "name": "Twiclips",
-          "url": "https://twiclips.com/",
-          "description": "Video Downloaders"
-        },
-        {
-          "name": "clipsey",
-          "url": "https://clipsey.com/",
-          "description": "Video Downloaders"
+          "description": "Video Downloaders",
+          "mirrors": [
+            "https://twiclips.com/",
+            "https://clipsey.com/"
+          ]
         },
         {
           "name": "twitch-dl",
           "url": "https://github.com/ihabunek/twitch-dl",
-          "description": "CLI Video Downloaders"
-        },
-        {
-          "name": "twitch-downloader",
-          "url": "https://github.com/jybp/twitch-downloader",
-          "description": "CLI Video Downloaders"
+          "description": "CLI Video Downloaders",
+          "mirrors": [
+            "https://github.com/jybp/twitch-downloader"
+          ]
         },
         {
           "name": "Twitch Downloader",
           "url": "https://github.com/lay295/TwitchDownloader",
-          "description": "Desktop Video Downloaders"
-        },
-        {
-          "name": "TwitchLink",
-          "url": "https://twitchlink.github.io/",
-          "description": "Desktop Video Downloaders"
+          "description": "Desktop Video Downloaders",
+          "mirrors": [
+            "https://twitchlink.github.io/"
+          ]
         },
         {
           "name": "TwitchRecover",
@@ -3283,53 +2627,25 @@
           "name": "XCancel",
           "url": "https://xcancel.com/",
           "description": "X.com Frontends / Viewers",
-          "starred": true
-        },
-        {
-          "name": "nitter",
-          "url": "https://nitter.net/",
-          "description": "X.com Frontends / Viewers"
-        },
-        {
-          "name": "3",
-          "url": "https://nitter.poast.org/",
-          "description": "X.com Frontends / Viewers"
-        },
-        {
-          "name": "Instances",
-          "url": "https://status.d420.de/",
-          "description": "X.com Frontends / Viewers"
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/zedeus/nitter/wiki/Instances",
-          "description": "X.com Frontends / Viewers"
-        },
-        {
-          "name": "⁠sotwe",
-          "url": "https://www.sotwe.com/",
-          "description": "X.com Frontends / Viewers"
-        },
-        {
-          "name": "twstalker",
-          "url": "https://twstalker.com/",
-          "description": "X.com Frontends / Viewers"
-        },
-        {
-          "name": "⁠Twitter Viewer",
-          "url": "https://xtwitterviewer.com/",
-          "description": "X.com Frontends / Viewers"
+          "starred": true,
+          "mirrors": [
+            "https://nitter.net/",
+            "https://nitter.poast.org/",
+            "https://status.d420.de/",
+            "https://github.com/zedeus/nitter/wiki/Instances",
+            "https://www.sotwe.com/",
+            "https://twstalker.com/",
+            "https://xtwitterviewer.com/"
+          ]
         },
         {
           "name": "Trends24",
           "url": "https://trends24.in/",
           "description": "Trending Hashtags Trackers",
-          "starred": true
-        },
-        {
-          "name": "GetDayTrends",
-          "url": "https://getdaytrends.com/",
-          "description": "Trending Hashtags Trackers"
+          "starred": true,
+          "mirrors": [
+            "https://getdaytrends.com/"
+          ]
         },
         {
           "name": "r/Twitter",
@@ -3391,27 +2707,19 @@
         {
           "name": "TwitterMediaHarvest",
           "url": "https://github.com/EltonChou/TwitterMediaHarvest",
-          "description": "Twitter Media Downloaders"
-        },
-        {
-          "name": "⁠twmd",
-          "url": "https://github.com/mmpx12/twitter-media-downloader",
-          "description": "Twitter Media Downloaders"
-        },
-        {
-          "name": "InThisTweet",
-          "url": "https://inthistweet.app/",
-          "description": "Twitter Media Downloaders"
+          "description": "Twitter Media Downloaders",
+          "mirrors": [
+            "https://github.com/mmpx12/twitter-media-downloader",
+            "https://inthistweet.app/"
+          ]
         },
         {
           "name": "Twitsave",
           "url": "https://twitsave.com/",
-          "description": "Download Twitter Videos"
-        },
-        {
-          "name": "sssTwitter",
-          "url": "https://ssstwitter.com/",
-          "description": "Download Twitter Videos"
+          "description": "Download Twitter Videos",
+          "mirrors": [
+            "https://ssstwitter.com/"
+          ]
         },
         {
           "name": "Pikaso",
@@ -3426,22 +2734,18 @@
         {
           "name": "Ghost Archive",
           "url": "https://ghostarchive.org/",
-          "description": "Twitter Archive Services"
-        },
-        {
-          "name": "Megalodon",
-          "url": "https://megalodon.jp/",
-          "description": "Twitter Archive Services"
+          "description": "Twitter Archive Services",
+          "mirrors": [
+            "https://megalodon.jp/"
+          ]
         },
         {
           "name": "Twitter Archive Parser",
           "url": "https://github.com/timhutton/twitter-archive-parser",
-          "description": "Tweet Archivers"
-        },
-        {
-          "name": "twitter-web-exporter",
-          "url": "https://github.com/prinsss/twitter-web-exporter",
-          "description": "Tweet Archivers"
+          "description": "Tweet Archivers",
+          "mirrors": [
+            "https://github.com/prinsss/twitter-web-exporter"
+          ]
         },
         {
           "name": "Twayback Machine",
@@ -3473,12 +2777,10 @@
         {
           "name": "OldTwitter",
           "url": "https://github.com/dimdenGD/OldTwitter",
-          "description": "Original Twitter Theme"
-        },
-        {
-          "name": "GoodTwitter2",
-          "url": "https://github.com/Bl4Cc4t/GoodTwitter2",
-          "description": "Original Twitter Theme"
+          "description": "Original Twitter Theme",
+          "mirrors": [
+            "https://github.com/Bl4Cc4t/GoodTwitter2"
+          ]
         },
         {
           "name": "OldTweetDeck",
@@ -3503,12 +2805,10 @@
         {
           "name": "Hide Content Warning",
           "url": "https://greasyfork.org/en/scripts/437359",
-          "description": "Remove Sensitive Content Blur"
-        },
-        {
-          "name": "Disable Blur",
-          "url": "https://userstyles.world/style/15658/",
-          "description": "Remove Sensitive Content Blur"
+          "description": "Remove Sensitive Content Blur",
+          "mirrors": [
+            "https://userstyles.world/style/15658/"
+          ]
         }
       ]
     },
@@ -3522,14 +2822,9 @@
           "description": "Bluesky Resources",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "BlueskyDirectory",
-          "url": "https://blueskydirectory.com/",
-          "description": "Bluesky Resources",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://blueskydirectory.com/"
           ]
         },
         {
@@ -3612,42 +2907,22 @@
         {
           "name": "KittyGram",
           "url": "https://kittygr.am/",
-          "description": "Instagram Frontends"
-        },
-        {
-          "name": "2",
-          "url": "https://instagram.fsky.io/",
-          "description": "Instagram Frontends"
-        },
-        {
-          "name": "3",
-          "url": "https://kittygram.fsky.io/",
-          "description": "Instagram Frontends"
-        },
-        {
-          "name": ".onion",
-          "url": "http://instab6cpzrbczpkrvjj3gutly5qx3o2xzpyhlmtwthtzjmjw4tppvad.onion/",
-          "description": "Instagram Frontends"
-        },
-        {
-          "name": "Codeberg",
-          "url": "https://codeberg.org/irelephant/kittygram",
-          "description": "Instagram Frontends"
-        },
-        {
-          "name": "Imginn",
-          "url": "https://imginn.com",
-          "description": "Instagram Frontends"
+          "description": "Instagram Frontends",
+          "mirrors": [
+            "https://instagram.fsky.io/",
+            "https://kittygram.fsky.io/",
+            "http://instab6cpzrbczpkrvjj3gutly5qx3o2xzpyhlmtwthtzjmjw4tppvad.onion/",
+            "https://codeberg.org/irelephant/kittygram",
+            "https://imginn.com"
+          ]
         },
         {
           "name": "otzberg",
           "url": "https://www.otzberg.net/iguserid/index.php",
-          "description": "ID Finder"
-        },
-        {
-          "name": "Find-User-ID",
-          "url": "https://codeofaninja.com/tools/find-instagram-user-id/",
-          "description": "ID Finder"
+          "description": "ID Finder",
+          "mirrors": [
+            "https://codeofaninja.com/tools/find-instagram-user-id/"
+          ]
         },
         {
           "name": "Image Counter",
@@ -3687,62 +2962,38 @@
           "name": "Instaloader",
           "url": "https://instaloader.github.io/",
           "description": "CLI Downloader",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/instaloader/instaloader",
-          "description": "CLI Downloader"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/instaloader/instaloader"
+          ]
         },
         {
           "name": "FastDL",
           "url": "https://fastdl.app/en2",
-          "description": "Online Downloaders"
-        },
-        {
-          "name": "Weynstag",
-          "url": "https://www.google.com/amp/s/weynstag.com/amp.php/",
-          "description": "Online Downloaders"
-        },
-        {
-          "name": "SaveFromWeb",
-          "url": "https://www.savefromweb.com/",
-          "description": "Online Downloaders"
+          "description": "Online Downloaders",
+          "mirrors": [
+            "https://www.google.com/amp/s/weynstag.com/amp.php/",
+            "https://www.savefromweb.com/"
+          ]
         },
         {
           "name": "Dumpor",
           "url": "https://dumpor.io/",
-          "description": "Anonymous Story / Profile Viewers"
-        },
-        {
-          "name": "2",
-          "url": "https://greatfon.io/",
-          "description": "Anonymous Story / Profile Viewers"
-        },
-        {
-          "name": "anonyig",
-          "url": "https://anonyig.com/",
-          "description": "Anonymous Story / Profile Viewers"
-        },
-        {
-          "name": "mollygram",
-          "url": "https://mollygram.com/",
-          "description": "Anonymous Story / Profile Viewers"
+          "description": "Anonymous Story / Profile Viewers",
+          "mirrors": [
+            "https://greatfon.io/",
+            "https://anonyig.com/",
+            "https://mollygram.com/"
+          ]
         },
         {
           "name": "IG Helper",
           "url": "https://greasyfork.org/en/scripts/404535",
-          "description": "Userscripts"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/SN-Koarashi/ig-helper/",
-          "description": "Userscripts"
-        },
-        {
-          "name": "IG Download Button",
-          "url": "https://greasyfork.org/en/scripts/406535-instagram-download-button",
-          "description": "Userscripts"
+          "description": "Userscripts",
+          "mirrors": [
+            "https://github.com/SN-Koarashi/ig-helper/",
+            "https://greasyfork.org/en/scripts/406535-instagram-download-button"
+          ]
         },
         {
           "name": "ESUIT",
@@ -3753,37 +3004,15 @@
           "name": "Bear Blog",
           "url": "https://bearblog.dev/",
           "description": "Minimalist Blogging Platforms",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/HermanMartinus/bearblog",
-          "description": "Minimalist Blogging Platforms"
-        },
-        {
-          "name": "⁠TinyBones",
-          "url": "https://tinybones.pages.dev/",
-          "description": "Minimalist Blogging Platforms"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/itzcozi/tinybones",
-          "description": "Minimalist Blogging Platforms"
-        },
-        {
-          "name": "Mataroa",
-          "url": "https://mataroa.blog/",
-          "description": "Minimalist Blogging Platforms"
-        },
-        {
-          "name": "smol.pub",
-          "url": "https://smol.pub/",
-          "description": "Minimalist Blogging Platforms"
-        },
-        {
-          "name": "Key",
-          "url": "https://m15o.ichi.city/smolpub/key-request.html",
-          "description": "Minimalist Blogging Platforms"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/HermanMartinus/bearblog",
+            "https://tinybones.pages.dev/",
+            "https://github.com/itzcozi/tinybones",
+            "https://mataroa.blog/",
+            "https://smol.pub/",
+            "https://m15o.ichi.city/smolpub/key-request.html"
+          ]
         },
         {
           "name": "Telescope",
@@ -3798,12 +3027,10 @@
         {
           "name": "Haven",
           "url": "https://havenweb.org/",
-          "description": "Self-Hosted Blogging Platforms"
-        },
-        {
-          "name": "WriteFreely",
-          "url": "https://writefreely.org/",
-          "description": "Self-Hosted Blogging Platforms"
+          "description": "Self-Hosted Blogging Platforms",
+          "mirrors": [
+            "https://writefreely.org/"
+          ]
         },
         {
           "name": "Notepin",
@@ -3841,17 +3068,11 @@
         {
           "name": "Tumlook",
           "url": "https://www.tumlook.com/",
-          "description": "Tumblr Frontends"
-        },
-        {
-          "name": "Tumgik",
-          "url": "https://www.tumgik.com/",
-          "description": "Tumblr Frontends"
-        },
-        {
-          "name": "PriviBlur",
-          "url": "https://github.com/syeopite/priviblur",
-          "description": "Tumblr Frontends"
+          "description": "Tumblr Frontends",
+          "mirrors": [
+            "https://www.tumgik.com/",
+            "https://github.com/syeopite/priviblur"
+          ]
         },
         {
           "name": "Pillowfort",
@@ -3886,12 +3107,10 @@
         {
           "name": "Tumbl Backup Guide",
           "url": "https://docs.google.com/document/d/1yBWlk-yEgpSoEh3c9oLhz_kbLtUGqbqzOpCtJsvQgjI/",
-          "description": "Tumblr Backup Tools"
-        },
-        {
-          "name": "TumblThree",
-          "url": "https://tumblthreeapp.github.io/TumblThree/",
-          "description": "Tumblr Backup Tools"
+          "description": "Tumblr Backup Tools",
+          "mirrors": [
+            "https://tumblthreeapp.github.io/TumblThree/"
+          ]
         },
         {
           "name": "Palettes for Tumblr",
@@ -3925,12 +3144,10 @@
         {
           "name": "FediDB",
           "url": "https://fedidb.org/",
-          "description": "Network Statistics"
-        },
-        {
-          "name": "The Federation",
-          "url": "https://the-federation.info/",
-          "description": "Network Statistics"
+          "description": "Network Statistics",
+          "mirrors": [
+            "https://the-federation.info/"
+          ]
         },
         {
           "name": "Fedi.Tips",
@@ -3965,32 +3182,14 @@
         {
           "name": "Lemmy",
           "url": "https://join-lemmy.org/",
-          "description": "Decentralized Social Networks"
-        },
-        {
-          "name": "Tools",
-          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media/#wiki_.25B7_lemmy_tools",
-          "description": "Decentralized Social Networks"
-        },
-        {
-          "name": "Mastodon",
-          "url": "https://joinmastodon.org/",
-          "description": "Decentralized Social Networks"
-        },
-        {
-          "name": "Tools",
-          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media/#wiki_.25B7_mastodon_tools",
-          "description": "Decentralized Social Networks"
-        },
-        {
-          "name": "Diaspora",
-          "url": "https://diasporafoundation.org/",
-          "description": "Decentralized Social Networks"
-        },
-        {
-          "name": "Friendica",
-          "url": "https://friendi.ca",
-          "description": "Decentralized Social Networks"
+          "description": "Decentralized Social Networks",
+          "mirrors": [
+            "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media/#wiki_.25B7_lemmy_tools",
+            "https://joinmastodon.org/",
+            "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media/#wiki_.25B7_mastodon_tools",
+            "https://diasporafoundation.org/",
+            "https://friendi.ca"
+          ]
         },
         {
           "name": "FediverseRedirect",
@@ -4038,12 +3237,10 @@
           "name": "instances.social",
           "url": "https://instances.social/",
           "description": "Mastodon Instances",
-          "starred": true
-        },
-        {
-          "name": "Mastodon Near Me",
-          "url": "http://mastodon-near.me/",
-          "description": "Mastodon Instances"
+          "starred": true,
+          "mirrors": [
+            "http://mastodon-near.me/"
+          ]
         },
         {
           "name": "Mastodon Apps",
@@ -4054,17 +3251,11 @@
         {
           "name": "Phanpy",
           "url": "https://phanpy.social/",
-          "description": "Mastodon Clients"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/cheeaun/phanpy",
-          "description": "Mastodon Clients"
-        },
-        {
-          "name": "Mastodeck",
-          "url": "https://mastodeck.com/",
-          "description": "Mastodon Clients"
+          "description": "Mastodon Clients",
+          "mirrors": [
+            "https://github.com/cheeaun/phanpy",
+            "https://mastodeck.com/"
+          ]
         },
         {
           "name": "Fediwall",
@@ -4074,12 +3265,10 @@
         {
           "name": "Followgraph",
           "url": "https://followgraph.vercel.app/",
-          "description": "Find Mastodon Users"
-        },
-        {
-          "name": "StreetPass",
-          "url": "https://streetpass.social/",
-          "description": "Find Mastodon Users"
+          "description": "Find Mastodon Users",
+          "mirrors": [
+            "https://streetpass.social/"
+          ]
         },
         {
           "name": "MastoGizmos",
@@ -4099,22 +3288,18 @@
         {
           "name": "Mastodon Scheduler",
           "url": "https://scheduler.mastodon.tools/",
-          "description": "Schedule Posts"
-        },
-        {
-          "name": "FediPlan",
-          "url": "https://plan.fedilab.app/",
-          "description": "Schedule Posts"
+          "description": "Schedule Posts",
+          "mirrors": [
+            "https://plan.fedilab.app/"
+          ]
         },
         {
           "name": "Mastodon List Manager",
           "url": "https://www.mastodonlistmanager.org/main",
-          "description": "Bulk List Editors"
-        },
-        {
-          "name": "Mastodon Lists Manager",
-          "url": "https://mastodon-lists-manager.huey.xyz/",
-          "description": "Bulk List Editors"
+          "description": "Bulk List Editors",
+          "mirrors": [
+            "https://mastodon-lists-manager.huey.xyz/"
+          ]
         },
         {
           "name": "Mastodon Share Bookmarklet Creator",
@@ -4129,12 +3314,10 @@
         {
           "name": "Mastodon Embed Timeline",
           "url": "https://gitlab.com/idotj/mastodon-embed-timeline",
-          "description": "Embedded Mastodon Feeds"
-        },
-        {
-          "name": "Mastofeed",
-          "url": "https://mastofeed.com/",
-          "description": "Embedded Mastodon Feeds"
+          "description": "Embedded Mastodon Feeds",
+          "mirrors": [
+            "https://mastofeed.com/"
+          ]
         },
         {
           "name": "Cheap Bots, Toot Sweet!",
@@ -4161,12 +3344,10 @@
           "name": "Lemmy Explorer",
           "url": "https://lemmyverse.net/",
           "description": "Lemmy Instances",
-          "starred": true
-        },
-        {
-          "name": "Awesome Lemmy Instances",
-          "url": "https://github.com/maltfield/awesome-lemmy-instances",
-          "description": "Lemmy Instances"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/maltfield/awesome-lemmy-instances"
+          ]
         },
         {
           "name": "Lemmy Apps",
@@ -4275,17 +3456,11 @@
         {
           "name": "4chan X",
           "url": "https://www.4chan-x.net/",
-          "description": "Enhancement Extensions"
-        },
-        {
-          "name": "SpookyX",
-          "url": "https://github.com/Fiddlekins/SpookyX",
-          "description": "Enhancement Extensions"
-        },
-        {
-          "name": "Dollchan",
-          "url": "https://dollchan.net/",
-          "description": "Enhancement Extensions"
+          "description": "Enhancement Extensions",
+          "mirrors": [
+            "https://github.com/Fiddlekins/SpookyX",
+            "https://dollchan.net/"
+          ]
         },
         {
           "name": "Lurka",
@@ -4295,12 +3470,10 @@
         {
           "name": "Kuroba",
           "url": "https://github.com/Adamantcheese/Kuroba",
-          "description": "4chan Mobile Apps"
-        },
-        {
-          "name": "Chan",
-          "url": "https://github.com/moffatman/chan",
-          "description": "4chan Mobile Apps"
+          "description": "4chan Mobile Apps",
+          "mirrors": [
+            "https://github.com/moffatman/chan"
+          ]
         },
         {
           "name": "RedditChan",
@@ -4320,12 +3493,10 @@
         {
           "name": "Mass Reply",
           "url": "https://github.com/HamletDuFromage/4chan-mass-reply",
-          "description": "Mass Reply on 4chan"
-        },
-        {
-          "name": "Reply All",
-          "url": "https://gitlab.com/lucadou/4chan-reply-all",
-          "description": "Mass Reply on 4chan"
+          "description": "Mass Reply on 4chan",
+          "mirrors": [
+            "https://gitlab.com/lucadou/4chan-reply-all"
+          ]
         },
         {
           "name": "Anon Files Names",
@@ -4355,17 +3526,11 @@
         {
           "name": "ss21",
           "url": "https://github.com/saxamaphone69/ss21",
-          "description": "4chan Themes"
-        },
-        {
-          "name": "OneeChan",
-          "url": "https://github.com/KevinParnell/OneeChan",
-          "description": "4chan Themes"
-        },
-        {
-          "name": "4cheddit",
-          "url": "https://greasyfork.org/en/scripts/16672",
-          "description": "4chan Themes"
+          "description": "4chan Themes",
+          "mirrors": [
+            "https://github.com/KevinParnell/OneeChan",
+            "https://greasyfork.org/en/scripts/16672"
+          ]
         }
       ]
     },
@@ -4376,52 +3541,24 @@
         {
           "name": "4chanSearch",
           "url": "https://4chansearch.com/",
-          "description": "Search 4chan Archives"
-        },
-        {
-          "name": "4search",
-          "url": "https://4search.neocities.org/",
-          "description": "Search 4chan Archives"
+          "description": "Search 4chan Archives",
+          "mirrors": [
+            "https://4search.neocities.org/"
+          ]
         },
         {
           "name": "4rchive",
           "url": "https://4rchive.org/",
-          "description": "Misc 4chan Archives"
-        },
-        {
-          "name": "sup/tg/",
-          "url": "https://suptg.thisisnotatrueending.com/",
-          "description": "Misc 4chan Archives"
-        },
-        {
-          "name": "Palanq.win",
-          "url": "https://archive.palanq.win/",
-          "description": "Misc 4chan Archives"
-        },
-        {
-          "name": "AyaseQuart",
-          "url": "https://ayasequart.org/fts",
-          "description": "Misc 4chan Archives"
-        },
-        {
-          "name": "Desuarchive",
-          "url": "https://desuarchive.org/",
-          "description": "Misc 4chan Archives"
-        },
-        {
-          "name": "arch.b4k",
-          "url": "https://arch.b4k.dev/",
-          "description": "Misc 4chan Archives"
-        },
-        {
-          "name": "Archived.Moe",
-          "url": "https://archived.moe/",
-          "description": "Misc 4chan Archives"
-        },
-        {
-          "name": "The /b/ Archive",
-          "url": "https://thebarchive.com/",
-          "description": "Misc 4chan Archives"
+          "description": "Misc 4chan Archives",
+          "mirrors": [
+            "https://suptg.thisisnotatrueending.com/",
+            "https://archive.palanq.win/",
+            "https://ayasequart.org/fts",
+            "https://desuarchive.org/",
+            "https://arch.b4k.dev/",
+            "https://archived.moe/",
+            "https://thebarchive.com/"
+          ]
         },
         {
           "name": "Oldfriend Archive",
@@ -4431,12 +3568,10 @@
         {
           "name": "Ten Billion",
           "url": "https://archive.org/details/4chan_threads_archive_10_billion",
-          "description": "2006 - 2008 Archive"
-        },
-        {
-          "name": "4Museum",
-          "url": "https://4museum.neocities.org/",
-          "description": "2006 - 2008 Archive"
+          "description": "2006 - 2008 Archive",
+          "mirrors": [
+            "https://4museum.neocities.org/"
+          ]
         },
         {
           "name": "4GBs of 4chan Threads",

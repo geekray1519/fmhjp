@@ -32,120 +32,74 @@
           "name": "RockMods",
           "url": "https://www.rockmods.net/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/RBMods",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://t.me/RBMods"
+          ]
         },
         {
           "name": "PlatinMods",
           "url": "https://platinmods.com/",
-          "description": "",
+          "description": "Requires Sign-Up",
           "starred": true
         },
         {
           "name": "PDALife",
           "url": "https://pdalife.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "App",
-          "url": "https://pdalife.com/pdalife-app-android-a40597.html",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/pdalife_official",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/erVkAkzGHZ",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://pdalife.com/pdalife-app-android-a40597.html",
+            "https://t.me/pdalife_official",
+            "https://discord.gg/erVkAkzGHZ"
+          ]
         },
         {
           "name": "AN1",
           "url": "https://an1.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/android1com",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://t.me/android1com"
+          ]
         },
         {
           "name": "Virgil APK Search",
           "url": "https://virgil.samidy.com/Mobile",
-          "description": "APK Search Engines"
-        },
-        {
-          "name": "Android APK CSE",
-          "url": "https://cse.google.com/cse?cx=e0d1769ccf74236e8",
-          "description": "APK Search Engines"
-        },
-        {
-          "name": "CSE 2",
-          "url": "https://cse.google.com/cse?cx=73948689c2c206528",
-          "description": "APK Search Engines"
-        },
-        {
-          "name": "CSE 3",
-          "url": "https://cse.google.com/cse?cx=a805854b6a196d6a6",
-          "description": "APK Search Engines"
-        },
-        {
-          "name": "Apps & Games Search",
-          "url": "https://cse.google.com/cse?cx=066a762d5699f4d91",
-          "description": "APK Search Engines"
+          "description": "APK Search Engines",
+          "mirrors": [
+            "https://cse.google.com/cse?cx=e0d1769ccf74236e8",
+            "https://cse.google.com/cse?cx=73948689c2c206528",
+            "https://cse.google.com/cse?cx=a805854b6a196d6a6",
+            "https://cse.google.com/cse?cx=066a762d5699f4d91"
+          ]
         },
         {
           "name": "APKVision",
           "url": "https://apkvision.org/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/apkvision",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://t.me/apkvision"
+          ]
         },
         {
           "name": "LiteAPKs",
           "url": "https://liteapks.com/",
-          "description": ""
-        },
-        {
-          "name": "App",
-          "url": "https://liteapks.com/app.html",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/liteapks",
-          "description": ""
-        },
-        {
-          "name": "Note",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/liteapk-modyolo-note.md",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://liteapks.com/app.html",
+            "https://t.me/liteapks",
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/liteapk-modyolo-note.md"
+          ]
         },
         {
           "name": "Modyolo",
           "url": "https://modyolo.com/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/modyolo_official",
-          "description": ""
-        },
-        {
-          "name": "Note",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/liteapk-modyolo-note.md",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://t.me/modyolo_official",
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/liteapk-modyolo-note.md"
+          ]
         },
         {
           "name": "Nsane Forums",
@@ -155,27 +109,19 @@
         {
           "name": "Sbenny",
           "url": "https://sbenny.com/",
-          "description": ""
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/SbennyOfficial/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.reddit.com/r/SbennyOfficial/"
+          ]
         },
         {
           "name": "farsroid",
           "url": "https://www.farsroid.com/",
-          "description": ""
-        },
-        {
-          "name": "Translator",
-          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools/#wiki_.25B7_translators",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/farsroid_official",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools/#wiki_.25B7_translators",
+            "https://t.me/farsroid_official"
+          ]
         },
         {
           "name": "APKSum",
@@ -195,27 +141,19 @@
         {
           "name": "Androeed",
           "url": "https://androeed.store/",
-          "description": ""
-        },
-        {
-          "name": "2",
-          "url": "https://androeed.ru/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/androeed_store",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://androeed.ru/",
+            "https://t.me/androeed_store"
+          ]
         },
         {
           "name": "AndroPalace",
           "url": "https://www.andropalace.org/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://telegram.me/officialandropalace",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://telegram.me/officialandropalace"
+          ]
         },
         {
           "name": "9Mod",
@@ -225,42 +163,34 @@
         {
           "name": "A2Z APK",
           "url": "https://a2zapk.io/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/a2zapkofficial",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://t.me/a2zapkofficial"
+          ]
         },
         {
           "name": "APK4Free",
           "url": "https://apk4free.net/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/apk4free_net",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://t.me/apk4free_net"
+          ]
         },
         {
           "name": "Release APK",
           "url": "https://forum.release-apk.com/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/RDVKXsnqce",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.gg/RDVKXsnqce"
+          ]
         },
         {
           "name": "ReXDL",
           "url": "https://rexdl.com/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/joinchat/AAAAAFVMhwX7IzS5hMc8OQ",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://t.me/joinchat/AAAAAFVMhwX7IzS5hMc8OQ"
+          ]
         }
       ]
     },
@@ -338,22 +268,10 @@
           "description": "FOSS App Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Cool FOSS",
-          "url": "https://albertomosconi.github.io/foss-apps/",
-          "description": "FOSS App Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "AAA",
-          "url": "https://github.com/Psyhackological/AAA",
-          "description": "FOSS App Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://albertomosconi.github.io/foss-apps/",
+            "https://github.com/Psyhackological/AAA"
           ]
         },
         {
@@ -362,14 +280,9 @@
           "description": "",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/moneytoo/awesome-fdroid",
-          "description": "",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/moneytoo/awesome-fdroid"
           ]
         },
         {
@@ -384,12 +297,10 @@
           "name": "FossifyOrg",
           "url": "https://github.com/FossifyOrg",
           "description": "Simple FOSS Apps",
-          "starred": true
-        },
-        {
-          "name": "Goodwy",
-          "url": "https://github.com/Goodwy?tab=repositories",
-          "description": "Simple FOSS Apps"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/Goodwy?tab=repositories"
+          ]
         },
         {
           "name": "Droid-ify",
@@ -403,12 +314,10 @@
         {
           "name": "F-Droid",
           "url": "https://f-droid.org/",
-          "description": "FOSS App Installer / Basic"
-        },
-        {
-          "name": "GitLab",
-          "url": "https://gitlab.com/fdroid",
-          "description": "FOSS App Installer / Basic"
+          "description": "FOSS App Installer / Basic",
+          "mirrors": [
+            "https://gitlab.com/fdroid"
+          ]
         },
         {
           "name": "Neo Store",
@@ -451,17 +360,11 @@
           "name": "APKMirror",
           "url": "https://www.apkmirror.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Firefox",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/toolbox-google-play-store/",
-          "description": ""
-        },
-        {
-          "name": "Chrome",
-          "url": "https://chrome.google.com/webstore/detail/toolbox-for-google-play-s/fepaalfjfchbdianlgginbmpeeacahoo",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://addons.mozilla.org/en-US/firefox/addon/toolbox-google-play-store/",
+            "https://chrome.google.com/webstore/detail/toolbox-for-google-play-s/fepaalfjfchbdianlgginbmpeeacahoo"
+          ]
         },
         {
           "name": "UpToDown",
@@ -484,17 +387,17 @@
         {
           "name": "APKPure",
           "url": "https://apkpure.net/",
-          "description": ""
+          "description": "Avoid Their App"
         },
         {
           "name": "2",
           "url": "https://apkpure.com/",
-          "description": ""
+          "description": "Avoid Their App"
         },
         {
           "name": "Telegram",
           "url": "https://t.me/APKPure_Official_2",
-          "description": ""
+          "description": "Avoid Their App"
         },
         {
           "name": "Android Ultimate Collection",
@@ -514,17 +417,11 @@
         {
           "name": "Material-You-app-list",
           "url": "https://nyas1.github.io/Material-You-app-list/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/materialyouapps",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/nyas1/Material-You-app-list",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://t.me/materialyouapps",
+            "https://github.com/nyas1/Material-You-app-list"
+          ]
         },
         {
           "name": "NikGapps",
@@ -540,7 +437,7 @@
           "description": "App Recommendations"
         }
       ],
-      "note": "You can use AntiSplit-M if you need to merge \"split\" or \"bundled\" APK formats such as APKM or APKX. This will convert them to regular APK format used for installing and patching."
+      "note": "You can use AntiSplit-M if 以下が必要です： merge \"split\" or \"bundled\" APK formats such as APKM or APKX. This will convert them to regular APK format used for installing and patching."
     },
     {
       "id": "mobile-app-launchers",
@@ -611,22 +508,12 @@
         {
           "name": "KISS",
           "url": "https://kisslauncher.com/",
-          "description": "Low-Memory Usage Launcher"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Neamar/KISS",
-          "description": "Low-Memory Usage Launcher"
-        },
-        {
-          "name": "TBLauncher",
-          "url": "https://tbog.github.io/TBLauncher/",
-          "description": "Low-Memory Usage Launcher"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/TBog/TBLauncher",
-          "description": "Low-Memory Usage Launcher"
+          "description": "Low-Memory Usage Launcher",
+          "mirrors": [
+            "https://github.com/Neamar/KISS",
+            "https://tbog.github.io/TBLauncher/",
+            "https://github.com/TBog/TBLauncher"
+          ]
         },
         {
           "name": "Discreet Launcher",
@@ -919,58 +806,26 @@
           "name": "Xtra",
           "url": "https://github.com/crackededed/Xtra",
           "description": "Twitch Clients",
-          "starred": true
-        },
-        {
-          "name": "BTTV",
-          "url": "https://github.com/bttv-android/bttv",
-          "description": "Twitch Clients"
-        },
-        {
-          "name": "Twire",
-          "url": "https://github.com/twireapp/Twire",
-          "description": "Twitch Clients"
-        },
-        {
-          "name": "Frosty",
-          "url": "https://www.frostyapp.io/",
-          "description": "Twitch Clients"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/tommyxchow/frosty",
-          "description": "Twitch Clients"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/bttv-android/bttv",
+            "https://github.com/twireapp/Twire",
+            "https://www.frostyapp.io/",
+            "https://github.com/tommyxchow/frosty"
+          ]
         },
         {
           "name": "piko",
           "url": "https://github.com/crimera/twitter-apk",
           "description": "Twitter / X Apps",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/lluni/twitter-apk",
-          "description": "Twitter / X Apps"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/pikopatches",
-          "description": "Twitter / X Apps"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/crimera/piko",
-          "description": "Twitter / X Apps"
-        },
-        {
-          "name": "⁠QuaX",
-          "url": "https://github.com/Teskann/QuaX",
-          "description": "Twitter / X Apps"
-        },
-        {
-          "name": "Squawker",
-          "url": "https://github.com/j-fbriere/squawker",
-          "description": "Twitter / X Apps"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/lluni/twitter-apk",
+            "https://t.me/pikopatches",
+            "https://github.com/crimera/piko",
+            "https://github.com/Teskann/QuaX",
+            "https://github.com/j-fbriere/squawker"
+          ]
         },
         {
           "name": "Nobook",
@@ -982,123 +837,57 @@
           "name": "Voyager",
           "url": "https://vger.app",
           "description": "Lemmy Clients / Index",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/aeharding/voyager",
-          "description": "Lemmy Clients / Index"
-        },
-        {
-          "name": "Jerboa",
-          "url": "https://github.com/LemmyNet/jerboa",
-          "description": "Lemmy Clients / Index"
-        },
-        {
-          "name": "Eternity",
-          "url": "https://codeberg.org/Bazsalanszky/Eternity",
-          "description": "Lemmy Clients / Index"
-        },
-        {
-          "name": "summit",
-          "url": "https://play.google.com/store/apps/details?id=com.idunnololz.summit",
-          "description": "Lemmy Clients / Index"
-        },
-        {
-          "name": "Raccoon",
-          "url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy",
-          "description": "Lemmy Clients / Index"
-        },
-        {
-          "name": "Thunder",
-          "url": "https://github.com/thunder-app/thunder",
-          "description": "Lemmy Clients / Index"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/aeharding/voyager",
+            "https://github.com/LemmyNet/jerboa",
+            "https://codeberg.org/Bazsalanszky/Eternity",
+            "https://play.google.com/store/apps/details?id=com.idunnololz.summit",
+            "https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy",
+            "https://github.com/thunder-app/thunder"
+          ]
         },
         {
           "name": "Tusky",
           "url": "https://tusky.app/",
           "description": "Mastodon Clients",
-          "starred": true
-        },
-        {
-          "name": "Dhaaga",
-          "url": "https://github.com/suvam0451/dhaaga",
-          "description": "Mastodon Clients"
-        },
-        {
-          "name": "SubwayTooter",
-          "url": "https://github.com/tateisu/SubwayTooter",
-          "description": "Mastodon Clients"
-        },
-        {
-          "name": "Moshidon",
-          "url": "https://github.com/LucasGGamerM/moshidon",
-          "description": "Mastodon Clients"
-        },
-        {
-          "name": "Dimett",
-          "url": "https://github.com/MateriiApps/Dimett",
-          "description": "Mastodon Clients"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/suvam0451/dhaaga",
+            "https://github.com/tateisu/SubwayTooter",
+            "https://github.com/LucasGGamerM/moshidon",
+            "https://github.com/MateriiApps/Dimett"
+          ]
         },
         {
           "name": "⁠Patcheddit",
           "url": "https://github.com/wchill/patcheddit",
-          "description": "Reddit Clients"
-        },
-        {
-          "name": "Stealth",
-          "url": "https://gitlab.com/cosmosapps/stealth",
-          "description": "Reddit Clients"
-        },
-        {
-          "name": "Continuum",
-          "url": "https://github.com/cygnusx-1-org/continuum",
-          "description": "Reddit Clients"
-        },
-        {
-          "name": "RedReader",
-          "url": "https://github.com/QuantumBadger/RedReader",
-          "description": "Reddit Clients"
+          "description": "Reddit Clients",
+          "mirrors": [
+            "https://gitlab.com/cosmosapps/stealth",
+            "https://github.com/cygnusx-1-org/continuum",
+            "https://github.com/QuantumBadger/RedReader"
+          ]
         },
         {
           "name": "Watomatic",
           "url": "https://watomatic.app/",
-          "description": "Chat App Auto-Responders"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/watomatic/",
-          "description": "Chat App Auto-Responders"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/adeekshith/watomatic",
-          "description": "Chat App Auto-Responders"
-        },
-        {
-          "name": "AutoResponder",
-          "url": "https://www.autoresponder.ai/",
-          "description": "Chat App Auto-Responders"
+          "description": "Chat App Auto-Responders",
+          "mirrors": [
+            "https://www.reddit.com/r/watomatic/",
+            "https://github.com/adeekshith/watomatic",
+            "https://www.autoresponder.ai/"
+          ]
         },
         {
           "name": "⁠Beeper",
           "url": "https://www.beeper.com/",
-          "description": "Combine Chat / Social Media Apps"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/beeper",
-          "description": "Combine Chat / Social Media Apps"
-        },
-        {
-          "name": "Openvibe",
-          "url": "https://openvibe.social/",
-          "description": "Combine Chat / Social Media Apps"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/GduN6fB6NN",
-          "description": "Combine Chat / Social Media Apps"
+          "description": "Combine Chat / Social Media Apps",
+          "mirrors": [
+            "https://github.com/beeper",
+            "https://openvibe.social/",
+            "https://discord.gg/GduN6fB6NN"
+          ]
         },
         {
           "name": "Graysky",
@@ -1111,12 +900,10 @@
         {
           "name": "Mumla",
           "url": "https://gitlab.com/quite/mumla",
-          "description": "Voice Chat"
-        },
-        {
-          "name": "Meshenger",
-          "url": "https://github.com/meshenger-app/meshenger-android",
-          "description": "Voice Chat"
+          "description": "Voice Chat",
+          "mirrors": [
+            "https://github.com/meshenger-app/meshenger-android"
+          ]
         },
         {
           "name": "Aliucord",
@@ -1156,32 +943,20 @@
         {
           "name": "Kuroba",
           "url": "https://github.com/Adamantcheese/Kuroba",
-          "description": "4chan Apps"
-        },
-        {
-          "name": "Chan",
-          "url": "https://github.com/moffatman/chan",
-          "description": "4chan Apps"
+          "description": "4chan Apps",
+          "mirrors": [
+            "https://github.com/moffatman/chan"
+          ]
         },
         {
           "name": "⁠Instafel",
           "url": "https://instafel.app/",
-          "description": "Modded Instagram Clients / Tools"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/mamiiblt/instafel/",
-          "description": "Modded Instagram Clients / Tools"
-        },
-        {
-          "name": "InstaEclipse",
-          "url": "https://github.com/ReSo7200/InstaEclipse",
-          "description": "Modded Instagram Clients / Tools"
-        },
-        {
-          "name": "Note",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/instaeclipse-note.md",
-          "description": "Modded Instagram Clients / Tools"
+          "description": "Modded Instagram Clients / Tools",
+          "mirrors": [
+            "https://github.com/mamiiblt/instafel/",
+            "https://github.com/ReSo7200/InstaEclipse",
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/instaeclipse-note.md"
+          ]
         },
         {
           "name": "TikTokModCloud",
@@ -1191,32 +966,20 @@
         {
           "name": "Telegram-Themer",
           "url": "https://github.com/therxmv/Telegram-Themer",
-          "description": "Telegram Theme Creators"
-        },
-        {
-          "name": "Telegram Monet",
-          "url": "https://github.com/mi-g-alex/Telegram-Monet",
-          "description": "Telegram Theme Creators"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/tgmonet",
-          "description": "Telegram Theme Creators"
+          "description": "Telegram Theme Creators",
+          "mirrors": [
+            "https://github.com/mi-g-alex/Telegram-Monet",
+            "https://t.me/tgmonet"
+          ]
         },
         {
           "name": "Launch Chat",
           "url": "https://github.com/vinaygopinath/launch-chat",
-          "description": "Number-Free WhatsApp Chat"
-        },
-        {
-          "name": "WhatsAppNoContact",
-          "url": "https://github.com/theolm/WhatsAppNoContact",
-          "description": "Number-Free WhatsApp Chat"
-        },
-        {
-          "name": "Tellurium",
-          "url": "https://play.google.com/store/apps/details?id=com.quadren.tellurium",
-          "description": "Number-Free WhatsApp Chat"
+          "description": "Number-Free WhatsApp Chat",
+          "mirrors": [
+            "https://github.com/theolm/WhatsAppNoContact",
+            "https://play.google.com/store/apps/details?id=com.quadren.tellurium"
+          ]
         },
         {
           "name": "WaEnhancer",
@@ -1239,22 +1002,12 @@
         {
           "name": "PurrfectSnap",
           "url": "https://purrfectsnap.vercel.app",
-          "description": "Snapchat Clients"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/particle-box/PurrfectSnap",
-          "description": "Snapchat Clients"
-        },
-        {
-          "name": "SE Extended",
-          "url": "https://github.com/bocajthomas/SE-Extended",
-          "description": "Snapchat Clients"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/SE_Extended_CI",
-          "description": "Snapchat Clients"
+          "description": "Snapchat Clients",
+          "mirrors": [
+            "https://github.com/particle-box/PurrfectSnap",
+            "https://github.com/bocajthomas/SE-Extended",
+            "https://t.me/SE_Extended_CI"
+          ]
         }
       ]
     },
@@ -1275,27 +1028,13 @@
           "name": "Nagram",
           "url": "https://github.com/nextalone/nagram",
           "description": "NekoX Forks",
-          "starred": true
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/nagram_channel",
-          "description": "NekoX Forks"
-        },
-        {
-          "name": "⁠NagramX",
-          "url": "https://t.me/NagramX",
-          "description": "NekoX Forks"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/risin42/NagramX",
-          "description": "NekoX Forks"
-        },
-        {
-          "name": "Momogram",
-          "url": "https://github.com/dic1911/Momogram",
-          "description": "NekoX Forks"
+          "starred": true,
+          "mirrors": [
+            "https://t.me/nagram_channel",
+            "https://t.me/NagramX",
+            "https://github.com/risin42/NagramX",
+            "https://github.com/dic1911/Momogram"
+          ]
         },
         {
           "name": "Nekogram",
@@ -1365,93 +1104,33 @@
           "name": "ADB AppControl",
           "url": "https://adbappcontrol.com/en/",
           "description": "Android Device Managers / Controllers",
-          "starred": true
-        },
-        {
-          "name": "GUI",
-          "url": "https://aya.liriliri.io/",
-          "description": "Android Device Managers / Controllers"
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/Alex4SSB/ADB-Explorer",
-          "description": "Android Device Managers / Controllers"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/AdbAppControl_En",
-          "description": "Android Device Managers / Controllers"
-        },
-        {
-          "name": "scrcpy",
-          "url": "https://github.com/Genymobile/scrcpy",
-          "description": "Android Device Managers / Controllers"
-        },
-        {
-          "name": "Mobile App",
-          "url": "https://github.com/zwc456baby/ScrcpyForAndroid",
-          "description": "Android Device Managers / Controllers"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/scrcpy",
-          "description": "Android Device Managers / Controllers"
-        },
-        {
-          "name": "PlainApp",
-          "url": "https://docs.plain.icu/",
-          "description": "Android Device Managers / Controllers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ismartcoding/plain-docs",
-          "description": "Android Device Managers / Controllers"
-        },
-        {
-          "name": "WebADB",
-          "url": "https://app.webadb.com/",
-          "description": "Android Device Managers / Controllers"
-        },
-        {
-          "name": "QtScrcpy",
-          "url": "https://github.com/barry-ran/QtScrcpy",
-          "description": "Android Device Managers / Controllers"
-        },
-        {
-          "name": "Octi",
-          "url": "https://github.com/d4rken-org/octi",
-          "description": "Android Device Managers / Controllers"
+          "starred": true,
+          "mirrors": [
+            "https://aya.liriliri.io/",
+            "https://github.com/Alex4SSB/ADB-Explorer",
+            "https://t.me/AdbAppControl_En",
+            "https://github.com/Genymobile/scrcpy",
+            "https://github.com/zwc456baby/ScrcpyForAndroid",
+            "https://www.reddit.com/r/scrcpy",
+            "https://docs.plain.icu/",
+            "https://github.com/ismartcoding/plain-docs",
+            "https://app.webadb.com/",
+            "https://github.com/barry-ran/QtScrcpy",
+            "https://github.com/d4rken-org/octi"
+          ]
         },
         {
           "name": "Shizuku",
           "url": "https://shizuku.rikka.app/",
           "description": "Let Apps Use System API",
-          "starred": true
-        },
-        {
-          "name": "Tools",
-          "url": "https://github.com/legendsayantan/ShizuTools",
-          "description": "Let Apps Use System API"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/RikkaApps/Shizuku",
-          "description": "Let Apps Use System API"
-        },
-        {
-          "name": "⁠Essentials",
-          "url": "https://github.com/sameerasw/essentials",
-          "description": "Let Apps Use System API"
-        },
-        {
-          "name": "Shizuku Fork",
-          "url": "https://github.com/thedjchi/Shizuku",
-          "description": "Let Apps Use System API"
-        },
-        {
-          "name": "Dhizuku",
-          "url": "https://github.com/iamr0s/Dhizuku",
-          "description": "Let Apps Use System API"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/legendsayantan/ShizuTools",
+            "https://github.com/RikkaApps/Shizuku",
+            "https://github.com/sameerasw/essentials",
+            "https://github.com/thedjchi/Shizuku",
+            "https://github.com/iamr0s/Dhizuku"
+          ]
         },
         {
           "name": "Plexus",
@@ -1469,12 +1148,10 @@
         {
           "name": "AVNC",
           "url": "https://github.com/gujjwal00/avnc",
-          "description": "Remote Desktop Clients / VNC"
-        },
-        {
-          "name": "DroidVNC-NG",
-          "url": "https://github.com/bk138/droidVNC-NG",
-          "description": "Remote Desktop Clients / VNC"
+          "description": "Remote Desktop Clients / VNC",
+          "mirrors": [
+            "https://github.com/bk138/droidVNC-NG"
+          ]
         },
         {
           "name": "EtchDroid",
@@ -1487,17 +1164,11 @@
         {
           "name": "Techbone",
           "url": "https://www.techbone.net/",
-          "description": "Android Usage Guides"
-        },
-        {
-          "name": "LunarEclipseCode",
-          "url": "https://lunareclipsecode.github.io/engrc-3500-team2/content/intro.html",
-          "description": "Android Usage Guides"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/LunarEclipseCode/engrc-3500-team2",
-          "description": "Android Usage Guides"
+          "description": "Android Usage Guides",
+          "mirrors": [
+            "https://lunareclipsecode.github.io/engrc-3500-team2/content/intro.html",
+            "https://github.com/LunarEclipseCode/engrc-3500-team2"
+          ]
         },
         {
           "name": "ADB101",
@@ -1542,17 +1213,11 @@
         {
           "name": "Swappa",
           "url": "https://swappa.com/imei",
-          "description": "IMEI, MEID, ESN Checker"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://reddit.com/r/swappa",
-          "description": "IMEI, MEID, ESN Checker"
-        },
-        {
-          "name": "SickW",
-          "url": "https://www.sickw.com/",
-          "description": "IMEI, MEID, ESN Checker"
+          "description": "IMEI, MEID, ESN Checker",
+          "mirrors": [
+            "https://reddit.com/r/swappa",
+            "https://www.sickw.com/"
+          ]
         },
         {
           "name": "Fix My Speakers",
@@ -1645,17 +1310,17 @@
         {
           "name": "RBoard",
           "url": "https://xdaforums.com/t/app-rboard-theme-manager.4331445/",
-          "description": ""
+          "description": "(root) / or (requires shizuku)- Theme Managers"
         },
         {
           "name": "GitHub",
           "url": "https://github.com/DerTyp7214/RboardThemeManagerV3",
-          "description": ""
+          "description": "(root) / or (requires shizuku)- Theme Managers"
         },
         {
           "name": "ColorBlendr",
           "url": "https://github.com/Mahmud0808/ColorBlendr",
-          "description": ""
+          "description": "(root) / or (requires shizuku)- Theme Managers"
         },
         {
           "name": "PixelXpert",
@@ -1685,27 +1350,19 @@
         {
           "name": "Muzei",
           "url": "https://muzei.co/",
-          "description": "Live Wallpapers"
-        },
-        {
-          "name": "Doodle",
-          "url": "https://patrickzedler.com/doodle/",
-          "description": "Live Wallpapers"
-        },
-        {
-          "name": "Amoled Backgrounds",
-          "url": "https://play.google.com/store/apps/details?id=com.droidheat.amoledbackgrounds",
-          "description": "Live Wallpapers"
+          "description": "Live Wallpapers",
+          "mirrors": [
+            "https://patrickzedler.com/doodle/",
+            "https://play.google.com/store/apps/details?id=com.droidheat.amoledbackgrounds"
+          ]
         },
         {
           "name": "r/iWallpaper",
           "url": "https://www.reddit.com/r/iWallpaper/",
-          "description": "Mobile Wallpaper Subs"
-        },
-        {
-          "name": "r/MobileWallpaper",
-          "url": "https://www.reddit.com/r/MobileWallpaper/",
-          "description": "Mobile Wallpaper Subs"
+          "description": "Mobile Wallpaper Subs",
+          "mirrors": [
+            "https://www.reddit.com/r/MobileWallpaper/"
+          ]
         },
         {
           "name": "wallhaven.cc",
@@ -1748,22 +1405,12 @@
         {
           "name": "Candybar",
           "url": "https://github.com/zixpo/candybar",
-          "description": "Custom Icon Packs"
-        },
-        {
-          "name": "⁠Wallpapers Clan",
-          "url": "https://wallpapers-clan.com/",
-          "description": "Custom Icon Packs"
-        },
-        {
-          "name": "Arcticons",
-          "url": "https://arcticons.com/",
-          "description": "Custom Icon Packs"
-        },
-        {
-          "name": "Alembicons",
-          "url": "https://f-droid.org/packages/com.kaanelloed.iconeration/",
-          "description": "Custom Icon Packs"
+          "description": "Custom Icon Packs",
+          "mirrors": [
+            "https://wallpapers-clan.com/",
+            "https://arcticons.com/",
+            "https://f-droid.org/packages/com.kaanelloed.iconeration/"
+          ]
         }
       ]
     },
@@ -1823,12 +1470,10 @@
         {
           "name": "BatteryTool",
           "url": "https://github.com/Domi04151309/BatteryTool",
-          "description": "Freeze App Background Activities / Root"
-        },
-        {
-          "name": "Drowser",
-          "url": "https://gitlab.com/juanitobananas/drowser",
-          "description": "Freeze App Background Activities / Root"
+          "description": "Freeze App Background Activities / Root",
+          "mirrors": [
+            "https://gitlab.com/juanitobananas/drowser"
+          ]
         }
       ]
     },
@@ -1929,12 +1574,10 @@
         {
           "name": "Caffeine",
           "url": "https://lab.zhs.moe/caffeine/",
-          "description": "Keep Screen On"
-        },
-        {
-          "name": "KeepScreenOn",
-          "url": "https://github.com/elastic-rock/KeepScreenOn",
-          "description": "Keep Screen On"
+          "description": "Keep Screen On",
+          "mirrors": [
+            "https://github.com/elastic-rock/KeepScreenOn"
+          ]
         },
         {
           "name": "FakeStandby",
@@ -1962,32 +1605,14 @@
           "name": "Yet Another Call Blocker",
           "url": "https://f-droid.org/en/packages/dummydomain.yetanothercallblocker/",
           "description": "Block Spam Calls",
-          "starred": true
-        },
-        {
-          "name": "GitLab",
-          "url": "https://gitlab.com/xynngh/YetAnotherCallBlocker",
-          "description": "Block Spam Calls"
-        },
-        {
-          "name": "Note",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/yet-another-call-blocker-note.md",
-          "description": "Block Spam Calls"
-        },
-        {
-          "name": "Should I Answer?",
-          "url": "https://www.shouldianswer.net/",
-          "description": "Block Spam Calls"
-        },
-        {
-          "name": "SpamBlocker",
-          "url": "https://github.com/aj3423/SpamBlocker",
-          "description": "Block Spam Calls"
-        },
-        {
-          "name": "Silence",
-          "url": "https://f-droid.org/packages/me.lucky.silence",
-          "description": "Block Spam Calls"
+          "starred": true,
+          "mirrors": [
+            "https://gitlab.com/xynngh/YetAnotherCallBlocker",
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/yet-another-call-blocker-note.md",
+            "https://www.shouldianswer.net/",
+            "https://github.com/aj3423/SpamBlocker",
+            "https://f-droid.org/packages/me.lucky.silence"
+          ]
         },
         {
           "name": "ConnectYou",
@@ -2002,12 +1627,10 @@
         {
           "name": "BCR",
           "url": "https://github.com/chenxiaolong/BCR",
-          "description": "Call Recorders"
-        },
-        {
-          "name": "GUI",
-          "url": "https://github.com/nicorac/bcr-gui",
-          "description": "Call Recorders"
+          "description": "Call Recorders",
+          "mirrors": [
+            "https://github.com/nicorac/bcr-gui"
+          ]
         },
         {
           "name": "Logger",
@@ -2027,12 +1650,10 @@
         {
           "name": "Walkie-Talkie",
           "url": "https://walkie-talkie.io/",
-          "description": "Walkie-Talkie Apps"
-        },
-        {
-          "name": "Codec2 Talkie",
-          "url": "https://github.com/sh123/codec2_talkie",
-          "description": "Walkie-Talkie Apps"
+          "description": "Walkie-Talkie Apps",
+          "mirrors": [
+            "https://github.com/sh123/codec2_talkie"
+          ]
         },
         {
           "name": "SMS-IE",
@@ -2061,67 +1682,27 @@
           "tags": [
             "index",
             "GitHub"
-          ]
-        },
-        {
-          "name": "BL List",
-          "url": "https://a.zli.li/",
-          "description": "Bootlocker Limit Indexes / Policies",
-          "tags": [
-            "index",
-            "GitHub"
+          ],
+          "mirrors": [
+            "https://a.zli.li/"
           ]
         },
         {
           "name": "Magisk",
           "url": "https://github.com/topjohnwu/Magisk",
           "description": "Android Root Tools",
-          "starred": true
-        },
-        {
-          "name": "APatch",
-          "url": "https://github.com/bmax121/APatch",
-          "description": "Android Root Tools"
-        },
-        {
-          "name": "⁠Magisk Alpha",
-          "url": "https://t.me/magiskalpha",
-          "description": "Android Root Tools"
-        },
-        {
-          "name": "KernelSU",
-          "url": "https://kernelsu.org/",
-          "description": "Android Root Tools"
-        },
-        {
-          "name": "KernelSU-Next",
-          "url": "https://github.com/KernelSU-Next/KernelSU-Next",
-          "description": "Android Root Tools"
-        },
-        {
-          "name": "MagiskOnWSALocal",
-          "url": "https://github.com/LSPosed/MagiskOnWSALocal",
-          "description": "Android Root Tools"
-        },
-        {
-          "name": "ReSukiSU",
-          "url": "https://resukisu.github.io/",
-          "description": "Android Root Tools"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/ReSukiSU/",
-          "description": "Android Root Tools"
-        },
-        {
-          "name": "MTKClient",
-          "url": "https://github.com/bkerler/mtkclient",
-          "description": "Android Root Tools"
-        },
-        {
-          "name": "Mtk Easy Su",
-          "url": "https://github.com/JunioJsv/mtk-easy-su",
-          "description": "Android Root Tools"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/bmax121/APatch",
+            "https://t.me/magiskalpha",
+            "https://kernelsu.org/",
+            "https://github.com/KernelSU-Next/KernelSU-Next",
+            "https://github.com/LSPosed/MagiskOnWSALocal",
+            "https://resukisu.github.io/",
+            "https://t.me/ReSukiSU/",
+            "https://github.com/bkerler/mtkclient",
+            "https://github.com/JunioJsv/mtk-easy-su"
+          ]
         },
         {
           "name": "Android Docker",
@@ -2137,12 +1718,10 @@
         {
           "name": "aShell",
           "url": "https://gitlab.com/sunilpaulmathew/ashell",
-          "description": "ADB Shells"
-        },
-        {
-          "name": "aShellYou",
-          "url": "https://github.com/DP-Hridayan/aShellYou",
-          "description": "ADB Shells"
+          "description": "ADB Shells",
+          "mirrors": [
+            "https://github.com/DP-Hridayan/aShellYou"
+          ]
         },
         {
           "name": "LogFox",
@@ -2157,17 +1736,11 @@
         {
           "name": "Orangefox",
           "url": "https://orangefox.download/",
-          "description": "Custom Recovery Firmware"
-        },
-        {
-          "name": "twrp",
-          "url": "https://twrp.me/",
-          "description": "Custom Recovery Firmware"
-        },
-        {
-          "name": "SkyHawk",
-          "url": "https://skyhawkrecovery.github.io/",
-          "description": "Custom Recovery Firmware"
+          "description": "Custom Recovery Firmware",
+          "mirrors": [
+            "https://twrp.me/",
+            "https://skyhawkrecovery.github.io/"
+          ]
         },
         {
           "name": "Smali Patcher",
@@ -2182,12 +1755,10 @@
         {
           "name": "ReLSPosed",
           "url": "https://github.com/ThePedroo/ReLSPosed",
-          "description": "Module-Based Customization Framework"
-        },
-        {
-          "name": "LSPosed",
-          "url": "https://github.com/JingMatrix/LSPosed",
-          "description": "Module-Based Customization Framework"
+          "description": "Module-Based Customization Framework",
+          "mirrors": [
+            "https://github.com/JingMatrix/LSPosed"
+          ]
         },
         {
           "name": "PixelFlasher",
@@ -2206,14 +1777,9 @@
           "description": "",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Android ROM List",
-          "url": "https://github.com/musabcel/android_rom_list",
-          "description": "",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/musabcel/android_rom_list"
           ]
         },
         {
@@ -2262,27 +1828,13 @@
           "name": "Reincubate Camo",
           "url": "https://reincubate.com/camo/",
           "description": "Use Android as Webcam / Live Cam",
-          "starred": true
-        },
-        {
-          "name": "IP Webcam",
-          "url": "https://play.google.com/store/apps/details?id=com.pas.webcam",
-          "description": "Use Android as Webcam / Live Cam"
-        },
-        {
-          "name": "Windows Driver",
-          "url": "https://ip-webcam.appspot.com/",
-          "description": "Use Android as Webcam / Live Cam"
-        },
-        {
-          "name": "Iriun",
-          "url": "https://iriun.com/",
-          "description": "Use Android as Webcam / Live Cam"
-        },
-        {
-          "name": "DroidCam",
-          "url": "https://github.com/dev47apps/droidcam-linux-client",
-          "description": "Use Android as Webcam / Live Cam"
+          "starred": true,
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.pas.webcam",
+            "https://ip-webcam.appspot.com/",
+            "https://iriun.com/",
+            "https://github.com/dev47apps/droidcam-linux-client"
+          ]
         },
         {
           "name": "Libre Camera",
@@ -2330,12 +1882,10 @@
         {
           "name": "BarcodeScanner",
           "url": "https://gitlab.com/Atharok/BarcodeScanner",
-          "description": "QR / Barcode Scanners"
-        },
-        {
-          "name": "BinaryEye",
-          "url": "https://github.com/markusfisch/BinaryEye",
-          "description": "QR / Barcode Scanners"
+          "description": "QR / Barcode Scanners",
+          "mirrors": [
+            "https://github.com/markusfisch/BinaryEye"
+          ]
         },
         {
           "name": "TimeLapseCam",
@@ -2442,17 +1992,11 @@
         {
           "name": "Scrambled Exif",
           "url": "https://gitlab.com/juanitobananas/scrambled-exif",
-          "description": "Remove Image Metadata"
-        },
-        {
-          "name": "MetadataRemover",
-          "url": "https://github.com/Crazy-Marvin/MetadataRemover",
-          "description": "Remove Image Metadata"
-        },
-        {
-          "name": "exif-eraser",
-          "url": "https://github.com/Tommy-Geenexus/exif-eraser",
-          "description": "Remove Image Metadata"
+          "description": "Remove Image Metadata",
+          "mirrors": [
+            "https://github.com/Crazy-Marvin/MetadataRemover",
+            "https://github.com/Tommy-Geenexus/exif-eraser"
+          ]
         },
         {
           "name": "VES-Image-Compare",
@@ -2516,12 +2060,10 @@
         {
           "name": "PhotoSwooper",
           "url": "https://codeberg.org/Loowiz/PhotoSwooper",
-          "description": "Image Gallery Cleaners"
-        },
-        {
-          "name": "Sponge",
-          "url": "https://play.google.com/store/apps/details?id=com.prismtree.sponge",
-          "description": "Image Gallery Cleaners"
+          "description": "Image Gallery Cleaners",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.prismtree.sponge"
+          ]
         }
       ]
     },
@@ -2567,32 +2109,20 @@
         {
           "name": "Tooly",
           "url": "https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp",
-          "description": "Multi-Tool Apps"
-        },
-        {
-          "name": "fooView",
-          "url": "https://play.google.com/store/apps/details?id=com.fooview.android.fooview",
-          "description": "Multi-Tool Apps"
+          "description": "Multi-Tool Apps",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.fooview.android.fooview"
+          ]
         },
         {
           "name": "LightCut",
           "url": "https://play.google.com/store/apps/details?id=com.lightcut.videoeditor",
-          "description": "Video Editors"
-        },
-        {
-          "name": "⁠Lossless Video Cutter",
-          "url": "https://play.google.com/store/apps/details?id=com.losslessvideocutter",
-          "description": "Video Editors"
-        },
-        {
-          "name": "open-video-editor",
-          "url": "https://github.com/devhyper/open-video-editor",
-          "description": "Video Editors"
-        },
-        {
-          "name": "Vaux",
-          "url": "https://play.google.com/store/apps/details?id=com.vaux.vaux_editor",
-          "description": "Video Editors"
+          "description": "Video Editors",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.losslessvideocutter",
+            "https://github.com/devhyper/open-video-editor",
+            "https://play.google.com/store/apps/details?id=com.vaux.vaux_editor"
+          ]
         },
         {
           "name": "Inverse AI",
@@ -2607,27 +2137,13 @@
         {
           "name": "Shelter",
           "url": "https://gitea.angry.im/PeterCxy/Shelter",
-          "description": "Isolate / Clone Apps via Work Profiles"
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/PeterCxy/Shelter",
-          "description": "Isolate / Clone Apps via Work Profiles"
-        },
-        {
-          "name": "Island",
-          "url": "https://github.com/oasisfeng/island",
-          "description": "Isolate / Clone Apps via Work Profiles"
-        },
-        {
-          "name": "Insular",
-          "url": "https://secure-system.gitlab.io/Insular/",
-          "description": "Isolate / Clone Apps via Work Profiles"
-        },
-        {
-          "name": "GitLab",
-          "url": "https://gitlab.com/secure-system/Insular",
-          "description": "Isolate / Clone Apps via Work Profiles"
+          "description": "Isolate / Clone Apps via Work Profiles",
+          "mirrors": [
+            "https://github.com/PeterCxy/Shelter",
+            "https://github.com/oasisfeng/island",
+            "https://secure-system.gitlab.io/Insular/",
+            "https://gitlab.com/secure-system/Insular"
+          ]
         },
         {
           "name": "Geto",
@@ -2642,22 +2158,18 @@
         {
           "name": "Shortcut Maker",
           "url": "https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker",
-          "description": "Create App Shortcuts"
-        },
-        {
-          "name": "Quikshort",
-          "url": "https://play.google.com/store/apps/details?id=com.atolphadev.quikshort",
-          "description": "Create App Shortcuts"
+          "description": "Create App Shortcuts",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.atolphadev.quikshort"
+          ]
         },
         {
           "name": "Touch The Notch",
           "url": "https://play.google.com/store/apps/details?id=com.notch.touch",
-          "description": "Use Camera Notch as Button"
-        },
-        {
-          "name": "Action Notch",
-          "url": "https://play.google.com/store/apps/details?id=com.androxus.touchthenotch",
-          "description": "Use Camera Notch as Button"
+          "description": "Use Camera Notch as Button",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.androxus.touchthenotch"
+          ]
         },
         {
           "name": "⁠UbikiTouch",
@@ -2672,12 +2184,10 @@
         {
           "name": "Circle to Search",
           "url": "https://play.google.com/store/apps/details?id=com.circletosearch.android",
-          "description": "Circle to Search"
-        },
-        {
-          "name": "MiCTS",
-          "url": "https://github.com/parallelcc/MiCTS/blob/main/README_en.md",
-          "description": "Circle to Search"
+          "description": "Circle to Search",
+          "mirrors": [
+            "https://github.com/parallelcc/MiCTS/blob/main/README_en.md"
+          ]
         },
         {
           "name": "notesGPT",
@@ -2687,12 +2197,10 @@
         {
           "name": "AudioNote",
           "url": "https://certified84.github.io/AudioNote/",
-          "description": "Video / Voice Recorders"
-        },
-        {
-          "name": "⁠Fossify Voice Recorder",
-          "url": "https://github.com/FossifyOrg/Voice-Recorder",
-          "description": "Video / Voice Recorders"
+          "description": "Video / Voice Recorders",
+          "mirrors": [
+            "https://github.com/FossifyOrg/Voice-Recorder"
+          ]
         },
         {
           "name": "⁠AndroidMic",
@@ -2702,52 +2210,18 @@
         {
           "name": "ChatBox",
           "url": "https://github.com/Bin-Huang/chatbox",
-          "description": "Local AI Chatbots"
-        },
-        {
-          "name": "Rikka AI",
-          "url": "https://rikka-ai.com/",
-          "description": "Local AI Chatbots"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/9weBqxe5c4",
-          "description": "Local AI Chatbots"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/rikkahub/rikkahub",
-          "description": "Local AI Chatbots"
-        },
-        {
-          "name": "Maid",
-          "url": "https://github.com/Mobile-Artificial-Intelligence/maid",
-          "description": "Local AI Chatbots"
-        },
-        {
-          "name": "ChatterUI",
-          "url": "https://github.com/Vali-98/ChatterUI",
-          "description": "Local AI Chatbots"
-        },
-        {
-          "name": "⁠Google AI Edge Gallery",
-          "url": "https://github.com/google-ai-edge/gallery",
-          "description": "Local AI Chatbots"
-        },
-        {
-          "name": "Cherry Studio",
-          "url": "https://github.com/CherryHQ/cherry-studio-app",
-          "description": "Local AI Chatbots"
-        },
-        {
-          "name": "⁠ComfyChair",
-          "url": "https://github.com/legal-hkr/comfychair",
-          "description": "Local AI Chatbots"
-        },
-        {
-          "name": "PocketPal AI",
-          "url": "https://github.com/a-ghorbani/pocketpal-ai",
-          "description": "Local AI Chatbots"
+          "description": "Local AI Chatbots",
+          "mirrors": [
+            "https://rikka-ai.com/",
+            "https://discord.gg/9weBqxe5c4",
+            "https://github.com/rikkahub/rikkahub",
+            "https://github.com/Mobile-Artificial-Intelligence/maid",
+            "https://github.com/Vali-98/ChatterUI",
+            "https://github.com/google-ai-edge/gallery",
+            "https://github.com/CherryHQ/cherry-studio-app",
+            "https://github.com/legal-hkr/comfychair",
+            "https://github.com/a-ghorbani/pocketpal-ai"
+          ]
         },
         {
           "name": "⁠Arc",
@@ -2800,12 +2274,10 @@
         {
           "name": "Listy",
           "url": "https://listy.is/",
-          "description": "Create Lists of Anything"
-        },
-        {
-          "name": "HypeList",
-          "url": "https://hypelist.com/",
-          "description": "Create Lists of Anything"
+          "description": "Create Lists of Anything",
+          "mirrors": [
+            "https://hypelist.com/"
+          ]
         },
         {
           "name": "⁠Gameye",
@@ -2815,12 +2287,10 @@
         {
           "name": "VoiceGPT",
           "url": "https://github.com/WSTxda/Plugin-VoiceGPT",
-          "description": "Voice Assistants"
-        },
-        {
-          "name": "Dicio",
-          "url": "https://github.com/Stypox/dicio-android",
-          "description": "Voice Assistants"
+          "description": "Voice Assistants",
+          "mirrors": [
+            "https://github.com/Stypox/dicio-android"
+          ]
         },
         {
           "name": "Tunity",
@@ -2878,12 +2348,10 @@
         {
           "name": "Volumee",
           "url": "https://maslanka.app/volumee/",
-          "description": "Volume Button Track Control"
-        },
-        {
-          "name": "SoundTap",
-          "url": "https://play.google.com/store/apps/details?id=fr.angel.soundtap",
-          "description": "Volume Button Track Control"
+          "description": "Volume Button Track Control",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=fr.angel.soundtap"
+          ]
         },
         {
           "name": "VolumeLockr",
@@ -2900,17 +2368,11 @@
           "name": "Rethink DNS",
           "url": "https://rethinkdns.com/app",
           "description": "DNS Adblockers",
-          "starred": true
-        },
-        {
-          "name": "Blocklists",
-          "url": "https://rethinkdns.com/app#blocklists",
-          "description": "DNS Adblockers"
-        },
-        {
-          "name": "personalDNSfilter",
-          "url": "https://www.zenz-solutions.de/personaldnsfilter-wp/",
-          "description": "DNS Adblockers"
+          "starred": true,
+          "mirrors": [
+            "https://rethinkdns.com/app#blocklists",
+            "https://www.zenz-solutions.de/personaldnsfilter-wp/"
+          ]
         },
         {
           "name": "AdGuard Premium",
@@ -2955,17 +2417,11 @@
           "name": "Triage",
           "url": "https://tria.ge/",
           "description": "APK / URL Virus Scanners",
-          "starred": true
-        },
-        {
-          "name": "Hybrid Analysis",
-          "url": "https://hybrid-analysis.com/",
-          "description": "APK / URL Virus Scanners"
-        },
-        {
-          "name": "Pithus",
-          "url": "https://beta.pithus.org/",
-          "description": "APK / URL Virus Scanners"
+          "starred": true,
+          "mirrors": [
+            "https://hybrid-analysis.com/",
+            "https://beta.pithus.org/"
+          ]
         },
         {
           "name": "Rethink DNS",
@@ -2997,22 +2453,12 @@
           "name": "URLCheck",
           "url": "https://github.com/TrianguloY/URLCheck",
           "description": "URL Cleaners / Tracking Removal",
-          "starred": true
-        },
-        {
-          "name": "Tarnhelm",
-          "url": "https://github.com/lz233/Tarnhelm",
-          "description": "URL Cleaners / Tracking Removal"
-        },
-        {
-          "name": "LinkSheet",
-          "url": "https://github.com/LinkSheet/LinkSheet",
-          "description": "URL Cleaners / Tracking Removal"
-        },
-        {
-          "name": "Untracker",
-          "url": "https://github.com/zhanghai/Untracker",
-          "description": "URL Cleaners / Tracking Removal"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/lz233/Tarnhelm",
+            "https://github.com/LinkSheet/LinkSheet",
+            "https://github.com/zhanghai/Untracker"
+          ]
         },
         {
           "name": "Exodus",
@@ -3024,17 +2470,11 @@
           "name": "Amarok",
           "url": "https://github.com/deltazefiro/Amarok-Hider",
           "description": "Hide Files / Apps",
-          "starred": true
-        },
-        {
-          "name": "Aer",
-          "url": "https://github.com/nain-F49FF806/anemo-aer",
-          "description": "Hide Files / Apps"
-        },
-        {
-          "name": "SafeSpace",
-          "url": "https://github.com/aashishksahu/SafeSpace",
-          "description": "Hide Files / Apps"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/nain-F49FF806/anemo-aer",
+            "https://github.com/aashishksahu/SafeSpace"
+          ]
         },
         {
           "name": "InviZible",
@@ -3087,17 +2527,11 @@
         {
           "name": "TrackerControl",
           "url": "https://trackercontrol.org/",
-          "description": "Tracker Monitors / Controllers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/TrackerControl/tracker-control-android",
-          "description": "Tracker Monitors / Controllers"
-        },
-        {
-          "name": "⁠Privacy Guard",
-          "url": "https://play.google.com/store/apps/details?id=com.franko.privacyguard",
-          "description": "Tracker Monitors / Controllers"
+          "description": "Tracker Monitors / Controllers",
+          "mirrors": [
+            "https://github.com/TrackerControl/tracker-control-android",
+            "https://play.google.com/store/apps/details?id=com.franko.privacyguard"
+          ]
         },
         {
           "name": "LibChecker",
@@ -3125,12 +2559,10 @@
         {
           "name": "SimpleLogin",
           "url": "https://github.com/simple-login/Simple-Login-Android",
-          "description": "Email Forwarding"
-        },
-        {
-          "name": "AnonAddy",
-          "url": "https://gitlab.com/Stjin/anonaddy-android",
-          "description": "Email Forwarding"
+          "description": "Email Forwarding",
+          "mirrors": [
+            "https://gitlab.com/Stjin/anonaddy-android"
+          ]
         },
         {
           "name": "Keyoxide",
@@ -3162,114 +2594,50 @@
           "name": "KeePassDX",
           "url": "https://www.keepassdx.com/",
           "description": "Password Managers",
-          "starred": true
-        },
-        {
-          "name": "Bitwarden",
-          "url": "https://play.google.com/store/apps/details?id=com.x8bit.bitwarden",
-          "description": "Password Managers"
-        },
-        {
-          "name": "Alt Client",
-          "url": "https://github.com/AChep/keyguard-app",
-          "description": "Password Managers"
-        },
-        {
-          "name": "X",
-          "url": "https://twitter.com/bitwarden",
-          "description": "Password Managers"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://reddit.com/r/bitwarden",
-          "description": "Password Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/bitwarden",
-          "description": "Password Managers"
-        },
-        {
-          "name": "Proton Pass",
-          "url": "https://proton.me/pass",
-          "description": "Password Managers"
-        },
-        {
-          "name": "AuthPass",
-          "url": "https://authpass.app/",
-          "description": "Password Managers"
-        },
-        {
-          "name": "KeyPass",
-          "url": "https://github.com/yogeshpaliyal/KeyPass",
-          "description": "Password Managers"
-        },
-        {
-          "name": "Keepass2Android",
-          "url": "https://play.google.com/store/apps/details?id=keepass2android.keepass2android",
-          "description": "Password Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/PhilippC/keepass2android",
-          "description": "Password Managers"
+          "starred": true,
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.x8bit.bitwarden",
+            "https://github.com/AChep/keyguard-app",
+            "https://twitter.com/bitwarden",
+            "https://reddit.com/r/bitwarden",
+            "https://github.com/bitwarden",
+            "https://proton.me/pass",
+            "https://authpass.app/",
+            "https://github.com/yogeshpaliyal/KeyPass",
+            "https://play.google.com/store/apps/details?id=keepass2android.keepass2android",
+            "https://github.com/PhilippC/keepass2android"
+          ]
         },
         {
           "name": "Thunderbird",
           "url": "https://www.thunderbird.net/en-US/mobile/",
           "description": "Email Clients",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/thunderbird/thunderbird-android",
-          "description": "Email Clients"
-        },
-        {
-          "name": "Note",
-          "url": "https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#thunderbird",
-          "description": "Email Clients"
-        },
-        {
-          "name": "Monocles",
-          "url": "https://f-droid.org/packages/de.monocles.mail/",
-          "description": "Email Clients"
-        },
-        {
-          "name": "FairEmail",
-          "url": "https://email.faircode.eu/",
-          "description": "Email Clients"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/thunderbird/thunderbird-android",
+            "https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#thunderbird",
+            "https://f-droid.org/packages/de.monocles.mail/",
+            "https://email.faircode.eu/"
+          ]
         },
         {
           "name": "Network Survey",
           "url": "https://www.networksurvey.app/",
           "description": "Network Monitors",
-          "starred": true
-        },
-        {
-          "name": "PCAPdroid",
-          "url": "https://emanuele-f.github.io/PCAPdroid/",
-          "description": "Network Monitors"
-        },
-        {
-          "name": "keepitup",
-          "url": "https://github.com/ibbaa/keepitup/",
-          "description": "Network Monitors"
+          "starred": true,
+          "mirrors": [
+            "https://emanuele-f.github.io/PCAPdroid/",
+            "https://github.com/ibbaa/keepitup/"
+          ]
         },
         {
           "name": "PairVPN Hotspot",
           "url": "https://pairvpn.com/hotspot",
-          "description": "Create Wi-Fi Hotspots"
-        },
-        {
-          "name": "Tetherfi",
-          "url": "https://github.com/pyamsoft/tetherfi",
-          "description": "Create Wi-Fi Hotspots"
-        },
-        {
-          "name": "NetShare",
-          "url": "https://netshare.app/",
-          "description": "Create Wi-Fi Hotspots"
+          "description": "Create Wi-Fi Hotspots",
+          "mirrors": [
+            "https://github.com/pyamsoft/tetherfi",
+            "https://netshare.app/"
+          ]
         },
         {
           "name": "Wolfram Alpha",
@@ -3329,17 +2697,11 @@
         {
           "name": "Glasswire",
           "url": "https://play.google.com/store/apps/details?id=com.glasswire.android",
-          "description": "Data Usage Monitors"
-        },
-        {
-          "name": "⁠Traffic Light",
-          "url": "https://github.com/leekleak/traffic-light/",
-          "description": "Data Usage Monitors"
-        },
-        {
-          "name": "DataMonitor",
-          "url": "https://github.com/itsdrnoob/DataMonitor",
-          "description": "Data Usage Monitors"
+          "description": "Data Usage Monitors",
+          "mirrors": [
+            "https://github.com/leekleak/traffic-light/",
+            "https://github.com/itsdrnoob/DataMonitor"
+          ]
         },
         {
           "name": "PINCredible",
@@ -3349,27 +2711,13 @@
         {
           "name": "Bookmark Manager Zero",
           "url": "https://bmz.absolutezero.fyi/",
-          "description": "Bookmark Managers"
-        },
-        {
-          "name": "Linkora",
-          "url": "https://github.com/LinkoraApp/Linkora",
-          "description": "Bookmark Managers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/ZDBXNtv8MD",
-          "description": "Bookmark Managers"
-        },
-        {
-          "name": "Link Manager",
-          "url": "https://play.google.com/store/apps/details?id=com.michaelflisar.linkmanager",
-          "description": "Bookmark Managers"
-        },
-        {
-          "name": "Shiori",
-          "url": "https://github.com/DesarrolloAntonio/Shiori-Android-Client",
-          "description": "Bookmark Managers"
+          "description": "Bookmark Managers",
+          "mirrors": [
+            "https://github.com/LinkoraApp/Linkora",
+            "https://discord.gg/ZDBXNtv8MD",
+            "https://play.google.com/store/apps/details?id=com.michaelflisar.linkmanager",
+            "https://github.com/DesarrolloAntonio/Shiori-Android-Client"
+          ]
         },
         {
           "name": "NativeAlpha",
@@ -3394,17 +2742,11 @@
         {
           "name": "IRCCloud",
           "url": "https://github.com/irccloud/android",
-          "description": "IRC Clients"
-        },
-        {
-          "name": "Goguma",
-          "url": "https://codeberg.org/emersion/goguma",
-          "description": "IRC Clients"
-        },
-        {
-          "name": "Revolution IRC",
-          "url": "https://github.com/MCMrARM/revolution-irc",
-          "description": "IRC Clients"
+          "description": "IRC Clients",
+          "mirrors": [
+            "https://codeberg.org/emersion/goguma",
+            "https://github.com/MCMrARM/revolution-irc"
+          ]
         },
         {
           "name": "NFC Tools",
@@ -3419,32 +2761,20 @@
         {
           "name": "SubX",
           "url": "https://play.google.com/store/apps/details?id=com.alkapps.subx",
-          "description": "Track Subscription Services"
-        },
-        {
-          "name": "SubscriptionManager",
-          "url": "https://play.google.com/store/apps/details?id=de.simolation.subscriptionmanager",
-          "description": "Track Subscription Services"
+          "description": "Track Subscription Services",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=de.simolation.subscriptionmanager"
+          ]
         },
         {
           "name": "WiFiman",
           "url": "https://play.google.com/store/apps/details?id=com.ubnt.usurvey",
-          "description": "Network Scanners"
-        },
-        {
-          "name": "WiFiAnalyzer",
-          "url": "https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/",
-          "description": "Network Scanners"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer",
-          "description": "Network Scanners"
-        },
-        {
-          "name": "WLANScanner",
-          "url": "https://github.com/bewue/WLANScanner",
-          "description": "Network Scanners"
+          "description": "Network Scanners",
+          "mirrors": [
+            "https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/",
+            "https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer",
+            "https://github.com/bewue/WLANScanner"
+          ]
         },
         {
           "name": "Fing",
@@ -3585,22 +2915,12 @@
           "name": "MiXplorer",
           "url": "https://mixplorer.com/beta/",
           "description": "Advanced Root File Explorer / Manager / Themes",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://mixplorer.com/",
-          "description": "Advanced Root File Explorer / Manager / Themes"
-        },
-        {
-          "name": "3",
-          "url": "https://xdaforums.com/t/app-2-2-mixplorer-v6-x-released-fully-featured-file-manager.1523691/",
-          "description": "Advanced Root File Explorer / Manager / Themes"
-        },
-        {
-          "name": "MT Manager",
-          "url": "https://mt2.cn/",
-          "description": "Advanced Root File Explorer / Manager / Themes"
+          "starred": true,
+          "mirrors": [
+            "https://mixplorer.com/",
+            "https://xdaforums.com/t/app-2-2-mixplorer-v6-x-released-fully-featured-file-manager.1523691/",
+            "https://mt2.cn/"
+          ]
         },
         {
           "name": "SD Maid SE",
@@ -3642,27 +2962,13 @@
           "name": "Cx File Explorer",
           "url": "https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer",
           "description": "File Managers / Explorers",
-          "starred": true
-        },
-        {
-          "name": "Total Commander",
-          "url": "https://www.ghisler.com/ce.htm",
-          "description": "File Managers / Explorers"
-        },
-        {
-          "name": "File Navigator",
-          "url": "https://play.google.com/store/apps/details?id=com.w2sv.filenavigator",
-          "description": "File Managers / Explorers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/w2sv/FileNavigator",
-          "description": "File Managers / Explorers"
-        },
-        {
-          "name": "Prism File Explorer",
-          "url": "https://github.com/Raival-e/Prism-File-Explorer",
-          "description": "File Managers / Explorers"
+          "starred": true,
+          "mirrors": [
+            "https://www.ghisler.com/ce.htm",
+            "https://play.google.com/store/apps/details?id=com.w2sv.filenavigator",
+            "https://github.com/w2sv/FileNavigator",
+            "https://github.com/Raival-e/Prism-File-Explorer"
+          ]
         },
         {
           "name": "Aria2App",
@@ -3672,12 +2978,10 @@
         {
           "name": "Round Sync",
           "url": "https://github.com/newhinton/Round-Sync",
-          "description": "Multi-Site Cloud Storage File Managers"
-        },
-        {
-          "name": "MetaCTRL",
-          "url": "https://metactrl.com/",
-          "description": "Multi-Site Cloud Storage File Managers"
+          "description": "Multi-Site Cloud Storage File Managers",
+          "mirrors": [
+            "https://metactrl.com/"
+          ]
         },
         {
           "name": "AdbFileManager",
@@ -3687,12 +2991,10 @@
         {
           "name": "Dropbox",
           "url": "https://www.dropbox.com/",
-          "description": "Cloud Storage"
-        },
-        {
-          "name": "Sync",
-          "url": "https://play.google.com/store/apps/details?id=com.ttxapps.dropsync",
-          "description": "Cloud Storage"
+          "description": "Cloud Storage",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.ttxapps.dropsync"
+          ]
         },
         {
           "name": "RSAF",
@@ -3702,12 +3004,10 @@
         {
           "name": "iyox-Wormhole",
           "url": "https://github.com/iyox-studios/iyox-Wormhole",
-          "description": "File Sync / Sharing"
-        },
-        {
-          "name": "Wormhole",
-          "url": "https://gitlab.com/lukas-heiligenbrunner/wormhole",
-          "description": "File Sync / Sharing"
+          "description": "File Sync / Sharing",
+          "mirrors": [
+            "https://gitlab.com/lukas-heiligenbrunner/wormhole"
+          ]
         },
         {
           "name": "CrocGUI",
@@ -3793,27 +3093,13 @@
           "name": "Easy Notes",
           "url": "https://github.com/Kin69/EasyNotes",
           "description": "Minimalistic Note-Taking Apps",
-          "starred": true
-        },
-        {
-          "name": "Notally",
-          "url": "https://github.com/OmGodse/Notally",
-          "description": "Minimalistic Note-Taking Apps"
-        },
-        {
-          "name": "NotallyX",
-          "url": "https://github.com/PhilKes/NotallyX",
-          "description": "Minimalistic Note-Taking Apps"
-        },
-        {
-          "name": "Google Keep",
-          "url": "https://keep.google.com/",
-          "description": "Minimalistic Note-Taking Apps"
-        },
-        {
-          "name": "ColorNote",
-          "url": "https://www.colornote.com/",
-          "description": "Minimalistic Note-Taking Apps"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/OmGodse/Notally",
+            "https://github.com/PhilKes/NotallyX",
+            "https://keep.google.com/",
+            "https://www.colornote.com/"
+          ]
         },
         {
           "name": "Xed-Editor",
@@ -3840,12 +3126,10 @@
           "name": "FUTO Voice",
           "url": "https://voiceinput.futo.org/",
           "description": "Voice-Input Keyboards",
-          "starred": true
-        },
-        {
-          "name": "Transcribro",
-          "url": "https://github.com/soupslurpr/Transcribro",
-          "description": "Voice-Input Keyboards"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/soupslurpr/Transcribro"
+          ]
         },
         {
           "name": "Look Up",
@@ -3881,22 +3165,18 @@
         {
           "name": "neutriNote",
           "url": "https://github.com/appml/neutrinote",
-          "description": "Note-Taking Apps with Markdown / Math Support"
-        },
-        {
-          "name": "OneNote",
-          "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.onenote&hl=en-us",
-          "description": "Note-Taking Apps with Markdown / Math Support"
+          "description": "Note-Taking Apps with Markdown / Math Support",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.microsoft.office.onenote&hl=en-us"
+          ]
         },
         {
           "name": "Quillpad",
           "url": "https://quillpad.github.io/",
-          "description": "Note-Taking App with Markdown Support"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/quillpad/quillpad",
-          "description": "Note-Taking App with Markdown Support"
+          "description": "Note-Taking App with Markdown Support",
+          "mirrors": [
+            "https://github.com/quillpad/quillpad"
+          ]
         },
         {
           "name": "AppFlowy",
@@ -3910,32 +3190,26 @@
         {
           "name": "Safe Notes",
           "url": "https://safenote.co/",
-          "description": "AES-256 Encrypted Note-Taking App"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/keshav-space/safenotes",
-          "description": "AES-256 Encrypted Note-Taking App"
+          "description": "AES-256 Encrypted Note-Taking App",
+          "mirrors": [
+            "https://github.com/keshav-space/safenotes"
+          ]
         },
         {
           "name": "NotePad",
           "url": "https://github.com/mshdabiola/NotePad",
-          "description": "Note-Taking Apps with Drawing"
-        },
-        {
-          "name": "Notebook",
-          "url": "https://www.zoho.com/notebook/mobile-app.html",
-          "description": "Note-Taking Apps with Drawing"
+          "description": "Note-Taking Apps with Drawing",
+          "mirrors": [
+            "https://www.zoho.com/notebook/mobile-app.html"
+          ]
         },
         {
           "name": "Walling",
           "url": "https://walling.app/",
-          "description": "Note-Taking Apps for Projects"
-        },
-        {
-          "name": "Workflowy",
-          "url": "https://play.google.com/store/apps/details?id=com.workflowy.android",
-          "description": "Note-Taking Apps for Projects"
+          "description": "Note-Taking Apps for Projects",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.workflowy.android"
+          ]
         },
         {
           "name": "Moe Memos",
@@ -3950,12 +3224,10 @@
         {
           "name": "Saber",
           "url": "https://github.com/saber-notes/saber",
-          "description": "Note-Taking Apps for Handwritten Notes"
-        },
-        {
-          "name": "Notein",
-          "url": "https://www.notein.ai/",
-          "description": "Note-Taking Apps for Handwritten Notes"
+          "description": "Note-Taking Apps for Handwritten Notes",
+          "mirrors": [
+            "https://www.notein.ai/"
+          ]
         },
         {
           "name": "Novelist",
@@ -4017,22 +3289,12 @@
         {
           "name": "DeepLAndroid",
           "url": "https://github.com/sakusaku3939/DeepLAndroid",
-          "description": "Translation Apps"
-        },
-        {
-          "name": "Kagi Translate",
-          "url": "https://play.google.com/store/apps/details?id=com.kagi.translate",
-          "description": "Translation Apps"
-        },
-        {
-          "name": "RTranslator",
-          "url": "https://github.com/niedev/RTranslator",
-          "description": "Translation Apps"
-        },
-        {
-          "name": "TranslateYou",
-          "url": "https://github.com/you-apps/TranslateYou",
-          "description": "Translation Apps"
+          "description": "Translation Apps",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.kagi.translate",
+            "https://github.com/niedev/RTranslator",
+            "https://github.com/you-apps/TranslateYou"
+          ]
         },
         {
           "name": "UnicodePad",
@@ -4071,27 +3333,13 @@
         {
           "name": "Any.do",
           "url": "https://www.any.do/",
-          "description": "To-Do Apps with Sync Support"
-        },
-        {
-          "name": "Orgzly-revived",
-          "url": "https://www.orgzlyrevived.com/",
-          "description": "To-Do Apps with Sync Support"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/orgzly-revived/orgzly-android-revived",
-          "description": "To-Do Apps with Sync Support"
-        },
-        {
-          "name": "Super Productivity",
-          "url": "https://super-productivity.com/",
-          "description": "To-Do Apps with Sync Support"
-        },
-        {
-          "name": "Taskito",
-          "url": "https://taskito.io/",
-          "description": "To-Do Apps with Sync Support"
+          "description": "To-Do Apps with Sync Support",
+          "mirrors": [
+            "https://www.orgzlyrevived.com/",
+            "https://github.com/orgzly-revived/orgzly-android-revived",
+            "https://super-productivity.com/",
+            "https://taskito.io/"
+          ]
         },
         {
           "name": "doable",
@@ -4101,17 +3349,11 @@
         {
           "name": "Alkaa",
           "url": "https://github.com/igorescodro/alkaa",
-          "description": "Simple To-Do Apps"
-        },
-        {
-          "name": "Chaos Control 2",
-          "url": "https://play.google.com/store/apps/details?id=com.tarasovmobile.cc2",
-          "description": "Simple To-Do Apps"
-        },
-        {
-          "name": "Twos",
-          "url": "https://www.twosapp.com/",
-          "description": "Simple To-Do Apps"
+          "description": "Simple To-Do Apps",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.tarasovmobile.cc2",
+            "https://www.twosapp.com/"
+          ]
         },
         {
           "name": "EverydayTasks",
@@ -4128,37 +3370,21 @@
           "name": "ntfy",
           "url": "https://ntfy.sh/",
           "description": "Custom Push Notifications",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/cT7ECsZj9w",
-          "description": "Custom Push Notifications"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/binwiederhier/ntfy",
-          "description": "Custom Push Notifications"
-        },
-        {
-          "name": "AppRise",
-          "url": "https://github.com/caronc/apprise",
-          "description": "Custom Push Notifications"
-        },
-        {
-          "name": "PingMe",
-          "url": "https://pingme.lmno.pk/",
-          "description": "Custom Push Notifications"
+          "starred": true,
+          "mirrors": [
+            "https://discord.gg/cT7ECsZj9w",
+            "https://github.com/binwiederhier/ntfy",
+            "https://github.com/caronc/apprise",
+            "https://pingme.lmno.pk/"
+          ]
         },
         {
           "name": "Compass QS Tile",
           "url": "https://github.com/WSTxda/Compass-QS-Tile",
-          "description": "Quick Setting Tiles"
-        },
-        {
-          "name": "QuickTiles",
-          "url": "https://gitlab.com/flxholle/quick-tiles",
-          "description": "Quick Setting Tiles"
+          "description": "Quick Setting Tiles",
+          "mirrors": [
+            "https://gitlab.com/flxholle/quick-tiles"
+          ]
         },
         {
           "name": "KWGT Widgets",
@@ -4200,22 +3426,12 @@
         {
           "name": "JTX",
           "url": "https://jtx.techbee.at/",
-          "description": "Calendars"
-        },
-        {
-          "name": "Etar",
-          "url": "https://github.com/Etar-Group/Etar-Calendar",
-          "description": "Calendars"
-        },
-        {
-          "name": "digical",
-          "url": "https://digibites.nl/digical",
-          "description": "Calendars"
-        },
-        {
-          "name": "TimeTreeApp",
-          "url": "https://timetreeapp.com/intl/en/",
-          "description": "Calendars"
+          "description": "Calendars",
+          "mirrors": [
+            "https://github.com/Etar-Group/Etar-Calendar",
+            "https://digibites.nl/digical",
+            "https://timetreeapp.com/intl/en/"
+          ]
         },
         {
           "name": "QRAlarm",
@@ -4235,17 +3451,11 @@
         {
           "name": "Sectograph",
           "url": "https://play.google.com/store/apps/details?id=prox.lab.calclock",
-          "description": "Planner Apps"
-        },
-        {
-          "name": "Journal it",
-          "url": "https://play.google.com/store/apps/details?id=org.de_studio.diary",
-          "description": "Planner Apps"
-        },
-        {
-          "name": "TimePlanner",
-          "url": "https://github.com/v1tzor/TimePlanner",
-          "description": "Planner Apps"
+          "description": "Planner Apps",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=org.de_studio.diary",
+            "https://github.com/v1tzor/TimePlanner"
+          ]
         },
         {
           "name": "Daily You",
@@ -4377,57 +3587,25 @@
         {
           "name": "Find My Device (FMD)",
           "url": "https://gitlab.com/fmd-foss/fmd-android",
-          "description": "Track Phones Location"
-        },
-        {
-          "name": "PhoneTrack",
-          "url": "https://github.com/julien-nc/phonetrack",
-          "description": "Track Phones Location"
-        },
-        {
-          "name": "2",
-          "url": "https://gitlab.com/eneiluj/phonetrack-android",
-          "description": "Track Phones Location"
-        },
-        {
-          "name": "AutoWhatsAppTriggers",
-          "url": "https://play.google.com/store/apps/details?id=om.roitman.autowhatsapptriggers",
-          "description": "Track Phones Location"
+          "description": "Track Phones Location",
+          "mirrors": [
+            "https://github.com/julien-nc/phonetrack",
+            "https://gitlab.com/eneiluj/phonetrack-android",
+            "https://play.google.com/store/apps/details?id=om.roitman.autowhatsapptriggers"
+          ]
         },
         {
           "name": "OwnTracks",
           "url": "https://owntracks.org/",
-          "description": "Track Own Location / GPS"
-        },
-        {
-          "name": "Hauk",
-          "url": "https://github.com/bilde2910/Hauk",
-          "description": "Track Own Location / GPS"
-        },
-        {
-          "name": "Positional",
-          "url": "https://github.com/Hamza417/Positional",
-          "description": "Track Own Location / GPS"
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/mtrewartha/positional",
-          "description": "Track Own Location / GPS"
-        },
-        {
-          "name": "GPSCockpit",
-          "url": "https://github.com/woheller69/gpscockpit",
-          "description": "Track Own Location / GPS"
-        },
-        {
-          "name": "GPSTest",
-          "url": "https://play.google.com/store/apps/details?id=com.android.gpstest",
-          "description": "Track Own Location / GPS"
-        },
-        {
-          "name": "GnssLogger",
-          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.location.gps.gnsslogger",
-          "description": "Track Own Location / GPS"
+          "description": "Track Own Location / GPS",
+          "mirrors": [
+            "https://github.com/bilde2910/Hauk",
+            "https://github.com/Hamza417/Positional",
+            "https://github.com/mtrewartha/positional",
+            "https://github.com/woheller69/gpscockpit",
+            "https://play.google.com/store/apps/details?id=com.android.gpstest",
+            "https://play.google.com/store/apps/details?id=com.google.android.apps.location.gps.gnsslogger"
+          ]
         },
         {
           "name": "Android-Mock-Location",
@@ -4521,12 +3699,12 @@
         {
           "name": "AccuWeather",
           "url": "https://app.accuweather.com/app-download",
-          "description": ""
+          "description": "(search)"
         },
         {
           "name": "Features",
           "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
-          "description": ""
+          "description": "(search)"
         },
         {
           "name": "Rain",
@@ -4546,7 +3724,7 @@
         {
           "name": "Meteored",
           "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
-          "description": ""
+          "description": "(search)"
         },
         {
           "name": "Overmorrow",
@@ -4580,14 +3758,9 @@
           "description": "",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Frontends",
-          "url": "https://emulation.gametechwiki.com/index.php/Emulators_on_Android#Launcher_Frontends",
-          "description": "",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://emulation.gametechwiki.com/index.php/Emulators_on_Android#Launcher_Frontends"
           ]
         },
         {
@@ -4620,12 +3793,10 @@
         {
           "name": "Limbo",
           "url": "https://github.com/limboemu/limbo",
-          "description": "Windows Emulator on Android / Terminal Emulators / OS Environments"
-        },
-        {
-          "name": "TermOne Plus",
-          "url": "https://termoneplus.com/",
-          "description": "Windows Emulator on Android / Terminal Emulators / OS Environments"
+          "description": "Windows Emulator on Android / Terminal Emulators / OS Environments",
+          "mirrors": [
+            "https://termoneplus.com/"
+          ]
         },
         {
           "name": "Ubuntu on Android",
@@ -4667,14 +3838,9 @@
           "description": "Android Emulator Lists",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Emulator List",
-          "url": "https://platinmods.com/threads/list-of-x86-android-emulators-for-pc.40529/",
-          "description": "Android Emulator Lists",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://platinmods.com/threads/list-of-x86-android-emulators-for-pc.40529/"
           ]
         },
         {
@@ -4835,12 +4001,10 @@
           "name": "Legado",
           "url": "https://github.com/gedoor/legado/blob/master/English.md",
           "description": "Ebook Reader",
-          "starred": true
-        },
-        {
-          "name": "Legado MD3",
-          "url": "https://github.com/HapeLee/legado-with-MD3/releases",
-          "description": "Ebook Reader"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/HapeLee/legado-with-MD3/releases"
+          ]
         },
         {
           "name": "Readera",
@@ -4942,17 +4106,11 @@
         {
           "name": "Openreads",
           "url": "https://github.com/mateusz-bak/openreads",
-          "description": "Book Managers / Trackers"
-        },
-        {
-          "name": "NeverTooManyBooks",
-          "url": "https://github.com/tfonteyn/NeverTooManyBooks",
-          "description": "Book Managers / Trackers"
-        },
-        {
-          "name": "Basmo",
-          "url": "https://basmo.app/",
-          "description": "Book Managers / Trackers"
+          "description": "Book Managers / Trackers",
+          "mirrors": [
+            "https://github.com/tfonteyn/NeverTooManyBooks",
+            "https://basmo.app/"
+          ]
         },
         {
           "name": "Wikipedia",
@@ -4967,32 +4125,20 @@
         {
           "name": "ComicScreen",
           "url": "https://play.google.com/store/apps/details?id=com.viewer.comicscreen",
-          "description": "Comic Readers"
-        },
-        {
-          "name": "Bubble2",
-          "url": "https://github.com/edeso/bubble2",
-          "description": "Comic Readers"
+          "description": "Comic Readers",
+          "mirrors": [
+            "https://github.com/edeso/bubble2"
+          ]
         },
         {
           "name": "LNReader",
           "url": "https://github.com/LNReader/lnreader",
-          "description": "Light Novels"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/QdcWN4MD63",
-          "description": "Light Novels"
-        },
-        {
-          "name": "Ranobe",
-          "url": "https://github.com/ranobe-org/ranobe",
-          "description": "Light Novels"
-        },
-        {
-          "name": "IReader",
-          "url": "https://ireaderorg.netlify.app/",
-          "description": "Light Novels"
+          "description": "Light Novels",
+          "mirrors": [
+            "https://discord.com/invite/QdcWN4MD63",
+            "https://github.com/ranobe-org/ranobe",
+            "https://ireaderorg.netlify.app/"
+          ]
         },
         {
           "name": "SoftGoods",
@@ -5075,12 +4221,10 @@
           "name": "Seal",
           "url": "https://github.com/JunkFood02/Seal",
           "description": "Multi-Site Audio Downloader",
-          "starred": true
-        },
-        {
-          "name": "⁠Seal+",
-          "url": "https://github.com/MaheshTechnicals/Sealplus",
-          "description": "Multi-Site Audio Downloader"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/MaheshTechnicals/Sealplus"
+          ]
         },
         {
           "name": "ytdlnis",
@@ -5171,17 +4315,11 @@
           "name": "CApod",
           "url": "https://github.com/d4rken-org/capod",
           "description": "AirPod Monitors / Battery Trackers",
-          "starred": true
-        },
-        {
-          "name": "OpenPods",
-          "url": "https://github.com/adolfintel/OpenPods",
-          "description": "AirPod Monitors / Battery Trackers"
-        },
-        {
-          "name": "MaterialPods",
-          "url": "https://play.google.com/store/apps/details?id=com.pryshedko.materialpods",
-          "description": "AirPod Monitors / Battery Trackers"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/adolfintel/OpenPods",
+            "https://play.google.com/store/apps/details?id=com.pryshedko.materialpods"
+          ]
         },
         {
           "name": "Modded Spotify",
@@ -5196,37 +4334,27 @@
         {
           "name": "SongSync",
           "url": "https://github.com/Lambada10/SongSync",
-          "description": "Lyrics Apps"
-        },
-        {
-          "name": "Lyricify",
-          "url": "https://github.com/AmanRajAryan/Lyricify",
-          "description": "Lyrics Apps"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/Lyricfy",
-          "description": "Lyrics Apps"
+          "description": "Lyrics Apps",
+          "mirrors": [
+            "https://github.com/AmanRajAryan/Lyricify",
+            "https://t.me/Lyricfy"
+          ]
         },
         {
           "name": "FastLyrics",
           "url": "https://github.com/TecCheck/FastLyrics",
-          "description": "Live Lyrics Apps"
-        },
-        {
-          "name": "Rush",
-          "url": "https://github.com/shub39/Rush",
-          "description": "Live Lyrics Apps"
+          "description": "Live Lyrics Apps",
+          "mirrors": [
+            "https://github.com/shub39/Rush"
+          ]
         },
         {
           "name": "ListenBrainz",
           "url": "https://github.com/metabrainz/listenbrainz-android",
-          "description": "Music Tracking / Rating"
-        },
-        {
-          "name": "MusicSearch",
-          "url": "https://github.com/lydavid/MusicSearch",
-          "description": "Music Tracking / Rating"
+          "description": "Music Tracking / Rating",
+          "mirrors": [
+            "https://github.com/lydavid/MusicSearch"
+          ]
         },
         {
           "name": "Murglar",
@@ -5259,12 +4387,10 @@
         {
           "name": "Saturn",
           "url": "https://github.com/Sheathed/Saturn",
-          "description": "Deezer / FLAC / Requires Premium (Firehawk52)"
-        },
-        {
-          "name": "Refreezer",
-          "url": "https://github.com/DJDoubleD/refreezer",
-          "description": "Deezer / FLAC / Requires Premium (Firehawk52)"
+          "description": "Deezer / FLAC / Requires Premium (Firehawk52)",
+          "mirrors": [
+            "https://github.com/DJDoubleD/refreezer"
+          ]
         },
         {
           "name": "Trebel",
@@ -5304,22 +4430,18 @@
         {
           "name": "audio-analyzer",
           "url": "https://github.com/woheller69/audio-analyzer-for-android",
-          "description": "Audio Spectrum Analyzers / Spectrograms"
-        },
-        {
-          "name": "Spectroid",
-          "url": "https://play.google.com/store/apps/details?id=org.intoorbit.spectrum",
-          "description": "Audio Spectrum Analyzers / Spectrograms"
+          "description": "Audio Spectrum Analyzers / Spectrograms",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=org.intoorbit.spectrum"
+          ]
         },
         {
           "name": "Musekit",
           "url": "https://github.com/Kwasow/Musekit",
-          "description": "Tuning Fork / Metronome"
-        },
-        {
-          "name": "Tack",
-          "url": "https://github.com/patzly/tack-android",
-          "description": "Tuning Fork / Metronome"
+          "description": "Tuning Fork / Metronome",
+          "mirrors": [
+            "https://github.com/patzly/tack-android"
+          ]
         },
         {
           "name": "Ad Silence",
@@ -5335,7 +4457,7 @@
         {
           "name": "Poweramp",
           "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
-          "description": "",
+          "description": "(search)",
           "starred": true
         },
         {
@@ -5366,17 +4488,11 @@
           "name": "tempus",
           "url": "https://github.com/eddyizm/tempus",
           "description": "Subsonic Clients / Audio Servers",
-          "starred": true
-        },
-        {
-          "name": "Ultrasonic",
-          "url": "https://gitlab.com/ultrasonic/ultrasonic",
-          "description": "Subsonic Clients / Audio Servers"
-        },
-        {
-          "name": "⁠SubstreamerApp",
-          "url": "https://substreamerapp.com/",
-          "description": "Subsonic Clients / Audio Servers"
+          "starred": true,
+          "mirrors": [
+            "https://gitlab.com/ultrasonic/ultrasonic",
+            "https://substreamerapp.com/"
+          ]
         },
         {
           "name": "AIMP",
@@ -5396,22 +4512,18 @@
         {
           "name": "Rhythm",
           "url": "https://rhythmweb.vercel.app/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/cromaguy/Rhythm",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/cromaguy/Rhythm"
+          ]
         },
         {
           "name": "Symphony",
           "url": "https://zyrouge.github.io/symphony/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/zyrouge/symphony",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/zyrouge/symphony"
+          ]
         },
         {
           "name": "Auxio",
@@ -5421,12 +4533,10 @@
         {
           "name": "Retro Music Player",
           "url": "https://retromusic.app/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/RetroMusicPlayer/RetroMusicPlayer",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/RetroMusicPlayer/RetroMusicPlayer"
+          ]
         },
         {
           "name": "mpv-android",
@@ -5469,32 +4579,20 @@
         {
           "name": "Harmonoid",
           "url": "https://harmonoid.com/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/2Rc3edFWd8",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/harmonoid/harmonoid",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.gg/2Rc3edFWd8",
+            "https://github.com/harmonoid/harmonoid"
+          ]
         },
         {
           "name": "Finamp",
           "url": "https://github.com/jmshrv/finamp",
-          "description": "Jellyfin Audio Players"
-        },
-        {
-          "name": "Fintunes",
-          "url": "https://www.fintunes.app/",
-          "description": "Jellyfin Audio Players"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/leinelissen/jellyfin-audio-player",
-          "description": "Jellyfin Audio Players"
+          "description": "Jellyfin Audio Players",
+          "mirrors": [
+            "https://www.fintunes.app/",
+            "https://github.com/leinelissen/jellyfin-audio-player"
+          ]
         }
       ]
     },
@@ -5506,17 +4604,11 @@
           "name": "Metrolist",
           "url": "https://mostafaalagamy.github.io/",
           "description": "YouTube Music Players / Innertune Forks / Audio Players",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/rJwDxXsf8c",
-          "description": "YouTube Music Players / Innertune Forks / Audio Players"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/MetrolistGroup/Metrolist",
-          "description": "YouTube Music Players / Innertune Forks / Audio Players"
+          "starred": true,
+          "mirrors": [
+            "https://discord.com/invite/rJwDxXsf8c",
+            "https://github.com/MetrolistGroup/Metrolist"
+          ]
         },
         {
           "name": "ReVanced YouTube",
@@ -5569,7 +4661,7 @@
           "description": "YouTube Music Player"
         }
       ],
-      "note": "YouTube Music has a generous free tier that allows 100,000 songs to be uploaded to the cloud without using storage quota."
+      "note": "YouTube Music has a generous 無料 tier that allows 100,000 songs to be uploaded to the cloud without using storage quota."
     },
     {
       "id": "mobile-android-podcasts-radio",
@@ -5738,17 +4830,11 @@
           "name": "Stremio",
           "url": "https://www.stremio.com/",
           "description": "Torrent Streaming / Tools",
-          "starred": true
-        },
-        {
-          "name": "Nuvio",
-          "url": "https://tapframe.github.io/NuvioMobile/",
-          "description": "Torrent Streaming / Tools"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/tapframe/NuvioMobile",
-          "description": "Torrent Streaming / Tools"
+          "starred": true,
+          "mirrors": [
+            "https://tapframe.github.io/NuvioMobile/",
+            "https://github.com/tapframe/NuvioMobile"
+          ]
         },
         {
           "name": "CloudStream",
@@ -5782,12 +4868,10 @@
           "name": "BubblesUPNP",
           "url": "https://play.google.com/store/apps/details?id=com.bubblesoft.android.bubbleupnp",
           "description": "Media Servers",
-          "starred": true
-        },
-        {
-          "name": "Macast",
-          "url": "https://xfangfang.github.io/Macast/",
-          "description": "Media Servers"
+          "starred": true,
+          "mirrors": [
+            "https://xfangfang.github.io/Macast/"
+          ]
         },
         {
           "name": "CineHD",
@@ -5923,12 +5007,10 @@
           "name": "mpvKt",
           "url": "https://github.com/abdallahmehiz/mpvKt/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Nightly Builds",
-          "url": "https://nightly.link/abdallahmehiz/mpvKt/workflows/nightlies/main",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://nightly.link/abdallahmehiz/mpvKt/workflows/nightlies/main"
+          ]
         },
         {
           "name": "mpv-android",
@@ -5961,12 +5043,12 @@
         {
           "name": "MX Player",
           "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
-          "description": ""
+          "description": "(search)"
         },
         {
           "name": "Codec",
           "url": "https://github.com/USBhost/MX_FFmpeg",
-          "description": ""
+          "description": "(search)"
         },
         {
           "name": "Nova Video Player",
@@ -6032,108 +5114,48 @@
           "name": "DailyAL",
           "url": "https://github.com/JICA98/DailyAL",
           "description": "Anime Trackers",
-          "starred": true
-        },
-        {
-          "name": "MALClient",
-          "url": "https://github.com/Drutol/MALClient",
-          "description": "Anime Trackers"
-        },
-        {
-          "name": "AL-chan",
-          "url": "https://zend10.github.io/AL-chan/",
-          "description": "Anime Trackers"
-        },
-        {
-          "name": "Nekome",
-          "url": "https://github.com/Chesire/Nekome",
-          "description": "Anime Trackers"
-        },
-        {
-          "name": "Moelist",
-          "url": "https://moelist.net/",
-          "description": "Anime Trackers"
-        },
-        {
-          "name": "Kitsune",
-          "url": "https://github.com/Drumber/Kitsune",
-          "description": "Anime Trackers"
-        },
-        {
-          "name": "AniTrend",
-          "url": "https://anitrend.co/",
-          "description": "Anime Trackers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/AniTrend/anitrend-app",
-          "description": "Anime Trackers"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/Drutol/MALClient",
+            "https://zend10.github.io/AL-chan/",
+            "https://github.com/Chesire/Nekome",
+            "https://moelist.net/",
+            "https://github.com/Drumber/Kitsune",
+            "https://anitrend.co/",
+            "https://github.com/AniTrend/anitrend-app"
+          ]
         },
         {
           "name": "Aniyomi",
           "url": "https://aniyomi.org/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/aniyomiorg/aniyomi",
-          "description": ""
-        },
-        {
-          "name": "Anikku",
-          "url": "https://github.com/komikku-app/anikku",
-          "description": ""
-        },
-        {
-          "name": "Extension Guide",
-          "url": "https://wotaku.wiki/guides/ext/mihon",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/F32UjdJZrR",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/aniyomiorg/aniyomi",
+            "https://github.com/komikku-app/anikku",
+            "https://wotaku.wiki/guides/ext/mihon",
+            "https://discord.gg/F32UjdJZrR"
+          ]
         },
         {
           "name": "AnymeX",
           "url": "https://anymex.vercel.app/",
-          "description": ""
-        },
-        {
-          "name": "Extension Guide",
-          "url": "https://wotaku.wiki/guides/ext/mangayomi",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/EjfBuYahsP",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/RyanYuuki/AnymeX",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://wotaku.wiki/guides/ext/mangayomi",
+            "https://discord.com/invite/EjfBuYahsP",
+            "https://github.com/RyanYuuki/AnymeX"
+          ]
         },
         {
           "name": "Dantotsu",
           "url": "https://discord.com/invite/4HPZ5nAWwM",
-          "description": ""
-        },
-        {
-          "name": "Extension Guide",
-          "url": "https://wotaku.wiki/guides/ext/mihon",
-          "description": ""
-        },
-        {
-          "name": "Source Code",
-          "url": "https://git.rebelonion.dev/rebelonion/Dantotsu/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/+gzBCQExtLQo1YTNh",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://wotaku.wiki/guides/ext/mihon",
+            "https://git.rebelonion.dev/rebelonion/Dantotsu/",
+            "https://t.me/+gzBCQExtLQo1YTNh"
+          ]
         },
         {
           "name": "AniLab",
@@ -6333,12 +5355,10 @@
         {
           "name": "SkyTube",
           "url": "https://github.com/SkyTubeTeam/SkyTube",
-          "description": "YouTube Player"
-        },
-        {
-          "name": "⁠SkyTubeLegacy",
-          "url": "https://github.com/SkyTubeTeam/SkyTubeLegacy",
-          "description": "YouTube Player"
+          "description": "YouTube Player",
+          "mirrors": [
+            "https://github.com/SkyTubeTeam/SkyTubeLegacy"
+          ]
         },
         {
           "name": "BravePipe",
@@ -6354,37 +5374,15 @@
           "name": "Bitwarden",
           "url": "https://bitwarden.com/download/apple-iphone-password-manager/",
           "description": "Password Managers",
-          "starred": true
-        },
-        {
-          "name": "X",
-          "url": "https://twitter.com/bitwarden",
-          "description": "Password Managers"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://reddit.com/r/bitwarden",
-          "description": "Password Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/bitwarden",
-          "description": "Password Managers"
-        },
-        {
-          "name": "Keepassium",
-          "url": "https://keepassium.com/",
-          "description": "Password Managers"
-        },
-        {
-          "name": "AuthPass",
-          "url": "https://authpass.app/",
-          "description": "Password Managers"
-        },
-        {
-          "name": "Strongbox",
-          "url": "https://strongboxsafe.com/",
-          "description": "Password Managers"
+          "starred": true,
+          "mirrors": [
+            "https://twitter.com/bitwarden",
+            "https://reddit.com/r/bitwarden",
+            "https://github.com/bitwarden",
+            "https://keepassium.com/",
+            "https://authpass.app/",
+            "https://strongboxsafe.com/"
+          ]
         },
         {
           "name": "PairVPN Hotspot",
@@ -6396,32 +5394,20 @@
           "name": "Reincubate Camo",
           "url": "https://reincubate.com/camo/",
           "description": "Use iOS Device as Webcam",
-          "starred": true
-        },
-        {
-          "name": "Iriun",
-          "url": "https://iriun.com/",
-          "description": "Use iOS Device as Webcam"
+          "starred": true,
+          "mirrors": [
+            "https://iriun.com/"
+          ]
         },
         {
           "name": "iTorrent",
           "url": "https://github.com/XITRIX/iTorrent",
-          "description": "Torrent Clients"
-        },
-        {
-          "name": "AltStore",
-          "url": "https://therealfoxster.github.io/altsource-viewer/view/?source=https://xitrix.github.io/iTorrent/AltStore.json",
-          "description": "Torrent Clients"
-        },
-        {
-          "name": "PikaTorrent",
-          "url": "https://www.pikatorrent.com/",
-          "description": "Torrent Clients"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/G-Ray/pikatorrent",
-          "description": "Torrent Clients"
+          "description": "Torrent Clients",
+          "mirrors": [
+            "https://therealfoxster.github.io/altsource-viewer/view/?source=https://xitrix.github.io/iTorrent/AltStore.json",
+            "https://www.pikatorrent.com/",
+            "https://github.com/G-Ray/pikatorrent"
+          ]
         },
         {
           "name": "⁠iDescriptor",
@@ -6441,67 +5427,39 @@
         {
           "name": "FreshWalls",
           "url": "https://apps.apple.com/app/id1627085956",
-          "description": "iPhone Wallpapers"
-        },
-        {
-          "name": "iOS Wallpapers",
-          "url": "https://goo.gl/photos/ZVpabTtcezd35XBa9/",
-          "description": "iPhone Wallpapers"
+          "description": "iPhone Wallpapers",
+          "mirrors": [
+            "https://goo.gl/photos/ZVpabTtcezd35XBa9/"
+          ]
         },
         {
           "name": "ChatGPT",
           "url": "https://apps.apple.com/app/id6448311069",
-          "description": "AI Chatbots"
-        },
-        {
-          "name": "Gemini",
-          "url": "https://apps.apple.com/us/app/google-gemini/id6477489729",
-          "description": "AI Chatbots"
-        },
-        {
-          "name": "DeepSeek",
-          "url": "https://apps.apple.com/us/app/deepseek-ai-assistant/id6737597349",
-          "description": "AI Chatbots"
-        },
-        {
-          "name": "Mollama",
-          "url": "https://apps.apple.com/app/mollama/id6736948278",
-          "description": "AI Chatbots"
-        },
-        {
-          "name": "ChatBox",
-          "url": "https://github.com/Bin-Huang/chatbox",
-          "description": "AI Chatbots"
-        },
-        {
-          "name": "FullMoon",
-          "url": "https://fullmoon.app/",
-          "description": "AI Chatbots"
-        },
-        {
-          "name": "PocketPal AI",
-          "url": "https://github.com/a-ghorbani/pocketpal-ai",
-          "description": "AI Chatbots"
+          "description": "AI Chatbots",
+          "mirrors": [
+            "https://apps.apple.com/us/app/google-gemini/id6477489729",
+            "https://apps.apple.com/us/app/deepseek-ai-assistant/id6737597349",
+            "https://apps.apple.com/app/mollama/id6736948278",
+            "https://github.com/Bin-Huang/chatbox",
+            "https://fullmoon.app/",
+            "https://github.com/a-ghorbani/pocketpal-ai"
+          ]
         },
         {
           "name": "Santander",
           "url": "https://github.com/NSAntoine/Santander",
-          "description": "File Managers"
-        },
-        {
-          "name": "Documents",
-          "url": "https://apps.apple.com/app/documents-file-manager-docs/id364901807",
-          "description": "File Managers"
+          "description": "File Managers",
+          "mirrors": [
+            "https://apps.apple.com/app/documents-file-manager-docs/id364901807"
+          ]
         },
         {
           "name": "ZArchiver",
           "url": "https://apps.apple.com/app/id6504976055",
-          "description": "File Archiver"
-        },
-        {
-          "name": "Keka",
-          "url": "https://testflight.apple.com/join/gPYINGCJ",
-          "description": "File Archiver"
+          "description": "File Archiver",
+          "mirrors": [
+            "https://testflight.apple.com/join/gPYINGCJ"
+          ]
         },
         {
           "name": "Blip",
@@ -6526,62 +5484,38 @@
         {
           "name": "PancakeStore",
           "url": "https://github.com/jailbreakdotparty/PancakeStore",
-          "description": "iOS App Downgraders"
-        },
-        {
-          "name": "MuffinStore",
-          "url": "https://github.com/mineek/MuffinStore",
-          "description": "iOS App Downgraders"
-        },
-        {
-          "name": "Downgrade Apps",
-          "url": "https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/",
-          "description": "iOS App Downgraders"
+          "description": "iOS App Downgraders",
+          "mirrors": [
+            "https://github.com/mineek/MuffinStore",
+            "https://github.com/qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy/"
+          ]
         },
         {
           "name": "Drafts",
           "url": "https://getdrafts.com/",
-          "description": "Note-Taking / Text Editors"
-        },
-        {
-          "name": "Strflow",
-          "url": "https://strflow.app/",
-          "description": "Note-Taking / Text Editors"
-        },
-        {
-          "name": "FreeNotes",
-          "url": "https://apps.apple.com/app/id6464237904",
-          "description": "Note-Taking / Text Editors"
-        },
-        {
-          "name": "Bear",
-          "url": "https://bear.app/",
-          "description": "Note-Taking / Text Editors"
+          "description": "Note-Taking / Text Editors",
+          "mirrors": [
+            "https://strflow.app/",
+            "https://apps.apple.com/app/id6464237904",
+            "https://bear.app/"
+          ]
         },
         {
           "name": "Noteful",
           "url": "https://apps.apple.com/app/id1587904334",
-          "description": "PDF Note-Taking"
-        },
-        {
-          "name": "Highlights",
-          "url": "https://highlightsapp.net/",
-          "description": "PDF Note-Taking"
+          "description": "PDF Note-Taking",
+          "mirrors": [
+            "https://highlightsapp.net/"
+          ]
         },
         {
           "name": "iSH Shell",
           "url": "https://ish.app/",
-          "description": "Terminal Emulators"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ish-app/ish",
-          "description": "Terminal Emulators"
-        },
-        {
-          "name": "a-Shell",
-          "url": "https://holzschu.github.io/a-Shell_iOS/",
-          "description": "Terminal Emulators"
+          "description": "Terminal Emulators",
+          "mirrors": [
+            "https://github.com/ish-app/ish",
+            "https://holzschu.github.io/a-Shell_iOS/"
+          ]
         },
         {
           "name": "Local Time Generator",
@@ -6621,37 +5555,21 @@
         {
           "name": "PureKFD",
           "url": "https://github.com/Lrdsnow/PureKFD",
-          "description": "iOS Customization Apps"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/cCSwxqdvzx",
-          "description": "iOS Customization Apps"
-        },
-        {
-          "name": "Misaka",
-          "url": "https://github.com/straight-tamago/misaka",
-          "description": "iOS Customization Apps"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/mVrPxY3X6W",
-          "description": "iOS Customization Apps"
+          "description": "iOS Customization Apps",
+          "mirrors": [
+            "https://discord.gg/cCSwxqdvzx",
+            "https://github.com/straight-tamago/misaka",
+            "https://discord.gg/mVrPxY3X6W"
+          ]
         },
         {
           "name": "iSkin",
           "url": "https://iskin.tooliphone.net/",
-          "description": "iOS Themes"
-        },
-        {
-          "name": "r/iOSsetups",
-          "url": "https://www.reddit.com/r/iOSsetups/",
-          "description": "iOS Themes"
-        },
-        {
-          "name": "r/iOSthemes",
-          "url": "https://www.reddit.com/r/iOSthemes/",
-          "description": "iOS Themes"
+          "description": "iOS Themes",
+          "mirrors": [
+            "https://www.reddit.com/r/iOSsetups/",
+            "https://www.reddit.com/r/iOSthemes/"
+          ]
         },
         {
           "name": "iCustom",
@@ -6666,22 +5584,18 @@
         {
           "name": "Color Widgets",
           "url": "https://apps.apple.com/app/id1531594277",
-          "description": "iOS Widgets"
-        },
-        {
-          "name": "WidgetSmith",
-          "url": "https://apps.apple.com/app/id1523682319",
-          "description": "iOS Widgets"
+          "description": "iOS Widgets",
+          "mirrors": [
+            "https://apps.apple.com/app/id1523682319"
+          ]
         },
         {
           "name": "YT-DLP",
           "url": "https://mcgaritydotme.notion.site/Using-yt-dlp-to-download-YouTube-content-on-an-iPad-16d0f4bcaf524d41a92a0d714d4bd100",
-          "description": "YouTube Downloaders"
-        },
-        {
-          "name": "YouDown",
-          "url": "https://apps.apple.com/app/id1487658334",
-          "description": "YouTube Downloaders"
+          "description": "YouTube Downloaders",
+          "mirrors": [
+            "https://apps.apple.com/app/id1487658334"
+          ]
         },
         {
           "name": "Keynote",
@@ -6696,32 +5610,20 @@
         {
           "name": "⁠Particle",
           "url": "https://particle.news/",
-          "description": "News Aggregation Apps"
-        },
-        {
-          "name": "Quill News Digest",
-          "url": "https://quillnewsdigest.com/",
-          "description": "News Aggregation Apps"
+          "description": "News Aggregation Apps",
+          "mirrors": [
+            "https://quillnewsdigest.com/"
+          ]
         },
         {
           "name": "Fiery Feeds",
           "url": "https://apps.apple.com/app/id1158763303",
-          "description": "RSS Reader"
-        },
-        {
-          "name": "Feeeed",
-          "url": "https://apps.apple.com/app/id1600187490",
-          "description": "RSS Reader"
-        },
-        {
-          "name": "Reeder",
-          "url": "https://reederapp.com/",
-          "description": "RSS Reader"
-        },
-        {
-          "name": "NetNewsWire",
-          "url": "https://apps.apple.com/app/id1480640210",
-          "description": "RSS Reader"
+          "description": "RSS Reader",
+          "mirrors": [
+            "https://apps.apple.com/app/id1600187490",
+            "https://reederapp.com/",
+            "https://apps.apple.com/app/id1480640210"
+          ]
         },
         {
           "name": "Read Aloud AI",
@@ -6805,12 +5707,10 @@
         {
           "name": "Plinky",
           "url": "https://www.plinky.app/",
-          "description": "Bookmark Managers"
-        },
-        {
-          "name": "DoMarks",
-          "url": "https://www.domarks.app/",
-          "description": "Bookmark Managers"
+          "description": "Bookmark Managers",
+          "mirrors": [
+            "https://www.domarks.app/"
+          ]
         },
         {
           "name": "⁠Clean Links",
@@ -6820,12 +5720,10 @@
         {
           "name": "Kagi Translate",
           "url": "https://apps.apple.com/app/kagi-translate/id6748310237",
-          "description": "Translation Apps"
-        },
-        {
-          "name": "TranslatedLabs",
-          "url": "https://translatedlabs.com/",
-          "description": "Translation Apps"
+          "description": "Translation Apps",
+          "mirrors": [
+            "https://translatedlabs.com/"
+          ]
         },
         {
           "name": "Microsoft Lens",
@@ -6840,12 +5738,10 @@
         {
           "name": "Microsoft To Do",
           "url": "https://to-do.office.com/",
-          "description": "To-Do Apps"
-        },
-        {
-          "name": "Twodos",
-          "url": "https://apps.apple.com/app/id6463499163",
-          "description": "To-Do Apps"
+          "description": "To-Do Apps",
+          "mirrors": [
+            "https://apps.apple.com/app/id6463499163"
+          ]
         },
         {
           "name": "Journal it",
@@ -6855,17 +5751,11 @@
         {
           "name": "Success",
           "url": "https://apps.apple.com/app/id1544852780",
-          "description": "Productivity Booster / Habit Trackers"
-        },
-        {
-          "name": "Table Habit",
-          "url": "https://github.com/FriesI23/mhabit",
-          "description": "Productivity Booster / Habit Trackers"
-        },
-        {
-          "name": "(Not Boring) Habits",
-          "url": "https://apps.apple.com/app/id1593891243",
-          "description": "Productivity Booster / Habit Trackers"
+          "description": "Productivity Booster / Habit Trackers",
+          "mirrors": [
+            "https://github.com/FriesI23/mhabit",
+            "https://apps.apple.com/app/id1593891243"
+          ]
         },
         {
           "name": "⁠Apple Config Guide",
@@ -6880,12 +5770,10 @@
         {
           "name": "Parcel",
           "url": "https://apps.apple.com/app/id375589283",
-          "description": "Delivery Tracker"
-        },
-        {
-          "name": "Aftership",
-          "url": "https://apps.apple.com/app/id507014023",
-          "description": "Delivery Tracker"
+          "description": "Delivery Tracker",
+          "mirrors": [
+            "https://apps.apple.com/app/id507014023"
+          ]
         },
         {
           "name": "KeyPad",
@@ -6904,22 +5792,10 @@
           "description": "Jailbreaking Tool Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Jailbreaks.app",
-          "url": "https://jailbreaks.app/",
-          "description": "Jailbreaking Tool Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Jailbreak Chart",
-          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRXcZDsbk2j_AL5YCPnwAp6Ovf5xmLRwNK2wXrwGN__FCbkGWz6Be4l5JyHxEOyogjPnVl51nrDVOcC/pubhtml",
-          "description": "Jailbreaking Tool Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://jailbreaks.app/",
+            "https://docs.google.com/spreadsheets/d/e/2PACX-1vRXcZDsbk2j_AL5YCPnwAp6Ovf5xmLRwNK2wXrwGN__FCbkGWz6Be4l5JyHxEOyogjPnVl51nrDVOcC/pubhtml"
           ]
         },
         {
@@ -6944,14 +5820,9 @@
           "description": "Cracked Tweaks Repository",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "⁠CyPwn Repo",
-          "url": "https://repo.cypwn.xyz/",
-          "description": "Cracked Tweaks Repository",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://repo.cypwn.xyz/"
           ]
         },
         {
@@ -7182,12 +6053,10 @@
         {
           "name": "Sileo",
           "url": "https://getsileo.app/",
-          "description": "iOS Package Managers"
-        },
-        {
-          "name": "Zebra",
-          "url": "https://getzbra.com/",
-          "description": "iOS Package Managers"
+          "description": "iOS Package Managers",
+          "mirrors": [
+            "https://getzbra.com/"
+          ]
         },
         {
           "name": "Repo Updates",
@@ -7212,12 +6081,10 @@
         {
           "name": "OneJailbreak",
           "url": "https://onejailbreak.com/",
-          "description": "Jailbreak News"
-        },
-        {
-          "name": "iDownload",
-          "url": "https://www.idownloadblog.com/tag/jailbreak/",
-          "description": "Jailbreak News"
+          "description": "Jailbreak News",
+          "mirrors": [
+            "https://www.idownloadblog.com/tag/jailbreak/"
+          ]
         }
       ]
     },
@@ -7229,17 +6096,11 @@
           "name": "Sideloading Guide",
           "url": "https://rentry.co/sideloadingguide",
           "description": "Sideloading Guides",
-          "starred": true
-        },
-        {
-          "name": "ios.cfw.guide",
-          "url": "https://ios.cfw.guide/sideloading-apps/",
-          "description": "Sideloading Guides"
-        },
-        {
-          "name": "Avieshek's Guide",
-          "url": "https://avieshek.wordpress.com/2024/06/11/how-to-sideload-on-ios/",
-          "description": "Sideloading Guides"
+          "starred": true,
+          "mirrors": [
+            "https://ios.cfw.guide/sideloading-apps/",
+            "https://avieshek.wordpress.com/2024/06/11/how-to-sideload-on-ios/"
+          ]
         },
         {
           "name": "TrollStore",
@@ -7376,12 +6237,10 @@
         {
           "name": "Brave",
           "url": "https://apps.apple.com/app/id1052879175",
-          "description": "Privacy-Focused Browsers"
-        },
-        {
-          "name": "Firefox Focus",
-          "url": "https://apps.apple.com/app/id1055677337",
-          "description": "Privacy-Focused Browsers"
+          "description": "Privacy-Focused Browsers",
+          "mirrors": [
+            "https://apps.apple.com/app/id1055677337"
+          ]
         },
         {
           "name": "DNSecure",
@@ -7420,30 +6279,11 @@
           "description": "TestFlight App Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "⁠Departures",
-          "url": "https://departures.to/",
-          "description": "TestFlight App Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "TestFlightLinks",
-          "url": "https://t.me/testflightlinks",
-          "description": "TestFlight App Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "TestFlight Spreadsheet",
-          "url": "https://docs.google.com/spreadsheets/d/1Uej3AQPxRcLRXnmthUXR-7oGkNV_GsMFgCoNnuPtSwI/",
-          "description": "TestFlight App Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://departures.to/",
+            "https://t.me/testflightlinks",
+            "https://docs.google.com/spreadsheets/d/1Uej3AQPxRcLRXnmthUXR-7oGkNV_GsMFgCoNnuPtSwI/"
           ]
         },
         {
@@ -7466,17 +6306,11 @@
           "name": "CodeVN",
           "url": "https://ios.codevn.net/",
           "description": "Tweaked Apps / Use Orion to Translate",
-          "starred": true
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/+1qK9KUZlfGs3ZDg1",
-          "description": "Tweaked Apps / Use Orion to Translate"
-        },
-        {
-          "name": "IPALibrary",
-          "url": "https://ipalibrary.me/",
-          "description": "Tweaked Apps / Use Orion to Translate"
+          "starred": true,
+          "mirrors": [
+            "https://t.me/+1qK9KUZlfGs3ZDg1",
+            "https://ipalibrary.me/"
+          ]
         },
         {
           "name": "4PDA",
@@ -7552,27 +6386,13 @@
         {
           "name": "Decrypted App Store",
           "url": "https://armconverter.com/decryptedappstore",
-          "description": "Decrypted iOS Apps"
-        },
-        {
-          "name": "AnyIPA",
-          "url": "https://anyipa.me/",
-          "description": "Decrypted iOS Apps"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/AnyIPAme",
-          "description": "Decrypted iOS Apps"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/c233DYUzsw",
-          "description": "Decrypted iOS Apps"
-        },
-        {
-          "name": "decrypt.day",
-          "url": "https://decrypt.day/",
-          "description": "Decrypted iOS Apps"
+          "description": "Decrypted iOS Apps",
+          "mirrors": [
+            "https://anyipa.me/",
+            "https://t.me/AnyIPAme",
+            "https://discord.gg/c233DYUzsw",
+            "https://decrypt.day/"
+          ]
         },
         {
           "name": "AppSnake",
@@ -7671,131 +6491,68 @@
           "name": "Acorn",
           "url": "https://acorn.blue/",
           "description": "Reddit Clients",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/sWzw5GU5RV",
-          "description": "Reddit Clients"
-        },
-        {
-          "name": "RedditFilter",
-          "url": "https://github.com/level3tjg/RedditFilter",
-          "description": "Reddit Clients"
-        },
-        {
-          "name": "Note",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/redditfilter-note.md",
-          "description": "Reddit Clients"
-        },
-        {
-          "name": "Apollo",
-          "url": "https://github.com/Balackburn/Apollo",
-          "description": "Reddit Clients"
-        },
-        {
-          "name": "Tweak",
-          "url": "https://github.com/JeffreyCA/Apollo-ImprovedCustomApi",
-          "description": "Reddit Clients"
-        },
-        {
-          "name": "Lurker",
-          "url": "https://apps.apple.com/app/lurkur-for-reddit/id6470203216",
-          "description": "Reddit Clients"
-        },
-        {
-          "name": "RDX",
-          "url": "https://apps.apple.com/app/rdx-for-reddit/id6503479190",
-          "description": "Reddit Clients"
+          "starred": true,
+          "mirrors": [
+            "https://discord.gg/sWzw5GU5RV",
+            "https://github.com/level3tjg/RedditFilter",
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/redditfilter-note.md",
+            "https://github.com/Balackburn/Apollo",
+            "https://github.com/JeffreyCA/Apollo-ImprovedCustomApi",
+            "https://apps.apple.com/app/lurkur-for-reddit/id6470203216",
+            "https://apps.apple.com/app/rdx-for-reddit/id6503479190"
+          ]
         },
         {
           "name": "Voyager",
           "url": "https://apps.apple.com/app/id6451429762",
           "description": "Lemmy Clients",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/aeharding/voyager",
-          "description": "Lemmy Clients"
-        },
-        {
-          "name": "Arctic",
-          "url": "https://getarctic.app/",
-          "description": "Lemmy Clients"
-        },
-        {
-          "name": "Mlem",
-          "url": "https://apps.apple.com/app/id6450543782",
-          "description": "Lemmy Clients"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/mlemgroup/mlem",
-          "description": "Lemmy Clients"
-        },
-        {
-          "name": "Thunder",
-          "url": "https://thunderapp.dev/",
-          "description": "Lemmy Clients"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/thunder-app/thunder",
-          "description": "Lemmy Clients"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/aeharding/voyager",
+            "https://getarctic.app/",
+            "https://apps.apple.com/app/id6450543782",
+            "https://github.com/mlemgroup/mlem",
+            "https://thunderapp.dev/",
+            "https://github.com/thunder-app/thunder"
+          ]
         },
         {
           "name": "Ice Cubes",
           "url": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884",
           "description": "Mastodon Clients",
-          "starred": true
-        },
-        {
-          "name": "Gazzetta",
-          "url": "https://apps.apple.com/app/id6738706671",
-          "description": "Mastodon Clients"
-        },
-        {
-          "name": "Mastodon",
-          "url": "https://apps.apple.com/app/id1571998974",
-          "description": "Mastodon Clients"
+          "starred": true,
+          "mirrors": [
+            "https://apps.apple.com/app/id6738706671",
+            "https://apps.apple.com/app/id1571998974"
+          ]
         },
         {
           "name": "BHTwitter",
           "url": "https://github.com/BandarHL/BHTwitter",
           "description": "X.com Apps",
-          "starred": true
-        },
-        {
-          "name": "piko",
-          "url": "https://github.com/crimera/twitter-apk",
-          "description": "X.com Apps"
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/lluni/twitter-apk",
-          "description": "X.com Apps"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/pikopatches",
-          "description": "X.com Apps"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/crimera/piko",
-          "description": "X.com Apps"
-        },
-        {
-          "name": "⁠NeoFreeBird",
-          "url": "https://github.com/NeoFreeBird/app",
-          "description": "X.com Apps"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/crimera/twitter-apk",
+            "https://github.com/lluni/twitter-apk",
+            "https://t.me/pikopatches",
+            "https://github.com/crimera/piko",
+            "https://github.com/NeoFreeBird/app"
+          ]
         },
         {
           "name": "OpenInYT",
           "url": "https://apps.apple.com/app/id1591585819",
           "description": "Adds \"Open In\" Popup to iOS Social Media Apps",
           "starred": true
+        },
+        {
+          "name": "Kettu",
+          "url": "https://www.raincord.dev/kettu",
+          "description": "Modded Discord Client / Codeberg",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
         },
         {
           "name": "Openvibe",
@@ -7832,17 +6589,11 @@
         {
           "name": "Graysky",
           "url": "https://graysky.app/",
-          "description": "Bluesky Clients"
-        },
-        {
-          "name": "Skeets",
-          "url": "https://www.skeetsapp.com/",
-          "description": "Bluesky Clients"
-        },
-        {
-          "name": "Bluesky Social",
-          "url": "https://apps.apple.com/app/bluesky-social/id6444370199",
-          "description": "Bluesky Clients"
+          "description": "Bluesky Clients",
+          "mirrors": [
+            "https://www.skeetsapp.com/",
+            "https://apps.apple.com/app/bluesky-social/id6444370199"
+          ]
         },
         {
           "name": "Chan",
@@ -7852,22 +6603,18 @@
         {
           "name": "SCInsta",
           "url": "https://github.com/SoCuul/SCInsta",
-          "description": "Instagram Tweaks"
-        },
-        {
-          "name": "BHInstagram",
-          "url": "https://github.com/BandarHL/BHInstagram",
-          "description": "Instagram Tweaks"
+          "description": "Instagram Tweaks",
+          "mirrors": [
+            "https://github.com/BandarHL/BHInstagram"
+          ]
         },
         {
           "name": "Swiftgram",
           "url": "https://swiftgram.app/",
-          "description": "Telegram Apps"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Swiftgram/Telegram-iOS",
-          "description": "Telegram Apps"
+          "description": "Telegram Apps",
+          "mirrors": [
+            "https://github.com/Swiftgram/Telegram-iOS"
+          ]
         },
         {
           "name": "Watusi",
@@ -7885,12 +6632,10 @@
         {
           "name": "FakeWhats",
           "url": "https://www.fakewhats.com/",
-          "description": "Fake WhatsApp Messages"
-        },
-        {
-          "name": "FakeInfo",
-          "url": "https://fakeinfo.net/fake-whatsapp-chat-generator",
-          "description": "Fake WhatsApp Messages"
+          "description": "Fake WhatsApp Messages",
+          "mirrors": [
+            "https://fakeinfo.net/fake-whatsapp-chat-generator"
+          ]
         },
         {
           "name": "SpotC++",
@@ -7919,27 +6664,13 @@
         {
           "name": "Cosmos Music Player",
           "url": "https://github.com/clquwu/Cosmos-Music-Player",
-          "description": "Audio Players"
-        },
-        {
-          "name": "VOX",
-          "url": "https://apps.apple.com/app/id916215494",
-          "description": "Audio Players"
-        },
-        {
-          "name": "Jewelcase",
-          "url": "https://jewelcase.app/",
-          "description": "Audio Players"
-        },
-        {
-          "name": "FooBar",
-          "url": "https://apps.apple.com/us/app/foobar2000/id1072807669",
-          "description": "Audio Players"
-        },
-        {
-          "name": "Melodista",
-          "url": "https://apps.apple.com/app/id1293175325",
-          "description": "Audio Players"
+          "description": "Audio Players",
+          "mirrors": [
+            "https://apps.apple.com/app/id916215494",
+            "https://jewelcase.app/",
+            "https://apps.apple.com/us/app/foobar2000/id1072807669",
+            "https://apps.apple.com/app/id1293175325"
+          ]
         },
         {
           "name": "⁠8SPINE",
@@ -8050,17 +6781,11 @@
         {
           "name": "IHeartRadio",
           "url": "https://apps.apple.com/app/id290638154",
-          "description": "Podcasts / Radio"
-        },
-        {
-          "name": "MixCloud",
-          "url": "https://apps.apple.com/app/id401206431",
-          "description": "Podcasts / Radio"
-        },
-        {
-          "name": "TuneIn",
-          "url": "https://apps.apple.com/app/id418987775",
-          "description": "Podcasts / Radio"
+          "description": "Podcasts / Radio",
+          "mirrors": [
+            "https://apps.apple.com/app/id401206431",
+            "https://apps.apple.com/app/id418987775"
+          ]
         },
         {
           "name": "Radio Garden",
@@ -8108,32 +6833,14 @@
           "name": "Nuvio",
           "url": "https://tapframe.github.io/NuvioMobile/",
           "description": "Movies / TV / Anime / Tools",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/tapframe/NuvioStreaming",
-          "description": "Movies / TV / Anime / Tools"
-        },
-        {
-          "name": "Stremio Lite",
-          "url": "https://www.stremio.com/",
-          "description": "Movies / TV / Anime / Tools"
-        },
-        {
-          "name": "Web Stremio",
-          "url": "https://web.stremio.com/",
-          "description": "Movies / TV / Anime / Tools"
-        },
-        {
-          "name": "2",
-          "url": "https://stremio-neo.aayushcodes.eu/",
-          "description": "Movies / TV / Anime / Tools"
-        },
-        {
-          "name": "Guide",
-          "url": "https://blog.stremio.com/using-stremio-web-on-iphone-ipad/",
-          "description": "Movies / TV / Anime / Tools"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/tapframe/NuvioStreaming",
+            "https://www.stremio.com/",
+            "https://web.stremio.com/",
+            "https://stremio-neo.aayushcodes.eu/",
+            "https://blog.stremio.com/using-stremio-web-on-iphone-ipad/"
+          ]
         },
         {
           "name": "Luna",
@@ -8159,32 +6866,20 @@
         {
           "name": "OutPlayer",
           "url": "https://outplayer.app/",
-          "description": "Video Players"
-        },
-        {
-          "name": "VLC",
-          "url": "https://apps.apple.com/app/id650377962",
-          "description": "Video Players"
-        },
-        {
-          "name": "Pojobox",
-          "url": "https://apps.apple.com/app/id1454098557",
-          "description": "Video Players"
-        },
-        {
-          "name": "Infuse",
-          "url": "https://github.com/dayanch96/InfusePlus",
-          "description": "Video Players"
+          "description": "Video Players",
+          "mirrors": [
+            "https://apps.apple.com/app/id650377962",
+            "https://apps.apple.com/app/id1454098557",
+            "https://github.com/dayanch96/InfusePlus"
+          ]
         },
         {
           "name": "Streamyfin",
           "url": "https://github.com/streamyfin/streamyfin",
-          "description": "Jellyfin Client"
-        },
-        {
-          "name": "Swiftfin",
-          "url": "https://apps.apple.com/app/id1604098728",
-          "description": "Jellyfin Client"
+          "description": "Jellyfin Client",
+          "mirrors": [
+            "https://apps.apple.com/app/id1604098728"
+          ]
         },
         {
           "name": "Tubi",
@@ -8249,67 +6944,39 @@
         {
           "name": "Ketsu",
           "url": "https://ketsu.app/download.html",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/gjcy6MQ",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.gg/gjcy6MQ"
+          ]
         },
         {
           "name": "AnymeX",
           "url": "https://anymex.vercel.app/",
-          "description": ""
-        },
-        {
-          "name": "Extension Guide",
-          "url": "https://wotaku.wiki/guides/ext/mangayomi",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/EjfBuYahsP",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/RyanYuuki/AnymeX",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://wotaku.wiki/guides/ext/mangayomi",
+            "https://discord.com/invite/EjfBuYahsP",
+            "https://github.com/RyanYuuki/AnymeX"
+          ]
         },
         {
           "name": "MyAnimeList Client",
           "url": "https://apps.apple.com/app/id1469330778",
-          "description": "MyAnimeList Clients"
-        },
-        {
-          "name": "Kitsune",
-          "url": "https://apps.apple.com/app/id6466716447",
-          "description": "MyAnimeList Clients"
+          "description": "MyAnimeList Clients",
+          "mirrors": [
+            "https://apps.apple.com/app/id6466716447"
+          ]
         },
         {
           "name": "Otraku",
           "url": "https://github.com/lotusprey/otraku",
-          "description": "AniList Apps"
-        },
-        {
-          "name": "MyAnilist",
-          "url": "https://apps.apple.com/us/app/myanilist/id741257899",
-          "description": "AniList Apps"
-        },
-        {
-          "name": "Ryuusei",
-          "url": "https://ryuusei.moe/",
-          "description": "AniList Apps"
-        },
-        {
-          "name": "AniHyou",
-          "url": "https://axiel7.github.io/anihyou",
-          "description": "AniList Apps"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/axiel7/AniHyou-android",
-          "description": "AniList Apps"
+          "description": "AniList Apps",
+          "mirrors": [
+            "https://apps.apple.com/us/app/myanilist/id741257899",
+            "https://ryuusei.moe/",
+            "https://axiel7.github.io/anihyou",
+            "https://github.com/axiel7/AniHyou-android"
+          ]
         }
       ]
     },

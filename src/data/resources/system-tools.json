@@ -45,54 +45,32 @@
           "name": "CPU-Z",
           "url": "https://www.cpuid.com/softwares/cpu-z.html",
           "description": "System Info Tools",
-          "starred": true
-        },
-        {
-          "name": "winfetch",
-          "url": "https://github.com/lptstr/winfetch",
-          "description": "System Info Tools"
-        },
-        {
-          "name": "CPU Fetch",
-          "url": "https://github.com/Dr-Noob/cpufetch",
-          "description": "System Info Tools"
-        },
-        {
-          "name": "Glow",
-          "url": "https://github.com/turkaysoftware/glow",
-          "description": "System Info Tools"
-        },
-        {
-          "name": "GPU-Z",
-          "url": "https://www.techpowerup.com/download/techpowerup-gpu-z/",
-          "description": "System Info Tools"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/lptstr/winfetch",
+            "https://github.com/Dr-Noob/cpufetch",
+            "https://github.com/turkaysoftware/glow",
+            "https://www.techpowerup.com/download/techpowerup-gpu-z/"
+          ]
         },
         {
           "name": "SuperF4",
           "url": "https://stefansundin.github.io/superf4/",
           "description": "Process Killers",
-          "starred": true
-        },
-        {
-          "name": "FKill",
-          "url": "https://github.com/sindresorhus/fkill-cli",
-          "description": "Process Killers"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/sindresorhus/fkill-cli"
+          ]
         },
         {
           "name": "Bulk Crap Uninstaller",
           "url": "https://www.bcuninstaller.com/",
           "description": "Bulk Uninstallation Tools",
-          "starred": true
-        },
-        {
-          "name": "Revo Uninstaller",
-          "url": "https://www.revouninstaller.com/products/revo-uninstaller-free/",
-          "description": "Bulk Uninstallation Tools"
-        },
-        {
-          "name": "GeekUninstaller",
-          "url": "https://geekuninstaller.com/",
-          "description": "Bulk Uninstallation Tools"
+          "starred": true,
+          "mirrors": [
+            "https://www.revouninstaller.com/products/revo-uninstaller-free/",
+            "https://geekuninstaller.com/"
+          ]
         },
         {
           "name": "NanaRun",
@@ -112,12 +90,10 @@
         {
           "name": "GhostBuster",
           "url": "https://bitbucket.org/wvd-vegt/ghostbuster/src/master/",
-          "description": "Remove Non-Present Devices"
-        },
-        {
-          "name": "Device Cleanup Tool",
-          "url": "https://www.majorgeeks.com/files/details/device_cleanup_tool.html",
-          "description": "Remove Non-Present Devices"
+          "description": "Remove Non-Present Devices",
+          "mirrors": [
+            "https://www.majorgeeks.com/files/details/device_cleanup_tool.html"
+          ]
         },
         {
           "name": "Should I Remove It?",
@@ -127,12 +103,10 @@
         {
           "name": "CoreTemp",
           "url": "https://www.alcpu.com/CoreTemp/",
-          "description": "Process Monitors"
-        },
-        {
-          "name": "System Informer",
-          "url": "https://systeminformer.sourceforge.io/",
-          "description": "Process Monitors"
+          "description": "Process Monitors",
+          "mirrors": [
+            "https://systeminformer.sourceforge.io/"
+          ]
         },
         {
           "name": "Why Is This Running?",
@@ -147,22 +121,12 @@
         {
           "name": "RegExp",
           "url": "https://github.com/zodiacon/TotalRegistry",
-          "description": "Registry Explorers / Scanners"
-        },
-        {
-          "name": "RegScanner",
-          "url": "https://www.nirsoft.net/utils/regscanner.html",
-          "description": "Registry Explorers / Scanners"
-        },
-        {
-          "name": "ripgrep-all",
-          "url": "https://github.com/phiresky/ripgrep-all",
-          "description": "Registry Explorers / Scanners"
-        },
-        {
-          "name": "Registry-Finder",
-          "url": "https://registry-finder.com/",
-          "description": "Registry Explorers / Scanners"
+          "description": "Registry Explorers / Scanners",
+          "mirrors": [
+            "https://www.nirsoft.net/utils/regscanner.html",
+            "https://github.com/phiresky/ripgrep-all",
+            "https://registry-finder.com/"
+          ]
         },
         {
           "name": "WinbIndex",
@@ -186,12 +150,10 @@
         {
           "name": "OpenRecall",
           "url": "https://github.com/openrecall/openrecall",
-          "description": "Memory Search App / System Recorders"
-        },
-        {
-          "name": "Windrecorder",
-          "url": "https://github.com/yuka-friends/Windrecorder/",
-          "description": "Memory Search App / System Recorders"
+          "description": "Memory Search App / System Recorders",
+          "mirrors": [
+            "https://github.com/yuka-friends/Windrecorder/"
+          ]
         },
         {
           "name": "Time.is",
@@ -218,22 +180,12 @@
           "name": "Windhawk",
           "url": "https://windhawk.net/",
           "description": "System Tweaking Tools / Warning",
-          "starred": true
-        },
-        {
-          "name": "MajorGeeks Windows Tweaks",
-          "url": "https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html",
-          "description": "System Tweaking Tools / Warning"
-        },
-        {
-          "name": "Winaero",
-          "url": "https://winaero.com/",
-          "description": "System Tweaking Tools / Warning"
-        },
-        {
-          "name": "2",
-          "url": "https://winaerotweaker.com/",
-          "description": "System Tweaking Tools / Warning"
+          "starred": true,
+          "mirrors": [
+            "https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html",
+            "https://winaero.com/",
+            "https://winaerotweaker.com/"
+          ]
         },
         {
           "name": "StartAllBack",
@@ -251,38 +203,22 @@
           "name": "Open Shell",
           "url": "https://open-shell.github.io/Open-Shell-Menu/",
           "description": "Classic Start Menus",
-          "starred": true
-        },
-        {
-          "name": "Customizable Skin",
-          "url": "https://github.com/bonzibudd/Fluent-Metro",
-          "description": "Classic Start Menus"
-        },
-        {
-          "name": "StartIsBack",
-          "url": "https://startisback.com/",
-          "description": "Classic Start Menus"
-        },
-        {
-          "name": "Fix",
-          "url": "https://rentry.co/FMHYB64#startxback",
-          "description": "Classic Start Menus"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/bonzibudd/Fluent-Metro",
+            "https://startisback.com/",
+            "https://rentry.co/FMHYB64#startxback"
+          ]
         },
         {
           "name": "EarTrumpet",
           "url": "https://eartrumpet.app/",
           "description": "Tweaked Volume Mixer",
-          "starred": true
-        },
-        {
-          "name": "Volumey",
-          "url": "https://github.com/G-Stas/Volumey",
-          "description": "Tweaked Volume Mixer"
-        },
-        {
-          "name": "Volume2",
-          "url": "https://github.com/irzyxa/Volume2",
-          "description": "Tweaked Volume Mixer"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/G-Stas/Volumey",
+            "https://github.com/irzyxa/Volume2"
+          ]
         },
         {
           "name": "AltSnap",
@@ -299,22 +235,12 @@
         {
           "name": "BatUtil",
           "url": "https://github.com/abbodi1406/BatUtil",
-          "description": "System Scripts"
-        },
-        {
-          "name": "2",
-          "url": "https://gitlab.com/stdout12/batutil",
-          "description": "System Scripts"
-        },
-        {
-          "name": "3",
-          "url": "https://codeberg.org/stdout12/BatUtil",
-          "description": "System Scripts"
-        },
-        {
-          "name": "TechNet-Gallery",
-          "url": "https://github.com/MScholtes/TechNet-Gallery",
-          "description": "System Scripts"
+          "description": "System Scripts",
+          "mirrors": [
+            "https://gitlab.com/stdout12/batutil",
+            "https://codeberg.org/stdout12/BatUtil",
+            "https://github.com/MScholtes/TechNet-Gallery"
+          ]
         },
         {
           "name": "Wintoys",
@@ -324,32 +250,14 @@
         {
           "name": "Wox",
           "url": "https://github.com/Wox-launcher/Wox",
-          "description": "Keystroke / App Launchers"
-        },
-        {
-          "name": "Listary",
-          "url": "https://www.listary.com/",
-          "description": "Keystroke / App Launchers"
-        },
-        {
-          "name": "Raycast",
-          "url": "https://www.raycast.com/",
-          "description": "Keystroke / App Launchers"
-        },
-        {
-          "name": "FlowLauncher",
-          "url": "https://www.flowlauncher.com/",
-          "description": "Keystroke / App Launchers"
-        },
-        {
-          "name": "Ueli",
-          "url": "https://ueli.app/",
-          "description": "Keystroke / App Launchers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/oliverschwendener/ueli",
-          "description": "Keystroke / App Launchers"
+          "description": "Keystroke / App Launchers",
+          "mirrors": [
+            "https://www.listary.com/",
+            "https://www.raycast.com/",
+            "https://www.flowlauncher.com/",
+            "https://ueli.app/",
+            "https://github.com/oliverschwendener/ueli"
+          ]
         },
         {
           "name": "Kando",
@@ -373,17 +281,11 @@
         {
           "name": "Shell",
           "url": "https://nilesoft.org/",
-          "description": "Tweaked / Custom Context Menus"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/moudey/shell",
-          "description": "Tweaked / Custom Context Menus"
-        },
-        {
-          "name": "RCWM",
-          "url": "https://github.com/GChuf/RCWM",
-          "description": "Tweaked / Custom Context Menus"
+          "description": "Tweaked / Custom Context Menus",
+          "mirrors": [
+            "https://github.com/moudey/shell",
+            "https://github.com/GChuf/RCWM"
+          ]
         },
         {
           "name": "Explorer Tab Utility",
@@ -474,12 +376,10 @@
           "name": "sfsu",
           "url": "https://github.com/winpax/sfsu/",
           "description": "Fast Scoop Utilities",
-          "starred": true
-        },
-        {
-          "name": "hok",
-          "url": "https://github.com/chawyehsu/hok",
-          "description": "Fast Scoop Utilities"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/chawyehsu/hok"
+          ]
         },
         {
           "name": "Chocolatey",
@@ -542,37 +442,27 @@
           "name": "AutoHotkey",
           "url": "https://www.autohotkey.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Resources",
-          "url": "https://github.com/ahkscript/awesome-AutoHotkey",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/Aat7KHmG7v",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/ahkscript/awesome-AutoHotkey",
+            "https://discord.com/invite/Aat7KHmG7v"
+          ]
         },
         {
           "name": "Scheduler",
           "url": "https://www.splinterware.com/products/scheduler.html",
-          "description": "System Task Scheduler"
-        },
-        {
-          "name": "TaskRunner",
-          "url": "https://www.keyefficiency.com/",
-          "description": "System Task Scheduler"
+          "description": "System Task Scheduler",
+          "mirrors": [
+            "https://www.keyefficiency.com/"
+          ]
         },
         {
           "name": "AutoIt",
           "url": "https://www.autoitscript.com/",
-          "description": ""
-        },
-        {
-          "name": "Resources",
-          "url": "https://github.com/J2TEAM/awesome-AutoIt",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/J2TEAM/awesome-AutoIt"
+          ]
         },
         {
           "name": "Tinytask",
@@ -630,14 +520,9 @@
           "description": "Command Line Resources",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Command Line Tools",
-          "url": "https://github.com/learn-anything/command-line-tools",
-          "description": "Command Line Resources",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/learn-anything/command-line-tools"
           ]
         },
         {
@@ -649,32 +534,14 @@
         {
           "name": "Windows Terminal",
           "url": "https://www.microsoft.com/store/productId/9N0DX20HK701",
-          "description": "Windows Terminal Emulators"
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/microsoft/terminal/",
-          "description": "Windows Terminal Emulators"
-        },
-        {
-          "name": "ConEmu",
-          "url": "https://github.com/Maximus5/ConEmu",
-          "description": "Windows Terminal Emulators"
-        },
-        {
-          "name": "Tabby",
-          "url": "https://tabby.sh/",
-          "description": "Windows Terminal Emulators"
-        },
-        {
-          "name": "MobaXterm",
-          "url": "https://mobaxterm.mobatek.net/",
-          "description": "Windows Terminal Emulators"
-        },
-        {
-          "name": "WezTerm",
-          "url": "https://wezfurlong.org/wezterm/",
-          "description": "Windows Terminal Emulators"
+          "description": "Windows Terminal Emulators",
+          "mirrors": [
+            "https://github.com/microsoft/terminal/",
+            "https://github.com/Maximus5/ConEmu",
+            "https://tabby.sh/",
+            "https://mobaxterm.mobatek.net/",
+            "https://wezfurlong.org/wezterm/"
+          ]
         },
         {
           "name": "PowerShell",
@@ -724,17 +591,11 @@
         {
           "name": "PowerShell Scripts",
           "url": "https://github.com/fleschutz/PowerShell",
-          "description": "Shell Scripts"
-        },
-        {
-          "name": "PowershellGallery",
-          "url": "https://www.powershellgallery.com/",
-          "description": "Shell Scripts"
-        },
-        {
-          "name": "WindowsPowerShell",
-          "url": "https://github.com/stevencohn/WindowsPowerShell",
-          "description": "Shell Scripts"
+          "description": "Shell Scripts",
+          "mirrors": [
+            "https://www.powershellgallery.com/",
+            "https://github.com/stevencohn/WindowsPowerShell"
+          ]
         }
       ]
     },
@@ -780,15 +641,9 @@
           "tags": [
             "Discord",
             "GitHub"
-          ]
-        },
-        {
-          "name": "Apollo",
-          "url": "https://github.com/ClassicOldSong/Apollo",
-          "description": "Remote Server for Moonlight / Mobile",
-          "tags": [
-            "Discord",
-            "GitHub"
+          ],
+          "mirrors": [
+            "https://github.com/ClassicOldSong/Apollo"
           ]
         },
         {
@@ -956,22 +811,12 @@
         {
           "name": "CopyQ",
           "url": "https://hluk.github.io/CopyQ/",
-          "description": "Clipboard Managers with Editing and Scripting Features"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/hluk/CopyQ",
-          "description": "Clipboard Managers with Editing and Scripting Features"
-        },
-        {
-          "name": "XClipper",
-          "url": "https://kaustubhpatange.github.io/XClipper/",
-          "description": "Clipboard Managers with Editing and Scripting Features"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/KaustubhPatange/XClipper",
-          "description": "Clipboard Managers with Editing and Scripting Features"
+          "description": "Clipboard Managers with Editing and Scripting Features",
+          "mirrors": [
+            "https://github.com/hluk/CopyQ",
+            "https://kaustubhpatange.github.io/XClipper/",
+            "https://github.com/KaustubhPatange/XClipper"
+          ]
         },
         {
           "name": "MultiClipBoardSlots",
@@ -1000,12 +845,10 @@
           "name": "WorkSpacer",
           "url": "https://workspacer.org/",
           "description": "Tiling Window Manager",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/workspacer/workspacer",
-          "description": "Tiling Window Manager"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/workspacer/workspacer"
+          ]
         },
         {
           "name": "⁠Seelen UI",
@@ -1037,14 +880,9 @@
           "description": "Browser Operating Systems / VMs",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Simone's Computer",
-          "url": "https://simone.computer/#/webdesktops",
-          "description": "Browser Operating Systems / VMs",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://simone.computer/#/webdesktops"
           ]
         },
         {
@@ -1069,22 +907,12 @@
           "name": "Virt-Manager",
           "url": "https://virt-manager.org/",
           "description": "Virtual Machine Managers",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/virt-manager/virt-manager",
-          "description": "Virtual Machine Managers"
-        },
-        {
-          "name": "Vagrantup",
-          "url": "https://www.vagrantup.com/",
-          "description": "Virtual Machine Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/hashicorp/vagrant",
-          "description": "Virtual Machine Managers"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/virt-manager/virt-manager",
+            "https://www.vagrantup.com/",
+            "https://github.com/hashicorp/vagrant"
+          ]
         },
         {
           "name": "Looking Glass",
@@ -1117,12 +945,10 @@
         {
           "name": "QuickEmu",
           "url": "https://github.com/quickemu-project/quickemu",
-          "description": "Virtual Machine Creator"
-        },
-        {
-          "name": "Dexpot",
-          "url": "https://www.dexpot.de/",
-          "description": "Virtual Machine Creator"
+          "description": "Virtual Machine Creator",
+          "mirrors": [
+            "https://www.dexpot.de/"
+          ]
         },
         {
           "name": "WSL",
@@ -1182,17 +1008,11 @@
           "name": "Hackintosh",
           "url": "https://hackintosh.com/",
           "description": "Hackintosh Building Guides",
-          "starred": true
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/hackintosh/",
-          "description": "Hackintosh Building Guides"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/u8V7N5C",
-          "description": "Hackintosh Building Guides"
+          "starred": true,
+          "mirrors": [
+            "https://www.reddit.com/r/hackintosh/",
+            "https://discord.gg/u8V7N5C"
+          ]
         },
         {
           "name": "Dortania",
@@ -1234,42 +1054,22 @@
         {
           "name": "NotCPUCores",
           "url": "https://github.com/rcmaehl/NotCPUCores",
-          "description": "CPU Optimizer"
-        },
-        {
-          "name": "BES",
-          "url": "https://mion.yosei.fi/BES/",
-          "description": "CPU Optimizer"
-        },
-        {
-          "name": "ParkControl",
-          "url": "https://bitsum.com/parkcontrol/",
-          "description": "CPU Optimizer"
-        },
-        {
-          "name": "QuickCPU",
-          "url": "https://coderbag.com/product/quickcpu",
-          "description": "CPU Optimizer"
-        },
-        {
-          "name": "Process Lasso",
-          "url": "https://bitsum.com/",
-          "description": "CPU Optimizer"
+          "description": "CPU Optimizer",
+          "mirrors": [
+            "https://mion.yosei.fi/BES/",
+            "https://bitsum.com/parkcontrol/",
+            "https://coderbag.com/product/quickcpu",
+            "https://bitsum.com/"
+          ]
         },
         {
           "name": "Ozone3D",
           "url": "https://www.ozone3d.net/index_softwares.php",
-          "description": "System Benchmarking"
-        },
-        {
-          "name": "UNIGINE Benchmarks",
-          "url": "https://benchmark.unigine.com/",
-          "description": "System Benchmarking"
-        },
-        {
-          "name": "OCCT",
-          "url": "https://www.ocbase.com/occt/personal",
-          "description": "System Benchmarking"
+          "description": "System Benchmarking",
+          "mirrors": [
+            "https://benchmark.unigine.com/",
+            "https://www.ocbase.com/occt/personal"
+          ]
         },
         {
           "name": "Testmem5",
@@ -1284,22 +1084,12 @@
         {
           "name": "SDIO",
           "url": "https://glenn.delahoy.com/snappy-driver-installer-origin",
-          "description": "Update / Install Missing Drivers / Note"
-        },
-        {
-          "name": "Drivers Collection",
-          "url": "https://driverscollection.com/",
-          "description": "Update / Install Missing Drivers / Note"
-        },
-        {
-          "name": "Driverscape",
-          "url": "https://www.driverscape.com/",
-          "description": "Update / Install Missing Drivers / Note"
-        },
-        {
-          "name": "DriverStoreExplorer",
-          "url": "https://github.com/lostindark/DriverStoreExplorer",
-          "description": "Update / Install Missing Drivers / Note"
+          "description": "Update / Install Missing Drivers / Note",
+          "mirrors": [
+            "https://driverscollection.com/",
+            "https://www.driverscape.com/",
+            "https://github.com/lostindark/DriverStoreExplorer"
+          ]
         },
         {
           "name": "VOGONS Drivers",
@@ -1373,32 +1163,20 @@
         {
           "name": "FanControl",
           "url": "https://getfancontrol.com/",
-          "description": "PC Fan Controllers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Rem0o/FanControl.Releases",
-          "description": "PC Fan Controllers"
-        },
-        {
-          "name": "FanCtrl",
-          "url": "https://github.com/lich426/FanCtrl",
-          "description": "PC Fan Controllers"
+          "description": "PC Fan Controllers",
+          "mirrors": [
+            "https://github.com/Rem0o/FanControl.Releases",
+            "https://github.com/lich426/FanCtrl"
+          ]
         },
         {
           "name": "bottom",
           "url": "https://github.com/ClementTsang/bottom",
-          "description": "Terminal Hardware Monitors"
-        },
-        {
-          "name": "Glances",
-          "url": "https://nicolargo.github.io/glances/",
-          "description": "Terminal Hardware Monitors"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/nicolargo/glances",
-          "description": "Terminal Hardware Monitors"
+          "description": "Terminal Hardware Monitors",
+          "mirrors": [
+            "https://nicolargo.github.io/glances/",
+            "https://github.com/nicolargo/glances"
+          ]
         }
       ]
     },
@@ -1416,12 +1194,10 @@
           "name": "NVCleanstall",
           "url": "https://www.techpowerup.com/download/techpowerup-nvcleanstall/",
           "description": "NVIDIA Driver Packages",
-          "starred": true
-        },
-        {
-          "name": "NVSlimmer",
-          "url": "https://forums.guru3d.com/threads/nvslimmer-nvidia-driver-slimming-utility-continued.457504/",
-          "description": "NVIDIA Driver Packages"
+          "starred": true,
+          "mirrors": [
+            "https://forums.guru3d.com/threads/nvslimmer-nvidia-driver-slimming-utility-continued.457504/"
+          ]
         },
         {
           "name": "Display Driver Uninstaller",
@@ -1442,12 +1218,10 @@
         {
           "name": "nvidiaProfileInspector",
           "url": "https://github.com/Orbmu2k/nvidiaProfileInspector",
-          "description": "Modify / View Hidden NVIDIA Settings / Guide"
-        },
-        {
-          "name": "NvidiaProfileInspectorRevamped",
-          "url": "https://github.com/xHybred/NvidiaProfileInspectorRevamped",
-          "description": "Modify / View Hidden NVIDIA Settings / Guide"
+          "description": "Modify / View Hidden NVIDIA Settings / Guide",
+          "mirrors": [
+            "https://github.com/xHybred/NvidiaProfileInspectorRevamped"
+          ]
         },
         {
           "name": "RadeonSoftwareSlimmer",
@@ -1506,33 +1280,21 @@
           "name": "WizTree",
           "url": "https://www.diskanalyzer.com/",
           "description": "Disk Usage Analyzers",
-          "starred": true
-        },
-        {
-          "name": "TreeSize",
-          "url": "https://www.jam-software.com/treesize",
-          "description": "Disk Usage Analyzers"
-        },
-        {
-          "name": "WinDirStat",
-          "url": "https://windirstat.net/",
-          "description": "Disk Usage Analyzers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/windirstat/windirstat/",
-          "description": "Disk Usage Analyzers"
+          "starred": true,
+          "mirrors": [
+            "https://www.jam-software.com/treesize",
+            "https://windirstat.net/",
+            "https://github.com/windirstat/windirstat/"
+          ]
         },
         {
           "name": "CrystalDiskMark",
           "url": "https://crystalmark.info/en/software/crystaldiskmark/",
           "description": "Disk Benchmarking Tools",
-          "starred": true
-        },
-        {
-          "name": "CCISOBench",
-          "url": "https://ccsiobench.com/",
-          "description": "Disk Benchmarking Tools"
+          "starred": true,
+          "mirrors": [
+            "https://ccsiobench.com/"
+          ]
         },
         {
           "name": "GParted",
@@ -1579,32 +1341,14 @@
         {
           "name": "CrystalDiskInfo",
           "url": "https://crystalmark.info/en/software/crystaldiskinfo/",
-          "description": "Drive Diagnostics"
-        },
-        {
-          "name": "Warning",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/crystaldiskinfo.md",
-          "description": "Drive Diagnostics"
-        },
-        {
-          "name": "Scrutiny",
-          "url": "https://github.com/AnalogJ/scrutiny",
-          "description": "Drive Diagnostics"
-        },
-        {
-          "name": "GSmartControl",
-          "url": "https://gsmartcontrol.shaduri.dev/",
-          "description": "Drive Diagnostics"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ashaduri/gsmartcontrol",
-          "description": "Drive Diagnostics"
-        },
-        {
-          "name": "smartmontools",
-          "url": "https://www.smartmontools.org/",
-          "description": "Drive Diagnostics"
+          "description": "Drive Diagnostics",
+          "mirrors": [
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/crystaldiskinfo.md",
+            "https://github.com/AnalogJ/scrutiny",
+            "https://gsmartcontrol.shaduri.dev/",
+            "https://github.com/ashaduri/gsmartcontrol",
+            "https://www.smartmontools.org/"
+          ]
         },
         {
           "name": "Macrorit Partition Expert",
@@ -1619,12 +1363,10 @@
         {
           "name": "Gdu",
           "url": "https://github.com/dundee/gdu",
-          "description": "Disk Usage Analyzer with Parallel Processing"
-        },
-        {
-          "name": "dua",
-          "url": "https://lib.rs/crates/dua-cli",
-          "description": "Disk Usage Analyzer with Parallel Processing"
+          "description": "Disk Usage Analyzer with Parallel Processing",
+          "mirrors": [
+            "https://lib.rs/crates/dua-cli"
+          ]
         },
         {
           "name": "Erdtree",
@@ -1656,64 +1398,40 @@
           "name": "DisplayFusion",
           "url": "https://www.displayfusion.com/",
           "description": "Dual Monitor Tools",
-          "starred": true
-        },
-        {
-          "name": "Dual Monitor Tool",
-          "url": "https://sourceforge.net/projects/dualmonitortool/",
-          "description": "Dual Monitor Tools"
+          "starred": true,
+          "mirrors": [
+            "https://sourceforge.net/projects/dualmonitortool/"
+          ]
         },
         {
           "name": "f.lux",
           "url": "https://justgetflux.com/",
           "description": "Auto-Adjust Display Color / Temperature",
-          "starred": true
-        },
-        {
-          "name": "LightBulb",
-          "url": "https://github.com/Tyrrrz/LightBulb",
-          "description": "Auto-Adjust Display Color / Temperature"
-        },
-        {
-          "name": "ScreenTemperature",
-          "url": "https://github.com/massaiTHEdog1/ScreenTemperature",
-          "description": "Auto-Adjust Display Color / Temperature"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/Tyrrrz/LightBulb",
+            "https://github.com/massaiTHEdog1/ScreenTemperature"
+          ]
         },
         {
           "name": "Monitorian",
           "url": "https://github.com/emoacht/Monitorian",
           "description": "Adjust Monitor Brightness",
-          "starred": true
-        },
-        {
-          "name": "Twinkle Tray",
-          "url": "https://twinkletray.com/",
-          "description": "Adjust Monitor Brightness"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/xanderfrangos/twinkle-tray",
-          "description": "Adjust Monitor Brightness"
-        },
-        {
-          "name": "Dimmer",
-          "url": "https://www.nelsonpires.com/software/dimmer",
-          "description": "Adjust Monitor Brightness"
+          "starred": true,
+          "mirrors": [
+            "https://twinkletray.com/",
+            "https://github.com/xanderfrangos/twinkle-tray",
+            "https://www.nelsonpires.com/software/dimmer"
+          ]
         },
         {
           "name": "EIZO",
           "url": "https://www.eizo.be/monitor-test/",
-          "description": "Monitor Performance Tests"
-        },
-        {
-          "name": "Monitor",
-          "url": "https://www.monitortests.com/",
-          "description": "Monitor Performance Tests"
-        },
-        {
-          "name": "LCDTech",
-          "url": "https://lcdtech.info/en/tests/",
-          "description": "Monitor Performance Tests"
+          "description": "Monitor Performance Tests",
+          "mirrors": [
+            "https://www.monitortests.com/",
+            "https://lcdtech.info/en/tests/"
+          ]
         },
         {
           "name": "TestUFO",
@@ -1786,17 +1504,11 @@
         {
           "name": "Deskreen",
           "url": "https://deskreen.com/",
-          "description": "Use Mobile Device as Monitor"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/pavlobu/deskreen",
-          "description": "Use Mobile Device as Monitor"
-        },
-        {
-          "name": "SpaceDesk",
-          "url": "https://www.spacedesk.net/",
-          "description": "Use Mobile Device as Monitor"
+          "description": "Use Mobile Device as Monitor",
+          "mirrors": [
+            "https://github.com/pavlobu/deskreen",
+            "https://www.spacedesk.net/"
+          ]
         },
         {
           "name": "ShaderGlass",
@@ -1806,12 +1518,10 @@
         {
           "name": "DaltonLens",
           "url": "https://daltonlens.org/",
-          "description": "Color Blindness Filters"
-        },
-        {
-          "name": "Toptal",
-          "url": "https://www.toptal.com/designers/colorfilter",
-          "description": "Color Blindness Filters"
+          "description": "Color Blindness Filters",
+          "mirrors": [
+            "https://www.toptal.com/designers/colorfilter"
+          ]
         },
         {
           "name": "NVDA",
@@ -1837,74 +1547,42 @@
           "name": "Hotkey Cheatsheet",
           "url": "https://hotkeycheatsheet.com/",
           "description": "Hotkey Cheatsheets",
-          "starred": true
-        },
-        {
-          "name": "KeyCombiner",
-          "url": "https://keycombiner.com/",
-          "description": "Hotkey Cheatsheets"
-        },
-        {
-          "name": "Use The Keyboard",
-          "url": "https://usethekeyboard.com/",
-          "description": "Hotkey Cheatsheets"
+          "starred": true,
+          "mirrors": [
+            "https://keycombiner.com/",
+            "https://usethekeyboard.com/"
+          ]
         },
         {
           "name": "VIA",
           "url": "https://usevia.app/",
           "description": "Custom Keyboard Layouts / Remapping",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/the-via/app",
-          "description": "Custom Keyboard Layouts / Remapping"
-        },
-        {
-          "name": "SharpKeys",
-          "url": "https://github.com/randyrants/sharpkeys/",
-          "description": "Custom Keyboard Layouts / Remapping"
-        },
-        {
-          "name": "Kanata",
-          "url": "https://github.com/jtroo/kanata",
-          "description": "Custom Keyboard Layouts / Remapping"
-        },
-        {
-          "name": "keymapper",
-          "url": "https://github.com/houmain/keymapper",
-          "description": "Custom Keyboard Layouts / Remapping"
-        },
-        {
-          "name": "Ergogen",
-          "url": "https://ergogen.xyz/",
-          "description": "Custom Keyboard Layouts / Remapping"
-        },
-        {
-          "name": "Mahou",
-          "url": "https://gitea.com/BladeMight/Mahou",
-          "description": "Custom Keyboard Layouts / Remapping"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/the-via/app",
+            "https://github.com/randyrants/sharpkeys/",
+            "https://github.com/jtroo/kanata",
+            "https://github.com/houmain/keymapper",
+            "https://ergogen.xyz/",
+            "https://gitea.com/BladeMight/Mahou"
+          ]
         },
         {
           "name": "geekhack",
           "url": "https://geekhack.org/",
           "description": "Keyboard Forums",
-          "starred": true
-        },
-        {
-          "name": "KeebTalk",
-          "url": "https://www.keebtalk.com/",
-          "description": "Keyboard Forums"
+          "starred": true,
+          "mirrors": [
+            "https://www.keebtalk.com/"
+          ]
         },
         {
           "name": "HotkeyP",
           "url": "https://sourceforge.net/projects/hotkeyp/",
-          "description": "Hotkey Remapping"
-        },
-        {
-          "name": "CheatKeys",
-          "url": "https://cheatkeys.com/cheatsheet",
-          "description": "Hotkey Remapping"
+          "description": "Hotkey Remapping",
+          "mirrors": [
+            "https://cheatkeys.com/cheatsheet"
+          ]
         },
         {
           "name": "X-Mouse Button Control",
@@ -1914,12 +1592,10 @@
         {
           "name": "MoveMouse",
           "url": "https://github.com/sw3103/movemouse/",
-          "description": "Simulate User Activity"
-        },
-        {
-          "name": "MouseJiggler",
-          "url": "https://github.com/arkane-systems/mousejiggler",
-          "description": "Simulate User Activity"
+          "description": "Simulate User Activity",
+          "mirrors": [
+            "https://github.com/arkane-systems/mousejiggler"
+          ]
         },
         {
           "name": "Raw Accel",
@@ -2009,32 +1685,14 @@
           "name": "Equalizer APO",
           "url": "https://sourceforge.net/projects/equalizerapo/",
           "description": "Audio Equalizers",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://equalizerapo.com/",
-          "description": "Audio Equalizers"
-        },
-        {
-          "name": "GUI",
-          "url": "https://sourceforge.net/projects/peace-equalizer-apo-extension/",
-          "description": "Audio Equalizers"
-        },
-        {
-          "name": "Dolby Access",
-          "url": "https://apps.microsoft.com/detail/9n0866fs04w8",
-          "description": "Audio Equalizers"
-        },
-        {
-          "name": "Note",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/dolby-access-atmos-note.md",
-          "description": "Audio Equalizers"
-        },
-        {
-          "name": "FXSound",
-          "url": "https://www.fxsound.com/",
-          "description": "Audio Equalizers"
+          "starred": true,
+          "mirrors": [
+            "https://equalizerapo.com/",
+            "https://sourceforge.net/projects/peace-equalizer-apo-extension/",
+            "https://apps.microsoft.com/detail/9n0866fs04w8",
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/dolby-access-atmos-note.md",
+            "https://www.fxsound.com/"
+          ]
         },
         {
           "name": "AutoEQ",
@@ -2043,14 +1701,9 @@
           "starred": true,
           "tags": [
             "Discord"
-          ]
-        },
-        {
-          "name": "⁠PEQdB",
-          "url": "https://peqdb.com/",
-          "description": "Create Custom Equalizer Presets",
-          "tags": [
-            "Discord"
+          ],
+          "mirrors": [
+            "https://peqdb.com/"
           ]
         },
         {
@@ -2061,12 +1714,10 @@
         {
           "name": "⁠Sonar",
           "url": "https://steelseries.com/gg/sonar",
-          "description": "Noise Cancelling Software"
-        },
-        {
-          "name": "noise-suppression-for-voice",
-          "url": "https://github.com/werman/noise-suppression-for-voice",
-          "description": "Noise Cancelling Software"
+          "description": "Noise Cancelling Software",
+          "mirrors": [
+            "https://github.com/werman/noise-suppression-for-voice"
+          ]
         },
         {
           "name": "SoundSwitch",
@@ -2099,22 +1750,18 @@
         {
           "name": "Online Mic Test",
           "url": "https://onlinemictest.com/",
-          "description": "Mic Test"
-        },
-        {
-          "name": "Check Mic",
-          "url": "https://webcammictest.com/check-mic.html",
-          "description": "Mic Test"
+          "description": "Mic Test",
+          "mirrors": [
+            "https://webcammictest.com/check-mic.html"
+          ]
         },
         {
           "name": "Sound Meter",
           "url": "https://mybrowseraddon.com/sound-meter.html",
-          "description": "Measure Surrounding Sound Level"
-        },
-        {
-          "name": "REW",
-          "url": "https://www.roomeqwizard.com",
-          "description": "Measure Surrounding Sound Level"
+          "description": "Measure Surrounding Sound Level",
+          "mirrors": [
+            "https://www.roomeqwizard.com"
+          ]
         },
         {
           "name": "AirPods Dirty Secret",
@@ -2136,12 +1783,10 @@
         {
           "name": "files.rg-adguard",
           "url": "https://files.rg-adguard.net/",
-          "description": "Verify ISO Legitimacy"
-        },
-        {
-          "name": "MVS dump",
-          "url": "https://awuctl.github.io/mvs/",
-          "description": "Verify ISO Legitimacy"
+          "description": "Verify ISO Legitimacy",
+          "mirrors": [
+            "https://awuctl.github.io/mvs/"
+          ]
         },
         {
           "name": "OS.click",
@@ -2161,22 +1806,12 @@
         {
           "name": "Old School OS",
           "url": "https://www.oldschoolos.com/",
-          "description": "Oldschool ISOs"
-        },
-        {
-          "name": "OS Vault",
-          "url": "https://osvault.weebly.com/directory.html",
-          "description": "Oldschool ISOs"
-        },
-        {
-          "name": "VETUSWARE",
-          "url": "https://vetusware.com/",
-          "description": "Oldschool ISOs"
-        },
-        {
-          "name": "WinWorldPC",
-          "url": "https://winworldpc.com/",
-          "description": "Oldschool ISOs"
+          "description": "Oldschool ISOs",
+          "mirrors": [
+            "https://osvault.weebly.com/directory.html",
+            "https://vetusware.com/",
+            "https://winworldpc.com/"
+          ]
         },
         {
           "name": "Fido",
@@ -2191,17 +1826,11 @@
         {
           "name": "⁠MrChromebox",
           "url": "https://docs.mrchromebox.tech/",
-          "description": "Install Windows / Linux on Chromebook"
-        },
-        {
-          "name": "Chrultrabook",
-          "url": "https://docs.chrultrabook.com/",
-          "description": "Install Windows / Linux on Chromebook"
-        },
-        {
-          "name": "CoolStar",
-          "url": "https://coolstar.org/chromebook/windows-install.html",
-          "description": "Install Windows / Linux on Chromebook"
+          "description": "Install Windows / Linux on Chromebook",
+          "mirrors": [
+            "https://docs.chrultrabook.com/",
+            "https://coolstar.org/chromebook/windows-install.html"
+          ]
         }
       ]
     },
@@ -2293,22 +1922,18 @@
         {
           "name": "UUP Dump",
           "url": "https://uupdump.net/",
-          "description": "Download Previous Windows Updates"
-        },
-        {
-          "name": "Microsoft Update Catalog",
-          "url": "https://www.catalog.update.microsoft.com/",
-          "description": "Download Previous Windows Updates"
+          "description": "Download Previous Windows Updates",
+          "mirrors": [
+            "https://www.catalog.update.microsoft.com/"
+          ]
         },
         {
           "name": "PC Health Check",
           "url": "https://aka.ms/GetPCHealthCheckApp",
-          "description": "Identify why your PC isn't Ready for Windows 11"
-        },
-        {
-          "name": "WhyNotWin11",
-          "url": "https://github.com/rcmaehl/WhyNotWin11",
-          "description": "Identify why your PC isn't Ready for Windows 11"
+          "description": "Identify why your PC isn't Ready for Windows 11",
+          "mirrors": [
+            "https://github.com/rcmaehl/WhyNotWin11"
+          ]
         },
         {
           "name": "FlashMyBoard",
@@ -2324,42 +1949,22 @@
         {
           "name": "MagNumDB",
           "url": "https://www.magnumdb.com/",
-          "description": "Windows Debugging Tools"
-        },
-        {
-          "name": "ErrorLookup",
-          "url": "https://github.com/henrypp/errorlookup",
-          "description": "Windows Debugging Tools"
-        },
-        {
-          "name": "Microsoft Error Lookup",
-          "url": "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-code-lookup-tool",
-          "description": "Windows Debugging Tools"
+          "description": "Windows Debugging Tools",
+          "mirrors": [
+            "https://github.com/henrypp/errorlookup",
+            "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-code-lookup-tool"
+          ]
         },
         {
           "name": "Medicat",
           "url": "https://medicatusb.com/",
-          "description": "WinPE / Recovery Toolkits"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/mon5termatt/medicat_installer",
-          "description": "WinPE / Recovery Toolkits"
-        },
-        {
-          "name": "⁠SergeiStrelec",
-          "url": "https://sergeistrelec.name/",
-          "description": "WinPE / Recovery Toolkits"
-        },
-        {
-          "name": "PhoenixPE",
-          "url": "https://github.com/PhoenixPE/PhoenixPE",
-          "description": "WinPE / Recovery Toolkits"
-        },
-        {
-          "name": "Hiren's BootCD PE",
-          "url": "https://www.hirensbootcd.org/",
-          "description": "WinPE / Recovery Toolkits"
+          "description": "WinPE / Recovery Toolkits",
+          "mirrors": [
+            "https://github.com/mon5termatt/medicat_installer",
+            "https://sergeistrelec.name/",
+            "https://github.com/PhoenixPE/PhoenixPE",
+            "https://www.hirensbootcd.org/"
+          ]
         },
         {
           "name": "r/TechSupport",
@@ -2367,35 +1972,20 @@
           "description": "Tech Support Subreddit",
           "tags": [
             "Discord"
-          ]
-        },
-        {
-          "name": "Wiki",
-          "url": "https://rtech.support/",
-          "description": "Tech Support Subreddit",
-          "tags": [
-            "Discord"
+          ],
+          "mirrors": [
+            "https://rtech.support/"
           ]
         },
         {
           "name": "Hardforum",
           "url": "https://hardforum.com/",
-          "description": "Tech Support Forums"
-        },
-        {
-          "name": "TechGuy",
-          "url": "https://www.techguy.org/",
-          "description": "Tech Support Forums"
-        },
-        {
-          "name": "Eleven Forums",
-          "url": "https://www.elevenforum.com/",
-          "description": "Tech Support Forums"
-        },
-        {
-          "name": "Ten Forums",
-          "url": "https://www.tenforums.com/",
-          "description": "Tech Support Forums"
+          "description": "Tech Support Forums",
+          "mirrors": [
+            "https://www.techguy.org/",
+            "https://www.elevenforum.com/",
+            "https://www.tenforums.com/"
+          ]
         },
         {
           "name": "Windows-Ricing",
@@ -2403,111 +1993,55 @@
           "description": "Windows Ricing Resources",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Frutiger Aero Archive",
-          "url": "https://frutigeraeroarchive.org/",
-          "description": "Windows Ricing Resources",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Heliohost Guide",
-          "url": "https://ninjasr.varesia.com/w/lb/windows",
-          "description": "Windows Ricing Resources",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://frutigeraeroarchive.org/",
+            "https://ninjasr.varesia.com/w/lb/windows"
           ]
         },
         {
           "name": "Rainmeter",
           "url": "https://www.rainmeter.net/",
           "description": "Desktop Customization Environments",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/rainmeter",
-          "description": "Desktop Customization Environments"
-        },
-        {
-          "name": "⁠Seelen UI",
-          "url": "https://github.com/eythaann/Seelen-UI",
-          "description": "Desktop Customization Environments"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/ABfASx5ZAJ",
-          "description": "Desktop Customization Environments"
+          "starred": true,
+          "mirrors": [
+            "https://discord.com/invite/rainmeter",
+            "https://github.com/eythaann/Seelen-UI",
+            "https://discord.gg/ABfASx5ZAJ"
+          ]
         },
         {
           "name": "OpenRGB",
           "url": "https://openrgb.org/",
           "description": "RGB Lighting Control",
-          "starred": true
-        },
-        {
-          "name": "Beta",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/openrgb-beta.md",
-          "description": "RGB Lighting Control"
-        },
-        {
-          "name": "WLED",
-          "url": "https://kno.wled.ge/",
-          "description": "RGB Lighting Control"
-        },
-        {
-          "name": "Aurora",
-          "url": "https://www.project-aurora.com/",
-          "description": "RGB Lighting Control"
-        },
-        {
-          "name": "LiquidCTL",
-          "url": "https://github.com/liquidctl/liquidctl",
-          "description": "RGB Lighting Control"
-        },
-        {
-          "name": "Artemis",
-          "url": "https://artemis-rgb.com/",
-          "description": "RGB Lighting Control"
-        },
-        {
-          "name": "FireLight",
-          "url": "https://github.com/nicolasdeory/firelight",
-          "description": "RGB Lighting Control"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/openrgb-beta.md",
+            "https://kno.wled.ge/",
+            "https://www.project-aurora.com/",
+            "https://github.com/liquidctl/liquidctl",
+            "https://artemis-rgb.com/",
+            "https://github.com/nicolasdeory/firelight"
+          ]
         },
         {
           "name": "VSThemes",
           "url": "https://vsthemes.org/en/",
           "description": "Theme Indexes",
-          "starred": true
-        },
-        {
-          "name": "WindowsCustomization",
-          "url": "https://windowscustomization.com/",
-          "description": "Theme Indexes"
-        },
-        {
-          "name": "7Themes",
-          "url": "https://7themes.su/",
-          "description": "Theme Indexes"
+          "starred": true,
+          "mirrors": [
+            "https://windowscustomization.com/",
+            "https://7themes.su/"
+          ]
         },
         {
           "name": "VirtualCustoms",
           "url": "https://virtualcustoms.net/",
-          "description": "Customization Communities"
-        },
-        {
-          "name": "⁠WinClassic",
-          "url": "https://winclassic.net/",
-          "description": "Customization Communities"
-        },
-        {
-          "name": "winthemers",
-          "url": "https://discord.com/invite/8FFWAqdtc4",
-          "description": "Customization Communities"
+          "description": "Customization Communities",
+          "mirrors": [
+            "https://winclassic.net/",
+            "https://discord.com/invite/8FFWAqdtc4"
+          ]
         },
         {
           "name": "Desktops",
@@ -2522,52 +2056,36 @@
         {
           "name": "SecureUxTheme",
           "url": "https://github.com/namazso/SecureUxTheme",
-          "description": "UX Patcher"
-        },
-        {
-          "name": "UltraUXThemePatcher",
-          "url": "https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en",
-          "description": "UX Patcher"
+          "description": "UX Patcher",
+          "mirrors": [
+            "https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en"
+          ]
         },
         {
           "name": "MechvibesDX",
           "url": "https://github.com/hainguyents13/mechvibes-dx",
-          "description": "Keyboard Sound Effects"
-        },
-        {
-          "name": "MechaKeys",
-          "url": "https://mechakeys.robolab.io/",
-          "description": "Keyboard Sound Effects"
+          "description": "Keyboard Sound Effects",
+          "mirrors": [
+            "https://mechakeys.robolab.io/"
+          ]
         },
         {
           "name": "ElectricSheep",
           "url": "https://electricsheep.org/",
-          "description": "Screensavers"
-        },
-        {
-          "name": "After Dark CSS",
-          "url": "https://www.bryanbraun.com/after-dark-css/",
-          "description": "Screensavers"
+          "description": "Screensavers",
+          "mirrors": [
+            "https://www.bryanbraun.com/after-dark-css/"
+          ]
         },
         {
           "name": "⁠Wallpapers Clan",
           "url": "https://wallpapers-clan.com/",
-          "description": "Custom Folder Icons"
-        },
-        {
-          "name": "FolderMarker",
-          "url": "https://foldermarker.com/",
-          "description": "Custom Folder Icons"
-        },
-        {
-          "name": "Flaired Folder",
-          "url": "https://flaired-folders.vercel.app/",
-          "description": "Custom Folder Icons"
-        },
-        {
-          "name": "CustomFolder",
-          "url": "https://www.gdzsoft.com/",
-          "description": "Custom Folder Icons"
+          "description": "Custom Folder Icons",
+          "mirrors": [
+            "https://foldermarker.com/",
+            "https://flaired-folders.vercel.app/",
+            "https://www.gdzsoft.com/"
+          ]
         },
         {
           "name": "Recycle Bin Themes",
@@ -2582,17 +2100,11 @@
         {
           "name": "Taskbar Tweaker",
           "url": "https://tweaker.ramensoftware.com/",
-          "description": "Taskbar Customization / Old School Style"
-        },
-        {
-          "name": "TranslucentTB",
-          "url": "https://github.com/TranslucentTB/TranslucentTB",
-          "description": "Taskbar Customization / Old School Style"
-        },
-        {
-          "name": "NiceTaskbar",
-          "url": "https://www.microsoft.com/en-us/p/nicetaskbar/9pkl2s93xwb5",
-          "description": "Taskbar Customization / Old School Style"
+          "description": "Taskbar Customization / Old School Style",
+          "mirrors": [
+            "https://github.com/TranslucentTB/TranslucentTB",
+            "https://www.microsoft.com/en-us/p/nicetaskbar/9pkl2s93xwb5"
+          ]
         },
         {
           "name": "⁠Sweezy Cursors",
@@ -2622,12 +2134,10 @@
         {
           "name": "WinDynamicDesktop",
           "url": "https://github.com/t1m0thyj/WinDynamicDesktop",
-          "description": "Auto Change Wallpaper"
-        },
-        {
-          "name": "Dynamic Theme",
-          "url": "https://apps.microsoft.com/detail/9nblggh1zbkw",
-          "description": "Auto Change Wallpaper"
+          "description": "Auto Change Wallpaper",
+          "mirrors": [
+            "https://apps.microsoft.com/detail/9nblggh1zbkw"
+          ]
         },
         {
           "name": "ExplorerBlurMica",
@@ -2666,7 +2176,7 @@
         },
         {
           "name": "Alternative Windows Shells Wiki",
-          "url": "https://en.wikipedia.org/wiki/List_of_alternative_shells_for_Windows",
+          "url": "https://wikipedia.org/wiki/List_of_alternative_shells_for_Windows",
           "description": "Alt Windows Shells"
         },
         {
@@ -2697,42 +2207,22 @@
           "name": "Dracula",
           "url": "https://draculatheme.com/",
           "description": "Custom App Themes",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/yDcFsrYuq9",
-          "description": "Custom App Themes"
-        },
-        {
-          "name": "Catppuccin",
-          "url": "https://catppuccin.com/",
-          "description": "Custom App Themes"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/r6Mdz5dpFc",
-          "description": "Custom App Themes"
+          "starred": true,
+          "mirrors": [
+            "https://discord.com/invite/yDcFsrYuq9",
+            "https://catppuccin.com/",
+            "https://discord.gg/r6Mdz5dpFc"
+          ]
         },
         {
           "name": "Rosé Pine",
           "url": "https://rosepinetheme.com/",
-          "description": "Custom App Themes"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/r6wf35KVJW",
-          "description": "Custom App Themes"
-        },
-        {
-          "name": "Aura Theme",
-          "url": "https://github.com/daltonmenezes/aura-theme",
-          "description": "Custom App Themes"
-        },
-        {
-          "name": "theme.park",
-          "url": "https://theme-park.dev/",
-          "description": "Custom App Themes"
+          "description": "Custom App Themes",
+          "mirrors": [
+            "https://discord.gg/r6wf35KVJW",
+            "https://github.com/daltonmenezes/aura-theme",
+            "https://theme-park.dev/"
+          ]
         },
         {
           "name": "Totally Awesome List",
@@ -2752,22 +2242,12 @@
         {
           "name": "terminal.sexy",
           "url": "https://terminal.sexy/",
-          "description": "Terminal Themes"
-        },
-        {
-          "name": "TerminalSplash",
-          "url": "https://terminalsplash.com/",
-          "description": "Terminal Themes"
-        },
-        {
-          "name": "Solarized",
-          "url": "https://ethanschoonover.com/solarized",
-          "description": "Terminal Themes"
-        },
-        {
-          "name": "WindowsTerminalThemes",
-          "url": "https://windowsterminalthemes.dev/",
-          "description": "Terminal Themes"
+          "description": "Terminal Themes",
+          "mirrors": [
+            "https://terminalsplash.com/",
+            "https://ethanschoonover.com/solarized",
+            "https://windowsterminalthemes.dev/"
+          ]
         }
       ]
     },
@@ -2803,12 +2283,10 @@
           "name": "Rev Wallpaper",
           "url": "https://weris.ordinall.dev/",
           "description": "Reverse Wallpaper Search",
-          "starred": true
-        },
-        {
-          "name": "r/WallpaperRequests",
-          "url": "https://www.reddit.com/r/WallpaperRequests/",
-          "description": "Reverse Wallpaper Search"
+          "starred": true,
+          "mirrors": [
+            "https://www.reddit.com/r/WallpaperRequests/"
+          ]
         },
         {
           "name": "Studio Ghibli Wallpapers",
@@ -2820,32 +2298,14 @@
           "name": "LWP",
           "url": "https://github.com/jszczerbinsky/lwp",
           "description": "Live Wallpapers",
-          "starred": true
-        },
-        {
-          "name": "DesktopHut",
-          "url": "https://www.desktophut.com/",
-          "description": "Live Wallpapers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/QzgnQtJdfs",
-          "description": "Live Wallpapers"
-        },
-        {
-          "name": "r/LivingBackgrounds",
-          "url": "https://reddit.com/r/LivingBackgrounds",
-          "description": "Live Wallpapers"
-        },
-        {
-          "name": "WALLegend",
-          "url": "https://wallegend.net/en/",
-          "description": "Live Wallpapers"
-        },
-        {
-          "name": "MoeWalls",
-          "url": "https://moewalls.com/",
-          "description": "Live Wallpapers"
+          "starred": true,
+          "mirrors": [
+            "https://www.desktophut.com/",
+            "https://discord.com/invite/QzgnQtJdfs",
+            "https://reddit.com/r/LivingBackgrounds",
+            "https://wallegend.net/en/",
+            "https://moewalls.com/"
+          ]
         },
         {
           "name": "WallpaperCave",
@@ -2885,27 +2345,13 @@
         {
           "name": "⁠WallWidgy",
           "url": "https://www.wallwidgy.app/",
-          "description": "Minimalist Wallpapers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/not-ayan/wallwidgy",
-          "description": "Minimalist Wallpapers"
-        },
-        {
-          "name": "Simple Desktops",
-          "url": "https://simpledesktops.com/",
-          "description": "Minimalist Wallpapers"
-        },
-        {
-          "name": "Minimalistic Wallpaper",
-          "url": "https://minimalistic-wallpaper.demolab.com/",
-          "description": "Minimalist Wallpapers"
-        },
-        {
-          "name": "SetAsWall",
-          "url": "https://www.setaswall.com/",
-          "description": "Minimalist Wallpapers"
+          "description": "Minimalist Wallpapers",
+          "mirrors": [
+            "https://github.com/not-ayan/wallwidgy",
+            "https://simpledesktops.com/",
+            "https://minimalistic-wallpaper.demolab.com/",
+            "https://www.setaswall.com/"
+          ]
         },
         {
           "name": "Frutiger Aero Archive",
@@ -2940,37 +2386,21 @@
         {
           "name": "Anime Pictures",
           "url": "https://anime-pictures.net/",
-          "description": "Anime Wallpapers"
-        },
-        {
-          "name": "WallpaperWaifu",
-          "url": "https://wallpaperwaifu.com/",
-          "description": "Anime Wallpapers"
-        },
-        {
-          "name": "MyLiveWallpapers",
-          "url": "https://mylivewallpapers.com/",
-          "description": "Anime Wallpapers"
+          "description": "Anime Wallpapers",
+          "mirrors": [
+            "https://wallpaperwaifu.com/",
+            "https://mylivewallpapers.com/"
+          ]
         },
         {
           "name": "WallsPic",
           "url": "https://wallspic.com/",
-          "description": "Misc Wallpapers"
-        },
-        {
-          "name": "WallpaperFlare",
-          "url": "https://www.wallpaperflare.com/",
-          "description": "Misc Wallpapers"
-        },
-        {
-          "name": "HDQwalls",
-          "url": "https://hdqwalls.com/",
-          "description": "Misc Wallpapers"
-        },
-        {
-          "name": "UHD Wallpaper",
-          "url": "https://www.uhdpaper.com/",
-          "description": "Misc Wallpapers"
+          "description": "Misc Wallpapers",
+          "mirrors": [
+            "https://www.wallpaperflare.com/",
+            "https://hdqwalls.com/",
+            "https://www.uhdpaper.com/"
+          ]
         },
         {
           "name": "G_Walls",
@@ -3001,12 +2431,10 @@
           "name": "Lively",
           "url": "https://www.rocksdanister.com/lively/",
           "description": "Live Wallpaper Manager",
-          "starred": true
-        },
-        {
-          "name": "ScreenPlay",
-          "url": "https://screen-play.app/",
-          "description": "Live Wallpaper Manager"
+          "starred": true,
+          "mirrors": [
+            "https://screen-play.app/"
+          ]
         },
         {
           "name": "backiee",

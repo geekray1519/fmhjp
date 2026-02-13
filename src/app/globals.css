@@ -11,12 +11,12 @@
 }
 
 :root {
-  --background: #ffffff;
+  --background: #fafbfc;
   --foreground: #0f172a;
-  --card: #f8fafc;
-  --card-hover: #f1f5f9;
-  --border: #e2e8f0;
-  --muted: #64748b;
+  --card: #ffffff;
+  --card-hover: #f8fafc;
+  --border: #e5e7eb;
+  --muted: #6b7280;
   --accent: #6366f1;
 }
 
@@ -76,9 +76,15 @@ body {
   transform: translateY(-2px);
 }
 
-/* Starred resource golden glow (dark mode) */
+/* Starred resource golden glow */
+.starred-glow {
+  border-left: 3px solid rgba(251, 191, 36, 0.6);
+  background-color: rgba(251, 191, 36, 0.04);
+}
 .dark .starred-glow {
-  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.15), 0 2px 12px rgba(251, 191, 36, 0.08);
+  border-left: 3px solid rgba(251, 191, 36, 0.5);
+  background-color: rgba(251, 191, 36, 0.03);
+  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.1), 0 2px 12px rgba(251, 191, 36, 0.05);
 }
 
 /* Search glow on focus */
@@ -99,6 +105,19 @@ body {
 }
 .sidebar-item:hover {
   border-left-color: var(--border);
+}
+
+.toc-active {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.toc-item {
+  transition: color 0.2s;
+}
+
+.toc-item:hover {
+  color: var(--accent);
 }
 
 /* Gradient top border for footer */

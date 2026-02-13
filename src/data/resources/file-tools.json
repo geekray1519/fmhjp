@@ -14,22 +14,18 @@
           "name": "czkawka",
           "url": "https://github.com/qarmin/czkawka",
           "description": "Duplicate File Finders",
-          "starred": true
-        },
-        {
-          "name": "dupeGuru",
-          "url": "https://dupeguru.voltaicideas.net/",
-          "description": "Duplicate File Finders"
+          "starred": true,
+          "mirrors": [
+            "https://dupeguru.voltaicideas.net/"
+          ]
         },
         {
           "name": "UnLock IT",
           "url": "https://emcosoftware.com/unlock-it/download",
-          "description": "File Unlocker / Deleter"
-        },
-        {
-          "name": "Lock Hunter",
-          "url": "https://lockhunter.com/",
-          "description": "File Unlocker / Deleter"
+          "description": "File Unlocker / Deleter",
+          "mirrors": [
+            "https://lockhunter.com/"
+          ]
         },
         {
           "name": "Icaros",
@@ -44,17 +40,11 @@
         {
           "name": "HTTPDirfs",
           "url": "https://github.com/fangfufu/httpdirfs",
-          "description": "HTTP File Systems"
-        },
-        {
-          "name": "hfs",
-          "url": "https://rejetto.com/hfs/",
-          "description": "HTTP File Systems"
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/rejetto/hfs",
-          "description": "HTTP File Systems"
+          "description": "HTTP File Systems",
+          "mirrors": [
+            "https://rejetto.com/hfs/",
+            "https://github.com/rejetto/hfs"
+          ]
         },
         {
           "name": "WinBtrfs",
@@ -129,14 +119,9 @@
           "description": "Terminal Download Manager / Download Bot / WebUI",
           "tags": [
             "GitHub"
-          ]
-        },
-        {
-          "name": "Persepolis",
-          "url": "https://persepolisdm.github.io/",
-          "description": "Terminal Download Manager / Download Bot / WebUI",
-          "tags": [
-            "GitHub"
+          ],
+          "mirrors": [
+            "https://persepolisdm.github.io/"
           ]
         },
         {
@@ -186,7 +171,7 @@
           ]
         }
       ],
-      "note": "For more info on the benefits of Download Managers, see The Piracy Glossary."
+      "note": "For more info on the benefits of Download Managers, 参照：Piracy Glossary."
     },
     {
       "id": "file-tools-archiving-compression",
@@ -204,12 +189,10 @@
           "name": "NanaZip",
           "url": "https://github.com/M2Team/NanaZip",
           "description": "File Archiver",
-          "starred": true
-        },
-        {
-          "name": "7-Zip",
-          "url": "https://www.7-zip.org/",
-          "description": "File Archiver"
+          "starred": true,
+          "mirrors": [
+            "https://www.7-zip.org/"
+          ]
         },
         {
           "name": "PeaZip",
@@ -229,12 +212,10 @@
         {
           "name": "Fileforums",
           "url": "https://fileforums.com/",
-          "description": "Data Compression Forums"
-        },
-        {
-          "name": "Encode",
-          "url": "https://encode.su/",
-          "description": "Data Compression Forums"
+          "description": "Data Compression Forums",
+          "mirrors": [
+            "https://encode.su/"
+          ]
         },
         {
           "name": "TurboBench",
@@ -244,12 +225,10 @@
         {
           "name": "Efficient Compression Tool",
           "url": "https://github.com/fhanau/Efficient-Compression-Tool",
-          "description": "File Archivers / Optimizers"
-        },
-        {
-          "name": "Minuimus",
-          "url": "https://birds-are-nice.me/software/minuimus.html",
-          "description": "File Archivers / Optimizers"
+          "description": "File Archivers / Optimizers",
+          "mirrors": [
+            "https://birds-are-nice.me/software/minuimus.html"
+          ]
         },
         {
           "name": "ezyZip",
@@ -301,17 +280,11 @@
           "name": "VERT",
           "url": "https://vert.sh/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/8XXZ7TFFrK",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/VERT-sh/VERT",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://discord.gg/8XXZ7TFFrK",
+            "https://github.com/VERT-sh/VERT"
+          ]
         },
         {
           "name": "Aconvert",
@@ -322,17 +295,11 @@
         {
           "name": "⁠Docling",
           "url": "https://docling-project.github.io/docling/",
-          "description": "Document / PDF File Converters"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/docling-project/docling",
-          "description": "Document / PDF File Converters"
-        },
-        {
-          "name": "Pandoc",
-          "url": "https://pandoc.org/",
-          "description": "Document / PDF File Converters"
+          "description": "Document / PDF File Converters",
+          "mirrors": [
+            "https://github.com/docling-project/docling",
+            "https://pandoc.org/"
+          ]
         },
         {
           "name": "ConvertCSV",
@@ -425,17 +392,11 @@
         {
           "name": "DoubleCMD",
           "url": "https://doublecmd.sourceforge.io/",
-          "description": "Cross-Platform File Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/doublecmd/doublecmd",
-          "description": "Cross-Platform File Managers"
-        },
-        {
-          "name": "muCommander",
-          "url": "https://www.mucommander.com/",
-          "description": "Cross-Platform File Managers"
+          "description": "Cross-Platform File Managers",
+          "mirrors": [
+            "https://github.com/doublecmd/doublecmd",
+            "https://www.mucommander.com/"
+          ]
         },
         {
           "name": "Sigma",
@@ -499,12 +460,10 @@
         {
           "name": "TablacusExplorer",
           "url": "https://tablacus.github.io/explorer_en.html",
-          "description": "Tab File Managers"
-        },
-        {
-          "name": "Multi Commander",
-          "url": "https://multicommander.com/",
-          "description": "Tab File Managers"
+          "description": "Tab File Managers",
+          "mirrors": [
+            "https://multicommander.com/"
+          ]
         },
         {
           "name": "Vifm",
@@ -542,52 +501,30 @@
         {
           "name": "Recoll",
           "url": "https://www.recoll.org/",
-          "description": "Cross-Platform Search Engines"
-        },
-        {
-          "name": "Addon",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/recoll-we/",
-          "description": "Cross-Platform Search Engines"
-        },
-        {
-          "name": "DocFetcher",
-          "url": "https://docfetcher.sourceforge.io/",
-          "description": "Cross-Platform Search Engines"
-        },
-        {
-          "name": "Orange",
-          "url": "https://0-range.github.io/",
-          "description": "Cross-Platform Search Engines"
+          "description": "Cross-Platform Search Engines",
+          "mirrors": [
+            "https://addons.mozilla.org/en-US/firefox/addon/recoll-we/",
+            "https://docfetcher.sourceforge.io/",
+            "https://0-range.github.io/"
+          ]
         },
         {
           "name": "AnyTXT",
           "url": "https://anytxt.net/",
-          "description": "Windows Search Engines"
-        },
-        {
-          "name": "WizFile",
-          "url": "https://antibody-software.com/wizfile/",
-          "description": "Windows Search Engines"
-        },
-        {
-          "name": "FluentSearch",
-          "url": "https://fluentsearch.net/",
-          "description": "Windows Search Engines"
+          "description": "Windows Search Engines",
+          "mirrors": [
+            "https://antibody-software.com/wizfile/",
+            "https://fluentsearch.net/"
+          ]
         },
         {
           "name": "AstroGrep",
           "url": "https://sourceforge.net/projects/astrogrep/",
-          "description": "Windows GUI Grep Utilities"
-        },
-        {
-          "name": "grepWin",
-          "url": "https://github.com/stefankueng/grepWin",
-          "description": "Windows GUI Grep Utilities"
-        },
-        {
-          "name": "dnGrep",
-          "url": "https://dngrep.github.io/",
-          "description": "Windows GUI Grep Utilities"
+          "description": "Windows GUI Grep Utilities",
+          "mirrors": [
+            "https://github.com/stefankueng/grepWin",
+            "https://dngrep.github.io/"
+          ]
         },
         {
           "name": "fselect",
@@ -614,22 +551,12 @@
           "name": "Cryptomator",
           "url": "https://cryptomator.org/",
           "description": "Cloud File Encryption",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/cryptomator/cryptomator",
-          "description": "Cloud File Encryption"
-        },
-        {
-          "name": "Tahoe-LAFS",
-          "url": "https://tahoe-lafs.org/trac/tahoe-lafs",
-          "description": "Cloud File Encryption"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/tahoe-lafs/tahoe-lafs",
-          "description": "Cloud File Encryption"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/cryptomator/cryptomator",
+            "https://tahoe-lafs.org/trac/tahoe-lafs",
+            "https://github.com/tahoe-lafs/tahoe-lafs"
+          ]
         },
         {
           "name": "VeraCrypt",
@@ -681,12 +608,10 @@
         {
           "name": "MyPhoneExplorer",
           "url": "https://www.fjsoft.at/",
-          "description": "Phone and Desktop Sync"
-        },
-        {
-          "name": "SyncFolder",
-          "url": "https://apps.microsoft.com/detail/9nc73mjwhsww?rtc=1&hl=en-us&gl=US",
-          "description": "Phone and Desktop Sync"
+          "description": "Phone and Desktop Sync",
+          "mirrors": [
+            "https://apps.microsoft.com/detail/9nc73mjwhsww?rtc=1&hl=en-us&gl=US"
+          ]
         },
         {
           "name": "allwaysync",
@@ -744,27 +669,19 @@
           "name": "Rescuezilla",
           "url": "https://rescuezilla.com/",
           "description": "Disk Image Backup",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/rescuezilla/rescuezilla",
-          "description": "Disk Image Backup"
-        },
-        {
-          "name": "CloneZilla",
-          "url": "https://clonezilla.org/",
-          "description": "Disk Image Backup"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/rescuezilla/rescuezilla",
+            "https://clonezilla.org/"
+          ]
         },
         {
           "name": "FolderClone",
           "url": "https://www.folderclone.com/",
-          "description": "Folder Clone / Backup"
-        },
-        {
-          "name": "Echosync",
-          "url": "https://www.luminescence-software.org/en/echosync/about/",
-          "description": "Folder Clone / Backup"
+          "description": "Folder Clone / Backup",
+          "mirrors": [
+            "https://www.luminescence-software.org/en/echosync/about/"
+          ]
         },
         {
           "name": "BackupPC",
@@ -849,12 +766,10 @@
         {
           "name": "ShadowExplorer",
           "url": "https://www.shadowexplorer.com/",
-          "description": "Shadow Copy Explorers"
-        },
-        {
-          "name": "ShadowCopyView",
-          "url": "https://www.nirsoft.net/utils/shadow_copy_view.html/",
-          "description": "Shadow Copy Explorers"
+          "description": "Shadow Copy Explorers",
+          "mirrors": [
+            "https://www.nirsoft.net/utils/shadow_copy_view.html/"
+          ]
         }
       ]
     },
@@ -866,17 +781,11 @@
           "name": "Fileinfo",
           "url": "https://fileinfo.com/",
           "description": "File Extension Libraries",
-          "starred": true
-        },
-        {
-          "name": "Filext",
-          "url": "https://filext.com/",
-          "description": "File Extension Libraries"
-        },
-        {
-          "name": "OpenMyFiles",
-          "url": "https://www.openmyfiles.com/",
-          "description": "File Extension Libraries"
+          "starred": true,
+          "mirrors": [
+            "https://filext.com/",
+            "https://www.openmyfiles.com/"
+          ]
         },
         {
           "name": "Phockup",
@@ -900,37 +809,21 @@
         {
           "name": "ExtractMetadata",
           "url": "https://www.extractmetadata.com/",
-          "description": "Metadata Viewers / Editors"
-        },
-        {
-          "name": "⁠FilesMD",
-          "url": "https://www.filesmd.com/",
-          "description": "Metadata Viewers / Editors"
-        },
-        {
-          "name": "Metadata2Go",
-          "url": "https://www.metadata2go.com/",
-          "description": "Metadata Viewers / Editors"
+          "description": "Metadata Viewers / Editors",
+          "mirrors": [
+            "https://www.filesmd.com/",
+            "https://www.metadata2go.com/"
+          ]
         },
         {
           "name": "⁠PrivMeta",
           "url": "https://www.privmeta.com/",
-          "description": "Remove Metadata from Files"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/DScaife/privmeta/",
-          "description": "Remove Metadata from Files"
-        },
-        {
-          "name": "mat2",
-          "url": "https://github.com/jvoisin/mat2",
-          "description": "Remove Metadata from Files"
-        },
-        {
-          "name": "Web Version",
-          "url": "https://0xacab.org/jvoisin/mat2-web",
-          "description": "Remove Metadata from Files"
+          "description": "Remove Metadata from Files",
+          "mirrors": [
+            "https://github.com/DScaife/privmeta/",
+            "https://github.com/jvoisin/mat2",
+            "https://0xacab.org/jvoisin/mat2-web"
+          ]
         },
         {
           "name": "Attribute Changer",
@@ -945,12 +838,10 @@
         {
           "name": "Magika",
           "url": "https://github.com/google/magika",
-          "description": "File Type Detection Tools"
-        },
-        {
-          "name": "TridUI",
-          "url": "https://github.com/JMcrafter26/TridUI",
-          "description": "File Type Detection Tools"
+          "description": "File Type Detection Tools",
+          "mirrors": [
+            "https://github.com/JMcrafter26/TridUI"
+          ]
         },
         {
           "name": "OpenHashTab",
@@ -960,12 +851,10 @@
         {
           "name": "TagSpaces",
           "url": "https://www.tagspaces.org/",
-          "description": "Tag-Based File Systems"
-        },
-        {
-          "name": "Tagging for Windows",
-          "url": "https://tagging.connectpaste.com/",
-          "description": "Tag-Based File Systems"
+          "description": "Tag-Based File Systems",
+          "mirrors": [
+            "https://tagging.connectpaste.com/"
+          ]
         },
         {
           "name": "SKTimeStamp",
@@ -987,27 +876,13 @@
         {
           "name": "Eraser",
           "url": "https://eraser.heidi.ie/",
-          "description": "File Shredding"
-        },
-        {
-          "name": "File Shredder",
-          "url": "https://fileshredder.org/",
-          "description": "File Shredding"
-        },
-        {
-          "name": "Alternate File Shredder",
-          "url": "https://www.alternate-tools.com/pages/c_fileshredder.php?lang=ENG",
-          "description": "File Shredding"
-        },
-        {
-          "name": "Permadelete",
-          "url": "https://developerstree.github.io/permadelete/",
-          "description": "File Shredding"
-        },
-        {
-          "name": "Delapp",
-          "url": "https://github.com/differentrain/Delapp",
-          "description": "File Shredding"
+          "description": "File Shredding",
+          "mirrors": [
+            "https://fileshredder.org/",
+            "https://www.alternate-tools.com/pages/c_fileshredder.php?lang=ENG",
+            "https://developerstree.github.io/permadelete/",
+            "https://github.com/differentrain/Delapp"
+          ]
         },
         {
           "name": "Parted Magic",
@@ -1022,17 +897,11 @@
         {
           "name": "Low Level Format",
           "url": "https://www.lowlevelformat.info/",
-          "description": "Complete Hard Drive Erasers"
-        },
-        {
-          "name": "nwipe",
-          "url": "https://github.com/martijnvanbrummelen/nwipe",
-          "description": "Complete Hard Drive Erasers"
-        },
-        {
-          "name": "ShredOS",
-          "url": "https://github.com/PartialVolume/shredos.x86_64",
-          "description": "Complete Hard Drive Erasers"
+          "description": "Complete Hard Drive Erasers",
+          "mirrors": [
+            "https://github.com/martijnvanbrummelen/nwipe",
+            "https://github.com/PartialVolume/shredos.x86_64"
+          ]
         },
         {
           "name": "RED",
@@ -1049,37 +918,15 @@
           "name": "Advanced Renamer",
           "url": "https://www.advancedrenamer.com/",
           "description": "Bulk Renamers",
-          "starred": true
-        },
-        {
-          "name": "PowerRename",
-          "url": "https://learn.microsoft.com/en-us/windows/powertoys/powerrename",
-          "description": "Bulk Renamers"
-        },
-        {
-          "name": "Szyszka",
-          "url": "https://github.com/qarmin/szyszka",
-          "description": "Bulk Renamers"
-        },
-        {
-          "name": "F2",
-          "url": "https://github.com/ayoisaiah/f2",
-          "description": "Bulk Renamers"
-        },
-        {
-          "name": "Ant Renamer",
-          "url": "https://www.antp.be/software/renamer",
-          "description": "Bulk Renamers"
-        },
-        {
-          "name": "Flut Renamer",
-          "url": "https://github.com/sun-jiao/flut-renamer",
-          "description": "Bulk Renamers"
-        },
-        {
-          "name": "Bulk Rename Utility",
-          "url": "https://www.bulkrenameutility.co.uk/",
-          "description": "Bulk Renamers"
+          "starred": true,
+          "mirrors": [
+            "https://learn.microsoft.com/en-us/windows/powertoys/powerrename",
+            "https://github.com/qarmin/szyszka",
+            "https://github.com/ayoisaiah/f2",
+            "https://www.antp.be/software/renamer",
+            "https://github.com/sun-jiao/flut-renamer",
+            "https://www.bulkrenameutility.co.uk/"
+          ]
         },
         {
           "name": "FoliCon",
@@ -1097,12 +944,10 @@
         {
           "name": "tinyMediaManager",
           "url": "https://www.tinymediamanager.org/",
-          "description": "Media Collection Managers"
-        },
-        {
-          "name": "MediaElch",
-          "url": "https://www.kvibes.de/mediaelch/",
-          "description": "Media Collection Managers"
+          "description": "Media Collection Managers",
+          "mirrors": [
+            "https://www.kvibes.de/mediaelch/"
+          ]
         },
         {
           "name": "FileBot",
@@ -1112,12 +957,10 @@
         {
           "name": "TVRename",
           "url": "https://www.tvrename.com/",
-          "description": "TV File Data Automation"
-        },
-        {
-          "name": "⁠Rename My TV Series",
-          "url": "https://www.tweaking4all.com/home-theatre/rename-my-tv-series-v2/",
-          "description": "TV File Data Automation"
+          "description": "TV File Data Automation",
+          "mirrors": [
+            "https://www.tweaking4all.com/home-theatre/rename-my-tv-series-v2/"
+          ]
         },
         {
           "name": "Shoko",
@@ -1127,12 +970,10 @@
         {
           "name": "PDFGrep",
           "url": "https://pdfgrep.org/",
-          "description": "PDF Text Search"
-        },
-        {
-          "name": "OCRmyPDF",
-          "url": "https://github.com/ocrmypdf/OCRmyPDF",
-          "description": "PDF Text Search"
+          "description": "PDF Text Search",
+          "mirrors": [
+            "https://github.com/ocrmypdf/OCRmyPDF"
+          ]
         },
         {
           "name": "PDFEncrypt",
@@ -1152,32 +993,14 @@
         {
           "name": "OpenSign",
           "url": "https://github.com/OpenSignLabs/OpenSign",
-          "description": "PDF Signature Tools"
-        },
-        {
-          "name": "Signature PDF",
-          "url": "https://pdf.24eme.fr/",
-          "description": "PDF Signature Tools"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/24eme/signaturepdf",
-          "description": "PDF Signature Tools"
-        },
-        {
-          "name": "FalsiScan",
-          "url": "https://gitlab.com/edouardklein/falsisign",
-          "description": "PDF Signature Tools"
-        },
-        {
-          "name": "JustSignPDF",
-          "url": "https://justsignpdf.com/",
-          "description": "PDF Signature Tools"
-        },
-        {
-          "name": "Adobe Sign",
-          "url": "https://www.adobe.com/acrobat/online/sign-pdf.html",
-          "description": "PDF Signature Tools"
+          "description": "PDF Signature Tools",
+          "mirrors": [
+            "https://pdf.24eme.fr/",
+            "https://github.com/24eme/signaturepdf",
+            "https://gitlab.com/edouardklein/falsisign",
+            "https://justsignpdf.com/",
+            "https://www.adobe.com/acrobat/online/sign-pdf.html"
+          ]
         },
         {
           "name": "Google Drive PDF Downloader",
@@ -1207,14 +1030,9 @@
           "starred": true,
           "tags": [
             "GitHub"
-          ]
-        },
-        {
-          "name": "File PDF",
-          "url": "https://filepdf.net/",
-          "description": "Client-Side",
-          "tags": [
-            "GitHub"
+          ],
+          "mirrors": [
+            "https://filepdf.net/"
           ]
         },
         {
@@ -1285,54 +1103,54 @@
         {
           "name": "Stirling-PDF",
           "url": "https://www.stirlingpdf.com/",
-          "description": "",
+          "description": "Windows, Mac, Linux / Requires Sign-Up",
           "starred": true
         },
         {
           "name": "GitHub",
           "url": "https://github.com/Stirling-Tools/Stirling-PDF",
-          "description": ""
+          "description": "Windows, Mac, Linux / Requires Sign-Up"
         },
         {
           "name": "PDF24",
           "url": "https://www.pdf24.org/",
-          "description": "",
+          "description": "Web-Based / Windows",
           "starred": true
         },
         {
           "name": "⁠PDF4QT",
           "url": "https://jakubmelka.github.io/",
-          "description": ""
+          "description": "Windows, Linux"
         },
         {
           "name": "GitHub",
           "url": "https://github.com/JakubMelka/PDF4QT",
-          "description": ""
+          "description": "Windows, Linux"
         },
         {
           "name": "Foxit",
           "url": "https://www.foxit.com/pdf-reader/",
-          "description": ""
+          "description": "Web-Based / Windows, Linux, Android, iOS / (search)"
         },
         {
           "name": "Features",
           "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download#wiki_.25BA_software_sites",
-          "description": ""
+          "description": "Web-Based / Windows, Linux, Android, iOS / (search)"
         },
         {
           "name": "Warning",
           "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/foxit-warning.md",
-          "description": ""
+          "description": "Web-Based / Windows, Linux, Android, iOS / (search)"
         },
         {
           "name": "xPDFReader",
           "url": "https://www.xpdfreader.com/",
-          "description": ""
+          "description": "Windows, Mac, Linux"
         },
         {
           "name": "PDF Arranger",
           "url": "https://github.com/pdfarranger/pdfarranger",
-          "description": ""
+          "description": "Windows, Linux"
         }
       ]
     },
@@ -1343,27 +1161,19 @@
         {
           "name": "Rare2PDF",
           "url": "https://rare2pdf.com/",
-          "description": "File to PDF Conversion"
-        },
-        {
-          "name": "online2pdf",
-          "url": "https://online2pdf.com/",
-          "description": "File to PDF Conversion"
-        },
-        {
-          "name": "2PDFConverter",
-          "url": "https://www.2pdfconverter.com/",
-          "description": "File to PDF Conversion"
+          "description": "File to PDF Conversion",
+          "mirrors": [
+            "https://online2pdf.com/",
+            "https://www.2pdfconverter.com/"
+          ]
         },
         {
           "name": "⁠Tideflow",
           "url": "https://github.com/BDenizKoca/Tideflow-md-to-pdf",
-          "description": "Markdown to PDF Converters"
-        },
-        {
-          "name": "MD2PDF",
-          "url": "https://md2pdf.netlify.app/",
-          "description": "Markdown to PDF Converters"
+          "description": "Markdown to PDF Converters",
+          "mirrors": [
+            "https://md2pdf.netlify.app/"
+          ]
         },
         {
           "name": "PDFconvert",
@@ -1378,17 +1188,11 @@
         {
           "name": "PDFCrowd",
           "url": "https://pdfcrowd.com/",
-          "description": "HTML to PDF / Image Converter"
-        },
-        {
-          "name": "TailWindPDF",
-          "url": "https://tailwindpdf.com/",
-          "description": "HTML to PDF / Image Converter"
-        },
-        {
-          "name": "wkhtmltopdf",
-          "url": "https://wkhtmltopdf.org/",
-          "description": "HTML to PDF / Image Converter"
+          "description": "HTML to PDF / Image Converter",
+          "mirrors": [
+            "https://tailwindpdf.com/",
+            "https://wkhtmltopdf.org/"
+          ]
         },
         {
           "name": "Issuu",
@@ -1398,12 +1202,10 @@
         {
           "name": "WebToPDF",
           "url": "https://webtopdf.com/",
-          "description": "Webpage to PDF Converters"
-        },
-        {
-          "name": "Percollate",
-          "url": "https://github.com/danburzo/percollate",
-          "description": "Webpage to PDF Converters"
+          "description": "Webpage to PDF Converters",
+          "mirrors": [
+            "https://github.com/danburzo/percollate"
+          ]
         },
         {
           "name": "Dangerzone",
@@ -1508,17 +1310,11 @@
         {
           "name": "aQRoss",
           "url": "https://aqross.app/",
-          "description": "Share Files Using QR Codes"
-        },
-        {
-          "name": "qrcp",
-          "url": "https://qrcp.sh/",
-          "description": "Share Files Using QR Codes"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/claudiodangelis/qrcp",
-          "description": "Share Files Using QR Codes"
+          "description": "Share Files Using QR Codes",
+          "mirrors": [
+            "https://qrcp.sh/",
+            "https://github.com/claudiodangelis/qrcp"
+          ]
         },
         {
           "name": "OnionShare",
@@ -1550,12 +1346,10 @@
           "name": "PairDrop",
           "url": "https://pairdrop.net/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/schlagmichdoch/pairdrop",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/schlagmichdoch/pairdrop"
+          ]
         },
         {
           "name": "JustBeamIt",
@@ -1574,12 +1368,10 @@
         {
           "name": "ToffeeShare",
           "url": "https://toffeeshare.com/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ToffeeShare",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/ToffeeShare"
+          ]
         },
         {
           "name": "⁠Station307",
@@ -1594,12 +1386,10 @@
         {
           "name": "WebWormhole",
           "url": "https://webwormhole.io/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/saljam/webwormhole",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/saljam/webwormhole"
+          ]
         },
         {
           "name": "PolyUpload File Host Index",
@@ -1825,12 +1615,10 @@
         {
           "name": "Hexupload",
           "url": "https://hexload.com/",
-          "description": "15GB / 30 Days"
-        },
-        {
-          "name": "AnonTransfer",
-          "url": "https://anontransfer.com/",
-          "description": "15GB / 30 Days"
+          "description": "15GB / 30 Days",
+          "mirrors": [
+            "https://anontransfer.com/"
+          ]
         },
         {
           "name": "Tempcloud",
@@ -1840,12 +1628,10 @@
         {
           "name": "GrosFichiers",
           "url": "https://www.grosfichiers.com/",
-          "description": "10GB / 14 Days"
-        },
-        {
-          "name": "DataTransfer",
-          "url": "https://www.datatransfer.com/",
-          "description": "10GB / 14 Days"
+          "description": "10GB / 14 Days",
+          "mirrors": [
+            "https://www.datatransfer.com/"
+          ]
         },
         {
           "name": "FileFast",
@@ -1874,18 +1660,13 @@
           "description": "5GB / 30 Days After Last Download"
         },
         {
-          "name": "⁠Filefast",
-          "url": "https://filefa.st/",
-          "description": "5GB / Forever"
-        },
-        {
           "name": "⁠Nerushare",
           "url": "https://nerushare.ovh/",
           "description": "5GB / Forever"
         },
         {
           "name": "imgur.gg",
-          "url": "https://imgur.gg/",
+          "url": "https://temp.imgur.gg/",
           "description": "5GB / Forever / Requires Sign-Up"
         },
         {
@@ -1896,12 +1677,10 @@
         {
           "name": "FileDitch",
           "url": "https://fileditch.com/",
-          "description": "5GB / 90 Days"
-        },
-        {
-          "name": "SendGB",
-          "url": "https://www.sendgb.com/",
-          "description": "5GB / 90 Days"
+          "description": "5GB / 90 Days",
+          "mirrors": [
+            "https://www.sendgb.com/"
+          ]
         },
         {
           "name": "MegaUp",
@@ -1951,12 +1730,10 @@
         {
           "name": "pCloud Transfer",
           "url": "https://transfer.pcloud.com/",
-          "description": "5GB / 7 Days / Requires Email"
-        },
-        {
-          "name": "Tresorit Send",
-          "url": "https://send.tresorit.com/",
-          "description": "5GB / 7 Days / Requires Email"
+          "description": "5GB / 7 Days / Requires Email",
+          "mirrors": [
+            "https://send.tresorit.com/"
+          ]
         },
         {
           "name": "Temp.sh",
@@ -1967,6 +1744,11 @@
           "name": "⁠Mega4Upload",
           "url": "https://mega4upload.net/",
           "description": "3GB / 183GB / 150 Days After Last Download"
+        },
+        {
+          "name": "Workupload",
+          "url": "https://workupload.com/",
+          "description": "2GB / 90 Days"
         },
         {
           "name": "Send",
@@ -2026,37 +1808,21 @@
         {
           "name": "MultiUp.io",
           "url": "https://multiup.io/",
-          "description": "Multi Host Uploaders"
-        },
-        {
-          "name": "Extract / Upload",
-          "url": "https://github.com/Reddiepoint/MultiUp-Direct",
-          "description": "Multi Host Uploaders"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/2yUEQPxTTU",
-          "description": "Multi Host Uploaders"
-        },
-        {
-          "name": "Mirrored.to",
-          "url": "https://www.mirrored.to/",
-          "description": "Multi Host Uploaders"
+          "description": "Multi Host Uploaders",
+          "mirrors": [
+            "https://github.com/Reddiepoint/MultiUp-Direct",
+            "https://discord.gg/2yUEQPxTTU",
+            "https://www.mirrored.to/"
+          ]
         },
         {
           "name": "⁠PolyUploader",
           "url": "https://polyuploader.vercel.app/",
-          "description": "Multi-Host Upload Desktop Apps"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/spel987/PolyUploader",
-          "description": "Multi-Host Upload Desktop Apps"
-        },
-        {
-          "name": "Z-o-o-m",
-          "url": "https://z-o-o-m.eu/",
-          "description": "Multi-Host Upload Desktop Apps"
+          "description": "Multi-Host Upload Desktop Apps",
+          "mirrors": [
+            "https://github.com/spel987/PolyUploader",
+            "https://z-o-o-m.eu/"
+          ]
         },
         {
           "name": "DataNodes",
@@ -2089,14 +1855,9 @@
           "description": "Compare Cloud Storage Sites",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "ComparisonTabl.es",
-          "url": "https://comparisontabl.es/cloud-storage/",
-          "description": "Compare Cloud Storage Sites",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://comparisontabl.es/cloud-storage/"
           ]
         },
         {
@@ -2216,7 +1977,7 @@
           "description": "Fix OneDrive Zip Files >4GB"
         }
       ],
-      "note": "Free plan storage / Free plan account inactivity deletion / Avg monthly price per TB (annual plan)."
+      "note": "無料 plan storage / 無料 plan アカウント inactivity deletion / Avg monthly price per TB (annual plan)."
     },
     {
       "id": "file-tools-cloud-managers",
@@ -2328,42 +2089,22 @@
         {
           "name": "goindex-extended",
           "url": "https://github.com/menukaonline/goindex-extended",
-          "description": "Google Drive Indexers"
-        },
-        {
-          "name": "Themes",
-          "url": "https://install.kenci.workers.dev/",
-          "description": "Google Drive Indexers"
-        },
-        {
-          "name": "Google-Drive-Index",
-          "url": "https://gitlab.com/GoogleDriveIndex/Google-Drive-Index",
-          "description": "Google Drive Indexers"
+          "description": "Google Drive Indexers",
+          "mirrors": [
+            "https://install.kenci.workers.dev/",
+            "https://gitlab.com/GoogleDriveIndex/Google-Drive-Index"
+          ]
         },
         {
           "name": "gdurl",
           "url": "https://gdurl.com/",
-          "description": "GDrive Link Generators / Host Direct Links"
-        },
-        {
-          "name": "GDrive Link Generator",
-          "url": "https://www.wonderplugin.com/online-tools/google-drive-direct-link-generator/",
-          "description": "GDrive Link Generators / Host Direct Links"
-        },
-        {
-          "name": "Direct.GDrive",
-          "url": "https://direct.gdrive.vip/en/",
-          "description": "GDrive Link Generators / Host Direct Links"
-        },
-        {
-          "name": "Maulvi",
-          "url": "https://maulvi.github.io/",
-          "description": "GDrive Link Generators / Host Direct Links"
-        },
-        {
-          "name": "GDriveWebAppPublic",
-          "url": "https://github.com/CloudflareHackers/GDriveWebAppPublic",
-          "description": "GDrive Link Generators / Host Direct Links"
+          "description": "GDrive Link Generators / Host Direct Links",
+          "mirrors": [
+            "https://www.wonderplugin.com/online-tools/google-drive-direct-link-generator/",
+            "https://direct.gdrive.vip/en/",
+            "https://maulvi.github.io/",
+            "https://github.com/CloudflareHackers/GDriveWebAppPublic"
+          ]
         },
         {
           "name": "Google Drive Clone Bot",
@@ -2386,17 +2127,11 @@
         {
           "name": "Sharer",
           "url": "https://sharer.pw",
-          "description": "Google Drive File Sharing"
-        },
-        {
-          "name": "YuShare",
-          "url": "https://yushare.my.id",
-          "description": "Google Drive File Sharing"
-        },
-        {
-          "name": "GDToT",
-          "url": "https://new10.gdtot.dad",
-          "description": "Google Drive File Sharing"
+          "description": "Google Drive File Sharing",
+          "mirrors": [
+            "https://yushare.my.id",
+            "https://new10.gdtot.dad"
+          ]
         }
       ]
     },

@@ -66,12 +66,10 @@
         {
           "name": "ArabicFonts",
           "url": "https://arabicfonts.net/",
-          "description": "Fonts"
-        },
-        {
-          "name": "ARFonts",
-          "url": "https://www.arfonts.net/",
-          "description": "Fonts"
+          "description": "Fonts",
+          "mirrors": [
+            "https://www.arfonts.net/"
+          ]
         },
         {
           "name": "Eternal Dream Arabization",
@@ -377,12 +375,10 @@
         {
           "name": "24livenewspaper",
           "url": "https://www.24livenewspaper.com/bangla-newspaper",
-          "description": "Bangla Newspapers"
-        },
-        {
-          "name": "allbanglanewspaper",
-          "url": "https://www.allbanglanewspaper.xyz/",
-          "description": "Bangla Newspapers"
+          "description": "Bangla Newspapers",
+          "mirrors": [
+            "https://www.allbanglanewspaper.xyz/"
+          ]
         },
         {
           "name": "IQGAW",
@@ -519,17 +515,11 @@
         {
           "name": "YavkA",
           "url": "https://yavka.net/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "subsunacs",
-          "url": "https://subsunacs.net/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "subs.sab.bz",
-          "url": "http://subs.sab.bz/",
-          "description": "Subtitles"
+          "description": "Subtitles",
+          "mirrors": [
+            "https://subsunacs.net/",
+            "http://subs.sab.bz/"
+          ]
         }
       ]
     },
@@ -578,14 +568,9 @@
           "description": "Chinese Sites / Tools Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "bajins",
-          "url": "https://www.bajins.com/",
-          "description": "Chinese Sites / Tools Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://www.bajins.com/"
           ]
         },
         {
@@ -617,12 +602,10 @@
         {
           "name": "⁠Arch Linux Concise Guide",
           "url": "https://arch.icekylin.online/",
-          "description": "Arch Linux Guides"
-        },
-        {
-          "name": "⁠ArchlinuxCN",
-          "url": "https://archlinuxcn.org/",
-          "description": "Arch Linux Guides"
+          "description": "Arch Linux Guides",
+          "mirrors": [
+            "https://archlinuxcn.org/"
+          ]
         },
         {
           "name": "GitHub Speed Guide",
@@ -637,17 +620,11 @@
         {
           "name": "assrt",
           "url": "https://assrt.net/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "srtku",
-          "url": "https://srtku.com/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "zimuku",
-          "url": "https://zimuku.org/",
-          "description": "Subtitles"
+          "description": "Subtitles",
+          "mirrors": [
+            "https://srtku.com/",
+            "https://zimuku.org/"
+          ]
         },
         {
           "name": "Bangumi",
@@ -715,17 +692,11 @@
         {
           "name": "TopHub",
           "url": "https://tophub.today/",
-          "description": "News"
-        },
-        {
-          "name": "Rebang",
-          "url": "https://rebang.today/",
-          "description": "News"
-        },
-        {
-          "name": "Chinadaily",
-          "url": "https://cn.chinadaily.com.cn/",
-          "description": "News"
+          "description": "News",
+          "mirrors": [
+            "https://rebang.today/",
+            "https://cn.chinadaily.com.cn/"
+          ]
         },
         {
           "name": "IT Home",
@@ -750,42 +721,22 @@
         {
           "name": "Bing China",
           "url": "https://www.bing.com/?mkt=zh-CN",
-          "description": "Search Engines"
-        },
-        {
-          "name": "Toutiao",
-          "url": "https://www.toutiao.com/",
-          "description": "Search Engines"
-        },
-        {
-          "name": "sogou",
-          "url": "https://www.sogou.com/",
-          "description": "Search Engines"
-        },
-        {
-          "name": "yisou",
-          "url": "http://yisou.com/",
-          "description": "Search Engines"
+          "description": "Search Engines",
+          "mirrors": [
+            "https://www.toutiao.com/",
+            "https://www.sogou.com/",
+            "http://yisou.com/"
+          ]
         },
         {
           "name": "ICIBA",
           "url": "https://www.iciba.com/",
-          "description": "Translators"
-        },
-        {
-          "name": "Client",
-          "url": "https://cp.iciba.com/",
-          "description": "Translators"
-        },
-        {
-          "name": "Fanyi",
-          "url": "https://fanyi.qq.com/",
-          "description": "Translators"
-        },
-        {
-          "name": "YouDao",
-          "url": "https://fanyi.youdao.com/",
-          "description": "Translators"
+          "description": "Translators",
+          "mirrors": [
+            "https://cp.iciba.com/",
+            "https://fanyi.qq.com/",
+            "https://fanyi.youdao.com/"
+          ]
         },
         {
           "name": "Hack Game",
@@ -800,17 +751,11 @@
         {
           "name": "V2EX",
           "url": "https://v2ex.com/",
-          "description": "Developer / Programming Forums"
-        },
-        {
-          "name": "CNBlogs",
-          "url": "https://www.cnblogs.com/",
-          "description": "Developer / Programming Forums"
-        },
-        {
-          "name": "ZongScan",
-          "url": "https://www.zongscan.com/",
-          "description": "Developer / Programming Forums"
+          "description": "Developer / Programming Forums",
+          "mirrors": [
+            "https://www.cnblogs.com/",
+            "https://www.zongscan.com/"
+          ]
         },
         {
           "name": "BookStack",
@@ -842,12 +787,10 @@
           "name": "Censordex",
           "url": "https://censordex.fr.to/",
           "description": "Censorship Bypass Guides",
-          "starred": true
-        },
-        {
-          "name": "Censorship Bypass",
-          "url": "https://rentry.co/chinese-censorship-bypass-guide",
-          "description": "Censorship Bypass Guides"
+          "starred": true,
+          "mirrors": [
+            "https://rentry.co/chinese-censorship-bypass-guide"
+          ]
         },
         {
           "name": "gfwlist",
@@ -882,22 +825,12 @@
         {
           "name": "China Firewall Test",
           "url": "https://www.dotcom-tools.com/china-firewall-test",
-          "description": "Chinese Firewall Blocking Test"
-        },
-        {
-          "name": "ChinaFirewallTest",
-          "url": "http://www.chinafirewalltest.com/",
-          "description": "Chinese Firewall Blocking Test"
-        },
-        {
-          "name": "BlockedInChina",
-          "url": "https://www.comparitech.com/privacy-security-tools/blockedinchina/",
-          "description": "Chinese Firewall Blocking Test"
-        },
-        {
-          "name": "Chinese Firewall",
-          "url": "https://viewdns.info/chinesefirewall/",
-          "description": "Chinese Firewall Blocking Test"
+          "description": "Chinese Firewall Blocking Test",
+          "mirrors": [
+            "http://www.chinafirewalltest.com/",
+            "https://www.comparitech.com/privacy-security-tools/blockedinchina/",
+            "https://viewdns.info/chinesefirewall/"
+          ]
         },
         {
           "name": "Apple Account Guide",
@@ -929,12 +862,10 @@
         {
           "name": "icourse163",
           "url": "https://www.icourse163.org/",
-          "description": "Courses"
-        },
-        {
-          "name": "Icourse163 Downloader",
-          "url": "https://greasyfork.org/en/scripts/372684",
-          "description": "Courses"
+          "description": "Courses",
+          "mirrors": [
+            "https://greasyfork.org/en/scripts/372684"
+          ]
         },
         {
           "name": "CN GreenLumaGUI",
@@ -1094,32 +1025,14 @@
           "name": "BiliBili",
           "url": "https://www.bilibili.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": ".tv",
-          "url": "https://www.bilibili.tv/",
-          "description": ""
-        },
-        {
-          "name": "Multi-Platform Client",
-          "url": "https://xfangfang.github.io/wiliwili/",
-          "description": ""
-        },
-        {
-          "name": "Signup Block",
-          "url": "https://greasyfork.org/en/scripts/467474",
-          "description": ""
-        },
-        {
-          "name": "Sponsorblock",
-          "url": "https://github.com/hanydd/BilibiliSponsorBlock",
-          "description": ""
-        },
-        {
-          "name": "Enhancement Script",
-          "url": "https://github.com/the1812/Bilibili-Evolved",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://www.bilibili.tv/",
+            "https://xfangfang.github.io/wiliwili/",
+            "https://greasyfork.org/en/scripts/467474",
+            "https://github.com/hanydd/BilibiliSponsorBlock",
+            "https://github.com/the1812/Bilibili-Evolved"
+          ]
         },
         {
           "name": "Tencent Video",
@@ -1381,17 +1294,11 @@
         {
           "name": "Doujin Fiction Network",
           "url": "https://www.trxs.me/",
-          "description": "FanFiction"
-        },
-        {
-          "name": "Readfine",
-          "url": "https://t.me/Readfine",
-          "description": "FanFiction"
-        },
-        {
-          "name": "Discussion",
-          "url": "https://t.me/ReadfineChat",
-          "description": "FanFiction"
+          "description": "FanFiction",
+          "mirrors": [
+            "https://t.me/Readfine",
+            "https://t.me/ReadfineChat"
+          ]
         },
         {
           "name": "shuge",
@@ -1401,17 +1308,11 @@
         {
           "name": "CText",
           "url": "https://ctext.org/",
-          "description": "Chinese Historic Text Archives"
-        },
-        {
-          "name": "ChineseNotes",
-          "url": "https://chinesenotes.com/texts.html",
-          "description": "Chinese Historic Text Archives"
-        },
-        {
-          "name": "quanxue",
-          "url": "https://www.quanxue.cn/",
-          "description": "Chinese Historic Text Archives"
+          "description": "Chinese Historic Text Archives",
+          "mirrors": [
+            "https://chinesenotes.com/texts.html",
+            "https://www.quanxue.cn/"
+          ]
         },
         {
           "name": "guoxue",
@@ -1426,17 +1327,11 @@
         {
           "name": "ebooks",
           "url": "https://github.com/XWHQSJ/ebooks",
-          "description": "Programming Books"
-        },
-        {
-          "name": "Chinese Programming Books",
-          "url": "https://github.com/justjavac/free-programming-books-zh_CN",
-          "description": "Programming Books"
-        },
-        {
-          "name": "Banshujiang",
-          "url": "http://www.banshujiang.cn/",
-          "description": "Programming Books"
+          "description": "Programming Books",
+          "mirrors": [
+            "https://github.com/justjavac/free-programming-books-zh_CN",
+            "http://www.banshujiang.cn/"
+          ]
         },
         {
           "name": "kangxizidian",
@@ -1464,12 +1359,10 @@
         {
           "name": "CBeta",
           "url": "https://www.cbeta.org/",
-          "description": "Chinese Buddhist Scriptures"
-        },
-        {
-          "name": "Goodweb",
-          "url": "http://goodweb.net.cn/sutra/",
-          "description": "Chinese Buddhist Scriptures"
+          "description": "Chinese Buddhist Scriptures",
+          "mirrors": [
+            "http://goodweb.net.cn/sutra/"
+          ]
         },
         {
           "name": "Open Literature",
@@ -1689,12 +1582,10 @@
         {
           "name": "uschovna",
           "url": "https://www.uschovna.cz/",
-          "description": "Czech File Hosts"
-        },
-        {
-          "name": "posilej",
-          "url": "https://posilej.cz/",
-          "description": "Czech File Hosts"
+          "description": "Czech File Hosts",
+          "mirrors": [
+            "https://posilej.cz/"
+          ]
         }
       ]
     },
@@ -1801,12 +1692,10 @@
         {
           "name": "sledujfilmy",
           "url": "https://ww.sledujfilmy.io/",
-          "description": "Movies / TV / Anime / 1080p"
-        },
-        {
-          "name": "serialy",
-          "url": "https://sledujserialy.io/",
-          "description": "Movies / TV / Anime / 1080p"
+          "description": "Movies / TV / Anime / 1080p",
+          "mirrors": [
+            "https://sledujserialy.io/"
+          ]
         },
         {
           "name": "najserialy",
@@ -1857,12 +1746,10 @@
         {
           "name": "prirucka",
           "url": "https://prirucka.ujc.cas.cz",
-          "description": "Dictionaries"
-        },
-        {
-          "name": "slovnikcestiny",
-          "url": "https://slovnikcestiny.cz/uvod.php",
-          "description": "Dictionaries"
+          "description": "Dictionaries",
+          "mirrors": [
+            "https://slovnikcestiny.cz/uvod.php"
+          ]
         },
         {
           "name": "WebArchive",
@@ -1985,12 +1872,10 @@
         {
           "name": "Sous-Titres",
           "url": "https://www.sous-titres.eu/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "SubFactory",
-          "url": "https://subfactory.fr/",
-          "description": "Subtitles"
+          "description": "Subtitles",
+          "mirrors": [
+            "https://subfactory.fr/"
+          ]
         },
         {
           "name": "Tseret",
@@ -2045,27 +1930,19 @@
         {
           "name": "Donnons",
           "url": "https://donnons.org/",
-          "description": "Free Stuff Exchange / Gifting"
-        },
-        {
-          "name": "⁠Geev",
-          "url": "https://www.geev.com/",
-          "description": "Free Stuff Exchange / Gifting"
+          "description": "Free Stuff Exchange / Gifting",
+          "mirrors": [
+            "https://www.geev.com/"
+          ]
         },
         {
           "name": "Signsuisse",
           "url": "https://www.sgb-fss.ch/signsuisse/fr/",
-          "description": "French Sign Language Dictionaries"
-        },
-        {
-          "name": "LSF Dico",
-          "url": "https://lsfdico.injs-metz.fr/",
-          "description": "French Sign Language Dictionaries"
-        },
-        {
-          "name": "LSQ",
-          "url": "https://lsq-fr.ca/",
-          "description": "French Sign Language Dictionaries"
+          "description": "French Sign Language Dictionaries",
+          "mirrors": [
+            "https://lsfdico.injs-metz.fr/",
+            "https://lsq-fr.ca/"
+          ]
         },
         {
           "name": "I Say LSF",
@@ -2196,17 +2073,11 @@
         {
           "name": "yakriv",
           "url": "https://yakriv.com/",
-          "description": "Movies / TV / Anime"
-        },
-        {
-          "name": "Kordoz",
-          "url": "https://www.kordoz.com/",
-          "description": "Movies / TV / Anime"
-        },
-        {
-          "name": "Deksov",
-          "url": "https://deksov.com/",
-          "description": "Movies / TV / Anime"
+          "description": "Movies / TV / Anime",
+          "mirrors": [
+            "https://www.kordoz.com/",
+            "https://deksov.com/"
+          ]
         },
         {
           "name": "Paradise lost.666",
@@ -2508,17 +2379,11 @@
         {
           "name": "Signsuisse",
           "url": "https://www.sgb-fss.ch/signsuisse/",
-          "description": "German Sign Language Dictionaries / Learning"
-        },
-        {
-          "name": "GebaerdenLernen",
-          "url": "https://gebaerdenlernen.de/",
-          "description": "German Sign Language Dictionaries / Learning"
-        },
-        {
-          "name": "SignDict",
-          "url": "https://signdict.org",
-          "description": "German Sign Language Dictionaries / Learning"
+          "description": "German Sign Language Dictionaries / Learning",
+          "mirrors": [
+            "https://gebaerdenlernen.de/",
+            "https://signdict.org"
+          ]
         }
       ]
     },
@@ -2582,12 +2447,10 @@
         {
           "name": "hd-source",
           "url": "https://hd-source.to/",
-          "description": "Video / NSFW"
-        },
-        {
-          "name": "DDL-Warez",
-          "url": "https://ddl-warez.cc/",
-          "description": "Video / NSFW"
+          "description": "Video / NSFW",
+          "mirrors": [
+            "https://ddl-warez.cc/"
+          ]
         },
         {
           "name": "MLCBoard",
@@ -2739,12 +2602,10 @@
         {
           "name": "dokustreams",
           "url": "https://dokustreams.de/",
-          "description": "Documentaries"
-        },
-        {
-          "name": "dctp.tv",
-          "url": "https://www.dctp.tv/",
-          "description": "Documentaries"
+          "description": "Documentaries",
+          "mirrors": [
+            "https://www.dctp.tv/"
+          ]
         },
         {
           "name": "Stiftung imai",
@@ -2961,27 +2822,19 @@
         {
           "name": "Live24",
           "url": "https://live24.gr/",
-          "description": "Radio"
-        },
-        {
-          "name": "e-Radio",
-          "url": "https://www.e-radio.gr/",
-          "description": "Radio"
+          "description": "Radio",
+          "mirrors": [
+            "https://www.e-radio.gr/"
+          ]
         },
         {
           "name": "Subs4series",
           "url": "https://www.subs4series.com/",
-          "description": "Greek Subtitles"
-        },
-        {
-          "name": "greeksubs",
-          "url": "https://greeksubs.net",
-          "description": "Greek Subtitles"
-        },
-        {
-          "name": "subs4free",
-          "url": "https://www.subs4free.club/",
-          "description": "Greek Subtitles"
+          "description": "Greek Subtitles",
+          "mirrors": [
+            "https://greeksubs.net",
+            "https://www.subs4free.club/"
+          ]
         }
       ]
     },
@@ -3000,12 +2853,10 @@
         {
           "name": "WizdomSubs",
           "url": "https://wizdom.xyz/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "Ktuvit",
-          "url": "https://www.ktuvit.me/",
-          "description": "Subtitles"
+          "description": "Subtitles",
+          "mirrors": [
+            "https://www.ktuvit.me/"
+          ]
         },
         {
           "name": "TranslationsMovieHEB",
@@ -3015,17 +2866,11 @@
         {
           "name": "RedAlert",
           "url": "https://redalert.me/index_en.html",
-          "description": "Rocket Alerts"
-        },
-        {
-          "name": "Tzevaadom",
-          "url": "https://www.tzevaadom.co.il/",
-          "description": "Rocket Alerts"
-        },
-        {
-          "name": "RocketAlert",
-          "url": "https://rocketalert.live/",
-          "description": "Rocket Alerts"
+          "description": "Rocket Alerts",
+          "mirrors": [
+            "https://www.tzevaadom.co.il/",
+            "https://rocketalert.live/"
+          ]
         }
       ]
     },
@@ -3187,7 +3032,7 @@
       "resources": [
         {
           "name": "VegaMovies",
-          "url": "https://vegamovies.gripe/",
+          "url": "https://vegamovies.gratis/",
           "description": "Movies / TV / Anime / 1080p / 4K",
           "starred": true,
           "tags": [
@@ -3588,12 +3433,10 @@
         {
           "name": "Desicinemas",
           "url": "https://desicinemas.to/",
-          "description": "Movies / TV / 1080p"
-        },
-        {
-          "name": "BollyZone",
-          "url": "https://www.bollyzone.to/",
-          "description": "Movies / TV / 1080p"
+          "description": "Movies / TV / 1080p",
+          "mirrors": [
+            "https://www.bollyzone.to/"
+          ]
         },
         {
           "name": "flixsix",
@@ -3696,22 +3539,12 @@
         {
           "name": "jiosaavn",
           "url": "https://www.jiosaavn.com/",
-          "description": "Music / API"
-        },
-        {
-          "name": "Saavn Web",
-          "url": "https://saavn-web-ui.vercel.app/",
-          "description": "Music / API"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/wiz64/saavn-web-ui",
-          "description": "Music / API"
-        },
-        {
-          "name": "Hayasaka",
-          "url": "https://hayasaka.vercel.app/",
-          "description": "Music / API"
+          "description": "Music / API",
+          "mirrors": [
+            "https://saavn-web-ui.vercel.app/",
+            "https://github.com/wiz64/saavn-web-ui",
+            "https://hayasaka.vercel.app/"
+          ]
         },
         {
           "name": "GateSmashers",
@@ -3747,17 +3580,11 @@
         {
           "name": "Sanskrit Documents",
           "url": "https://sanskritdocuments.org",
-          "description": "Esoteric Texts"
-        },
-        {
-          "name": "sanskritsahitya",
-          "url": "https://sanskritsahitya.org/",
-          "description": "Esoteric Texts"
-        },
-        {
-          "name": "gitasupersite",
-          "url": "https://www.gitasupersite.iitk.ac.in/",
-          "description": "Esoteric Texts"
+          "description": "Esoteric Texts",
+          "mirrors": [
+            "https://sanskritsahitya.org/",
+            "https://www.gitasupersite.iitk.ac.in/"
+          ]
         },
         {
           "name": "Hindwi",
@@ -4207,52 +4034,36 @@
         {
           "name": "goo",
           "url": "https://www.goo.ne.jp/",
-          "description": "Search"
-        },
-        {
-          "name": "Yahoo Japan",
-          "url": "https://search.yahoo.co.jp/",
-          "description": "Search"
+          "description": "Search",
+          "mirrors": [
+            "https://search.yahoo.co.jp/"
+          ]
         },
         {
           "name": "megalodon",
           "url": "https://megalodon.jp/",
-          "description": "JP Web Archive Tool"
-        },
-        {
-          "name": "gyo.tc",
-          "url": "https://gyo.tc/",
-          "description": "JP Web Archive Tool"
+          "description": "JP Web Archive Tool",
+          "mirrors": [
+            "https://gyo.tc/"
+          ]
         },
         {
           "name": "Pixiv Guides",
           "url": "https://www.pixiv.net/howto",
-          "description": "Drawing Guides / Inspiration"
-        },
-        {
-          "name": "Ideas",
-          "url": "https://www.pixiv.net/idea/",
-          "description": "Drawing Guides / Inspiration"
+          "description": "Drawing Guides / Inspiration",
+          "mirrors": [
+            "https://www.pixiv.net/idea/"
+          ]
         },
         {
           "name": "MangaMaterials",
           "url": "https://www.youtube.com/channel/UCnx8zKs3c3yeFPYQ2QzMqLA/",
-          "description": "Manga Video Tutorials / Pixiv"
-        },
-        {
-          "name": "X",
-          "url": "https://x.com/mangamaterials2",
-          "description": "Manga Video Tutorials / Pixiv"
-        },
-        {
-          "name": "animesijyuku",
-          "url": "https://www.youtube.com/@animesijyuku/",
-          "description": "Manga Video Tutorials / Pixiv"
-        },
-        {
-          "name": "DoKiDoKiDrawing",
-          "url": "https://www.youtube.com/@DoKiDoKiDrawing/",
-          "description": "Manga Video Tutorials / Pixiv"
+          "description": "Manga Video Tutorials / Pixiv",
+          "mirrors": [
+            "https://x.com/mangamaterials2",
+            "https://www.youtube.com/@animesijyuku/",
+            "https://www.youtube.com/@DoKiDoKiDrawing/"
+          ]
         }
       ]
     },
@@ -4834,12 +4645,10 @@
         {
           "name": "FilmgramBot",
           "url": "https://t.me/FilmgramBot",
-          "description": "Movie Search Telegram Bots"
-        },
-        {
-          "name": "FileMovieBot",
-          "url": "https://t.me/FileMovieBot",
-          "description": "Movie Search Telegram Bots"
+          "description": "Movie Search Telegram Bots",
+          "mirrors": [
+            "https://t.me/FileMovieBot"
+          ]
         },
         {
           "name": "hoseinwave",
@@ -4921,17 +4730,11 @@
         {
           "name": "Napisy24",
           "url": "https://napisy24.pl/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "GrupaHatak",
-          "url": "https://grupahatak.pl/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "KickAssSubtitles",
-          "url": "https://kickasssubtitles.com/pl",
-          "description": "Subtitles"
+          "description": "Subtitles",
+          "mirrors": [
+            "https://grupahatak.pl/",
+            "https://kickasssubtitles.com/pl"
+          ]
         },
         {
           "name": "Tekstowo",
@@ -5204,12 +5007,10 @@
         {
           "name": "radio-polska",
           "url": "https://www.radio-polska.pl/",
-          "description": "Radio"
-        },
-        {
-          "name": "radioyanosik",
-          "url": "https://radioyanosik.pl/",
-          "description": "Radio"
+          "description": "Radio",
+          "mirrors": [
+            "https://radioyanosik.pl/"
+          ]
         },
         {
           "name": "FlowFlix",
@@ -5291,12 +5092,10 @@
         {
           "name": "Legendas.net",
           "url": "https://legendas.net",
-          "description": "Subtitles"
-        },
-        {
-          "name": "Legenda Oficial",
-          "url": "http://legendaoficial.net",
-          "description": "Subtitles"
+          "description": "Subtitles",
+          "mirrors": [
+            "http://legendaoficial.net"
+          ]
         },
         {
           "name": "Educa Mais Brasil",
@@ -5334,7 +5133,7 @@
           "description": "Top Song Charts"
         }
       ],
-      "note": "Brazil is known for blocking many sites, try using a VPN if you can't access one."
+      "note": "Brazil is known for blocking many サイトs, try using a VPN if you can't access one."
     },
     {
       "id": "non-english-downloading-baixar",
@@ -5425,22 +5224,12 @@
           "name": "Gyn Cursos",
           "url": "https://gyncursos.com.br",
           "description": "Courses",
-          "starred": true
-        },
-        {
-          "name": "Curso em Vídeo",
-          "url": "https://www.cursoemvideo.com",
-          "description": "Courses"
-        },
-        {
-          "name": "iEstudar Cursos",
-          "url": "https://iestudar.com",
-          "description": "Courses"
-        },
-        {
-          "name": "Pensar Cursos",
-          "url": "https://www.pensarcursos.com.br",
-          "description": "Courses"
+          "starred": true,
+          "mirrors": [
+            "https://www.cursoemvideo.com",
+            "https://iestudar.com",
+            "https://www.pensarcursos.com.br"
+          ]
         },
         {
           "name": "tugaflix",
@@ -6031,43 +5820,23 @@
         {
           "name": "Subs.ro",
           "url": "https://subs.ro/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "Subtitrari",
-          "url": "https://www.subtitrari-noi.ro/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "Titrari",
-          "url": "https://www.titrari.ro/",
-          "description": "Subtitles"
+          "description": "Subtitles",
+          "mirrors": [
+            "https://www.subtitrari-noi.ro/",
+            "https://www.titrari.ro/"
+          ]
         },
         {
           "name": "РосКомСвобода",
           "url": "https://t.me/roskomsvoboda_discuss",
           "description": "Censorship Discussion Telegrams",
-          "starred": true
-        },
-        {
-          "name": "roskomsvoboda",
-          "url": "https://t.me/roskomsvoboda",
-          "description": "Censorship Discussion Telegrams"
-        },
-        {
-          "name": "rks_org_Bot",
-          "url": "https://t.me/rks_org_bot",
-          "description": "Censorship Discussion Telegrams"
-        },
-        {
-          "name": "ru_tech_talk",
-          "url": "https://t.me/ru_tech_talk",
-          "description": "Censorship Discussion Telegrams"
-        },
-        {
-          "name": "protocol_vpn",
-          "url": "https://t.me/protocol_vpn",
-          "description": "Censorship Discussion Telegrams"
+          "starred": true,
+          "mirrors": [
+            "https://t.me/roskomsvoboda",
+            "https://t.me/rks_org_bot",
+            "https://t.me/ru_tech_talk",
+            "https://t.me/protocol_vpn"
+          ]
         },
         {
           "name": "Ru.Board",
@@ -6077,12 +5846,10 @@
         {
           "name": "subtitry",
           "url": "https://subtitry.ru/",
-          "description": "Subtitles"
-        },
-        {
-          "name": "DXP",
-          "url": "https://dxp.ru/",
-          "description": "Subtitles"
+          "description": "Subtitles",
+          "mirrors": [
+            "https://dxp.ru/"
+          ]
         },
         {
           "name": "RKN Dump Check",
@@ -6092,12 +5859,10 @@
         {
           "name": "Mail.ru",
           "url": "https://mail.ru/",
-          "description": "Search Engines"
-        },
-        {
-          "name": "r0.ru",
-          "url": "https://r0.ru/",
-          "description": "Search Engines"
+          "description": "Search Engines",
+          "mirrors": [
+            "https://r0.ru/"
+          ]
         },
         {
           "name": "Kribrum",
@@ -6127,22 +5892,12 @@
         {
           "name": "Ok.ru",
           "url": "https://ok.ru/",
-          "description": "Russian Social Networks"
-        },
-        {
-          "name": "VK",
-          "url": "https://vk.com/",
-          "description": "Russian Social Networks"
-        },
-        {
-          "name": "MyMail",
-          "url": "https://my.mail.ru/",
-          "description": "Russian Social Networks"
-        },
-        {
-          "name": "RUTube",
-          "url": "https://rutube.ru/",
-          "description": "Russian Social Networks"
+          "description": "Russian Social Networks",
+          "mirrors": [
+            "https://vk.com/",
+            "https://my.mail.ru/",
+            "https://rutube.ru/"
+          ]
         },
         {
           "name": "GitFlic",
@@ -6214,23 +5969,23 @@
         {
           "name": "4PDA",
           "url": "https://4pda.to/forum/",
-          "description": "",
+          "description": "Android, iOS",
           "starred": true
         },
         {
           "name": "App",
           "url": "https://github.com/slartus/4pdaClient-plus",
-          "description": ""
+          "description": "Android, iOS"
         },
         {
           "name": "Captcha Note",
           "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/captcha-4pda.md",
-          "description": ""
+          "description": "Android, iOS"
         },
         {
           "name": "Androeed",
           "url": "https://androeed.store/",
-          "description": "",
+          "description": "Android",
           "mirrors": [
             "https://androeed.ru/"
           ]
@@ -6281,12 +6036,10 @@
         {
           "name": "Course Hunter",
           "url": "https://coursehunter.net/",
-          "description": "Programming Courses"
-        },
-        {
-          "name": "Sliwbl",
-          "url": "https://s1.sliwbl.com/",
-          "description": "Programming Courses"
+          "description": "Programming Courses",
+          "mirrors": [
+            "https://s1.sliwbl.com/"
+          ]
         }
       ]
     },
@@ -6327,12 +6080,10 @@
         {
           "name": "krasfs",
           "url": "https://krasfs.ru/",
-          "description": "Torrent Search"
-        },
-        {
-          "name": "torrent.by",
-          "url": "https://torrent.by/",
-          "description": "Torrent Search"
+          "description": "Torrent Search",
+          "mirrors": [
+            "https://torrent.by/"
+          ]
         },
         {
           "name": "rutor",
@@ -6642,22 +6393,12 @@
         {
           "name": "TurkishTV",
           "url": "https://turkishtv.co/",
-          "description": "Turkish TV w / Russian Subs"
-        },
-        {
-          "name": "turserial",
-          "url": "https://turserial.info/",
-          "description": "Turkish TV w / Russian Subs"
-        },
-        {
-          "name": "KinoTurk",
-          "url": "https://kinoturk.net/",
-          "description": "Turkish TV w / Russian Subs"
-        },
-        {
-          "name": "TurkRu.TV",
-          "url": "https://turkrutv.tv/",
-          "description": "Turkish TV w / Russian Subs"
+          "description": "Turkish TV w / Russian Subs",
+          "mirrors": [
+            "https://turserial.info/",
+            "https://kinoturk.net/",
+            "https://turkrutv.tv/"
+          ]
         },
         {
           "name": "TVRF",
@@ -6975,22 +6716,12 @@
         {
           "name": "Baza Knig",
           "url": "https://baza-knig.ink/",
-          "description": "Audiobooks"
-        },
-        {
-          "name": "Flibusta_Anglysky",
-          "url": "https://t.me/flibusta_anglysky",
-          "description": "Audiobooks"
-        },
-        {
-          "name": "Аkniga",
-          "url": "https://akniga.org/",
-          "description": "Audiobooks"
-        },
-        {
-          "name": "Bibl",
-          "url": "https://biblus.in/",
-          "description": "Audiobooks"
+          "description": "Audiobooks",
+          "mirrors": [
+            "https://t.me/flibusta_anglysky",
+            "https://akniga.org/",
+            "https://biblus.in/"
+          ]
         },
         {
           "name": "Science Lab",
@@ -7365,11 +7096,6 @@
           "description": "Anime / Sub / Light Novels"
         },
         {
-          "name": "animesfinalizadoLSHD",
-          "url": "https://t.me/animesfinalizadoLSHD",
-          "description": "Anime / Telegram"
-        },
-        {
           "name": "Cursos En Mega",
           "url": "https://t.me/s/cursosenmega",
           "description": "Courses"
@@ -7382,12 +7108,10 @@
         {
           "name": "Hello-Python",
           "url": "https://github.com/mouredev/Hello-Python",
-          "description": "Python Courses"
-        },
-        {
-          "name": "python-web",
-          "url": "https://github.com/mouredev/python-web",
-          "description": "Python Courses"
+          "description": "Python Courses",
+          "mirrors": [
+            "https://github.com/mouredev/python-web"
+          ]
         }
       ]
     },
@@ -7750,12 +7474,10 @@
         {
           "name": "CCLM",
           "url": "https://www.cclm.cl/cineteca-online",
-          "description": "Spanish Film Archives"
-        },
-        {
-          "name": "Platfo Filmo",
-          "url": "https://filmo.platfo.es/pages/home",
-          "description": "Spanish Film Archives"
+          "description": "Spanish Film Archives",
+          "mirrors": [
+            "https://filmo.platfo.es/pages/home"
+          ]
         },
         {
           "name": "Naranjas de Hiroshima",
@@ -7878,12 +7600,10 @@
           "name": "Spanish Reading CSE",
           "url": "https://cse.google.com/cse?cx=85e4a562f2abf40f6",
           "description": "Multi-Site Book Search",
-          "starred": true
-        },
-        {
-          "name": "SMAGX",
-          "url": "https://smagx.com/",
-          "description": "Multi-Site Book Search"
+          "starred": true,
+          "mirrors": [
+            "https://smagx.com/"
+          ]
         },
         {
           "name": "eBiblioteca",
@@ -8140,67 +7860,39 @@
         {
           "name": "Playstation Haber",
           "url": "https://playstationhaber.com/",
-          "description": "PlayStation Piracy Forums"
-        },
-        {
-          "name": "MCpsp",
-          "url": "https://www.mcpsp.com",
-          "description": "PlayStation Piracy Forums"
+          "description": "PlayStation Piracy Forums",
+          "mirrors": [
+            "https://www.mcpsp.com"
+          ]
         },
         {
           "name": "Turkish Audio Center",
           "url": "https://www.turkishaudiocenter.com",
-          "description": "Turkish Dubs"
-        },
-        {
-          "name": "Shareses",
-          "url": "https://shareses.com",
-          "description": "Turkish Dubs"
-        },
-        {
-          "name": "Türkçe Ses İndir",
-          "url": "https://www.turkcesesindir.com/",
-          "description": "Turkish Dubs"
-        },
-        {
-          "name": "Turkce Ses Dosyası",
-          "url": "https://turkce-sesdosyasi.blogspot.com/",
-          "description": "Turkish Dubs"
-        },
-        {
-          "name": "Turkish Sound Track",
-          "url": "https://trsoundtrack.blogspot.com/",
-          "description": "Turkish Dubs"
+          "description": "Turkish Dubs",
+          "mirrors": [
+            "https://shareses.com",
+            "https://www.turkcesesindir.com/",
+            "https://turkce-sesdosyasi.blogspot.com/",
+            "https://trsoundtrack.blogspot.com/"
+          ]
         },
         {
           "name": "Sinner Clown",
           "url": "https://sinnerclownceviri.net",
-          "description": "Game Localizations"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/nApvcT6Tt6",
-          "description": "Game Localizations"
-        },
-        {
-          "name": "Hangar",
-          "url": "https://www.hangarceviri.com",
-          "description": "Game Localizations"
-        },
-        {
-          "name": "Calypso",
-          "url": "https://www.calypsoceviri.com/",
-          "description": "Game Localizations"
+          "description": "Game Localizations",
+          "mirrors": [
+            "https://discord.com/invite/nApvcT6Tt6",
+            "https://www.hangarceviri.com",
+            "https://www.calypsoceviri.com/"
+          ]
         },
         {
           "name": "Mp3 indir dur",
           "url": "https://www.mp3indirdur.com.tr/",
-          "description": "Music / MP3s"
-        },
-        {
-          "name": "Mp3 semti",
-          "url": "https://mp3semti.com/",
-          "description": "Music / MP3s"
+          "description": "Music / MP3s",
+          "mirrors": [
+            "https://mp3semti.com/"
+          ]
         }
       ]
     },
@@ -8306,12 +7998,10 @@
         {
           "name": "Turkish123",
           "url": "https://turkish123.to/",
-          "description": "Turkish TV w / Eng Subs"
-        },
-        {
-          "name": "Yoturkish",
-          "url": "https://www.yoturkish.com",
-          "description": "Turkish TV w / Eng Subs"
+          "description": "Turkish TV w / Eng Subs",
+          "mirrors": [
+            "https://www.yoturkish.com"
+          ]
         },
         {
           "name": "webdramaturkey2",
@@ -8564,22 +8254,12 @@
           "name": "Voz.vn",
           "url": "https://voz.vn/",
           "description": "Tech Forum",
-          "starred": true
-        },
-        {
-          "name": "VN-Z",
-          "url": "https://vn-z.vn/",
-          "description": "Tech Forum"
-        },
-        {
-          "name": "TECHRUM.VN",
-          "url": "https://www.techrum.vn/",
-          "description": "Tech Forum"
-        },
-        {
-          "name": "WhiteHat.vn",
-          "url": "https://whitehat.vn/",
-          "description": "Tech Forum"
+          "starred": true,
+          "mirrors": [
+            "https://vn-z.vn/",
+            "https://www.techrum.vn/",
+            "https://whitehat.vn/"
+          ]
         },
         {
           "name": "J2team",
@@ -8613,12 +8293,10 @@
         {
           "name": "Quantrimang",
           "url": "https://quantrimang.com/",
-          "description": "Tech News"
-        },
-        {
-          "name": "Anonyviet",
-          "url": "https://anonyviet.com/",
-          "description": "Tech News"
+          "description": "Tech News",
+          "mirrors": [
+            "https://anonyviet.com/"
+          ]
         },
         {
           "name": "Phudeviet",
@@ -8724,12 +8402,10 @@
           "name": "ZingMP3",
           "url": "https://zingmp3.vn/",
           "description": "Music",
-          "starred": true
-        },
-        {
-          "name": "NhacCuaTui",
-          "url": "https://www.nhaccuatui.com/",
-          "description": "Music"
+          "starred": true,
+          "mirrors": [
+            "https://www.nhaccuatui.com/"
+          ]
         },
         {
           "name": "FPT Play",
@@ -8786,22 +8462,12 @@
           "name": "VietJack",
           "url": "https://vietjack.com/",
           "description": "Study References",
-          "starred": true
-        },
-        {
-          "name": "LoiGiaiHay",
-          "url": "https://loigiaihay.com/",
-          "description": "Study References"
-        },
-        {
-          "name": "VNDoc",
-          "url": "https://vndoc.com/",
-          "description": "Study References"
-        },
-        {
-          "name": "Tech12h",
-          "url": "https://tech12h.com/",
-          "description": "Study References"
+          "starred": true,
+          "mirrors": [
+            "https://loigiaihay.com/",
+            "https://vndoc.com/",
+            "https://tech12h.com/"
+          ]
         },
         {
           "name": "Thoát Porn Luận",
@@ -8897,17 +8563,11 @@
         {
           "name": "Babla",
           "url": "https://www.babla.vn/",
-          "description": "Dictionary"
-        },
-        {
-          "name": "VDict",
-          "url": "https://vdict.com/",
-          "description": "Dictionary"
-        },
-        {
-          "name": "VTuDien",
-          "url": "https://vtudien.com/",
-          "description": "Dictionary"
+          "description": "Dictionary",
+          "mirrors": [
+            "https://vdict.com/",
+            "https://vtudien.com/"
+          ]
         },
         {
           "name": "Non-English Ebook & Audiobook Sites",
@@ -8995,12 +8655,10 @@
         {
           "name": "Oorboekje",
           "url": "https://oorboekje.nl/",
-          "description": "Dutch Radio Stations"
-        },
-        {
-          "name": "luisterradio",
-          "url": "https://luisterradio.fm/",
-          "description": "Dutch Radio Stations"
+          "description": "Dutch Radio Stations",
+          "mirrors": [
+            "https://luisterradio.fm/"
+          ]
         },
         {
           "name": "Warez.Ge",
@@ -9080,12 +8738,10 @@
         {
           "name": "gledajcrtace",
           "url": "https://www.gledajcrtace.rs/",
-          "description": "Serbian / Dubbed Cartoons"
-        },
-        {
-          "name": "gledajcrtace.org",
-          "url": "https://gledajcrtace.org/",
-          "description": "Serbian / Dubbed Cartoons"
+          "description": "Serbian / Dubbed Cartoons",
+          "mirrors": [
+            "https://gledajcrtace.org/"
+          ]
         },
         {
           "name": "iptvm3u",
@@ -9110,12 +8766,10 @@
         {
           "name": "zoom.lk",
           "url": "https://zoom.lk/",
-          "description": "Sinhalese / Subtitles"
-        },
-        {
-          "name": "Cineru.lk",
-          "url": "https://cineru.lk/",
-          "description": "Sinhalese / Subtitles"
+          "description": "Sinhalese / Subtitles",
+          "mirrors": [
+            "https://cineru.lk/"
+          ]
         },
         {
           "name": "Najdi.si",

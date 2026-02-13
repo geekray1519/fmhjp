@@ -45,7 +45,7 @@ export default async function CategoryPage({ params }: PageProps) {
   );
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <nav className="flex items-center gap-2 text-sm text-muted mb-8">
         <Link href="/" className="hover:text-foreground transition-colors flex items-center gap-1">
           <Home size={14} />

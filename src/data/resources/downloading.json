@@ -23,28 +23,20 @@
           "name": "EyeDex",
           "url": "https://www.eyedex.org/",
           "description": "Open Directory Search Engines",
-          "starred": true
-        },
-        {
-          "name": "ODCrawler",
-          "url": "https://odcrawler.xyz/",
-          "description": "Open Directory Search Engines"
-        },
-        {
-          "name": "mmnt",
-          "url": "https://www.mmnt.net/",
-          "description": "Open Directory Search Engines"
+          "starred": true,
+          "mirrors": [
+            "https://odcrawler.xyz/",
+            "https://www.mmnt.net/"
+          ]
         },
         {
           "name": "Nicotine+",
           "url": "https://nicotine-plus.org/",
           "description": "File Sharing App / Stats / Server App / Batch DDL",
-          "starred": true
-        },
-        {
-          "name": "Soulseek",
-          "url": "https://slsknet.org/",
-          "description": "File Sharing App / Stats / Server App / Batch DDL"
+          "starred": true,
+          "mirrors": [
+            "https://slsknet.org/"
+          ]
         },
         {
           "name": "eMule Plus",
@@ -54,27 +46,19 @@
         {
           "name": "mega.archive (Discord)",
           "url": "https://discord.gg/R3zEZUPp3Q",
-          "description": "Megadrive Archive"
-        },
-        {
-          "name": "Chat",
-          "url": "https://discord.gg/ZRhpUtzvkC",
-          "description": "Megadrive Archive"
+          "description": "Megadrive Archive",
+          "mirrors": [
+            "https://discord.gg/ZRhpUtzvkC"
+          ]
         },
         {
           "name": "Napalm FTP",
           "url": "https://www.searchftps.net/",
-          "description": "FTP Search"
-        },
-        {
-          "name": "Mamont",
-          "url": "https://www.mmnt.ru/int/",
-          "description": "FTP Search"
-        },
-        {
-          "name": "Search-22",
-          "url": "https://search-22.com/ftp-search-tools",
-          "description": "FTP Search"
+          "description": "FTP Search",
+          "mirrors": [
+            "https://www.mmnt.ru/int/",
+            "https://search-22.com/ftp-search-tools"
+          ]
         },
         {
           "name": "Sala De Espera",
@@ -89,17 +73,11 @@
         {
           "name": "DemoZoo",
           "url": "https://demozoo.org/",
-          "description": "Demoscene Archives"
-        },
-        {
-          "name": "Pouet",
-          "url": "https://www.pouet.net/prodlist.php",
-          "description": "Demoscene Archives"
-        },
-        {
-          "name": "scene.org",
-          "url": "https://files.scene.org/",
-          "description": "Demoscene Archives"
+          "description": "Demoscene Archives",
+          "mirrors": [
+            "https://www.pouet.net/prodlist.php",
+            "https://files.scene.org/"
+          ]
         },
         {
           "name": "CD.TextFiles",
@@ -121,17 +99,11 @@
           "name": "r/DataHoarder",
           "url": "https://reddit.com/r/DataHoarder",
           "description": "Data Hoarding Communties",
-          "starred": true
-        },
-        {
-          "name": "Archive Team",
-          "url": "https://wiki.archiveteam.org/",
-          "description": "Data Hoarding Communties"
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/Archiveteam/",
-          "description": "Data Hoarding Communties"
+          "starred": true,
+          "mirrors": [
+            "https://wiki.archiveteam.org/",
+            "https://www.reddit.com/r/Archiveteam/"
+          ]
         },
         {
           "name": "MaxRelease",
@@ -240,7 +212,7 @@
           ]
         }
       ],
-      "note": "Some Open Directories track IP addresses. 常に use a VPN or Tor when accessing these resources. General DDL sites use multiple sources, so it's best to avoid them for software and games. If needed, use redirect bypassers to skip link shorteners."
+      "note": "Some Open Directories track IP addresses. 常に use a VPN or Tor when accessing these resources. General DDL サイトs use multiple sources, so it's best to avoid them for software and games. If needed, use redirect bypassers to skip link shorteners."
     },
     {
       "id": "downloading-search-sites",
@@ -250,12 +222,10 @@
           "name": "Download CSE",
           "url": "https://cse.google.com/cse?cx=006516753008110874046:1ugcdt3vo7z",
           "description": "Multi-Site Search",
-          "starred": true
-        },
-        {
-          "name": "CSE 2",
-          "url": "https://cse.google.com/cse?cx=006516753008110874046:reodoskmj7h",
-          "description": "Multi-Site Search"
+          "starred": true,
+          "mirrors": [
+            "https://cse.google.com/cse?cx=006516753008110874046:reodoskmj7h"
+          ]
         },
         {
           "name": "4Shared",
@@ -286,17 +256,11 @@
         {
           "name": "SkullXDCC",
           "url": "https://skullxdcc.com/",
-          "description": "XDCC / Search Engine"
-        },
-        {
-          "name": "2",
-          "url": "https://sunxdcc.com/",
-          "description": "XDCC / Search Engine"
-        },
-        {
-          "name": "XDCC.EU",
-          "url": "https://www.xdcc.eu/",
-          "description": "XDCC / Search Engine"
+          "description": "XDCC / Search Engine",
+          "mirrors": [
+            "https://sunxdcc.com/",
+            "https://www.xdcc.eu/"
+          ]
         }
       ],
       "note": "These aggregate from multiple sources, so it's best to avoid them for software / games."
@@ -320,38 +284,22 @@
           "name": "Virgil Software Search",
           "url": "https://virgil.samidy.com/Software/",
           "description": "Multi-Site Software Search",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://virgil-search.pages.dev/Software/",
-          "description": "Multi-Site Software Search"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/SamidyFR/Virgil",
-          "description": "Multi-Site Software Search"
-        },
-        {
-          "name": "Software CSE",
-          "url": "https://cse.google.com/cse?cx=ae17d0c72fa6cbcd4",
-          "description": "Multi-Site Software Search"
+          "starred": true,
+          "mirrors": [
+            "https://virgil-search.pages.dev/Software/",
+            "https://github.com/SamidyFR/Virgil",
+            "https://cse.google.com/cse?cx=ae17d0c72fa6cbcd4"
+          ]
         },
         {
           "name": "CracksURL",
           "url": "https://cracksurl.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Download Guide",
-          "url": "https://cracksurl.com/how-to-download/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/cracksurldotcom",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://cracksurl.com/how-to-download/",
+            "https://t.me/cracksurldotcom"
+          ]
         },
         {
           "name": "LRepacks",
@@ -381,12 +329,10 @@
           "name": "AlternativeTo",
           "url": "https://alternativeto.net/",
           "description": "Crowdsourced Recommendations",
-          "starred": true
-        },
-        {
-          "name": "European Alternatives",
-          "url": "https://european-alternatives.eu/",
-          "description": "Crowdsourced Recommendations"
+          "starred": true,
+          "mirrors": [
+            "https://european-alternatives.eu/"
+          ]
         },
         {
           "name": "AIOWares",
@@ -441,30 +387,11 @@
           "description": "FOSS Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "⁠definitive-opensource",
-          "url": "https://github.com/mustbeperfect/definitive-opensource",
-          "description": "FOSS Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Awesome Useful Projects",
-          "url": "https://github.com/Furthir/awesome-useful-projects",
-          "description": "FOSS Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Awesome OSS",
-          "url": "https://github.com/RunaCapital/awesome-oss-alternatives",
-          "description": "FOSS Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/mustbeperfect/definitive-opensource",
+            "https://github.com/Furthir/awesome-useful-projects",
+            "https://github.com/RunaCapital/awesome-oss-alternatives"
           ]
         },
         {
@@ -526,12 +453,10 @@
         {
           "name": "Awesome CLI Apps",
           "url": "https://github.com/toolleeo/awesome-cli-apps-in-a-csv",
-          "description": "FOSS CLI Apps / Tools"
-        },
-        {
-          "name": "CLI Club",
-          "url": "https://cli.club/",
-          "description": "FOSS CLI Apps / Tools"
+          "description": "FOSS CLI Apps / Tools",
+          "mirrors": [
+            "https://cli.club/"
+          ]
         },
         {
           "name": "Free Software Directory",
@@ -540,7 +465,7 @@
         },
         {
           "name": "FOSS Wiki",
-          "url": "https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software/Categories",
+          "url": "https://wikipedia.org/wiki/Portal:Free_and_open-source_software/Categories",
           "description": "FOSS Wikis"
         },
         {
@@ -560,30 +485,11 @@
           "description": "Freeware Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Awesome Free Apps",
-          "url": "https://github.com/Axorax/awesome-free-apps",
-          "description": "Freeware Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Windows Ultimate Collection",
-          "url": "https://xdaforums.com/t/windows-ultimate-collection-guides.4507867/",
-          "description": "Freeware Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Free Lunch",
-          "url": "https://github.com/auctors/free-lunch",
-          "description": "Freeware Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/Axorax/awesome-free-apps",
+            "https://xdaforums.com/t/windows-ultimate-collection-guides.4507867/",
+            "https://github.com/auctors/free-lunch"
           ]
         },
         {
@@ -604,17 +510,11 @@
           "name": "DanStore",
           "url": "https://danstore-ms.vercel.app/",
           "description": "Microsoft Store WebUIs / Guide",
-          "starred": true
-        },
-        {
-          "name": "store.rg",
-          "url": "https://store.rg-adguard.net/",
-          "description": "Microsoft Store WebUIs / Guide"
-        },
-        {
-          "name": "StoreWeb",
-          "url": "https://msft-store.tplant.com.au/",
-          "description": "Microsoft Store WebUIs / Guide"
+          "starred": true,
+          "mirrors": [
+            "https://store.rg-adguard.net/",
+            "https://msft-store.tplant.com.au/"
+          ]
         },
         {
           "name": "MajorGeeks",
@@ -674,42 +574,22 @@
         {
           "name": "PortableApps.com",
           "url": "https://portableapps.com/",
-          "description": "Portable Apps"
-        },
-        {
-          "name": "PortableFreeware",
-          "url": "https://www.portablefreeware.com/",
-          "description": "Portable Apps"
-        },
-        {
-          "name": "Portapps",
-          "url": "https://portapps.io/",
-          "description": "Portable Apps"
-        },
-        {
-          "name": "PortableAppZ",
-          "url": "https://portableappz.blogspot.com/",
-          "description": "Portable Apps"
+          "description": "Portable Apps",
+          "mirrors": [
+            "https://www.portablefreeware.com/",
+            "https://portapps.io/",
+            "https://portableappz.blogspot.com/"
+          ]
         },
         {
           "name": "Nirsoft",
           "url": "https://www.nirsoft.net/",
-          "description": "Windows Software"
-        },
-        {
-          "name": "Windows-Utilities",
-          "url": "https://orga.cat/windows-utilities",
-          "description": "Windows Software"
-        },
-        {
-          "name": "OS Vault",
-          "url": "https://osvault.weebly.com/directory.html",
-          "description": "Windows Software"
-        },
-        {
-          "name": "WinTools",
-          "url": "https://www.wintools.info/",
-          "description": "Windows Software"
+          "description": "Windows Software",
+          "mirrors": [
+            "https://orga.cat/windows-utilities",
+            "https://osvault.weebly.com/directory.html",
+            "https://www.wintools.info/"
+          ]
         },
         {
           "name": "Suckless",
@@ -729,12 +609,10 @@
         {
           "name": "Vintage Software Collection",
           "url": "https://rentry.co/FMHYB64#the-vintage-software-collection",
-          "description": "Retro Software"
-        },
-        {
-          "name": "SCiZE's Classic Warez",
-          "url": "https://scenelist.org/",
-          "description": "Retro Software"
+          "description": "Retro Software",
+          "mirrors": [
+            "https://scenelist.org/"
+          ]
         }
       ]
     },
@@ -752,7 +630,7 @@
         },
         {
           "name": "IRC Client Comparisons",
-          "url": "https://en.wikipedia.org/wiki/Comparison_of_IRC_clients",
+          "url": "https://wikipedia.org/wiki/Comparison_of_IRC_clients",
           "description": "",
           "tags": [
             "index"
@@ -761,47 +639,23 @@
         {
           "name": "IRC Guide",
           "url": "https://rentry.org/ircfmhyguide",
-          "description": "IRC Guides"
-        },
-        {
-          "name": "Libera Guides",
-          "url": "https://libera.chat/guides/",
-          "description": "IRC Guides"
-        },
-        {
-          "name": "New Blood",
-          "url": "https://anonops.com/newblood/",
-          "description": "IRC Guides"
-        },
-        {
-          "name": "Simple Wiki Guide",
-          "url": "https://en.wikipedia.org/wiki/Wikipedia:IRC/Tutorial",
-          "description": "IRC Guides"
+          "description": "IRC Guides",
+          "mirrors": [
+            "https://libera.chat/guides/",
+            "https://anonops.com/newblood/",
+            "https://wikipedia.org/wiki/Wikipedia:IRC/Tutorial"
+          ]
         },
         {
           "name": "AdiIRC",
           "url": "https://adiirc.com/",
-          "description": "IRC Clients"
-        },
-        {
-          "name": "KVIrc",
-          "url": "https://github.com/kvirc/KVIrc",
-          "description": "IRC Clients"
-        },
-        {
-          "name": "Konversation",
-          "url": "https://konversation.kde.org/",
-          "description": "IRC Clients"
-        },
-        {
-          "name": "Convos",
-          "url": "https://convos.chat/",
-          "description": "IRC Clients"
-        },
-        {
-          "name": "Halloy",
-          "url": "https://github.com/squidowl/halloy",
-          "description": "IRC Clients"
+          "description": "IRC Clients",
+          "mirrors": [
+            "https://github.com/kvirc/KVIrc",
+            "https://konversation.kde.org/",
+            "https://convos.chat/",
+            "https://github.com/squidowl/halloy"
+          ]
         },
         {
           "name": "TheLounge",
@@ -811,22 +665,12 @@
         {
           "name": "Libera",
           "url": "https://libera.chat/",
-          "description": "IRC Networks"
-        },
-        {
-          "name": "tilde",
-          "url": "https://tilde.chat/",
-          "description": "IRC Networks"
-        },
-        {
-          "name": "AnonOps",
-          "url": "https://anonops.com/",
-          "description": "IRC Networks"
-        },
-        {
-          "name": "Rizon",
-          "url": "https://rizon.net/",
-          "description": "IRC Networks"
+          "description": "IRC Networks",
+          "mirrors": [
+            "https://tilde.chat/",
+            "https://anonops.com/",
+            "https://rizon.net/"
+          ]
         },
         {
           "name": "Usenet-Uploaders",
@@ -1006,22 +850,12 @@
           "name": "sabnzbd",
           "url": "https://sabnzbd.org/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Grabber",
-          "url": "https://github.com/lem6ns/sabgrab",
-          "description": ""
-        },
-        {
-          "name": "Firefox",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/nzb-unity/",
-          "description": ""
-        },
-        {
-          "name": "Chrome",
-          "url": "https://chromewebstore.google.com/detail/nzb-unity/mpejfoghnejnbfkpbiafklkmlhebkapb",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/lem6ns/sabgrab",
+            "https://addons.mozilla.org/en-US/firefox/addon/nzb-unity/",
+            "https://chromewebstore.google.com/detail/nzb-unity/mpejfoghnejnbfkpbiafklkmlhebkapb"
+          ]
         },
         {
           "name": "NZBUnity",
@@ -1032,12 +866,10 @@
         {
           "name": "NZBGet",
           "url": "https://nzbget.com/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/nzbgetcom/nzbget",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/nzbgetcom/nzbget"
+          ]
         },
         {
           "name": "Usenet File Hashes",
@@ -1050,14 +882,9 @@
           "description": "",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/fynks/debrid-services-comparison",
-          "description": "",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/fynks/debrid-services-comparison"
           ]
         },
         {

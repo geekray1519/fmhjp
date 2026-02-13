@@ -63,15 +63,9 @@
           "tags": [
             "Discord",
             "GitHub"
-          ]
-        },
-        {
-          "name": "Apollo",
-          "url": "https://github.com/ClassicOldSong/Apollo",
-          "description": "Remote Server for Moonlight / Mobile",
-          "tags": [
-            "Discord",
-            "GitHub"
+          ],
+          "mirrors": [
+            "https://github.com/ClassicOldSong/Apollo"
           ]
         },
         {
@@ -165,32 +159,20 @@
         {
           "name": "Challonge",
           "url": "https://challonge.com/",
-          "description": "Tournament Creators / Managers"
-        },
-        {
-          "name": "Lorenzi's Game Boards",
-          "url": "https://gb.hlorenzi.com/",
-          "description": "Tournament Creators / Managers"
+          "description": "Tournament Creators / Managers",
+          "mirrors": [
+            "https://gb.hlorenzi.com/"
+          ]
         },
         {
           "name": "Moments",
           "url": "https://steelseries.com/gg/moments",
-          "description": "Game Recording Tools"
-        },
-        {
-          "name": "Medal",
-          "url": "https://medal.tv/",
-          "description": "Game Recording Tools"
-        },
-        {
-          "name": "Watermark Remover",
-          "url": "https://rentry.co/FMHYB64#medel",
-          "description": "Game Recording Tools"
-        },
-        {
-          "name": "RePlays",
-          "url": "https://github.com/lulzsun/RePlays",
-          "description": "Game Recording Tools"
+          "description": "Game Recording Tools",
+          "mirrors": [
+            "https://medal.tv/",
+            "https://rentry.co/FMHYB64#medel",
+            "https://github.com/lulzsun/RePlays"
+          ]
         },
         {
           "name": "Keystrokes",
@@ -215,12 +197,10 @@
         {
           "name": "CSDb",
           "url": "https://csdb.dk/",
-          "description": "Commodore 64 Resources"
-        },
-        {
-          "name": "GB64",
-          "url": "https://gb64.com/index.php",
-          "description": "Commodore 64 Resources"
+          "description": "Commodore 64 Resources",
+          "mirrors": [
+            "https://gb64.com/index.php"
+          ]
         },
         {
           "name": "Awesome J2ME",
@@ -235,17 +215,11 @@
         {
           "name": "LunaTranslator",
           "url": "https://docs.lunatranslator.org/en/",
-          "description": "Game / Visual Novel Translators"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/HIllya51/LunaTranslator",
-          "description": "Game / Visual Novel Translators"
-        },
-        {
-          "name": "⁠MTool",
-          "url": "https://mtool.app/?lang=en",
-          "description": "Game / Visual Novel Translators"
+          "description": "Game / Visual Novel Translators",
+          "mirrors": [
+            "https://github.com/HIllya51/LunaTranslator",
+            "https://mtool.app/?lang=en"
+          ]
         },
         {
           "name": "⁠Interpreter",
@@ -260,22 +234,12 @@
         {
           "name": "r/CrackWatch",
           "url": "https://www.reddit.com/r/CrackWatch/",
-          "description": "Scene Release Trackers"
-        },
-        {
-          "name": "r/RepackWorld",
-          "url": "https://reddit.com/r/RepackWorld",
-          "description": "Scene Release Trackers"
-        },
-        {
-          "name": "GameStatus",
-          "url": "https://gamestatus.info/",
-          "description": "Scene Release Trackers"
-        },
-        {
-          "name": "GitGud",
-          "url": "https://discord.gg/APfesEBjjn",
-          "description": "Scene Release Trackers"
+          "description": "Scene Release Trackers",
+          "mirrors": [
+            "https://reddit.com/r/RepackWorld",
+            "https://gamestatus.info/",
+            "https://discord.gg/APfesEBjjn"
+          ]
         },
         {
           "name": "r/CrackSupport",
@@ -442,12 +406,10 @@
           "name": "DisplayMagician",
           "url": "https://displaymagician.littlebitbig.com/",
           "description": "Per-Game Display Profiles",
-          "starred": true
-        },
-        {
-          "name": "AutoActions",
-          "url": "https://github.com/Codectory/AutoActions",
-          "description": "Per-Game Display Profiles"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/Codectory/AutoActions"
+          ]
         },
         {
           "name": "Lossless Scaling",
@@ -468,32 +430,26 @@
         {
           "name": "SystemRequirementsLab",
           "url": "https://www.systemrequirementslab.com/cyri/",
-          "description": "Game Requirements Tests"
-        },
-        {
-          "name": "PCGameBenchmark",
-          "url": "https://www.pcgamebenchmark.com/",
-          "description": "Game Requirements Tests"
+          "description": "Game Requirements Tests",
+          "mirrors": [
+            "https://www.pcgamebenchmark.com/"
+          ]
         },
         {
           "name": "SweetFX",
           "url": "https://sfx.thelazy.net/",
-          "description": "Game Setting Guides"
-        },
-        {
-          "name": "ENBSeries",
-          "url": "http://enbdev.com",
-          "description": "Game Setting Guides"
+          "description": "Game Setting Guides",
+          "mirrors": [
+            "http://enbdev.com"
+          ]
         },
         {
           "name": "RagnoTech Optimization Catalog",
           "url": "https://ragnos1997.com/optimization-catalog/",
-          "description": "Gaming Optimization Guides"
-        },
-        {
-          "name": "TroubleChute",
-          "url": "https://www.youtube.com/c/TroubleChute/featured",
-          "description": "Gaming Optimization Guides"
+          "description": "Gaming Optimization Guides",
+          "mirrors": [
+            "https://www.youtube.com/c/TroubleChute/featured"
+          ]
         },
         {
           "name": "cancerogenoslab",
@@ -503,32 +459,14 @@
         {
           "name": "Fraps",
           "url": "https://fraps.com/",
-          "description": "FPS Monitors"
-        },
-        {
-          "name": "OCAT",
-          "url": "https://gpuopen.com/ocat/",
-          "description": "FPS Monitors"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/GPUOpen-Tools/ocat",
-          "description": "FPS Monitors"
-        },
-        {
-          "name": "RTSS",
-          "url": "https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html",
-          "description": "FPS Monitors"
-        },
-        {
-          "name": "CapFrameX",
-          "url": "https://www.capframex.com/",
-          "description": "FPS Monitors"
-        },
-        {
-          "name": "Game Bar",
-          "url": "https://rentry.co/WindowsFPS",
-          "description": "FPS Monitors"
+          "description": "FPS Monitors",
+          "mirrors": [
+            "https://gpuopen.com/ocat/",
+            "https://github.com/GPUOpen-Tools/ocat",
+            "https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html",
+            "https://www.capframex.com/",
+            "https://rentry.co/WindowsFPS"
+          ]
         },
         {
           "name": "SSTap",
@@ -543,17 +481,11 @@
         {
           "name": "GPU Tweak III",
           "url": "https://www.asus.com/campaign/GPU-Tweak-III/index.php",
-          "description": "Overclocking Tools / Guide"
-        },
-        {
-          "name": "EVGA Precision X1",
-          "url": "https://www.evga.com/precisionx1/",
-          "description": "Overclocking Tools / Guide"
-        },
-        {
-          "name": "Note",
-          "url": "https://ibb.co/VSYtdTW",
-          "description": "Overclocking Tools / Guide"
+          "description": "Overclocking Tools / Guide",
+          "mirrors": [
+            "https://www.evga.com/precisionx1/",
+            "https://ibb.co/VSYtdTW"
+          ]
         },
         {
           "name": "Overclock",
@@ -620,27 +552,13 @@
         {
           "name": "WindowedBorderlessGaming",
           "url": "https://westechsolutions.net/sites/WindowedBorderlessGaming/",
-          "description": "Borderless Windows for All Games"
-        },
-        {
-          "name": "Borderless Gaming",
-          "url": "https://legacy.borderlessgam.ing/",
-          "description": "Borderless Windows for All Games"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/8UvpR5UgX3",
-          "description": "Borderless Windows for All Games"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/andrewmd5/Borderless-Gaming",
-          "description": "Borderless Windows for All Games"
-        },
-        {
-          "name": "FullScreenizer",
-          "url": "http://runtimeterror.com/tools/fullscreenizer/",
-          "description": "Borderless Windows for All Games"
+          "description": "Borderless Windows for All Games",
+          "mirrors": [
+            "https://legacy.borderlessgam.ing/",
+            "https://discord.gg/8UvpR5UgX3",
+            "https://github.com/andrewmd5/Borderless-Gaming",
+            "http://runtimeterror.com/tools/fullscreenizer/"
+          ]
         },
         {
           "name": "DxWnd",
@@ -655,22 +573,12 @@
         {
           "name": "Widescreen Fixes Pack",
           "url": "https://thirteenag.github.io/wfp",
-          "description": "Widescreen Fixes"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ThirteenAG/WidescreenFixesPack",
-          "description": "Widescreen Fixes"
-        },
-        {
-          "name": "Widescreen Fixer v3.4",
-          "url": "https://community.pcgamingwiki.com/files/file/1754-widescreen-fixer-v34-r737/",
-          "description": "Widescreen Fixes"
-        },
-        {
-          "name": "Flawless Widescreen",
-          "url": "https://www.flawlesswidescreen.org/",
-          "description": "Widescreen Fixes"
+          "description": "Widescreen Fixes",
+          "mirrors": [
+            "https://github.com/ThirteenAG/WidescreenFixesPack",
+            "https://community.pcgamingwiki.com/files/file/1754-widescreen-fixer-v34-r737/",
+            "https://www.flawlesswidescreen.org/"
+          ]
         },
         {
           "name": "4GB Patch",
@@ -687,47 +595,23 @@
           "name": "DS4Windows",
           "url": "https://github.com/schmaldeo/DS4Windows",
           "description": "Gamepad Input Tools / Steam Note",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/TRARS/DS4Windows",
-          "description": "Gamepad Input Tools / Steam Note"
-        },
-        {
-          "name": "AntiMicroX",
-          "url": "https://github.com/AntiMicroX/antimicroX",
-          "description": "Gamepad Input Tools / Steam Note"
-        },
-        {
-          "name": "DualSenseX",
-          "url": "https://github.com/Paliverse/DualSenseX",
-          "description": "Gamepad Input Tools / Steam Note"
-        },
-        {
-          "name": "DualSenseY",
-          "url": "https://github.com/WujekFoliarz/DualSenseY-v2",
-          "description": "Gamepad Input Tools / Steam Note"
-        },
-        {
-          "name": "PCXSense",
-          "url": "https://github.com/Denellyne/PCXSense",
-          "description": "Gamepad Input Tools / Steam Note"
-        },
-        {
-          "name": "Input Remapper",
-          "url": "https://github.com/sezanzeb/input-remapper",
-          "description": "Gamepad Input Tools / Steam Note"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/TRARS/DS4Windows",
+            "https://github.com/AntiMicroX/antimicroX",
+            "https://github.com/Paliverse/DualSenseX",
+            "https://github.com/WujekFoliarz/DualSenseY-v2",
+            "https://github.com/Denellyne/PCXSense",
+            "https://github.com/sezanzeb/input-remapper"
+          ]
         },
         {
           "name": "x360ce",
           "url": "https://www.x360ce.com/",
-          "description": "DS4 / 360 Controller Emulator"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/x360ce/x360ce",
-          "description": "DS4 / 360 Controller Emulator"
+          "description": "DS4 / 360 Controller Emulator",
+          "mirrors": [
+            "https://github.com/x360ce/x360ce"
+          ]
         },
         {
           "name": "DsHidMini",
@@ -752,12 +636,10 @@
         {
           "name": "Gamepad-Tester",
           "url": "https://hardwaretester.com/gamepad",
-          "description": "Online Controller Testers"
-        },
-        {
-          "name": "Test Gamepad",
-          "url": "https://testgamepad.online/",
-          "description": "Online Controller Testers"
+          "description": "Online Controller Testers",
+          "mirrors": [
+            "https://testgamepad.online/"
+          ]
         },
         {
           "name": "DualSense Tester",
@@ -855,17 +737,11 @@
           "name": "ModdingLinked",
           "url": "https://moddinglinked.com/",
           "description": "Bethesda Game Modding Guides",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/S99Ary5eba",
-          "description": "Bethesda Game Modding Guides"
-        },
-        {
-          "name": "⁠Step Modifications",
-          "url": "https://stepmodifications.org/",
-          "description": "Bethesda Game Modding Guides"
+          "starred": true,
+          "mirrors": [
+            "https://discord.com/invite/S99Ary5eba",
+            "https://stepmodifications.org/"
+          ]
         },
         {
           "name": "Wand",
@@ -981,17 +857,11 @@
         {
           "name": "Gale",
           "url": "https://github.com/Kesomannen/gale/",
-          "description": "Thunderstore / BepInEx Unity Mod Managers"
-        },
-        {
-          "name": "r2modman",
-          "url": "https://github.com/ebkr/r2modmanPlus",
-          "description": "Thunderstore / BepInEx Unity Mod Managers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.thunderstore.io/",
-          "description": "Thunderstore / BepInEx Unity Mod Managers"
+          "description": "Thunderstore / BepInEx Unity Mod Managers",
+          "mirrors": [
+            "https://github.com/ebkr/r2modmanPlus",
+            "https://discord.thunderstore.io/"
+          ]
         },
         {
           "name": "Archipelago",
@@ -1004,7 +874,7 @@
           "description": "Custom Screen Shaders"
         }
       ],
-      "note": "Sites listed in this section only support single player games. We do not support or condone cheating in multiplayer games."
+      "note": "サイトs listed in this section only support single player games. We do not support or condone cheating in multiplayer games."
     },
     {
       "id": "gaming-tools-game-saves",
@@ -1014,22 +884,12 @@
           "name": "Ludusavi",
           "url": "https://github.com/mtkennerly/ludusavi",
           "description": "Game Save Backup Tools / Managers",
-          "starred": true
-        },
-        {
-          "name": "⁠Ambidex",
-          "url": "https://github.com/chwair/ambidex",
-          "description": "Game Save Backup Tools / Managers"
-        },
-        {
-          "name": "SaveState",
-          "url": "https://github.com/Matteo842/SaveState",
-          "description": "Game Save Backup Tools / Managers"
-        },
-        {
-          "name": "GameSave Manager",
-          "url": "https://www.gamesave-manager.com/",
-          "description": "Game Save Backup Tools / Managers"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/chwair/ambidex",
+            "https://github.com/Matteo842/SaveState",
+            "https://www.gamesave-manager.com/"
+          ]
         },
         {
           "name": "PCGamingWiki",
@@ -1091,54 +951,14 @@
           "description": "Game Map Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "MetaForge",
-          "url": "https://metaforge.app/",
-          "description": "Game Map Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "GamerMaps",
-          "url": "https://www.gamermaps.net/",
-          "description": "Game Map Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "IGN Maps",
-          "url": "https://ign.com/maps",
-          "description": "Game Map Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "GameMaps",
-          "url": "https://www.gamemaps.com/",
-          "description": "Game Map Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "THGL",
-          "url": "https://www.th.gl/",
-          "description": "Game Map Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "VGMaps",
-          "url": "https://www.vgmaps.com/",
-          "description": "Game Map Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://metaforge.app/",
+            "https://www.gamermaps.net/",
+            "https://ign.com/maps",
+            "https://www.gamemaps.com/",
+            "https://www.th.gl/",
+            "https://www.vgmaps.com/"
           ]
         },
         {
@@ -1203,12 +1023,10 @@
         {
           "name": "Hallownest",
           "url": "https://www.hallownest.net/",
-          "description": "Hollow Knight Maps"
-        },
-        {
-          "name": "Interactive HN Map",
-          "url": "https://scripterswar.com/hollowknight/map",
-          "description": "Hollow Knight Maps"
+          "description": "Hollow Knight Maps",
+          "mirrors": [
+            "https://scripterswar.com/hollowknight/map"
+          ]
         }
       ]
     },
@@ -1222,14 +1040,9 @@
           "description": "Mousepad Comparison Chart",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Mousepad Mastersheet",
-          "url": "https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/",
-          "description": "Mousepad Comparison Chart",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/"
           ]
         },
         {
@@ -1250,48 +1063,24 @@
           "name": "GamingSmart",
           "url": "https://gamingsmart.com/",
           "description": "Game Sensitivity Converters / Tools",
-          "starred": true
-        },
-        {
-          "name": "Sens Covnerter",
-          "url": "https://kovaaks.com/kovaaks/sens-converter",
-          "description": "Game Sensitivity Converters / Tools"
-        },
-        {
-          "name": "Sens Converter",
-          "url": "https://sensconverter.online/",
-          "description": "Game Sensitivity Converters / Tools"
-        },
-        {
-          "name": "Mouse Sensitivity",
-          "url": "https://www.mouse-sensitivity.com/",
-          "description": "Game Sensitivity Converters / Tools"
+          "starred": true,
+          "mirrors": [
+            "https://kovaaks.com/kovaaks/sens-converter",
+            "https://sensconverter.online/",
+            "https://www.mouse-sensitivity.com/"
+          ]
         },
         {
           "name": "Aim400kg",
           "url": "https://aim400kg.com/",
           "description": "Aim Training",
-          "starred": true
-        },
-        {
-          "name": "3D Aim Trainer",
-          "url": "https://www.3daimtrainer.com/",
-          "description": "Aim Training"
-        },
-        {
-          "name": "Aimlabs",
-          "url": "https://aimlabs.com/",
-          "description": "Aim Training"
-        },
-        {
-          "name": "Aiming.Pro",
-          "url": "https://aiming.pro/",
-          "description": "Aim Training"
-        },
-        {
-          "name": "AimTrainer",
-          "url": "https://aimtrainer.io/",
-          "description": "Aim Training"
+          "starred": true,
+          "mirrors": [
+            "https://www.3daimtrainer.com/",
+            "https://aimlabs.com/",
+            "https://aiming.pro/",
+            "https://aimtrainer.io/"
+          ]
         },
         {
           "name": "Speedrun",
@@ -1302,47 +1091,17 @@
         {
           "name": "Steam Guides",
           "url": "https://steamcommunity.com/guides",
-          "description": "Game Guides"
-        },
-        {
-          "name": "MetaForge",
-          "url": "https://metaforge.app/",
-          "description": "Game Guides"
-        },
-        {
-          "name": "GameGuides",
-          "url": "https://www.gamerguides.com/",
-          "description": "Game Guides"
-        },
-        {
-          "name": "DotGG",
-          "url": "https://dotgg.gg/",
-          "description": "Game Guides"
-        },
-        {
-          "name": "Game8",
-          "url": "https://game8.co/",
-          "description": "Game Guides"
-        },
-        {
-          "name": "StrategyWiki",
-          "url": "https://strategywiki.org/",
-          "description": "Game Guides"
-        },
-        {
-          "name": "Samurai Gamers",
-          "url": "https://samurai-gamers.com/",
-          "description": "Game Guides"
-        },
-        {
-          "name": "UHS Hints",
-          "url": "https://www.uhs-hints.com/",
-          "description": "Game Guides"
-        },
-        {
-          "name": "Kirklands",
-          "url": "https://archive.org/details/kirklands-manual-labor-sony-playstation-2-usa-4k-version",
-          "description": "Game Guides"
+          "description": "Game Guides",
+          "mirrors": [
+            "https://metaforge.app/",
+            "https://www.gamerguides.com/",
+            "https://dotgg.gg/",
+            "https://game8.co/",
+            "https://strategywiki.org/",
+            "https://samurai-gamers.com/",
+            "https://www.uhs-hints.com/",
+            "https://archive.org/details/kirklands-manual-labor-sony-playstation-2-usa-4k-version"
+          ]
         },
         {
           "name": "Voltaic",
@@ -1367,17 +1126,11 @@
         {
           "name": "The Manual Project",
           "url": "https://vimm.net/manual",
-          "description": "Game Manuals"
-        },
-        {
-          "name": "ReplacementDocs",
-          "url": "http://replacementdocs.com/",
-          "description": "Game Manuals"
-        },
-        {
-          "name": "GamesDatabase",
-          "url": "https://www.gamesdatabase.org/",
-          "description": "Game Manuals"
+          "description": "Game Manuals",
+          "mirrors": [
+            "http://replacementdocs.com/",
+            "https://www.gamesdatabase.org/"
+          ]
         },
         {
           "name": "Sym.gg",
@@ -1398,12 +1151,10 @@
         {
           "name": "Warzone Loadout",
           "url": "https://warzoneloadout.games/",
-          "description": "Warzone Loadouts and Builds"
-        },
-        {
-          "name": "WZHub",
-          "url": "https://wzhub.gg/",
-          "description": "Warzone Loadouts and Builds"
+          "description": "Warzone Loadouts and Builds",
+          "mirrors": [
+            "https://wzhub.gg/"
+          ]
         },
         {
           "name": "⁠LineupsValorant",
@@ -1443,12 +1194,10 @@
         {
           "name": "Puyonexus",
           "url": "https://puyonexus.com/chainsim/",
-          "description": "Puyo Puyo Chain Simulators"
-        },
-        {
-          "name": "puyo.gg sim",
-          "url": "https://www.puyo.gg/simulator/",
-          "description": "Puyo Puyo Chain Simulators"
+          "description": "Puyo Puyo Chain Simulators",
+          "mirrors": [
+            "https://www.puyo.gg/simulator/"
+          ]
         },
         {
           "name": "Backloggd",
@@ -1599,22 +1348,18 @@
         {
           "name": "SteamPeek",
           "url": "https://steampeek.hu/",
-          "description": "Indie Game Databases"
-        },
-        {
-          "name": "IndieDB",
-          "url": "https://www.indiedb.com/",
-          "description": "Indie Game Databases"
+          "description": "Indie Game Databases",
+          "mirrors": [
+            "https://www.indiedb.com/"
+          ]
         },
         {
           "name": "RetroShowcase",
           "url": "https://www.retroshowcase.gr/",
-          "description": "Retro Game Databases"
-        },
-        {
-          "name": "The Good Old Days",
-          "url": "https://www.goodolddays.net/",
-          "description": "Retro Game Databases"
+          "description": "Retro Game Databases",
+          "mirrors": [
+            "https://www.goodolddays.net/"
+          ]
         },
         {
           "name": "Tiny Best Selector",
@@ -1639,22 +1384,18 @@
         {
           "name": "Co-Optimus",
           "url": "https://www.co-optimus.com/",
-          "description": "Co-Op Game Databases"
-        },
-        {
-          "name": "PlayCo-opGame",
-          "url": "https://playco-opgame.com/",
-          "description": "Co-Op Game Databases"
+          "description": "Co-Op Game Databases",
+          "mirrors": [
+            "https://playco-opgame.com/"
+          ]
         },
         {
           "name": "SvenEvils Playground",
           "url": "https://store.steampowered.com/curator/8485829/",
-          "description": "Local Multiplayer Game Database"
-        },
-        {
-          "name": "Local Multiplayer List",
-          "url": "https://docs.google.com/spreadsheets/d/14f6qS2GJy8C-b40Df3dNH_aZq7WfZ4jMggzEajUrX0w/",
-          "description": "Local Multiplayer Game Database"
+          "description": "Local Multiplayer Game Database",
+          "mirrors": [
+            "https://docs.google.com/spreadsheets/d/14f6qS2GJy8C-b40Df3dNH_aZq7WfZ4jMggzEajUrX0w/"
+          ]
         },
         {
           "name": "DoesItPlay?",
@@ -1735,12 +1476,10 @@
           "name": "AcclaimedVideoGames",
           "url": "https://www.acclaimedvideogames.com/",
           "description": "Game Top 1000 List",
-          "starred": true
-        },
-        {
-          "name": "VideoGameCanon",
-          "url": "https://www.videogamecanon.com/",
-          "description": "Game Top 1000 List"
+          "starred": true,
+          "mirrors": [
+            "https://www.videogamecanon.com/"
+          ]
         },
         {
           "name": "OpenCritic",
@@ -1757,12 +1496,10 @@
         {
           "name": "TasteDive",
           "url": "https://tastedive.com/games",
-          "description": "Game Recommendations"
-        },
-        {
-          "name": "r/ifyoulikeblank",
-          "url": "https://www.reddit.com/r/ifyoulikeblank/",
-          "description": "Game Recommendations"
+          "description": "Game Recommendations",
+          "mirrors": [
+            "https://www.reddit.com/r/ifyoulikeblank/"
+          ]
         },
         {
           "name": "⁠/V/'s Recommended Games Wiki",
@@ -1787,12 +1524,10 @@
         {
           "name": "MoreGamesLike",
           "url": "https://www.moregameslike.com/",
-          "description": "Find Similar Games"
-        },
-        {
-          "name": "Games Like Finder",
-          "url": "https://gameslikefinder.com/",
-          "description": "Find Similar Games"
+          "description": "Find Similar Games",
+          "mirrors": [
+            "https://gameslikefinder.com/"
+          ]
         },
         {
           "name": "MiniReview",
@@ -1808,44 +1543,22 @@
           "description": "Steam Tool Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "steam.tools",
-          "url": "https://steam.tools/",
-          "description": "Steam Tool Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "SteamInternals",
-          "url": "https://cs.rin.ru/forum/viewtopic.php?f=10&t=65887",
-          "description": "Steam Tool Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://steam.tools/",
+            "https://cs.rin.ru/forum/viewtopic.php?f=10&t=65887"
           ]
         },
         {
           "name": "SDD GUI",
           "url": "https://github.com/mmvanheusden/SteamDepotDownloaderGUI",
           "description": "Steam Depot / Manifest Downloaders",
-          "starred": true
-        },
-        {
-          "name": "ManifestHub",
-          "url": "https://github.com/SteamAutoCracks/ManifestHub",
-          "description": "Steam Depot / Manifest Downloaders"
-        },
-        {
-          "name": "Steam Manifest Downloader",
-          "url": "https://manifest.youngzm.com/",
-          "description": "Steam Depot / Manifest Downloaders"
-        },
-        {
-          "name": "DepotDownloader",
-          "url": "https://github.com/SteamRE/DepotDownloader",
-          "description": "Steam Depot / Manifest Downloaders"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/SteamAutoCracks/ManifestHub",
+            "https://manifest.youngzm.com/",
+            "https://github.com/SteamRE/DepotDownloader"
+          ]
         },
         {
           "name": "RedAlt SteamUp",
@@ -1881,27 +1594,19 @@
         {
           "name": "SamRewritten",
           "url": "https://github.com/PaulCombal/SamRewritten",
-          "description": "Steam Achievement Managers"
-        },
-        {
-          "name": "SteamAchievementManager",
-          "url": "https://github.com/gibbed/SteamAchievementManager",
-          "description": "Steam Achievement Managers"
+          "description": "Steam Achievement Managers",
+          "mirrors": [
+            "https://github.com/gibbed/SteamAchievementManager"
+          ]
         },
         {
           "name": "SteamHunters",
           "url": "https://steamhunters.com/",
-          "description": "Steam Achievement Tracking / Leaderboards / Profiles"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/SeJ25Xv",
-          "description": "Steam Achievement Tracking / Leaderboards / Profiles"
-        },
-        {
-          "name": "TrueSteamAchievements",
-          "url": "https://truesteamachievements.com/",
-          "description": "Steam Achievement Tracking / Leaderboards / Profiles"
+          "description": "Steam Achievement Tracking / Leaderboards / Profiles",
+          "mirrors": [
+            "https://discord.com/invite/SeJ25Xv",
+            "https://truesteamachievements.com/"
+          ]
         },
         {
           "name": "⁠VSThemes Steam",
@@ -1911,22 +1616,12 @@
         {
           "name": "SteamID",
           "url": "https://steamid.io/",
-          "description": "Steam ID Lookup"
-        },
-        {
-          "name": "2",
-          "url": "https://steamid.uk/",
-          "description": "Steam ID Lookup"
-        },
-        {
-          "name": "SteamDetective",
-          "url": "https://steamdetective.com/",
-          "description": "Steam ID Lookup"
-        },
-        {
-          "name": "SteamFinder",
-          "url": "https://steamidfinder.com/",
-          "description": "Steam ID Lookup"
+          "description": "Steam ID Lookup",
+          "mirrors": [
+            "https://steamid.uk/",
+            "https://steamdetective.com/",
+            "https://steamidfinder.com/"
+          ]
         },
         {
           "name": "SteamGuard",
@@ -1979,32 +1674,20 @@
         {
           "name": "LEGENDARY",
           "url": "https://github.com/derrod/legendary",
-          "description": "Epic Games Launchers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://legendary.gl/discord",
-          "description": "Epic Games Launchers"
-        },
-        {
-          "name": "Rare",
-          "url": "https://raredevs.github.io/Rare/",
-          "description": "Epic Games Launchers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/RareDevs/Rare",
-          "description": "Epic Games Launchers"
+          "description": "Epic Games Launchers",
+          "mirrors": [
+            "https://legendary.gl/discord",
+            "https://raredevs.github.io/Rare/",
+            "https://github.com/RareDevs/Rare"
+          ]
         },
         {
           "name": "Depressurizer",
           "url": "https://github.com/Depressurizer/Depressurizer",
-          "description": "Steam Library Organizers"
-        },
-        {
-          "name": "Backlog.rip",
-          "url": "https://backlog.rip/",
-          "description": "Steam Library Organizers"
+          "description": "Steam Library Organizers",
+          "mirrors": [
+            "https://backlog.rip/"
+          ]
         },
         {
           "name": "Steam Art Manager",
@@ -2092,33 +1775,21 @@
           "name": "Goldberg Fork",
           "url": "https://github.com/Detanup01/gbe_fork",
           "description": "Offline Steam / Multiplayer Emulators",
-          "starred": true
-        },
-        {
-          "name": "Guide",
-          "url": "https://rentry.co/goldberg_emulator",
-          "description": "Offline Steam / Multiplayer Emulators"
-        },
-        {
-          "name": "SmartSteamEmu",
-          "url": "https://cs.rin.ru/forum/viewtopic.php?f=29&t=62935&sid=c6b5dadd40d56ac20a8789121bb743c5",
-          "description": "Offline Steam / Multiplayer Emulators"
+          "starred": true,
+          "mirrors": [
+            "https://rentry.co/goldberg_emulator",
+            "https://cs.rin.ru/forum/viewtopic.php?f=29&t=62935&sid=c6b5dadd40d56ac20a8789121bb743c5"
+          ]
         },
         {
           "name": "Steam-Auto-Crack",
           "url": "https://github.com/SteamAutoCracks/Steam-auto-crack",
           "description": "Auto Apply Cracks / Guide",
-          "starred": true
-        },
-        {
-          "name": "SteamAutoCracker",
-          "url": "https://github.com/BigBoiCJ/SteamAutoCracker",
-          "description": "Auto Apply Cracks / Guide"
-        },
-        {
-          "name": "GUI",
-          "url": "https://github.com/harryeffinpotter/Steam-Autocracker-GUI/",
-          "description": "Auto Apply Cracks / Guide"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/BigBoiCJ/SteamAutoCracker",
+            "https://github.com/harryeffinpotter/Steam-Autocracker-GUI/"
+          ]
         },
         {
           "name": "Koalageddon",
@@ -2145,37 +1816,15 @@
           "name": "SteamDB",
           "url": "https://steamdb.info/",
           "description": "Steam Insight Tools / Game Charts",
-          "starred": true
-        },
-        {
-          "name": "Extension",
-          "url": "https://steamdb.info/extension/",
-          "description": "Steam Insight Tools / Game Charts"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/steamdb",
-          "description": "Steam Insight Tools / Game Charts"
-        },
-        {
-          "name": "BestOfSteam",
-          "url": "https://bestofsteam.com/",
-          "description": "Steam Insight Tools / Game Charts"
-        },
-        {
-          "name": "Steam250",
-          "url": "https://steam250.com/",
-          "description": "Steam Insight Tools / Game Charts"
-        },
-        {
-          "name": "Steambase",
-          "url": "https://steambase.io/",
-          "description": "Steam Insight Tools / Game Charts"
-        },
-        {
-          "name": "Extension",
-          "url": "https://chromewebstore.google.com/detail/better-steam/iobagpbkbdkobggejjcnidehfenchpec",
-          "description": "Steam Insight Tools / Game Charts"
+          "starred": true,
+          "mirrors": [
+            "https://steamdb.info/extension/",
+            "https://discord.com/invite/steamdb",
+            "https://bestofsteam.com/",
+            "https://steam250.com/",
+            "https://steambase.io/",
+            "https://chromewebstore.google.com/detail/better-steam/iobagpbkbdkobggejjcnidehfenchpec"
+          ]
         },
         {
           "name": "⁠EGData",
@@ -2223,12 +1872,10 @@
         {
           "name": "Steam Currency Converter",
           "url": "https://github.com/Solidet-com/steam-currency-converter",
-          "description": "Steam Currency Converter"
-        },
-        {
-          "name": "Note",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/steam-currency-converter-note.md",
-          "description": "Steam Currency Converter"
+          "description": "Steam Currency Converter",
+          "mirrors": [
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/steam-currency-converter-note.md"
+          ]
         }
       ]
     },
@@ -2245,12 +1892,10 @@
         {
           "name": "Nether Workshop Downloader",
           "url": "https://github.com/NethercraftMC5608/NetherWorkshopDownloader",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/bs9TMxMJk9",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.com/invite/bs9TMxMJk9"
+          ]
         },
         {
           "name": "GGNTW",
@@ -2397,14 +2042,9 @@
           "description": "Multiplayer Mods for Single-Player Games",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Unmoddable",
-          "url": "https://unmoddable.com/",
-          "description": "Multiplayer Mods for Single-Player Games",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://unmoddable.com/"
           ]
         },
         {
@@ -2421,14 +2061,9 @@
           "description": "COD Multiplayer Mod Server Tracker",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "GameServe.rs",
-          "url": "https://gameserve.rs/",
-          "description": "COD Multiplayer Mod Server Tracker",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://gameserve.rs/"
           ]
         },
         {
@@ -2497,22 +2132,12 @@
         {
           "name": "Venice Unleashed",
           "url": "https://veniceunleashed.net/",
-          "description": "Battlefield Mod Projects"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/dpJwaVZ",
-          "description": "Battlefield Mod Projects"
-        },
-        {
-          "name": "Warsaw Revamped",
-          "url": "https://warsaw.gg/",
-          "description": "Battlefield Mod Projects"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/C9Zrh4G",
-          "description": "Battlefield Mod Projects"
+          "description": "Battlefield Mod Projects",
+          "mirrors": [
+            "https://discord.com/invite/dpJwaVZ",
+            "https://warsaw.gg/",
+            "https://discord.com/invite/C9Zrh4G"
+          ]
         },
         {
           "name": "SM64 Coop Deluxe",
@@ -2611,12 +2236,10 @@
         {
           "name": "Mega Man Arena",
           "url": "https://www.megamanarena.com/",
-          "description": "Multiplayer Mega Man"
-        },
-        {
-          "name": "Megaman 2.5D",
-          "url": "https://petersjostrand.com/",
-          "description": "Multiplayer Mega Man"
+          "description": "Multiplayer Mega Man",
+          "mirrors": [
+            "https://petersjostrand.com/"
+          ]
         },
         {
           "name": "DMP",
@@ -2642,22 +2265,12 @@
           "name": "Pelican",
           "url": "https://pelican.dev/",
           "description": "Game Server Management Panel",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/pelican-dev/panel",
-          "description": "Game Server Management Panel"
-        },
-        {
-          "name": "Pterodactyl",
-          "url": "https://github.com/pterodactyl/panel",
-          "description": "Game Server Management Panel"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/pterodactyl",
-          "description": "Game Server Management Panel"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/pelican-dev/panel",
+            "https://github.com/pterodactyl/panel",
+            "https://discord.gg/pterodactyl"
+          ]
         },
         {
           "name": "Playit.gg",
@@ -2811,22 +2424,12 @@
         {
           "name": "Clash of Magic",
           "url": "https://www.clashofmagic.io/",
-          "description": "Clash of Clans Private Servers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/clashofmagic",
-          "description": "Clash of Clans Private Servers"
-        },
-        {
-          "name": "Atrasis",
-          "url": "https://atrasisclash.net/",
-          "description": "Clash of Clans Private Servers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/wmSjaTJ",
-          "description": "Clash of Clans Private Servers"
+          "description": "Clash of Clans Private Servers",
+          "mirrors": [
+            "https://discord.gg/clashofmagic",
+            "https://atrasisclash.net/",
+            "https://discord.gg/wmSjaTJ"
+          ]
         },
         {
           "name": "Rusticaland",
@@ -2889,12 +2492,10 @@
         {
           "name": "Toontown Rewritten",
           "url": "https://www.toontownrewritten.com/",
-          "description": "Toontown Multiplayer Revivals"
-        },
-        {
-          "name": "Corporate Clash",
-          "url": "https://corporateclash.net/",
-          "description": "Toontown Multiplayer Revivals"
+          "description": "Toontown Multiplayer Revivals",
+          "mirrors": [
+            "https://corporateclash.net/"
+          ]
         },
         {
           "name": "⁠Moshi Monsters Online",
@@ -2932,42 +2533,16 @@
           "name": "Hacks.Guide",
           "url": "https://hacks.guide/",
           "description": "Homebrew Guides",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://wiki.hacks.guide/",
-          "description": "Homebrew Guides"
-        },
-        {
-          "name": "CFW Guide",
-          "url": "https://cfw.guide/",
-          "description": "Homebrew Guides"
-        },
-        {
-          "name": "ConsoleMods.org",
-          "url": "https://consolemods.org/",
-          "description": "Homebrew Guides"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/x5vEnkR4C8",
-          "description": "Homebrew Guides"
-        },
-        {
-          "name": "Digiex",
-          "url": "https://digiex.net/forums/",
-          "description": "Homebrew Guides"
-        },
-        {
-          "name": "Homebrew Guides",
-          "url": "https://rentry.co/Guides",
-          "description": "Homebrew Guides"
-        },
-        {
-          "name": "Gamebrew",
-          "url": "https://www.gamebrew.org/",
-          "description": "Homebrew Guides"
+          "starred": true,
+          "mirrors": [
+            "https://wiki.hacks.guide/",
+            "https://cfw.guide/",
+            "https://consolemods.org/",
+            "https://discord.gg/x5vEnkR4C8",
+            "https://digiex.net/forums/",
+            "https://rentry.co/Guides",
+            "https://www.gamebrew.org/"
+          ]
         },
         {
           "name": "Nintendo Homebrew",
@@ -3075,27 +2650,19 @@
         {
           "name": "r/SwitchPirates",
           "url": "https://www.reddit.com/r/SwitchPirates/",
-          "description": "Switch Homebrew Subreddits"
-        },
-        {
-          "name": "r/SwitchHacks",
-          "url": "https://reddit.com/r/SwitchHacks",
-          "description": "Switch Homebrew Subreddits"
+          "description": "Switch Homebrew Subreddits",
+          "mirrors": [
+            "https://reddit.com/r/SwitchHacks"
+          ]
         },
         {
           "name": "LAN Play Status",
           "url": "http://www.lan-play.com/",
-          "description": "Switch Multiplayer Servers"
-        },
-        {
-          "name": "Switch-LAN-Play",
-          "url": "https://github.com/spacemeowx2/switch-lan-play",
-          "description": "Switch Multiplayer Servers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/PUEmfV4",
-          "description": "Switch Multiplayer Servers"
+          "description": "Switch Multiplayer Servers",
+          "mirrors": [
+            "https://github.com/spacemeowx2/switch-lan-play",
+            "https://discord.gg/PUEmfV4"
+          ]
         },
         {
           "name": "FlagBrew",
@@ -3174,27 +2741,13 @@
           "name": "Wiimmfi",
           "url": "https://wiimmfi.de/",
           "description": "Wii Multiplayer Servers",
-          "starred": true
-        },
-        {
-          "name": "WiiLink WFC",
-          "url": "https://wfc.wiilink.ca/",
-          "description": "Wii Multiplayer Servers"
-        },
-        {
-          "name": "BlueSky",
-          "url": "https://bsky.app/profile/wiilink.ca",
-          "description": "Wii Multiplayer Servers"
-        },
-        {
-          "name": "X",
-          "url": "https://x.com/WiiLink24",
-          "description": "Wii Multiplayer Servers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/wiilink",
-          "description": "Wii Multiplayer Servers"
+          "starred": true,
+          "mirrors": [
+            "https://wfc.wiilink.ca/",
+            "https://bsky.app/profile/wiilink.ca",
+            "https://x.com/WiiLink24",
+            "https://discord.gg/wiilink"
+          ]
         },
         {
           "name": "Homebrew App Store",
@@ -3263,12 +2816,10 @@
           "name": "Wiimmfi",
           "url": "https://wiimmfi.de/",
           "description": "DS Multiplayer Servers",
-          "starred": true
-        },
-        {
-          "name": "Kaeru Team",
-          "url": "https://kaeru.world/",
-          "description": "DS Multiplayer Servers"
+          "starred": true,
+          "mirrors": [
+            "https://kaeru.world/"
+          ]
         },
         {
           "name": "⁠Archcord",
@@ -3311,12 +2862,10 @@
         {
           "name": "r/3DSPiracy",
           "url": "https://www.reddit.com/r/3dspiracy/",
-          "description": "3DS Modding Subreddit"
-        },
-        {
-          "name": "3DSHacks",
-          "url": "https://reddit.com/r/3dshacks/",
-          "description": "3DS Modding Subreddit"
+          "description": "3DS Modding Subreddit",
+          "mirrors": [
+            "https://reddit.com/r/3dshacks/"
+          ]
         },
         {
           "name": "FlagBrew",
@@ -3376,17 +2925,11 @@
         {
           "name": "Chiaki",
           "url": "https://git.sr.ht/~thestr4ng3r/chiaki",
-          "description": "Playstation Remote Play Clients"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/streetpea/chiaki-ng",
-          "description": "Playstation Remote Play Clients"
-        },
-        {
-          "name": "RemotePlay",
-          "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/gb/",
-          "description": "Playstation Remote Play Clients"
+          "description": "Playstation Remote Play Clients",
+          "mirrors": [
+            "https://github.com/streetpea/chiaki-ng",
+            "https://remoteplay.dl.playstation.net/remoteplay/lang/gb/"
+          ]
         },
         {
           "name": "r/PS5Homebrew",
@@ -3404,14 +2947,9 @@
           "description": "PS4 / PS5 Game Updates",
           "tags": [
             "Discord"
-          ]
-        },
-        {
-          "name": "ProsperoPatches",
-          "url": "https://www.prosperopatches.com/",
-          "description": "PS4 / PS5 Game Updates",
-          "tags": [
-            "Discord"
+          ],
+          "mirrors": [
+            "https://www.prosperopatches.com/"
           ]
         },
         {
@@ -3422,12 +2960,10 @@
         {
           "name": "r/PS3Homebrew",
           "url": "https://reddit.com/r/ps3homebrew",
-          "description": "PS3 Homebrew / Piracy Subreddits"
-        },
-        {
-          "name": "r/PS3Piracy",
-          "url": "https://www.reddit.com/r/ps3piracy/",
-          "description": "PS3 Homebrew / Piracy Subreddits"
+          "description": "PS3 Homebrew / Piracy Subreddits",
+          "mirrors": [
+            "https://www.reddit.com/r/ps3piracy/"
+          ]
         },
         {
           "name": "⁠webMAN MOD",
@@ -3440,12 +2976,10 @@
         {
           "name": "Brewology",
           "url": "http://store.brewology.com/",
-          "description": "PS3 Homebrew Stores"
-        },
-        {
-          "name": "PS Network Database",
-          "url": "https://rentry.co/FMHYB64#ps-content",
-          "description": "PS3 Homebrew Stores"
+          "description": "PS3 Homebrew Stores",
+          "mirrors": [
+            "https://rentry.co/FMHYB64#ps-content"
+          ]
         },
         {
           "name": "PS3 Disc Dumper",
@@ -3455,12 +2989,10 @@
         {
           "name": "PS3 Game Updater",
           "url": "https://www.psx-place.com/threads/ps3-game-updater-v1-5-psn-liberator-v0-96b-rudi-rastelli-adds-ps3p-pkg-ripper-support.3766/",
-          "description": "Update PS3 Games"
-        },
-        {
-          "name": "Rusty Pan",
-          "url": "https://github.com/RainbowCookie32/rusty-psn",
-          "description": "Update PS3 Games"
+          "description": "Update PS3 Games",
+          "mirrors": [
+            "https://github.com/RainbowCookie32/rusty-psn"
+          ]
         },
         {
           "name": "⁠PS2 Scene",
@@ -3490,17 +3022,11 @@
         {
           "name": "r/VitaPiracy",
           "url": "https://www.reddit.com/r/VitaPiracy/",
-          "description": "PSVita Homebrew Subreddits"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/6Udcx2w",
-          "description": "PSVita Homebrew Subreddits"
-        },
-        {
-          "name": "r/VitaHacks",
-          "url": "https://reddit.com/r/vitahacks/",
-          "description": "PSVita Homebrew Subreddits"
+          "description": "PSVita Homebrew Subreddits",
+          "mirrors": [
+            "https://discord.gg/6Udcx2w",
+            "https://reddit.com/r/vitahacks/"
+          ]
         },
         {
           "name": "PSP Archive",
@@ -3537,12 +3063,10 @@
         {
           "name": "r/XboxModding",
           "url": "https://www.reddit.com/r/XboxModding/",
-          "description": "Xbox Homebrew Subreddits"
-        },
-        {
-          "name": "r/XboxRetailHomebrew",
-          "url": "https://www.reddit.com/r/XboxRetailHomebrew/",
-          "description": "Xbox Homebrew Subreddits"
+          "description": "Xbox Homebrew Subreddits",
+          "mirrors": [
+            "https://www.reddit.com/r/XboxRetailHomebrew/"
+          ]
         },
         {
           "name": "r/XboxHomebrew",
@@ -3552,17 +3076,11 @@
         {
           "name": "xbGuard",
           "url": "https://xbguard.live",
-          "description": "Xbox 360 Stealth Servers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/YkpmBHK",
-          "description": "Xbox 360 Stealth Servers"
-        },
-        {
-          "name": "Proto Stealth",
-          "url": "https://www.freestealth.com/",
-          "description": "Xbox 360 Stealth Servers"
+          "description": "Xbox 360 Stealth Servers",
+          "mirrors": [
+            "https://discord.gg/YkpmBHK",
+            "https://www.freestealth.com/"
+          ]
         },
         {
           "name": "Insignia",
@@ -3609,27 +3127,13 @@
         {
           "name": "Steam Deck Pirates’ Cove",
           "url": "https://livinin82.github.io/steam-deck-pirates/",
-          "description": "Steam Deck Guides / Resources"
-        },
-        {
-          "name": "2",
-          "url": "https://rentry.org/steamdeckpiratescove",
-          "description": "Steam Deck Guides / Resources"
-        },
-        {
-          "name": "Steam Deck Guide",
-          "url": "https://main.steamdeck.guide/",
-          "description": "Steam Deck Guides / Resources"
-        },
-        {
-          "name": "2",
-          "url": "https://steamdeck.guide/",
-          "description": "Steam Deck Guides / Resources"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/NKkrisz/Steam-Deck-Guide",
-          "description": "Steam Deck Guides / Resources"
+          "description": "Steam Deck Guides / Resources",
+          "mirrors": [
+            "https://rentry.org/steamdeckpiratescove",
+            "https://main.steamdeck.guide/",
+            "https://steamdeck.guide/",
+            "https://github.com/NKkrisz/Steam-Deck-Guide"
+          ]
         },
         {
           "name": "r/SteamDeckPirates",
@@ -3752,17 +3256,11 @@
         {
           "name": "DigiMinecraft",
           "url": "https://www.digminecraft.com/",
-          "description": "Minecraft Guides / Tools"
-        },
-        {
-          "name": "Birdflop",
-          "url": "https://www.birdflop.com/resources/",
-          "description": "Minecraft Guides / Tools"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/birdflop/web",
-          "description": "Minecraft Guides / Tools"
+          "description": "Minecraft Guides / Tools",
+          "mirrors": [
+            "https://www.birdflop.com/resources/",
+            "https://github.com/birdflop/web"
+          ]
         },
         {
           "name": "ViveCraft",
@@ -3807,12 +3305,10 @@
         {
           "name": "Minecraft Java Servers",
           "url": "https://dankware.alwaysdata.net/minecraft-java-servers",
-          "description": "Server Lists"
-        },
-        {
-          "name": "Bedrock Servers",
-          "url": "https://dankware.alwaysdata.net/minecraft-bedrock-servers",
-          "description": "Server Lists"
+          "description": "Server Lists",
+          "mirrors": [
+            "https://dankware.alwaysdata.net/minecraft-bedrock-servers"
+          ]
         },
         {
           "name": "MC Icons",
@@ -3851,17 +3347,11 @@
         {
           "name": "Block Palettes",
           "url": "https://www.blockpalettes.com/",
-          "description": "Block Color Palettes"
-        },
-        {
-          "name": "Block Colors",
-          "url": "https://blockcolors.app/",
-          "description": "Block Color Palettes"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/hJDxqWnXnZ",
-          "description": "Block Color Palettes"
+          "description": "Block Color Palettes",
+          "mirrors": [
+            "https://blockcolors.app/",
+            "https://discord.com/invite/hJDxqWnXnZ"
+          ]
         },
         {
           "name": "⁠Minemev",
@@ -3930,27 +3420,19 @@
           "name": "paper-optimization",
           "url": "https://paper-chan.moe/paper-optimization/",
           "description": "Server Optimization Guides",
-          "starred": true
-        },
-        {
-          "name": "minecraft-optimization",
-          "url": "https://github.com/YouHaveTrouble/minecraft-optimization",
-          "description": "Server Optimization Guides"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/YouHaveTrouble/minecraft-optimization"
+          ]
         },
         {
           "name": "World Host",
           "url": "https://modrinth.com/mod/world-host",
-          "description": "Local Server Multiplayer Mods"
-        },
-        {
-          "name": "e4mc",
-          "url": "https://modrinth.com/mod/e4mc",
-          "description": "Local Server Multiplayer Mods"
-        },
-        {
-          "name": "Lan Server Properties",
-          "url": "https://modrinth.com/mod/lan-server-properties",
-          "description": "Local Server Multiplayer Mods"
+          "description": "Local Server Multiplayer Mods",
+          "mirrors": [
+            "https://modrinth.com/mod/e4mc",
+            "https://modrinth.com/mod/lan-server-properties"
+          ]
         },
         {
           "name": "setup.md",
@@ -4053,42 +3535,16 @@
         {
           "name": "Pufferfish",
           "url": "https://github.com/pufferfish-gg/Pufferfish",
-          "description": "Performance Enhancement Servers"
-        },
-        {
-          "name": "Purpur",
-          "url": "https://purpurmc.org/",
-          "description": "Performance Enhancement Servers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://purpurmc.org/discord",
-          "description": "Performance Enhancement Servers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/PurpurMC/",
-          "description": "Performance Enhancement Servers"
-        },
-        {
-          "name": "Paper",
-          "url": "https://papermc.io/software/paper",
-          "description": "Performance Enhancement Servers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/papermc",
-          "description": "Performance Enhancement Servers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/PaperMC/Paper",
-          "description": "Performance Enhancement Servers"
-        },
-        {
-          "name": "Plugins",
-          "url": "https://hangar.papermc.io/",
-          "description": "Performance Enhancement Servers"
+          "description": "Performance Enhancement Servers",
+          "mirrors": [
+            "https://purpurmc.org/",
+            "https://purpurmc.org/discord",
+            "https://github.com/PurpurMC/",
+            "https://papermc.io/software/paper",
+            "https://discord.com/invite/papermc",
+            "https://github.com/PaperMC/Paper",
+            "https://hangar.papermc.io/"
+          ]
         },
         {
           "name": "GeyserMC",
@@ -4137,67 +3593,27 @@
           "name": "ElyPrismLauncher",
           "url": "https://elyprismlauncher.github.io/",
           "description": "Prism Launcher Forks w / Alt Auth Server Support / CurseForge Downloads",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/5kcBCvnbTp",
-          "description": "Prism Launcher Forks w / Alt Auth Server Support / CurseForge Downloads"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ElyPrismLauncher/ElyPrismLauncher",
-          "description": "Prism Launcher Forks w / Alt Auth Server Support / CurseForge Downloads"
-        },
-        {
-          "name": "Freesm Launcher",
-          "url": "https://freesmlauncher.org/",
-          "description": "Prism Launcher Forks w / Alt Auth Server Support / CurseForge Downloads"
-        },
-        {
-          "name": "Theme Creator",
-          "url": "https://new.freesmlauncher.org/themes",
-          "description": "Prism Launcher Forks w / Alt Auth Server Support / CurseForge Downloads"
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/freesmteam",
-          "description": "Prism Launcher Forks w / Alt Auth Server Support / CurseForge Downloads"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/6jjw4gjy4w",
-          "description": "Prism Launcher Forks w / Alt Auth Server Support / CurseForge Downloads"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/FreesmTeam/FreesmLauncher",
-          "description": "Prism Launcher Forks w / Alt Auth Server Support / CurseForge Downloads"
-        },
-        {
-          "name": "ShatteredPrism",
-          "url": "https://github.com/LunaisLazier/ShatteredPrism",
-          "description": "Prism Launcher Forks w / Alt Auth Server Support / CurseForge Downloads"
+          "starred": true,
+          "mirrors": [
+            "https://discord.gg/5kcBCvnbTp",
+            "https://github.com/ElyPrismLauncher/ElyPrismLauncher",
+            "https://freesmlauncher.org/",
+            "https://new.freesmlauncher.org/themes",
+            "https://t.me/freesmteam",
+            "https://discord.com/invite/6jjw4gjy4w",
+            "https://github.com/FreesmTeam/FreesmLauncher",
+            "https://github.com/LunaisLazier/ShatteredPrism"
+          ]
         },
         {
           "name": "ZalithLauncher",
           "url": "https://github.com/ZalithLauncher/ZalithLauncher",
-          "description": "Java Edition for Android & iOS"
-        },
-        {
-          "name": "⁠Mojolauncher",
-          "url": "https://github.com/mojolauncher/mojolauncher",
-          "description": "Java Edition for Android & iOS"
-        },
-        {
-          "name": "FoldCraftLauncher",
-          "url": "https://github.com/FCL-Team/FoldCraftLauncher",
-          "description": "Java Edition for Android & iOS"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/ffhvuXTwyV",
-          "description": "Java Edition for Android & iOS"
+          "description": "Java Edition for Android & iOS",
+          "mirrors": [
+            "https://github.com/mojolauncher/mojolauncher",
+            "https://github.com/FCL-Team/FoldCraftLauncher",
+            "https://discord.gg/ffhvuXTwyV"
+          ]
         },
         {
           "name": "SkLauncher",
@@ -4212,22 +3628,12 @@
         {
           "name": "Betacraft Launcher",
           "url": "https://betacraft.uk/",
-          "description": "Patch / Fix Legacy Versions"
-        },
-        {
-          "name": "2",
-          "url": "https://betacraft.ee/",
-          "description": "Patch / Fix Legacy Versions"
-        },
-        {
-          "name": "3",
-          "url": "https://betacraft.ovh/",
-          "description": "Patch / Fix Legacy Versions"
-        },
-        {
-          "name": "LegacyFix",
-          "url": "https://github.com/betacraftuk/legacyfix",
-          "description": "Patch / Fix Legacy Versions"
+          "description": "Patch / Fix Legacy Versions",
+          "mirrors": [
+            "https://betacraft.ee/",
+            "https://betacraft.ovh/",
+            "https://github.com/betacraftuk/legacyfix"
+          ]
         },
         {
           "name": "HMCL",
@@ -4298,67 +3704,21 @@
         {
           "name": "Fabric",
           "url": "https://fabricmc.net/",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/VDGnGsFeuy",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "Github",
-          "url": "https://github.com/FabricMC",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "NeoForged",
-          "url": "https://neoforged.net/",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "X",
-          "url": "https://x.com/NeoForged_MC",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/UuM6bmAjXh",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "Github",
-          "url": "https://github.com/neoforged",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "Forge",
-          "url": "https://files.minecraftforge.net/",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/UuM6bmAjXh",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "Github",
-          "url": "https://github.com/MinecraftForge/MinecraftForge",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "Quilt",
-          "url": "https://quiltmc.org/",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/M7GpuyTBvy",
-          "description": "Mod Loaders"
-        },
-        {
-          "name": "Github",
-          "url": "https://github.com/QuiltMC",
-          "description": "Mod Loaders"
+          "description": "Mod Loaders",
+          "mirrors": [
+            "https://discord.gg/VDGnGsFeuy",
+            "https://github.com/FabricMC",
+            "https://neoforged.net/",
+            "https://x.com/NeoForged_MC",
+            "https://discord.com/invite/UuM6bmAjXh",
+            "https://github.com/neoforged",
+            "https://files.minecraftforge.net/",
+            "https://discord.com/invite/UuM6bmAjXh",
+            "https://github.com/MinecraftForge/MinecraftForge",
+            "https://quiltmc.org/",
+            "https://discord.com/invite/M7GpuyTBvy",
+            "https://github.com/QuiltMC"
+          ]
         },
         {
           "name": "ViaFabricPlus",
@@ -4375,7 +3735,15 @@
         {
           "name": "WorldEdit",
           "url": "https://enginehub.org/worldedit",
-          "description": "Building Tools",
+          "description": "Building Tools / World Editors",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Toolchest",
+          "url": "https://bedrocktoolchest.com/",
+          "description": "Building Tools / World Editors",
           "tags": [
             "GitHub"
           ]
@@ -4383,7 +3751,7 @@
         {
           "name": "Axiom",
           "url": "https://modrinth.com/mod/axiom",
-          "description": "Building Tools",
+          "description": "Building Tools / World Editors",
           "tags": [
             "GitHub"
           ]
@@ -4399,37 +3767,15 @@
         {
           "name": "Voxy",
           "url": "https://modrinth.com/mod/voxy",
-          "description": "Lightweight Distance Rendering Mods"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/MCRcortex/voxy",
-          "description": "Lightweight Distance Rendering Mods"
-        },
-        {
-          "name": "DistantHorizons",
-          "url": "https://modrinth.com/mod/distanthorizons",
-          "description": "Lightweight Distance Rendering Mods"
-        },
-        {
-          "name": "Gitlab",
-          "url": "https://gitlab.com/distant-horizons-team/distant-horizons",
-          "description": "Lightweight Distance Rendering Mods"
-        },
-        {
-          "name": "Bobby",
-          "url": "https://modrinth.com/mod/bobby",
-          "description": "Lightweight Distance Rendering Mods"
-        },
-        {
-          "name": "2",
-          "url": "https://www.curseforge.com/minecraft/mc-mods/bobby",
-          "description": "Lightweight Distance Rendering Mods"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Johni0702/bobby",
-          "description": "Lightweight Distance Rendering Mods"
+          "description": "Lightweight Distance Rendering Mods",
+          "mirrors": [
+            "https://github.com/MCRcortex/voxy",
+            "https://modrinth.com/mod/distanthorizons",
+            "https://gitlab.com/distant-horizons-team/distant-horizons",
+            "https://modrinth.com/mod/bobby",
+            "https://www.curseforge.com/minecraft/mc-mods/bobby",
+            "https://github.com/Johni0702/bobby"
+          ]
         },
         {
           "name": "Nvidium",
@@ -4451,27 +3797,13 @@
         {
           "name": "ModMenu",
           "url": "https://modrinth.com/mod/modmenu",
-          "description": "Minecraft Mod Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/TerraformersMC/ModMenu",
-          "description": "Minecraft Mod Managers"
-        },
-        {
-          "name": "PAX",
-          "url": "https://github.com/maradotwebp/pax",
-          "description": "Minecraft Mod Managers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/GQ4MTquzyX",
-          "description": "Minecraft Mod Managers"
-        },
-        {
-          "name": "Mod Manager",
-          "url": "https://github.com/kaniol-lck/modmanager",
-          "description": "Minecraft Mod Managers"
+          "description": "Minecraft Mod Managers",
+          "mirrors": [
+            "https://github.com/TerraformersMC/ModMenu",
+            "https://github.com/maradotwebp/pax",
+            "https://discord.com/invite/GQ4MTquzyX",
+            "https://github.com/kaniol-lck/modmanager"
+          ]
         },
         {
           "name": "r/feedthebeast",
@@ -4490,22 +3822,12 @@
         {
           "name": "CraftPresence",
           "url": "https://modrinth.com/mod/craftpresence",
-          "description": "Discord RPC for Java Edition"
-        },
-        {
-          "name": "Gitlab",
-          "url": "https://gitlab.com/CDAGaming/CraftPresence",
-          "description": "Discord RPC for Java Edition"
-        },
-        {
-          "name": "Phase's Discord RPC",
-          "url": "https://modrinth.com/mod/phases-discord-rich-presence",
-          "description": "Discord RPC for Java Edition"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ThePhaseCat/phases-discord-rich-presence",
-          "description": "Discord RPC for Java Edition"
+          "description": "Discord RPC for Java Edition",
+          "mirrors": [
+            "https://gitlab.com/CDAGaming/CraftPresence",
+            "https://modrinth.com/mod/phases-discord-rich-presence",
+            "https://github.com/ThePhaseCat/phases-discord-rich-presence"
+          ]
         },
         {
           "name": "Controlify",
@@ -4538,32 +3860,14 @@
         {
           "name": "ReplayMod",
           "url": "https://replaymod.com/",
-          "description": "Record Game Sessions"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/5GR7RSb",
-          "description": "Record Game Sessions"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ReplayMod/ReplayMod",
-          "description": "Record Game Sessions"
-        },
-        {
-          "name": "FlashBack",
-          "url": "https://modrinth.com/mod/flashback",
-          "description": "Record Game Sessions"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/mAYDZ9c7rD",
-          "description": "Record Game Sessions"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Moulberry/Flashback?tab=readme-ov-file",
-          "description": "Record Game Sessions"
+          "description": "Record Game Sessions",
+          "mirrors": [
+            "https://discord.com/invite/5GR7RSb",
+            "https://github.com/ReplayMod/ReplayMod",
+            "https://modrinth.com/mod/flashback",
+            "https://discord.com/invite/mAYDZ9c7rD",
+            "https://github.com/Moulberry/Flashback?tab=readme-ov-file"
+          ]
         },
         {
           "name": "Craftify",
@@ -4593,17 +3897,11 @@
         {
           "name": "Smithed",
           "url": "https://smithed.net/",
-          "description": "Minecraft Data Packs"
-        },
-        {
-          "name": "Voodoo Packs",
-          "url": "https://mc.voodoobeard.com/",
-          "description": "Minecraft Data Packs"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/SnJQcfq",
-          "description": "Minecraft Data Packs"
+          "description": "Minecraft Data Packs",
+          "mirrors": [
+            "https://mc.voodoobeard.com/",
+            "https://discord.gg/SnJQcfq"
+          ]
         },
         {
           "name": "Data Pack Generators",
@@ -4643,42 +3941,22 @@
         {
           "name": "Minecraft Datapack Map",
           "url": "https://map.jacobsjo.eu/",
-          "description": "Minecraft Map Editors / Viewers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/jacobsjo/mc-datapack-map",
-          "description": "Minecraft Map Editors / Viewers"
-        },
-        {
-          "name": "MCA Selector",
-          "url": "https://github.com/Querz/mcaselector",
-          "description": "Minecraft Map Editors / Viewers"
-        },
-        {
-          "name": "uNmINeD",
-          "url": "https://unmined.net/",
-          "description": "Minecraft Map Editors / Viewers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/TCmvrPyA9x",
-          "description": "Minecraft Map Editors / Viewers"
-        },
-        {
-          "name": "WorldPainter",
-          "url": "https://www.worldpainter.net/",
-          "description": "Minecraft Map Editors / Viewers"
+          "description": "Minecraft Map Editors / Viewers",
+          "mirrors": [
+            "https://github.com/jacobsjo/mc-datapack-map",
+            "https://github.com/Querz/mcaselector",
+            "https://unmined.net/",
+            "https://discord.com/invite/TCmvrPyA9x",
+            "https://www.worldpainter.net/"
+          ]
         },
         {
           "name": "MineAtlas",
           "url": "http://mineatlas.com/",
-          "description": "Minecraft Seeds"
-        },
-        {
-          "name": "Cubiomes Viewer",
-          "url": "https://github.com/cubitect/cubiomes-viewer",
-          "description": "Minecraft Seeds"
+          "description": "Minecraft Seeds",
+          "mirrors": [
+            "https://github.com/cubitect/cubiomes-viewer"
+          ]
         },
         {
           "name": "MapVerse",
@@ -4691,27 +3969,13 @@
         {
           "name": "MinecraftMaps",
           "url": "https://www.minecraftmaps.com/",
-          "description": "Minecraft Maps"
-        },
-        {
-          "name": "⁠BedrockExplorer",
-          "url": "https://www.bedrockexplorer.com/queries/free-content/everyone/all/",
-          "description": "Minecraft Maps"
-        },
-        {
-          "name": "Minecraft Forum",
-          "url": "https://www.minecraftforum.net/",
-          "description": "Minecraft Maps"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/wGrQNKX",
-          "description": "Minecraft Maps"
-        },
-        {
-          "name": "Mapcraft",
-          "url": "https://mapcraft.me/",
-          "description": "Minecraft Maps"
+          "description": "Minecraft Maps",
+          "mirrors": [
+            "https://www.bedrockexplorer.com/queries/free-content/everyone/all/",
+            "https://www.minecraftforum.net/",
+            "https://discord.com/invite/wGrQNKX",
+            "https://mapcraft.me/"
+          ]
         },
         {
           "name": "Minecraft Earth Map",
@@ -4729,12 +3993,10 @@
         {
           "name": "MapartCraft",
           "url": "https://rebane2001.com/mapartcraft/",
-          "description": "Mapart Schematic / map.dat Generator"
-        },
-        {
-          "name": "Cartographer",
-          "url": "https://cartographer-mc.com/",
-          "description": "Mapart Schematic / map.dat Generator"
+          "description": "Mapart Schematic / map.dat Generator",
+          "mirrors": [
+            "https://cartographer-mc.com/"
+          ]
         },
         {
           "name": "BlueMap",
@@ -4850,37 +4112,27 @@
         {
           "name": "Minecraft Tools",
           "url": "https://minecraft.tools/en/",
-          "description": "Minecraft Tools / Calculators"
-        },
-        {
-          "name": "GamerGeeks",
-          "url": "https://www.gamergeeks.net/",
-          "description": "Minecraft Tools / Calculators"
+          "description": "Minecraft Tools / Calculators",
+          "mirrors": [
+            "https://www.gamergeeks.net/"
+          ]
         },
         {
           "name": "Minecraft Command Science",
           "url": "https://minecraftcommand.science/",
-          "description": "Minecraft Command Generators"
-        },
-        {
-          "name": "MCStacker",
-          "url": "https://mcstacker.net/",
-          "description": "Minecraft Command Generators"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/WCb6GNf",
-          "description": "Minecraft Command Generators"
+          "description": "Minecraft Command Generators",
+          "mirrors": [
+            "https://mcstacker.net/",
+            "https://discord.com/invite/WCb6GNf"
+          ]
         },
         {
           "name": "NBT Studio",
           "url": "https://github.com/tryashtar/nbt-studio/",
-          "description": "Minecraft NBT File Editors"
-        },
-        {
-          "name": "webNBT",
-          "url": "https://irath96.github.io/webNBT/",
-          "description": "Minecraft NBT File Editors"
+          "description": "Minecraft NBT File Editors",
+          "mirrors": [
+            "https://irath96.github.io/webNBT/"
+          ]
         },
         {
           "name": "MinecraftJSON",
@@ -4906,37 +4158,21 @@
           "name": "NameMC",
           "url": "https://namemc.com/",
           "description": "Minecraft Name & Skin Availability Trackers",
-          "starred": true
-        },
-        {
-          "name": "Laby",
-          "url": "https://laby.net/",
-          "description": "Minecraft Name & Skin Availability Trackers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/8JBMHDfWKp",
-          "description": "Minecraft Name & Skin Availability Trackers"
-        },
-        {
-          "name": "Crafty",
-          "url": "https://crafty.gg/",
-          "description": "Minecraft Name & Skin Availability Trackers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/WYgJK3y",
-          "description": "Minecraft Name & Skin Availability Trackers"
+          "starred": true,
+          "mirrors": [
+            "https://laby.net/",
+            "https://discord.com/invite/8JBMHDfWKp",
+            "https://crafty.gg/",
+            "https://discord.com/invite/WYgJK3y"
+          ]
         },
         {
           "name": "ShadersMods",
           "url": "https://shadersmods.com/",
-          "description": "Minecraft Shaders"
-        },
-        {
-          "name": "MinecraftShader",
-          "url": "https://minecraftshader.com/",
-          "description": "Minecraft Shaders"
+          "description": "Minecraft Shaders",
+          "mirrors": [
+            "https://minecraftshader.com/"
+          ]
         },
         {
           "name": "Iris Shaders",
@@ -4946,17 +4182,11 @@
         {
           "name": "MinecraftSkins",
           "url": "https://www.minecraftskins.com/",
-          "description": "Minecraft Skins"
-        },
-        {
-          "name": "⁠BedrockExplorer",
-          "url": "https://www.bedrockexplorer.com/queries/free-content/everyone/all/",
-          "description": "Minecraft Skins"
-        },
-        {
-          "name": "SkinMC",
-          "url": "https://skinmc.net/",
-          "description": "Minecraft Skins"
+          "description": "Minecraft Skins",
+          "mirrors": [
+            "https://www.bedrockexplorer.com/queries/free-content/everyone/all/",
+            "https://skinmc.net/"
+          ]
         },
         {
           "name": "MSkins",
@@ -4971,37 +4201,21 @@
         {
           "name": "NeedCoolerShoes",
           "url": "https://needcoolershoes.com/",
-          "description": "Minecraft Skin Editor"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/FEfbZYvQUa",
-          "description": "Minecraft Skin Editor"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/NeedCoolerShoes/needcoolershoes",
-          "description": "Minecraft Skin Editor"
-        },
-        {
-          "name": "Nova Skin",
-          "url": "https://minecraft.novaskin.me/",
-          "description": "Minecraft Skin Editor"
+          "description": "Minecraft Skin Editor",
+          "mirrors": [
+            "https://discord.gg/FEfbZYvQUa",
+            "https://github.com/NeedCoolerShoes/needcoolershoes",
+            "https://minecraft.novaskin.me/"
+          ]
         },
         {
           "name": "MinecraftCapes",
           "url": "https://minecraftcapes.net/",
-          "description": "Minecraft Capes"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/jqRU9SN",
-          "description": "Minecraft Capes"
-        },
-        {
-          "name": "Capes",
-          "url": "https://modrinth.com/mod/capes",
-          "description": "Minecraft Capes"
+          "description": "Minecraft Capes",
+          "mirrors": [
+            "https://discord.com/invite/jqRU9SN",
+            "https://modrinth.com/mod/capes"
+          ]
         },
         {
           "name": "Minecraft Heads",
@@ -5026,27 +4240,13 @@
           "name": "jmc2obj",
           "url": "https://www.jmc2obj.net/",
           "description": "Minecraft World Exporters",
-          "starred": true
-        },
-        {
-          "name": "Mineways",
-          "url": "https://www.realtimerendering.com/erich/minecraft/public/mineways/",
-          "description": "Minecraft World Exporters"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/wfayQA6Dyc",
-          "description": "Minecraft World Exporters"
-        },
-        {
-          "name": "MiEX",
-          "url": "https://bramstout.nl/en/miex/",
-          "description": "Minecraft World Exporters"
-        },
-        {
-          "name": "Minutor",
-          "url": "https://seancode.com/minutor/",
-          "description": "Minecraft World Exporters"
+          "starred": true,
+          "mirrors": [
+            "https://www.realtimerendering.com/erich/minecraft/public/mineways/",
+            "https://discord.com/invite/wfayQA6Dyc",
+            "https://bramstout.nl/en/miex/",
+            "https://seancode.com/minutor/"
+          ]
         },
         {
           "name": "Mine-imator",
@@ -5118,17 +4318,11 @@
         {
           "name": "Layoutit",
           "url": "https://voxels.layoutit.com/",
-          "description": "Minecraft Shape Tools / Voxel Editors"
-        },
-        {
-          "name": "VoxelSphereGenerator",
-          "url": "https://oranj.io/blog/VoxelSphereGenerator",
-          "description": "Minecraft Shape Tools / Voxel Editors"
-        },
-        {
-          "name": "Minecraft Shapes",
-          "url": "https://minecraftshapes.com/",
-          "description": "Minecraft Shape Tools / Voxel Editors"
+          "description": "Minecraft Shape Tools / Voxel Editors",
+          "mirrors": [
+            "https://oranj.io/blog/VoxelSphereGenerator",
+            "https://minecraftshapes.com/"
+          ]
         },
         {
           "name": "Awesome Trackmania",
@@ -5144,22 +4338,10 @@
           "description": "Animal Crossing: New Horizons Resources / Guides",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "⁠NookNet",
-          "url": "https://nooknet.net/",
-          "description": "Animal Crossing: New Horizons Resources / Guides",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/RwNrqmH",
-          "description": "Animal Crossing: New Horizons Resources / Guides",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://nooknet.net/",
+            "https://discord.com/invite/RwNrqmH"
           ]
         },
         {
@@ -5168,22 +4350,10 @@
           "description": "Osu! Resources",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/osucord/resources",
-          "description": "Osu! Resources",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Useful Osu",
-          "url": "https://github.com/CarbonUwU/Useful-osu",
-          "description": "Osu! Resources",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/osucord/resources",
+            "https://github.com/CarbonUwU/Useful-osu"
           ]
         },
         {
@@ -5198,22 +4368,12 @@
           "name": "Tactics.tools",
           "url": "https://tactics.tools/",
           "description": "Team Fight Tactic Guides, Stats, Tools, etc.",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/K4Z6shucH8",
-          "description": "Team Fight Tactic Guides, Stats, Tools, etc."
-        },
-        {
-          "name": "MetaTFT",
-          "url": "https://www.metatft.com/",
-          "description": "Team Fight Tactic Guides, Stats, Tools, etc."
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/RqN3qPy",
-          "description": "Team Fight Tactic Guides, Stats, Tools, etc."
+          "starred": true,
+          "mirrors": [
+            "https://discord.com/invite/K4Z6shucH8",
+            "https://www.metatft.com/",
+            "https://discord.com/invite/RqN3qPy"
+          ]
         },
         {
           "name": "Half Life Project Beta",
@@ -5223,17 +4383,11 @@
         {
           "name": "Palworld.gg",
           "url": "https://palworld.gg/",
-          "description": "Palworld Databases"
-        },
-        {
-          "name": "PalworldTrainer.com",
-          "url": "https://palworldtrainer.com/",
-          "description": "Palworld Databases"
-        },
-        {
-          "name": "Paldb.cc",
-          "url": "https://paldb.cc/",
-          "description": "Palworld Databases"
+          "description": "Palworld Databases",
+          "mirrors": [
+            "https://palworldtrainer.com/",
+            "https://paldb.cc/"
+          ]
         },
         {
           "name": "Braytech",
@@ -5339,42 +4493,16 @@
           "name": "DPM.LOL",
           "url": "https://dpm.lol/",
           "description": "LoL Builds / Tiers",
-          "starred": true
-        },
-        {
-          "name": "U.GG",
-          "url": "https://u.gg/",
-          "description": "LoL Builds / Tiers"
-        },
-        {
-          "name": "KoreanBuilds",
-          "url": "https://en.koreanbuilds.net/",
-          "description": "LoL Builds / Tiers"
-        },
-        {
-          "name": "EuropeanBuilds",
-          "url": "https://en.europeanbuilds.net/",
-          "description": "LoL Builds / Tiers"
-        },
-        {
-          "name": "LoLTheory",
-          "url": "https://loltheory.gg/",
-          "description": "LoL Builds / Tiers"
-        },
-        {
-          "name": "MurderBridge",
-          "url": "https://www.murderbridge.com/",
-          "description": "LoL Builds / Tiers"
-        },
-        {
-          "name": "LoLAlytics",
-          "url": "https://lolalytics.com/",
-          "description": "LoL Builds / Tiers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/zKyaZ6w",
-          "description": "LoL Builds / Tiers"
+          "starred": true,
+          "mirrors": [
+            "https://u.gg/",
+            "https://en.koreanbuilds.net/",
+            "https://en.europeanbuilds.net/",
+            "https://loltheory.gg/",
+            "https://www.murderbridge.com/",
+            "https://lolalytics.com/",
+            "https://discord.com/invite/zKyaZ6w"
+          ]
         },
         {
           "name": "Gol.gg",
@@ -5413,12 +4541,10 @@
         {
           "name": "Mobalytics",
           "url": "https://mobalytics.gg/",
-          "description": "Game Performance & Stats Analyzer"
-        },
-        {
-          "name": "DeepLoL",
-          "url": "https://www.deeplol.gg/",
-          "description": "Game Performance & Stats Analyzer"
+          "description": "Game Performance & Stats Analyzer",
+          "mirrors": [
+            "https://www.deeplol.gg/"
+          ]
         },
         {
           "name": "Porofessor",
@@ -5433,22 +4559,12 @@
         {
           "name": "DotaBuff",
           "url": "https://www.dotabuff.com/",
-          "description": "Dota 2 Stat Trackers / Hero Guides"
-        },
-        {
-          "name": "Stratz",
-          "url": "https://stratz.com/",
-          "description": "Dota 2 Stat Trackers / Hero Guides"
-        },
-        {
-          "name": "OpenDota",
-          "url": "https://www.opendota.com/",
-          "description": "Dota 2 Stat Trackers / Hero Guides"
-        },
-        {
-          "name": "Dota2ProTracker",
-          "url": "https://www.dota2protracker.com/",
-          "description": "Dota 2 Stat Trackers / Hero Guides"
+          "description": "Dota 2 Stat Trackers / Hero Guides",
+          "mirrors": [
+            "https://stratz.com/",
+            "https://www.opendota.com/",
+            "https://www.dota2protracker.com/"
+          ]
         },
         {
           "name": "SmiteGuru",
@@ -5510,70 +4626,42 @@
           "name": "Serebii.net",
           "url": "https://www.serebii.net/",
           "description": "Pokémon Databases",
-          "starred": true
-        },
-        {
-          "name": "Pokémon Awesome",
-          "url": "https://pokemon-awesome.vercel.app/",
-          "description": "Pokémon Databases"
-        },
-        {
-          "name": "PocketMonsters.net",
-          "url": "https://pocketmonsters.net/",
-          "description": "Pokémon Databases"
-        },
-        {
-          "name": "Pokémon Database",
-          "url": "https://pokemondb.net/",
-          "description": "Pokémon Databases"
+          "starred": true,
+          "mirrors": [
+            "https://pokemon-awesome.vercel.app/",
+            "https://pocketmonsters.net/",
+            "https://pokemondb.net/"
+          ]
         },
         {
           "name": "PokeList",
           "url": "https://pokemonlist.netlify.app/",
           "description": "Pokédexes",
-          "starred": true
-        },
-        {
-          "name": "PokeAPI",
-          "url": "https://pokeapi.co/",
-          "description": "Pokédexes"
+          "starred": true,
+          "mirrors": [
+            "https://pokeapi.co/"
+          ]
         },
         {
           "name": "Pokémon Typechart",
           "url": "https://pokemondb.net/type",
           "description": "Pokémon Type Charts",
-          "starred": true
-        },
-        {
-          "name": "Type Calculator",
-          "url": "https://www.pkmn.help/",
-          "description": "Pokémon Type Charts"
+          "starred": true,
+          "mirrors": [
+            "https://www.pkmn.help/"
+          ]
         },
         {
           "name": "PokeMMO",
           "url": "https://pokemmo.com/",
           "description": "Pokémon MMOs",
-          "starred": true
-        },
-        {
-          "name": "DelugeRPG",
-          "url": "https://www.delugerpg.com/",
-          "description": "Pokémon MMOs"
-        },
-        {
-          "name": "Pokemon Blaze Online",
-          "url": "https://pokemonblazeonline.com/",
-          "description": "Pokémon MMOs"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/b3ZnXuf5fk",
-          "description": "Pokémon MMOs"
-        },
-        {
-          "name": "Pokémon Revolution Online",
-          "url": "https://pokemonrevolution.net/",
-          "description": "Pokémon MMOs"
+          "starred": true,
+          "mirrors": [
+            "https://www.delugerpg.com/",
+            "https://pokemonblazeonline.com/",
+            "https://discord.com/invite/b3ZnXuf5fk",
+            "https://pokemonrevolution.net/"
+          ]
         },
         {
           "name": "PokéRogue",
@@ -5653,17 +4741,11 @@
         {
           "name": "PkmnCards",
           "url": "https://pkmncards.com/",
-          "description": "Pokémon Card Databases / Resources"
-        },
-        {
-          "name": "Pokéllector",
-          "url": "https://www.pokellector.com/",
-          "description": "Pokémon Card Databases / Resources"
-        },
-        {
-          "name": "Limitless",
-          "url": "https://limitlesstcg.com/",
-          "description": "Pokémon Card Databases / Resources"
+          "description": "Pokémon Card Databases / Resources",
+          "mirrors": [
+            "https://www.pokellector.com/",
+            "https://limitlesstcg.com/"
+          ]
         },
         {
           "name": "TCG ONE",
@@ -5699,12 +4781,10 @@
           "name": "HLTV",
           "url": "https://www.hltv.org/",
           "description": "Counter-Strike News",
-          "starred": true
-        },
-        {
-          "name": "Dust2",
-          "url": "https://www.dust2.us/",
-          "description": "Counter-Strike News"
+          "starred": true,
+          "mirrors": [
+            "https://www.dust2.us/"
+          ]
         },
         {
           "name": "CS Demo Manager",
@@ -5722,12 +4802,10 @@
           "name": "CSNADES",
           "url": "https://csnades.gg/",
           "description": "CS2 Nade Lineups",
-          "starred": true
-        },
-        {
-          "name": "CS2Util",
-          "url": "https://www.cs2util.com/",
-          "description": "CS2 Nade Lineups"
+          "starred": true,
+          "mirrors": [
+            "https://www.cs2util.com/"
+          ]
         },
         {
           "name": "CSGO Trader",
@@ -5747,12 +4825,10 @@
         {
           "name": "CS2 Browser",
           "url": "https://cs2browser.net/",
-          "description": "Counter-Strike 2 Server Browser"
-        },
-        {
-          "name": "CS2 Server Picker",
-          "url": "https://github.com/FN-FAL113/cs2-server-picker",
-          "description": "Counter-Strike 2 Server Browser"
+          "description": "Counter-Strike 2 Server Browser",
+          "mirrors": [
+            "https://github.com/FN-FAL113/cs2-server-picker"
+          ]
         }
       ]
     },
@@ -5766,38 +4842,12 @@
           "description": "GTA Mods, Walkthroughs & More",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "GTAInside",
-          "url": "https://gtainside.de/",
-          "description": "GTA Mods, Walkthroughs & More",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "GameModding",
-          "url": "https://gamemodding.com/",
-          "description": "GTA Mods, Walkthroughs & More",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "GTAGarage",
-          "url": "https://gtagarage.com/",
-          "description": "GTA Mods, Walkthroughs & More",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "LibertyCity",
-          "url": "https://libertycity.net/",
-          "description": "GTA Mods, Walkthroughs & More",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://gtainside.de/",
+            "https://gamemodding.com/",
+            "https://gtagarage.com/",
+            "https://libertycity.net/"
           ]
         },
         {
@@ -5820,22 +4870,12 @@
           "name": "San Andreas: Multiplayer",
           "url": "https://www.sa-mp.mp/",
           "description": "Multiplayer GTA:SA",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/samp",
-          "description": "Multiplayer GTA:SA"
-        },
-        {
-          "name": "Multi Theft Auto",
-          "url": "https://multitheftauto.com/",
-          "description": "Multiplayer GTA:SA"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/multitheftauto/mtasa-blue",
-          "description": "Multiplayer GTA:SA"
+          "starred": true,
+          "mirrors": [
+            "https://discord.com/invite/samp",
+            "https://multitheftauto.com/",
+            "https://github.com/multitheftauto/mtasa-blue"
+          ]
         },
         {
           "name": "CLEO",
@@ -5855,27 +4895,13 @@
         {
           "name": "FiveM",
           "url": "https://fivem.net/",
-          "description": "Modded GTAV Servers / Requires Legit Copy"
-        },
-        {
-          "name": "alt:V",
-          "url": "https://altv.mp/",
-          "description": "Modded GTAV Servers / Requires Legit Copy"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/yQvKgSs",
-          "description": "Modded GTAV Servers / Requires Legit Copy"
-        },
-        {
-          "name": "RAGE",
-          "url": "https://rage.mp/",
-          "description": "Modded GTAV Servers / Requires Legit Copy"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/tChBaeu",
-          "description": "Modded GTAV Servers / Requires Legit Copy"
+          "description": "Modded GTAV Servers / Requires Legit Copy",
+          "mirrors": [
+            "https://altv.mp/",
+            "https://discord.com/invite/yQvKgSs",
+            "https://rage.mp/",
+            "https://discord.com/invite/tChBaeu"
+          ]
         },
         {
           "name": "GTA Cars",
@@ -5942,32 +4968,14 @@
           "name": "ZDaemon",
           "url": "https://www.zdaemon.org/",
           "description": "Online Multiplayer Doom",
-          "starred": true
-        },
-        {
-          "name": "Doomseeker",
-          "url": "https://doomseeker.drdteam.org/",
-          "description": "Online Multiplayer Doom"
-        },
-        {
-          "name": "oDamex",
-          "url": "https://odamex.net/",
-          "description": "Online Multiplayer Doom"
-        },
-        {
-          "name": "DoomUtils",
-          "url": "https://doomutils.ucoz.com/",
-          "description": "Online Multiplayer Doom"
-        },
-        {
-          "name": "Zandronum",
-          "url": "https://zandronum.com/",
-          "description": "Online Multiplayer Doom"
-        },
-        {
-          "name": "Hosting / WADs",
-          "url": "https://allfearthesentinel.com/",
-          "description": "Online Multiplayer Doom"
+          "starred": true,
+          "mirrors": [
+            "https://doomseeker.drdteam.org/",
+            "https://odamex.net/",
+            "https://doomutils.ucoz.com/",
+            "https://zandronum.com/",
+            "https://allfearthesentinel.com/"
+          ]
         },
         {
           "name": "Classic DOOM",
@@ -5997,17 +5005,11 @@
         {
           "name": "Doom WADs Indexes",
           "url": "https://rentry.co/FMHYB64#doom-wads",
-          "description": "Doom WADs"
-        },
-        {
-          "name": "DoomsHack",
-          "url": "https://doomshack.org/",
-          "description": "Doom WADs"
-        },
-        {
-          "name": "Doom Wad Station",
-          "url": "https://www.doomwadstation.net/",
-          "description": "Doom WADs"
+          "description": "Doom WADs",
+          "mirrors": [
+            "https://doomshack.org/",
+            "https://www.doomwadstation.net/"
+          ]
         },
         {
           "name": "DOOM FX",
@@ -6028,7 +5030,7 @@
         {
           "name": "Retro Rewind",
           "url": "https://rentry.org/Retro-Rewind",
-          "description": "Retro MKW Tracks / Multiplayer",
+          "description": "Retro MKWii Tracks / Multiplayer",
           "starred": true,
           "tags": [
             "Discord"
@@ -6037,7 +5039,7 @@
         {
           "name": "CTGP Revolution",
           "url": "https://www.chadsoft.co.uk/",
-          "description": "Custom MKW Tracks / Multiplayer / Requires Disc",
+          "description": "Custom MKWii Tracks / Multiplayer / Requires Disc",
           "starred": true,
           "tags": [
             "Discord"
@@ -6068,6 +5070,11 @@
           "starred": true
         },
         {
+          "name": "Combo Builder",
+          "url": "https://mariokart.info/",
+          "description": "Setup Builder MK7, MK8(D), and MKW"
+        },
+        {
           "name": "MK8DX Builder",
           "url": "https://mk8dxbuilder.com/",
           "description": "Kart Builder"
@@ -6080,12 +5087,10 @@
         {
           "name": "r/MarioKart",
           "url": "https://www.reddit.com/r/mariokart/",
-          "description": "Mario Kart Subreddits"
-        },
-        {
-          "name": "r/MarioKartWii",
-          "url": "https://www.reddit.com/r/MarioKartWii/",
-          "description": "Mario Kart Subreddits"
+          "description": "Mario Kart Subreddits",
+          "mirrors": [
+            "https://www.reddit.com/r/MarioKartWii/"
+          ]
         },
         {
           "name": "Mario Kart World Discord",
@@ -6095,7 +5100,7 @@
         {
           "name": "RiiBalanced",
           "url": "https://drive.google.com/file/d/1AKJH3s0YpxQ09eud0EEd2YVFJ56f9VuO/view",
-          "description": "Rebalanced MKW Mod",
+          "description": "Rebalanced MKWii Mod",
           "tags": [
             "Discord"
           ]
@@ -6103,7 +5108,7 @@
         {
           "name": "Mario Kart Wii Deluxe",
           "url": "https://wiki.tockdom.com/wiki/Mario_Kart_Wii_Deluxe",
-          "description": "Custom MKW Tracks"
+          "description": "Custom MKWii Tracks"
         },
         {
           "name": "TTs Online",
@@ -6128,12 +5133,12 @@
         {
           "name": "Custom Track Tutorial",
           "url": "https://wiki.tockdom.com/wiki/Custom_Track_Tutorial",
-          "description": "How to Make Custom MKW Tracks"
+          "description": "How to Make Custom MKWii Tracks"
         },
         {
           "name": "MKW Texture Hacks",
           "url": "https://wiki.tockdom.com/wiki/Texture_Hack_Distribution",
-          "description": "Custom MKW Textures"
+          "description": "Custom MKWii Textures"
         },
         {
           "name": "ShortCat",
@@ -6164,12 +5169,10 @@
           "name": "GDDP",
           "url": "https://gddp.pro/",
           "description": "Practice & Improve Your Skills",
-          "starred": true
-        },
-        {
-          "name": "GD Demon Ladder",
-          "url": "https://gdladder.com/",
-          "description": "Practice & Improve Your Skills"
+          "starred": true,
+          "mirrors": [
+            "https://gdladder.com/"
+          ]
         },
         {
           "name": "Soluble Texture Packs",
@@ -6219,32 +5222,14 @@
           "name": "RoSeal",
           "url": "https://www.roseal.live/",
           "description": "Enhance Roblox Website / Add Features / Extensions",
-          "starred": true
-        },
-        {
-          "name": "RoValra",
-          "url": "https://rovalra.com/",
-          "description": "Enhance Roblox Website / Add Features / Extensions"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/NotValra/RoValra",
-          "description": "Enhance Roblox Website / Add Features / Extensions"
-        },
-        {
-          "name": "BTRoblox",
-          "url": "https://github.com/AntiBoomz/BTRoblox",
-          "description": "Enhance Roblox Website / Add Features / Extensions"
-        },
-        {
-          "name": "RoGold",
-          "url": "https://rogold.live/free",
-          "description": "Enhance Roblox Website / Add Features / Extensions"
-        },
-        {
-          "name": "RoPro",
-          "url": "https://ropro.io/",
-          "description": "Enhance Roblox Website / Add Features / Extensions"
+          "starred": true,
+          "mirrors": [
+            "https://rovalra.com/",
+            "https://github.com/NotValra/RoValra",
+            "https://github.com/AntiBoomz/BTRoblox",
+            "https://rogold.live/free",
+            "https://ropro.io/"
+          ]
         },
         {
           "name": "Bloxstrap",
@@ -6254,32 +5239,20 @@
           "tags": [
             "Discord",
             "GitHub"
-          ]
-        },
-        {
-          "name": "Fishstrap",
-          "url": "https://fishstrap.app",
-          "description": "Roblox Player Bootstrapper",
-          "tags": [
-            "Discord",
-            "GitHub"
+          ],
+          "mirrors": [
+            "https://fishstrap.app"
           ]
         },
         {
           "name": "⁠Rotrends",
           "url": "https://rotrends.com/",
           "description": "Roblox Analytics / Stats",
-          "starred": true
-        },
-        {
-          "name": "Rolimon's",
-          "url": "https://www.rolimons.com/games",
-          "description": "Roblox Analytics / Stats"
-        },
-        {
-          "name": "RoMonitor Stats",
-          "url": "https://romonitorstats.com/",
-          "description": "Roblox Analytics / Stats"
+          "starred": true,
+          "mirrors": [
+            "https://www.rolimons.com/games",
+            "https://romonitorstats.com/"
+          ]
         },
         {
           "name": "Roblox Studio Mod Manager",
@@ -6304,32 +5277,28 @@
         {
           "name": "RobloxDen",
           "url": "https://robloxden.com/",
-          "description": "Track Roblox Promo Codes"
-        },
-        {
-          "name": "Rocodes",
-          "url": "https://rocodes.gg/",
-          "description": "Track Roblox Promo Codes"
+          "description": "Track Roblox Promo Codes",
+          "mirrors": [
+            "https://rocodes.gg/"
+          ]
         },
         {
           "name": "Roblox Web APIs",
           "url": "https://github.com/matthewdean/roblox-web-apis",
-          "description": ""
+          "description": "- Roblox APIs"
         },
         {
           "name": "Sixteensrc",
           "url": "https://apidocs.sixteensrc.zip/",
-          "description": ""
+          "description": "- Roblox APIs"
         },
         {
           "name": "Dripzels",
           "url": "https://dripzels.com/",
-          "description": "Preview Avatar Clothing"
-        },
-        {
-          "name": "ingame.clothing",
-          "url": "https://ingame.clothing/",
-          "description": "Preview Avatar Clothing"
+          "description": "Preview Avatar Clothing",
+          "mirrors": [
+            "https://ingame.clothing/"
+          ]
         }
       ]
     },
@@ -6349,12 +5318,10 @@
           "name": "Terraria Wiki",
           "url": "https://terraria.wiki.gg/",
           "description": "Terraria Wikis",
-          "starred": true
-        },
-        {
-          "name": "Terranion",
-          "url": "https://yal.cc/r/terranion/",
-          "description": "Terraria Wikis"
+          "starred": true,
+          "mirrors": [
+            "https://yal.cc/r/terranion/"
+          ]
         },
         {
           "name": "⁠PinkGel",
@@ -6374,22 +5341,12 @@
         {
           "name": "TEdit",
           "url": "https://www.binaryconstruct.com/tedit",
-          "description": "Map Viewers / Editors"
-        },
-        {
-          "name": "terramap",
-          "url": "https://terramap.github.io/",
-          "description": "Map Viewers / Editors"
-        },
-        {
-          "name": "TerraFirma",
-          "url": "https://github.com/mrkite/TerraFirma/releases/",
-          "description": "Map Viewers / Editors"
-        },
-        {
-          "name": "terraria-map-editor",
-          "url": "https://tedit.github.io/terraria-map-editor-web/",
-          "description": "Map Viewers / Editors"
+          "description": "Map Viewers / Editors",
+          "mirrors": [
+            "https://terramap.github.io/",
+            "https://github.com/mrkite/TerraFirma/releases/",
+            "https://tedit.github.io/terraria-map-editor-web/"
+          ]
         },
         {
           "name": "Terrasavr",
@@ -6465,26 +5422,19 @@
           "description": "Fan Game Indexes / Indie Tributes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "itch.io Undertale",
-          "url": "https://itch.io/games/tag-undertale",
-          "description": "Fan Game Indexes / Indie Tributes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://itch.io/games/tag-undertale"
           ]
         },
         {
           "name": "Undertale Wiki",
           "url": "https://undertale.wiki/",
           "description": "Main Gameplay & Lore Databases",
-          "starred": true
-        },
-        {
-          "name": "Deltarune Wiki",
-          "url": "https://deltarune.wiki/",
-          "description": "Main Gameplay & Lore Databases"
+          "starred": true,
+          "mirrors": [
+            "https://deltarune.wiki/"
+          ]
         },
         {
           "name": "UndertaleModTool",
@@ -6500,12 +5450,10 @@
         {
           "name": "UTDR Dialogue Compendium",
           "url": "https://inactivesnail.neocities.org/utdr-dialogue",
-          "description": "Ingame Dialogue Dump"
-        },
-        {
-          "name": "Undertale Dialogue Dump",
-          "url": "https://hushbugger.github.io/dialogue/",
-          "description": "Ingame Dialogue Dump"
+          "description": "Ingame Dialogue Dump",
+          "mirrors": [
+            "https://hushbugger.github.io/dialogue/"
+          ]
         },
         {
           "name": "Starmen.net Forum",
@@ -6560,14 +5508,9 @@
           "description": "Genshin Impact Resources / Tools",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Honey Impact",
-          "url": "https://gensh.honeyhunterworld.com/",
-          "description": "Genshin Impact Resources / Tools",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://gensh.honeyhunterworld.com/"
           ]
         },
         {
@@ -6636,12 +5579,10 @@
         {
           "name": "Star Rail Station",
           "url": "https://starrailstation.com/",
-          "description": "Honkai Star Rail Guides"
-        },
-        {
-          "name": "stardb.gg",
-          "url": "https://stardb.gg/",
-          "description": "Honkai Star Rail Guides"
+          "description": "Honkai Star Rail Guides",
+          "mirrors": [
+            "https://stardb.gg/"
+          ]
         },
         {
           "name": "Seelie.me",
@@ -6679,17 +5620,11 @@
         {
           "name": "Hoyolab Teyvat Interactive Map",
           "url": "https://act.hoyolab.com/ys/app/interactive-map/index.html",
-          "description": "Genshin Impact Maps"
-        },
-        {
-          "name": "Mapgenie Teyvat Interactive Map",
-          "url": "https://mapgenie.io/genshin-impact",
-          "description": "Genshin Impact Maps"
-        },
-        {
-          "name": "Genshin Impact Map",
-          "url": "https://genshin-impact-map.appsample.com/",
-          "description": "Genshin Impact Maps"
+          "description": "Genshin Impact Maps",
+          "mirrors": [
+            "https://mapgenie.io/genshin-impact",
+            "https://genshin-impact-map.appsample.com/"
+          ]
         }
       ]
     },
@@ -6709,22 +5644,12 @@
           "name": "dice.run",
           "url": "https://dice.run/",
           "description": "Dice Simulators",
-          "starred": true
-        },
-        {
-          "name": "DiceSimulator.com",
-          "url": "http://www.dicesimulator.com/",
-          "description": "Dice Simulators"
-        },
-        {
-          "name": "Let's Roll",
-          "url": "https://www.linepup.com/dice/",
-          "description": "Dice Simulators"
-        },
-        {
-          "name": "Desktop Dice",
-          "url": "https://girkovarpa.itch.io/desktopdice",
-          "description": "Dice Simulators"
+          "starred": true,
+          "mirrors": [
+            "http://www.dicesimulator.com/",
+            "https://www.linepup.com/dice/",
+            "https://girkovarpa.itch.io/desktopdice"
+          ]
         },
         {
           "name": "Scorecard.gg",
@@ -6734,37 +5659,21 @@
         {
           "name": "RPGBOT",
           "url": "https://rpgbot.net/",
-          "description": "RPG / TTRPG Tools & Learning Resources"
-        },
-        {
-          "name": "Wargamer",
-          "url": "https://www.wargamer.com/",
-          "description": "RPG / TTRPG Tools & Learning Resources"
-        },
-        {
-          "name": "Roll for Fantasy",
-          "url": "https://rollforfantasy.com/",
-          "description": "RPG / TTRPG Tools & Learning Resources"
-        },
-        {
-          "name": "Kassoon",
-          "url": "https://www.kassoon.com/",
-          "description": "RPG / TTRPG Tools & Learning Resources"
-        },
-        {
-          "name": "DragonsFoot",
-          "url": "https://www.dragonsfoot.org/",
-          "description": "RPG / TTRPG Tools & Learning Resources"
+          "description": "RPG / TTRPG Tools & Learning Resources",
+          "mirrors": [
+            "https://www.wargamer.com/",
+            "https://rollforfantasy.com/",
+            "https://www.kassoon.com/",
+            "https://www.dragonsfoot.org/"
+          ]
         },
         {
           "name": "Tabletopy",
           "url": "https://tabletopy.com/",
-          "description": "Immersive SFX / Music for TTRPGs"
-        },
-        {
-          "name": "Tabletop Audio",
-          "url": "https://tabletopaudio.com/",
-          "description": "Immersive SFX / Music for TTRPGs"
+          "description": "Immersive SFX / Music for TTRPGs",
+          "mirrors": [
+            "https://tabletopaudio.com/"
+          ]
         },
         {
           "name": "RPGnet",
@@ -6797,22 +5706,12 @@
         {
           "name": "Yugipedia",
           "url": "https://yugipedia.com/",
-          "description": "Yu-Gi-Oh! Resources / Card Lists / Metas"
-        },
-        {
-          "name": "Master Duel Meta",
-          "url": "https://www.masterduelmeta.com/",
-          "description": "Yu-Gi-Oh! Resources / Card Lists / Metas"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/masterduelmeta",
-          "description": "Yu-Gi-Oh! Resources / Card Lists / Metas"
-        },
-        {
-          "name": "YGOPRODeck",
-          "url": "https://ygoprodeck.com/",
-          "description": "Yu-Gi-Oh! Resources / Card Lists / Metas"
+          "description": "Yu-Gi-Oh! Resources / Card Lists / Metas",
+          "mirrors": [
+            "https://www.masterduelmeta.com/",
+            "https://discord.com/invite/masterduelmeta",
+            "https://ygoprodeck.com/"
+          ]
         },
         {
           "name": "Untap.in",
@@ -6829,69 +5728,35 @@
           "name": "Kanka",
           "url": "https://kanka.io/",
           "description": "RPG Campaign Managers / Worldbuilding Suites",
-          "starred": true
-        },
-        {
-          "name": "World Anvil",
-          "url": "https://www.worldanvil.com/",
-          "description": "RPG Campaign Managers / Worldbuilding Suites"
-        },
-        {
-          "name": "RPTools",
-          "url": "https://www.rptools.net/",
-          "description": "RPG Campaign Managers / Worldbuilding Suites"
-        },
-        {
-          "name": "Scabard",
-          "url": "https://www.scabard.com/",
-          "description": "RPG Campaign Managers / Worldbuilding Suites"
-        },
-        {
-          "name": "Adventurer's Codex",
-          "url": "https://adventurerscodex.com",
-          "description": "RPG Campaign Managers / Worldbuilding Suites"
-        },
-        {
-          "name": "Fantasia Archive",
-          "url": "https://fantasiaarchive.com/",
-          "description": "RPG Campaign Managers / Worldbuilding Suites"
+          "starred": true,
+          "mirrors": [
+            "https://www.worldanvil.com/",
+            "https://www.rptools.net/",
+            "https://www.scabard.com/",
+            "https://adventurerscodex.com",
+            "https://fantasiaarchive.com/"
+          ]
         },
         {
           "name": "Chaotic Shiny",
           "url": "http://chaoticshiny.com/",
           "description": "RPG / Fantasy Story Writing Tools",
-          "starred": true
-        },
-        {
-          "name": "Seventh Sanctum",
-          "url": "https://www.seventhsanctum.com/",
-          "description": "RPG / Fantasy Story Writing Tools"
-        },
-        {
-          "name": "Notebook.ai",
-          "url": "https://www.notebook.ai/",
-          "description": "RPG / Fantasy Story Writing Tools"
-        },
-        {
-          "name": "Fantasy Name Generators",
-          "url": "https://www.fantasynamegenerators.com/",
-          "description": "RPG / Fantasy Story Writing Tools"
-        },
-        {
-          "name": "Eigengrau's Generator",
-          "url": "https://eigengrausgenerator.com/",
-          "description": "RPG / Fantasy Story Writing Tools"
+          "starred": true,
+          "mirrors": [
+            "https://www.seventhsanctum.com/",
+            "https://www.notebook.ai/",
+            "https://www.fantasynamegenerators.com/",
+            "https://eigengrausgenerator.com/"
+          ]
         },
         {
           "name": "donjon",
           "url": "https://donjon.bin.sh/",
           "description": "Procedural RPG / Fantasy Map Generators",
-          "starred": true
-        },
-        {
-          "name": "Azgaar",
-          "url": "https://azgaar.github.io/Fantasy-Map-Generator/",
-          "description": "Procedural RPG / Fantasy Map Generators"
+          "starred": true,
+          "mirrors": [
+            "https://azgaar.github.io/Fantasy-Map-Generator/"
+          ]
         },
         {
           "name": "watabou",
@@ -6914,12 +5779,10 @@
         {
           "name": "Map Generator",
           "url": "https://emptybuttons.itch.io/map-generator",
-          "description": "TTRPG Map Editors / Windows"
-        },
-        {
-          "name": "RPG Map II",
-          "url": "https://deepnight.itch.io/tabletop-rpg-map-editor",
-          "description": "TTRPG Map Editors / Windows"
+          "description": "TTRPG Map Editors / Windows",
+          "mirrors": [
+            "https://deepnight.itch.io/tabletop-rpg-map-editor"
+          ]
         },
         {
           "name": "DungeonFog",
@@ -7000,12 +5863,10 @@
         {
           "name": "WoWProgress",
           "url": "https://www.wowprogress.com",
-          "description": "WoW Rankings"
-        },
-        {
-          "name": "CheckPVP",
-          "url": "https://www.check-pvp.fr/",
-          "description": "WoW Rankings"
+          "description": "WoW Rankings",
+          "mirrors": [
+            "https://www.check-pvp.fr/"
+          ]
         },
         {
           "name": "RaidPlan",

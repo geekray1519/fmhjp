@@ -777,21 +777,52 @@ function translateNote(note) {
   if (!note) return note;
 
   let ja = note;
+  // Remove markdown links but keep text
   ja = ja.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, "$1");
+
+  // Full sentence translations (longer patterns first)
   ja = ja.replace(/we\s+(?:highly\s+)?recommend\s+using\s+an?\s+adblocker/gi, "広告ブロッカーの使用を強く推奨します");
-  ja = ja.replace(/don't run multiple general adblockers \(e\.g\.,[^)]+\) simultaneously to avoid breakage/gi, "複数の一般的な広告ブロッカーを同時に使用すると不具合の原因になるため避けてください");
+  ja = ja.replace(/don't run multiple general adblockers?\s*\([^)]*\)\s*simultaneously to avoid breakage/gi, "複数の一般的な広告ブロッカーを同時に使用すると不具合の原因になるため避けてください");
+  ja = ja.replace(/don't run multiple general adblockers?\s*simultaneously/gi, "複数の広告ブロッカーを同時に使用しないでください");
   ja = ja.replace(/It's never a good idea to upload anything personal/gi, "個人情報のアップロードは避けてください");
+  ja = ja.replace(/These serve as frontends for/gi, "これらは以下のフロントエンドとして機能します：");
+  ja = ja.replace(/Combining general\s+広告ブロッカー\s+with tools like\s+/gi, "一般的な広告ブロッカーと");
+  ja = ja.replace(/\s+is fine\.?/gi, "の併用は問題ありません。");
+  ja = ja.replace(/Use an?\s+adblocker/gi, "広告ブロッカーを使用してください");
+  ja = ja.replace(/Be careful with/gi, "ご注意ください：");
+  ja = ja.replace(/Make sure to/gi, "必ず");
+  ja = ja.replace(/You(?:'ll)? need to/gi, "以下が必要です：");
+  ja = ja.replace(/See the\s+/gi, "参照：");
+  ja = ja.replace(/Check out\s+/gi, "参照：");
+  ja = ja.replace(/(?:Please )?note that/gi, "注意：");
+  ja = ja.replace(/Some (?:sites|of these)\s+(?:may\s+)?(?:contain|have|include)\s+ads?,?\s*popups?\s*(?:or|and)\s*redirects?/gi, "一部のサイトには広告、ポップアップ、リダイレクトが含まれる場合があります");
+
+  // Phrase translations
   ja = ja.replace(/Requires? Sign-?Up/gi, "サインアップ必要");
   ja = ja.replace(/No Sign-?Up/gi, "サインアップ不要");
   ja = ja.replace(/use.*?at your own risk/gi, "自己責任でご利用ください");
   ja = ja.replace(/Keep in mind/gi, "ご注意ください");
   ja = ja.replace(/Remember to/gi, "忘れずに");
   ja = ja.replace(/Always check/gi, "必ず確認してください");
-  ja = ja.replace(/Always/gi, "常に");
   ja = ja.replace(/We (?:highly )?recommend/gi, "推奨します");
   ja = ja.replace(/Don't forget to/gi, "忘れずに");
   ja = ja.replace(/avoid breakage/gi, "不具合を避ける");
+  ja = ja.replace(/open[- ]source/gi, "オープンソース");
+  ja = ja.replace(/free(?:\s+and)?\s+open[- ]source/gi, "無料でオープンソース");
+  ja = ja.replace(/(?:web)?site/gi, "サイト");
+  ja = ja.replace(/account/gi, "アカウント");
+  ja = ja.replace(/(?:requires?|need)\s+(?:a\s+)?VPN/gi, "VPN必要");
+
+  // Word-level translations for common terms
   ja = ja.replace(/adblockers?/gi, "広告ブロッカー");
+  ja = ja.replace(/\bAlways\b/gi, "常に");
+  ja = ja.replace(/\badblock(?:ing)?\b/gi, "広告ブロック");
+  ja = ja.replace(/\bfree\b/gi, "無料");
+  ja = ja.replace(/\bpaid\b/gi, "有料");
+  ja = ja.replace(/\bpremium\b/gi, "プレミアム");
+  ja = ja.replace(/\bwarning\b/gi, "警告");
+  ja = ja.replace(/\btip\b/gi, "ヒント");
+
   ja = ja.replace(/\s{2,}/g, " ").trim();
 
   return ja;
@@ -885,15 +916,56 @@ function parseResourceLine(line) {
   if (links.length === 0) return null;
 
   const [first, ...remainingLinks] = links;
+
+  // Check for numeric mirrors: [1](url), [2](url)
   const hasNumericMirrors =
     remainingLinks.length > 0 &&
     remainingLinks.every((entry) => /^\d+$/.test(cleanInlineMarkdown(entry[1])));
 
-  const { description, tags: communityTags } = extractDescriptionAndTags(rightPart);
+  // Check for slash-separated alternative links (mirrors via `/` or `,` or `or`)
+  // Pattern: [Main](url) / [Alt](url) / [Alt2](url) - Description
+  // or: [Main](url), [Alt](url) or [Alt3](url) - Description
+  const isSlashOrCommaOrOrSeparated =
+    remainingLinks.length > 0 &&
+    !hasNumericMirrors &&
+    // The text between links should be `/`, `,`, or `or` (not meaningful text)
+    (() => {
+      let textBetween = leftPart;
+      // Remove all link markdown
+      textBetween = textBetween.replace(/\[([^\]]+)\]\([^)]+\)/g, "");
+      // Remove bold markers
+      textBetween = textBetween.replace(/\*\*/g, "");
+      // Clean up the separators and see what's left
+      const cleaned = textBetween.replace(/\s*[/,]\s*/g, " ").replace(/\s+or\s+/gi, " ").trim();
+      // If what remains is mostly empty or just separators, these are alternative links
+      return cleaned.length < 5;
+    })();
+
+  // Also extract description from rightPart text that appears after links
+  let { description, tags: communityTags } = extractDescriptionAndTags(rightPart);
   const baseTags = [];
   if (indexResource) baseTags.push("index");
   for (const tag of communityTags) {
     if (!baseTags.includes(tag)) baseTags.push(tag);
+  }
+
+  // If no description from right side, try to extract context from leftPart
+  // Some entries have text context after links in the left part: [Link](url) Text Context
+  if (!description && leftPart) {
+    let leftText = leftPart;
+    // Remove all links
+    leftText = leftText.replace(/\[([^\]]+)\]\([^)]+\)/g, "");
+    // Remove bold/formatting
+    leftText = leftText.replace(/\*\*/g, "").replace(/`/g, "");
+    // Remove separators
+    leftText = leftText.replace(/^\s*[/,]\s*/, "").replace(/\s*[/,]\s*$/, "");
+    // Remove "or"
+    leftText = leftText.replace(/^\s*or\s+/gi, "").replace(/\s+or\s*$/gi, "");
+    leftText = leftText.trim();
+    // Only use if it's meaningful text (not just separators or very short)
+    if (leftText.length > 3 && !/^[/,\s]+$/.test(leftText)) {
+      description = cleanDescription(leftText);
+    }
   }
 
   const createResource = (name, url, options = {}) => {
@@ -918,6 +990,7 @@ function parseResourceLine(line) {
     return resource;
   };
 
+  // Numeric mirrors: [Name](url), [2](url), [3](url)
   if (hasNumericMirrors) {
     const mirrors = remainingLinks.map((m) => m[2].trim());
     return {
@@ -931,6 +1004,21 @@ function parseResourceLine(line) {
     };
   }
 
+  // Slash/comma/or-separated alternative links → treat extras as mirrors of the first
+  if (isSlashOrCommaOrOrSeparated) {
+    const mirrors = remainingLinks.map((m) => m[2].trim());
+    return {
+      type: "resources",
+      resources: [
+        createResource(cleanInlineMarkdown(first[1]), first[2].trim(), {
+          starred,
+          mirrors,
+        }),
+      ],
+    };
+  }
+
+  // Multiple independent resources on one line (different tools listed together)
   const resources = links.map((entry, index) =>
     createResource(cleanInlineMarkdown(entry[1]), entry[2].trim(), {
       starred: starred && index === 0,

@@ -8,11 +8,12 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   update-fmhy-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: リポジトリをチェックアウト
@@ -31,19 +32,36 @@ jobs:
         run: npm ci
 
       - name: FMHYデータを取得・パース
-        run: node scripts/update-data.mjs
+        id: fetch
+        run: |
+          set -o pipefail
+          node scripts/update-data.mjs 2>&1 | tee update-output.log
+          echo "success=true" >> $GITHUB_OUTPUT
+        continue-on-error: true
 
-      - name: 変更を確認
+      - name: データ取得失敗時のレポート
+        if: steps.fetch.outputs.success != 'true'
+        run: |
+          echo "::error::FMHY データ取得に失敗しました"
+          cat update-output.log || true
+          exit 1
+
+      - name: 変更を確認・差分レポート
         id: check
         run: |
-          git add src/data/resources/ src/data/category-meta.json
+          git add src/data/resources/ src/data/category-meta.json src/data/index.ts
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "変更なし"
+            echo "変更なし — データは最新です"
           else
-            ADDED=$(git diff --staged --stat | tail -1)
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "変更検出: $ADDED"
+            echo "変更差分サマリー:"
+            git diff --staged --stat
+            AFTER=$(grep -r '"name"' src/data/resources/ | wc -l)
+            echo "リソース数: $AFTER"
+            echo "diff_summary<<EOF" >> $GITHUB_OUTPUT
+            git diff --staged --stat >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
           fi
 
       - name: ビルド確認
@@ -55,5 +73,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "📦 FMHYデータ月次更新 - $(date +'%Y-%m-%d')"
+          DATE=$(date +'%Y-%m-%d')
+          RESOURCE_COUNT=$(grep -r '"name"' src/data/resources/ | wc -l)
+          git commit -m "📦 FMHYデータ月次更新 - $DATE ($RESOURCE_COUNT リソース)"
           git push

@@ -169,47 +169,23 @@
         {
           "name": "Reading CSE",
           "url": "https://cse.google.com/cse?cx=006516753008110874046:s9ddesylrm8",
-          "description": "Multi-Site Book Search"
-        },
-        {
-          "name": "2",
-          "url": "https://cse.google.com/cse?cx=006516753008110874046:rc855wetniu",
-          "description": "Multi-Site Book Search"
-        },
-        {
-          "name": "3",
-          "url": "https://cse.google.com/cse?cx=e9657e69c76480cb8",
-          "description": "Multi-Site Book Search"
-        },
-        {
-          "name": "4",
-          "url": "https://cse.google.com/cse?cx=c46414ccb6a943e39",
-          "description": "Multi-Site Book Search"
-        },
-        {
-          "name": "Rave",
-          "url": "https://ravebooksearch.com/",
-          "description": "Multi-Site Book Search"
-        },
-        {
-          "name": "Recherche",
-          "url": "https://recherche-ebook.fr/en/",
-          "description": "Multi-Site Book Search"
+          "description": "Multi-Site Book Search",
+          "mirrors": [
+            "https://cse.google.com/cse?cx=006516753008110874046:rc855wetniu",
+            "https://cse.google.com/cse?cx=e9657e69c76480cb8",
+            "https://cse.google.com/cse?cx=c46414ccb6a943e39",
+            "https://ravebooksearch.com/",
+            "https://recherche-ebook.fr/en/"
+          ]
         },
         {
           "name": "Flibusta",
           "url": "https://flibusta.is/",
-          "description": "Russian Ebook Library / Sign-Up / Use Translator"
-        },
-        {
-          "name": ".i2p",
-          "url": "https://flibusta.i2p/",
-          "description": "Russian Ebook Library / Sign-Up / Use Translator"
-        },
-        {
-          "name": "2",
-          "url": "http://zmw2cyw2vj7f6obx3msmdvdepdhnw2ctc4okza2zjxlukkdfckhq.b32.i2p/",
-          "description": "Russian Ebook Library / Sign-Up / Use Translator"
+          "description": "Russian Ebook Library / Sign-Up / Use Translator",
+          "mirrors": [
+            "https://flibusta.i2p/",
+            "http://zmw2cyw2vj7f6obx3msmdvdepdhnw2ctc4okza2zjxlukkdfckhq.b32.i2p/"
+          ]
         },
         {
           "name": "The Free Book Library",
@@ -229,7 +205,7 @@
         {
           "name": "Request Guide",
           "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/irc-highway-note.md",
-          "description": ""
+          "description": "<irc: / irc.irchighway.net / ebooks>"
         }
       ]
     },
@@ -251,7 +227,7 @@
         },
         {
           "name": "Wikisource",
-          "url": "https://en.wikisource.org",
+          "url": "https://wikisource.org",
           "description": ""
         },
         {
@@ -267,12 +243,10 @@
         {
           "name": "FreeEditorial",
           "url": "https://www.freeditorial.com/en/",
-          "description": ""
-        },
-        {
-          "name": "Spanish",
-          "url": "https://www.freeditorial.com",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.freeditorial.com"
+          ]
         },
         {
           "name": "Page by Page Books",
@@ -377,12 +351,10 @@
         {
           "name": "GrimmStories",
           "url": "https://www.grimmstories.com/",
-          "description": "Fairy Tales"
-        },
-        {
-          "name": "AndersenStories",
-          "url": "https://www.andersenstories.com/",
-          "description": "Fairy Tales"
+          "description": "Fairy Tales",
+          "mirrors": [
+            "https://www.andersenstories.com/"
+          ]
         },
         {
           "name": "Wikibooks",
@@ -397,17 +369,11 @@
         {
           "name": "WorldCat",
           "url": "https://www.worldcat.org/",
-          "description": "Search Local Libraries / Extension"
-        },
-        {
-          "name": "LibrarySearch",
-          "url": "https://librarysearch.gre.ac.uk/",
-          "description": "Search Local Libraries / Extension"
-        },
-        {
-          "name": "TRL",
-          "url": "https://www.trl.org/",
-          "description": "Search Local Libraries / Extension"
+          "description": "Search Local Libraries / Extension",
+          "mirrors": [
+            "https://librarysearch.gre.ac.uk/",
+            "https://www.trl.org/"
+          ]
         },
         {
           "name": "PublicDomainReview",
@@ -503,12 +469,10 @@
         {
           "name": "Calibre-Web-Automated",
           "url": "https://github.com/crocodilestick/Calibre-Web-Automated",
-          "description": "Calibre Web Apps"
-        },
-        {
-          "name": "Calibre Web",
-          "url": "https://github.com/janeczku/calibre-web",
-          "description": "Calibre Web Apps"
+          "description": "Calibre Web Apps",
+          "mirrors": [
+            "https://github.com/janeczku/calibre-web"
+          ]
         },
         {
           "name": "acsm-calibre-plugin",
@@ -527,14 +491,9 @@
           "description": "Ebook Reader Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Mobile Read",
-          "url": "https://www.mobileread.com/",
-          "description": "Ebook Reader Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://www.mobileread.com/"
           ]
         },
         {
@@ -780,12 +739,10 @@
         {
           "name": "Reader Mode",
           "url": "https://readermode.io/",
-          "description": "Article Readers / Managers"
-        },
-        {
-          "name": "Tranquility",
-          "url": "https://addons.mozilla.org/en-GB/firefox/addon/tranquility-1/",
-          "description": "Article Readers / Managers"
+          "description": "Article Readers / Managers",
+          "mirrors": [
+            "https://addons.mozilla.org/en-GB/firefox/addon/tranquility-1/"
+          ]
         },
         {
           "name": "Open Media Library",
@@ -823,12 +780,10 @@
         {
           "name": "FreeReadFeed",
           "url": "https://www.freereadfeed.com/",
-          "description": "Free Kindle Releases"
-        },
-        {
-          "name": "eReaderIQ",
-          "url": "https://www.ereaderiq.com/freebies",
-          "description": "Free Kindle Releases"
+          "description": "Free Kindle Releases",
+          "mirrors": [
+            "https://www.ereaderiq.com/freebies"
+          ]
         },
         {
           "name": "Send to Kobo/Kindle",
@@ -841,12 +796,10 @@
         {
           "name": "Techy Notes Guide",
           "url": "https://techy-notes.com/remove-drm-from-kindle-ebooks/",
-          "description": "Kindle DRM Removal Guides"
-        },
-        {
-          "name": "ItsFOSS Guide",
-          "url": "https://itsfoss.com/calibre-remove-drm-kindle/",
-          "description": "Kindle DRM Removal Guides"
+          "description": "Kindle DRM Removal Guides",
+          "mirrors": [
+            "https://itsfoss.com/calibre-remove-drm-kindle/"
+          ]
         },
         {
           "name": "Kindle to PDF",
@@ -895,12 +848,10 @@
         {
           "name": "eBookHunter.net",
           "url": "https://www.ebookhunter.net/",
-          "description": "Romance / Fantasy"
-        },
-        {
-          "name": "EpubPuB",
-          "url": "https://www.epub.pub/",
-          "description": "Romance / Fantasy"
+          "description": "Romance / Fantasy",
+          "mirrors": [
+            "https://www.epub.pub/"
+          ]
         },
         {
           "name": "HourWolf",
@@ -910,42 +861,22 @@
         {
           "name": "byGosh",
           "url": "https://bygosh.com",
-          "description": "Children's Books"
-        },
-        {
-          "name": "StoryWhale",
-          "url": "https://www.storywhale.com/",
-          "description": "Children's Books"
-        },
-        {
-          "name": "Baldwin Library",
-          "url": "https://ufdc.ufl.edu/juv",
-          "description": "Children's Books"
-        },
-        {
-          "name": "BookDash",
-          "url": "https://github.com/bookdash/bookdash-android-app",
-          "description": "Children's Books"
+          "description": "Children's Books",
+          "mirrors": [
+            "https://www.storywhale.com/",
+            "https://ufdc.ufl.edu/juv",
+            "https://github.com/bookdash/bookdash-android-app"
+          ]
         },
         {
           "name": "Artbooks Archive",
           "url": "https://t.me/archive_artbooks",
-          "description": "Artbooks"
-        },
-        {
-          "name": "ArtFacultas",
-          "url": "https://t.me/ArtFacultas",
-          "description": "Artbooks"
-        },
-        {
-          "name": "FreeArt",
-          "url": "https://t.me/free_art_book",
-          "description": "Artbooks"
-        },
-        {
-          "name": "TheArtbooks",
-          "url": "https://t.me/theartbooks",
-          "description": "Artbooks"
+          "description": "Artbooks",
+          "mirrors": [
+            "https://t.me/ArtFacultas",
+            "https://t.me/free_art_book",
+            "https://t.me/theartbooks"
+          ]
         },
         {
           "name": "⁠Music and Books",
@@ -1161,22 +1092,12 @@
         {
           "name": "LightNovelHeaven",
           "url": "https://lightnovelheaven.com",
-          "description": "Online Reading"
-        },
-        {
-          "name": "AllNovel",
-          "url": "https://allnovel.org",
-          "description": "Online Reading"
-        },
-        {
-          "name": "NovelFull",
-          "url": "https://novelfull.com/",
-          "description": "Online Reading"
-        },
-        {
-          "name": "NOVGO",
-          "url": "https://novgo.net/",
-          "description": "Online Reading"
+          "description": "Online Reading",
+          "mirrors": [
+            "https://allnovel.org",
+            "https://novelfull.com/",
+            "https://novgo.net/"
+          ]
         },
         {
           "name": "NovelGo",
@@ -1211,12 +1132,10 @@
         {
           "name": "Light Novel Archive",
           "url": "https://t.me/LightNovelArchives",
-          "description": "Telegram / Downloads"
-        },
-        {
-          "name": "LN_Index",
-          "url": "https://t.me/LN_Index",
-          "description": "Telegram / Downloads"
+          "description": "Telegram / Downloads",
+          "mirrors": [
+            "https://t.me/LN_Index"
+          ]
         },
         {
           "name": "Book Smelting Bot",
@@ -1256,32 +1175,14 @@
         {
           "name": "LN-Crawler-Colab",
           "url": "https://colab.research.google.com/github/HongYue1/LightNovel-Crawler-Colab/blob/main/lightnovel_crawler.ipynb",
-          "description": "Light Novel Downloaders"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/HongYue1/LightNovel-Crawler-Colab",
-          "description": "Light Novel Downloaders"
-        },
-        {
-          "name": "Lightnovel Crawler",
-          "url": "https://github.com/dipu-bd/lightnovel-crawler/",
-          "description": "Light Novel Downloaders"
-        },
-        {
-          "name": "novel-downloader",
-          "url": "https://greasyfork.org/en/scripts/406070",
-          "description": "Light Novel Downloaders"
-        },
-        {
-          "name": "QuickNovel",
-          "url": "https://github.com/LagradOst/QuickNovel",
-          "description": "Light Novel Downloaders"
-        },
-        {
-          "name": "anime-dl",
-          "url": "https://github.com/vrienstudios/anime-dl",
-          "description": "Light Novel Downloaders"
+          "description": "Light Novel Downloaders",
+          "mirrors": [
+            "https://github.com/HongYue1/LightNovel-Crawler-Colab",
+            "https://github.com/dipu-bd/lightnovel-crawler/",
+            "https://greasyfork.org/en/scripts/406070",
+            "https://github.com/LagradOst/QuickNovel",
+            "https://github.com/vrienstudios/anime-dl"
+          ]
         },
         {
           "name": "WebToEpub",
@@ -1291,12 +1192,10 @@
         {
           "name": "LNMTL",
           "url": "https://lnmtl.com/",
-          "description": "Light Novel Translators"
-        },
-        {
-          "name": "Omni",
-          "url": "https://app.readomni.com/",
-          "description": "Light Novel Translators"
+          "description": "Light Novel Translators",
+          "mirrors": [
+            "https://app.readomni.com/"
+          ]
         }
       ]
     },
@@ -1437,22 +1336,12 @@
         {
           "name": "Liminal Archives",
           "url": "http://liminal-archives.wikidot.com/",
-          "description": "Liminal Space Stories"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/fxhwcsyKN2",
-          "description": "Liminal Space Stories"
-        },
-        {
-          "name": "The Backrooms Wiki",
-          "url": "http://backrooms-wiki.wikidot.com/",
-          "description": "Liminal Space Stories"
-        },
-        {
-          "name": "The Voidclusters",
-          "url": "http://voidclusters.wikidot.com/",
-          "description": "Liminal Space Stories"
+          "description": "Liminal Space Stories",
+          "mirrors": [
+            "https://discord.gg/fxhwcsyKN2",
+            "http://backrooms-wiki.wikidot.com/",
+            "http://voidclusters.wikidot.com/"
+          ]
         },
         {
           "name": "Potions and Snitches",
@@ -1487,12 +1376,10 @@
           "name": "Mobilism Newspapers",
           "url": "https://forum.mobilism.org/viewforum.php?f=123",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "User Ranks",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/mobilism-ranks.md",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/mobilism-ranks.md"
+          ]
         },
         {
           "name": "Google Newspaper Search",
@@ -1563,17 +1450,11 @@
         {
           "name": "World-Newspapers",
           "url": "https://world-newspapers.com/",
-          "description": "Online Newspaper Indexes"
-        },
-        {
-          "name": "NewsPaperIndex",
-          "url": "https://www.newspaperindex.com/",
-          "description": "Online Newspaper Indexes"
-        },
-        {
-          "name": "Paperboy",
-          "url": "https://www.thepaperboy.com/",
-          "description": "Online Newspaper Indexes"
+          "description": "Online Newspaper Indexes",
+          "mirrors": [
+            "https://www.newspaperindex.com/",
+            "https://www.thepaperboy.com/"
+          ]
         },
         {
           "name": "LA Times",
@@ -1616,17 +1497,11 @@
         {
           "name": "Grimoar.cz",
           "url": "http://english.grimoar.cz/?Loc=key&Lng=2",
-          "description": "Occult Books"
-        },
-        {
-          "name": "Darkbooks",
-          "url": "https://darkbooks.org/collection/top250.html",
-          "description": "Occult Books"
-        },
-        {
-          "name": "Astrum Argenteum",
-          "url": "https://www.astrumargenteum.org/library/",
-          "description": "Occult Books"
+          "description": "Occult Books",
+          "mirrors": [
+            "https://darkbooks.org/collection/top250.html",
+            "https://www.astrumargenteum.org/library/"
+          ]
         },
         {
           "name": "Hermetic International",
@@ -1731,12 +1606,10 @@
         {
           "name": "The Theosophical Society",
           "url": "https://www.theosociety.org/",
-          "description": "Theosophy"
-        },
-        {
-          "name": "Theosophy World",
-          "url": "https://www.theosophy.world/portfolio/term/ebooks",
-          "description": "Theosophy"
+          "description": "Theosophy",
+          "mirrors": [
+            "https://www.theosophy.world/portfolio/term/ebooks"
+          ]
         },
         {
           "name": "Great Library of Eris",
@@ -1761,12 +1634,10 @@
         {
           "name": "BhagavadGitaApp",
           "url": "https://github.com/WirelessAlien/BhagavadGitaApp",
-          "description": "Bhagavad Gita Apps"
-        },
-        {
-          "name": "Dharmik",
-          "url": "https://github.com/shub39/Dharmik",
-          "description": "Bhagavad Gita Apps"
+          "description": "Bhagavad Gita Apps",
+          "mirrors": [
+            "https://github.com/shub39/Dharmik"
+          ]
         },
         {
           "name": "Vedabase",
@@ -1811,17 +1682,11 @@
         {
           "name": "BibleGateway",
           "url": "https://www.biblegateway.com/",
-          "description": "Christian Bible"
-        },
-        {
-          "name": "Armorer",
-          "url": "https://armorer.io/",
-          "description": "Christian Bible"
-        },
-        {
-          "name": "Bible.com",
-          "url": "https://www.bible.com/",
-          "description": "Christian Bible"
+          "description": "Christian Bible",
+          "mirrors": [
+            "https://armorer.io/",
+            "https://www.bible.com/"
+          ]
         },
         {
           "name": "eSword",
@@ -1841,27 +1706,13 @@
         {
           "name": "Quran.com",
           "url": "https://quran.com/",
-          "description": "Quran Translations"
-        },
-        {
-          "name": "Android",
-          "url": "https://github.com/quran/quran_android",
-          "description": "Quran Translations"
-        },
-        {
-          "name": "iOS",
-          "url": "https://github.com/quran/quran-ios",
-          "description": "Quran Translations"
-        },
-        {
-          "name": "Tanzil",
-          "url": "https://tanzil.net/",
-          "description": "Quran Translations"
-        },
-        {
-          "name": "AbcQuran",
-          "url": "https://github.com/jomtek/AbcQuran",
-          "description": "Quran Translations"
+          "description": "Quran Translations",
+          "mirrors": [
+            "https://github.com/quran/quran_android",
+            "https://github.com/quran/quran-ios",
+            "https://tanzil.net/",
+            "https://github.com/jomtek/AbcQuran"
+          ]
         },
         {
           "name": "Awesome Islam",
@@ -1923,17 +1774,11 @@
           "name": "Mobilism Audiobooks",
           "url": "https://forum.mobilism.org/viewforum.php?f=124",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://forum.mobilism.me/viewforum.php?f=124",
-          "description": ""
-        },
-        {
-          "name": "User Ranks",
-          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/mobilism-ranks.md",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://forum.mobilism.me/viewforum.php?f=124",
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/mobilism-ranks.md"
+          ]
         },
         {
           "name": "AudiobookBay",
@@ -1951,12 +1796,10 @@
           "name": "Audiobook CSE",
           "url": "https://cse.google.com/cse?cx=006516753008110874046:cwbbza56vhd",
           "description": "Multi-Site Audiobook Search",
-          "starred": true
-        },
-        {
-          "name": "Rave Search",
-          "url": "https://ravebooksearch.com/index-audiobooks",
-          "description": "Multi-Site Audiobook Search"
+          "starred": true,
+          "mirrors": [
+            "https://ravebooksearch.com/index-audiobooks"
+          ]
         },
         {
           "name": "AudioBooksBee",
@@ -2031,12 +1874,10 @@
         {
           "name": "audiobook-dl",
           "url": "https://github.com/jo1gi/audiobook-dl",
-          "description": "Audiobook Downloaders"
-        },
-        {
-          "name": "⁠Shelfmark",
-          "url": "https://github.com/calibrain/shelfmark",
-          "description": "Audiobook Downloaders"
+          "description": "Audiobook Downloaders",
+          "mirrors": [
+            "https://github.com/calibrain/shelfmark"
+          ]
         }
       ]
     },
@@ -2048,17 +1889,11 @@
           "name": "Tokybook",
           "url": "https://tokybook.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Downloader",
-          "url": "https://github.com/rahaaatul/TokySnatcher",
-          "description": ""
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/nazdridoy/audiobooksnatcher",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/rahaaatul/TokySnatcher",
+            "https://github.com/nazdridoy/audiobooksnatcher"
+          ]
         },
         {
           "name": "NEPU Audiobooks",
@@ -2094,12 +1929,10 @@
         {
           "name": "GalaxyAudiobooks",
           "url": "https://galaxyaudiobook.com/",
-          "description": ""
-        },
-        {
-          "name": "Downloader",
-          "url": "https://github.com/nazdridoy/audiobooksnatcher",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/nazdridoy/audiobooksnatcher"
+          ]
         },
         {
           "name": "Audiozaic",
@@ -2125,6 +1958,11 @@
           "name": "r/audiobooksonyoutube",
           "url": "https://reddit.com/r/audiobooksonyoutube",
           "description": ""
+        },
+        {
+          "name": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/browse/categories/1",
+          "description": "Historical Fiction / Nonfiction"
         },
         {
           "name": "PlayTorrio",
@@ -2159,42 +1997,22 @@
         {
           "name": "Audible Tools",
           "url": "https://audible-tools.kamsker.at/",
-          "description": "Audible DRM Remover / Manager"
-        },
-        {
-          "name": "AaxAudioConverter",
-          "url": "https://github.com/audiamus/AaxAudioConverter",
-          "description": "Audible DRM Remover / Manager"
-        },
-        {
-          "name": "Libation",
-          "url": "https://getlibation.com/",
-          "description": "Audible DRM Remover / Manager"
+          "description": "Audible DRM Remover / Manager",
+          "mirrors": [
+            "https://github.com/audiamus/AaxAudioConverter",
+            "https://getlibation.com/"
+          ]
         },
         {
           "name": "AudiobookShelf",
           "url": "https://www.audiobookshelf.org/",
-          "description": "Self-Hosted Audiobook Servers"
-        },
-        {
-          "name": "Multi-Platform Client",
-          "url": "https://github.com/Vito0912/abs_flutter",
-          "description": "Self-Hosted Audiobook Servers"
-        },
-        {
-          "name": "Mobile",
-          "url": "https://github.com/advplyr/audiobookshelf-app",
-          "description": "Self-Hosted Audiobook Servers"
-        },
-        {
-          "name": "2",
-          "url": "https://github.com/GrakovNe/lissen-android/",
-          "description": "Self-Hosted Audiobook Servers"
-        },
-        {
-          "name": "BookSonic",
-          "url": "https://booksonic.org/",
-          "description": "Self-Hosted Audiobook Servers"
+          "description": "Self-Hosted Audiobook Servers",
+          "mirrors": [
+            "https://github.com/Vito0912/abs_flutter",
+            "https://github.com/advplyr/audiobookshelf-app",
+            "https://github.com/GrakovNe/lissen-android/",
+            "https://booksonic.org/"
+          ]
         }
       ]
     },
@@ -2236,12 +2054,10 @@
           "name": "xkcd",
           "url": "https://xkcd.com/",
           "description": "xkcd Webcomics / Explanations",
-          "starred": true
-        },
-        {
-          "name": "findxkcd",
-          "url": "https://xkcd-search.typesense.org/",
-          "description": "xkcd Webcomics / Explanations"
+          "starred": true,
+          "mirrors": [
+            "https://xkcd-search.typesense.org/"
+          ]
         },
         {
           "name": "Comic CSE",
@@ -2252,67 +2068,21 @@
         {
           "name": "Cover",
           "url": "https://frenchfrysoftware.com/cover/",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "Comic Library Utilities",
-          "url": "https://clucomics.org/",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/allaboutduncan/comic-utils",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "PlayTorrio",
-          "url": "https://playtorrio.xyz/",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/bbkVHRHnRk",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ayman708-UX/PlayTorrio",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "MComix",
-          "url": "https://sourceforge.net/projects/mcomix/",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "CBR Reader",
-          "url": "https://www.cdisplayex.com/",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "Stump",
-          "url": "https://www.stumpapp.dev/",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "⁠GonVisor",
-          "url": "https://www.gonvisor.com/",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "comic-book-reader",
-          "url": "https://github.com/binarynonsense/comic-book-reader",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "OpenComic",
-          "url": "https://github.com/ollm/OpenComic",
-          "description": "Comic Readers / Managers"
-        },
-        {
-          "name": "YACReader",
-          "url": "https://yacreader.com/",
-          "description": "Comic Readers / Managers"
+          "description": "Comic Readers / Managers",
+          "mirrors": [
+            "https://clucomics.org/",
+            "https://github.com/allaboutduncan/comic-utils",
+            "https://playtorrio.xyz/",
+            "https://discord.gg/bbkVHRHnRk",
+            "https://github.com/ayman708-UX/PlayTorrio",
+            "https://sourceforge.net/projects/mcomix/",
+            "https://www.cdisplayex.com/",
+            "https://www.stumpapp.dev/",
+            "https://www.gonvisor.com/",
+            "https://github.com/binarynonsense/comic-book-reader",
+            "https://github.com/ollm/OpenComic",
+            "https://yacreader.com/"
+          ]
         },
         {
           "name": "XOXO Comics",
@@ -2392,37 +2162,21 @@
         {
           "name": "Comics Downloader",
           "url": "https://github.com/Girbons/comics-downloader",
-          "description": "Comic Downloaders"
-        },
-        {
-          "name": "Comic Library Utilities",
-          "url": "https://clucomics.org/",
-          "description": "Comic Downloaders"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/allaboutduncan/comic-utils",
-          "description": "Comic Downloaders"
-        },
-        {
-          "name": "Mylar3",
-          "url": "https://github.com/mylar3/mylar3",
-          "description": "Comic Downloaders"
-        },
-        {
-          "name": "Comic-DL",
-          "url": "https://github.com/Xonshiz/comic-dl",
-          "description": "Comic Downloaders"
+          "description": "Comic Downloaders",
+          "mirrors": [
+            "https://clucomics.org/",
+            "https://github.com/allaboutduncan/comic-utils",
+            "https://github.com/mylar3/mylar3",
+            "https://github.com/Xonshiz/comic-dl"
+          ]
         },
         {
           "name": "ComicReader",
           "url": "https://comicreader.netlify.app/",
-          "description": "Online Comic Reader"
-        },
-        {
-          "name": "KThoom",
-          "url": "https://github.com/codedread/kthoom",
-          "description": "Online Comic Reader"
+          "description": "Online Comic Reader",
+          "mirrors": [
+            "https://github.com/codedread/kthoom"
+          ]
         },
         {
           "name": "ComicFury",
@@ -2508,96 +2262,54 @@
           "name": "MangaDex",
           "url": "https://mangadex.org/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Downloader",
-          "url": "https://mangadex-dl.mansuf.link/",
-          "description": ""
-        },
-        {
-          "name": "Script",
-          "url": "https://github.com/frozenpandaman/mangadex-dl",
-          "description": ""
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/mangadex/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/mangadex",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://mangadex-dl.mansuf.link/",
+            "https://github.com/frozenpandaman/mangadex-dl",
+            "https://www.reddit.com/r/mangadex/",
+            "https://discord.gg/mangadex"
+          ]
         },
         {
           "name": "⁠Comix",
           "url": "https://comix.to/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://reddit.com/r/comix",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/kZgWWHUj22",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://reddit.com/r/comix",
+            "https://discord.com/invite/kZgWWHUj22"
+          ]
         },
         {
           "name": "MangaFire",
           "url": "https://mangafire.to/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Subreddit",
-          "url": "https://www.reddit.com/r/Mangafire/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/KRQQKzQ6CS",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://www.reddit.com/r/Mangafire/",
+            "https://discord.com/invite/KRQQKzQ6CS"
+          ]
         },
         {
           "name": "MangaNato",
           "url": "https://www.manganato.gg/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "2",
-          "url": "https://www.nelomanga.net/",
-          "description": ""
-        },
-        {
-          "name": "3",
-          "url": "https://www.mangakakalot.gg",
-          "description": ""
-        },
-        {
-          "name": "4",
-          "url": "https://www.natomanga.com/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/Qhz84GGvE9",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://www.nelomanga.net/",
+            "https://www.mangakakalot.gg",
+            "https://www.natomanga.com/",
+            "https://discord.gg/Qhz84GGvE9"
+          ]
         },
         {
           "name": "Kagane",
           "url": "https://kagane.org/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/kBPYVSzwUE",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://discord.com/invite/kBPYVSzwUE"
+          ]
         },
         {
           "name": "Nyaa Manga / LNs",
@@ -2613,27 +2325,19 @@
         {
           "name": "Atsumaru",
           "url": "https://atsu.moe/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/Tj4QmEF4uV",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.gg/Tj4QmEF4uV"
+          ]
         },
         {
           "name": "MangaBuddy",
           "url": "https://mangabuddy.com",
-          "description": ""
-        },
-        {
-          "name": "MangaForest",
-          "url": "https://mangaforest.me/",
-          "description": ""
-        },
-        {
-          "name": "MangaMirror",
-          "url": "https://mangamirror.com/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://mangaforest.me/",
+            "https://mangamirror.com/"
+          ]
         },
         {
           "name": "MangaBall",
@@ -2661,12 +2365,10 @@
         {
           "name": "MangaHere",
           "url": "https://www.mangahere.cc/",
-          "description": ""
-        },
-        {
-          "name": "MangaFox",
-          "url": "https://fanfox.net/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://fanfox.net/"
+          ]
         },
         {
           "name": "Rive Manga",
@@ -2740,12 +2442,10 @@
         {
           "name": "Great Discord Links",
           "url": "https://discord.gg/xAsyVb52a9",
-          "description": "Manga Scanlation Groups"
-        },
-        {
-          "name": "MangaDex Groups",
-          "url": "https://mangadex.org/groups",
-          "description": "Manga Scanlation Groups"
+          "description": "Manga Scanlation Groups",
+          "mirrors": [
+            "https://mangadex.org/groups"
+          ]
         },
         {
           "name": "Madokami",
@@ -2755,22 +2455,18 @@
         {
           "name": "MediaBang",
           "url": "https://medibang.com/mpc/",
-          "description": "User-Created Manga"
-        },
-        {
-          "name": "⁠NamiComi",
-          "url": "https://namicomi.com/en",
-          "description": "User-Created Manga"
+          "description": "User-Created Manga",
+          "mirrors": [
+            "https://namicomi.com/en"
+          ]
         },
         {
           "name": "MP4DIRECTS",
           "url": "https://mp4directs.com/",
-          "description": "Manga Downloads"
-        },
-        {
-          "name": "⁠jnovels",
-          "url": "https://jnovels.com/",
-          "description": "Manga Downloads"
+          "description": "Manga Downloads",
+          "mirrors": [
+            "https://jnovels.com/"
+          ]
         },
         {
           "name": "MangaUpdates",
@@ -2780,12 +2476,10 @@
         {
           "name": "Manga CSE",
           "url": "https://cse.google.com/cse?cx=006516753008110874046:4im0fkhej3z",
-          "description": "Multi-Site Manga Search"
-        },
-        {
-          "name": "CSE 2",
-          "url": "https://cse.google.com/cse?cx=006516753008110874046:a5mavctjnsc#gsc.tab=0",
-          "description": "Multi-Site Manga Search"
+          "description": "Multi-Site Manga Search",
+          "mirrors": [
+            "https://cse.google.com/cse?cx=006516753008110874046:a5mavctjnsc#gsc.tab=0"
+          ]
         },
         {
           "name": "PlayTorrio",
@@ -2809,17 +2503,11 @@
         {
           "name": "BallonsTranslator",
           "url": "https://github.com/dmMaze/BallonsTranslator/blob/master/README_EN.md",
-          "description": "Manga Translators"
-        },
-        {
-          "name": "Cotrans",
-          "url": "https://cotrans.touhou.ai/",
-          "description": "Manga Translators"
-        },
-        {
-          "name": "Scanlate",
-          "url": "https://scanlate.io/",
-          "description": "Manga Translators"
+          "description": "Manga Translators",
+          "mirrors": [
+            "https://cotrans.touhou.ai/",
+            "https://scanlate.io/"
+          ]
         },
         {
           "name": "Manga-Manager",
@@ -2954,17 +2642,11 @@
         {
           "name": "Retromags",
           "url": "https://www.retromags.com/",
-          "description": "Retro Gaming Magazines"
-        },
-        {
-          "name": "⁠Out-of-Print Archive",
-          "url": "https://www.outofprintarchive.com/",
-          "description": "Retro Gaming Magazines"
-        },
-        {
-          "name": "VGHF",
-          "url": "https://archive.gamehistory.org/folder/9a193e8c-67e0-45ff-98d2-a33e85721cc4",
-          "description": "Retro Gaming Magazines"
+          "description": "Retro Gaming Magazines",
+          "mirrors": [
+            "https://www.outofprintarchive.com/",
+            "https://archive.gamehistory.org/folder/9a193e8c-67e0-45ff-98d2-a33e85721cc4"
+          ]
         },
         {
           "name": "PC Zone",
@@ -3294,7 +2976,7 @@
         },
         {
           "name": "Wikibooks",
-          "url": "https://en.wikibooks.org/",
+          "url": "https://wikibooks.org/",
           "description": "Open-Content Texbooks"
         },
         {
@@ -3415,12 +3097,10 @@
           "name": "World History",
           "url": "https://www.worldhistory.org/",
           "description": "History Encyclopedias",
-          "starred": true
-        },
-        {
-          "name": "Livius",
-          "url": "https://www.livius.org/",
-          "description": "History Encyclopedias"
+          "starred": true,
+          "mirrors": [
+            "https://www.livius.org/"
+          ]
         },
         {
           "name": "Duke University Library",
@@ -3430,17 +3110,11 @@
         {
           "name": "Early English Books",
           "url": "https://quod.lib.umich.edu/e/eebogroup/",
-          "description": "Historical Texts / Books"
-        },
-        {
-          "name": "NYPL",
-          "url": "https://digitalcollections.nypl.org/",
-          "description": "Historical Texts / Books"
-        },
-        {
-          "name": "Amherst",
-          "url": "https://acdc.amherst.edu/",
-          "description": "Historical Texts / Books"
+          "description": "Historical Texts / Books",
+          "mirrors": [
+            "https://digitalcollections.nypl.org/",
+            "https://acdc.amherst.edu/"
+          ]
         },
         {
           "name": "Making of America",
@@ -3515,12 +3189,10 @@
         {
           "name": "The Morgan Library Museum",
           "url": "https://www.themorgan.org/music",
-          "description": "Musical Manuscripts"
-        },
-        {
-          "name": "DIAMM",
-          "url": "https://www.diamm.ac.uk/",
-          "description": "Musical Manuscripts"
+          "description": "Musical Manuscripts",
+          "mirrors": [
+            "https://www.diamm.ac.uk/"
+          ]
         },
         {
           "name": "Tank Archives",
@@ -3580,7 +3252,7 @@
       "resources": [
         {
           "name": "Wikiquote",
-          "url": "https://en.wikiquote.org",
+          "url": "https://wikiquote.org",
           "description": "",
           "starred": true
         },
@@ -3793,12 +3465,10 @@
           "name": "arXiv",
           "url": "https://arxiv.org/",
           "description": "Research Papers",
-          "starred": true
-        },
-        {
-          "name": "ChinaRxiv",
-          "url": "https://chinarxiv.org/",
-          "description": "Research Papers"
+          "starred": true,
+          "mirrors": [
+            "https://chinarxiv.org/"
+          ]
         },
         {
           "name": "Google Scholar",
@@ -3988,12 +3658,10 @@
         {
           "name": "IDEAS",
           "url": "https://ideas.repec.org/",
-          "description": "Economic Research Papers"
-        },
-        {
-          "name": "RePEc",
-          "url": "http://repec.org/",
-          "description": "Economic Research Papers"
+          "description": "Economic Research Papers",
+          "mirrors": [
+            "http://repec.org/"
+          ]
         },
         {
           "name": "PsyArXiv",
@@ -4143,47 +3811,29 @@
         {
           "name": "PapersWithCode",
           "url": "https://huggingface.co/papers",
-          "description": "AI Research Papers"
-        },
-        {
-          "name": "Catalyzex",
-          "url": "https://www.catalyzex.com/",
-          "description": "AI Research Papers"
-        },
-        {
-          "name": "AI Reading List",
-          "url": "https://docs.google.com/document/d/1bEQM1W-1fzSVWNbS4ne5PopB2b7j8zD4Jc3nm4rbK-U/",
-          "description": "AI Research Papers"
-        },
-        {
-          "name": "AI RND",
-          "url": "https://www.ai-rnd.com/",
-          "description": "AI Research Papers"
-        },
-        {
-          "name": "Daily Papers",
-          "url": "https://huggingface.co/papers",
-          "description": "AI Research Papers"
+          "description": "AI Research Papers",
+          "mirrors": [
+            "https://www.catalyzex.com/",
+            "https://docs.google.com/document/d/1bEQM1W-1fzSVWNbS4ne5PopB2b7j8zD4Jc3nm4rbK-U/",
+            "https://www.ai-rnd.com/",
+            "https://huggingface.co/papers"
+          ]
         },
         {
           "name": "CensorBib",
           "url": "https://censorbib.nymity.ch/",
-          "description": "Internet Censorship Research Papers"
-        },
-        {
-          "name": "Censored Planet",
-          "url": "https://censoredplanet.org/",
-          "description": "Internet Censorship Research Papers"
+          "description": "Internet Censorship Research Papers",
+          "mirrors": [
+            "https://censoredplanet.org/"
+          ]
         },
         {
           "name": "Connected Papers",
           "url": "https://www.connectedpapers.com/",
-          "description": "Find Connected Academic Papers"
-        },
-        {
-          "name": "LitMaps",
-          "url": "https://app.litmaps.com/",
-          "description": "Find Connected Academic Papers"
+          "description": "Find Connected Academic Papers",
+          "mirrors": [
+            "https://app.litmaps.com/"
+          ]
         }
       ]
     },
@@ -4210,32 +3860,14 @@
           "name": "Epstein Exposed",
           "url": "https://www.epsteinexposed.com/",
           "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images",
-          "starred": true
-        },
-        {
-          "name": "JMail",
-          "url": "https://www.jmail.world/",
-          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images"
-        },
-        {
-          "name": "2",
-          "url": "https://jmailarchive.org/",
-          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images"
-        },
-        {
-          "name": "Epstein Library",
-          "url": "https://www.justice.gov/epstein",
-          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images"
-        },
-        {
-          "name": "Epstein Visualizer",
-          "url": "https://epsteinvisualizer.com/",
-          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images"
-        },
-        {
-          "name": "Epstein Files Browser",
-          "url": "https://epstein-files-browser.vercel.app/",
-          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images"
+          "starred": true,
+          "mirrors": [
+            "https://www.jmail.world/",
+            "https://jmailarchive.org/",
+            "https://www.justice.gov/epstein",
+            "https://epsteinvisualizer.com/",
+            "https://epstein-files-browser.vercel.app/"
+          ]
         },
         {
           "name": "Heystacks",
@@ -4430,47 +4062,29 @@
         {
           "name": "Marine Corps Pubs",
           "url": "https://www.marines.mil/News/Publications/MCPEL/",
-          "description": "Military Documents / Manuals"
-        },
-        {
-          "name": "Air Force Pubs",
-          "url": "https://www.e-publishing.af.mil/product-index/",
-          "description": "Military Documents / Manuals"
-        },
-        {
-          "name": "Army Pubs",
-          "url": "https://armypubs.army.mil/",
-          "description": "Military Documents / Manuals"
-        },
-        {
-          "name": "LiberatedManuals",
-          "url": "https://www.liberatedmanuals.com/",
-          "description": "Military Documents / Manuals"
+          "description": "Military Documents / Manuals",
+          "mirrors": [
+            "https://www.e-publishing.af.mil/product-index/",
+            "https://armypubs.army.mil/",
+            "https://www.liberatedmanuals.com/"
+          ]
         },
         {
           "name": "NASA NTRS",
           "url": "https://ntrs.nasa.gov/collections/pubspace",
-          "description": "NASA Documents"
-        },
-        {
-          "name": "STI",
-          "url": "https://sti.nasa.gov/",
-          "description": "NASA Documents"
+          "description": "NASA Documents",
+          "mirrors": [
+            "https://sti.nasa.gov/"
+          ]
         },
         {
           "name": "CourtListerner",
           "url": "https://www.courtlistener.com/",
-          "description": "Court Documents"
-        },
-        {
-          "name": "USA Courts",
-          "url": "https://pacer.uscourts.gov/",
-          "description": "Court Documents"
-        },
-        {
-          "name": "Case.law",
-          "url": "https://case.law/",
-          "description": "Court Documents"
+          "description": "Court Documents",
+          "mirrors": [
+            "https://pacer.uscourts.gov/",
+            "https://case.law/"
+          ]
         },
         {
           "name": "Parliament Archives",
@@ -4514,54 +4128,14 @@
           "description": "Manual Directories",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "SafeManuals",
-          "url": "https://safe-manuals.com/",
-          "description": "Manual Directories",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Manuzoid",
-          "url": "https://manuzoid.com/",
-          "description": "Manual Directories",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "manualzz",
-          "url": "https://manualzz.com/",
-          "description": "Manual Directories",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "ManualsNet",
-          "url": "https://manualsnet.com/",
-          "description": "Manual Directories",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "manua.ls",
-          "url": "https://www.manua.ls/",
-          "description": "Manual Directories",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "ManualsLib",
-          "url": "https://www.manualslib.com/",
-          "description": "Manual Directories",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://safe-manuals.com/",
+            "https://manuzoid.com/",
+            "https://manualzz.com/",
+            "https://manualsnet.com/",
+            "https://www.manua.ls/",
+            "https://www.manualslib.com/"
           ]
         },
         {
@@ -4573,12 +4147,10 @@
         {
           "name": "ManualLib",
           "url": "https://www.manuallib.com/",
-          "description": "Manual Search"
-        },
-        {
-          "name": "Manuals+",
-          "url": "https://manuals.plus/",
-          "description": "Manual Search"
+          "description": "Manual Search",
+          "mirrors": [
+            "https://manuals.plus/"
+          ]
         },
         {
           "name": "iFixIt",
@@ -4621,22 +4193,12 @@
         {
           "name": "JDMFSM",
           "url": "https://jdmfsm.info/Auto/",
-          "description": "Auto Repair Manuals"
-        },
-        {
-          "name": "Charm",
-          "url": "https://charm.li/",
-          "description": "Auto Repair Manuals"
-        },
-        {
-          "name": "CarPDFManual",
-          "url": "https://www.carpdfmanual.com/",
-          "description": "Auto Repair Manuals"
-        },
-        {
-          "name": "ProCarManuals",
-          "url": "https://procarmanuals.com/",
-          "description": "Auto Repair Manuals"
+          "description": "Auto Repair Manuals",
+          "mirrors": [
+            "https://charm.li/",
+            "https://www.carpdfmanual.com/",
+            "https://procarmanuals.com/"
+          ]
         },
         {
           "name": "Ownersman.com",
@@ -4646,12 +4208,10 @@
         {
           "name": "PremierProduct",
           "url": "https://www.premierproducts-uk.co.uk/",
-          "description": "Vehicle Manuals"
-        },
-        {
-          "name": "Auto Manual",
-          "url": "https://www.auto-manual.com/",
-          "description": "Vehicle Manuals"
+          "description": "Vehicle Manuals",
+          "mirrors": [
+            "https://www.auto-manual.com/"
+          ]
         },
         {
           "name": "David Kleinfeld Laboratory",
@@ -4695,12 +4255,10 @@
           "name": "Novel Updates",
           "url": "https://www.novelupdates.com/",
           "description": "Light Novel Tracking / Databases",
-          "starred": true
-        },
-        {
-          "name": "⁠RanobeDB",
-          "url": "https://ranobedb.org/",
-          "description": "Light Novel Tracking / Databases"
+          "starred": true,
+          "mirrors": [
+            "https://ranobedb.org/"
+          ]
         },
         {
           "name": "LeagueOfComicGeeks",
@@ -4791,22 +4349,18 @@
         {
           "name": "rate.house",
           "url": "https://rate.house/",
-          "description": "Media Trackers"
-        },
-        {
-          "name": "Yamtrack",
-          "url": "https://github.com/FuzzyGrim/Yamtrack",
-          "description": "Media Trackers"
+          "description": "Media Trackers",
+          "mirrors": [
+            "https://github.com/FuzzyGrim/Yamtrack"
+          ]
         },
         {
           "name": "libib",
           "url": "https://www.libib.com/",
-          "description": "Desktop Catalogs"
-        },
-        {
-          "name": "All My Books",
-          "url": "https://www.bolidesoft.com/allmybooks.html",
-          "description": "Desktop Catalogs"
+          "description": "Desktop Catalogs",
+          "mirrors": [
+            "https://www.bolidesoft.com/allmybooks.html"
+          ]
         }
       ]
     },
@@ -4960,22 +4514,12 @@
         {
           "name": "BookStash",
           "url": "https://bookstash.io/",
-          "description": "Book Summaries"
-        },
-        {
-          "name": "Sobrief",
-          "url": "https://sobrief.com/",
-          "description": "Book Summaries"
-        },
-        {
-          "name": "Summrize",
-          "url": "https://www.summrize.com/",
-          "description": "Book Summaries"
-        },
-        {
-          "name": "Glimbay",
-          "url": "https://glimbay.netlify.app/",
-          "description": "Book Summaries"
+          "description": "Book Summaries",
+          "mirrors": [
+            "https://sobrief.com/",
+            "https://www.summrize.com/",
+            "https://glimbay.netlify.app/"
+          ]
         },
         {
           "name": "ComicBookCanon",
@@ -5056,12 +4600,10 @@
         {
           "name": "r/VisualNovel Recs",
           "url": "https://sites.google.com/view/rvisualnovels-recs/",
-          "description": "Visual Novel Recommendations"
-        },
-        {
-          "name": "VN Recs",
-          "url": "https://vnrecs.github.io/",
-          "description": "Visual Novel Recommendations"
+          "description": "Visual Novel Recommendations",
+          "mirrors": [
+            "https://vnrecs.github.io/"
+          ]
         },
         {
           "name": "Ebook Converters Wiki",
@@ -5069,14 +4611,9 @@
           "description": "Ebook Converter Software Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Ebook-Converter",
-          "url": "https://ebook-converter.com/",
-          "description": "Ebook Converter Software Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://ebook-converter.com/"
           ]
         },
         {
@@ -5091,52 +4628,18 @@
           "name": "Spreeder",
           "url": "https://www.spreeder.com/app.php?intro=1",
           "description": "Speed Reading Tools",
-          "starred": true
-        },
-        {
-          "name": "Speed Reader",
-          "url": "https://speed-reader.com/",
-          "description": "Speed Reading Tools"
-        },
-        {
-          "name": "BR Script",
-          "url": "https://greasyfork.org/en/scripts/465635",
-          "description": "Speed Reading Tools"
-        },
-        {
-          "name": "PlayText",
-          "url": "https://playtext.app/",
-          "description": "Speed Reading Tools"
-        },
-        {
-          "name": "AccelaReader",
-          "url": "https://accelareader.com/",
-          "description": "Speed Reading Tools"
-        },
-        {
-          "name": "SwiftRead",
-          "url": "https://swiftread.com/",
-          "description": "Speed Reading Tools"
-        },
-        {
-          "name": "Notation",
-          "url": "https://github.com/numanzamandipuu/Notation",
-          "description": "Speed Reading Tools"
-        },
-        {
-          "name": "Tailwind BR",
-          "url": "https://crisanlucid.github.io/vite-react-tailwind-bionic-reading/",
-          "description": "Speed Reading Tools"
-        },
-        {
-          "name": "⁠ogma",
-          "url": "https://github.com/0hAodha/ogma",
-          "description": "Speed Reading Tools"
-        },
-        {
-          "name": "SpeedRead",
-          "url": "https://github.com/pasky/speedread",
-          "description": "Speed Reading Tools"
+          "starred": true,
+          "mirrors": [
+            "https://speed-reader.com/",
+            "https://greasyfork.org/en/scripts/465635",
+            "https://playtext.app/",
+            "https://accelareader.com/",
+            "https://swiftread.com/",
+            "https://github.com/numanzamandipuu/Notation",
+            "https://crisanlucid.github.io/vite-react-tailwind-bionic-reading/",
+            "https://github.com/0hAodha/ogma",
+            "https://github.com/pasky/speedread"
+          ]
         },
         {
           "name": "Kindle Comic Converter",
@@ -5148,57 +4651,25 @@
           "name": "Papeer",
           "url": "https://papeer.tech/",
           "description": "Webpage to EPUB Converter",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/lapwat/papeer",
-          "description": "Webpage to EPUB Converter"
-        },
-        {
-          "name": "dotepub",
-          "url": "https://dotepub.com/",
-          "description": "Webpage to EPUB Converter"
-        },
-        {
-          "name": "epub-creator",
-          "url": "https://github.com/NiklasGollenstede/epub-creator",
-          "description": "Webpage to EPUB Converter"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/lapwat/papeer",
+            "https://dotepub.com/",
+            "https://github.com/NiklasGollenstede/epub-creator"
+          ]
         },
         {
           "name": "⁠Scribd DL",
           "url": "https://github.com/rkwyu/scribd-dl",
-          "description": "Scribd Downloaders"
-        },
-        {
-          "name": "Scribd PDF",
-          "url": "https://scribd.pdfdownloaders.com/",
-          "description": "Scribd Downloaders"
-        },
-        {
-          "name": "ScribdVPDF",
-          "url": "https://scribdvpdf.blogspot.com/",
-          "description": "Scribd Downloaders"
-        },
-        {
-          "name": "2",
-          "url": "https://docdownloader.com/",
-          "description": "Scribd Downloaders"
-        },
-        {
-          "name": "3",
-          "url": "https://scribd.vpdfs.com/",
-          "description": "Scribd Downloaders"
-        },
-        {
-          "name": "4",
-          "url": "https://scribd.downloader.tips/",
-          "description": "Scribd Downloaders"
-        },
-        {
-          "name": "5",
-          "url": "https://scribd.vdownloaders.com/",
-          "description": "Scribd Downloaders"
+          "description": "Scribd Downloaders",
+          "mirrors": [
+            "https://scribd.pdfdownloaders.com/",
+            "https://scribdvpdf.blogspot.com/",
+            "https://docdownloader.com/",
+            "https://scribd.vpdfs.com/",
+            "https://scribd.downloader.tips/",
+            "https://scribd.vdownloaders.com/"
+          ]
         },
         {
           "name": "Ebook-Online-Convert",
@@ -5254,22 +4725,18 @@
         {
           "name": "Readarr",
           "url": "https://readarr.com/",
-          "description": "Book Torrent Autodownload / Manager"
-        },
-        {
-          "name": "LazyLibrarian",
-          "url": "https://gitlab.com/LazyLibrarian/LazyLibrarian",
-          "description": "Book Torrent Autodownload / Manager"
+          "description": "Book Torrent Autodownload / Manager",
+          "mirrors": [
+            "https://gitlab.com/LazyLibrarian/LazyLibrarian"
+          ]
         },
         {
           "name": "FicHub",
           "url": "https://fichub.net/",
-          "description": "Fanfiction Downloader"
-        },
-        {
-          "name": "FanFictionDownloader",
-          "url": "https://fanfictiondownloader.net/",
-          "description": "Fanfiction Downloader"
+          "description": "Fanfiction Downloader",
+          "mirrors": [
+            "https://fanfictiondownloader.net/"
+          ]
         },
         {
           "name": "Sigil Ebook",
@@ -5279,12 +4746,10 @@
         {
           "name": "EPUB Translator",
           "url": "https://github.com/quantrancse/epub-translator",
-          "description": "EPUB Translators"
-        },
-        {
-          "name": "epub-translator",
-          "url": "https://github.com/sharplab/epub-translator",
-          "description": "EPUB Translators"
+          "description": "EPUB Translators",
+          "mirrors": [
+            "https://github.com/sharplab/epub-translator"
+          ]
         },
         {
           "name": "SmartStitch",
@@ -5299,12 +4764,10 @@
         {
           "name": "HowLongToRead",
           "url": "https://howlongtoread.com/",
-          "description": "Find Book Lengths / Reading Times"
-        },
-        {
-          "name": "ReadingLength",
-          "url": "https://www.readinglength.com/",
-          "description": "Find Book Lengths / Reading Times"
+          "description": "Find Book Lengths / Reading Times",
+          "mirrors": [
+            "https://www.readinglength.com/"
+          ]
         },
         {
           "name": "BTW",

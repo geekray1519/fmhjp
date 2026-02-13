@@ -28,97 +28,27 @@
         {
           "name": "PostSpark",
           "url": "https://postspark.app/",
-          "description": ""
-        },
-        {
-          "name": "Previewed",
-          "url": "https://previewed.app/",
-          "description": ""
-        },
-        {
-          "name": "Mockup World",
-          "url": "https://www.mockupworld.co/",
-          "description": ""
-        },
-        {
-          "name": "DeviceShots",
-          "url": "https://deviceshots.com/",
-          "description": ""
-        },
-        {
-          "name": "DeviceFrames",
-          "url": "https://deviceframes.com/",
-          "description": ""
-        },
-        {
-          "name": "shots.so",
-          "url": "https://shots.so/",
-          "description": ""
-        },
-        {
-          "name": "medialoot",
-          "url": "https://medialoot.com/free-mockups/",
-          "description": ""
-        },
-        {
-          "name": "MockMagic",
-          "url": "https://www.mockmagic.com/",
-          "description": ""
-        },
-        {
-          "name": "zippypixels",
-          "url": "https://zippypixels.com/",
-          "description": ""
-        },
-        {
-          "name": "Mockuphone",
-          "url": "https://mockuphone.com/",
-          "description": ""
-        },
-        {
-          "name": "TheMockupClub",
-          "url": "https://themockup.club/",
-          "description": ""
-        },
-        {
-          "name": "RiseShot",
-          "url": "https://www.riseshot.com/",
-          "description": ""
-        },
-        {
-          "name": "Upmock",
-          "url": "https://www.upmock.io/",
-          "description": ""
-        },
-        {
-          "name": "LS Graphics",
-          "url": "https://www.ls.graphics/",
-          "description": ""
-        },
-        {
-          "name": "Picasso",
-          "url": "https://getpicasso.com/",
-          "description": ""
-        },
-        {
-          "name": "minimalmockups",
-          "url": "https://www.minimalmockups.com/",
-          "description": ""
-        },
-        {
-          "name": "mrmockup",
-          "url": "https://mrmockup.com/free-mockups/",
-          "description": ""
-        },
-        {
-          "name": "mockupnest",
-          "url": "https://mockupnest.com/",
-          "description": ""
-        },
-        {
-          "name": "Jam Mockup",
-          "url": "http://t.me/+Hp5DjFnpWXdhMTBi",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://previewed.app/",
+            "https://www.mockupworld.co/",
+            "https://deviceshots.com/",
+            "https://deviceframes.com/",
+            "https://shots.so/",
+            "https://medialoot.com/free-mockups/",
+            "https://www.mockmagic.com/",
+            "https://zippypixels.com/",
+            "https://mockuphone.com/",
+            "https://themockup.club/",
+            "https://www.riseshot.com/",
+            "https://www.upmock.io/",
+            "https://www.ls.graphics/",
+            "https://getpicasso.com/",
+            "https://www.minimalmockups.com/",
+            "https://mrmockup.com/free-mockups/",
+            "https://mockupnest.com/",
+            "http://t.me/+Hp5DjFnpWXdhMTBi"
+          ]
         }
       ]
     },
@@ -129,12 +59,10 @@
         {
           "name": "Video-Tutor",
           "url": "https://www.video-tutor.net/",
-          "description": ""
-        },
-        {
-          "name": "YT",
-          "url": "https://youtube.com/@theorganicchemistrytutor",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://youtube.com/@theorganicchemistrytutor"
+          ]
         },
         {
           "name": "Tyler DeWitt",
@@ -195,27 +123,13 @@
           "name": "Tailwind CSS",
           "url": "https://tailwindcss.com/",
           "description": "CSS Frameworks",
-          "starred": true
-        },
-        {
-          "name": "⁠Panda CSS",
-          "url": "https://panda-css.com//",
-          "description": "CSS Frameworks"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/chakra-ui/panda",
-          "description": "CSS Frameworks"
-        },
-        {
-          "name": "Bulma",
-          "url": "https://bulma.io/",
-          "description": "CSS Frameworks"
-        },
-        {
-          "name": "UnoCSS",
-          "url": "https://unocss.dev/",
-          "description": "CSS Frameworks"
+          "starred": true,
+          "mirrors": [
+            "https://panda-css.com//",
+            "https://github.com/chakra-ui/panda",
+            "https://bulma.io/",
+            "https://unocss.dev/"
+          ]
         },
         {
           "name": "Tailwind Toolbox",
@@ -225,27 +139,13 @@
         {
           "name": "daisyUI",
           "url": "https://daisyui.com/",
-          "description": "Tailwind CSS Components"
-        },
-        {
-          "name": "Float UI",
-          "url": "https://floatui.com/",
-          "description": "Tailwind CSS Components"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/MarsX-dev/floatui",
-          "description": "Tailwind CSS Components"
-        },
-        {
-          "name": "Aceternity UI",
-          "url": "https://ui.aceternity.com/",
-          "description": "Tailwind CSS Components"
-        },
-        {
-          "name": "Tailspark",
-          "url": "https://tailspark.co/",
-          "description": "Tailwind CSS Components"
+          "description": "Tailwind CSS Components",
+          "mirrors": [
+            "https://floatui.com/",
+            "https://github.com/MarsX-dev/floatui",
+            "https://ui.aceternity.com/",
+            "https://tailspark.co/"
+          ]
         },
         {
           "name": "TailBlocks",
@@ -267,23 +167,19 @@
           "name": "RAWGraphs",
           "url": "https://app.rawgraphs.io/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/rawgraphs/rawgraphs-app",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/rawgraphs/rawgraphs-app"
+          ]
         },
         {
           "name": "Draw",
           "url": "https://www.drawio.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/jgraph/drawio",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/jgraph/drawio"
+          ]
         },
         {
           "name": "Kroki",
@@ -326,27 +222,13 @@
         {
           "name": "Cascii",
           "url": "https://cascii.app/",
-          "description": "Create ASCII Diagrams"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/casparwylie/cascii-core",
-          "description": "Create ASCII Diagrams"
-        },
-        {
-          "name": "Bob Editor",
-          "url": "https://ivanceras.github.io/bob-editor/",
-          "description": "Create ASCII Diagrams"
-        },
-        {
-          "name": "ASCII Flow",
-          "url": "https://asciiflow.com/",
-          "description": "Create ASCII Diagrams"
-        },
-        {
-          "name": "tree",
-          "url": "https://tree.nathanfriend.com/",
-          "description": "Create ASCII Diagrams"
+          "description": "Create ASCII Diagrams",
+          "mirrors": [
+            "https://github.com/casparwylie/cascii-core",
+            "https://ivanceras.github.io/bob-editor/",
+            "https://asciiflow.com/",
+            "https://tree.nathanfriend.com/"
+          ]
         },
         {
           "name": "SVGBob Editor",
@@ -356,12 +238,10 @@
         {
           "name": "UMLet",
           "url": "https://www.umlet.com/",
-          "description": "UML Diagrams Generators / Creators"
-        },
-        {
-          "name": "JDL Studio",
-          "url": "https://start.jhipster.tech/jdl-studio/",
-          "description": "UML Diagrams Generators / Creators"
+          "description": "UML Diagrams Generators / Creators",
+          "mirrors": [
+            "https://start.jhipster.tech/jdl-studio/"
+          ]
         },
         {
           "name": "PlantText",
@@ -371,182 +251,44 @@
         {
           "name": "DGM",
           "url": "https://dgm.sh/",
-          "description": ""
-        },
-        {
-          "name": "⁠MakeGraph",
-          "url": "https://makegraph.app/",
-          "description": ""
-        },
-        {
-          "name": "DrawDB",
-          "url": "https://www.drawdb.app/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/BrjZgNrmR6",
-          "description": ""
-        },
-        {
-          "name": "Data GIF Maker",
-          "url": "https://datagifmaker.withgoogle.com/",
-          "description": ""
-        },
-        {
-          "name": "Flourish",
-          "url": "https://flourish.studio/",
-          "description": ""
-        },
-        {
-          "name": "Datawrapper",
-          "url": "https://www.datawrapper.de/",
-          "description": ""
-        },
-        {
-          "name": "chartd",
-          "url": "https://www.chartd.co/",
-          "description": ""
-        },
-        {
-          "name": "Chart.xkcd",
-          "url": "https://timqian.com/chart.xkcd/",
-          "description": ""
-        },
-        {
-          "name": "QuickChart",
-          "url": "https://quickchart.io/",
-          "description": ""
-        },
-        {
-          "name": "Percival",
-          "url": "https://percival.ink/",
-          "description": ""
-        },
-        {
-          "name": "amCharts",
-          "url": "https://live.amcharts.com/",
-          "description": ""
-        },
-        {
-          "name": "ACME Chartmaker",
-          "url": "https://acme.com/chartmaker/",
-          "description": ""
-        },
-        {
-          "name": "ParaView",
-          "url": "https://www.paraview.org/",
-          "description": ""
-        },
-        {
-          "name": "Dia",
-          "url": "http://dia-installer.de/",
-          "description": ""
-        },
-        {
-          "name": "yEd Live",
-          "url": "https://www.yworks.com/yed-live/",
-          "description": ""
-        },
-        {
-          "name": "Mermaid",
-          "url": "https://mermaid.live/",
-          "description": ""
-        },
-        {
-          "name": "Terminal Render",
-          "url": "https://mermaid-ascii.art/",
-          "description": ""
-        },
-        {
-          "name": "LineGraphMaker",
-          "url": "https://linegraphmaker.co/",
-          "description": ""
-        },
-        {
-          "name": "SwimLanes",
-          "url": "https://swimlanes.io/",
-          "description": ""
-        },
-        {
-          "name": "Quiver",
-          "url": "https://q.uiver.app/",
-          "description": ""
-        },
-        {
-          "name": "Gephi",
-          "url": "https://gephi.org/",
-          "description": ""
-        },
-        {
-          "name": "Graphviz",
-          "url": "https://graphviz.org/",
-          "description": ""
-        },
-        {
-          "name": "Editor",
-          "url": "https://edotor.net/",
-          "description": ""
-        },
-        {
-          "name": "Graphonline",
-          "url": "https://graphonline.top/en/",
-          "description": ""
-        },
-        {
-          "name": "Diagramify",
-          "url": "https://diagramify.agiliq.com/",
-          "description": ""
-        },
-        {
-          "name": "Charts Builder",
-          "url": "https://charts.hohli.com/",
-          "description": ""
-        },
-        {
-          "name": "diagramgpt",
-          "url": "https://www.eraser.io/diagramgpt",
-          "description": ""
-        },
-        {
-          "name": "text2diagram",
-          "url": "https://text2diagram.com/",
-          "description": ""
-        },
-        {
-          "name": "SankeyMATIC",
-          "url": "https://sankeymatic.com/",
-          "description": ""
-        },
-        {
-          "name": "histogrammaker",
-          "url": "https://histogrammaker.net/",
-          "description": ""
-        },
-        {
-          "name": "flowgorithm",
-          "url": "http://flowgorithm.org/",
-          "description": ""
-        },
-        {
-          "name": "Chart Builder",
-          "url": "https://textquery.app/tools/chart-builder/",
-          "description": ""
-        },
-        {
-          "name": "⁠JSON Crack",
-          "url": "https://jsoncrack.com/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/AykutSarac/jsoncrack.com",
-          "description": ""
-        },
-        {
-          "name": "PlantUML",
-          "url": "https://www.plantuml.com/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://makegraph.app/",
+            "https://www.drawdb.app/",
+            "https://discord.gg/BrjZgNrmR6",
+            "https://datagifmaker.withgoogle.com/",
+            "https://flourish.studio/",
+            "https://www.datawrapper.de/",
+            "https://www.chartd.co/",
+            "https://timqian.com/chart.xkcd/",
+            "https://quickchart.io/",
+            "https://percival.ink/",
+            "https://live.amcharts.com/",
+            "https://acme.com/chartmaker/",
+            "https://www.paraview.org/",
+            "http://dia-installer.de/",
+            "https://www.yworks.com/yed-live/",
+            "https://mermaid.live/",
+            "https://mermaid-ascii.art/",
+            "https://linegraphmaker.co/",
+            "https://swimlanes.io/",
+            "https://q.uiver.app/",
+            "https://gephi.org/",
+            "https://graphviz.org/",
+            "https://edotor.net/",
+            "https://graphonline.top/en/",
+            "https://diagramify.agiliq.com/",
+            "https://charts.hohli.com/",
+            "https://www.eraser.io/diagramgpt",
+            "https://text2diagram.com/",
+            "https://sankeymatic.com/",
+            "https://histogrammaker.net/",
+            "http://flowgorithm.org/",
+            "https://textquery.app/tools/chart-builder/",
+            "https://jsoncrack.com/",
+            "https://github.com/AykutSarac/jsoncrack.com",
+            "https://www.plantuml.com/"
+          ]
         }
       ]
     },
@@ -581,152 +323,38 @@
         {
           "name": "design-resources-for-developers",
           "url": "https://github.com/bradtraversy/design-resources-for-developers",
-          "description": ""
-        },
-        {
-          "name": "Freebies.ByPeople",
-          "url": "https://freebies.bypeople.com/",
-          "description": ""
-        },
-        {
-          "name": "Design Bundles",
-          "url": "https://designbundles.net/free-design-resources",
-          "description": ""
-        },
-        {
-          "name": "Design Resources",
-          "url": "https://designresourc.es/",
-          "description": ""
-        },
-        {
-          "name": "PSDDD.co",
-          "url": "https://psddd.co/",
-          "description": ""
-        },
-        {
-          "name": "GraphicsFuel",
-          "url": "https://www.graphicsfuel.com/",
-          "description": ""
-        },
-        {
-          "name": "Pixeden",
-          "url": "https://www.pixeden.com/",
-          "description": ""
-        },
-        {
-          "name": "Sketch Repo",
-          "url": "https://sketchrepo.com/",
-          "description": ""
-        },
-        {
-          "name": "Interfacer",
-          "url": "https://interfacer.xyz/",
-          "description": ""
-        },
-        {
-          "name": "Freebiesbug",
-          "url": "https://freebiesbug.com/",
-          "description": ""
-        },
-        {
-          "name": "Sketch App Sources",
-          "url": "https://www.sketchappsources.com/",
-          "description": ""
-        },
-        {
-          "name": "FreebiesUI",
-          "url": "https://freebiesui.com/",
-          "description": ""
-        },
-        {
-          "name": "Creative Fabrica",
-          "url": "https://www.creativefabrica.com/freebies/",
-          "description": ""
-        },
-        {
-          "name": "Toools.design",
-          "url": "https://www.toools.design/",
-          "description": ""
-        },
-        {
-          "name": "2",
-          "url": "https://t.me/envatoss",
-          "description": ""
-        },
-        {
-          "name": "3",
-          "url": "https://t.me/elements_downloader_bot",
-          "description": ""
-        },
-        {
-          "name": "Evernote.Design",
-          "url": "https://www.evernote.design/",
-          "description": ""
-        },
-        {
-          "name": "GFXTRA",
-          "url": "https://www.gfxtra31.com/",
-          "description": ""
-        },
-        {
-          "name": "XSGames",
-          "url": "https://xsgames.co/devassets/",
-          "description": ""
-        },
-        {
-          "name": "design.dev",
-          "url": "https://design.dev/",
-          "description": ""
-        },
-        {
-          "name": "UI STORE DESIGN",
-          "url": "https://www.uistore.design/",
-          "description": ""
-        },
-        {
-          "name": "Charco",
-          "url": "https://www.charco.design/",
-          "description": ""
-        },
-        {
-          "name": "Pixelbuddha",
-          "url": "https://pixelbuddha.net/",
-          "description": ""
-        },
-        {
-          "name": "squax",
-          "url": "https://t.me/squaxassets",
-          "description": ""
-        },
-        {
-          "name": "𝖌𝖗𝖕𝖍𝖈 𝖉𝖘𝖌𝖓 𝖇𝖆𝖈𝖐𝖚𝖕",
-          "url": "https://t.me/designlabb",
-          "description": ""
-        },
-        {
-          "name": "all 4 designer",
-          "url": "https://t.me/all4designer",
-          "description": ""
-        },
-        {
-          "name": "GFXMountain",
-          "url": "https://gfxmountain.com/",
-          "description": ""
-        },
-        {
-          "name": "degreeless",
-          "url": "https://www.degreeless.design/",
-          "description": ""
-        },
-        {
-          "name": "CraftWork",
-          "url": "https://craftwork.design/catalog/freebies",
-          "description": ""
-        },
-        {
-          "name": "Gift4Designer",
-          "url": "https://gift4designer.net/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://freebies.bypeople.com/",
+            "https://designbundles.net/free-design-resources",
+            "https://designresourc.es/",
+            "https://psddd.co/",
+            "https://www.graphicsfuel.com/",
+            "https://www.pixeden.com/",
+            "https://sketchrepo.com/",
+            "https://interfacer.xyz/",
+            "https://freebiesbug.com/",
+            "https://www.sketchappsources.com/",
+            "https://freebiesui.com/",
+            "https://www.creativefabrica.com/freebies/",
+            "https://www.toools.design/",
+            "https://t.me/envatoss",
+            "https://t.me/elements_downloader_bot",
+            "https://www.evernote.design/",
+            "https://www.gfxtra31.com/",
+            "https://xsgames.co/devassets/",
+            "https://design.dev/",
+            "https://www.uistore.design/",
+            "https://www.charco.design/",
+            "https://pixelbuddha.net/",
+            "https://t.me/squaxassets",
+            "https://t.me/designlabb",
+            "https://t.me/all4designer",
+            "https://gfxmountain.com/",
+            "https://www.degreeless.design/",
+            "https://craftwork.design/catalog/freebies",
+            "https://gift4designer.net/"
+          ]
         }
       ]
     },
@@ -749,137 +377,35 @@
         {
           "name": "Painting Index",
           "url": "https://index-of.eu/Paintings/",
-          "description": ""
-        },
-        {
-          "name": "⁠The Met",
-          "url": "https://www.metmuseum.org/art/collection",
-          "description": ""
-        },
-        {
-          "name": "rijksstudio",
-          "url": "https://www.rijksmuseum.nl/en/rijksstudio",
-          "description": ""
-        },
-        {
-          "name": "Haltadefinizione",
-          "url": "https://www.haltadefinizione.com/en/",
-          "description": ""
-        },
-        {
-          "name": "Artcyclopedia",
-          "url": "http://www.artcyclopedia.com/",
-          "description": ""
-        },
-        {
-          "name": "The Wolfman Museum of Art",
-          "url": "https://wolfmanmuseum.org/",
-          "description": ""
-        },
-        {
-          "name": "DarkClassics",
-          "url": "https://darkclassics.blogspot.com/",
-          "description": ""
-        },
-        {
-          "name": "European Art",
-          "url": "https://photos.app.goo.gl/q5GRdpSvARAqhbSh6",
-          "description": ""
-        },
-        {
-          "name": "The Watercolour World",
-          "url": "https://www.watercolourworld.org/",
-          "description": ""
-        },
-        {
-          "name": "Museo",
-          "url": "https://museo.app/",
-          "description": ""
-        },
-        {
-          "name": "Arthur",
-          "url": "https://arthur.io/",
-          "description": ""
-        },
-        {
-          "name": "WGA",
-          "url": "https://www.wga.hu/",
-          "description": ""
-        },
-        {
-          "name": "Gallerix",
-          "url": "https://gallerix.org/",
-          "description": ""
-        },
-        {
-          "name": "WikiArt",
-          "url": "https://www.wikiart.org/",
-          "description": ""
-        },
-        {
-          "name": "Public Work",
-          "url": "https://public.work/",
-          "description": ""
-        },
-        {
-          "name": "Public Domain Image Archive",
-          "url": "https://pdimagearchive.org/",
-          "description": ""
-        },
-        {
-          "name": "V&A",
-          "url": "https://www.vam.ac.uk/",
-          "description": ""
-        },
-        {
-          "name": "Louvre",
-          "url": "https://collections.louvre.fr/en/",
-          "description": ""
-        },
-        {
-          "name": "Artchive",
-          "url": "https://www.artchive.com/",
-          "description": ""
-        },
-        {
-          "name": "S.D. Cason",
-          "url": "https://sdcason.com/categories/",
-          "description": ""
-        },
-        {
-          "name": "Frick",
-          "url": "https://www.frick.org/art",
-          "description": ""
-        },
-        {
-          "name": "RCT",
-          "url": "https://www.rct.uk/collection/",
-          "description": ""
-        },
-        {
-          "name": "Artic",
-          "url": "https://www.artic.edu/collection",
-          "description": ""
-        },
-        {
-          "name": "Artvee",
-          "url": "https://artvee.com/",
-          "description": ""
-        },
-        {
-          "name": "Moma",
-          "url": "https://www.moma.org/collection/",
-          "description": ""
-        },
-        {
-          "name": "Guggenheim",
-          "url": "https://www.guggenheim.org/collection-online",
-          "description": ""
-        },
-        {
-          "name": "Deutsche Digitale",
-          "url": "https://www.deutsche-digitale-bibliothek.de/?lang=en",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.metmuseum.org/art/collection",
+            "https://www.rijksmuseum.nl/en/rijksstudio",
+            "https://www.haltadefinizione.com/en/",
+            "http://www.artcyclopedia.com/",
+            "https://wolfmanmuseum.org/",
+            "https://darkclassics.blogspot.com/",
+            "https://photos.app.goo.gl/q5GRdpSvARAqhbSh6",
+            "https://www.watercolourworld.org/",
+            "https://museo.app/",
+            "https://arthur.io/",
+            "https://www.wga.hu/",
+            "https://gallerix.org/",
+            "https://www.wikiart.org/",
+            "https://public.work/",
+            "https://pdimagearchive.org/",
+            "https://www.vam.ac.uk/",
+            "https://collections.louvre.fr/en/",
+            "https://www.artchive.com/",
+            "https://sdcason.com/categories/",
+            "https://www.frick.org/art",
+            "https://www.rct.uk/collection/",
+            "https://www.artic.edu/collection",
+            "https://artvee.com/",
+            "https://www.moma.org/collection/",
+            "https://www.guggenheim.org/collection-online",
+            "https://www.deutsche-digitale-bibliothek.de/?lang=en"
+          ]
         }
       ]
     },
@@ -890,47 +416,17 @@
         {
           "name": "gfxfever",
           "url": "https://www.gfxfever.com/",
-          "description": ""
-        },
-        {
-          "name": "fbrushes",
-          "url": "https://fbrushes.com/",
-          "description": ""
-        },
-        {
-          "name": "brushes_and_patterns",
-          "url": "https://t.me/brushes_and_patterns",
-          "description": ""
-        },
-        {
-          "name": "myphotoshopbrushes",
-          "url": "https://myphotoshopbrushes.com/",
-          "description": ""
-        },
-        {
-          "name": "brusheezy",
-          "url": "https://www.brusheezy.com/brushes",
-          "description": ""
-        },
-        {
-          "name": "brushking",
-          "url": "https://www.brushking.eu/",
-          "description": ""
-        },
-        {
-          "name": "tala",
-          "url": "https://t.me/tala_photoshop_brushes",
-          "description": ""
-        },
-        {
-          "name": "BrushBase",
-          "url": "https://t.me/brushbase",
-          "description": ""
-        },
-        {
-          "name": "⁠daBrushes",
-          "url": "https://dabrushes.com/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://fbrushes.com/",
+            "https://t.me/brushes_and_patterns",
+            "https://myphotoshopbrushes.com/",
+            "https://www.brusheezy.com/brushes",
+            "https://www.brushking.eu/",
+            "https://t.me/tala_photoshop_brushes",
+            "https://t.me/brushbase",
+            "https://dabrushes.com/"
+          ]
         }
       ]
     },
@@ -947,77 +443,23 @@
         {
           "name": "Hagezi Blocklists",
           "url": "https://github.com/hagezi/dns-blocklists",
-          "description": ""
-        },
-        {
-          "name": "hBlock",
-          "url": "https://github.com/hectorm/hblock",
-          "description": ""
-        },
-        {
-          "name": "someonewhocares",
-          "url": "https://someonewhocares.org/hosts/",
-          "description": ""
-        },
-        {
-          "name": "Hosts File Aggregator",
-          "url": "https://github.com/StevenBlack/hosts",
-          "description": ""
-        },
-        {
-          "name": "Spamhaus",
-          "url": "https://www.spamhaus.org/",
-          "description": ""
-        },
-        {
-          "name": "Anudeep's Blacklist",
-          "url": "https://github.com/anudeepND/blacklist",
-          "description": ""
-        },
-        {
-          "name": "Lightswitch05",
-          "url": "https://www.github.developerdan.com/hosts/",
-          "description": ""
-        },
-        {
-          "name": "black-mirror",
-          "url": "https://github.com/T145/black-mirror",
-          "description": ""
-        },
-        {
-          "name": "Scam Blocklist",
-          "url": "https://github.com/durablenapkin/scamblocklist",
-          "description": ""
-        },
-        {
-          "name": "hBlock",
-          "url": "https://hblock.molinero.dev/",
-          "description": ""
-        },
-        {
-          "name": "Additional Undesired Hosts",
-          "url": "https://github.com/DRSDavidSoft/additional-hosts",
-          "description": ""
-        },
-        {
-          "name": "neodevhost",
-          "url": "https://github.com/neodevpro/neodevhost",
-          "description": ""
-        },
-        {
-          "name": "Piperun's IP-Logger Filter",
-          "url": "https://github.com/piperun/iploggerfilter",
-          "description": ""
-        },
-        {
-          "name": "mullvad blocklists",
-          "url": "https://github.com/mullvad/dns-blocklists",
-          "description": ""
-        },
-        {
-          "name": "1Hosts",
-          "url": "https://o0.pages.dev/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/hectorm/hblock",
+            "https://someonewhocares.org/hosts/",
+            "https://github.com/StevenBlack/hosts",
+            "https://www.spamhaus.org/",
+            "https://github.com/anudeepND/blacklist",
+            "https://www.github.developerdan.com/hosts/",
+            "https://github.com/T145/black-mirror",
+            "https://github.com/durablenapkin/scamblocklist",
+            "https://hblock.molinero.dev/",
+            "https://github.com/DRSDavidSoft/additional-hosts",
+            "https://github.com/neodevpro/neodevhost",
+            "https://github.com/piperun/iploggerfilter",
+            "https://github.com/mullvad/dns-blocklists",
+            "https://o0.pages.dev/"
+          ]
         }
       ]
     },
@@ -1040,47 +482,17 @@
         {
           "name": "DuckDNS",
           "url": "https://www.duckdns.org/",
-          "description": ""
-        },
-        {
-          "name": "ClouDNS",
-          "url": "https://www.cloudns.net/",
-          "description": ""
-        },
-        {
-          "name": "FreeDNS",
-          "url": "https://freedns.afraid.org/",
-          "description": ""
-        },
-        {
-          "name": "Warning",
-          "url": "https://freedns.afraid.org/queue/explanation.php",
-          "description": ""
-        },
-        {
-          "name": "dynu",
-          "url": "https://dynu.com/",
-          "description": ""
-        },
-        {
-          "name": "NoIP",
-          "url": "https://www.noip.com/",
-          "description": ""
-        },
-        {
-          "name": "myaddr",
-          "url": "https://myaddr.tools/",
-          "description": ""
-        },
-        {
-          "name": "nsupdate",
-          "url": "https://www.nsupdate.info/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/nsupdate-info/nsupdate.info",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.cloudns.net/",
+            "https://freedns.afraid.org/",
+            "https://freedns.afraid.org/queue/explanation.php",
+            "https://dynu.com/",
+            "https://www.noip.com/",
+            "https://myaddr.tools/",
+            "https://www.nsupdate.info/",
+            "https://github.com/nsupdate-info/nsupdate.info"
+          ]
         }
       ]
     },
@@ -1091,32 +503,14 @@
         {
           "name": "DigitalPlat",
           "url": "https://domain.digitalplat.org/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/DigitalPlatDev/FreeDomain",
-          "description": ""
-        },
-        {
-          "name": "is-a.dev",
-          "url": "https://www.is-a.dev/",
-          "description": ""
-        },
-        {
-          "name": "JS.ORG",
-          "url": "https://js.org/",
-          "description": ""
-        },
-        {
-          "name": "TheDev",
-          "url": "https://thedev.id/",
-          "description": ""
-        },
-        {
-          "name": "GetFreeDomain",
-          "url": "https://www.getfreedomain.name/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/DigitalPlatDev/FreeDomain",
+            "https://www.is-a.dev/",
+            "https://js.org/",
+            "https://thedev.id/",
+            "https://www.getfreedomain.name/"
+          ]
         }
       ]
     },
@@ -1198,7 +592,7 @@
           "description": "Neo Geo Browser Emulator / NeptunJS"
         }
       ],
-      "note": "These serve as frontends for the EmulatorJS + NeptunJS emulator APIs."
+      "note": "これらは以下のフロントエンドとして機能します： the EmulatorJS + NeptunJS emulator APIs."
     },
     {
       "id": "storage-free-dns-resolvers",
@@ -1251,32 +645,26 @@
         {
           "name": "Unbound",
           "url": "https://www.nlnetlabs.nl/projects/unbound/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/NLnetLabs/unbound",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/NLnetLabs/unbound"
+          ]
         },
         {
           "name": "Bancuh",
           "url": "https://bancuh.com/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/ragibkl/adblock-dns-server",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/ragibkl/adblock-dns-server"
+          ]
         },
         {
           "name": "AdGuard",
           "url": "https://adguard-dns.io/en/public-dns.html",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/AdguardTeam/AdguardSDNSFilter",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/AdguardTeam/AdguardSDNSFilter"
+          ]
         },
         {
           "name": "DNS for Family",
@@ -1307,12 +695,10 @@
         {
           "name": "F0rc3Run",
           "url": "https://f0rc3run.github.io/F0rc3Run-panel/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/F0rc3Run/F0rc3Run",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/F0rc3Run/F0rc3Run"
+          ]
         },
         {
           "name": "V2Nodes",
@@ -1410,12 +796,10 @@
         {
           "name": "proxy_socks5_bot",
           "url": "https://t.me/BestMTProxyBot",
-          "description": "Telegram Shadowsocks Bots"
-        },
-        {
-          "name": "ShadowSocks_bot",
-          "url": "https://t.me/ShadowSocks_bot",
-          "description": "Telegram Shadowsocks Bots"
+          "description": "Telegram Shadowsocks Bots",
+          "mirrors": [
+            "https://t.me/ShadowSocks_bot"
+          ]
         }
       ],
       "note": "These servers are community sourced, do not use with sensitive data, or ideally just self-host them if you can."
@@ -1469,12 +853,10 @@
         {
           "name": "Impossible Levels List",
           "url": "https://impossiblelevels.com/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/MHx4Nbp",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.gg/MHx4Nbp"
+          ]
         },
         {
           "name": "Nine Circles Demonlist",
@@ -1508,32 +890,14 @@
         {
           "name": "Awesome Made by Brazilians",
           "url": "https://github.com/felipefialho/awesome-made-by-brazilians",
-          "description": ""
-        },
-        {
-          "name": "Awesome Opensource Apps",
-          "url": "https://github.com/unicodeveloper/awesome-opensource-apps",
-          "description": ""
-        },
-        {
-          "name": "LibHunt",
-          "url": "https://www.libhunt.com/",
-          "description": ""
-        },
-        {
-          "name": "bestofjs",
-          "url": "https://bestofjs.org/",
-          "description": ""
-        },
-        {
-          "name": "git.news",
-          "url": "https://git.news/",
-          "description": ""
-        },
-        {
-          "name": "GitPlanet",
-          "url": "https://gitplanet.com/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/unicodeveloper/awesome-opensource-apps",
+            "https://www.libhunt.com/",
+            "https://bestofjs.org/",
+            "https://git.news/",
+            "https://gitplanet.com/"
+          ]
         }
       ]
     },
@@ -1545,67 +909,27 @@
           "name": "TheMoeWay",
           "url": "https://learnjapanese.moe/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/nhqjydaR8j",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://discord.gg/nhqjydaR8j"
+          ]
         },
         {
           "name": "Kakugo",
           "url": "https://github.com/blastrock/kakugo",
-          "description": ""
-        },
-        {
-          "name": "Marshall's Site",
-          "url": "https://marshallyin.com/",
-          "description": ""
-        },
-        {
-          "name": "HeyJapan",
-          "url": "https://heyjapan.net/",
-          "description": ""
-        },
-        {
-          "name": "Renshuu",
-          "url": "https://www.renshuu.org/",
-          "description": ""
-        },
-        {
-          "name": "GuideToJapanese",
-          "url": "https://guidetojapanese.org/",
-          "description": ""
-        },
-        {
-          "name": "jpdb",
-          "url": "https://jpdb.io/",
-          "description": ""
-        },
-        {
-          "name": "NativShark",
-          "url": "https://www.nativshark.com/",
-          "description": ""
-        },
-        {
-          "name": "Donkuri",
-          "url": "https://donkuri.github.io/learn-japanese/",
-          "description": ""
-        },
-        {
-          "name": "Tofugu",
-          "url": "https://www.tofugu.com/",
-          "description": ""
-        },
-        {
-          "name": "KanaDojo",
-          "url": "https://kanadojo.com/en",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/lingdojo/kana-dojo",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://marshallyin.com/",
+            "https://heyjapan.net/",
+            "https://www.renshuu.org/",
+            "https://guidetojapanese.org/",
+            "https://jpdb.io/",
+            "https://www.nativshark.com/",
+            "https://donkuri.github.io/learn-japanese/",
+            "https://www.tofugu.com/",
+            "https://kanadojo.com/en",
+            "https://github.com/lingdojo/kana-dojo"
+          ]
         }
       ]
     },
@@ -1616,17 +940,11 @@
         {
           "name": "Japanese Ammo with Misa",
           "url": "https://www.youtube.com/@JapaneseAmmowithMisa",
-          "description": ""
-        },
-        {
-          "name": "Comprehensible Japanese",
-          "url": "https://www.youtube.com/@cijapanese",
-          "description": ""
-        },
-        {
-          "name": "JapanesePod101",
-          "url": "https://www.youtube.com/@JapanesePod101",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.youtube.com/@cijapanese",
+            "https://www.youtube.com/@JapanesePod101"
+          ]
         }
       ]
     },
@@ -1652,52 +970,18 @@
         {
           "name": "Jotoba",
           "url": "https://jotoba.de/",
-          "description": ""
-        },
-        {
-          "name": "Tagaini",
-          "url": "https://www.tagaini.net/",
-          "description": ""
-        },
-        {
-          "name": "Takoboto",
-          "url": "https://takoboto.jp/",
-          "description": ""
-        },
-        {
-          "name": "Jisho",
-          "url": "https://jisho.org/",
-          "description": ""
-        },
-        {
-          "name": "Massif",
-          "url": "https://github.com/rsimmons/massif",
-          "description": ""
-        },
-        {
-          "name": "Shirabe Jisho",
-          "url": "https://apps.apple.com/us/app/shirabe-jisho/id1005203380",
-          "description": ""
-        },
-        {
-          "name": "JapBase",
-          "url": "https://japbase.neocities.org/",
-          "description": ""
-        },
-        {
-          "name": "Weblio",
-          "url": "https://ejje.weblio.jp/",
-          "description": ""
-        },
-        {
-          "name": "JS-Dict",
-          "url": "https://github.com/petlyh/JS-Dict",
-          "description": ""
-        },
-        {
-          "name": "rtk-search",
-          "url": "https://hochanh.github.io/rtk/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.tagaini.net/",
+            "https://takoboto.jp/",
+            "https://jisho.org/",
+            "https://github.com/rsimmons/massif",
+            "https://apps.apple.com/us/app/shirabe-jisho/id1005203380",
+            "https://japbase.neocities.org/",
+            "https://ejje.weblio.jp/",
+            "https://github.com/petlyh/JS-Dict",
+            "https://hochanh.github.io/rtk/"
+          ]
         }
       ]
     },
@@ -1713,32 +997,14 @@
         {
           "name": "KanjiDamage",
           "url": "https://www.kanjidamage.com/",
-          "description": ""
-        },
-        {
-          "name": "KanjiDamagePlus",
-          "url": "https://kanjidamageplus.neocities.org/",
-          "description": ""
-        },
-        {
-          "name": "Kanji-Dojo",
-          "url": "https://github.com/syt0r/Kanji-Dojo",
-          "description": ""
-        },
-        {
-          "name": "Koohii",
-          "url": "https://kanji.koohii.com/",
-          "description": ""
-        },
-        {
-          "name": "Deck",
-          "url": "https://ankiweb.net/shared/info/748570187",
-          "description": ""
-        },
-        {
-          "name": "Manji",
-          "url": "https://github.com/Livinglist/Manji",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://kanjidamageplus.neocities.org/",
+            "https://github.com/syt0r/Kanji-Dojo",
+            "https://kanji.koohii.com/",
+            "https://ankiweb.net/shared/info/748570187",
+            "https://github.com/Livinglist/Manji"
+          ]
         }
       ]
     },
@@ -1749,17 +1015,11 @@
         {
           "name": "Search Extension",
           "url": "https://chromewebstore.google.com/detail/libgen-search/cbcehgllfaddbjidleabcdjpldlognad",
-          "description": ""
-        },
-        {
-          "name": "Need Seeds",
-          "url": "https://phillm.net/libgen-seeds-needed.php",
-          "description": ""
-        },
-        {
-          "name": "Backup",
-          "url": "https://redd.it/edwi9b",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://phillm.net/libgen-seeds-needed.php",
+            "https://redd.it/edwi9b"
+          ]
         }
       ]
     },
@@ -1771,57 +1031,25 @@
           "name": "HakuNeko",
           "url": "https://hakuneko.download/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/manga-download/hakuneko",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/manga-download/hakuneko"
+          ]
         },
         {
           "name": "Comics Downloader",
           "url": "https://github.com/Girbons/comics-downloader",
-          "description": ""
-        },
-        {
-          "name": "Comic-DL",
-          "url": "https://github.com/Xonshiz/comic-dl",
-          "description": ""
-        },
-        {
-          "name": "work_crawler",
-          "url": "https://github.com/kanasimi/work_crawler/blob/master/document/README.en-US.md",
-          "description": ""
-        },
-        {
-          "name": "Manga Downloader",
-          "url": "https://www.redsquirrel87.altervista.org/doku.php/manga-downloader",
-          "description": ""
-        },
-        {
-          "name": "HDoujinDownloader",
-          "url": "https://github.com/HDoujinDownloader/HDoujinDownloader",
-          "description": ""
-        },
-        {
-          "name": "FMD2",
-          "url": "https://github.com/dazedcat19/FMD2",
-          "description": ""
-        },
-        {
-          "name": "mangadesk",
-          "url": "https://github.com/darylhjd/mangadesk",
-          "description": ""
-        },
-        {
-          "name": "mangodl",
-          "url": "https://github.com/liamtoaldo/mangodl",
-          "description": ""
-        },
-        {
-          "name": "anime-dl",
-          "url": "https://github.com/vrienstudios/anime-dl",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/Xonshiz/comic-dl",
+            "https://github.com/kanasimi/work_crawler/blob/master/document/README.en-US.md",
+            "https://www.redsquirrel87.altervista.org/doku.php/manga-downloader",
+            "https://github.com/HDoujinDownloader/HDoujinDownloader",
+            "https://github.com/dazedcat19/FMD2",
+            "https://github.com/darylhjd/mangadesk",
+            "https://github.com/liamtoaldo/mangodl",
+            "https://github.com/vrienstudios/anime-dl"
+          ]
         }
       ]
     },
@@ -1839,52 +1067,24 @@
           "name": "Houdoku",
           "url": "https://houdoku.org/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/xgi/houdoku",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/xgi/houdoku"
+          ]
         },
         {
           "name": "AllMangasReader",
           "url": "https://allmangasreader.com/",
-          "description": ""
-        },
-        {
-          "name": "Adolla",
-          "url": "https://github.com/AdollaApp/Adolla",
-          "description": ""
-        },
-        {
-          "name": "OpenComic",
-          "url": "https://github.com/ollm/OpenComic",
-          "description": ""
-        },
-        {
-          "name": "Tachidesk-Sorayomi",
-          "url": "https://github.com/Suwayomi/Tachidesk-Sorayomi",
-          "description": ""
-        },
-        {
-          "name": "Manga-Organizer",
-          "url": "https://gitgud.io/Nagru/Manga-Organizer",
-          "description": ""
-        },
-        {
-          "name": "MangaOnlineViewer",
-          "url": "https://github.com/TagoDR/MangaOnlineViewer",
-          "description": ""
-        },
-        {
-          "name": "LANraragi",
-          "url": "https://github.com/Difegue/LANraragi",
-          "description": ""
-        },
-        {
-          "name": "Unyo",
-          "url": "https://github.com/K3vinb5/Unyo",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/AdollaApp/Adolla",
+            "https://github.com/ollm/OpenComic",
+            "https://github.com/Suwayomi/Tachidesk-Sorayomi",
+            "https://gitgud.io/Nagru/Manga-Organizer",
+            "https://github.com/TagoDR/MangaOnlineViewer",
+            "https://github.com/Difegue/LANraragi",
+            "https://github.com/K3vinb5/Unyo"
+          ]
         }
       ]
     },
@@ -1895,32 +1095,14 @@
         {
           "name": "HappyPanda X",
           "url": "https://happypandax.github.io/",
-          "description": ""
-        },
-        {
-          "name": "KavitaReader",
-          "url": "https://www.kavitareader.com/",
-          "description": ""
-        },
-        {
-          "name": "Komga",
-          "url": "https://komga.org/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/gotson/komga",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/TdRpkDu",
-          "description": ""
-        },
-        {
-          "name": "atsumeru",
-          "url": "https://atsumeru.xyz/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.kavitareader.com/",
+            "https://komga.org/",
+            "https://github.com/gotson/komga",
+            "https://discord.gg/TdRpkDu",
+            "https://atsumeru.xyz/"
+          ]
         }
       ]
     },
@@ -1931,32 +1113,14 @@
         {
           "name": "Apps",
           "url": "https://trakt.tv/apps",
-          "description": ""
-        },
-        {
-          "name": "Recommendations",
-          "url": "https://couchmoney.tv/",
-          "description": ""
-        },
-        {
-          "name": "Universal Scrobble",
-          "url": "https://github.com/trakt-tools/universal-trakt-scrobbler",
-          "description": ""
-        },
-        {
-          "name": "Create Lists",
-          "url": "https://listrr.pro/",
-          "description": ""
-        },
-        {
-          "name": "Anilist Sync",
-          "url": "https://anitrakt.huere.net/",
-          "description": ""
-        },
-        {
-          "name": "List Import",
-          "url": "https://github.com/damienhaynes/TraktRater",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://couchmoney.tv/",
+            "https://github.com/trakt-tools/universal-trakt-scrobbler",
+            "https://listrr.pro/",
+            "https://anitrakt.huere.net/",
+            "https://github.com/damienhaynes/TraktRater"
+          ]
         }
       ]
     },
@@ -1967,27 +1131,13 @@
         {
           "name": "Multi Tool",
           "url": "https://www.letterboxd.tools/",
-          "description": ""
-        },
-        {
-          "name": "Extra Site Ratings",
-          "url": "https://github.com/duncanlang/Letterboxd-Extras/",
-          "description": ""
-        },
-        {
-          "name": "Shortcuts",
-          "url": "https://github.com/alandours/letterboxd-shortcuts",
-          "description": ""
-        },
-        {
-          "name": "Watchlist Picker",
-          "url": "https://watchlistpicker.com/",
-          "description": ""
-        },
-        {
-          "name": "Collections",
-          "url": "https://mrdys.github.io/letterboxd-completionist/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/duncanlang/Letterboxd-Extras/",
+            "https://github.com/alandours/letterboxd-shortcuts",
+            "https://watchlistpicker.com/",
+            "https://mrdys.github.io/letterboxd-completionist/"
+          ]
         }
       ]
     },
@@ -1998,62 +1148,20 @@
         {
           "name": "Redesign",
           "url": "https://hritikvaishnav.github.io/Project-Redesign/public/mal.html",
-          "description": ""
-        },
-        {
-          "name": "Extension",
-          "url": "https://anime.plus/",
-          "description": ""
-        },
-        {
-          "name": "Scripts",
-          "url": "https://myanimelist.net/forum/?topicid=1849731",
-          "description": ""
-        },
-        {
-          "name": "Stats / Badges",
-          "url": "https://www.mal-badges.com/",
-          "description": ""
-        },
-        {
-          "name": "Stats",
-          "url": "https://anime.plus/",
-          "description": ""
-        },
-        {
-          "name": "Search Helper",
-          "url": "https://greasyfork.org/en/scripts/429784",
-          "description": ""
-        },
-        {
-          "name": "Hide Seen",
-          "url": "https://greasyfork.org/en/scripts/17961",
-          "description": ""
-        },
-        {
-          "name": "Export",
-          "url": "https://malscraper.azurewebsites.net/",
-          "description": ""
-        },
-        {
-          "name": "Site Sync",
-          "url": "https://malsync.moe/",
-          "description": ""
-        },
-        {
-          "name": "MALSync Discord",
-          "url": "https://discord.com/invite/cTH4yaw",
-          "description": ""
-        },
-        {
-          "name": "API",
-          "url": "https://jikan.moe/",
-          "description": ""
-        },
-        {
-          "name": "Tier Lists",
-          "url": "https://www.gomitier.tech/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://anime.plus/",
+            "https://myanimelist.net/forum/?topicid=1849731",
+            "https://www.mal-badges.com/",
+            "https://anime.plus/",
+            "https://greasyfork.org/en/scripts/429784",
+            "https://greasyfork.org/en/scripts/17961",
+            "https://malscraper.azurewebsites.net/",
+            "https://malsync.moe/",
+            "https://discord.com/invite/cTH4yaw",
+            "https://jikan.moe/",
+            "https://www.gomitier.tech/"
+          ]
         }
       ]
     },
@@ -2064,32 +1172,14 @@
         {
           "name": "Multiple Tools",
           "url": "https://due.moe/tools",
-          "description": ""
-        },
-        {
-          "name": "Desktop",
-          "url": "https://github.com/CosmicPredator/AniMoe",
-          "description": ""
-        },
-        {
-          "name": "Wrapper",
-          "url": "https://github.com/AurelicButter/AniList-Node",
-          "description": ""
-        },
-        {
-          "name": "Extras",
-          "url": "https://greasyfork.org/en/scripts/370473-automail",
-          "description": ""
-        },
-        {
-          "name": "MPV Sync",
-          "url": "https://github.com/hotsno/keroro",
-          "description": ""
-        },
-        {
-          "name": "Tier Lists",
-          "url": "https://www.gomitier.tech/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/CosmicPredator/AniMoe",
+            "https://github.com/AurelicButter/AniList-Node",
+            "https://greasyfork.org/en/scripts/370473-automail",
+            "https://github.com/hotsno/keroro",
+            "https://www.gomitier.tech/"
+          ]
         }
       ]
     },
@@ -2101,22 +1191,12 @@
           "name": "Modrinth",
           "url": "https://modrinth.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Redirector",
-          "url": "https://github.com/devBoi76/modrinthify",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/EUHuJHt",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/modrinth/code",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/devBoi76/modrinthify",
+            "https://discord.com/invite/EUHuJHt",
+            "https://github.com/modrinth/code"
+          ]
         },
         {
           "name": "UsefulMods",
@@ -2130,17 +1210,11 @@
         {
           "name": "CurseForge",
           "url": "https://www.curseforge.com/minecraft",
-          "description": ""
-        },
-        {
-          "name": "QOL Fixes",
-          "url": "https://greasyfork.org/en/scripts/389255-curseforge-qol-fixes",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/curseforge",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://greasyfork.org/en/scripts/389255-curseforge-qol-fixes",
+            "https://discord.com/invite/curseforge"
+          ]
         },
         {
           "name": "ModBay",
@@ -2153,12 +1227,10 @@
         {
           "name": "Planet Minecraft",
           "url": "https://www.planetminecraft.com/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/QQSWwyg",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.com/invite/QQSWwyg"
+          ]
         },
         {
           "name": "MC Archive",
@@ -2179,22 +1251,18 @@
         {
           "name": "ModpackIndex",
           "url": "https://www.modpackindex.com/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/9QfENvm",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.com/invite/9QfENvm"
+          ]
         },
         {
           "name": "Minecraft Forum",
           "url": "https://www.minecraftforum.net/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.com/invite/wGrQNKX",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.com/invite/wGrQNKX"
+          ]
         }
       ]
     },
@@ -2262,7 +1330,7 @@
           "description": "Bedrock Launcher / macOS / Linux"
         }
       ],
-      "note": "The following options require an official Minecraft account to use."
+      "note": "The following options require an official Minecraft アカウント to use."
     },
     {
       "id": "storage-multireddits",
@@ -2271,122 +1339,32 @@
         {
           "name": "Piracy",
           "url": "https://www.reddit.com/user/nbatman/m/piracy/",
-          "description": ""
-        },
-        {
-          "name": "2",
-          "url": "https://www.reddit.com/user/rekuloustoad/m/the_piracy_feed/",
-          "description": ""
-        },
-        {
-          "name": "3",
-          "url": "https://www.reddit.com/user/nanomuto/m/piracyhub/",
-          "description": ""
-        },
-        {
-          "name": "4",
-          "url": "https://www.reddit.com/user/goretsky/m/piracy_counterfeit_goods/",
-          "description": ""
-        },
-        {
-          "name": "Random",
-          "url": "https://www.reddit.com/user/nbatman/m/random/",
-          "description": ""
-        },
-        {
-          "name": "2",
-          "url": "https://www.reddit.com/user/nbatman/m/random2/",
-          "description": ""
-        },
-        {
-          "name": "Streaming",
-          "url": "https://www.reddit.com/user/nbatman/m/streaming/",
-          "description": ""
-        },
-        {
-          "name": "Cord Free TV",
-          "url": "https://www.reddit.com/user/efidol/m/cordfreetv/",
-          "description": ""
-        },
-        {
-          "name": "Piracy Leaks",
-          "url": "https://www.reddit.com/user/nbatman/m/leaks/",
-          "description": ""
-        },
-        {
-          "name": "News",
-          "url": "https://www.reddit.com/user/nbatman/m/news/",
-          "description": ""
-        },
-        {
-          "name": "Tech",
-          "url": "https://www.reddit.com/user/goretsky/m/win_itpro/",
-          "description": ""
-        },
-        {
-          "name": "Left",
-          "url": "https://www.reddit.com/user/nbatman/m/left/",
-          "description": ""
-        },
-        {
-          "name": "2",
-          "url": "https://www.reddit.com/user/nbatman/m/left_2/",
-          "description": ""
-        },
-        {
-          "name": "Mysteries",
-          "url": "https://www.reddit.com/user/nbatman/m/mysteries/",
-          "description": ""
-        },
-        {
-          "name": "Aliens",
-          "url": "https://www.reddit.com/user/nbatman/m/aliens/",
-          "description": ""
-        },
-        {
-          "name": "Paranormal",
-          "url": "https://www.reddit.com/user/nbatman/m/paranormal/",
-          "description": ""
-        },
-        {
-          "name": "Metaphysics",
-          "url": "https://www.reddit.com/user/nbatman/m/metaphysics/",
-          "description": ""
-        },
-        {
-          "name": "Minimalism",
-          "url": "https://www.reddit.com/user/rainbowlemon/m/minimalist_lifestyle/",
-          "description": ""
-        },
-        {
-          "name": "Countries",
-          "url": "https://www.reddit.com/user/sneaky5erpent/m/countries/",
-          "description": ""
-        },
-        {
-          "name": "2",
-          "url": "https://www.reddit.com/user/sneaky5erpent/m/countries2/",
-          "description": ""
-        },
-        {
-          "name": "International AskARedditor",
-          "url": "https://www.reddit.com/user/sneaky5erpent/m/ask_people_nationality/",
-          "description": ""
-        },
-        {
-          "name": "Text Only",
-          "url": "https://www.reddit.com/user/aokaga/m/stories",
-          "description": ""
-        },
-        {
-          "name": "Chess",
-          "url": "https://www.reddit.com/user/korfor/m/chess/",
-          "description": ""
-        },
-        {
-          "name": "Engineering",
-          "url": "https://www.reddit.com/user/nbatman/m/engineering/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.reddit.com/user/rekuloustoad/m/the_piracy_feed/",
+            "https://www.reddit.com/user/nanomuto/m/piracyhub/",
+            "https://www.reddit.com/user/goretsky/m/piracy_counterfeit_goods/",
+            "https://www.reddit.com/user/nbatman/m/random/",
+            "https://www.reddit.com/user/nbatman/m/random2/",
+            "https://www.reddit.com/user/nbatman/m/streaming/",
+            "https://www.reddit.com/user/efidol/m/cordfreetv/",
+            "https://www.reddit.com/user/nbatman/m/leaks/",
+            "https://www.reddit.com/user/nbatman/m/news/",
+            "https://www.reddit.com/user/goretsky/m/win_itpro/",
+            "https://www.reddit.com/user/nbatman/m/left/",
+            "https://www.reddit.com/user/nbatman/m/left_2/",
+            "https://www.reddit.com/user/nbatman/m/mysteries/",
+            "https://www.reddit.com/user/nbatman/m/aliens/",
+            "https://www.reddit.com/user/nbatman/m/paranormal/",
+            "https://www.reddit.com/user/nbatman/m/metaphysics/",
+            "https://www.reddit.com/user/rainbowlemon/m/minimalist_lifestyle/",
+            "https://www.reddit.com/user/sneaky5erpent/m/countries/",
+            "https://www.reddit.com/user/sneaky5erpent/m/countries2/",
+            "https://www.reddit.com/user/sneaky5erpent/m/ask_people_nationality/",
+            "https://www.reddit.com/user/aokaga/m/stories",
+            "https://www.reddit.com/user/korfor/m/chess/",
+            "https://www.reddit.com/user/nbatman/m/engineering/"
+          ]
         }
       ]
     },
@@ -2404,12 +1382,10 @@
           "name": "Musescore.com",
           "url": "https://musescore.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Downloader",
-          "url": "https://github.com/LibreScore/dl-librescore",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://github.com/LibreScore/dl-librescore"
+          ]
         },
         {
           "name": "8notes",
@@ -2490,17 +1466,11 @@
         {
           "name": "Piano Sheet Music",
           "url": "https://drive.google.com/drive/folders/0BxkQJMTuId4dfkxiM01GYnFBUFdDVmRHMGREM1JKYVdBajJtV2pVSExrS2txT1BOdXlfMUE?resourcekey=0-4uwizkHnsGLakmC-cA173A",
-          "description": "Sheet Music Drives"
-        },
-        {
-          "name": "2",
-          "url": "https://drive.google.com/drive/folders/1-hieArroBCq1x6z4GQ_gdFuyEz_Ftvxg",
-          "description": "Sheet Music Drives"
-        },
-        {
-          "name": "Anime Sheet Music",
-          "url": "https://drive.google.com/drive/folders/0B2k9HIXzBEfMVlgxTlhNWThzZkk?resourcekey=0-q0RdwD55Az5S3NigaliZEA",
-          "description": "Sheet Music Drives"
+          "description": "Sheet Music Drives",
+          "mirrors": [
+            "https://drive.google.com/drive/folders/1-hieArroBCq1x6z4GQ_gdFuyEz_Ftvxg",
+            "https://drive.google.com/drive/folders/0B2k9HIXzBEfMVlgxTlhNWThzZkk?resourcekey=0-q0RdwD55Az5S3NigaliZEA"
+          ]
         },
         {
           "name": "ChoralWiki",
@@ -2525,12 +1495,10 @@
         {
           "name": "themorgan",
           "url": "https://www.themorgan.org/music",
-          "description": "Music Manuscripts"
-        },
-        {
-          "name": "Silent Film Archive",
-          "url": "https://www.sfsma.org/",
-          "description": "Music Manuscripts"
+          "description": "Music Manuscripts",
+          "mirrors": [
+            "https://www.sfsma.org/"
+          ]
         },
         {
           "name": "DIAMM",
@@ -2540,12 +1508,10 @@
         {
           "name": "UNT Digital Library",
           "url": "https://digital.library.unt.edu/explore/collections/VRBR/browse/",
-          "description": "Rare Manuscripts"
-        },
-        {
-          "name": "chopin",
-          "url": "https://chopin.lib.uchicago.edu/",
-          "description": "Rare Manuscripts"
+          "description": "Rare Manuscripts",
+          "mirrors": [
+            "https://chopin.lib.uchicago.edu/"
+          ]
         },
         {
           "name": "mozarteum",
@@ -2565,12 +1531,10 @@
         {
           "name": "Contemporary Music Score",
           "url": "https://escholarship.org/uc/uclamusicscores",
-          "description": "University Collections"
-        },
-        {
-          "name": "UNC",
-          "url": "https://dc.lib.unc.edu/cdm/landingpage/collection/sheetmusic",
-          "description": "University Collections"
+          "description": "University Collections",
+          "mirrors": [
+            "https://dc.lib.unc.edu/cdm/landingpage/collection/sheetmusic"
+          ]
         },
         {
           "name": "Sheet Music Consortium",
@@ -2591,102 +1555,28 @@
         {
           "name": "CleanPNG",
           "url": "https://www.cleanpng.com/",
-          "description": ""
-        },
-        {
-          "name": "PNGWing",
-          "url": "https://www.pngwing.com/",
-          "description": ""
-        },
-        {
-          "name": "PNGEgg",
-          "url": "https://www.pngegg.com/",
-          "description": ""
-        },
-        {
-          "name": "AnyRGB",
-          "url": "https://www.anyrgb.com/",
-          "description": ""
-        },
-        {
-          "name": "HiClipart",
-          "url": "https://www.hiclipart.com/",
-          "description": ""
-        },
-        {
-          "name": "HDClipArtAll",
-          "url": "https://hdclipartall.com/",
-          "description": ""
-        },
-        {
-          "name": "pngmart",
-          "url": "https://www.pngmart.com/",
-          "description": ""
-        },
-        {
-          "name": "pngall",
-          "url": "https://www.pngall.com/",
-          "description": ""
-        },
-        {
-          "name": "pngplay",
-          "url": "https://www.pngplay.com/",
-          "description": ""
-        },
-        {
-          "name": "freepngimg",
-          "url": "https://www.freepngimg.com/",
-          "description": ""
-        },
-        {
-          "name": "KindPNG",
-          "url": "https://www.kindpng.com/",
-          "description": ""
-        },
-        {
-          "name": "FreePNGLogos",
-          "url": "https://www.freepnglogos.com/",
-          "description": ""
-        },
-        {
-          "name": "PNGFind",
-          "url": "https://www.pngfind.com",
-          "description": ""
-        },
-        {
-          "name": "PNGHero",
-          "url": "https://pnghero.com/",
-          "description": ""
-        },
-        {
-          "name": "PlusPNG",
-          "url": "https://pluspng.com/",
-          "description": ""
-        },
-        {
-          "name": "PNGHut",
-          "url": "https://pnghut.com/",
-          "description": ""
-        },
-        {
-          "name": "openclipart",
-          "url": "https://openclipart.org",
-          "description": ""
-        },
-        {
-          "name": "transparentpng",
-          "url": "https://www.transparentpng.com/",
-          "description": ""
-        },
-        {
-          "name": "pngfind",
-          "url": "https://www.pngfind.com/",
-          "description": ""
-        },
-        {
-          "name": "pikpng",
-          "url": "https://www.pikpng.com/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.pngwing.com/",
+            "https://www.pngegg.com/",
+            "https://www.anyrgb.com/",
+            "https://www.hiclipart.com/",
+            "https://hdclipartall.com/",
+            "https://www.pngmart.com/",
+            "https://www.pngall.com/",
+            "https://www.pngplay.com/",
+            "https://www.freepngimg.com/",
+            "https://www.kindpng.com/",
+            "https://www.freepnglogos.com/",
+            "https://www.pngfind.com",
+            "https://pnghero.com/",
+            "https://pluspng.com/",
+            "https://pnghut.com/",
+            "https://openclipart.org",
+            "https://www.transparentpng.com/",
+            "https://www.pngfind.com/",
+            "https://www.pikpng.com/"
+          ]
         }
       ]
     },
@@ -2697,52 +1587,18 @@
         {
           "name": "PollCode",
           "url": "https://pollcode.com/",
-          "description": ""
-        },
-        {
-          "name": "minipoll",
-          "url": "https://minipoll.co/",
-          "description": ""
-        },
-        {
-          "name": "PickVote",
-          "url": "https://pickvote.web.app/",
-          "description": ""
-        },
-        {
-          "name": "StrawPoll",
-          "url": "https://strawpoll.com/",
-          "description": ""
-        },
-        {
-          "name": "framadate",
-          "url": "https://framadate.org/",
-          "description": ""
-        },
-        {
-          "name": "polltab",
-          "url": "https://www.polltab.com/",
-          "description": ""
-        },
-        {
-          "name": "polling-app",
-          "url": "https://xoyondo.com/polling-app",
-          "description": ""
-        },
-        {
-          "name": "poal.me",
-          "url": "https://poal.me/",
-          "description": ""
-        },
-        {
-          "name": "poll.ly",
-          "url": "https://poll.ly/",
-          "description": ""
-        },
-        {
-          "name": "typeform",
-          "url": "https://typeform.com/examples/polls/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://minipoll.co/",
+            "https://pickvote.web.app/",
+            "https://strawpoll.com/",
+            "https://framadate.org/",
+            "https://www.polltab.com/",
+            "https://xoyondo.com/polling-app",
+            "https://poal.me/",
+            "https://poll.ly/",
+            "https://typeform.com/examples/polls/"
+          ]
         }
       ]
     },
@@ -2753,17 +1609,11 @@
         {
           "name": "slido",
           "url": "https://www.slido.com/",
-          "description": ""
-        },
-        {
-          "name": "Feedbackr",
-          "url": "https://www.feedbackr.io/",
-          "description": ""
-        },
-        {
-          "name": "Trypingo",
-          "url": "https://trypingo.com/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.feedbackr.io/",
+            "https://trypingo.com/"
+          ]
         }
       ]
     },
@@ -2782,12 +1632,10 @@
         {
           "name": "⁠Z.ai",
           "url": "https://chat.z.ai/",
-          "description": "AI Presentation Generators"
-        },
-        {
-          "name": "PPTX",
-          "url": "https://github.com/AmNotAGoose/PPTX-Presentation-Generator",
-          "description": "AI Presentation Generators"
+          "description": "AI Presentation Generators",
+          "mirrors": [
+            "https://github.com/AmNotAGoose/PPTX-Presentation-Generator"
+          ]
         },
         {
           "name": "GSlides Maker",
@@ -2813,62 +1661,20 @@
         {
           "name": "Marp",
           "url": "https://marp.app/",
-          "description": ""
-        },
-        {
-          "name": "ZoomIt",
-          "url": "https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit",
-          "description": ""
-        },
-        {
-          "name": "Presentator",
-          "url": "https://presentator.io/",
-          "description": ""
-        },
-        {
-          "name": "Fusuma",
-          "url": "https://hiroppy.github.io/fusuma/",
-          "description": ""
-        },
-        {
-          "name": "Pitch",
-          "url": "https://pitch.com/",
-          "description": ""
-        },
-        {
-          "name": "Zoho Show",
-          "url": "https://www.zoho.com/show/",
-          "description": ""
-        },
-        {
-          "name": "Webslides",
-          "url": "https://webslides.tv/",
-          "description": ""
-        },
-        {
-          "name": "FreeShow",
-          "url": "https://freeshow.app/",
-          "description": ""
-        },
-        {
-          "name": "Presenta",
-          "url": "https://play.presenta.cc/",
-          "description": ""
-        },
-        {
-          "name": "OpenLearning",
-          "url": "https://www.openelearning.org/",
-          "description": ""
-        },
-        {
-          "name": "Slideshare",
-          "url": "https://www.slideshare.net/",
-          "description": ""
-        },
-        {
-          "name": "Excalideck",
-          "url": "https://excalideck.com/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit",
+            "https://presentator.io/",
+            "https://hiroppy.github.io/fusuma/",
+            "https://pitch.com/",
+            "https://www.zoho.com/show/",
+            "https://webslides.tv/",
+            "https://freeshow.app/",
+            "https://play.presenta.cc/",
+            "https://www.openelearning.org/",
+            "https://www.slideshare.net/",
+            "https://excalideck.com/"
+          ]
         }
       ]
     },
@@ -2879,22 +1685,12 @@
         {
           "name": "Showeet",
           "url": "https://www.showeet.com/",
-          "description": ""
-        },
-        {
-          "name": "Slides Carnival",
-          "url": "https://www.slidescarnival.com/",
-          "description": ""
-        },
-        {
-          "name": "PresentationGO",
-          "url": "https://www.presentationgo.com/",
-          "description": ""
-        },
-        {
-          "name": "ThePOPP",
-          "url": "https://thepopp.com/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://www.slidescarnival.com/",
+            "https://www.presentationgo.com/",
+            "https://thepopp.com/"
+          ]
         }
       ]
     },
@@ -2905,27 +1701,13 @@
         {
           "name": "DownloaderSlides",
           "url": "https://downloderslides.com/",
-          "description": ""
-        },
-        {
-          "name": "SlidesDownloaders",
-          "url": "https://slidesdownloaders.com/",
-          "description": ""
-        },
-        {
-          "name": "SlideShareSaver",
-          "url": "https://slidesharesaver.com/",
-          "description": ""
-        },
-        {
-          "name": "SlideSaver",
-          "url": "https://slidesaver.app/",
-          "description": ""
-        },
-        {
-          "name": "Regem Downloader",
-          "url": "https://regem.in/slideshare-downloader/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://slidesdownloaders.com/",
+            "https://slidesharesaver.com/",
+            "https://slidesaver.app/",
+            "https://regem.in/slideshare-downloader/"
+          ]
         }
       ]
     },
@@ -2942,107 +1724,29 @@
         {
           "name": "Free-Proxy-List",
           "url": "https://free-proxy-list.net/",
-          "description": ""
-        },
-        {
-          "name": "OpenProxyList",
-          "url": "https://openproxylist.com/",
-          "description": ""
-        },
-        {
-          "name": "ProxyScrape",
-          "url": "https://www.proxyscrape.com/free-proxy-list",
-          "description": ""
-        },
-        {
-          "name": "proxy-list",
-          "url": "https://github.com/mmpx12/proxy-list",
-          "description": ""
-        },
-        {
-          "name": "hide.my proxy list",
-          "url": "https://hide.mn/en/proxy-list/",
-          "description": ""
-        },
-        {
-          "name": "ProxyNations",
-          "url": "https://www.proxynations.com/",
-          "description": ""
-        },
-        {
-          "name": "spys.one",
-          "url": "https://spys.one/en/free-proxy-list/",
-          "description": ""
-        },
-        {
-          "name": "cyber-gateway",
-          "url": "https://cyber-gateway.net/get-proxy/free-proxy",
-          "description": ""
-        },
-        {
-          "name": "Free-proxy-list",
-          "url": "https://free-proxy-list.net/web-proxy.html",
-          "description": ""
-        },
-        {
-          "name": "geonode",
-          "url": "https://geonode.com/free-proxy-list/",
-          "description": ""
-        },
-        {
-          "name": "freeproxyupdate",
-          "url": "https://freeproxyupdate.com/",
-          "description": ""
-        },
-        {
-          "name": "proxydocker",
-          "url": "https://www.proxydocker.com/en/proxylist/",
-          "description": ""
-        },
-        {
-          "name": "proxyhub",
-          "url": "https://proxyhub.me/",
-          "description": ""
-        },
-        {
-          "name": "proxy-list",
-          "url": "https://proxy-list.download/",
-          "description": ""
-        },
-        {
-          "name": "proxydb",
-          "url": "https://proxydb.net/",
-          "description": ""
-        },
-        {
-          "name": "advanced.name",
-          "url": "https://advanced.name/freeproxy",
-          "description": ""
-        },
-        {
-          "name": "monosans list",
-          "url": "https://github.com/monosans/proxy-list",
-          "description": ""
-        },
-        {
-          "name": "premiumproxy",
-          "url": "https://premiumproxy.net/",
-          "description": ""
-        },
-        {
-          "name": "Proxynova",
-          "url": "https://www.proxynova.com/proxy-server-list",
-          "description": ""
-        },
-        {
-          "name": "⁠GetFreeProxy",
-          "url": "https://getfreeproxy.com/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/gfpcom/free-proxy-list",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://openproxylist.com/",
+            "https://www.proxyscrape.com/free-proxy-list",
+            "https://github.com/mmpx12/proxy-list",
+            "https://hide.mn/en/proxy-list/",
+            "https://www.proxynations.com/",
+            "https://spys.one/en/free-proxy-list/",
+            "https://cyber-gateway.net/get-proxy/free-proxy",
+            "https://free-proxy-list.net/web-proxy.html",
+            "https://geonode.com/free-proxy-list/",
+            "https://freeproxyupdate.com/",
+            "https://www.proxydocker.com/en/proxylist/",
+            "https://proxyhub.me/",
+            "https://proxy-list.download/",
+            "https://proxydb.net/",
+            "https://advanced.name/freeproxy",
+            "https://github.com/monosans/proxy-list",
+            "https://premiumproxy.net/",
+            "https://www.proxynova.com/proxy-server-list",
+            "https://getfreeproxy.com/",
+            "https://github.com/gfpcom/free-proxy-list"
+          ]
         }
       ]
     },
@@ -3053,57 +1757,19 @@
         {
           "name": "WikiDocs",
           "url": "https://www.wikidocs.app/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Zavy86/WikiDocs",
-          "description": ""
-        },
-        {
-          "name": "Media Wiki",
-          "url": "https://www.mediawiki.org/",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Wikia/mediawiki",
-          "description": ""
-        },
-        {
-          "name": "xWiki",
-          "url": "https://www.xwiki.org/xwiki/bin/view/Main/",
-          "description": ""
-        },
-        {
-          "name": "DokuWiki",
-          "url": "https://www.dokuwiki.org/dokuwiki",
-          "description": ""
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/dokuwiki/dokuwiki",
-          "description": ""
-        },
-        {
-          "name": "Archivy",
-          "url": "https://github.com/archivy/archivy/",
-          "description": ""
-        },
-        {
-          "name": "Miraheze",
-          "url": "https://miraheze.org/",
-          "description": ""
-        },
-        {
-          "name": "wikmd",
-          "url": "https://linbreux.github.io/wikmd/",
-          "description": ""
-        },
-        {
-          "name": "Fandom",
-          "url": "https://www.fandom.com/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/Zavy86/WikiDocs",
+            "https://www.mediawiki.org/",
+            "https://github.com/Wikia/mediawiki",
+            "https://www.xwiki.org/xwiki/bin/view/Main/",
+            "https://www.dokuwiki.org/dokuwiki",
+            "https://github.com/dokuwiki/dokuwiki",
+            "https://github.com/archivy/archivy/",
+            "https://miraheze.org/",
+            "https://linbreux.github.io/wikmd/",
+            "https://www.fandom.com/"
+          ]
         }
       ]
     },
@@ -3127,12 +1793,10 @@
           "name": "mianfeijiema",
           "url": "https://mianfeijiema.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "us-phone-number",
-          "url": "https://us-phone-number.com/",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://us-phone-number.com/"
+          ]
         },
         {
           "name": "sms24",
@@ -3158,197 +1822,47 @@
         {
           "name": "TemporaryNumber",
           "url": "https://temporarynumber.com/",
-          "description": ""
-        },
-        {
-          "name": "Yunjisms",
-          "url": "https://yunjisms.xyz/",
-          "description": ""
-        },
-        {
-          "name": "2ndline",
-          "url": "https://www.2ndline.co/",
-          "description": ""
-        },
-        {
-          "name": "TextNow",
-          "url": "https://www.textnow.com/",
-          "description": ""
-        },
-        {
-          "name": "GetFreeSMSNUmber",
-          "url": "https://getfreesmsnumber.com/",
-          "description": ""
-        },
-        {
-          "name": "Smser",
-          "url": "https://smser.net/",
-          "description": ""
-        },
-        {
-          "name": "SMS Receive",
-          "url": "https://sms-receive.net/",
-          "description": ""
-        },
-        {
-          "name": "Receive SMS Online",
-          "url": "https://www.receivesmsonline.net/",
-          "description": ""
-        },
-        {
-          "name": "My Trash Mobile",
-          "url": "https://www.mytrashmobile.com/",
-          "description": ""
-        },
-        {
-          "name": "temp-sms",
-          "url": "https://temp-sms.org/",
-          "description": ""
-        },
-        {
-          "name": "temporary-phone-number",
-          "url": "https://temporary-phone-number.com/",
-          "description": ""
-        },
-        {
-          "name": "storytrain",
-          "url": "https://www.storytrain.info/",
-          "description": ""
-        },
-        {
-          "name": "Temp Number",
-          "url": "https://temp-number.com/",
-          "description": ""
-        },
-        {
-          "name": "receive-smss",
-          "url": "https://receive-smss.com",
-          "description": ""
-        },
-        {
-          "name": "receive-sms-free",
-          "url": "https://receive-sms-free.cc/",
-          "description": ""
-        },
-        {
-          "name": "quackr",
-          "url": "https://quackr.io/",
-          "description": ""
-        },
-        {
-          "name": "smsnator",
-          "url": "https://smsnator.online/",
-          "description": ""
-        },
-        {
-          "name": "InboxSMS",
-          "url": "https://inboxsms.me/",
-          "description": ""
-        },
-        {
-          "name": "anonymsms",
-          "url": "https://anonymsms.com/temporary-phone-number/",
-          "description": ""
-        },
-        {
-          "name": "receivesmsonline",
-          "url": "https://receivesmsonline.in/",
-          "description": ""
-        },
-        {
-          "name": "jiemadi",
-          "url": "https://www.jiemadi.com/en",
-          "description": ""
-        },
-        {
-          "name": "ReceiveSMSOnline",
-          "url": "https://receivesmsonline.me/",
-          "description": ""
-        },
-        {
-          "name": "7sim",
-          "url": "https://7sim.net/",
-          "description": ""
-        },
-        {
-          "name": "yunjiema",
-          "url": "https://yunjiema.net/",
-          "description": ""
-        },
-        {
-          "name": "supercloudsms",
-          "url": "https://supercloudsms.com/en",
-          "description": ""
-        },
-        {
-          "name": "us-phone-number",
-          "url": "https://us-phone-number.com/",
-          "description": ""
-        },
-        {
-          "name": "shownumber",
-          "url": "https://lothelper.com/en/shownumber",
-          "description": ""
-        },
-        {
-          "name": "yunduanxin",
-          "url": "https://yunduanxin.net/",
-          "description": ""
-        },
-        {
-          "name": "bestsms",
-          "url": "https://bestsms.xyz/",
-          "description": ""
-        },
-        {
-          "name": "smsget",
-          "url": "https://smsget.net/",
-          "description": ""
-        },
-        {
-          "name": "free-sms-receive",
-          "url": "https://www.free-sms-receive.com/",
-          "description": ""
-        },
-        {
-          "name": "free-sms-receive",
-          "url": "https://free-sms-receive.co/",
-          "description": ""
-        },
-        {
-          "name": "receivefreesms",
-          "url": "https://receivefreesms.co.uk/",
-          "description": ""
-        },
-        {
-          "name": "smspinverify",
-          "url": "https://smspinverify.com/",
-          "description": ""
-        },
-        {
-          "name": "receivefreesms.net",
-          "url": "https://receivefreesms.net/",
-          "description": ""
-        },
-        {
-          "name": "receivesmsonline",
-          "url": "https://www.receivesmsonline.net/",
-          "description": ""
-        },
-        {
-          "name": "smspool",
-          "url": "https://www.smspool.net/free-sms-verification",
-          "description": ""
-        },
-        {
-          "name": "receive-smss",
-          "url": "https://receive-smss.live/",
-          "description": ""
-        },
-        {
-          "name": "⁠eSIM Plus",
-          "url": "https://esimplus.me/temporary-numbers",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://yunjisms.xyz/",
+            "https://www.2ndline.co/",
+            "https://www.textnow.com/",
+            "https://getfreesmsnumber.com/",
+            "https://smser.net/",
+            "https://sms-receive.net/",
+            "https://www.receivesmsonline.net/",
+            "https://www.mytrashmobile.com/",
+            "https://temp-sms.org/",
+            "https://temporary-phone-number.com/",
+            "https://www.storytrain.info/",
+            "https://temp-number.com/",
+            "https://receive-smss.com",
+            "https://receive-sms-free.cc/",
+            "https://quackr.io/",
+            "https://smsnator.online/",
+            "https://inboxsms.me/",
+            "https://anonymsms.com/temporary-phone-number/",
+            "https://receivesmsonline.in/",
+            "https://www.jiemadi.com/en",
+            "https://receivesmsonline.me/",
+            "https://7sim.net/",
+            "https://yunjiema.net/",
+            "https://supercloudsms.com/en",
+            "https://us-phone-number.com/",
+            "https://lothelper.com/en/shownumber",
+            "https://yunduanxin.net/",
+            "https://bestsms.xyz/",
+            "https://smsget.net/",
+            "https://www.free-sms-receive.com/",
+            "https://free-sms-receive.co/",
+            "https://receivefreesms.co.uk/",
+            "https://smspinverify.com/",
+            "https://receivefreesms.net/",
+            "https://www.receivesmsonline.net/",
+            "https://www.smspool.net/free-sms-verification",
+            "https://receive-smss.live/",
+            "https://esimplus.me/temporary-numbers"
+          ]
         }
       ]
     },
@@ -3365,12 +1879,10 @@
         {
           "name": "SurvivalManual",
           "url": "https://github.com/ligi/SurvivalManual",
-          "description": ""
-        },
-        {
-          "name": "App",
-          "url": "https://survivalmanual.github.io/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://survivalmanual.github.io/"
+          ]
         },
         {
           "name": "r/Preppers",
@@ -3388,27 +1900,13 @@
         {
           "name": "OffGridDownload",
           "url": "https://t.me/offgriddownload",
-          "description": ""
-        },
-        {
-          "name": "ExploreMarMaris",
-          "url": "http://www.exploremarmaris.com/read/Survival/",
-          "description": ""
-        },
-        {
-          "name": "r/PrepperFileShare",
-          "url": "https://reddit.com/r/PrepperFileShare",
-          "description": ""
-        },
-        {
-          "name": "The Preparedness Encyclopedia",
-          "url": "https://www.fluidicice.com/tpe",
-          "description": ""
-        },
-        {
-          "name": "CD3WD Project",
-          "url": "https://www.cd3wdproject.org/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "http://www.exploremarmaris.com/read/Survival/",
+            "https://reddit.com/r/PrepperFileShare",
+            "https://www.fluidicice.com/tpe",
+            "https://www.cd3wdproject.org/"
+          ]
         }
       ]
     },
@@ -3422,22 +1920,10 @@
           "description": "Icon Site Indexes",
           "tags": [
             "index"
-          ]
-        },
-        {
-          "name": "Awesome Stock Resources",
-          "url": "https://github.com/neutraltone/awesome-stock-resources#icons",
-          "description": "Icon Site Indexes",
-          "tags": [
-            "index"
-          ]
-        },
-        {
-          "name": "Free Icons",
-          "url": "https://www.iconshock.com/freeicons/",
-          "description": "Icon Site Indexes",
-          "tags": [
-            "index"
+          ],
+          "mirrors": [
+            "https://github.com/neutraltone/awesome-stock-resources#icons",
+            "https://www.iconshock.com/freeicons/"
           ]
         },
         {
@@ -3467,22 +1953,12 @@
         {
           "name": "useAnimations",
           "url": "https://useanimations.com/index.html",
-          "description": "Animated Icons"
-        },
-        {
-          "name": "heroicons-animated",
-          "url": "https://www.heroicons-animated.com/",
-          "description": "Animated Icons"
-        },
-        {
-          "name": "lucide-animated",
-          "url": "https://lucide-animated.com/",
-          "description": "Animated Icons"
-        },
-        {
-          "name": "LordIcon",
-          "url": "https://lordicon.com/",
-          "description": "Animated Icons"
+          "description": "Animated Icons",
+          "mirrors": [
+            "https://www.heroicons-animated.com/",
+            "https://lucide-animated.com/",
+            "https://lordicon.com/"
+          ]
         },
         {
           "name": "Dashboard Icons",
@@ -3502,202 +1978,48 @@
         {
           "name": "Icofont",
           "url": "https://icofont.com/icons",
-          "description": ""
-        },
-        {
-          "name": "VisualPharm",
-          "url": "https://visualpharm.com/",
-          "description": ""
-        },
-        {
-          "name": "Google Icons",
-          "url": "https://fonts.google.com/icons",
-          "description": ""
-        },
-        {
-          "name": "svgl",
-          "url": "https://svgl.app/",
-          "description": ""
-        },
-        {
-          "name": "iconer",
-          "url": "https://iconer.app/",
-          "description": ""
-        },
-        {
-          "name": "SimpleIcons",
-          "url": "https://simpleicons.org/",
-          "description": ""
-        },
-        {
-          "name": "xIcons",
-          "url": "https://xicons.org",
-          "description": ""
-        },
-        {
-          "name": "Polaris",
-          "url": "https://polaris.shopify.com/icons",
-          "description": ""
-        },
-        {
-          "name": "Phosphor Icons",
-          "url": "https://phosphoricons.com/",
-          "description": ""
-        },
-        {
-          "name": "iCongo",
-          "url": "https://icongo.github.io/",
-          "description": ""
-        },
-        {
-          "name": "IconFinder",
-          "url": "https://www.iconfinder.com/",
-          "description": ""
-        },
-        {
-          "name": "Lucide",
-          "url": "https://lucide.dev/",
-          "description": ""
-        },
-        {
-          "name": "Ant Design",
-          "url": "https://ant.design/components/icon/",
-          "description": ""
-        },
-        {
-          "name": "IconPacks",
-          "url": "https://www.iconpacks.net/",
-          "description": ""
-        },
-        {
-          "name": "Iconbuddy",
-          "url": "https://iconbuddy.com/",
-          "description": ""
-        },
-        {
-          "name": "Orion",
-          "url": "https://www.orioniconlibrary.com/",
-          "description": ""
-        },
-        {
-          "name": "Flaticon",
-          "url": "https://www.flaticon.com/",
-          "description": ""
-        },
-        {
-          "name": "Premium Unlock",
-          "url": "https://github.com/Kyutefox/Iconify",
-          "description": ""
-        },
-        {
-          "name": "Devicon",
-          "url": "https://devicon.dev/",
-          "description": ""
-        },
-        {
-          "name": "Glyphs",
-          "url": "https://glyphs.fyi/",
-          "description": ""
-        },
-        {
-          "name": "IconArchive",
-          "url": "https://iconarchive.com/",
-          "description": ""
-        },
-        {
-          "name": "IconDuck",
-          "url": "https://iconduck.com/",
-          "description": ""
-        },
-        {
-          "name": "icon icons",
-          "url": "https://icon-icons.com/",
-          "description": ""
-        },
-        {
-          "name": "Icons-For-Free",
-          "url": "https://icons-for-free.com/",
-          "description": ""
-        },
-        {
-          "name": "Streamline",
-          "url": "https://www.streamlinehq.com/",
-          "description": ""
-        },
-        {
-          "name": "Icones",
-          "url": "https://icones.js.org/",
-          "description": ""
-        },
-        {
-          "name": "CaptainIconWeb",
-          "url": "https://mariodelvalle.github.io/CaptainIconWeb/",
-          "description": ""
-        },
-        {
-          "name": "IconNinja",
-          "url": "https://www.iconninja.com/",
-          "description": ""
-        },
-        {
-          "name": "awsicons",
-          "url": "https://awsicons.dev/",
-          "description": ""
-        },
-        {
-          "name": "iconoir",
-          "url": "https://iconoir.com/",
-          "description": ""
-        },
-        {
-          "name": "heroicons",
-          "url": "https://heroicons.dev/",
-          "description": ""
-        },
-        {
-          "name": "composeicons",
-          "url": "https://composeicons.com/",
-          "description": ""
-        },
-        {
-          "name": "iconmonstr",
-          "url": "https://iconmonstr.com/",
-          "description": ""
-        },
-        {
-          "name": "Nerd Fonts",
-          "url": "https://www.nerdfonts.com/",
-          "description": ""
-        },
-        {
-          "name": "websvg",
-          "url": "https://websvg.com/",
-          "description": ""
-        },
-        {
-          "name": "svgsilh",
-          "url": "https://svgsilh.com/",
-          "description": ""
-        },
-        {
-          "name": "pictogrammers",
-          "url": "https://pictogrammers.com/",
-          "description": ""
-        },
-        {
-          "name": "svgstack",
-          "url": "https://svgstack.com/",
-          "description": ""
-        },
-        {
-          "name": "iconshelf",
-          "url": "https://iconshelf.com/",
-          "description": ""
-        },
-        {
-          "name": "tabler icons",
-          "url": "https://tabler.io/icons",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://visualpharm.com/",
+            "https://fonts.google.com/icons",
+            "https://svgl.app/",
+            "https://iconer.app/",
+            "https://simpleicons.org/",
+            "https://xicons.org",
+            "https://polaris.shopify.com/icons",
+            "https://phosphoricons.com/",
+            "https://icongo.github.io/",
+            "https://www.iconfinder.com/",
+            "https://lucide.dev/",
+            "https://ant.design/components/icon/",
+            "https://www.iconpacks.net/",
+            "https://iconbuddy.com/",
+            "https://www.orioniconlibrary.com/",
+            "https://www.flaticon.com/",
+            "https://github.com/Kyutefox/Iconify",
+            "https://devicon.dev/",
+            "https://glyphs.fyi/",
+            "https://iconarchive.com/",
+            "https://iconduck.com/",
+            "https://icon-icons.com/",
+            "https://icons-for-free.com/",
+            "https://www.streamlinehq.com/",
+            "https://icones.js.org/",
+            "https://mariodelvalle.github.io/CaptainIconWeb/",
+            "https://www.iconninja.com/",
+            "https://awsicons.dev/",
+            "https://iconoir.com/",
+            "https://heroicons.dev/",
+            "https://composeicons.com/",
+            "https://iconmonstr.com/",
+            "https://www.nerdfonts.com/",
+            "https://websvg.com/",
+            "https://svgsilh.com/",
+            "https://pictogrammers.com/",
+            "https://svgstack.com/",
+            "https://iconshelf.com/",
+            "https://tabler.io/icons"
+          ]
         }
       ]
     },
@@ -3709,37 +2031,21 @@
           "name": "Sidebery",
           "url": "https://github.com/mbnuqw/sidebery",
           "description": "Firefox",
-          "starred": true
-        },
-        {
-          "name": "Simple Tab Groups",
-          "url": "https://github.com/drive4ik/simple-tab-groups",
-          "description": "Firefox"
+          "starred": true,
+          "mirrors": [
+            "https://github.com/drive4ik/simple-tab-groups"
+          ]
         },
         {
           "name": "OneTab",
           "url": "https://www.one-tab.com/",
-          "description": ""
-        },
-        {
-          "name": "Tab Stash",
-          "url": "https://josh-berry.github.io/tab-stash/",
-          "description": ""
-        },
-        {
-          "name": "Tab Butler",
-          "url": "https://tabbutler.netlify.app/",
-          "description": ""
-        },
-        {
-          "name": "One Tab Group",
-          "url": "https://www.tabdeck.so/",
-          "description": ""
-        },
-        {
-          "name": "TreeStyleTabs",
-          "url": "https://github.com/piroor/treestyletab",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://josh-berry.github.io/tab-stash/",
+            "https://tabbutler.netlify.app/",
+            "https://www.tabdeck.so/",
+            "https://github.com/piroor/treestyletab"
+          ]
         }
       ]
     },
@@ -3806,22 +2112,18 @@
         {
           "name": "Tackling TS",
           "url": "https://exploringjs.com/ts/book/index.html",
-          "description": "TypeScript Guides"
-        },
-        {
-          "name": "TypeScript Deep Drive",
-          "url": "https://basarat.gitbook.io/typescript/getting-started",
-          "description": "TypeScript Guides"
+          "description": "TypeScript Guides",
+          "mirrors": [
+            "https://basarat.gitbook.io/typescript/getting-started"
+          ]
         },
         {
           "name": "TypeHero",
           "url": "https://typehero.dev/",
-          "description": "TypeScript Exercises / Challenges"
-        },
-        {
-          "name": "Type Challenges",
-          "url": "https://github.com/type-challenges/type-challenges",
-          "description": "TypeScript Exercises / Challenges"
+          "description": "TypeScript Exercises / Challenges",
+          "mirrors": [
+            "https://github.com/type-challenges/type-challenges"
+          ]
         },
         {
           "name": "tRPC",
@@ -3838,12 +2140,10 @@
           "name": "Coursevania",
           "url": "https://coursevania.com/",
           "description": "",
-          "starred": true
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/Coursevania",
-          "description": ""
+          "starred": true,
+          "mirrors": [
+            "https://t.me/Coursevania"
+          ]
         },
         {
           "name": "CouponScorpion",
@@ -3854,17 +2154,11 @@
         {
           "name": "Udemy FREE",
           "url": "https://t.me/udemyforu",
-          "description": "Udemy TG Channels"
-        },
-        {
-          "name": "UdemyRip",
-          "url": "https://t.me/udemyrip",
-          "description": "Udemy TG Channels"
-        },
-        {
-          "name": "CGPERS",
-          "url": "https://t.me/CGPERS",
-          "description": "Udemy TG Channels"
+          "description": "Udemy TG Channels",
+          "mirrors": [
+            "https://t.me/udemyrip",
+            "https://t.me/CGPERS"
+          ]
         },
         {
           "name": "Udemy-Course-Enroller",
@@ -3884,105 +2178,37 @@
         {
           "name": "Udemy Download Guide",
           "url": "https://docs.google.com/document/d/1W91OS9rj7h9DBp5UwR68lA2zMEtqNmxdGaNVmBktIaw/",
-          "description": ""
-        },
-        {
-          "name": "Discord",
-          "url": "https://discord.gg/tMzrSxQ",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://discord.gg/tMzrSxQ"
+          ]
         },
         {
           "name": "discudemy",
           "url": "https://www.discudemy.com/",
-          "description": ""
-        },
-        {
-          "name": "BARONIP COUPONS",
-          "url": "https://baronip-coupons.blogspot.com/",
-          "description": ""
-        },
-        {
-          "name": "freebiesglobal",
-          "url": "https://freebiesglobal.com/",
-          "description": ""
-        },
-        {
-          "name": "onlinecourses",
-          "url": "https://www.onlinecourses.ooo/",
-          "description": ""
-        },
-        {
-          "name": "UdemyKing",
-          "url": "https://t.me/udemyking1",
-          "description": ""
-        },
-        {
-          "name": "CourseArray",
-          "url": "https://t.me/udemycoursesfree",
-          "description": ""
-        },
-        {
-          "name": "Udemy 24",
-          "url": "https://coursesbag.com/",
-          "description": ""
-        },
-        {
-          "name": "UdemyFreeCourses",
-          "url": "https://udemyfreecourses.org/",
-          "description": ""
-        },
-        {
-          "name": "Study Bullet",
-          "url": "https://studybullet.com/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://telegram.me/joinchat/AAAAAFdxBDqPv7ZzVoUASw",
-          "description": ""
-        },
-        {
-          "name": "r/udemyfreebies",
-          "url": "https://reddit.com/r/udemyfreebies",
-          "description": ""
-        },
-        {
-          "name": "Online Courses Tracker",
-          "url": "https://comidoc.com/",
-          "description": ""
-        },
-        {
-          "name": "Real.Discount",
-          "url": "https://www.real.discount/",
-          "description": ""
-        },
-        {
-          "name": "OnlineTutorials",
-          "url": "https://www.onlinetutorials.org/",
-          "description": ""
-        },
-        {
-          "name": "Scroll Coupons",
-          "url": "https://scrollcoupons.com/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/scroll_coupons",
-          "description": ""
-        },
-        {
-          "name": "UdemyXpert",
-          "url": "https://udemyxpert.com/",
-          "description": ""
-        },
-        {
-          "name": "Telegram",
-          "url": "https://t.me/UdemyXpert",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://baronip-coupons.blogspot.com/",
+            "https://freebiesglobal.com/",
+            "https://www.onlinecourses.ooo/",
+            "https://t.me/udemyking1",
+            "https://t.me/udemycoursesfree",
+            "https://coursesbag.com/",
+            "https://udemyfreecourses.org/",
+            "https://studybullet.com/",
+            "https://telegram.me/joinchat/AAAAAFdxBDqPv7ZzVoUASw",
+            "https://reddit.com/r/udemyfreebies",
+            "https://comidoc.com/",
+            "https://www.real.discount/",
+            "https://www.onlinetutorials.org/",
+            "https://scrollcoupons.com/",
+            "https://t.me/scroll_coupons",
+            "https://udemyxpert.com/",
+            "https://t.me/UdemyXpert"
+          ]
         }
       ],
-      "note": "If you're in the US you should be able to access Udemy courses for free using your library and looking for \"Gale Presents Udemy\"."
+      "note": "If you're in the US you should be able to access Udemy courses for 無料 using your library and looking for \"Gale Presents Udemy\"."
     }
   ]
 }

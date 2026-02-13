@@ -1,7 +1,8 @@
 import { categories } from "@/data";
 import { CategoryCard } from "@/components/CategoryCard";
+import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { AdBanner, InFeedAd } from "@/components/AdBanner";
-import { Search, BookOpen, Star, TrendingUp, Sparkles } from "lucide-react";
+import { Search, BookOpen, Star, TrendingUp, Sparkles, Zap, Shield, Globe } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -14,6 +15,16 @@ export default function Home() {
 
   const totalSubcategories = categories.reduce(
     (sum, cat) => sum + cat.subcategories.length,
+    0
+  );
+
+  const starredTotal = categories.reduce(
+    (sum, cat) =>
+      sum +
+      cat.subcategories.reduce(
+        (s, sub) => s + sub.resources.filter((r) => r.starred).length,
+        0
+      ),
     0
   );
 
@@ -56,6 +67,10 @@ export default function Home() {
         </div>
 
         <div className="animate-fade-in">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 text-accent text-xs font-medium mb-6 border border-accent/20">
+            <Zap size={12} />
+            毎月自動更新 — 常に最新のリソース
+          </div>
           <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight">
             <span className="gradient-text">FMHJP</span>
           </h1>
@@ -69,7 +84,7 @@ export default function Home() {
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: "150ms" }}>
           <Link
             href="/search"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-xl font-medium text-sm hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-xl font-medium text-sm hover:opacity-90 transition-opacity shadow-lg shadow-accent/25"
           >
             <Search size={16} />
             リソースを検索
@@ -83,25 +98,39 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="mt-12 flex items-center justify-center gap-8 sm:gap-16 text-center animate-fade-in" style={{ animationDelay: "300ms" }}>
-          <div>
-            <div className="text-2xl sm:text-3xl font-bold gradient-text">{categories.length}</div>
+        {/* Animated Stats */}
+        <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "300ms" }}>
+          <div className="p-4 rounded-2xl bg-card/50 border border-border">
+            <AnimatedCounter end={categories.length} duration={1200} className="text-2xl sm:text-3xl font-bold gradient-text" />
             <div className="text-xs text-muted mt-1">カテゴリ</div>
           </div>
-          <div className="w-px h-8 bg-border" />
-          <div>
-            <div className="text-2xl sm:text-3xl font-bold gradient-text">{totalResources.toLocaleString()}+</div>
+          <div className="p-4 rounded-2xl bg-card/50 border border-border">
+            <AnimatedCounter end={totalResources} duration={2000} suffix="+" className="text-2xl sm:text-3xl font-bold gradient-text" />
             <div className="text-xs text-muted mt-1">リソース</div>
           </div>
-          <div className="w-px h-8 bg-border" />
-          <div>
-            <div className="text-2xl sm:text-3xl font-bold gradient-text">{totalSubcategories}+</div>
+          <div className="p-4 rounded-2xl bg-card/50 border border-border">
+            <AnimatedCounter end={totalSubcategories} duration={1800} suffix="+" className="text-2xl sm:text-3xl font-bold gradient-text" />
             <div className="text-xs text-muted mt-1">セクション</div>
           </div>
-          <div className="w-px h-8 bg-border" />
-          <div>
-            <div className="text-2xl sm:text-3xl font-bold gradient-text">毎月</div>
-            <div className="text-xs text-muted mt-1">更新</div>
+          <div className="p-4 rounded-2xl bg-card/50 border border-border">
+            <AnimatedCounter end={starredTotal} duration={1600} suffix="+" className="text-2xl sm:text-3xl font-bold gradient-text" />
+            <div className="text-xs text-muted mt-1">おすすめ</div>
+          </div>
+        </div>
+
+        {/* Feature badges */}
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3 animate-fade-in" style={{ animationDelay: "450ms" }}>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card border border-border text-xs text-muted">
+            <Shield size={12} className="text-emerald-500" />
+            安全なリソースのみ
+          </div>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card border border-border text-xs text-muted">
+            <Globe size={12} className="text-blue-500" />
+            完全日本語対応
+          </div>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card border border-border text-xs text-muted">
+            <Star size={12} className="text-amber-500" />
+            厳選おすすめ付き
           </div>
         </div>
       </section>
