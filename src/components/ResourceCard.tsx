@@ -1,7 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import { Resource } from "@/lib/types";
-import { ExternalLink, Star, Copy } from "lucide-react";
+import { ExternalLink, Star, Copy, Check, Link2 } from "lucide-react";
+import { useToast } from "./ToastProvider";
 
 interface ResourceCardProps {
   resource: Resource;
@@ -18,6 +20,20 @@ function getDomain(url: string): string {
 
 export function ResourceCard({ resource }: ResourceCardProps) {
   const domain = getDomain(resource.url);
+  const { showToast } = useToast();
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyUrl = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    navigator.clipboard.writeText(resource.url).then(() => {
+      setCopied(true);
+      showToast("URLをコピーしました");
+      setTimeout(() => setCopied(false), 1500);
+    }).catch(() => {
+      showToast("コピーに失敗しました", "error");
+    });
+  };
 
   return (
     <a
@@ -51,13 +67,15 @@ export function ResourceCard({ resource }: ResourceCardProps) {
                   alt=""
                   className="favicon-img"
                   loading="lazy"
+                  width={14}
+                  height={14}
                 />
                 {domain}
               </span>
             )}
             {resource.mirrors && resource.mirrors.length > 0 && (
               <span className="inline-flex items-center gap-1 px-2 py-0.5 text-[10px] rounded-full bg-card-hover text-muted border border-border">
-                <Copy size={8} />
+                <Link2 size={8} />
                 ミラー: {resource.mirrors.length}
               </span>
             )}
@@ -71,10 +89,23 @@ export function ResourceCard({ resource }: ResourceCardProps) {
             ))}
           </div>
         </div>
-        <ExternalLink
-          size={14}
-          className="text-muted/70 group-hover:text-accent transition-colors shrink-0 mt-1"
-        />
+        <div className="flex items-center gap-1 shrink-0 mt-1">
+          <button
+            onClick={handleCopyUrl}
+            className="p-1 rounded-md opacity-0 group-hover:opacity-100 transition-all hover:bg-card-hover text-muted hover:text-accent"
+            title="URLをコピー"
+          >
+            {copied ? (
+              <Check size={13} className="text-green-500" />
+            ) : (
+              <Copy size={13} />
+            )}
+          </button>
+          <ExternalLink
+            size={14}
+            className="text-muted/70 group-hover:text-accent transition-colors"
+          />
+        </div>
       </div>
     </a>
   );

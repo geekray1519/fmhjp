@@ -3,6 +3,7 @@ import { Inter, Noto_Sans_JP } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { ToastProvider } from "@/components/ToastProvider";
 import { AppShell } from "@/components/AppShell";
 
 const inter = Inter({
@@ -83,13 +84,15 @@ export default function RootLayout({
         className={`${inter.variable} ${notoSansJP.variable} antialiased`}
       >
         <ThemeProvider>
-          <a
-            href="#main-content"
-            className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-accent focus:text-white focus:rounded-lg focus:text-sm focus:font-medium"
-          >
-            メインコンテンツへスキップ
-          </a>
-          <AppShell>{children}</AppShell>
+          <ToastProvider>
+            <a
+              href="#main-content"
+              className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-accent focus:text-white focus:rounded-lg focus:text-sm focus:font-medium"
+            >
+              メインコンテンツへスキップ
+            </a>
+            <AppShell>{children}</AppShell>
+          </ToastProvider>
         </ThemeProvider>
         {process.env.NEXT_PUBLIC_ADSENSE_ID && (
           <Script

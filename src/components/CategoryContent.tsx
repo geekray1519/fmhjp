@@ -165,7 +165,7 @@ export function CategoryContent({ category }: CategoryContentProps) {
             <Star size={12} className={starredOnly ? "fill-amber-400" : ""} />
             おすすめのみ ({starredCount})
           </button>
-          <span className="text-xs text-muted">
+          <span className="text-xs text-muted" aria-live="polite" aria-atomic="true">
             <Filter size={12} className="inline mr-1" />
             {shownResourceCount} リソース表示中
           </span>
@@ -208,6 +208,8 @@ export function CategoryContent({ category }: CategoryContentProps) {
                 <button
                   onClick={() => toggleCollapse(sub.id)}
                   className="mb-4 w-full text-left group"
+                  aria-expanded={!isCollapsed}
+                  aria-controls={`content-${sub.id}`}
                 >
                   <div className="flex items-center gap-2">
                     <ChevronRight
@@ -230,7 +232,7 @@ export function CategoryContent({ category }: CategoryContentProps) {
                 </button>
 
                 {!isCollapsed && (
-                  <>
+                  <div id={`content-${sub.id}`} role="region" aria-label={sub.title}>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {visibleResources.map((resource) => (
                         <ResourceCard key={resource.name + resource.url} resource={resource} />
@@ -259,7 +261,7 @@ export function CategoryContent({ category }: CategoryContentProps) {
                         セクション先頭に戻る
                       </button>
                     )}
-                  </>
+                  </div>
                 )}
 
                 {i === 1 && <AdBanner className="mt-6" />}

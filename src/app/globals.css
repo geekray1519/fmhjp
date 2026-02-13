@@ -304,3 +304,17 @@ html {
   border-radius: 8px;
   animation: skeleton-pulse 1.5s ease-in-out infinite;
 }
+
+/* Safe area for mobile bottom nav (iPhone notch) */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+/* Scrollbar hide for horizontal scroll containers */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

@@ -154,7 +154,7 @@ function SearchContent() {
       {query.trim() ? (
         <>
           {/* Search info bar */}
-          <div className="flex flex-wrap items-center gap-3 text-sm text-muted mb-4">
+          <div className="flex flex-wrap items-center gap-3 text-sm text-muted mb-4" aria-live="polite" aria-atomic="true">
             <p>
               「{query}」の検索結果: <span className="font-medium text-foreground">{filteredResults.length.toLocaleString()}</span> 件
               {selectedCategory && <span className="text-accent"> ({selectedCategory})</span>}
