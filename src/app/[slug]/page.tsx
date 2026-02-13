@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import { categories } from "@/data/categories";
-import { ResourceCard } from "@/components/ResourceCard";
-import { AdBanner } from "@/components/AdBanner";
+import { CategoryContent } from "@/components/CategoryContent";
 import { ChevronRight, Home } from "lucide-react";
 import Link from "next/link";
 
@@ -38,7 +37,6 @@ export default async function CategoryPage({ params }: PageProps) {
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-sm text-muted mb-8">
         <Link href="/" className="hover:text-foreground transition-colors flex items-center gap-1">
           <Home size={14} />
@@ -48,8 +46,7 @@ export default async function CategoryPage({ params }: PageProps) {
         <span className="text-foreground font-medium">{category.title}</span>
       </nav>
 
-      {/* Header */}
-      <div className="mb-10">
+      <div className="mb-8">
         <div className="flex items-center gap-4 mb-3">
           <span className="text-4xl">{category.icon}</span>
           <div>
@@ -67,28 +64,7 @@ export default async function CategoryPage({ params }: PageProps) {
         </div>
       </div>
 
-      {/* Subcategories */}
-      <div className="space-y-10">
-        {category.subcategories.map((sub, i) => (
-          <section key={sub.id} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
-            <div className="mb-4">
-              <h2 className="text-xl font-bold">{sub.title}</h2>
-              {sub.note && (
-                <div className="mt-2 p-3 rounded-lg bg-accent/5 border border-accent/10 text-xs text-muted leading-relaxed">
-                  {sub.note}
-                </div>
-              )}
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {sub.resources.map((resource) => (
-                <ResourceCard key={resource.name} resource={resource} />
-              ))}
-            </div>
-
-            {i === 1 && <AdBanner slot="category-mid" className="mt-6" />}
-          </section>
-        ))}
-      </div>
+      <CategoryContent category={category} />
     </div>
   );
 }

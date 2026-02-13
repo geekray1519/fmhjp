@@ -13,7 +13,14 @@ export default function Home() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <section className="py-16 sm:py-24 text-center">
+      <section className="py-16 sm:py-24 text-center relative overflow-hidden">
+        {/* Background glow effects */}
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-indigo-500/20 via-purple-500/20 to-pink-500/20 rounded-full blur-3xl" />
+          <div className="absolute top-1/4 left-1/4 w-[300px] h-[300px] bg-indigo-500/10 rounded-full blur-2xl animate-pulse" />
+          <div className="absolute bottom-1/4 right-1/4 w-[200px] h-[200px] bg-pink-500/10 rounded-full blur-2xl animate-pulse" style={{ animationDelay: "1s" }} />
+        </div>
+
         <div className="animate-fade-in">
           <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight">
             <span className="gradient-text">FMHJP</span>

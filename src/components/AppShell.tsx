@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Header } from "./Header";
 import { Sidebar } from "./Sidebar";
 import { Footer } from "./Footer";
+import { ScrollToTop } from "./ScrollToTop";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -21,6 +22,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <Footer />
         </main>
       </div>
+      <ScrollToTop />
     </div>
   );
 }
