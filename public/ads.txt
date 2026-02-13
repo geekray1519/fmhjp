@@ -1,0 +1,3 @@
+# Google AdSense
+# NEXT_PUBLIC_ADSENSE_ID環境変数にca-pub-XXXXを設定後、以下のXXXXを実際のパブリッシャーIDに置き換えてください
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

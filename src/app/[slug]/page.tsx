@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { categories } from "@/data/categories";
+import { categories } from "@/data";
 import { CategoryContent } from "@/components/CategoryContent";
 import { AdBanner } from "@/components/AdBanner";
 import { ChevronRight, ChevronLeft, Home } from "lucide-react";

@@ -1,4 +1,4 @@
-import { categories } from "@/data/categories";
+import { categories } from "@/data";
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -11,19 +11,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: "daily",
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/search`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.6,
-    },
-    ...categoryPages,
-  ];
+  const staticPages = [
+    { path: "", priority: 1, changeFrequency: "daily" as const },
+    { path: "/search", priority: 0.6, changeFrequency: "weekly" as const },
+    { path: "/beginners-guide", priority: 0.7, changeFrequency: "monthly" as const },
+    { path: "/about", priority: 0.5, changeFrequency: "monthly" as const },
+    { path: "/privacy-policy", priority: 0.3, changeFrequency: "yearly" as const },
+    { path: "/terms", priority: 0.3, changeFrequency: "yearly" as const },
+    { path: "/contact", priority: 0.4, changeFrequency: "yearly" as const },
+  ].map(({ path, priority, changeFrequency }) => ({
+    url: `${baseUrl}${path}`,
+    lastModified: new Date(),
+    changeFrequency,
+    priority,
+  }));
+
+  return [...staticPages, ...categoryPages];
 }

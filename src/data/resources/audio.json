@@ -1,0 +1,5841 @@
+{
+  "id": "audio",
+  "slug": "audio",
+  "title": "音楽 / オーディオ",
+  "description": "音楽ストリーミング、ポッドキャスト、ラジオ、音楽ダウンロード",
+  "icon": "🎵",
+  "color": "from-pink-500 to-rose-600",
+  "subcategories": [
+    {
+      "id": "audio-streaming-apps",
+      "title": "ストリーミングアプリ",
+      "resources": [
+        {
+          "name": "/music streaming/",
+          "url": "https://dan.valeena.dev/guides/music-streaming/",
+          "description": "Streaming Service Comparisons",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "2",
+          "url": "https://rentry.co/musicstreaming",
+          "description": "Streaming Service Comparisons",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Wiki Comparisons",
+          "url": "https://en.wikipedia.org/wiki/Comparison_of_music_streaming_services",
+          "description": "Streaming Service Comparisons",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Pear Desktop",
+          "url": "https://github.com/pear-devs/pear-desktop",
+          "description": "YouTube Music Client w / Adblock",
+          "starred": true
+        },
+        {
+          "name": "Moosync",
+          "url": "https://moosync.app/",
+          "description": "YouTube / Spotify",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Audion",
+          "url": "https://audionplayer.com/",
+          "description": "Streaming / Plugin-Based",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "PlayTorrio",
+          "url": "https://playtorrio.xyz/",
+          "description": "Streaming",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "yewtube",
+          "url": "https://github.com/mps-youtube/yewtube",
+          "description": "YouTube Music Client"
+        },
+        {
+          "name": "pulse",
+          "url": "https://473999.net/pulse",
+          "description": "Listen Together / Listening Parties"
+        },
+        {
+          "name": "Beatsync",
+          "url": "https://www.beatsync.gg/",
+          "description": "Listen Together / Listening Parties"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/freeman-jiang/beatsync",
+          "description": "Listen Together / Listening Parties"
+        },
+        {
+          "name": "BetterSoundcloud",
+          "url": "https://alirezakj.com/bsc/",
+          "description": "Soundcloud Client / Ad-Free",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Nuclear",
+          "url": "https://nuclearplayer.com/",
+          "description": "Streaming",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "FunkWhale",
+          "url": "https://funkwhale.audio/",
+          "description": "Decentralized Streaming Platform"
+        },
+        {
+          "name": "Muffon",
+          "url": "https://muffon.netlify.app/",
+          "description": "Streaming"
+        },
+        {
+          "name": "⁠Sonosano",
+          "url": "https://github.com/KRSHH/Sonosano",
+          "description": "Self-Hosted P2P Lossless Music Player / Web App",
+          "tags": [
+            "Discord"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio-streaming-sites",
+      "title": "ストリーミングサイト",
+      "resources": [
+        {
+          "name": "HiFi Tidal Instances",
+          "url": "https://github.com/SamidyFR/monochrome/blob/main/INSTANCES.md",
+          "description": "Tidal Instance List",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "YouTube Music",
+          "url": "https://music.youtube.com/",
+          "description": "YouTube Music WebUIs",
+          "starred": true
+        },
+        {
+          "name": "Zozoki",
+          "url": "https://zozoki.com/music/",
+          "description": "YouTube Music WebUIs"
+        },
+        {
+          "name": "Monochrome",
+          "url": "https://monochrome.tf/",
+          "description": "HiFi Tidal Instance",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ],
+          "mirrors": [
+            "https://monochrome.samidy.com/",
+            "https://monochromemusic.pages.dev"
+          ]
+        },
+        {
+          "name": "DAB Music Player",
+          "url": "https://dabmusic.xyz/",
+          "description": "Browser Music / Lossless",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "Discord"
+          ]
+        },
+        {
+          "name": "Reddit Music Player",
+          "url": "https://reddit.musicplayer.io/",
+          "description": "Subreddit Music Player",
+          "starred": true
+        },
+        {
+          "name": "SoundCloud",
+          "url": "https://soundcloud.com/",
+          "description": "User Made Songs",
+          "starred": true
+        },
+        {
+          "name": "ArtistGrid",
+          "url": "https://artistgrid.cx/",
+          "description": "Unreleased / Render",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/",
+          "description": "Web Player / Enhanced UI / Lyrics / Lyrics Script"
+        },
+        {
+          "name": "squid.wtf",
+          "url": "https://tidal.squid.wtf",
+          "description": "HiFi Tidal Instance"
+        },
+        {
+          "name": "BiniLossless",
+          "url": "https://music.binimum.org/",
+          "description": "HiFi Tidal Instance"
+        },
+        {
+          "name": "Deezer",
+          "url": "https://www.deezer.com/",
+          "description": "Browser Music / Requires Sign-Up"
+        },
+        {
+          "name": "Audiomack",
+          "url": "https://audiomack.com/",
+          "description": "Browser Music"
+        },
+        {
+          "name": "Pandora",
+          "url": "https://www.pandora.com/",
+          "description": "Browser Music"
+        },
+        {
+          "name": "Jango",
+          "url": "https://jango.com/",
+          "description": "Browser Music"
+        },
+        {
+          "name": "SoundClick",
+          "url": "https://www.soundclick.com/default.cfm",
+          "description": "Browser Music"
+        },
+        {
+          "name": "Mixupload",
+          "url": "https://mixupload.com/",
+          "description": "Browser Music"
+        },
+        {
+          "name": "zvu4no",
+          "url": "https://zvu4no.org/",
+          "description": "Russian Music / Use Translator"
+        },
+        {
+          "name": "Tancpol",
+          "url": "https://tancpol.net/",
+          "description": "Russian Music / Use Translator"
+        },
+        {
+          "name": "jiosaavn",
+          "url": "https://www.jiosaavn.com/",
+          "description": "Browser Music / API"
+        },
+        {
+          "name": "Saavn Web",
+          "url": "https://saavn-web-ui.vercel.app/",
+          "description": "Browser Music / API"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/wiz64/saavn-web-ui",
+          "description": "Browser Music / API"
+        },
+        {
+          "name": "Hayasaka",
+          "url": "https://hayasaka.vercel.app/",
+          "description": "Browser Music / API"
+        },
+        {
+          "name": "MTV REWIND",
+          "url": "https://wantmymtv.xyz/",
+          "description": "Recreates MTV Experience from Different Eras",
+          "mirrors": [
+            "https://wantmymtv.vercel.app/"
+          ]
+        },
+        {
+          "name": "The 120 Minutes Archive",
+          "url": "https://120minutes.org/",
+          "description": "MTV's 120 Minutes Archive"
+        },
+        {
+          "name": "Ballsack TV",
+          "url": "https://bsky.app/profile/feed.ballsack.tv",
+          "description": "MTV Style User-Submitted Music Video Feed",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Hype Machine",
+          "url": "https://hypem.com/popular",
+          "description": "Rising"
+        },
+        {
+          "name": "Bandcamp",
+          "url": "https://bandcamp.com/discover/free-music",
+          "description": "Free Music Release Platform"
+        },
+        {
+          "name": "Mirlo",
+          "url": "https://mirlo.space/",
+          "description": "Free Music Release Platform"
+        },
+        {
+          "name": "Newgrounds Audio",
+          "url": "https://www.newgrounds.com/audio",
+          "description": "User-Made Electronic Music"
+        },
+        {
+          "name": "Audius",
+          "url": "https://audius.co/",
+          "description": "User Made Music"
+        },
+        {
+          "name": "AudionautiX",
+          "url": "https://audionautix.com/",
+          "description": "Mood-Based Streaming"
+        },
+        {
+          "name": "LostMyspace",
+          "url": "http://lostmyspace.com/",
+          "description": "Lost Myspace Songs"
+        },
+        {
+          "name": "Openwhyd",
+          "url": "https://openwhyd.org/",
+          "description": "Music Sharing Community / Chrome"
+        }
+      ]
+    },
+    {
+      "id": "audio-genre-specific-streaming",
+      "title": "ジャンル別ストリーミング",
+      "resources": [
+        {
+          "name": "The Urban Emporium",
+          "url": "https://www.youtube.com/@theurbanemporium204/playlists",
+          "description": "Hip-Hop"
+        },
+        {
+          "name": "DatPiff",
+          "url": "https://datpiff.com/",
+          "description": "Hip-Hop / Mixtapes"
+        },
+        {
+          "name": "MixtapeMonkey",
+          "url": "https://mixtapemonkey.com/",
+          "description": "Hip-Hop / Mixtapes"
+        },
+        {
+          "name": "DMO",
+          "url": "https://dance-music.org/",
+          "description": "Electronic"
+        },
+        {
+          "name": "Vapor Archive",
+          "url": "https://vaporarchive.neocities.org/",
+          "description": "Vaporwave"
+        },
+        {
+          "name": "Jamendo",
+          "url": "https://www.jamendo.com/",
+          "description": "Independent Music"
+        },
+        {
+          "name": "Free Music Archive",
+          "url": "https://freemusicarchive.org/",
+          "description": "Independent Music"
+        },
+        {
+          "name": "Keygen Music",
+          "url": "https://keygenmusic.tk/",
+          "description": "Keygen Music"
+        },
+        {
+          "name": "OperaOnVideo",
+          "url": "https://www.operaonvideo.com/",
+          "description": "Opera Recordings"
+        },
+        {
+          "name": "Classical Music Only",
+          "url": "https://classicalmusiconly.com/",
+          "description": "Classical Music"
+        },
+        {
+          "name": "musopen",
+          "url": "https://musopen.org/music/",
+          "description": "Classical Music"
+        },
+        {
+          "name": "New Age Music",
+          "url": "https://newage.one/",
+          "description": "New Age Music"
+        },
+        {
+          "name": "UCSB Cylinders",
+          "url": "https://cylinders.library.ucsb.edu/index.php",
+          "description": "Cylinder Audio Archive",
+          "starred": true
+        },
+        {
+          "name": "CitizenFreak",
+          "url": "https://citizenfreak.com/",
+          "description": "Canadian Music"
+        },
+        {
+          "name": "Irama Nusantara",
+          "url": "https://www.iramanusantara.org/en",
+          "description": "Indonesian Music"
+        },
+        {
+          "name": "Dream of the 90s",
+          "url": "https://www.youtube.com/@Dreamofthe90s/playlists",
+          "description": "Obscure 90s"
+        },
+        {
+          "name": "Tasso Music",
+          "url": "https://www.tassomusic.org/",
+          "description": "Early Modern Music"
+        },
+        {
+          "name": "i78s",
+          "url": "https://i78s.org/",
+          "description": "Phonograph / Gramophone Recordings"
+        },
+        {
+          "name": "Archeophone",
+          "url": "https://www.archeophone.org/html/languages/en/index.en.html",
+          "description": "Phonograph / Gramophone Recordings"
+        },
+        {
+          "name": "CLPGS",
+          "url": "https://www.clpgs.org.uk/",
+          "description": "Phonograph / Gramophone Recordings"
+        },
+        {
+          "name": "Tinfoil",
+          "url": "https://www.tinfoil.com/",
+          "description": "Phonograph / Gramophone Recordings"
+        },
+        {
+          "name": "FirstSounds",
+          "url": "https://www.firstsounds.org/",
+          "description": "Oldest Music Recordings"
+        },
+        {
+          "name": "Russian Records",
+          "url": "https://www.russian-records.com/",
+          "description": "Russian Record Recordings"
+        },
+        {
+          "name": "Measuring Polyphony",
+          "url": "https://measuringpolyphony.org/",
+          "description": "Digital Encoding of Late Medieval Music"
+        },
+        {
+          "name": "DigLib",
+          "url": "https://diglib.library.vanderbilt.edu/ama-browse.pl",
+          "description": "East African Recordings"
+        }
+      ]
+    },
+    {
+      "id": "audio-concerts-live-shows",
+      "title": "コンサート / ライブ",
+      "resources": [
+        {
+          "name": "365 Radio",
+          "url": "https://365.ilysm.nl/",
+          "description": "List of YouTube DJ Channels",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "bt.etree",
+          "url": "https://bt.etree.org/",
+          "description": "Concert Recordings / Torrents",
+          "starred": true
+        },
+        {
+          "name": "hate5six",
+          "url": "https://hate5six.com/",
+          "description": "Concert Recordings",
+          "starred": true
+        },
+        {
+          "name": "MiroPPB",
+          "url": "https://miroppb.com/",
+          "description": "A State of Trance Archive / DJ Mixes / Downloader",
+          "starred": true
+        },
+        {
+          "name": "JamBase",
+          "url": "https://www.jambase.com/videos",
+          "description": "Concert Recordings"
+        },
+        {
+          "name": "Relisten",
+          "url": "https://relisten.net/",
+          "description": "Concert Recordings",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "DimeADozen",
+          "url": "http://www.dimeadozen.org/",
+          "description": "Concert Recordings / Torrents"
+        },
+        {
+          "name": "Guitars101",
+          "url": "https://www.guitars101.com/",
+          "description": "Concert Recordings / Bootlegs"
+        },
+        {
+          "name": "TheTradersDen",
+          "url": "http://www.thetradersden.org/",
+          "description": "Concert Recordings / Torrents"
+        },
+        {
+          "name": "Lossless Legs",
+          "url": "https://www.shnflac.net/",
+          "description": "Concert Recordings / Torrents"
+        },
+        {
+          "name": "etreedb",
+          "url": "https://etreedb.org/",
+          "description": "Concert Recordings / Torrents"
+        },
+        {
+          "name": "MuseBootlegs",
+          "url": "https://www.musebootlegs.com/",
+          "description": "Bootleg Concert Recordings / Torrents"
+        },
+        {
+          "name": "LiveBootlegConcert",
+          "url": "https://livebootlegconcert.blogspot.com/",
+          "description": "Bootleg Concert Recordings / Torrents"
+        },
+        {
+          "name": "TopDJMixes",
+          "url": "https://topdjmixes.com/",
+          "description": "DJ Mixes / Livesets"
+        },
+        {
+          "name": "GOA PsyTrance Livesets",
+          "url": "https://rentry.co/FMHYB64#goa-psytrance-livesets",
+          "description": "DJ Livesets"
+        },
+        {
+          "name": "⁠BassBlog",
+          "url": "https://bassblog.pro/",
+          "description": "DJ Mixes / Streaming"
+        },
+        {
+          "name": "⁠TestPressing",
+          "url": "https://www.testpressing.org/",
+          "description": "Rare DJ Mixes / Streaming"
+        },
+        {
+          "name": "Rave Recording",
+          "url": "https://rentry.co/FMHYB64#rave-library",
+          "description": "Rave Recordings / Archive"
+        },
+        {
+          "name": "Volume",
+          "url": "https://volume.com/",
+          "description": "Live Cam Concerts"
+        },
+        {
+          "name": "ConcertArchives",
+          "url": "https://www.concertarchives.org/",
+          "description": "Concert Tracking / Database"
+        },
+        {
+          "name": "SongKick",
+          "url": "https://www.songkick.com/",
+          "description": "Find Concerts / Music Festivals"
+        },
+        {
+          "name": "ConcertArchives",
+          "url": "https://www.concertarchives.org/",
+          "description": "Find Concerts / Music Festivals"
+        },
+        {
+          "name": "FindYourFest",
+          "url": "https://www.findyourfest.com/",
+          "description": "Find Concerts / Music Festivals"
+        },
+        {
+          "name": "Cadenza",
+          "url": "http://www.cadenza.org/",
+          "description": "Find Classical / Contemporary Concerts"
+        },
+        {
+          "name": "WorldConcertHall",
+          "url": "https://www.worldconcerthall.com/en/schedule-list/",
+          "description": "Concert Hall / Opera House Live Streams"
+        },
+        {
+          "name": "ToolDriveProject",
+          "url": "https://tooldriveproject.net/",
+          "description": "Tool Live Archive"
+        },
+        {
+          "name": "RATM.live",
+          "url": "https://ratm.live/",
+          "description": "Rage Against the Machine Live Archive"
+        },
+        {
+          "name": "RHCPLiveArchive",
+          "url": "https://www.rhcplivearchive.com/",
+          "description": "Red Hot Chili Peppers Live Archive"
+        },
+        {
+          "name": "Radio Nowhere",
+          "url": "https://rentry.co/FMHYB64#radio-nowhere",
+          "description": "Bruce Springsteen Concerts / Bootlegs"
+        },
+        {
+          "name": "Phish.in",
+          "url": "https://phish.in/",
+          "description": "Phish Live Archive / Mobile",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "setlist.fm",
+          "url": "https://www.setlist.fm/",
+          "description": "Setlist Database"
+        }
+      ]
+    },
+    {
+      "id": "audio-podcast-streaming",
+      "title": "ポッドキャストストリーミング",
+      "resources": [
+        {
+          "name": "Spotify Podcasts",
+          "url": "https://open.spotify.com/browse/podcasts",
+          "description": "Podcasts / SponsorBlock / Companion / RSS / Video Download / Audio Download",
+          "starred": true
+        },
+        {
+          "name": "Pocket Casts",
+          "url": "https://play.pocketcasts.com/discover",
+          "description": "Podcasts / Desktop App",
+          "starred": true
+        },
+        {
+          "name": "⁠PodcastToMP3",
+          "url": "https://podcasttomp3.com/",
+          "description": "Podcast Downloads / Search"
+        },
+        {
+          "name": "Podchaser",
+          "url": "https://www.podchaser.com/charts",
+          "description": "Podcast Charts / Databases"
+        },
+        {
+          "name": "⁠Podstatus",
+          "url": "https://podstatus.com/charts",
+          "description": "Podcast Charts / Databases"
+        },
+        {
+          "name": "Listen Notes",
+          "url": "https://www.listennotes.com/",
+          "description": "Podcast Search Engine"
+        },
+        {
+          "name": "Rephonic",
+          "url": "https://rephonic.com/graph",
+          "description": "Find Similar Podcasts"
+        },
+        {
+          "name": "Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/home",
+          "description": ""
+        },
+        {
+          "name": "PodParadise",
+          "url": "https://www.podparadise.com/",
+          "description": ""
+        },
+        {
+          "name": "Podbean",
+          "url": "https://www.podbean.com/",
+          "description": ""
+        },
+        {
+          "name": "Podbay",
+          "url": "https://podbay.fm/",
+          "description": ""
+        },
+        {
+          "name": "BBC Podcasts",
+          "url": "https://www.bbc.co.uk/sounds/podcasts",
+          "description": ""
+        },
+        {
+          "name": "Downloader",
+          "url": "https://github.com/get-iplayer/get_iplayer",
+          "description": ""
+        },
+        {
+          "name": "Podcast Index",
+          "url": "https://podcastindex.org/",
+          "description": ""
+        },
+        {
+          "name": "Player FM",
+          "url": "https://player.fm/",
+          "description": ""
+        },
+        {
+          "name": "Podcast Republic",
+          "url": "https://www.podcastrepublic.net/",
+          "description": ""
+        },
+        {
+          "name": "Relay.fm",
+          "url": "https://www.relay.fm/",
+          "description": ""
+        },
+        {
+          "name": "podcast-dl",
+          "url": "https://github.com/lightpohl/podcast-dl",
+          "description": "Podcast Downloaders"
+        },
+        {
+          "name": "PodcastBulkDownloader",
+          "url": "https://github.com/cnovel/PodcastBulkDownloader",
+          "description": "Podcast Downloaders"
+        },
+        {
+          "name": "PodFetch",
+          "url": "https://www.samtv.fyi/PodFetch/",
+          "description": "Podcast Downloaders"
+        },
+        {
+          "name": "PodDL",
+          "url": "https://github.com/freshe/poddl",
+          "description": "Podcast Downloaders"
+        },
+        {
+          "name": "PodGrab",
+          "url": "https://github.com/akhilrex/podgrab",
+          "description": "Podcast Downloaders"
+        },
+        {
+          "name": "PodScripts",
+          "url": "https://podscripts.co/",
+          "description": "Podcast Transcript Search"
+        },
+        {
+          "name": "OpenPodcast",
+          "url": "https://openpodcast.dev",
+          "description": "Podcast Analytics"
+        },
+        {
+          "name": "castero",
+          "url": "https://github.com/xgi/castero",
+          "description": "TUI Terminal Podcast Client"
+        },
+        {
+          "name": "Grover",
+          "url": "https://www.microsoft.com/store/productId/9NBLGGH6C4BC",
+          "description": "Podcast Client"
+        },
+        {
+          "name": "GPodder",
+          "url": "https://gpodder.github.io/",
+          "description": "Podcast Client"
+        },
+        {
+          "name": "EchoWalk",
+          "url": "https://www.echowalk.com/",
+          "description": "Turn Articles / Webpages into Podcasts"
+        },
+        {
+          "name": "PodSync",
+          "url": "https://github.com/mxpv/podsync",
+          "description": "Turn YouTube Video into Podcasts"
+        }
+      ]
+    },
+    {
+      "id": "audio-ambient-relaxation",
+      "title": "環境音 / リラクゼーション",
+      "resources": [
+        {
+          "name": "Drone Zone",
+          "url": "https://somafm.com/player/#/now-playing/dronezone",
+          "description": "Ambient Playlists",
+          "starred": true
+        },
+        {
+          "name": "Music For Programming",
+          "url": "https://musicforprogramming.net/latest/",
+          "description": "Ambient Playlists"
+        },
+        {
+          "name": "myNoise",
+          "url": "https://mynoise.net/",
+          "description": "Customizable Ambient Sound Mixer",
+          "starred": true
+        },
+        {
+          "name": "Rainy Mood",
+          "url": "https://www.rainymood.com/",
+          "description": "Ambient Rain",
+          "starred": true
+        },
+        {
+          "name": "Rainbow Hunt",
+          "url": "https://rainbowhunt.com/",
+          "description": "Ambient Rain"
+        },
+        {
+          "name": "Pluvior",
+          "url": "https://pluvior.com/",
+          "description": "Ambient Rain"
+        },
+        {
+          "name": "Rainyscope",
+          "url": "https://rainyscope.com/",
+          "description": "Ambient Rain"
+        },
+        {
+          "name": "ambiphone",
+          "url": "https://ambiph.one/",
+          "description": "Simple Ambient Sound Mixers"
+        },
+        {
+          "name": "Moodist",
+          "url": "https://moodist.app/",
+          "description": "Simple Ambient Sound Mixers"
+        },
+        {
+          "name": "Ambie",
+          "url": "https://ambieapp.com/",
+          "description": "Ambient Sound Mixer / App"
+        },
+        {
+          "name": "Click Bath",
+          "url": "https://hamishlang.github.io/clickbath/",
+          "description": "Ambient Sound Mixer with Customizable Musical Scale / Instruments"
+        },
+        {
+          "name": "IMissTheOffice",
+          "url": "https://imisstheoffice.eu/",
+          "description": "Ambient Office Sounds with Interactive UI"
+        },
+        {
+          "name": "Homesick",
+          "url": "https://scoreascore.com/homesick",
+          "description": "Ambient Home Sounds"
+        },
+        {
+          "name": "VirtOcean",
+          "url": "https://virtocean.com/",
+          "description": "Ambient Ocean Sounds"
+        },
+        {
+          "name": "imissmycafe",
+          "url": "https://imissmycafe.com/",
+          "description": "Ambient Cafe Sounds"
+        },
+        {
+          "name": "Relaxing Sounds",
+          "url": "https://unifycosmos.com/relaxing-sounds/",
+          "description": "Ambient Soundscapes"
+        },
+        {
+          "name": "Calmsound",
+          "url": "https://www.calmsound.com/",
+          "description": "Ambient Soundscapes"
+        },
+        {
+          "name": "Click Relax",
+          "url": "https://click-relax.com/",
+          "description": "Ambient Soundscapes"
+        },
+        {
+          "name": "Moszen",
+          "url": "https://www.moszen.com/",
+          "description": "Ambient Soundscapes"
+        },
+        {
+          "name": "Zen Sounds",
+          "url": "https://app.zenflowchart.com/zen-sounds",
+          "description": "Ambient Soundscapes"
+        },
+        {
+          "name": "NoisyLoop",
+          "url": "https://noisyloop.com/",
+          "description": "Ambient Soundscapes"
+        },
+        {
+          "name": "lofi-player",
+          "url": "https://magenta.tensorflow.org/lofi-player",
+          "description": "Create Room / Lofi Player",
+          "mirrors": [
+            "https://magenta.github.io/lofi-player/"
+          ]
+        },
+        {
+          "name": "Wisdom Tree",
+          "url": "https://github.com/HACKER097/wisdom-tree/",
+          "description": "TUI Concentration App"
+        },
+        {
+          "name": "Generative.fm",
+          "url": "https://generative.fm/",
+          "description": "Generative Ambient Music"
+        },
+        {
+          "name": "Lofi Generator",
+          "url": "https://lofigenerator.com/",
+          "description": "Generative Ambient Music"
+        },
+        {
+          "name": "Earth.fm",
+          "url": "https://earth.fm/",
+          "description": "Field Recordings"
+        },
+        {
+          "name": "tree.fm",
+          "url": "https://www.tree.fm/",
+          "description": "Field Recordings"
+        },
+        {
+          "name": "Sounds of Maine",
+          "url": "https://soundsofmaine.life/",
+          "description": "Field Recordings"
+        },
+        {
+          "name": "HaloMe",
+          "url": "https://halome.nu/",
+          "description": "Halo Menu Screens"
+        },
+        {
+          "name": "CanvasCycle",
+          "url": "http://www.effectgames.com/demos/canvascycle/",
+          "description": "8-bit Scenes with Ambient Sounds"
+        },
+        {
+          "name": "Ambient Mixer",
+          "url": "https://www.ambient-mixer.com/",
+          "description": "User-Made Soundscapes"
+        },
+        {
+          "name": "ChillOuts",
+          "url": "http://www.chillouts.com/",
+          "description": "Meditation Aid"
+        },
+        {
+          "name": "You are Listening To LA",
+          "url": "https://youarelistening.to/",
+          "description": "Ambient City Sounds & Live LAPD Police Radio"
+        },
+        {
+          "name": "TheWhiteNoiseMachine",
+          "url": "https://thewhitenoisemachine.com/",
+          "description": "White Noise Generator"
+        },
+        {
+          "name": "FMSTREAM",
+          "url": "https://fmstream.org/",
+          "description": "Radio Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Recommended Streams",
+          "url": "https://github.com/deroverda/recommended-radio-streams",
+          "description": "Radio Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Station Index",
+          "url": "https://en.wikipedia.org/wiki/List_of_Internet_radio_stations",
+          "description": "Radio Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "RadioStationWorld",
+          "url": "https://radiostationworld.com/",
+          "description": "Radio Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Radio Browser",
+          "url": "https://www.radio-browser.info/users",
+          "description": "Radio Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "BBC Sounds",
+          "url": "https://www.bbc.co.uk/sounds",
+          "description": "BBC Live & Catch-Up Radio / Requires UK VPN / Downloader",
+          "starred": true
+        },
+        {
+          "name": "Drive n Listen",
+          "url": "https://drivenlisten.com/",
+          "description": "Radio Driving Simulators",
+          "starred": true
+        },
+        {
+          "name": "iHeartRadio",
+          "url": "https://www.iheart.com/",
+          "description": "Podcasts / Radio"
+        },
+        {
+          "name": "Mixcloud",
+          "url": "https://www.mixcloud.com/",
+          "description": "Podcasts / Radio"
+        },
+        {
+          "name": "myTuner",
+          "url": "https://mytuner-radio.com/",
+          "description": "Podcasts / Radio"
+        },
+        {
+          "name": "TuneIn",
+          "url": "https://tunein.com/",
+          "description": "Podcasts / Radio"
+        },
+        {
+          "name": "Internet Archive",
+          "url": "https://archive.org/details/audio?&sort=-downloads&page=1",
+          "description": "News / Classic Radio / Podcasts"
+        },
+        {
+          "name": "Relic Radio",
+          "url": "https://www.relicradio.com/",
+          "description": "Classic Radio"
+        },
+        {
+          "name": "Old Time Radio",
+          "url": "https://oldtime.radio/",
+          "description": "Classic Radio"
+        },
+        {
+          "name": "Old Time Radio Downloads",
+          "url": "https://www.oldtimeradiodownloads.com/",
+          "description": "Classic Radio Downloads"
+        },
+        {
+          "name": "Braggoscope",
+          "url": "https://www.braggoscope.com/",
+          "description": "BBC In Our Time Archive"
+        },
+        {
+          "name": "AudioFilesDrive",
+          "url": "https://t.me/AudioFilesDrive",
+          "description": "Radio Drama Downloads"
+        },
+        {
+          "name": "radiobot",
+          "url": "https://t.me/radiobot",
+          "description": "Radio / Telegram"
+        },
+        {
+          "name": "raddio",
+          "url": "https://raddio.net/",
+          "description": "Simple Radio Player / Directory"
+        },
+        {
+          "name": "Instant.audio",
+          "url": "https://instant.audio/",
+          "description": "Minimalist Radio Player"
+        },
+        {
+          "name": "Flicker Radio",
+          "url": "https://flickermini.pages.dev/radiostations",
+          "description": "Simple / Lightweight Radio Player"
+        },
+        {
+          "name": "QMPlay2",
+          "url": "https://github.com/zaps166/QMPlay2",
+          "description": "Desktop Media / Radio Player"
+        },
+        {
+          "name": "StreamURL",
+          "url": "https://streamurl.link/",
+          "description": "Radio Stream URL Finder"
+        },
+        {
+          "name": "LiveATC",
+          "url": "https://www.liveatc.net/",
+          "description": "Air Traffic Radio Chatter"
+        },
+        {
+          "name": "Broadcastify",
+          "url": "https://www.broadcastify.com/",
+          "description": "Live Emergency, Aircraft and Rail Radio"
+        },
+        {
+          "name": "OpenMHz",
+          "url": "https://openmhz.com/",
+          "description": "Live Police Radio"
+        },
+        {
+          "name": "RadioReference",
+          "url": "https://www.radioreference.com/",
+          "description": "Morse Code Radio / Communication"
+        },
+        {
+          "name": "Worldwide Radio",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/worldwide-radio/",
+          "description": "Radio Extension"
+        }
+      ]
+    },
+    {
+      "id": "audio-internet-radio",
+      "title": "インターネット Radio",
+      "resources": [
+        {
+          "name": "SomaFM",
+          "url": "https://somafm.com/",
+          "description": "Online Radio / User Supported / Discovery Guide",
+          "starred": true
+        },
+        {
+          "name": "NTS Radio",
+          "url": "https://www.nts.live/",
+          "description": "DJ Radio Shows / SoundCloud / Discovery Guide",
+          "starred": true
+        },
+        {
+          "name": "RadioParadise",
+          "url": "https://radioparadise.com/",
+          "description": "Online Radio / Listener Supported",
+          "starred": true
+        },
+        {
+          "name": "KWSX Radio",
+          "url": "https://radio.kwsx.online/",
+          "description": "Online Radio / Listener Supported"
+        },
+        {
+          "name": "My Radio",
+          "url": "https://junguler.github.io/m3u-player-web/",
+          "description": "Online Radio Directory"
+        },
+        {
+          "name": "0nRadio",
+          "url": "https://www.0nradio.com/",
+          "description": "Online Radio Directory"
+        },
+        {
+          "name": "1a Radio",
+          "url": "https://www.1aradio.com/",
+          "description": "Online Radio Directory"
+        },
+        {
+          "name": "Radiolise",
+          "url": "https://radiolise.com/",
+          "description": "Online Radio Player / Directory"
+        },
+        {
+          "name": "Radiodeck",
+          "url": "https://www.radiodeck.com/",
+          "description": "Online Radio Player / Directory"
+        },
+        {
+          "name": "Quasar Radio",
+          "url": "https://kuasark.com/en/",
+          "description": "Online Radio Directory"
+        },
+        {
+          "name": "⁠Freeform Radio",
+          "url": "https://www.freeformradio.directory/",
+          "description": "Online Radio Directory"
+        },
+        {
+          "name": "⁠Vijay's Radio Vibes",
+          "url": "https://vijaysradiovibes.pages.dev/",
+          "description": "Random Radio Stations"
+        },
+        {
+          "name": "AccuRadio",
+          "url": "https://www.accuradio.com/",
+          "description": ""
+        },
+        {
+          "name": "Q-3",
+          "url": "https://www.q-3.eu/",
+          "description": ""
+        },
+        {
+          "name": "⁠DubLab",
+          "url": "https://www.dublab.com/",
+          "description": ""
+        },
+        {
+          "name": "⁠BoxRadio",
+          "url": "https://boxradio.net/",
+          "description": ""
+        },
+        {
+          "name": "You Radio",
+          "url": "https://play.you.radio/",
+          "description": ""
+        },
+        {
+          "name": "Audiophile",
+          "url": "https://audiophile.fm/",
+          "description": ""
+        },
+        {
+          "name": "Vidbox Radio",
+          "url": "https://vidbox.cc/radio",
+          "description": ""
+        },
+        {
+          "name": "ShoutCast",
+          "url": "https://directory.shoutcast.com/",
+          "description": "User-Stations"
+        },
+        {
+          "name": "Zeno.fm",
+          "url": "https://zeno.fm/",
+          "description": "User-Stations"
+        },
+        {
+          "name": "Live365",
+          "url": "https://live365.com/",
+          "description": "User-Stations"
+        },
+        {
+          "name": "Internet-Radio",
+          "url": "https://internet-radio.com/",
+          "description": "Station-Directory"
+        },
+        {
+          "name": "CoreRadio",
+          "url": "https://coreradio.online/listen",
+          "description": "Metalcore / Hardcore / Deathcore"
+        },
+        {
+          "name": "deepcut.fm",
+          "url": "https://deepcut.live/",
+          "description": "Deep-Cuts"
+        },
+        {
+          "name": "Tilderadio",
+          "url": "https://tilderadio.org/",
+          "description": "Community Radio"
+        },
+        {
+          "name": "UpBeat",
+          "url": "https://upbeatradio.net/",
+          "description": "Community Radio",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Radio.dubbeh",
+          "url": "https://radio.dubbeh.net/",
+          "description": "Independent Internet Radio"
+        },
+        {
+          "name": "radio.uwu",
+          "url": "https://radio.uwu.network/",
+          "description": "Subculture Radio"
+        },
+        {
+          "name": "Rekt FM",
+          "url": "https://rekt.network/",
+          "description": "Chill / Space / Dark / Horror Synth / EBSM / EDM Radio"
+        },
+        {
+          "name": "Nightwave Plaza",
+          "url": "https://plaza.one/",
+          "description": "Vaporwave Radio"
+        },
+        {
+          "name": "Nightride.fm",
+          "url": "https://nightride.fm/",
+          "description": "Synthwave / Darksynth Radio"
+        },
+        {
+          "name": "Di.fm",
+          "url": "https://www.di.fm/",
+          "description": "Electronic Radio"
+        },
+        {
+          "name": "0x40",
+          "url": "https://0x40.mon.im/",
+          "description": "Electronic Radio with Anime Pictures"
+        },
+        {
+          "name": "HappyHardcore",
+          "url": "https://www.happyhardcore.com/radio/",
+          "description": "Hardcore Dance Radio"
+        },
+        {
+          "name": "Openings Moe",
+          "url": "https://openings.moe/",
+          "description": "Anime Theme Radio"
+        },
+        {
+          "name": "Ongaku",
+          "url": "https://ongaku.js.org/",
+          "description": "Anime Radio"
+        },
+        {
+          "name": "r-a-d.io",
+          "url": "https://r-a-d.io/",
+          "description": "Anime Radio"
+        },
+        {
+          "name": "Pool Suite",
+          "url": "https://poolsuite.net/",
+          "description": "Summer Radio"
+        },
+        {
+          "name": "J1 Radio",
+          "url": "https://rec.torontocast.stream/player/",
+          "description": "J-Pop Radio"
+        },
+        {
+          "name": "LISTEN.moe",
+          "url": "https://listen.moe/",
+          "description": "J-Pop / K-Pop Radio"
+        },
+        {
+          "name": "420.moe",
+          "url": "https://420.moe/",
+          "description": "420 Radio"
+        },
+        {
+          "name": "HollowEarthRadio",
+          "url": "https://www.hollowearthradio.org/",
+          "description": "Pacific Northwest Artists"
+        },
+        {
+          "name": "Nectarine",
+          "url": "https://www.scenestream.net/demovibes/streams/",
+          "description": "Demo Scene Music Radio"
+        },
+        {
+          "name": "Daft Punk Cafe",
+          "url": "https://daftpunk.cafe/",
+          "description": "Daft Punk Radio"
+        },
+        {
+          "name": "Radiooooo",
+          "url": "https://radiooooo.com/",
+          "description": "Radio / Time Machine"
+        },
+        {
+          "name": "Campus FM",
+          "url": "https://www.campus-fm.com/",
+          "description": "College Radio"
+        },
+        {
+          "name": "RadioSide",
+          "url": "https://radioside.com/",
+          "description": "Internet Radio Receiver"
+        },
+        {
+          "name": "streamWriter",
+          "url": "https://streamwriter.org/en/",
+          "description": "Internet Radio Audio Downloader"
+        }
+      ]
+    },
+    {
+      "id": "audio-radio-directories",
+      "title": "ラジオディレクトリ",
+      "resources": [
+        {
+          "name": "Radio Garden",
+          "url": "https://radio.garden/",
+          "description": "Worldwide Radio Globes",
+          "starred": true
+        },
+        {
+          "name": "Site Unblock",
+          "url": "https://redd.it/18e12gf",
+          "description": "Worldwide Radio Globes"
+        },
+        {
+          "name": "2",
+          "url": "https://redd.it/13b53zs",
+          "description": "Worldwide Radio Globes"
+        },
+        {
+          "name": "WorldRadioMap",
+          "url": "https://worldradiomap.com/",
+          "description": "Worldwide Radio Globes"
+        },
+        {
+          "name": "GlobeRadio",
+          "url": "https://globeradio.app/",
+          "description": "Worldwide Radio Globes"
+        },
+        {
+          "name": "⁠RadioCast",
+          "url": "https://www.radiocast.co/",
+          "description": "Worldwide Radio Globes"
+        },
+        {
+          "name": "LiveOnlineRadio",
+          "url": "https://liveonlineradio.net/",
+          "description": "Global Radio Directory / Country & Genre"
+        },
+        {
+          "name": "OnlineRadioBox",
+          "url": "https://onlineradiobox.com/",
+          "description": "International Radio Directory / Playlists"
+        },
+        {
+          "name": "Streema",
+          "url": "https://streema.com/",
+          "description": "Global AM / FM & Internet Radio Directory"
+        },
+        {
+          "name": "Radio.net",
+          "url": "https://www.radio.net/",
+          "description": "International Radio Directory / Player"
+        },
+        {
+          "name": "RadioPuppy",
+          "url": "https://www.radiopuppy.com/",
+          "description": "Radio Directory"
+        },
+        {
+          "name": "myTuner",
+          "url": "https://mytuner-radio.com/",
+          "description": "Global Radio & Podcasts / Multi-Platform"
+        },
+        {
+          "name": "TuneYou",
+          "url": "https://tuneyou.com/",
+          "description": "Radio Directory / Discovery Focus"
+        },
+        {
+          "name": "vTuner",
+          "url": "https://vtuner.com/setupapp/guide/asp/BrowseStations/startpage.asp",
+          "description": "Radio Directory / Hardware Integration"
+        },
+        {
+          "name": "radioline",
+          "url": "https://www.radioline.co/",
+          "description": "Radio & Podcast Aggregator"
+        },
+        {
+          "name": "TheNonStop Radio",
+          "url": "https://thenonstopradio.com/",
+          "description": "Radio Directory"
+        },
+        {
+          "name": "TheOneStop Radio",
+          "url": "https://theonestopradio.com/",
+          "description": "Radio Directory"
+        },
+        {
+          "name": "Radio Guide",
+          "url": "https://www.radioguide.fm/",
+          "description": "Radio Directory"
+        },
+        {
+          "name": "radio-locator",
+          "url": "https://radio-locator.com/",
+          "description": "AM / FM Radio Search"
+        },
+        {
+          "name": "Xiph",
+          "url": "https://dir.xiph.org/",
+          "description": "Icecast / Ogg Stream Directory"
+        },
+        {
+          "name": "UKRadioLive",
+          "url": "https://ukradiolive.com/",
+          "description": "UK Radio Station Directories"
+        },
+        {
+          "name": "RadioFeeds",
+          "url": "http://www.radiofeeds.co.uk/",
+          "description": "UK Radio Station Directories"
+        },
+        {
+          "name": "ilovemusic",
+          "url": "https://ilovemusic.de/",
+          "description": "German Radio Directory"
+        },
+        {
+          "name": "Tvradiotuner",
+          "url": "https://tvradiotuner.com/",
+          "description": "TV & Radio Stream Aggregator"
+        },
+        {
+          "name": "VRadio",
+          "url": "https://www.akouradio.com/",
+          "description": "Radio Directory / VRadio App"
+        }
+      ]
+    },
+    {
+      "id": "audio-lofi-radio",
+      "title": "Lo-Fiラジオ",
+      "resources": [
+        {
+          "name": "Flow-Fi",
+          "url": "https://www.flowfi.app/",
+          "description": "Lofi Radio",
+          "starred": true
+        },
+        {
+          "name": "CityHop",
+          "url": "https://www.cityhop.cafe/",
+          "description": "Lofi Radio / City Walks",
+          "starred": true
+        },
+        {
+          "name": "Japan Walkaround",
+          "url": "https://thatguyedd.github.io/",
+          "description": "Lofi Radio / City Walks"
+        },
+        {
+          "name": "Chillhop",
+          "url": "https://chillhop.com/",
+          "description": "Lofi Radio",
+          "starred": true
+        },
+        {
+          "name": "Lofi and Games",
+          "url": "https://lofiandgames.com/",
+          "description": "Lofi Radio + Simple Games"
+        },
+        {
+          "name": "FlowTunes",
+          "url": "https://www.flowtunes.app/",
+          "description": "Lofi + Focus Radio / Ambient Sounds"
+        },
+        {
+          "name": "Lofizen",
+          "url": "https://www.lofizen.co/",
+          "description": "Lofi Radio / Ambient Sounds"
+        },
+        {
+          "name": "Moon Phase Radio",
+          "url": "https://www.moonphaseradio.com/",
+          "description": "Lofi Radio"
+        },
+        {
+          "name": "Ambient Sleeping Pill",
+          "url": "https://ambientsleepingpill.com/",
+          "description": "Lofi Radio"
+        },
+        {
+          "name": "LofiCafe",
+          "url": "https://www.loficafe.net/",
+          "description": "Lofi Radio"
+        },
+        {
+          "name": "Ambicular",
+          "url": "https://ambicular.com/",
+          "description": "Lofi Radio"
+        },
+        {
+          "name": "FreeCodeCamp",
+          "url": "https://coderadio.freecodecamp.org/",
+          "description": "Lofi Radio"
+        },
+        {
+          "name": "Lofi Club",
+          "url": "https://loficlub.vercel.app/",
+          "description": "Lofi Radio"
+        },
+        {
+          "name": "Loofi",
+          "url": "https://loofi.netlify.app/",
+          "description": "Lofi Radio"
+        },
+        {
+          "name": "Lofi Limo",
+          "url": "https://lofi.limo/",
+          "description": "Lofi Radio"
+        },
+        {
+          "name": "DevTunes FM",
+          "url": "https://radio.madza.dev/",
+          "description": "Lofi Radio"
+        },
+        {
+          "name": "Moss Garden",
+          "url": "https://moss.garden/",
+          "description": "Lofi Radio"
+        },
+        {
+          "name": "Coding Cat",
+          "url": "https://hostrider.com/",
+          "description": "Lofi Radio / Nyan Cat's Cousin"
+        },
+        {
+          "name": "Awesome Spotify Stats",
+          "url": "https://github.com/hugo9655/awesome-spotify-stats",
+          "description": "Listening Statistics Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Spicetify",
+          "url": "https://spicetify.app/",
+          "description": "Spotify Themes & Plugins / Notes",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "SpotX",
+          "url": "https://github.com/SpotX-Official/SpotX",
+          "description": "Ad-Free Spotify Patchers",
+          "starred": true
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/SpotxCommunity",
+          "description": "Ad-Free Spotify Patchers"
+        },
+        {
+          "name": "BlockTheSpot",
+          "url": "https://github.com/mrpond/BlockTheSpot",
+          "description": "Ad-Free Spotify Patchers"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/9tCNMFESuC",
+          "description": "Ad-Free Spotify Patchers"
+        },
+        {
+          "name": "⁠Spot SponsorBlock",
+          "url": "https://spotsponsorblock.org/",
+          "description": "Skip Sponsored Spotify Podcast Ads"
+        },
+        {
+          "name": "Lofi",
+          "url": "https://www.lofi.rocks/",
+          "description": "Mini Spotify Player Widget",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Trikatuka",
+          "url": "https://trikatuka.aknakn.eu/",
+          "description": "Migrate Spotify Data to New Accounts"
+        },
+        {
+          "name": "Kotify",
+          "url": "https://github.com/dzirbel/kotify",
+          "description": "Spotify Library Managers"
+        },
+        {
+          "name": "Skiley",
+          "url": "https://skiley.net/",
+          "description": "Spotify Library Managers"
+        },
+        {
+          "name": "Versefy",
+          "url": "https://versefy.app/",
+          "description": "Display Synced Lyrics"
+        },
+        {
+          "name": "sptlrx",
+          "url": "https://github.com/raitonoberu/sptlrx",
+          "description": "Display Synced Lyrics"
+        },
+        {
+          "name": "Syrics",
+          "url": "https://syrics-web-akashrchandran.vercel.app/",
+          "description": "Download Synced Lyrics",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "LoaderSpot",
+          "url": "https://loadspot.pages.dev/",
+          "description": "Official Spotify Installers Archive"
+        },
+        {
+          "name": "Random Music Generator",
+          "url": "https://random-song.com/",
+          "description": "Find Random Songs, Albums, & Artists"
+        },
+        {
+          "name": "Opslagify",
+          "url": "https://opslagify.deruever.nl/",
+          "description": "Calculate Storage Size of Spotify Library"
+        },
+        {
+          "name": "Kira",
+          "url": "https://kira.vercel.app/",
+          "description": "Check Regional Availability of Spotify Content"
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.com/timrossback/kira",
+          "description": "Check Regional Availability of Spotify Content"
+        },
+        {
+          "name": "Album Availability Map",
+          "url": "https://kaaes.github.io/albums-availability/",
+          "description": "Check Regional Availability of Spotify Content"
+        },
+        {
+          "name": "Chart My Music",
+          "url": "https://www.chartmymusic.com/spotify/",
+          "description": "Generate Spotify Collage"
+        },
+        {
+          "name": "Tierify",
+          "url": "https://tierify.app/",
+          "description": "Create Spotify Tier Lists"
+        },
+        {
+          "name": "Canvas Downloader",
+          "url": "https://www.canvasdownloader.com/",
+          "description": "Extract Spotify Canvas Walls"
+        },
+        {
+          "name": "ListenByLabel",
+          "url": "https://www.lbl.fm/",
+          "description": "Search Spotify Record Labels"
+        },
+        {
+          "name": "ReleaseFeed",
+          "url": "https://releasefeed.elomatreb.eu/",
+          "description": "Create RSS Feeds of Favorite Artists"
+        },
+        {
+          "name": "xmplaylist",
+          "url": "https://xmplaylist.com/",
+          "description": "Listen to SiriusXM Channels on Spotify"
+        }
+      ]
+    },
+    {
+      "id": "audio-playlist-tools",
+      "title": "Playlist ツール",
+      "resources": [
+        {
+          "name": "Exportify",
+          "url": "https://exportify.app/",
+          "description": "Export Playlists",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/watsonbox/exportify",
+          "description": "Export Playlists"
+        },
+        {
+          "name": "spotify-backup",
+          "url": "https://github.com/caseychu/spotify-backup",
+          "description": "Export Playlists"
+        },
+        {
+          "name": "spotgen",
+          "url": "https://epsil.github.io/spotgen",
+          "description": "Playlist Generators",
+          "starred": true
+        },
+        {
+          "name": "Unheard.FM",
+          "url": "https://unheard.fm/",
+          "description": "Playlist Generators"
+        },
+        {
+          "name": "Chosic",
+          "url": "https://www.chosic.com/",
+          "description": "Playlist Generators"
+        },
+        {
+          "name": "Spoqify",
+          "url": "https://spoqify.com/",
+          "description": "Anonymous Playlist Generator"
+        },
+        {
+          "name": "SpotTransfer",
+          "url": "https://spot-transfer.vercel.app/",
+          "description": "Playlist Transfer Tools"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Pushan2005/SpotTransfer",
+          "description": "Playlist Transfer Tools"
+        },
+        {
+          "name": "Trikatuka",
+          "url": "https://trikatuka.aknakn.eu/",
+          "description": "Playlist Transfer Tools"
+        },
+        {
+          "name": "Spotify2YouTubeMusic",
+          "url": "https://github.com/mahdi-y/Spotify2YoutubeMusic",
+          "description": "Playlist Transfer Tools"
+        },
+        {
+          "name": "Playlist Hospital",
+          "url": "https://playlisthospital.com/",
+          "description": "Restore Disabled Songs in Spotify Playlists"
+        },
+        {
+          "name": "Spotlistr",
+          "url": "https://www.spotlistr.com/",
+          "description": "Platform-to-Spotify Playlist Converter"
+        },
+        {
+          "name": "Playlistor",
+          "url": "https://playlistor.io/",
+          "description": "Convert Apple Music Playlists to Spotify"
+        },
+        {
+          "name": "Playlist Randomizer",
+          "url": "https://stevenaleong.com/tools/spotifyplaylistrandomizer",
+          "description": "Better Shuffle for Playlists"
+        },
+        {
+          "name": "Sort Your Music",
+          "url": "http://sortyourmusic.playlistmachinery.com/",
+          "description": "Sort Playlists"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/plamere/SortYourMusic",
+          "description": "Sort Playlists"
+        },
+        {
+          "name": "Spotify Dedup",
+          "url": "https://spotify-dedup.com/",
+          "description": "Remove Duplicates in Playlists",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Timelineify",
+          "url": "https://www.timelineify.com/",
+          "description": "Create Playlist from an Artist's Discography"
+        },
+        {
+          "name": "Share Liked Songs",
+          "url": "https://nonnullish.github.io/share-liked-songs/",
+          "description": "Create Shareable Playlist from Liked Songs",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Tagify",
+          "url": "https://tagify.me/",
+          "description": "Create Tagged Playlists from Spotify Library"
+        },
+        {
+          "name": "PlaylistProxy",
+          "url": "https://playlistproxy.net/",
+          "description": "Share Playlists Anonymously",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Spotify Playlist Archive",
+          "url": "https://spotifyplaylistarchive.com/",
+          "description": "Public Spotify Playlists Archive",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ],
+      "note": "Some sites and tools accept URLs from various streaming sites but only use a particular source (usually YouTube) to get the audio. We've only mentioned a platform if it can directly rip audio from there."
+    },
+    {
+      "id": "audio-audio-ripping-sites",
+      "title": "音声 Ripping Sites",
+      "resources": [
+        {
+          "name": "lucida",
+          "url": "https://lucida.to/",
+          "description": "Multi-Site / 320kb / MP3 / FLAC",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "Discord"
+          ]
+        },
+        {
+          "name": "squid.wtf",
+          "url": "https://squid.wtf/",
+          "description": "Amazon Music / KHInsider / Qobuz / Soundcloud / Tidal / FLAC",
+          "starred": true
+        },
+        {
+          "name": "Monochrome",
+          "url": "https://monochrome.tf/",
+          "description": "HiFi Tidal Instance",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ],
+          "mirrors": [
+            "https://monochrome.samidy.com/",
+            "https://monochromemusic.pages.dev"
+          ]
+        },
+        {
+          "name": "DoubleDouble",
+          "url": "https://doubledouble.top/",
+          "description": "Multi-Site / 320kb / FLAC",
+          "starred": true,
+          "tags": [
+            "Telegram"
+          ]
+        },
+        {
+          "name": "DAB Music Player",
+          "url": "https://dabmusic.xyz",
+          "description": "FLAC / Download CLI",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "Discord"
+          ]
+        },
+        {
+          "name": "QQDL",
+          "url": "https://tidal.qqdl.site/",
+          "description": "Tidal / FLAC / Full List"
+        },
+        {
+          "name": "BiniLossless",
+          "url": "https://music.binimum.org/",
+          "description": "Tidal / FLAC / Full List"
+        },
+        {
+          "name": "Spotisaver",
+          "url": "https://spotisaver.net/",
+          "description": "Multi-Site"
+        },
+        {
+          "name": "⁠am-dl",
+          "url": "https://am-dl.pages.dev/",
+          "description": "Apple Music / AAC-M4A"
+        },
+        {
+          "name": "Jumo-DL",
+          "url": "https://jumo-dl.pages.dev/",
+          "description": "Qobuz / FLAC / MP3"
+        },
+        {
+          "name": "EzConv",
+          "url": "https://ezconv.cc/",
+          "description": "YouTube / 256kb"
+        },
+        {
+          "name": "YTiz",
+          "url": "https://ytiz.xyz/",
+          "description": "SoundCloud / Bandcamp / 128kb / AAC",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "cobalt",
+          "url": "https://cobalt.tools/",
+          "description": "SoundCloud / 320kb / MP3 / Instances / X",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio-audio-ripping-tools",
+      "title": "音声 Ripping ツール",
+      "resources": [
+        {
+          "name": "Nicotine+",
+          "url": "https://nicotine-plus.org/",
+          "description": "P2P Audio Sharing Networks / Stats / Server App / Batch DDL",
+          "starred": true
+        },
+        {
+          "name": "Soulseek",
+          "url": "https://slsknet.org/",
+          "description": "P2P Audio Sharing Networks / Stats / Server App / Batch DDL"
+        },
+        {
+          "name": "Soggfy",
+          "url": "https://github.com/Rafiuth/Soggfy",
+          "description": "Spotify / 160kb Free / 320kb Premium",
+          "starred": true
+        },
+        {
+          "name": "Exact Audio Copy",
+          "url": "https://www.exactaudiocopy.de/",
+          "description": "CD / DVD Audio Ripper",
+          "starred": true
+        },
+        {
+          "name": "Guide",
+          "url": "https://docs.google.com/document/d/1b1JJsuZj2TdiXs--XDvuKdhFUdKCdB_1qrmOMGkyveg",
+          "description": "CD / DVD Audio Ripper"
+        },
+        {
+          "name": "Whipper",
+          "url": "https://github.com/whipper-team/whipper",
+          "description": "CD / DVD Audio Ripper"
+        },
+        {
+          "name": "Firehawk52",
+          "url": "https://rentry.co/FMHYB64#firehawk",
+          "description": "Deezer / Qobuz / Tidal / Requires Sign-Up",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "Discord"
+          ]
+        },
+        {
+          "name": "OnTheSpot",
+          "url": "https://github.com/justin025/onthespot",
+          "description": "Apple Music / Bandcamp / Deezer / Qobuz / Spotify / Tidal",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Votify",
+          "url": "https://github.com/glomatico/votify",
+          "description": "Spotify / 160kb Free / 320kb Premium / Requires WVD Keys",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "streamrip",
+          "url": "https://github.com/nathom/streamrip",
+          "description": "Deezer / Tidal / Qobuz / SoundCloud / 128kb Free / FLAC / Use Firehawk52 / Colab"
+        },
+        {
+          "name": "OrpheusDL",
+          "url": "https://github.com/OrfiTeam/OrpheusDL",
+          "description": "Deezer / Qobuz / 128kb Free / FLAC / Use Firehawk52 / Deezer Module / Qobuz Module"
+        },
+        {
+          "name": "Archive",
+          "url": "https://rentry.co/FMHYB64#archive",
+          "description": "Qobuz / Tidal / Soundcloud / FLAC"
+        },
+        {
+          "name": "DeemixFix",
+          "url": "https://gitlab.com/deeplydrumming/DeemixFix",
+          "description": "Deezer / FLAC"
+        },
+        {
+          "name": "Deemix Revival",
+          "url": "https://github.com/bambanah/deemix",
+          "description": "Deezer / FLAC"
+        },
+        {
+          "name": "SaturnMusic",
+          "url": "https://github.com/SaturnMusic/",
+          "description": "Deezer / FLAC"
+        },
+        {
+          "name": "Murglar",
+          "url": "https://murglar.app/",
+          "description": "Deezer / SoundCloud / VK / 320kb MP3"
+        },
+        {
+          "name": "Audion",
+          "url": "https://audionplayer.com/",
+          "description": "Tidal",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Shira",
+          "url": "https://github.com/KraXen72/shira",
+          "description": "YouTube / SoundCloud / 128kb AAC"
+        },
+        {
+          "name": "QobuzDownloaderX-MOD",
+          "url": "https://github.com/DJDoubleD/QobuzDownloaderX-MOD",
+          "description": "Qobuz / 128kb Free 256 ACC Premium / FLAC / Use Firehawk52"
+        },
+        {
+          "name": "qobuz-dl",
+          "url": "https://github.com/vitiko98/qobuz-dl",
+          "description": "Qobuz / 128kb Free / FLAC / Use Firehawk52"
+        },
+        {
+          "name": "you-get",
+          "url": "https://you-get.org/",
+          "description": "SoundCloud / Bilibili / 128kb MP3"
+        },
+        {
+          "name": "BandCamp-DL",
+          "url": "https://github.com/iheanyi/bandcamp-dl",
+          "description": "Bandcamp / 128kb MP3 / Free Only",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "AccurateRip",
+          "url": "https://www.accuraterip.com/",
+          "description": "Verify Ripped Tracks are Error-Free"
+        }
+      ]
+    },
+    {
+      "id": "audio-telegram-bots",
+      "title": "Telegramボット",
+      "resources": [
+        {
+          "name": "Music Hunters",
+          "url": "https://t.me/MusicsHuntersbot",
+          "description": "Spotify / Apple / Tidal / Deezer / 320kb MP3",
+          "starred": true
+        },
+        {
+          "name": "DeezerMusicBot",
+          "url": "https://t.me/DeezerMusicBot",
+          "description": "Deezer / Soundcloud / VK / 320kb MP3 / FLAC / Support"
+        },
+        {
+          "name": "deezload2bot",
+          "url": "https://t.me/deezload2bot",
+          "description": "Deezer / 320kb MP3 / Updates"
+        },
+        {
+          "name": "BeatSpotBot",
+          "url": "https://t.me/BeatSpotBot",
+          "description": "Spotify / Apple / YouTube / FLAC / 25 Daily"
+        },
+        {
+          "name": "Motreeb",
+          "url": "https://t.me/motreb_downloader_bot",
+          "description": "Spotify / 320kb MP3"
+        },
+        {
+          "name": "scdlbot",
+          "url": "https://t.me/scdlbot",
+          "description": "YouTube / SoundCloud / Bandcamp / Mixcloud / 128kb MP3"
+        },
+        {
+          "name": "vkmusbot",
+          "url": "https://t.me/vkmusbot",
+          "description": "VK / 320kb MP3"
+        },
+        {
+          "name": "Meph Bot",
+          "url": "https://t.me/mephbot",
+          "description": "VK / 320kb MP3"
+        },
+        {
+          "name": "soundcloudaudiodownloader",
+          "url": "https://t.me/soundcloudaudiodownloader",
+          "description": "YouTube / SoundCloud / 128kb MP3"
+        },
+        {
+          "name": "GlomaticoBlueMusicBot",
+          "url": "https://t.me/GlomaticoBlueMusicBot",
+          "description": "Amazon Music Downloader",
+          "tags": [
+            "Telegram",
+            "Discord"
+          ]
+        },
+        {
+          "name": "GlomaticoPinkMusicBot",
+          "url": "https://t.me/GlomaticoPinkMusicBot",
+          "description": "Apple Music Downloader",
+          "tags": [
+            "Telegram",
+            "Discord"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio-download-sites",
+      "title": "ダウンロードサイト",
+      "resources": [
+        {
+          "name": "⁠Music Download Guide",
+          "url": "https://rentry.co/wheredownloadmusic",
+          "description": "Downloading Guide / Site Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "ArtistGrid",
+          "url": "https://artistgrid.cx/",
+          "description": "Unreleased / Render",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Audio Download CSE",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:ibmyuhh72io",
+          "description": "Multi-Site Search",
+          "starred": true
+        },
+        {
+          "name": "CSE 2",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:ohobg3wvr_w",
+          "description": "Multi-Site Search"
+        },
+        {
+          "name": "CSE 3",
+          "url": "https://cse.google.com/cse?cx=32d85b41e2feacd3f",
+          "description": "Multi-Site Search"
+        },
+        {
+          "name": "r/xTrill",
+          "url": "https://reddit.com/r/xTrill",
+          "description": "Download App / Backup"
+        },
+        {
+          "name": "VK::MP3",
+          "url": "https://metacpan.org/pod/VK::MP3",
+          "description": "VK MP3 Search Tool"
+        },
+        {
+          "name": "musify",
+          "url": "https://musify.club/",
+          "description": "320kb / MP3"
+        },
+        {
+          "name": "ccMixter",
+          "url": "https://ccmixter.org/",
+          "description": "DL / Stream / 320kb / MP3"
+        },
+        {
+          "name": "RockDownload",
+          "url": "https://www.rockdownload.org/",
+          "description": "320kb / MP3"
+        },
+        {
+          "name": "punk.cat",
+          "url": "https://punkcata.blogspot.com/",
+          "description": "320kb / MP3"
+        },
+        {
+          "name": "SongsLover",
+          "url": "https://songslover.li/",
+          "description": "256kb / MP3"
+        },
+        {
+          "name": "Ezhevika",
+          "url": "https://ezhevika.blogspot.com/",
+          "description": "192kb / MP3"
+        },
+        {
+          "name": "Internet Archive",
+          "url": "https://archive.org/details/audio",
+          "description": "MP3"
+        },
+        {
+          "name": "SoundClick",
+          "url": "https://www.soundclick.com/default.cfm",
+          "description": "MP3"
+        },
+        {
+          "name": "z3.fm",
+          "url": "https://z3.fm/",
+          "description": "MP3"
+        },
+        {
+          "name": "nodata",
+          "url": "https://nodata.tv/",
+          "description": "MP3"
+        },
+        {
+          "name": "LEAKED",
+          "url": "https://leaked.cx/",
+          "description": "MP3"
+        },
+        {
+          "name": "Tancpol",
+          "url": "https://tancpol.net/",
+          "description": "MP3"
+        },
+        {
+          "name": "New Album Releases",
+          "url": "https://newalbumreleases.net/",
+          "description": "MP3"
+        },
+        {
+          "name": "mp3db",
+          "url": "https://mp3db.pro/",
+          "description": "MP3"
+        },
+        {
+          "name": "DeadPulpit",
+          "url": "https://www.deadpulpit.com/",
+          "description": "MP3"
+        },
+        {
+          "name": "Saavn Web",
+          "url": "https://saavn-web-ui.vercel.app/",
+          "description": "MP3",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "CannaPower",
+          "url": "https://canna-power.to",
+          "description": "MP3"
+        },
+        {
+          "name": "GloryBeats",
+          "url": "https://glorybeats.com/",
+          "description": "MP3"
+        },
+        {
+          "name": "Cliggo",
+          "url": "https://music.cliggo.com/",
+          "description": "MP3"
+        },
+        {
+          "name": "Mixupload",
+          "url": "https://mixupload.com/",
+          "description": "MP3"
+        },
+        {
+          "name": "zvu4no",
+          "url": "https://zvu4no.org/",
+          "description": "MP3"
+        },
+        {
+          "name": "FLAC Attack",
+          "url": "https://flacattack.net/",
+          "description": "FLAC"
+        },
+        {
+          "name": "Lossless-Music",
+          "url": "https://lossless-music.org/",
+          "description": "FLAC"
+        },
+        {
+          "name": "FlacMusic",
+          "url": "https://www.flacmusic.info/",
+          "description": "FLAC"
+        },
+        {
+          "name": "Lossless-FLAC",
+          "url": "https://lossless-flac.com/",
+          "description": "FLAC"
+        },
+        {
+          "name": "DiscogC",
+          "url": "https://www.discogc.com/",
+          "description": "FLAC"
+        },
+        {
+          "name": "LosslessAlbums",
+          "url": "https://losslessalbums.club/",
+          "description": "FLAC"
+        },
+        {
+          "name": "⁠Music and Books",
+          "url": "https://musicsandbooks.org/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "IntMusic",
+          "url": "https://intmusic.net/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "Gangster",
+          "url": "https://gangster.su/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "GetRockMusic",
+          "url": "https://getrockmusic.net/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "Core Radio",
+          "url": "https://coreradio.online/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "AlterPortal",
+          "url": "https://alterportal.net/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "ShareMania",
+          "url": "https://sharemania.us/",
+          "description": "FLAC / MP3 / M4A"
+        },
+        {
+          "name": "Plastinka",
+          "url": "https://plastinka.org/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "Exystence",
+          "url": "https://exystence.net/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "ThemFire",
+          "url": "https://themfire.pro/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "Music Rider",
+          "url": "https://musicrider.org/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "FindFlac",
+          "url": "https://findflac.com/",
+          "description": "FLAC / MP3 / MP4"
+        },
+        {
+          "name": "iPlusFree",
+          "url": "https://www7.iplusfree.org/",
+          "description": "iTunes M4A"
+        },
+        {
+          "name": "xprm",
+          "url": "https://xprm.net/",
+          "description": "MP3 / DL / Stream / Requests"
+        },
+        {
+          "name": "SongStems",
+          "url": "https://songstems.net/",
+          "description": "STEM Files"
+        },
+        {
+          "name": "Geocities Midis",
+          "url": "https://www.midicities.com/GeoCities",
+          "description": "MIDI Files"
+        },
+        {
+          "name": "Tricotism",
+          "url": "https://www.tricotism.com/",
+          "description": "MIDI Files"
+        },
+        {
+          "name": "FreeMIDI",
+          "url": "https://freemidi.org/",
+          "description": "MIDI Files"
+        },
+        {
+          "name": "ArtScene",
+          "url": "http://artscene.textfiles.com/music/midi/",
+          "description": "MIDI Files"
+        },
+        {
+          "name": "VGMusic",
+          "url": "https://www.vgmusic.com/",
+          "description": "MIDI Files"
+        },
+        {
+          "name": "Music Hoarders",
+          "url": "https://discord.gg/kQUQkuwSaT",
+          "description": "Music Hoarding Community / Wiki"
+        }
+      ],
+      "note": "Use redirect bypassers to skip annoying link shorteners."
+    },
+    {
+      "id": "audio-genre-specific-ripping",
+      "title": "ジャンル別リッピング",
+      "resources": [
+        {
+          "name": "MiroPPB",
+          "url": "https://miroppb.com/",
+          "description": "A State of Trance Archive / DJ Mixes / Downloader",
+          "starred": true
+        },
+        {
+          "name": "Take Metal",
+          "url": "https://takemetal.org/",
+          "description": "Metal / MP3"
+        },
+        {
+          "name": "Metalminos",
+          "url": "https://metalminos.net/",
+          "description": "Metal / MP3"
+        },
+        {
+          "name": "In The Fog",
+          "url": "https://in-the-fog.ru/",
+          "description": "Metal / MP3"
+        },
+        {
+          "name": "TechnicalDeathMetal",
+          "url": "https://technicaldeathmetal.org/",
+          "description": "Metal / MP3"
+        },
+        {
+          "name": "HeavyMetalRarities",
+          "url": "https://heavymetalrarities.com/",
+          "description": "Metal / MP3"
+        },
+        {
+          "name": "GetMetal Club",
+          "url": "https://getmetal.club/",
+          "description": "Metal / MP3 / FLAC"
+        },
+        {
+          "name": "Nuclear Holocaust",
+          "url": "https://nuclear-holocaust.blogspot.com/",
+          "description": "Metal / FLAC"
+        },
+        {
+          "name": "We Need Match",
+          "url": "https://we-need-match.ru/",
+          "description": "Metal / FLAC / M4A"
+        },
+        {
+          "name": "Sophie's Floorboard",
+          "url": "https://sophiesfloorboard.blogspot.com/",
+          "description": "Hardcore / MP3"
+        },
+        {
+          "name": "1Gabba",
+          "url": "https://1gabba.pw/",
+          "description": "Electronic / MP3"
+        },
+        {
+          "name": "Gabber",
+          "url": "https://gabber.od.ua/",
+          "description": "Electronic / MP3"
+        },
+        {
+          "name": "⁠ELEKTROBEATS",
+          "url": "https://elektrobeats.org/",
+          "description": "Electronic / MP3"
+        },
+        {
+          "name": "EDMWaves",
+          "url": "https://edmwaves.org/",
+          "description": "Electronic / MP3"
+        },
+        {
+          "name": "MusicFans",
+          "url": "https://musicfans.space/",
+          "description": "Electronic / MP3"
+        },
+        {
+          "name": "PSYFP",
+          "url": "https://psyfp.ucoz.ru/",
+          "description": "Electronic / MP3"
+        },
+        {
+          "name": "DMO",
+          "url": "https://dance-music.org/",
+          "description": "Electronic / MP3"
+        },
+        {
+          "name": "MyPromoSound",
+          "url": "https://mypromosound.com/",
+          "description": "Electronic / MP3"
+        },
+        {
+          "name": "ElectronicFresh",
+          "url": "https://electronicfresh.com/",
+          "description": "Electronic / MP3"
+        },
+        {
+          "name": "Ektoplazm",
+          "url": "https://ektoplazm.com/",
+          "description": "Electronic / MP3 / FLAC"
+        },
+        {
+          "name": "KTI Music",
+          "url": "https://ktimusic.blogspot.com/",
+          "description": "Electronic / MP3 / FLAC"
+        },
+        {
+          "name": "1Trance",
+          "url": "https://1trance.org/",
+          "description": "Trance / MP3"
+        },
+        {
+          "name": "1Techno",
+          "url": "https://1techno.org/",
+          "description": "Techno / MP3"
+        },
+        {
+          "name": "GlobalDJMix",
+          "url": "https://globaldjmix.com/",
+          "description": "DJ Mixes / MP3"
+        },
+        {
+          "name": "oVPN DJ Mixes",
+          "url": "https://rentry.co/FMHYB64#ovpn-dj-mixes",
+          "description": "DJ Mixes"
+        },
+        {
+          "name": "⁠TestPressing",
+          "url": "https://www.testpressing.org/",
+          "description": "Rare DJ Mixes"
+        },
+        {
+          "name": "LOA2K",
+          "url": "https://loa2k.neocities.org/",
+          "description": "Vaporwave"
+        },
+        {
+          "name": "Nu Guide",
+          "url": "https://nuvaporwave.neocities.org/mirrors.html",
+          "description": "Vaporwave"
+        },
+        {
+          "name": "inconstant sol",
+          "url": "https://inconstantsol.blogspot.com/",
+          "description": "Jazz / MP3"
+        },
+        {
+          "name": "David W. Niven Collection",
+          "url": "https://archive.org/details/davidwnivenjazz",
+          "description": "Jazz / MP3"
+        },
+        {
+          "name": "JazznBlues",
+          "url": "https://jazznblues.club/",
+          "description": "Jazz / MP3"
+        },
+        {
+          "name": "EssentialHouse",
+          "url": "https://essentialhouse.club/",
+          "description": "House / MP3"
+        },
+        {
+          "name": "Bluegrass Archive",
+          "url": "https://rentry.co/FMHYB64#bluegrass-archive",
+          "description": "Bluegrass / FLAC"
+        },
+        {
+          "name": "BurningTheGround",
+          "url": "https://burningtheground.net/",
+          "description": "80s / 90s / FLAC"
+        },
+        {
+          "name": "aboutdisco",
+          "url": "https://aboutdiscowithlove.blogspot.com/",
+          "description": "Disco / MP3"
+        },
+        {
+          "name": "ProgRockVintage",
+          "url": "https://www.progrockvintage.com/",
+          "description": "Classic Rock / MP3"
+        },
+        {
+          "name": "Classical Music Download",
+          "url": "https://classical-music-download.com/",
+          "description": "Classical / FLAC"
+        },
+        {
+          "name": "FoggyNotion",
+          "url": "https://foggynotion-flac.blogspot.com/",
+          "description": "Classic Music / MP3 / FLAC"
+        },
+        {
+          "name": "chucrute com quiabo",
+          "url": "https://rabanetecomquiabo.blogspot.com/",
+          "description": "Classical / MP3"
+        },
+        {
+          "name": "MeetingInMusic",
+          "url": "https://meetinginmusic.blogspot.com/",
+          "description": "Classical / MP3"
+        },
+        {
+          "name": "FlatbackAndClassical",
+          "url": "https://www.flatblackandclassical.com/",
+          "description": "Classic Indian Music / FLAC"
+        },
+        {
+          "name": "madrotter-treasure-hunt",
+          "url": "https://madrotter-treasure-hunt.blogspot.com/",
+          "description": "Indonesian Music"
+        },
+        {
+          "name": "Kiddie Records",
+          "url": "http://www.kiddierecords.com/",
+          "description": "Classic Children's Records"
+        },
+        {
+          "name": "HQ Hip Hop",
+          "url": "https://94hiphop.com/",
+          "description": "Hip Hop / MP3 / FLAC"
+        },
+        {
+          "name": "GoldHipHop",
+          "url": "https://goldhiphop.pro/",
+          "description": "Hip Hop / MP3 / FLAC"
+        },
+        {
+          "name": "Rapload",
+          "url": "https://rapload.org/",
+          "description": "Hip Hop / MP3"
+        },
+        {
+          "name": "HipHopa",
+          "url": "https://hiphopa.net/",
+          "description": "Hip Hop / MP3"
+        },
+        {
+          "name": "Rap War",
+          "url": "https://rap-war-fam.blogspot.com/",
+          "description": "Hip Hop / MP3"
+        },
+        {
+          "name": "Dez Flight Underground",
+          "url": "https://dezflight-underground.com/",
+          "description": "Underground Hip Hop"
+        },
+        {
+          "name": "⁠Certified Mixtapez",
+          "url": "https://www.certifiedmixtapez.com/",
+          "description": "Mixtapes / MP3"
+        },
+        {
+          "name": "Mixtape Collections",
+          "url": "https://rentry.co/FMHYB64#mixtape-collections",
+          "description": "Mixtape Collections"
+        },
+        {
+          "name": "The Noise-Arch Archive",
+          "url": "https://archive.org/details/noise-arch",
+          "description": "Underground Cassette Tapes"
+        },
+        {
+          "name": "Bootleg Radioclash",
+          "url": "https://rentry.co/FMHYB64#bootleg-radioclash",
+          "description": "Mashups / MP3"
+        },
+        {
+          "name": "Tom Lehrer Songs",
+          "url": "https://tomlehrersongs.com/",
+          "description": "All Tom Lehrer Songs / Public Domain"
+        },
+        {
+          "name": "MusicRepublic",
+          "url": "https://music-republic-world-traditional.blogspot.com/",
+          "description": "World / MP3 / FLAC"
+        },
+        {
+          "name": "KPopFLAC",
+          "url": "https://www.kpopflac.xyz/",
+          "description": "K-Pop / FLAC"
+        },
+        {
+          "name": "KPopMusicDownload",
+          "url": "https://kpopdownloadscmm.blogspot.com/",
+          "description": "K-Pop / MP3"
+        },
+        {
+          "name": "The T-SQUARE Plaza",
+          "url": "https://tsquareplaza.blogspot.com/",
+          "description": "Japanese / International Jazz Fusion / City Pop / FLAC"
+        },
+        {
+          "name": "FondSound",
+          "url": "https://www.fondsound.com/",
+          "description": "Experimental / MP3"
+        },
+        {
+          "name": "Hipstrumentals",
+          "url": "https://hipstrumentals.com/",
+          "description": "Instrumentals / MP3"
+        },
+        {
+          "name": "Redacted",
+          "url": "https://redacted.sh/",
+          "description": "MP3 / FLAC / Interviews",
+          "starred": true
+        },
+        {
+          "name": "New-Team",
+          "url": "https://new-team.org/",
+          "description": "MP3 / FLAC",
+          "starred": true
+        },
+        {
+          "name": "Orpheus",
+          "url": "https://orpheus.network/",
+          "description": "MP3 / FLAC / Interviews",
+          "starred": true
+        },
+        {
+          "name": "Lidarr",
+          "url": "https://lidarr.audio/",
+          "description": "Audio Torrent Autodownload",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Lidarr/Lidarr",
+          "description": "Audio Torrent Autodownload"
+        },
+        {
+          "name": "Headphones",
+          "url": "https://github.com/rembo10/headphones",
+          "description": "Audio Torrent Autodownload"
+        },
+        {
+          "name": "Audio Torrent CSE",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:v75cyb4ci55",
+          "description": "Multi-Site Search",
+          "starred": true
+        },
+        {
+          "name": "TPB Music",
+          "url": "https://thepiratebay.org/search.php?q=top100:100",
+          "description": "MP3 / FLAC / Avoid Software / Games"
+        },
+        {
+          "name": "TheMixingBowl",
+          "url": "https://themixingbowl.org/",
+          "description": "Forum / Mixes / MP3 / Requires Sign-Up"
+        },
+        {
+          "name": "Metal Tracker",
+          "url": "https://en.metal-tracker.com/",
+          "description": "Metal / MP3 320kb / FLAC"
+        },
+        {
+          "name": "RockBox",
+          "url": "https://rawkbawx.rocks/",
+          "description": "Metal / MP3 320kb / FLAC"
+        },
+        {
+          "name": "BlackTorrent",
+          "url": "https://blacktorrent.ru/",
+          "description": "Metal / MP3 / FLAC"
+        },
+        {
+          "name": "iPlayMetal",
+          "url": "https://metal.iplay.ro/",
+          "description": "Metal / MP3 / FLAC"
+        },
+        {
+          "name": "MixtapeTorrent",
+          "url": "http://www.mixtapetorrent.com/",
+          "description": "Mixtapes / MP3 / Various Bitrates"
+        },
+        {
+          "name": "TorrentTech",
+          "url": "https://torrents.torrentech.org/",
+          "description": "Electronic / MP3 320kb / Requires Sign-Up / Zip File"
+        },
+        {
+          "name": "TribalMixes",
+          "url": "https://www.tribalmixes.com/",
+          "description": "Forum / DJ Mixes / MP3"
+        },
+        {
+          "name": "the /kpg/ torrent",
+          "url": "https://rentry.co/FMHYB64#kpop-torrent",
+          "description": "K-Pop / MP3 320kb / FLAC"
+        },
+        {
+          "name": "PandaCD",
+          "url": "https://pandacd.io/",
+          "description": "User-Made Music / MP3 / FLAC"
+        },
+        {
+          "name": "NFO DB",
+          "url": "https://nfodb.net.ru/",
+          "description": "MP3 NFO Database"
+        },
+        {
+          "name": "PreDB.eu",
+          "url": "https://predb.eu",
+          "description": "Music PreDB"
+        },
+        {
+          "name": "NCS",
+          "url": "https://ncs.io/",
+          "description": "Copyright Free Music",
+          "starred": true
+        },
+        {
+          "name": "YouTube Audio Library",
+          "url": "https://www.youtube.com/audiolibrary",
+          "description": "Music / Sound Effects",
+          "starred": true
+        },
+        {
+          "name": "UppBeat",
+          "url": "https://uppbeat.io/",
+          "description": "Music for Creators / Freemium"
+        },
+        {
+          "name": "BenSound",
+          "url": "https://www.bensound.com/",
+          "description": "Popular Library / Freemium"
+        },
+        {
+          "name": "Unminus",
+          "url": "https://www.unminus.com/",
+          "description": "Professional Tracks"
+        },
+        {
+          "name": "Free Music Archive",
+          "url": "https://freemusicarchive.org/",
+          "description": "Curated Library"
+        },
+        {
+          "name": "free-stock-music",
+          "url": "https://www.free-stock-music.com/",
+          "description": "Stock Music Library / CC0 License"
+        },
+        {
+          "name": "Pixabay Music",
+          "url": "https://pixabay.com/music/",
+          "description": "Stock Music Library"
+        },
+        {
+          "name": "Fugue",
+          "url": "https://icons8.com/music",
+          "description": "Music for Creators"
+        },
+        {
+          "name": "Chosic",
+          "url": "https://www.chosic.com/free-music/all/",
+          "description": "Royalty-Free Library / CC0 License"
+        },
+        {
+          "name": "tunetank",
+          "url": "https://tunetank.com/",
+          "description": "Music for Videos"
+        },
+        {
+          "name": "purple-planet",
+          "url": "https://www.purple-planet.com/",
+          "description": "Duo Composers"
+        },
+        {
+          "name": "freemusicpublicdomain",
+          "url": "https://www.freemusicpublicdomain.com/",
+          "description": "Public Domain Tracks"
+        },
+        {
+          "name": "Incompetech Music",
+          "url": "https://incompetech.com/music/royalty-free/music.html",
+          "description": "Composer Library / CC-BY License"
+        },
+        {
+          "name": "joshwoodward",
+          "url": "https://www.joshwoodward.com/",
+          "description": "Single Artist Collection"
+        },
+        {
+          "name": "Sampld",
+          "url": "https://sampld.app/",
+          "description": "Find Audio Samples"
+        },
+        {
+          "name": "EverythingMoe",
+          "url": "https://everythingmoe.com/section/music",
+          "description": "Otaku Music Sites Index",
+          "tags": [
+            "index",
+            "Discord"
+          ],
+          "mirrors": [
+            "https://everythingmoe.org/section/music"
+          ]
+        },
+        {
+          "name": "Wotaku",
+          "url": "https://wotaku.wiki/music",
+          "description": "Otaku Music Index",
+          "tags": [
+            "index",
+            "Discord"
+          ]
+        },
+        {
+          "name": "Squidify",
+          "url": "https://www.squidify.org",
+          "description": "Game / Anime Soundtracks / Resources",
+          "starred": true,
+          "mirrors": [
+            "https://www.squidify.net/"
+          ]
+        },
+        {
+          "name": "Sitting on Clouds",
+          "url": "https://www.sittingonclouds.net/",
+          "description": "Anime / Game Soundtracks / Forum /.onion",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ],
+          "mirrors": [
+            "https://sittingonclouds.com/"
+          ]
+        },
+        {
+          "name": "MusicDex",
+          "url": "https://musicdex.org/",
+          "description": "Anime Soundtracks"
+        },
+        {
+          "name": "3ost",
+          "url": "https://3ost.ru/",
+          "description": "Soundtracks"
+        },
+        {
+          "name": "joshw",
+          "url": "https://pc.joshw.info/",
+          "description": "Soundtracks"
+        },
+        {
+          "name": "Search",
+          "url": "https://vgm.hcs64.com/",
+          "description": "Soundtracks"
+        },
+        {
+          "name": "RenovationRecords",
+          "url": "https://renovatiorecords.blogspot.com/",
+          "description": "HQ Movies Soundtracks"
+        },
+        {
+          "name": "KDramaOST",
+          "url": "https://kdramaost.com/en/",
+          "description": "KDrama Soundtracks"
+        },
+        {
+          "name": "AniPlaylist",
+          "url": "https://aniplaylist.com/",
+          "description": "Anime Soundtracks"
+        },
+        {
+          "name": "SakuraOST",
+          "url": "https://www.sakuraost.com/",
+          "description": "Anime Soundtracks"
+        },
+        {
+          "name": "VGMdb",
+          "url": "https://vgmdb.net/",
+          "description": "Anime Soundtracks"
+        },
+        {
+          "name": "JMAX",
+          "url": "https://discord.gg/hCw8VqJV8J",
+          "description": "Anime Soundtracks"
+        },
+        {
+          "name": "OSAnime",
+          "url": "https://osanime.com/",
+          "description": "Anime Soundtracks"
+        },
+        {
+          "name": "Anime Sharing",
+          "url": "https://koe.anime-sharing.com/",
+          "description": "Anime Soundtracks"
+        },
+        {
+          "name": "OtakuOst",
+          "url": "https://otakuost.net/",
+          "description": "Anime Soundtracks & Japanese Music"
+        },
+        {
+          "name": "AMV",
+          "url": "https://www.animemusicvideos.org/",
+          "description": "Anime Music Videos"
+        },
+        {
+          "name": "Doujin Cafe (Discord)",
+          "url": "https://discord.com/invite/doujincafe",
+          "description": "Doujin Music"
+        },
+        {
+          "name": "DoujinStyle",
+          "url": "https://doujinstyle.com/",
+          "description": "Doujin Music"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/z2QDFdA",
+          "description": "Doujin Music"
+        }
+      ],
+      "note": "忘れずに get a VPN before torrenting and bind it to your client if it allows."
+    },
+    {
+      "id": "audio-game-soundtracks",
+      "title": "ゲーム Soundtracks",
+      "resources": [
+        {
+          "name": "Khinsider",
+          "url": "https://downloads.khinsider.com/",
+          "description": "Game Soundtracks / MP3 / FLAC / ALAC / Downloader",
+          "starred": true
+        },
+        {
+          "name": "RetroTracks",
+          "url": "https://retro.sx/",
+          "description": "Retro Game Soundtracks / MP3"
+        },
+        {
+          "name": "The 16-bit Audiophile Project",
+          "url": "https://16bap.theclassicgamer.net/",
+          "description": "Retro Game Soundtracks / FLAC"
+        },
+        {
+          "name": "VGMPF",
+          "url": "https://www.vgmpf.com/Wiki/index.php",
+          "description": "Retro Game Soundtracks / MP3"
+        },
+        {
+          "name": "Chip Player JS",
+          "url": "https://chiptune.app/",
+          "description": "Retro Game Soundtracks / Web",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "VGMRips",
+          "url": "https://vgmrips.net/packs/",
+          "description": "Retro Game Music Rips / VGM"
+        },
+        {
+          "name": "Zophar's",
+          "url": "https://www.zophar.net/music",
+          "description": "Retro Game Music Rips / VGM"
+        },
+        {
+          "name": "HCS Forum",
+          "url": "https://rentry.co/FMHYB64#hcs-forum",
+          "description": "Game Soundtracks"
+        },
+        {
+          "name": "GameOST",
+          "url": "https://gameost.net/",
+          "description": "Game Soundtracks / MP3"
+        },
+        {
+          "name": "exotica",
+          "url": "https://www.exotica.org.uk/",
+          "description": "Amiga Games Soundtracks"
+        },
+        {
+          "name": "⁠OC Remix",
+          "url": "https://ocremix.org/",
+          "description": "Game Music Remixes / Download / Torrent"
+        },
+        {
+          "name": "⁠8Beats",
+          "url": "https://8beats.co/",
+          "description": "Game Music Radio",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "VIP VGM",
+          "url": "https://www.vipvgm.net/",
+          "description": "Game Music Radio"
+        },
+        {
+          "name": "Cirrus Retro",
+          "url": "https://cirrusretro.com/",
+          "description": "Game Music Radio"
+        },
+        {
+          "name": "JetSetRadio",
+          "url": "https://jetsetradio.live/",
+          "description": "Game Music Radio",
+          "mirrors": [
+            "https://jetsetradiofuture.live/"
+          ]
+        },
+        {
+          "name": "Rainwave",
+          "url": "https://rainwave.cc/",
+          "description": "Game Music Radio"
+        },
+        {
+          "name": "RPGGamers Radio",
+          "url": "https://www.rpgamers.net/radio/",
+          "description": "Game Music Radio"
+        },
+        {
+          "name": "VGMRadio",
+          "url": "https://vgmradio.com/",
+          "description": "Game Music Radio"
+        },
+        {
+          "name": "VGM",
+          "url": "https://vgm.mmosvc.com/",
+          "description": "Game Music Radio"
+        },
+        {
+          "name": "NSF j",
+          "url": "https://nsf.nesbbs.com/",
+          "description": "NES Music"
+        },
+        {
+          "name": "HVSC",
+          "url": "https://www.hvsc.c64.org/",
+          "description": "Commodore 64 Music"
+        },
+        {
+          "name": "Exotica",
+          "url": "https://www.exotica.org.uk/",
+          "description": "Retro Gaming Music Wiki"
+        },
+        {
+          "name": "VGMdb",
+          "url": "https://vgmdb.net/",
+          "description": "Video Game Music Database"
+        },
+        {
+          "name": "RateYourMusic",
+          "url": "https://rateyourmusic.com/",
+          "description": "Ratings / Reviews / Add Features / Forum",
+          "starred": true
+        },
+        {
+          "name": "Last.fm",
+          "url": "https://www.last.fm/home",
+          "description": "Track Listening Habits / Songs",
+          "starred": true
+        },
+        {
+          "name": "Tools",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio/#wiki_.25B7_last.fm_tools",
+          "description": "Track Listening Habits / Songs"
+        },
+        {
+          "name": "ListenBrainz",
+          "url": "https://listenbrainz.org/",
+          "description": "Track Listening Habits / Songs"
+        },
+        {
+          "name": "Muspy",
+          "url": "https://muspy.com/",
+          "description": "Get Album Release Updates",
+          "starred": true
+        },
+        {
+          "name": "Drop Watch",
+          "url": "https://drop-watch.ghost.io/",
+          "description": "Get Album Release Updates"
+        },
+        {
+          "name": "MusicButler",
+          "url": "https://www.musicbutler.io/",
+          "description": "Get Album Release Updates"
+        },
+        {
+          "name": "Brew.fm",
+          "url": "https://www.brew.fm/",
+          "description": "Get Album Release Updates"
+        },
+        {
+          "name": "Tunefind",
+          "url": "https://www.tunefind.com/",
+          "description": "Find Music from Movies / TV Shows",
+          "starred": true
+        },
+        {
+          "name": "MixesDB",
+          "url": "https://www.mixesdb.com/",
+          "description": "DJ Set Database",
+          "starred": true
+        },
+        {
+          "name": "Discogs",
+          "url": "https://www.discogs.com/",
+          "description": "Ratings / Reviews / Scout / Timestamps"
+        },
+        {
+          "name": "Odesli",
+          "url": "https://odesli.co/",
+          "description": "Song / Podcast Platform Search / Telegram Bot"
+        },
+        {
+          "name": "Has it Leaked",
+          "url": "https://hasitleaked.com/",
+          "description": "Album Leak Tracker"
+        },
+        {
+          "name": "MyPitchFork",
+          "url": "https://mypitchfork.fun/",
+          "description": "Individual Song Rating / Tracking"
+        },
+        {
+          "name": "DAHR",
+          "url": "https://adp.library.ucsb.edu/index.php",
+          "description": "American Historical Recordings Database"
+        },
+        {
+          "name": "TrackID",
+          "url": "https://trackid.net/",
+          "description": "Live Set Tracklist Databases"
+        },
+        {
+          "name": "1001Tracklists",
+          "url": "https://www.1001tracklists.com/",
+          "description": "Live Set Tracklist Databases"
+        },
+        {
+          "name": "SecondHandSongs",
+          "url": "https://secondhandsongs.com/",
+          "description": "Cover, Sample and Remix Databases"
+        },
+        {
+          "name": "SampleBrainz",
+          "url": "https://github.com/AndrewBelt/SampleBrainz",
+          "description": "Cover, Sample and Remix Databases"
+        },
+        {
+          "name": "RemixSearch",
+          "url": "https://remixsearch.net/",
+          "description": "Cover, Sample and Remix Databases"
+        },
+        {
+          "name": "WhoSampled",
+          "url": "https://www.whosampled.com/",
+          "description": "Cover, Sample and Remix Databases"
+        },
+        {
+          "name": "SoundtrackTracklist",
+          "url": "https://soundtracktracklist.com/",
+          "description": "Soundtrack Databases"
+        },
+        {
+          "name": "FilmMusicSite",
+          "url": "https://www.filmmusicsite.com/en/",
+          "description": "Soundtrack Databases"
+        },
+        {
+          "name": "dbkpop",
+          "url": "https://dbkpop.com/",
+          "description": "K-Pop Databases"
+        },
+        {
+          "name": "KPop Fandom",
+          "url": "https://kpop.fandom.com/wiki/",
+          "description": "K-Pop Databases"
+        },
+        {
+          "name": "KPopping",
+          "url": "https://kpopping.com/",
+          "description": "K-Pop Databases"
+        },
+        {
+          "name": "Loudness War",
+          "url": "https://dr.loudness-war.info/",
+          "description": "Albums Dynamic Range Database"
+        },
+        {
+          "name": "TuneMyMusic",
+          "url": "https://www.tunemymusic.com/",
+          "description": "Transfer Playlists Between Services"
+        },
+        {
+          "name": "TheIndieRockPlaylist",
+          "url": "https://www.theindierockplaylist.com/",
+          "description": "Indie Rock Archive"
+        },
+        {
+          "name": "Metal Archives",
+          "url": "https://www.metal-archives.com/",
+          "description": "Metal Band Archive"
+        },
+        {
+          "name": "IDM Discovery",
+          "url": "https://www.idmdiscovery.com/",
+          "description": "IDM Artist Archive"
+        },
+        {
+          "name": "ClassicRockHistory",
+          "url": "https://www.classicrockhistory.com/classic-rock-bands-list-and-directory/",
+          "description": "Classic Rock Band Archive"
+        },
+        {
+          "name": "LibraryThing",
+          "url": "https://www.talpasearch.com/",
+          "description": "Find Albums by Describing Them"
+        },
+        {
+          "name": "rate.house",
+          "url": "https://rate.house/",
+          "description": "Media Tracker"
+        },
+        {
+          "name": "libib",
+          "url": "https://www.libib.com/",
+          "description": "Desktop Media Catalog"
+        },
+        {
+          "name": "Obscurify",
+          "url": "https://obscurifymusic.com/",
+          "description": "Compare Music Taste to Others"
+        },
+        {
+          "name": "MusicTaste",
+          "url": "https://musictaste.space/",
+          "description": "Compare Music Taste to Others"
+        },
+        {
+          "name": "MediaTracker",
+          "url": "https://github.com/bonukai/MediaTracker",
+          "description": "Self-Hosted Media Tracker"
+        },
+        {
+          "name": "Maloja",
+          "url": "https://github.com/krateng/maloja",
+          "description": "Self-Hosted Audio Scrobbling"
+        },
+        {
+          "name": "Multi Scrobbler",
+          "url": "https://github.com/FoxxMD/multi-scrobbler",
+          "description": "Self-Hosted Audio Scrobbling"
+        },
+        {
+          "name": "AME",
+          "url": "https://gitlab.com/SuperSaltyGamer/ame",
+          "description": "Music Site Enhancement Userscripts"
+        },
+        {
+          "name": "Music Chart Maker",
+          "url": "https://musicchartmaker.com/",
+          "description": "Create Album Collages"
+        }
+      ]
+    },
+    {
+      "id": "audio-curated-recommendations",
+      "title": "キュレーション",
+      "resources": [
+        {
+          "name": "AnyDecentMusic",
+          "url": "http://www.anydecentmusic.com/",
+          "description": "Album Review Aggregator",
+          "starred": true
+        },
+        {
+          "name": "RYM Ultimate Box Set",
+          "url": "https://rateyourmusic.com/list/TheScientist/rym-ultimate-box-set/",
+          "description": "Artist Recommendations by Genre",
+          "starred": true
+        },
+        {
+          "name": "r/ifyoulikeblank",
+          "url": "https://www.reddit.com/r/ifyoulikeblank/",
+          "description": "Artist Recommendations",
+          "starred": true
+        },
+        {
+          "name": "⁠Essential Charts",
+          "url": "https://4chanmusic.miraheze.org/wiki/Essential_Charts",
+          "description": "Album Recommendation Charts"
+        },
+        {
+          "name": "Sputnik",
+          "url": "https://www.sputnikmusic.com/",
+          "description": "Ratings / Reviews"
+        },
+        {
+          "name": "AlbumOfTheYear",
+          "url": "https://www.albumoftheyear.org/",
+          "description": "Ratings / Reviews"
+        },
+        {
+          "name": "AllMusic",
+          "url": "https://www.allmusic.com/",
+          "description": "Ratings / Reviews"
+        },
+        {
+          "name": "MusicBrainz",
+          "url": "https://musicbrainz.org/",
+          "description": "Ratings / Reviews"
+        },
+        {
+          "name": "Charts and Culture",
+          "url": "https://pastebin.com/uRDJVGkL",
+          "description": "Music Recommendation Directory"
+        },
+        {
+          "name": "Shfl",
+          "url": "https://theshfl.com/",
+          "description": "Album Recommendations"
+        },
+        {
+          "name": "⁠Melondy",
+          "url": "https://melondy.com/",
+          "description": "Curated List of Albums Rated by Anthony Fantano"
+        },
+        {
+          "name": "45Cat",
+          "url": "https://www.45cat.com/",
+          "description": "Vinyl Ratings / Reviews"
+        },
+        {
+          "name": "MusicTo",
+          "url": "https://www.musicto.com/",
+          "description": "Musician Curated Playlists"
+        },
+        {
+          "name": "DigitalDreamDoor",
+          "url": "https://digitaldreamdoor.com/",
+          "description": "Greatest 100 Lists"
+        },
+        {
+          "name": "CET",
+          "url": "https://rentry.org/CET",
+          "description": "Music Comps & Edits",
+          "tags": [
+            "Discord"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio-song-artist-discovery",
+      "title": "曲 / アーティスト発見",
+      "resources": [
+        {
+          "name": "/music discovery/",
+          "url": "https://dan.valeena.dev/guides/music-discovery/",
+          "description": "Music Discovery Guide",
+          "tags": [
+            "index"
+          ],
+          "mirrors": [
+            "https://rentry.co/musicdiscovery"
+          ]
+        },
+        {
+          "name": "Acclaimed Music",
+          "url": "https://www.acclaimedmusic.net/",
+          "description": "Discover Acclaimed Music of the Times",
+          "starred": true
+        },
+        {
+          "name": "EveryNoise",
+          "url": "https://everynoise.com/",
+          "description": "Music Genre Discovery Tool / New Music",
+          "starred": true
+        },
+        {
+          "name": "Music-Map",
+          "url": "https://www.music-map.com/",
+          "description": "Artist Discovery Tools"
+        },
+        {
+          "name": "Musicroamer",
+          "url": "https://www.musicroamer.com/",
+          "description": "Artist Discovery Tools"
+        },
+        {
+          "name": "Music Galaxy",
+          "url": "https://galaxy.spotifytrack.net/",
+          "description": "Artist Discovery Tools"
+        },
+        {
+          "name": "Unchartify",
+          "url": "https://unchartify.com/",
+          "description": "Artist Discovery Tools"
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/spotifyuncharted",
+          "description": "Artist Discovery Tools"
+        },
+        {
+          "name": "SAGE",
+          "url": "https://hate5six.com/sage",
+          "description": "Artist Discovery Tools"
+        },
+        {
+          "name": "LivePlasma",
+          "url": "https://liveplasma.com/",
+          "description": "Artist Discovery Tools"
+        },
+        {
+          "name": "GNOD",
+          "url": "https://www.gnod.com/",
+          "description": "Artist Discovery Tools"
+        },
+        {
+          "name": "Kworb",
+          "url": "https://kworb.net/",
+          "description": "Music Top Charts"
+        },
+        {
+          "name": "Spotify Charts",
+          "url": "https://charts.spotify.com/home",
+          "description": "Music Top Charts"
+        },
+        {
+          "name": "SuperFridayChart",
+          "url": "https://www.superfridaychart.com/",
+          "description": "Music Top Charts"
+        },
+        {
+          "name": "BoilTheFrog",
+          "url": "http://boilthefrog.playlistmachinery.com/",
+          "description": "Create Playlist from 2 Artists"
+        },
+        {
+          "name": "Chosic",
+          "url": "https://www.chosic.com/",
+          "description": "Song Discovery Tools"
+        },
+        {
+          "name": "lazyrecords",
+          "url": "https://lazyrecords.app/",
+          "description": "Song Discovery Tools"
+        },
+        {
+          "name": "SongsLikeX",
+          "url": "https://songslikex.com/",
+          "description": "Song Discovery Tools"
+        },
+        {
+          "name": "Discover Quickly",
+          "url": "https://discoverquickly.com/",
+          "description": "Song Discovery Tools"
+        },
+        {
+          "name": "TapeFear",
+          "url": "https://www.tapefear.com/",
+          "description": "Song Discovery Tools"
+        },
+        {
+          "name": "Dubolt",
+          "url": "https://dubolt.com/",
+          "description": "Song Discovery Tools"
+        },
+        {
+          "name": "Playlost.fm",
+          "url": "https://playlost.fm/",
+          "description": "Song Discovery Tools"
+        },
+        {
+          "name": "Random Song",
+          "url": "https://randomsong.org/",
+          "description": "Play Random YouTube Songs"
+        },
+        {
+          "name": "Random Song Generator",
+          "url": "https://randomsonggenerator.com/",
+          "description": "Play Random YouTube Songs"
+        },
+        {
+          "name": "⁠SampleRoulette",
+          "url": "https://www.sampleroulette.io/",
+          "description": "Play Random YouTube Songs"
+        },
+        {
+          "name": "Samplette",
+          "url": "https://samplette.io/",
+          "description": "Play Random YouTube Songs"
+        },
+        {
+          "name": "Best Ever Albums",
+          "url": "https://www.besteveralbums.com/index.php",
+          "description": "Discover Albums"
+        },
+        {
+          "name": "1001 Albums Generator",
+          "url": "https://1001albumsgenerator.com/",
+          "description": "Daily Random Album Recommendation"
+        },
+        {
+          "name": "OrbitMusic",
+          "url": "https://www.bbc.co.uk/orbitmusic",
+          "description": "Undiscovered Artist Recommendations / Limit Bypass"
+        },
+        {
+          "name": "MusicGenreTree",
+          "url": "https://www.musicgenretree.org/chart.html",
+          "description": "Discover New Music by Genre"
+        },
+        {
+          "name": "Identifying Music Genres",
+          "url": "https://chunisama.github.io/Identifying-Music-Genres/",
+          "description": "Compare Music Genres"
+        },
+        {
+          "name": "Musicmap",
+          "url": "https://musicmap.info/",
+          "description": "Genealogy / History of Music Genres"
+        },
+        {
+          "name": "Map of Metal",
+          "url": "https://mapofmetal.com/",
+          "description": "Interactive Map of Metal History"
+        },
+        {
+          "name": "Music.ishkur",
+          "url": "https://music.ishkur.com/",
+          "description": "Electronic Music Genre Guide"
+        },
+        {
+          "name": "⁠HappyHardcore",
+          "url": "https://www.happyhardcore.com/forums/",
+          "description": "Hardcore Dance Music Forum"
+        },
+        {
+          "name": "TranceFix",
+          "url": "https://www.trancefix.nl/index.php",
+          "description": "Trance Music Forum"
+        }
+      ]
+    },
+    {
+      "id": "audio-lastfm-tools",
+      "title": "Last.fm ツール",
+      "resources": [
+        {
+          "name": "Awesome Last.fm",
+          "url": "https://github.com/jnguyen1098/awesome-lastfm",
+          "description": "Last.fm Tool Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Last.fm Tool List",
+          "url": "https://redd.it/1h8ec76",
+          "description": "Last.fm Tool Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "⁠bleh",
+          "url": "https://bleh.katelyn.moe/",
+          "description": "Last.fm Customization Script",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "OpenScrobbler",
+          "url": "https://openscrobbler.com/",
+          "description": "Manually Scrobble Anything",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Pano Scrobbler",
+          "url": "https://github.com/kawaiiDango/pano-scrobbler",
+          "description": "Multi-Platform Scrobbler",
+          "starred": true
+        },
+        {
+          "name": "Last.fm Stats",
+          "url": "https://lastfmstats.com/",
+          "description": "In-Depth Last.fm Stats",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Web Scrobbler",
+          "url": "https://github.com/web-scrobbler/web-scrobbler",
+          "description": "Scrobble Any Site"
+        },
+        {
+          "name": "Edit Scrobbles",
+          "url": "https://greasyfork.org/en/scripts/485278",
+          "description": "Manually Edit Scrobbles"
+        },
+        {
+          "name": "Last.fm Labs",
+          "url": "https://www.last.fm/labs",
+          "description": "Last.fm Library Visualizers"
+        },
+        {
+          "name": "Chart My Music",
+          "url": "https://www.chartmymusic.com/lastfm/",
+          "description": "Album Collages"
+        },
+        {
+          "name": "TapMusic",
+          "url": "https://www.tapmusic.net/",
+          "description": "Album Collages"
+        },
+        {
+          "name": "SonicPrint",
+          "url": "https://sonicprint.art/",
+          "description": "Album Collages"
+        },
+        {
+          "name": "MusicCoruMap",
+          "url": "https://musicorumapp.com/generate",
+          "description": "Album Collages"
+        },
+        {
+          "name": "Last.fm Iceberg",
+          "url": "https://lastfm-iceberg.dawdle.space/",
+          "description": "Last.fm Artist Iceberg"
+        },
+        {
+          "name": "TagCloud",
+          "url": "https://tagcloud.rainosullivan.com/",
+          "description": "Last.fm Tag Cloud"
+        },
+        {
+          "name": "Mainstream Calc",
+          "url": "https://mainstream.ghan.nl/",
+          "description": "Mainstream Calculator"
+        },
+        {
+          "name": "Descent",
+          "url": "https://descent.live/",
+          "description": "Now Playing Tool"
+        },
+        {
+          "name": "Binaural Audio",
+          "url": "https://binaural-audio.slite.page/p/i38zsD7728/Binaural-Audio",
+          "description": "Binaural / 3D Audio Resources",
+          "tags": [
+            "index",
+            "Discord"
+          ]
+        },
+        {
+          "name": "Audio Glossary",
+          "url": "https://wotaku.wiki/glossary/audio",
+          "description": "Audio Terms Glossary",
+          "starred": true
+        },
+        {
+          "name": "FFmpeg",
+          "url": "https://ffmpeg.org/",
+          "description": "Audio Converters",
+          "starred": true
+        },
+        {
+          "name": "fre:ac",
+          "url": "https://www.freac.org/",
+          "description": "Audio Converters"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/enzo1982/freac",
+          "description": "Audio Converters"
+        },
+        {
+          "name": "FlicFlac",
+          "url": "https://github.com/DannyBen/FlicFlac",
+          "description": "Audio Converters"
+        },
+        {
+          "name": "LameXP",
+          "url": "https://sourceforge.net/projects/lamexp/",
+          "description": "Audio Converters"
+        },
+        {
+          "name": "Sox",
+          "url": "https://sourceforge.net/projects/sox/",
+          "description": "Audio Converters"
+        },
+        {
+          "name": "⁠Hydrogenaudio Knowledgebase",
+          "url": "https://wiki.hydrogenaudio.org/",
+          "description": "Audio Technology Wiki / Guides"
+        },
+        {
+          "name": "CUETools",
+          "url": "http://cue.tools/wiki/CUETools",
+          "description": "Manipulate.cue Files",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Phiola",
+          "url": "https://github.com/stsaz/phiola",
+          "description": "Audio Multi-Tool Apps / Sites"
+        },
+        {
+          "name": "AudioToolSet",
+          "url": "https://audiotoolset.com/",
+          "description": "Audio Multi-Tool Apps / Sites"
+        },
+        {
+          "name": "Safeaudiokit",
+          "url": "https://safeaudiokit.com/",
+          "description": "Audio Multi-Tool Apps / Sites"
+        },
+        {
+          "name": "Vocaroo",
+          "url": "https://vocaroo.com/",
+          "description": "Online Voice Recorder"
+        },
+        {
+          "name": "Tunebat",
+          "url": "https://tunebat.com/",
+          "description": "Music Key / BPM Databases"
+        },
+        {
+          "name": "QO & SPECTRE",
+          "url": "https://docs.google.com/spreadsheets/u/0/d/1QEvWoGa10BctJ1yqDgZl3IoY8bhB3AwbHzgCHjJ5neI/htmlview",
+          "description": "Music Key / BPM Databases"
+        },
+        {
+          "name": "Karaoke Mugen",
+          "url": "https://mugen.karaokes.moe/en/",
+          "description": "Karaoke Apps / Systems"
+        },
+        {
+          "name": "Karaoke Eternal",
+          "url": "https://www.karaoke-eternal.com/",
+          "description": "Karaoke Apps / Systems"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/PgqVtFq",
+          "description": "Karaoke Apps / Systems"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/bhj/KaraokeEternal/",
+          "description": "Karaoke Apps / Systems"
+        },
+        {
+          "name": "X-Minus",
+          "url": "https://x-minus.pro/",
+          "description": "Create / Find Karaoke Songs"
+        },
+        {
+          "name": "LRC Maker",
+          "url": "https://lrcmaker.com/",
+          "description": "Create / Find Karaoke Songs"
+        },
+        {
+          "name": "⁠Kara.moe",
+          "url": "https://kara.moe/",
+          "description": "Anime Theme Song Videos / Download / Karaoke"
+        },
+        {
+          "name": "Librescore Downloader",
+          "url": "https://github.com/LibreScore/dl-librescore",
+          "description": "Librescore Downloader"
+        },
+        {
+          "name": "M3Unator",
+          "url": "https://github.com/hasanbeder/M3Unator",
+          "description": "Generate M3U Playlists from Open Directories"
+        }
+      ]
+    },
+    {
+      "id": "audio-audio-players",
+      "title": "音楽プレーヤー",
+      "resources": [
+        {
+          "name": "Foobar2000",
+          "url": "https://www.foobar2000.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "WACUP",
+          "url": "https://getwacup.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/5pVTdbj",
+          "description": ""
+        },
+        {
+          "name": "AIMP",
+          "url": "https://www.aimp.ru/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "MusicBee",
+          "url": "https://getmusicbee.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Quality Badges",
+          "url": "https://wiki.musichoarders.xyz/reference/musicbee/",
+          "description": ""
+        },
+        {
+          "name": "Harmonoid",
+          "url": "https://harmonoid.com/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/2Rc3edFWd8",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/harmonoid/harmonoid",
+          "description": ""
+        },
+        {
+          "name": "Namida",
+          "url": "https://github.com/namidaco/namida",
+          "description": "Feature-Rich"
+        },
+        {
+          "name": "Audion",
+          "url": "https://audionplayer.com/",
+          "description": "Feature-Rich",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "TimeStretch",
+          "url": "https://29a.ch/timestretch/",
+          "description": "Web-Based"
+        },
+        {
+          "name": "MusikCube",
+          "url": "https://musikcube.com/",
+          "description": "Terminal-Based"
+        },
+        {
+          "name": "XMPlay",
+          "url": "https://www.un4seen.com/",
+          "description": "Module-Friendly"
+        },
+        {
+          "name": "Butterchurn Visualizer",
+          "url": "https://butterchurnviz.com/",
+          "description": "Audio Visualizers"
+        },
+        {
+          "name": "MusicVid",
+          "url": "https://musicvid.org/",
+          "description": "Audio Visualizers"
+        },
+        {
+          "name": "Vizzy",
+          "url": "https://vizzy.io/",
+          "description": "Audio Visualizers"
+        },
+        {
+          "name": "CatNip",
+          "url": "https://github.com/noriah/catnip",
+          "description": "Audio Visualizers"
+        },
+        {
+          "name": "PartyEngine",
+          "url": "https://aggrocrab.itch.io/partyengine",
+          "description": "Audio Party Visualizer"
+        },
+        {
+          "name": "⁠Nagi",
+          "url": "https://github.com/Anthonyy232/Nagi",
+          "description": ""
+        },
+        {
+          "name": "Museeks",
+          "url": "https://museeks.io/",
+          "description": ""
+        },
+        {
+          "name": "Audacious",
+          "url": "https://audacious-media-player.org/",
+          "description": ""
+        },
+        {
+          "name": "Strawberry",
+          "url": "https://www.strawberrymusicplayer.org/",
+          "description": ""
+        },
+        {
+          "name": "Exaile",
+          "url": "https://exaile.org/",
+          "description": ""
+        },
+        {
+          "name": "quodlibet",
+          "url": "https://github.com/quodlibet/quodlibet/",
+          "description": ""
+        },
+        {
+          "name": "deadbeef",
+          "url": "https://deadbeef.sourceforge.io/",
+          "description": ""
+        },
+        {
+          "name": "Swing",
+          "url": "https://swingmx.com/",
+          "description": ""
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/+9n61PFcgKhozZDE0",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/swingmx/swingmusic",
+          "description": ""
+        },
+        {
+          "name": "Nora",
+          "url": "https://noramusic.netlify.app/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Sandakan/Nora",
+          "description": ""
+        },
+        {
+          "name": "Dopamine",
+          "url": "https://digimezzo.github.io/site/",
+          "description": ""
+        },
+        {
+          "name": "ncmpc++",
+          "url": "https://github.com/ncmpcpp/ncmpcpp",
+          "description": "TUI Audio Player"
+        },
+        {
+          "name": "Feishin",
+          "url": "https://github.com/jeffvli/feishin",
+          "description": "Jellyfin / Navidrome / Subsonic Player"
+        },
+        {
+          "name": "LedFx",
+          "url": "https://www.ledfx.app/",
+          "description": "LED Music Sync"
+        },
+        {
+          "name": "RockBox",
+          "url": "https://www.rockbox.org/",
+          "description": "Custom Player for Audio Devices"
+        },
+        {
+          "name": "VinylEngine",
+          "url": "https://www.vinylengine.com/",
+          "description": "Record Player / Vinyl Info"
+        }
+      ]
+    },
+    {
+      "id": "audio-audio-servers",
+      "title": "音声 Servers",
+      "resources": [
+        {
+          "name": "Navidrome",
+          "url": "https://navidrome.org",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Airsonic",
+          "url": "https://airsonic.github.io/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Airsonic Advanced",
+          "url": "https://github.com/airsonic-advanced/airsonic-advanced",
+          "description": ""
+        },
+        {
+          "name": "Web UI",
+          "url": "https://github.com/tamland/airsonic-refix",
+          "description": ""
+        },
+        {
+          "name": "koel",
+          "url": "https://koel.dev/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "iBroadcast",
+          "url": "https://ibroadcast.com",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "AudioRelay",
+          "url": "https://audiorelay.net/",
+          "description": "Stream Audio Between Devices / Mobile (search)",
+          "starred": true
+        },
+        {
+          "name": "Lyrion",
+          "url": "https://lyrion.org/",
+          "description": ""
+        },
+        {
+          "name": "Extensions",
+          "url": "https://lyrion.org/extensions/applications/",
+          "description": ""
+        },
+        {
+          "name": "SnapCast",
+          "url": "https://github.com/badaix/snapcast",
+          "description": "Sound System Sync"
+        },
+        {
+          "name": "SonoBus",
+          "url": "https://sonobus.net/",
+          "description": "Sound System Sync"
+        },
+        {
+          "name": "mStream",
+          "url": "https://mstream.io/",
+          "description": ""
+        },
+        {
+          "name": "Mopidy",
+          "url": "https://mopidy.com/",
+          "description": ""
+        },
+        {
+          "name": "Black Candy",
+          "url": "https://github.com/blackcandy-org/blackcandy",
+          "description": ""
+        },
+        {
+          "name": "RMPC",
+          "url": "https://rmpc.mierak.dev/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/mierak/rmpc",
+          "description": ""
+        },
+        {
+          "name": "Music Player Daemon",
+          "url": "https://www.musicpd.org/",
+          "description": ""
+        },
+        {
+          "name": "Polaris",
+          "url": "https://github.com/agersant/polaris",
+          "description": ""
+        },
+        {
+          "name": "Gonic",
+          "url": "https://github.com/sentriz/gonic",
+          "description": ""
+        },
+        {
+          "name": "Ampache",
+          "url": "https://ampache.org/",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "audio-audio-metadata",
+      "title": "音声 Metadata",
+      "resources": [
+        {
+          "name": "MP3Tag",
+          "url": "https://www.mp3tag.de/en/",
+          "description": "Metadata Organizer",
+          "starred": true
+        },
+        {
+          "name": "MusicBrainz Picard",
+          "url": "https://picard.musicbrainz.org/",
+          "description": "Metadata Organizer",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "YADG",
+          "url": "https://yadg.cc/",
+          "description": "Scrape Music Release Info / API"
+        },
+        {
+          "name": "Beets",
+          "url": "https://beets.io/",
+          "description": "Metadata Organizer / Guides",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "TagEditor",
+          "url": "https://github.com/Martchus/tageditor",
+          "description": "Metadata Organizer"
+        },
+        {
+          "name": "tone",
+          "url": "https://github.com/sandreas/tone",
+          "description": "Metadata Organizer"
+        },
+        {
+          "name": "Kid3",
+          "url": "https://kid3.kde.org/",
+          "description": "Metadata Organizer"
+        },
+        {
+          "name": "Imploded",
+          "url": "https://www.imploded.com/",
+          "description": "Metadata Organizer"
+        },
+        {
+          "name": "MetaTogger",
+          "url": "https://luminescence-software.org/en/metatogger/about/",
+          "description": "Metadata Organizer"
+        },
+        {
+          "name": "TagScanner",
+          "url": "https://www.xdlab.ru/en/",
+          "description": "Metadata Organizer"
+        }
+      ]
+    },
+    {
+      "id": "audio-album-artwork",
+      "title": "アルバムアートワーク",
+      "resources": [
+        {
+          "name": "Cover Search Engine",
+          "url": "https://covers.musichoarders.xyz",
+          "description": "Album Art Search Engines",
+          "starred": true
+        },
+        {
+          "name": "Albumart.Digital",
+          "url": "https://albumart.digital/",
+          "description": "Album Art Search Engines"
+        },
+        {
+          "name": "bigpictures",
+          "url": "https://bigpictures.xyz/",
+          "description": "Album Art Search Engines"
+        },
+        {
+          "name": "SpotifyArt",
+          "url": "https://spotify-art.vercel.app/",
+          "description": "Spotify Album Art Downloader / Web",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Apple Artwork",
+          "url": "https://artwork.thekvt.eu.org/",
+          "description": "Apple Music Album Art Downloader"
+        },
+        {
+          "name": "MediUX Album Covers",
+          "url": "https://mediux.pro/albums",
+          "description": "Media Soundtrack Album Art"
+        },
+        {
+          "name": "Classic Rock Covers",
+          "url": "https://www.classic-rock-covers.com/",
+          "description": "Rock Album Art"
+        },
+        {
+          "name": "Album Art Downloader",
+          "url": "https://sourceforge.net/projects/album-art/",
+          "description": "Album Art Download Apps"
+        },
+        {
+          "name": "kunst",
+          "url": "https://github.com/sdushantha/kunst",
+          "description": "Album Art Download Apps"
+        },
+        {
+          "name": "Fetcher",
+          "url": "https://github.com/bunnykek/Fetcher",
+          "description": "Album Art Download Apps"
+        }
+      ]
+    },
+    {
+      "id": "audio-song-identification",
+      "title": "楽曲認識",
+      "resources": [
+        {
+          "name": "Google Song Identification",
+          "url": "https://support.google.com/websearch/answer/7554088",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Guide",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/google-song-identification.md",
+          "description": ""
+        },
+        {
+          "name": "Shazam",
+          "url": "https://www.shazam.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Features",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
+          "description": ""
+        },
+        {
+          "name": "Desktop App",
+          "url": "https://github.com/BayernMuller/vibra",
+          "description": ""
+        },
+        {
+          "name": "2",
+          "url": "https://github.com/zemoto/WhatAmIHearing",
+          "description": ""
+        },
+        {
+          "name": "Firefox",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/librezam/",
+          "description": ""
+        },
+        {
+          "name": "Chrome",
+          "url": "https://chromewebstore.google.com/detail/shazam-find-song-names-fr/mmioliijnhnoblpgimnlajmefafdfilb",
+          "description": ""
+        },
+        {
+          "name": "WatZatSong",
+          "url": "https://www.watzatsong.com/en",
+          "description": "Song ID Communities",
+          "starred": true
+        },
+        {
+          "name": "r/NameThatSong",
+          "url": "https://reddit.com/r/NameThatSong",
+          "description": "Song ID Communities"
+        },
+        {
+          "name": "FlairMax",
+          "url": "https://apps.microsoft.com/detail/9pdzvj34ztxg",
+          "description": ""
+        },
+        {
+          "name": "AudioTag",
+          "url": "https://audiotag.info/",
+          "description": ""
+        },
+        {
+          "name": "⁠SongFinder",
+          "url": "https://songfinder.gg/",
+          "description": ""
+        },
+        {
+          "name": "SoundHound",
+          "url": "https://www.soundhound.com/soundhound",
+          "description": ""
+        },
+        {
+          "name": "Audile",
+          "url": "https://github.com/aleksey-saenko/MusicRecognizer",
+          "description": ""
+        },
+        {
+          "name": "Audire",
+          "url": "https://github.com/alexmercerind/audire",
+          "description": ""
+        },
+        {
+          "name": "AmbientMusicMod",
+          "url": "https://github.com/KieronQuinn/AmbientMusicMod",
+          "description": ""
+        },
+        {
+          "name": "SampleSeek",
+          "url": "https://www.sampleseek.co.uk/",
+          "description": "Find Sample Origins"
+        },
+        {
+          "name": "AHA Music",
+          "url": "https://www.aha-music.com/identify-songs-music-recognition-online",
+          "description": "Chrome Extension / Web"
+        }
+      ]
+    },
+    {
+      "id": "audio-lyric-sites",
+      "title": "歌詞サイト",
+      "resources": [
+        {
+          "name": "LRCGET",
+          "url": "https://github.com/tranxuanthang/lrcget",
+          "description": "Download Synced Lyrics",
+          "starred": true
+        },
+        {
+          "name": "LRCLIB",
+          "url": "https://lrclib.net/",
+          "description": "Synced Lyrics Search",
+          "starred": true
+        },
+        {
+          "name": "LyricsTranslate",
+          "url": "https://lyricstranslate.com/",
+          "description": "Lyric Translations / Requests",
+          "starred": true
+        },
+        {
+          "name": "dumb",
+          "url": "https://github.com/rramiachraf/dumb",
+          "description": "Lyric Explanations",
+          "starred": true
+        },
+        {
+          "name": "Intellectual",
+          "url": "https://intellectual.insprill.net/",
+          "description": "Lyric Explanations"
+        },
+        {
+          "name": "Genius",
+          "url": "https://genius.com/",
+          "description": "Lyric Explanations"
+        },
+        {
+          "name": "AZLyrics",
+          "url": "https://www.azlyrics.com/",
+          "description": "Lyric Search"
+        },
+        {
+          "name": "Lyricsify",
+          "url": "https://www.lyricsify.com/",
+          "description": "Lyric Search"
+        },
+        {
+          "name": "Lyrhub",
+          "url": "https://lyrhub.com/en",
+          "description": "Lyric Search"
+        },
+        {
+          "name": "FindMusicByLyrics",
+          "url": "https://findmusicbylyrics.com/",
+          "description": "Lyric Search"
+        },
+        {
+          "name": "Lyrics.com",
+          "url": "https://www.lyrics.com/",
+          "description": "Lyric Search"
+        },
+        {
+          "name": "⁠Lyrical Nonsense",
+          "url": "https://www.lyrical-nonsense.com/global/",
+          "description": "Japanese Song Lyrics"
+        },
+        {
+          "name": "⁠AnimeSongLyrics",
+          "url": "https://www.animesonglyrics.com/",
+          "description": "Anime Song Lyrics"
+        },
+        {
+          "name": "Lyricify",
+          "url": "https://github.com/WXRIW/Lyricify-App",
+          "description": "Lyrics Desktop App"
+        },
+        {
+          "name": "Versefy",
+          "url": "https://versefy.app/",
+          "description": "Lyric Finder for Spotify / Tidal / VLC"
+        },
+        {
+          "name": "Lyrics-In-Terminal",
+          "url": "https://github.com/Jugran/lyrics-in-terminal",
+          "description": "Lyric Finder for Spotify / Tidal / VLC"
+        },
+        {
+          "name": "⁠LRC Maker",
+          "url": "https://lrc-maker.github.io/",
+          "description": "Web-Based Lyrics Editor",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio-sheet-music-notation",
+      "title": "Sheet 音楽 / Notation",
+      "resources": [
+        {
+          "name": "Awesome Music",
+          "url": "https://github.com/noteflakes/awesome-music",
+          "description": "Music / Notation Tools Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome Sheet Music",
+          "url": "https://github.com/ad-si/awesome-sheet-music",
+          "description": "Sheet Music Software & Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "MuseScore",
+          "url": "https://musescore.org/",
+          "description": "Music Scoring Software",
+          "starred": true
+        },
+        {
+          "name": "MC Musiceditor",
+          "url": "https://www.mcmusiceditor.com/",
+          "description": "Music Scoring Software"
+        },
+        {
+          "name": "Score Perfect Professional",
+          "url": "https://archive.org/details/score-perfect-professional-lite-5.1/",
+          "description": "Music Scoring Software"
+        },
+        {
+          "name": "The ABC Music Project",
+          "url": "https://abc.sourceforge.net/",
+          "description": "Notation Markup Language"
+        },
+        {
+          "name": "Editor",
+          "url": "https://sourceforge.net/projects/toadflax/",
+          "description": "Notation Markup Language"
+        },
+        {
+          "name": "2",
+          "url": "https://runabc.sourceforge.io/",
+          "description": "Notation Markup Language"
+        },
+        {
+          "name": "3",
+          "url": "https://easyabc.sourceforge.net/",
+          "description": "Notation Markup Language"
+        },
+        {
+          "name": "PNG Convert",
+          "url": "https://sourceforge.net/projects/abccairo/",
+          "description": "Notation Markup Language"
+        },
+        {
+          "name": "MIDI Convert",
+          "url": "https://abcmidi.sourceforge.io/",
+          "description": "Notation Markup Language"
+        },
+        {
+          "name": "Webpages",
+          "url": "https://netabc.sourceforge.io/",
+          "description": "Notation Markup Language"
+        },
+        {
+          "name": "Chordly",
+          "url": "https://chordly.co.uk/",
+          "description": "Chord Sheet Creator",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Piascore",
+          "url": "https://apps.apple.com/app/piascore-hd/id406141702",
+          "description": "iOS Music Score Viewer"
+        },
+        {
+          "name": "r/sheetmusic",
+          "url": "https://reddit.com/r/sheetmusic",
+          "description": "Reddit Community"
+        },
+        {
+          "name": "VGLeadSheets",
+          "url": "https://www.vgleadsheets.com/",
+          "description": "Transcribe Video Game Music"
+        },
+        {
+          "name": "Omnizart",
+          "url": "https://github.com/Music-and-Culture-Technology-Lab/omnizart",
+          "description": "Python Music Transcription Library"
+        },
+        {
+          "name": "Audiveris",
+          "url": "https://audiveris.github.io/audiveris/_pages/handbook/",
+          "description": "OMR Engine",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Oemer",
+          "url": "https://github.com/BreezeWhite/oemer",
+          "description": "OMR Tool / Colab / Demo"
+        },
+        {
+          "name": "Sheet Music Scanner",
+          "url": "https://sheetmusicscanner.com/",
+          "description": "Mobile OMR App"
+        },
+        {
+          "name": "music-reader",
+          "url": "https://music-reader.com/",
+          "description": "Practice Reading Sheet Music"
+        },
+        {
+          "name": "Sound Slice",
+          "url": "https://soundslice.com/",
+          "description": "Sheet Music Learning"
+        },
+        {
+          "name": "Nootka",
+          "url": "https://sourceforge.net/projects/nootka/",
+          "description": "Sheet Music Learning"
+        },
+        {
+          "name": "Nutkus",
+          "url": "https://sourceforge.net/projects/nutkus/",
+          "description": "Notation Learning Game"
+        }
+      ]
+    },
+    {
+      "id": "audio-spectrum-analyzers",
+      "title": "スペクトラムアナライザー",
+      "resources": [
+        {
+          "name": "Audio Quality Check Guide",
+          "url": "https://redd.it/3l0yxp",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Fakin' The Funk?",
+          "url": "https://fakinthefunk.net/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Sonic Visualizer",
+          "url": "https://www.sonicvisualiser.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Spek",
+          "url": "https://www.spek.cc/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "⁠Acoustic Spectrum Analyzer",
+          "url": "https://spec.squid.wtf/",
+          "description": "Web-Based"
+        },
+        {
+          "name": "⁠WhatsMyBitrate",
+          "url": "https://whatsmybitrate.com/",
+          "description": "Web-Based"
+        },
+        {
+          "name": "Visual Analyser",
+          "url": "https://www.sillanumsoft.org/",
+          "description": ""
+        },
+        {
+          "name": "Friture",
+          "url": "https://friture.org/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/tlecomte/friture",
+          "description": ""
+        },
+        {
+          "name": "Spectro",
+          "url": "http://spectro.enpts.com/",
+          "description": ""
+        },
+        {
+          "name": "Cambia",
+          "url": "https://logs.musichoarders.xyz/",
+          "description": "CD Rip Log Checker"
+        }
+      ]
+    },
+    {
+      "id": "audio-mac-audio-toolshttpswwwredditcomrfreemediaheckyeahwikilinuxwiki25b7macaudio",
+      "title": "Mac 音声 ツール",
+      "resources": [
+        {
+          "name": "Awesome Music Production",
+          "url": "https://github.com/ad-si/awesome-music-production",
+          "description": "Music Production Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "AFreeStudio",
+          "url": "https://www.afreestudio.com/",
+          "description": "Music Production Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "AudioSEX",
+          "url": "https://audiosex.pro/",
+          "description": "Audio Production Forums / News",
+          "starred": true
+        },
+        {
+          "name": "KVR Audio",
+          "url": "https://www.kvraudio.com/",
+          "description": "Audio Production Forums / News"
+        },
+        {
+          "name": "VI-CONTROL",
+          "url": "https://vi-control.net/community/",
+          "description": "Audio Production Forums / News"
+        },
+        {
+          "name": "ProducerLibrary",
+          "url": "https://producerlibrary.carrd.co/",
+          "description": "Audio Production Tutorials"
+        },
+        {
+          "name": "⁠OpenUtau",
+          "url": "https://www.openutau.com/",
+          "description": "Vocal Synth / Singing Platform",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Tonocracy",
+          "url": "https://tonocracy.com/",
+          "description": "Guitar Tones, Effects & Virtual Amps"
+        },
+        {
+          "name": "NeuralAmpModeler",
+          "url": "https://www.neuralampmodeler.com/",
+          "description": "Guitar Tones, Effects & Virtual Amps"
+        },
+        {
+          "name": "GuitarML",
+          "url": "https://guitarml.com/index.html",
+          "description": "Guitar Tones, Effects & Virtual Amps"
+        },
+        {
+          "name": "TONEX CS",
+          "url": "https://www.ikmultimedia.com/products/tonex/#tonexcs",
+          "description": "Guitar Tones, Effects & Virtual Amps"
+        },
+        {
+          "name": "Tone3000",
+          "url": "https://tone3000.com/",
+          "description": "Guitar Tone Profiles"
+        },
+        {
+          "name": "PresetShare",
+          "url": "https://presetshare.com/",
+          "description": "Audio Presets / Requires Sign-Up"
+        },
+        {
+          "name": "VSTSkins",
+          "url": "https://vstskins.com/category/skins/?fwp_license=free",
+          "description": "VST Skins"
+        }
+      ]
+    },
+    {
+      "id": "audio-audio-editors",
+      "title": "音声 Editors",
+      "resources": [
+        {
+          "name": "Tenacity",
+          "url": "https://tenacityaudio.org/",
+          "description": "Audio Editors",
+          "starred": true
+        },
+        {
+          "name": "Source Code",
+          "url": "https://codeberg.org/tenacityteam/tenacity",
+          "description": "Audio Editors"
+        },
+        {
+          "name": "Audacity",
+          "url": "https://www.audacityteam.org/",
+          "description": "Audio Editors"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/audacity/audacity",
+          "description": "Audio Editors"
+        },
+        {
+          "name": "ocenaudio",
+          "url": "https://www.ocenaudio.com/",
+          "description": "Audio Editors"
+        },
+        {
+          "name": "FL Studio",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent#wiki_.25BA_torrent_sites",
+          "description": "Digital Audio Workstations",
+          "starred": true
+        },
+        {
+          "name": "Reaper",
+          "url": "https://www.reaper.fm/",
+          "description": "Digital Audio Workstations"
+        },
+        {
+          "name": "Note",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/reaper-note.md",
+          "description": "Digital Audio Workstations"
+        },
+        {
+          "name": "Zrythm",
+          "url": "https://www.zrythm.org/en/index.html",
+          "description": "Digital Audio Workstations"
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.zrythm.org/zrythm/zrythm",
+          "description": "Digital Audio Workstations"
+        },
+        {
+          "name": "Waveform",
+          "url": "https://www.tracktion.com/products/waveform-free",
+          "description": "Digital Audio Workstations"
+        },
+        {
+          "name": "LMMS",
+          "url": "https://lmms.io/",
+          "description": "Digital Audio Workstations"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/PruNxpG",
+          "description": "Digital Audio Workstations"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/LMMS",
+          "description": "Digital Audio Workstations"
+        },
+        {
+          "name": "OpenMPT",
+          "url": "https://openmpt.org/",
+          "description": "Music Trackers",
+          "starred": true
+        },
+        {
+          "name": "Source Code",
+          "url": "https://source.openmpt.org/",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/OpenMPT/openmpt/",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "Schism Tracker",
+          "url": "https://schismtracker.org/",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/schismtracker/schismtracker",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "Furnace",
+          "url": "https://tildearrow.org/furnace/",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/QhA26dXD23",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/tildearrow/furnace",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "16-Bits",
+          "url": "https://16-bits.org/",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/8bitbubsy?tab=repositories",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "MilkyTracker",
+          "url": "https://milkytracker.org/",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/milkytracker/MilkyTracker",
+          "description": "Music Trackers"
+        },
+        {
+          "name": "Team V.R releases",
+          "url": "https://rentry.co/FMHYB64#team-vr",
+          "description": "Audio Editor Indexes"
+        },
+        {
+          "name": "G-MEH",
+          "url": "https://g-meh.com/",
+          "description": "Audio Editor Indexes"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/g-meh",
+          "description": "Audio Editor Indexes"
+        },
+        {
+          "name": "AudioZ",
+          "url": "https://audioz.download/",
+          "description": "Audio Editor Indexes"
+        },
+        {
+          "name": "Forum",
+          "url": "https://audiosex.pro/",
+          "description": "Audio Editor Indexes"
+        },
+        {
+          "name": "Ossia",
+          "url": "https://ossia.io/",
+          "description": "Intermedia Sequencer",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Mixxx",
+          "url": "https://mixxx.org/",
+          "description": "DJ Software"
+        },
+        {
+          "name": "VirtualDJ",
+          "url": "https://www.virtualdj.com/",
+          "description": "DJ Software"
+        },
+        {
+          "name": "Serato",
+          "url": "https://serato.com/",
+          "description": "DJ Software"
+        },
+        {
+          "name": "Moises",
+          "url": "https://moises.ai/",
+          "description": "Live Music Mixer"
+        },
+        {
+          "name": "plugdata",
+          "url": "https://plugdata.org/",
+          "description": "Visual Audio Editor",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Element",
+          "url": "https://kushview.net/element/",
+          "description": "Modular Audio Environments",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Bespoke",
+          "url": "https://www.bespokesynth.com/",
+          "description": "Modular Audio Environments",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "SunVox",
+          "url": "https://warmplace.ru/soft/sunvox/",
+          "description": "Modular Audio Environments",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Music Experiment",
+          "url": "https://petersalomonsen.com/webassemblymusic/livecodev2/",
+          "description": "Code-Based Audio Creators"
+        },
+        {
+          "name": "Sonic-Pi",
+          "url": "https://sonic-pi.net/",
+          "description": "Code-Based Audio Creators"
+        },
+        {
+          "name": "SuperCollider",
+          "url": "https://supercollider.github.io/",
+          "description": "Code-Based Audio Creators"
+        },
+        {
+          "name": "⁠Strudel",
+          "url": "https://strudel.cc/",
+          "description": "Code-Based Audio Creators"
+        },
+        {
+          "name": "WebChuck IDE",
+          "url": "https://ccrma.stanford.edu/~tzfeng/webchuck-ide/",
+          "description": "Code-Based Audio Creators"
+        },
+        {
+          "name": "WaveTracker",
+          "url": "https://wavetracker.org/",
+          "description": "Wavetable Audio Editor",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "FamiStudio",
+          "url": "https://famistudio.org/",
+          "description": "NES Audio Editor",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "LittleSoundDJ",
+          "url": "https://www.littlesounddj.com/lsd/index.php",
+          "description": "Game Boy Audio Editor"
+        },
+        {
+          "name": "Rosegarden",
+          "url": "https://rosegardenmusic.com/",
+          "description": "MIDI Sequencer / Notation Editors"
+        },
+        {
+          "name": "Ariamaestosa",
+          "url": "https://ariamaestosa.github.io/ariamaestosa/docs/index.html",
+          "description": "MIDI Sequencer / Notation Editors"
+        },
+        {
+          "name": "Basic Pitch",
+          "url": "https://basicpitch.spotify.com/",
+          "description": "Audio-to-MIDI Converter"
+        },
+        {
+          "name": "BitMidi",
+          "url": "https://bitmidi.com/",
+          "description": "MIDI Files"
+        },
+        {
+          "name": "VGMusic",
+          "url": "https://www.vgmusic.com/",
+          "description": "MIDI Files"
+        },
+        {
+          "name": "Mod Archive",
+          "url": "https://modarchive.org/",
+          "description": "Audio Modules"
+        },
+        {
+          "name": "Fadr",
+          "url": "https://fadr.com/",
+          "description": "STEM Creator / Editors"
+        },
+        {
+          "name": "StemRoller",
+          "url": "https://www.stemroller.com/",
+          "description": "STEM Creator / Editors"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/stemrollerapp/stemroller",
+          "description": "STEM Creator / Editors"
+        }
+      ]
+    },
+    {
+      "id": "audio-browser-editors-synths",
+      "title": "ブラウザ Editors / Synths",
+      "resources": [
+        {
+          "name": "Audioalter",
+          "url": "https://audioalter.com/",
+          "description": "Online Editors",
+          "starred": true
+        },
+        {
+          "name": "WavaCity",
+          "url": "https://wavacity.com/",
+          "description": "Online Editors"
+        },
+        {
+          "name": "AudioMass",
+          "url": "https://audiomass.co/",
+          "description": "Online Editors"
+        },
+        {
+          "name": "editor.audio",
+          "url": "https://editor.audio/",
+          "description": "Online Editors"
+        },
+        {
+          "name": "TwistedWave",
+          "url": "https://twistedwave.com/online",
+          "description": "Online Editors"
+        },
+        {
+          "name": "xAudioPro",
+          "url": "https://www.xaudiopro.com/en/",
+          "description": "Online Editors"
+        },
+        {
+          "name": "BandLab",
+          "url": "https://www.bandlab.com/",
+          "description": "Digital Audio Workstation",
+          "starred": true
+        },
+        {
+          "name": "Drumhaus",
+          "url": "https://www.drumha.us/",
+          "description": "Virtual Drum Machines",
+          "starred": true
+        },
+        {
+          "name": "iO-808",
+          "url": "https://io808.com/",
+          "description": "Virtual Drum Machines"
+        },
+        {
+          "name": "Sequencer64",
+          "url": "https://www.sequencer64.com/",
+          "description": "Virtual Drum Machines"
+        },
+        {
+          "name": "Drummy",
+          "url": "https://drummy.io/",
+          "description": "Virtual Drum Machines"
+        },
+        {
+          "name": "DrumBit",
+          "url": "https://drumbit.app/",
+          "description": "Virtual Drum Machines"
+        },
+        {
+          "name": "Roland50.studio",
+          "url": "https://roland50.studio/",
+          "description": "Virtual Drum Machines"
+        },
+        {
+          "name": "Acid Machine 2",
+          "url": "https://errozero.co.uk/acid-machine/",
+          "description": "Virtual Drum Machines"
+        },
+        {
+          "name": "orDrumbox",
+          "url": "https://www.ordrumbox.com/",
+          "description": "Virtual Drum Machines"
+        },
+        {
+          "name": "Hydrogen",
+          "url": "http://hydrogen-music.org/",
+          "description": "Virtual Drum Machines"
+        },
+        {
+          "name": "UltraBox",
+          "url": "https://ultraabox.github.io/",
+          "description": "Online Sequencer / BeepBox Forks"
+        },
+        {
+          "name": "AbyssBox",
+          "url": "https://choptop84.github.io/abyssbox-app/",
+          "description": "Online Sequencer / BeepBox Forks"
+        },
+        {
+          "name": "JummBox",
+          "url": "https://jummb.us/",
+          "description": "Online Sequencer / BeepBox Forks"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/jummbus/jummbox",
+          "description": "Online Sequencer / BeepBox Forks"
+        },
+        {
+          "name": "BeepBox",
+          "url": "https://www.beepbox.co/",
+          "description": "Online Sequencer / BeepBox Forks"
+        },
+        {
+          "name": "GoldBox",
+          "url": "https://aurysystem.github.io/goldbox/",
+          "description": "Online Sequencer / BeepBox Forks"
+        },
+        {
+          "name": "Efflux",
+          "url": "https://www.igorski.nl/application/efflux/",
+          "description": "Online Tracker / Sequencer"
+        },
+        {
+          "name": "Sequencer",
+          "url": "https://sequencer.henryfellerhoff.com/",
+          "description": "Scale Sequencers"
+        },
+        {
+          "name": "Draw Audio",
+          "url": "https://draw.audio/",
+          "description": "Scale Sequencers"
+        },
+        {
+          "name": "DrawBeats",
+          "url": "https://drawbeats.com/",
+          "description": "Scale Sequencers"
+        },
+        {
+          "name": "Petaporon",
+          "url": "https://pixwlk.itch.io/petaporon",
+          "description": "Piano Sequencers / Instrument Editor"
+        },
+        {
+          "name": "Pianoboi",
+          "url": "https://pianoboi.site/",
+          "description": "Piano Sequencers / Instrument Editor"
+        },
+        {
+          "name": "OnlineSequencer",
+          "url": "https://onlinesequencer.net/",
+          "description": "MIDI Editors"
+        },
+        {
+          "name": "WebSynths",
+          "url": "https://www.websynths.com/",
+          "description": "Browser Synthesizers"
+        },
+        {
+          "name": "NoiseCraft",
+          "url": "https://noisecraft.app/",
+          "description": "Modular Synth Builder"
+        },
+        {
+          "name": "VirtualPiano",
+          "url": "https://virtualpiano.net/",
+          "description": "Browser Pianos"
+        },
+        {
+          "name": "MK-1",
+          "url": "https://ericrosenbaum.github.io/MK-1/",
+          "description": "Online Sampling Keyboard"
+        },
+        {
+          "name": "VO Pads",
+          "url": "https://vo.odgn.net/",
+          "description": "Video Sample Sequencer"
+        },
+        {
+          "name": "React Guitar",
+          "url": "https://react-guitar.com/",
+          "description": "Virtual Guitar"
+        },
+        {
+          "name": "Theremin",
+          "url": "https://femurdesign.com/theremin/",
+          "description": "Virtual Theremin"
+        },
+        {
+          "name": "Pantam Playground",
+          "url": "https://www.yishama.com/virtual-pantam-playground/",
+          "description": "Virtual Pantam"
+        },
+        {
+          "name": "WD-1",
+          "url": "https://www.worteldrie.com/WD5/",
+          "description": "Online DJ / Beat Creators"
+        },
+        {
+          "name": "YOU.DJ",
+          "url": "https://you.dj/",
+          "description": "Online DJ / Beat Creators"
+        },
+        {
+          "name": "PIXELSYNTH",
+          "url": "https://ojack.xyz/PIXELSYNTH/",
+          "description": "Image to Sound Synthesizer"
+        },
+        {
+          "name": "Slowed and Reverb",
+          "url": "https://slowedandreverb.studio/",
+          "description": "Make Slowed, Reverb and Remixed Songs"
+        },
+        {
+          "name": "BeatMachine",
+          "url": "https://beatmachine.branchpanic.me/",
+          "description": "Audio Tempo Editors"
+        },
+        {
+          "name": "bungee",
+          "url": "https://bungee.parabolaresearch.com/bungee-web-demo",
+          "description": "Audio Tempo Editors"
+        },
+        {
+          "name": "MIDI Recorder",
+          "url": "https://midi-recorder.web.app/",
+          "description": "MIDI Keyboard Recorder"
+        }
+      ]
+    },
+    {
+      "id": "audio-audio-plugins",
+      "title": "音声 Plugins",
+      "resources": [
+        {
+          "name": "AudioZ",
+          "url": "https://audioz.download/",
+          "description": "Download / Forum",
+          "starred": true
+        },
+        {
+          "name": "Team V.R releases",
+          "url": "https://rentry.co/FMHYB64#team-vr",
+          "description": "Download",
+          "starred": true
+        },
+        {
+          "name": "G-MEH",
+          "url": "https://g-meh.com/",
+          "description": "Download",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "AudioWavePro",
+          "url": "https://t.me/AudioWavePro",
+          "description": "Telegram / AudioZ Reuploads"
+        }
+      ]
+    },
+    {
+      "id": "audio-freeware-plugins",
+      "title": "フリーウェアプラグイン",
+      "resources": [
+        {
+          "name": "Free VST Plugins",
+          "url": "https://bedroomproducersblog.com/free-vst-plugins/",
+          "description": "Freeware Plugin Index",
+          "tags": [
+            "index"
+          ],
+          "mirrors": [
+            "https://docs.google.com/spreadsheets/d/1wr0RjPfQvD_VrIivi4U4tsnqMdL78sWOaDUI2Z95R9U/htmlview?fbclid=IwAR3jUwxfkL7aMruLKomutJZ7-H3xjM1X4JX422mSbCgECdt5ugkHtGWlsF8##gid=0"
+          ]
+        },
+        {
+          "name": "Open-Source Audio Plugins",
+          "url": "https://openaudio.webprofusion.com/",
+          "description": "Open Source Plugin Projects Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Surge XT",
+          "url": "https://surge-synthesizer.github.io/",
+          "description": "Hybrid / Subtractive Synth",
+          "starred": true
+        },
+        {
+          "name": "Vital",
+          "url": "https://vital.audio/",
+          "description": "Wavetable Synths",
+          "starred": true
+        },
+        {
+          "name": "Helm",
+          "url": "https://tytel.org/helm/",
+          "description": "Wavetable Synths"
+        },
+        {
+          "name": "Dexed",
+          "url": "https://asb2m10.github.io/dexed/",
+          "description": "Yamaha DX7 Emulation",
+          "starred": true
+        },
+        {
+          "name": "Decent Sampler",
+          "url": "https://www.decentsamples.com/product/decent-sampler-plugin/",
+          "description": "VST Samplers / Libraries"
+        },
+        {
+          "name": "sforzando",
+          "url": "https://www.plogue.com/products/sforzando.html",
+          "description": "VST Samplers / Libraries"
+        },
+        {
+          "name": "Pianobook",
+          "url": "https://www.pianobook.co.uk/",
+          "description": "1500+ Sample Packs / Requires Sign-Up"
+        },
+        {
+          "name": "VCV Rack 2",
+          "url": "https://vcvrack.com/Rack",
+          "description": "Eurorack Simulators"
+        },
+        {
+          "name": "Cardinal",
+          "url": "https://cardinal.kx.studio/",
+          "description": "Eurorack Simulators"
+        },
+        {
+          "name": "IEM Plug-in Suite",
+          "url": "https://plugins.iem.at/",
+          "description": "Open-Source Plugins"
+        },
+        {
+          "name": "⁠blepfx",
+          "url": "https://fx.amee.ee/",
+          "description": "Open-Source Plugins"
+        },
+        {
+          "name": "ModularSamples",
+          "url": "https://github.com/publicsamples",
+          "description": "Open-Source Plugins"
+        },
+        {
+          "name": "Igorski",
+          "url": "https://www.igorski.nl/download",
+          "description": "Open-Source Plugins"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/igorski?utf8=✓&tab=repositories&q=vst",
+          "description": "Open-Source Plugins"
+        },
+        {
+          "name": "SPARTA",
+          "url": "https://leomccormack.github.io/sparta-site/",
+          "description": "Open-Source Plugins"
+        },
+        {
+          "name": "Chowdhury DSP",
+          "url": "https://chowdsp.com/products.html",
+          "description": "Open-Source Plugins"
+        },
+        {
+          "name": "Plugins4Free",
+          "url": "https://plugins4free.com/",
+          "description": "Plugins"
+        },
+        {
+          "name": "looperman",
+          "url": "https://www.looperman.com/free-music-software",
+          "description": "Plugins"
+        },
+        {
+          "name": "AirWindows",
+          "url": "https://www.airwindows.com/",
+          "description": "Plugins"
+        },
+        {
+          "name": "Consolidated",
+          "url": "https://www.airwindows.com/consolidated/",
+          "description": "Plugins"
+        },
+        {
+          "name": "Krush",
+          "url": "https://www.tritik.com/product/krush/",
+          "description": "Bitcrusher Plugin"
+        },
+        {
+          "name": "samplv1",
+          "url": "https://samplv1.sourceforge.io/",
+          "description": "Polyphonic Sampler"
+        },
+        {
+          "name": "Maim",
+          "url": "https://github.com/ArdenButterfield/Maim",
+          "description": "Audio Distortion Plugin"
+        },
+        {
+          "name": "r/SynthRecipes",
+          "url": "https://www.reddit.com/r/synthrecipes/",
+          "description": "Synth Request Subreddit"
+        }
+      ]
+    },
+    {
+      "id": "audio-sfx-loops",
+      "title": "SFX / ループ",
+      "resources": [
+        {
+          "name": "Kits4Beats",
+          "url": "https://kits4beats.com/",
+          "description": "Download / Torrent",
+          "starred": true,
+          "tags": [
+            "Telegram"
+          ]
+        },
+        {
+          "name": "PLUGG SUPPLY",
+          "url": "https://t.me/pluggsupply",
+          "description": "Telegram / VK",
+          "starred": true
+        },
+        {
+          "name": "OrangeFreeSounds",
+          "url": "https://orangefreesounds.com/",
+          "description": "Free-to-Use",
+          "starred": true
+        },
+        {
+          "name": "FreeSoundsLibrary",
+          "url": "https://www.freesoundslibrary.com/",
+          "description": "Free-to-Use"
+        },
+        {
+          "name": "BandLab Samples",
+          "url": "https://www.bandlab.com/sounds/free-samples",
+          "description": "Free-to-Use"
+        },
+        {
+          "name": "SoundGator",
+          "url": "https://www.soundgator.com/",
+          "description": "Free-to-Use"
+        },
+        {
+          "name": "⁠SmoredBoard",
+          "url": "https://www.smoredboard.com/",
+          "description": "Soundboard Programs"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/bkYY39VgQ2",
+          "description": "Soundboard Programs"
+        },
+        {
+          "name": "EXP Soundboard",
+          "url": "https://sourceforge.net/projects/expsoundboard/",
+          "description": "Soundboard Programs"
+        },
+        {
+          "name": "Sound Show",
+          "url": "https://soundshow.app/",
+          "description": "Soundboard Programs"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/8pGnfJyzNq",
+          "description": "Soundboard Programs"
+        },
+        {
+          "name": "Soundux",
+          "url": "https://soundux.rocks/",
+          "description": "Soundboard Programs"
+        },
+        {
+          "name": "Amplitude Soundboard",
+          "url": "https://amplitude-soundboard.dan0v.com/",
+          "description": "Soundboard Programs"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/dan0v/AmplitudeSoundboard",
+          "description": "Soundboard Programs"
+        },
+        {
+          "name": "Resanance",
+          "url": "https://resanance.com/",
+          "description": "Soundboard Programs"
+        },
+        {
+          "name": "MyInstants",
+          "url": "https://www.myinstants.com/index/us/",
+          "description": "Online Soundboards"
+        },
+        {
+          "name": "101soundboards",
+          "url": "https://www.101soundboards.com/",
+          "description": "Online Soundboards"
+        },
+        {
+          "name": "Soundboard.com",
+          "url": "https://www.soundboard.com/",
+          "description": "Online Soundboards"
+        },
+        {
+          "name": "SampleBrain",
+          "url": "https://gitlab.com/then-try-this/samplebrain",
+          "description": "Sound Effect Creators"
+        },
+        {
+          "name": "rFXGen",
+          "url": "https://raylibtech.itch.io/rfxgen",
+          "description": "Sound Effect Creators"
+        },
+        {
+          "name": "Bfxr",
+          "url": "https://www.bfxr.net/",
+          "description": "Sound Effect Creators"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/increpare/bfxr2",
+          "description": "Sound Effect Creators"
+        },
+        {
+          "name": "ChipTone",
+          "url": "https://sfbgames.itch.io/chiptone",
+          "description": "Sound Effect Creators"
+        },
+        {
+          "name": "SFXR",
+          "url": "https://sfxr.me/",
+          "description": "Sound Effect Creators"
+        },
+        {
+          "name": "r/LoopKits",
+          "url": "https://www.reddit.com/r/loopkits/",
+          "description": "User-Submitted"
+        },
+        {
+          "name": "Freesound",
+          "url": "https://freesound.org/",
+          "description": "User-Submitted"
+        },
+        {
+          "name": "Voicy",
+          "url": "https://www.voicy.network/",
+          "description": "User-Submitted"
+        },
+        {
+          "name": "looperman",
+          "url": "https://www.looperman.com/loops",
+          "description": "User-Submitted"
+        },
+        {
+          "name": "SampleSwap",
+          "url": "https://sampleswap.org/",
+          "description": "User-Submitted"
+        },
+        {
+          "name": "Free Adobe SFX",
+          "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
+          "description": ""
+        },
+        {
+          "name": "BBC Sound Effects",
+          "url": "https://sound-effects.bbcrewind.co.uk/",
+          "description": ""
+        },
+        {
+          "name": "Downloader",
+          "url": "https://github.com/get-iplayer/get_iplayer",
+          "description": ""
+        },
+        {
+          "name": "GDC",
+          "url": "https://sonniss.com/gameaudiogdc",
+          "description": "Royalty Free Sound Effects Archive"
+        },
+        {
+          "name": "Citizen DJ",
+          "url": "https://citizen-dj.labs.loc.gov/",
+          "description": "Free-to-Use Sounds from the Library of Congress"
+        },
+        {
+          "name": "SNES Soundfonts",
+          "url": "https://www.williamkage.com/snes_soundfonts/",
+          "description": "Soundfonts"
+        },
+        {
+          "name": "Musical Artifacts",
+          "url": "https://musical-artifacts.com/",
+          "description": "Soundfonts"
+        }
+      ]
+    }
+  ]
+}

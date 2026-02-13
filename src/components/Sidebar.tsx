@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { categories } from "@/data/categories";
+import { categories } from "@/data";
 import { Home, BookOpen } from "lucide-react";
 
 interface SidebarProps {
@@ -25,10 +25,10 @@ export function Sidebar({ open, onClose }: SidebarProps) {
         className={`
           fixed top-16 left-0 z-40 h-[calc(100vh-4rem)] w-64 
           bg-background border-r border-border
-          transition-transform duration-300 ease-in-out
+          transition-all duration-300 ease-in-out
           lg:translate-x-0 lg:sticky lg:top-16
           overflow-y-auto
-          ${open ? "translate-x-0" : "-translate-x-full"}
+          ${open ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0 lg:opacity-100"}
         `}
       >
         <nav className="p-4 space-y-1">
@@ -72,6 +72,7 @@ export function Sidebar({ open, onClose }: SidebarProps) {
 
           {categories.map((cat) => {
             const isActive = pathname === `/${cat.slug}`;
+            const count = cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0);
             return (
               <Link
                 key={cat.id}
@@ -86,8 +87,9 @@ export function Sidebar({ open, onClose }: SidebarProps) {
                   }
                 `}
               >
-                <span className="text-base">{cat.icon}</span>
-                <span className="truncate">{cat.title}</span>
+                <span className="text-base shrink-0">{cat.icon}</span>
+                <span className="truncate flex-1">{cat.title}</span>
+                <span className="text-[10px] text-muted shrink-0 tabular-nums">{count}</span>
               </Link>
             );
           })}

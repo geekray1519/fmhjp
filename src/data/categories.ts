@@ -494,6 +494,46 @@ export const categories: Category[] = [
           { name: "ReadComicOnline", url: "https://readcomiconline.li/", description: "アメコミオンラインリーダー。", starred: true, tags: ["アメコミ"] },
           { name: "GetComics", url: "https://getcomics.org/", description: "コミックのダウンロード。", starred: true, tags: ["ダウンロード"] },
         ]
+      },
+      {
+        id: "light-novels",
+        title: "ライトノベル",
+        resources: [
+          { name: "NovelFire", url: "https://novelfire.net/", description: "翻訳Web小説を読みやすく整理したサイト。", starred: true, tags: ["ライトノベル", "Web小説"] },
+          { name: "NovelCool", url: "https://www.novelcool.com/", description: "人気作の更新が速いオンラインノベルサイト。", tags: ["ライトノベル", "更新"] },
+          { name: "WuxiaClick", url: "https://wuxia.click/", description: "中華系ファンタジー作品に強い。", tags: ["ライトノベル", "ファンタジー"] },
+          { name: "Baka-Tsuki", url: "https://www.baka-tsuki.org/", description: "ファン翻訳ライトノベルの老舗コミュニティ。", tags: ["ライトノベル", "翻訳"] },
+          { name: "jnovels", url: "https://jnovels.com/", description: "ライトノベル配布情報をまとめる。", tags: ["ライトノベル", "配布"] },
+          { name: "Just Light Novels", url: "https://www.justlightnovels.com/", description: "タイトル別に探しやすいライトノベル集。", tags: ["ライトノベル", "検索"] },
+          { name: "LNMTL", url: "https://lnmtl.com/", description: "機械翻訳で最新話を追いやすい。", tags: ["ライトノベル", "機械翻訳"] },
+          { name: "ScribbleHub", url: "https://www.scribblehub.com/", description: "英語圏の連載Web小説投稿サイト。", tags: ["Web小説", "投稿"] },
+        ]
+      },
+      {
+        id: "audiobooks",
+        title: "オーディオブック",
+        resources: [
+          { name: "Librivox", url: "https://librivox.org/", description: "パブリックドメイン作品の朗読を無料提供。", starred: true, tags: ["オーディオブック", "無料"] },
+          { name: "AudiobookBay", url: "https://audiobookbay.lu/", description: "オーディオブック特化の共有コミュニティ。", tags: ["オーディオブック", "コミュニティ"] },
+          { name: "Tokybook", url: "https://tokybook.com/", description: "ストリーミング中心に聴けるオーディオブック。", tags: ["オーディオブック", "ストリーミング"] },
+          { name: "Digitalbook", url: "https://www.digitalbook.io/", description: "無料作品の検索導線が分かりやすい。", tags: ["オーディオブック", "検索"] },
+          { name: "Open Culture Audiobooks", url: "https://www.openculture.com/freeaudiobooks", description: "大学講義や古典をまとめて探せる。", tags: ["オーディオブック", "古典"] },
+          { name: "Lit2Go", url: "https://etc.usf.edu/lit2go/", description: "教育用途向けの無料朗読を提供。", tags: ["オーディオブック", "教育"] },
+          { name: "LearnOutLoud", url: "https://www.learnoutloud.com/Free-Audiobooks", description: "ジャンル別に無料音声教材を収録。", tags: ["オーディオブック", "教材"] },
+          { name: "Storynory", url: "https://www.storynory.com/", description: "子ども向け読み聞かせ音声が豊富。", tags: ["オーディオブック", "児童"] },
+        ]
+      },
+      {
+        id: "ebook-readers",
+        title: "電子書籍リーダー",
+        resources: [
+          { name: "Calibre", url: "https://calibre-ebook.com/", description: "変換・整理・閲覧を一括でこなせる定番。", starred: true, tags: ["リーダー", "管理"] },
+          { name: "KOReader", url: "https://koreader.rocks/", description: "電子ペーパー端末でも人気の軽量リーダー。", tags: ["リーダー", "軽量"] },
+          { name: "Koodo Reader", url: "https://www.koodoreader.com/", description: "複数OS対応でUIが分かりやすい。", tags: ["リーダー", "マルチOS"] },
+          { name: "SumatraPDF", url: "https://www.sumatrapdfreader.org/", description: "超軽量で高速なWindows向けリーダー。", tags: ["リーダー", "Windows"] },
+          { name: "Foliate", url: "https://johnfactotum.github.io/foliate/", description: "Linux向けの美しいEPUBリーダー。", tags: ["リーダー", "Linux"] },
+          { name: "ReadEra", url: "https://readera.org/", description: "Androidで使いやすい多形式リーダー。", tags: ["リーダー", "Android"] },
+        ]
       }
     ]
   },
@@ -521,6 +561,44 @@ export const categories: Category[] = [
           { name: "JDownloader 2", url: "https://jdownloader.org/", description: "強力なオープンソースダウンロードマネージャー。", starred: true, tags: ["オープンソース"] },
           { name: "IDM", url: "https://www.internetdownloadmanager.com/", description: "高速ダウンロードマネージャー。", starred: true, tags: ["有料"] },
           { name: "Free Download Manager", url: "https://www.freedownloadmanager.org/", description: "無料のダウンロードマネージャー。トレント対応。", tags: ["無料", "トレント"] },
+        ]
+      },
+      {
+        id: "browser-downloaders",
+        title: "ブラウザ・動画ダウンロード",
+        resources: [
+          { name: "yt-dlp", url: "https://github.com/yt-dlp/yt-dlp", description: "多数サイト対応の高機能ダウンローダーCLI。", starred: true, tags: ["動画", "CLI"] },
+          { name: "cobalt", url: "https://cobalt.tools/", description: "広告少なめで使いやすいWebダウンローダー。", starred: true, tags: ["動画", "Web"] },
+          { name: "9xbuddy", url: "https://9xbuddy.com/", description: "URLを貼るだけで動画保存できる。", tags: ["動画", "Web"] },
+          { name: "Seal", url: "https://github.com/JunkFood02/Seal", description: "Androidでyt-dlpを使えるGUIアプリ。", tags: ["Android", "動画"] },
+          { name: "Parabolic", url: "https://github.com/NickvisionApps/Parabolic", description: "yt-dlp用のデスクトップGUIフロントエンド。", tags: ["GUI", "動画"] },
+          { name: "stacher", url: "https://stacher.io/", description: "初心者向けのyt-dlp GUIクライアント。", tags: ["GUI", "初心者"] },
+          { name: "Media Downloader", url: "https://github.com/mhogomchungu/media-downloader", description: "動画・音声取得に使えるクロスプラットフォームツール。", tags: ["動画", "音声"] },
+          { name: "lux", url: "https://github.com/iawia002/lux", description: "中国系サイトにも強い動画ダウンローダー。", tags: ["動画", "CLI"] },
+        ]
+      },
+      {
+        id: "cloud-transfer",
+        title: "クラウド転送・同期",
+        resources: [
+          { name: "rclone", url: "https://rclone.org/", description: "主要クラウド間の同期・転送を自動化できる。", starred: true, tags: ["同期", "CLI"] },
+          { name: "Cyberduck", url: "https://cyberduck.io/", description: "S3/WebDAV/FTP対応の定番クライアント。", tags: ["転送", "S3"] },
+          { name: "FileZilla", url: "https://filezilla-project.org/", description: "FTP/SFTP転送で広く使われる。", tags: ["FTP", "転送"] },
+          { name: "WinSCP", url: "https://winscp.net/", description: "WindowsでのSFTP自動化に便利。", tags: ["SFTP", "Windows"] },
+          { name: "Syncthing", url: "https://syncthing.net/", description: "P2Pで端末間ファイル同期ができる。", starred: true, tags: ["同期", "P2P"] },
+          { name: "LocalSend", url: "https://localsend.org/", description: "同一ネットワーク内で高速にファイル共有。", tags: ["共有", "ローカル"] },
+        ]
+      },
+      {
+        id: "archive-tools",
+        title: "アーカイブ・ミラー",
+        resources: [
+          { name: "Internet Archive", url: "https://archive.org/", description: "ソフトや書籍などの長期保存アーカイブ。", starred: true, tags: ["アーカイブ", "保存"] },
+          { name: "Wayback Machine", url: "https://web.archive.org/", description: "消えたページのスナップショットを確認可能。", starred: true, tags: ["アーカイブ", "Web"] },
+          { name: "ArchiveBox", url: "https://archivebox.io/", description: "自分用Webアーカイブを構築できる。", tags: ["セルフホスト", "アーカイブ"] },
+          { name: "SingleFile", url: "https://github.com/gildas-lormeau/SingleFile", description: "ページを1ファイルで保存するブラウザ拡張。", tags: ["保存", "拡張機能"] },
+          { name: "HTTrack", url: "https://www.httrack.com/", description: "サイト丸ごとミラー作成に使える。", tags: ["ミラー", "Web"] },
+          { name: "Wget", url: "https://www.gnu.org/software/wget/", description: "再帰ダウンロードが可能なCLIツール。", tags: ["CLI", "ミラー"] },
         ]
       }
     ]
@@ -551,6 +629,32 @@ export const categories: Category[] = [
           { name: "Nyaa", url: "https://nyaa.si/", description: "アニメ/マンガ専用トレントサイト。", starred: true, tags: ["アニメ", "マンガ"] },
           { name: "RuTracker", url: "https://rutracker.org/", description: "ロシアのトレントフォーラム。幅広いコンテンツ。", starred: true, tags: ["フォーラム"] },
         ]
+      },
+      {
+        id: "torrent-indexes",
+        title: "トレント索引・検索",
+        resources: [
+          { name: "TorrentGalaxy", url: "https://torrentgalaxy.to/", description: "総合カテゴリの新着が見やすいトレントサイト。", tags: ["総合", "検索"] },
+          { name: "BTDigg", url: "https://btdig.com/", description: "DHTベースで磁力リンクを検索できる。", tags: ["検索", "DHT"] },
+          { name: "AIO Search", url: "https://www.aiosearch.com/", description: "複数トレントサイトを横断検索できる。", tags: ["横断検索", "総合"] },
+          { name: "SolidTorrents", url: "https://solidtorrents.to/", description: "シンプルUIで探しやすい検索エンジン。", tags: ["検索", "磁力"] },
+          { name: "Snowfl", url: "https://snowfl.com/", description: "軽量なトレント検索サービス。", tags: ["検索", "軽量"] },
+          { name: "iDope", url: "https://idope.se/", description: "磁力リンク中心の検索サイト。", tags: ["検索", "磁力"] },
+          { name: "LimeTorrents", url: "https://www.limetorrents.lol/", description: "総合ジャンルの老舗トレント検索。", tags: ["総合", "検索"] },
+          { name: "Torlock", url: "https://www.torlock.com/", description: "検証済みトレントを前面に出したサイト。", tags: ["検索", "検証"] },
+        ]
+      },
+      {
+        id: "torrent-tools",
+        title: "トレント補助ツール",
+        resources: [
+          { name: "Jackett", url: "https://github.com/Jackett/Jackett", description: "多数インデクサーを統合できるプロキシ。", starred: true, tags: ["自動化", "検索"] },
+          { name: "Prowlarr", url: "https://prowlarr.com/", description: "arr系連携に強いインデクサー管理ツール。", starred: true, tags: ["自動化", "arr"] },
+          { name: "qBittorrent Search", url: "https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins", description: "qBittorrent内検索を拡張するプラグイン集。", tags: ["検索", "プラグイン"] },
+          { name: "WebTorrent", url: "https://webtorrent.io/", description: "ブラウザ連携しやすい軽量トレントクライアント。", tags: ["クライアント", "Web"] },
+          { name: "aria2", url: "https://aria2.github.io/", description: "HTTPとBitTorrentを統合運用できるCLI。", tags: ["CLI", "高速"] },
+          { name: "Flood", url: "https://flood.js.org/", description: "リモートで扱いやすいWebトレントUI。", tags: ["WebUI", "管理"] },
+        ]
       }
     ]
   },
@@ -578,6 +682,48 @@ export const categories: Category[] = [
         resources: [
           { name: "Duolingo", url: "https://www.duolingo.com/", description: "ゲーム感覚で言語学習。無料。", starred: true, tags: ["無料", "ゲーム化"] },
           { name: "Anki", url: "https://apps.ankiweb.net/", description: "フラッシュカードで効率的な暗記。", starred: true, tags: ["フラッシュカード", "無料"] },
+        ]
+      },
+      {
+        id: "documentaries",
+        title: "ドキュメンタリー",
+        resources: [
+          { name: "Top Documentary Films", url: "https://topdocumentaryfilms.com/", description: "分野別に作品を探しやすい定番サイト。", starred: true, tags: ["ドキュメンタリー", "検索"] },
+          { name: "Documentary Heaven", url: "https://documentaryheaven.com/", description: "歴史・科学系の無料作品が豊富。", tags: ["ドキュメンタリー", "無料"] },
+          { name: "WatchDocumentaries", url: "https://watchdocumentaries.com/", description: "短編から長編までバランス良く収録。", tags: ["ドキュメンタリー", "視聴"] },
+          { name: "IHaveNoTV", url: "https://ihavenotv.com/", description: "教育系・社会系の無料映像を多数掲載。", tags: ["ドキュメンタリー", "教育"] },
+          { name: "PBS Documentaries", url: "https://www.pbs.org/", description: "公共放送の高品質ドキュメンタリー。", tags: ["ドキュメンタリー", "公共放送"] },
+          { name: "DW Documentary", url: "https://www.youtube.com/@DWDocumentary", description: "国際ニュース系の長編ドキュメンタリー。", tags: ["ドキュメンタリー", "YouTube"] },
+          { name: "National Geographic", url: "https://www.nationalgeographic.com/", description: "自然・科学分野の資料が豊富。", tags: ["科学", "自然"] },
+          { name: "BBC Earth", url: "https://www.bbcearth.com/", description: "自然科学コンテンツの参考に便利。", tags: ["自然", "映像"] },
+        ]
+      },
+      {
+        id: "language-learning",
+        title: "言語学習ツール",
+        resources: [
+          { name: "Memrise", url: "https://www.memrise.com/", description: "実用表現中心の語学学習ができる。", tags: ["語学", "単語"] },
+          { name: "Busuu", url: "https://www.busuu.com/", description: "会話練習と文法のバランスが良い。", tags: ["語学", "会話"] },
+          { name: "Clozemaster", url: "https://www.clozemaster.com/", description: "穴埋め形式で語彙を強化できる。", tags: ["語学", "語彙"] },
+          { name: "Tandem", url: "https://www.tandem.net/", description: "ネイティブ話者と交流しながら学習できる。", tags: ["語学", "交流"] },
+          { name: "HelloTalk", url: "https://www.hellotalk.com/", description: "モバイル中心の言語交換コミュニティ。", tags: ["語学", "コミュニティ"] },
+          { name: "Language Reactor", url: "https://www.languagereactor.com/", description: "動画字幕を使って語学学習できる拡張機能。", starred: true, tags: ["語学", "字幕"] },
+          { name: "Forvo", url: "https://forvo.com/", description: "ネイティブ発音の確認に便利。", tags: ["語学", "発音"] },
+          { name: "Tatoeba", url: "https://tatoeba.org/", description: "多言語例文コーパスで表現を学べる。", tags: ["語学", "例文"] },
+        ]
+      },
+      {
+        id: "programming-education",
+        title: "プログラミング学習",
+        resources: [
+          { name: "The Odin Project", url: "https://www.theodinproject.com/", description: "Web開発を体系的に学べる無料カリキュラム。", starred: true, tags: ["開発", "無料"] },
+          { name: "CS50", url: "https://cs50.harvard.edu/", description: "ハーバード大学の人気入門講義。", starred: true, tags: ["大学", "入門"] },
+          { name: "OSSU", url: "https://github.com/ossu/computer-science", description: "独学向け計算機科学カリキュラム。", tags: ["計算機科学", "カリキュラム"] },
+          { name: "roadmap.sh", url: "https://roadmap.sh/", description: "職種別に学習ロードマップを確認できる。", tags: ["開発", "ロードマップ"] },
+          { name: "Exercism", url: "https://exercism.org/", description: "メンタリング付きで言語演習が可能。", tags: ["演習", "メンタリング"] },
+          { name: "LeetCode", url: "https://leetcode.com/", description: "アルゴリズム問題で実践力を鍛えられる。", tags: ["アルゴリズム", "演習"] },
+          { name: "HackerRank", url: "https://www.hackerrank.com/", description: "基礎から面接対策まで幅広い問題を提供。", tags: ["演習", "面接"] },
+          { name: "Codewars", url: "https://www.codewars.com/", description: "短い課題で継続学習しやすい。", tags: ["演習", "継続"] },
         ]
       }
     ]
@@ -607,6 +753,44 @@ export const categories: Category[] = [
           { name: "AltStore", url: "https://altstore.io/", description: "サイドロードアプリストア。脱獄不要。", starred: true, tags: ["サイドロード"] },
           { name: "Sideloadly", url: "https://sideloadly.io/", description: "iOSアプリのサイドロードツール。", starred: true, tags: ["サイドロード"] },
         ]
+      },
+      {
+        id: "android-utilities",
+        title: "Androidユーティリティ",
+        resources: [
+          { name: "Obtainium", url: "https://github.com/ImranR98/Obtainium", description: "GitHub等からアプリ更新を自動追跡できる。", starred: true, tags: ["Android", "更新"] },
+          { name: "Neo Store", url: "https://github.com/NeoApplications/Neo-Store", description: "F-Droid系の見やすい代替クライアント。", tags: ["Android", "ストア"] },
+          { name: "Shizuku", url: "https://shizuku.rikka.app/", description: "ADB権限を活用する高度な補助ツール。", tags: ["Android", "ADB"] },
+          { name: "App Manager", url: "https://github.com/MuntashirAkon/AppManager", description: "バックアップ・権限管理を一括で行える。", tags: ["Android", "管理"] },
+          { name: "SD Maid SE", url: "https://github.com/d4rken-org/sdmaid-se", description: "不要ファイル掃除に便利なメンテナンスアプリ。", tags: ["Android", "メンテナンス"] },
+          { name: "Termux", url: "https://termux.dev/", description: "Android上でLinux環境を扱える。", starred: true, tags: ["Android", "ターミナル"] },
+          { name: "LocalSend", url: "https://localsend.org/", description: "端末間のローカルファイル共有を簡単にする。", tags: ["Android", "共有"] },
+          { name: "KDE Connect", url: "https://kdeconnect.kde.org/", description: "PCとの通知・ファイル連携が便利。", tags: ["Android", "連携"] },
+        ]
+      },
+      {
+        id: "ios-sideload",
+        title: "iOSサイドロード",
+        resources: [
+          { name: "TrollStore", url: "https://github.com/opa334/TrollStore", description: "対応端末で恒久署名に近い導入が可能。", tags: ["iOS", "サイドロード"] },
+          { name: "Scarlet", url: "https://usescarlet.com/", description: "iOS向けの代替アプリ配布クライアント。", tags: ["iOS", "配布"] },
+          { name: "TrollApps", url: "https://trollapps.app/", description: "TrollStore向けアプリを探しやすい。", tags: ["iOS", "カタログ"] },
+          { name: "Esign", url: "https://esign.yyyue.xyz/", description: "証明書署名でIPAを導入できる。", tags: ["iOS", "署名"] },
+          { name: "AltServer", url: "https://faq.altstore.io/getting-started/how-to-install-altstore-windows", description: "AltStore導入用のPC側ユーティリティ。", tags: ["iOS", "導入"] },
+          { name: "Sidestore", url: "https://sidestore.io/", description: "AltStore系の代替で更新運用がしやすい。", tags: ["iOS", "更新"] },
+        ]
+      },
+      {
+        id: "mobile-privacy",
+        title: "モバイルプライバシー",
+        resources: [
+          { name: "RethinkDNS + Firewall", url: "https://rethinkdns.com/app", description: "Android向けDNS/ファイアウォール統合アプリ。", tags: ["Android", "プライバシー"] },
+          { name: "NetGuard", url: "https://netguard.me/", description: "VPNベースで通信制御できるAndroidアプリ。", tags: ["Android", "通信制御"] },
+          { name: "Blokada", url: "https://blokada.org/", description: "モバイル広告・追跡をブロックする。", tags: ["広告ブロック", "モバイル"] },
+          { name: "DuckDuckGo App", url: "https://duckduckgo.com/app", description: "アプリ追跡の可視化と遮断が可能。", tags: ["追跡防止", "モバイル"] },
+          { name: "Proton Pass", url: "https://proton.me/pass", description: "モバイルでも使いやすいパスワード管理。", tags: ["パスワード", "プライバシー"] },
+          { name: "Aegis Authenticator", url: "https://getaegis.app/", description: "バックアップしやすい2FAアプリ。", starred: true, tags: ["2FA", "Android"] },
+        ]
       }
     ]
   },
@@ -635,6 +819,46 @@ export const categories: Category[] = [
           { name: "Homebrew", url: "https://brew.sh/", description: "macOS用パッケージマネージャー。必須ツール。", starred: true, tags: ["パッケージマネージャー"] },
           { name: "Rectangle", url: "https://rectangleapp.com/", description: "ウィンドウ管理ツール。無料。", starred: true, tags: ["ウィンドウ管理", "無料"] },
         ]
+      },
+      {
+        id: "linux-apps",
+        title: "Linux必須アプリ",
+        resources: [
+          { name: "Flatpak", url: "https://flatpak.org/", description: "ディストロ横断でアプリ配布を扱える。", starred: true, tags: ["Linux", "配布"] },
+          { name: "Flathub", url: "https://flathub.org/", description: "Flatpakアプリの主要リポジトリ。", tags: ["Linux", "リポジトリ"] },
+          { name: "Snapcraft", url: "https://snapcraft.io/store", description: "Canonical系のアプリ配布ストア。", tags: ["Linux", "ストア"] },
+          { name: "AppImageHub", url: "https://www.appimagehub.com/", description: "ポータブルLinuxアプリを探しやすい。", tags: ["Linux", "ポータブル"] },
+          { name: "Timeshift", url: "https://github.com/linuxmint/timeshift", description: "システム復元スナップショットに便利。", starred: true, tags: ["Linux", "バックアップ"] },
+          { name: "BleachBit", url: "https://www.bleachbit.org/", description: "不要ファイルを削除するクリーンアップツール。", tags: ["Linux", "クリーンアップ"] },
+          { name: "GNOME Extensions", url: "https://extensions.gnome.org/", description: "GNOME環境を拡張できる公式サイト。", tags: ["Linux", "拡張"] },
+          { name: "OpenRGB", url: "https://openrgb.org/", description: "RGB機器をOS横断で制御できる。", tags: ["Linux", "ハードウェア"] },
+        ]
+      },
+      {
+        id: "macos-productivity",
+        title: "macOS生産性ツール",
+        resources: [
+          { name: "Raycast", url: "https://www.raycast.com/", description: "ランチャーと自動化を統合した生産性ツール。", starred: true, tags: ["macOS", "生産性"] },
+          { name: "Alfred", url: "https://www.alfredapp.com/", description: "キーボード中心で操作を高速化できる。", tags: ["macOS", "ランチャー"] },
+          { name: "iTerm2", url: "https://iterm2.com/", description: "機能豊富な定番ターミナル。", tags: ["macOS", "ターミナル"] },
+          { name: "Hammerspoon", url: "https://www.hammerspoon.org/", description: "LuaでmacOS操作を自動化できる。", tags: ["macOS", "自動化"] },
+          { name: "Karabiner-Elements", url: "https://karabiner-elements.pqrs.org/", description: "キーボード配列やキー動作を柔軟に変更できる。", tags: ["macOS", "キーボード"] },
+          { name: "Stats", url: "https://github.com/exelban/stats", description: "メニューバーでシステム状態を監視できる。", tags: ["macOS", "監視"] },
+          { name: "Maccy", url: "https://maccy.app/", description: "軽量で使いやすいクリップボード履歴管理。", tags: ["macOS", "クリップボード"] },
+        ]
+      },
+      {
+        id: "terminal-shell",
+        title: "ターミナル・シェル",
+        resources: [
+          { name: "Oh My Zsh", url: "https://ohmyz.sh/", description: "zsh環境を手軽に強化できる。", tags: ["シェル", "カスタマイズ"] },
+          { name: "Starship", url: "https://starship.rs/", description: "高速で見やすいクロスシェルプロンプト。", tags: ["シェル", "プロンプト"] },
+          { name: "Fish Shell", url: "https://fishshell.com/", description: "補完が強力で初心者にも扱いやすい。", tags: ["シェル", "補完"] },
+          { name: "tmux", url: "https://github.com/tmux/tmux", description: "長時間作業に便利な端末マルチプレクサ。", tags: ["ターミナル", "分割"] },
+          { name: "zoxide", url: "https://github.com/ajeetdsouza/zoxide", description: "移動履歴を活用する高速cd代替。", tags: ["CLI", "効率化"] },
+          { name: "bat", url: "https://github.com/sharkdp/bat", description: "シンタックス表示付きのcat代替コマンド。", tags: ["CLI", "開発"] },
+          { name: "fd", url: "https://github.com/sharkdp/fd", description: "高速で使いやすいfind代替コマンド。", tags: ["CLI", "高速"] },
+        ]
       }
     ]
   },
@@ -661,6 +885,42 @@ export const categories: Category[] = [
         resources: [
           { name: "The Useless Web", url: "https://theuselessweb.com/", description: "ランダムに面白いサイトへ飛ぶ。", tags: ["面白い"] },
           { name: "Window Swap", url: "https://www.window-swap.com/", description: "世界中の窓からの景色を見る。", tags: ["リラックス"] },
+        ]
+      },
+      {
+        id: "productivity-sites",
+        title: "生産性サイト",
+        resources: [
+          { name: "Notion", url: "https://www.notion.so/", description: "ノート・タスク・Wikiを統合管理できる。", starred: true, tags: ["生産性", "ノート"] },
+          { name: "Trello", url: "https://trello.com/", description: "カンバン形式でタスク進行を可視化できる。", tags: ["生産性", "タスク"] },
+          { name: "Excalidraw", url: "https://excalidraw.com/", description: "アイデア整理に便利な手描き風ホワイトボード。", tags: ["図解", "共同作業"] },
+          { name: "Pomofocus", url: "https://pomofocus.io/", description: "ポモドーロ集中法を手軽に実践できる。", tags: ["集中", "時間管理"] },
+          { name: "Raindrop.io", url: "https://raindrop.io/", description: "ブックマークをタグで整理しやすい。", tags: ["整理", "ブックマーク"] },
+          { name: "Readwise", url: "https://readwise.io/", description: "読書ハイライトの再学習に便利。", tags: ["読書", "復習"] },
+        ]
+      },
+      {
+        id: "travel-maps",
+        title: "旅行・地図",
+        resources: [
+          { name: "OpenStreetMap", url: "https://www.openstreetmap.org/", description: "オープンデータの地図基盤。", starred: true, tags: ["地図", "オープンデータ"] },
+          { name: "Rome2Rio", url: "https://www.rome2rio.com/", description: "都市間移動手段を一括比較できる。", tags: ["旅行", "交通"] },
+          { name: "Wikivoyage", url: "https://www.wikivoyage.org/", description: "地域別に旅行情報を調べやすい。", tags: ["旅行", "ガイド"] },
+          { name: "Tripadvisor", url: "https://www.tripadvisor.com/", description: "観光地レビューの定番サービス。", tags: ["旅行", "レビュー"] },
+          { name: "FlightRadar24", url: "https://www.flightradar24.com/", description: "航空便の現在地をリアルタイム表示。", tags: ["旅行", "フライト"] },
+          { name: "Skyscanner", url: "https://www.skyscanner.com/", description: "航空券の価格比較に便利。", tags: ["旅行", "比較"] },
+        ]
+      },
+      {
+        id: "news-factcheck",
+        title: "ニュース・検証",
+        resources: [
+          { name: "Ground News", url: "https://ground.news/", description: "報道のバイアス比較に使えるニュース集約。", tags: ["ニュース", "比較"] },
+          { name: "Reuters", url: "https://www.reuters.com/", description: "国際報道の一次情報源として有用。", starred: true, tags: ["ニュース", "国際"] },
+          { name: "AP News", url: "https://apnews.com/", description: "速報性の高い通信社ニュース。", tags: ["ニュース", "速報"] },
+          { name: "Our World in Data", url: "https://ourworldindata.org/", description: "統計データで事実確認しやすい。", starred: true, tags: ["データ", "可視化"] },
+          { name: "Snopes", url: "https://www.snopes.com/", description: "海外ニュースの真偽確認で定番。", tags: ["検証", "ファクトチェック"] },
+          { name: "PolitiFact", url: "https://www.politifact.com/", description: "政治発言の事実検証を提供。", tags: ["検証", "政治"] },
         ]
       }
     ]
@@ -692,6 +952,42 @@ export const categories: Category[] = [
           { name: "Cloudflare Pages", url: "https://pages.cloudflare.com/", description: "高速な無料ホスティング。CDN統合。", starred: true, tags: ["無料", "CDN"] },
           { name: "GitHub Pages", url: "https://pages.github.com/", description: "GitHubリポジトリからの無料ホスティング。", tags: ["無料", "GitHub"] },
         ]
+      },
+      {
+        id: "api-tools",
+        title: "API開発ツール",
+        resources: [
+          { name: "Postman", url: "https://www.postman.com/", description: "API設計・テスト・共有の定番プラットフォーム。", starred: true, tags: ["API", "テスト"] },
+          { name: "Insomnia", url: "https://insomnia.rest/", description: "軽量で使いやすいAPIクライアント。", tags: ["API", "クライアント"] },
+          { name: "Hoppscotch", url: "https://hoppscotch.io/", description: "ブラウザで使えるオープンソースAPIツール。", tags: ["API", "オープンソース"] },
+          { name: "Bruno", url: "https://www.usebruno.com/", description: "ローカルファイル管理型のAPIクライアント。", tags: ["API", "ローカル"] },
+          { name: "HTTPie", url: "https://httpie.io/", description: "可読性の高いHTTPリクエストCLI。", tags: ["API", "CLI"] },
+          { name: "Swagger Editor", url: "https://editor.swagger.io/", description: "OpenAPI仕様をブラウザで編集・検証できる。", tags: ["API", "設計"] },
+        ]
+      },
+      {
+        id: "database-tools",
+        title: "データベースツール",
+        resources: [
+          { name: "DBeaver", url: "https://dbeaver.io/", description: "多種DBに対応する高機能クライアント。", starred: true, tags: ["データベース", "SQL"] },
+          { name: "TablePlus", url: "https://tableplus.com/", description: "モダンUIのDBクライアント。", tags: ["データベース", "GUI"] },
+          { name: "pgAdmin", url: "https://www.pgadmin.org/", description: "PostgreSQL管理向けの定番GUI。", tags: ["PostgreSQL", "管理"] },
+          { name: "MongoDB Compass", url: "https://www.mongodb.com/products/tools/compass", description: "MongoDBの公式GUIクライアント。", tags: ["MongoDB", "GUI"] },
+          { name: "Redis Insight", url: "https://redis.io/insight/", description: "Redis公式の可視化・運用ツール。", tags: ["Redis", "可視化"] },
+          { name: "Beekeeper Studio", url: "https://www.beekeeperstudio.io/", description: "シンプルで扱いやすいSQLエディタ。", tags: ["SQL", "エディタ"] },
+        ]
+      },
+      {
+        id: "dev-platforms",
+        title: "開発プラットフォーム",
+        resources: [
+          { name: "GitHub", url: "https://github.com/", description: "コード管理と協業の標準プラットフォーム。", starred: true, tags: ["Git", "協業"] },
+          { name: "GitLab", url: "https://gitlab.com/", description: "CI/CD統合が強いDevOpsプラットフォーム。", tags: ["Git", "CI/CD"] },
+          { name: "Bitbucket", url: "https://bitbucket.org/", description: "Atlassian連携を活かせるGitホスティング。", tags: ["Git", "連携"] },
+          { name: "Docker Hub", url: "https://hub.docker.com/", description: "コンテナイメージ配布の中心的サービス。", tags: ["Docker", "配布"] },
+          { name: "npm", url: "https://www.npmjs.com/", description: "JavaScriptパッケージ公開・検索の標準。", tags: ["パッケージ", "JavaScript"] },
+          { name: "PyPI", url: "https://pypi.org/", description: "Pythonパッケージ公開の公式レジストリ。", tags: ["パッケージ", "Python"] },
+        ]
       }
     ]
   },
@@ -710,6 +1006,44 @@ export const categories: Category[] = [
           { name: "PowerToys", url: "https://github.com/microsoft/PowerToys", description: "Microsoft公式のWindows拡張ユーティリティ集。", starred: true, tags: ["Microsoft", "公式"] },
           { name: "Everything", url: "https://www.voidtools.com/", description: "超高速ファイル検索ツール。", starred: true, tags: ["検索", "高速"] },
           { name: "7-Zip", url: "https://www.7-zip.org/", description: "無料の圧縮/解凍ソフト。", starred: true, tags: ["圧縮", "無料"] },
+        ]
+      },
+      {
+        id: "recovery-tools",
+        title: "復旧ツール",
+        resources: [
+          { name: "Recuva", url: "https://www.ccleaner.com/recuva", description: "削除ファイル復旧で広く使われるツール。", tags: ["復旧", "Windows"] },
+          { name: "PhotoRec", url: "https://www.cgsecurity.org/wiki/PhotoRec", description: "多形式に対応したオープンソース復旧ツール。", starred: true, tags: ["復旧", "オープンソース"] },
+          { name: "TestDisk", url: "https://www.cgsecurity.org/wiki/TestDisk", description: "パーティション修復に使える定番CLI。", tags: ["復旧", "ディスク"] },
+          { name: "Disk Drill", url: "https://www.cleverfiles.com/", description: "GUI中心で扱いやすい復旧ソフト。", tags: ["復旧", "GUI"] },
+          { name: "R-Studio", url: "https://www.r-studio.com/", description: "高度なデータ復旧機能を備える。", tags: ["復旧", "高度"] },
+          { name: "SystemRescue", url: "https://www.system-rescue.org/", description: "障害時のレスキュー用途に使えるLive環境。", tags: ["復旧", "Linux"] },
+          { name: "Ventoy", url: "https://www.ventoy.net/", description: "複数ISO起動USBを簡単に作成できる。", tags: ["復旧", "USB"] },
+        ]
+      },
+      {
+        id: "monitoring-tools",
+        title: "監視・診断ツール",
+        resources: [
+          { name: "HWInfo", url: "https://www.hwinfo.com/", description: "ハードウェア情報と温度監視の定番。", starred: true, tags: ["監視", "温度"] },
+          { name: "CPU-Z", url: "https://www.cpuid.com/softwares/cpu-z.html", description: "CPU情報確認で長年使われるツール。", tags: ["監視", "CPU"] },
+          { name: "GPU-Z", url: "https://www.techpowerup.com/gpuz/", description: "GPU詳細を簡単に確認できる。", tags: ["監視", "GPU"] },
+          { name: "CrystalDiskInfo", url: "https://crystalmark.info/en/software/crystaldiskinfo/", description: "S.M.A.R.T.監視でディスク状態を把握。", starred: true, tags: ["監視", "ディスク"] },
+          { name: "Process Explorer", url: "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer", description: "プロセス詳細解析に強いSysinternals製ツール。", tags: ["診断", "プロセス"] },
+          { name: "Autoruns", url: "https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns", description: "自動起動項目を詳細管理できる。", tags: ["診断", "起動管理"] },
+          { name: "LatencyMon", url: "https://www.resplendence.com/latencymon", description: "音切れやDPC遅延の原因調査に使える。", tags: ["診断", "遅延"] },
+        ]
+      },
+      {
+        id: "cleanup-uninstall",
+        title: "クリーンアップ・アンインストール",
+        resources: [
+          { name: "Bulk Crap Uninstaller", url: "https://www.bcuninstaller.com/", description: "不要ソフトの一括削除ができる。", starred: true, tags: ["削除", "一括"] },
+          { name: "Revo Uninstaller", url: "https://www.revouninstaller.com/", description: "残骸ファイルまで掃除しやすい。", tags: ["削除", "クリーン"] },
+          { name: "Geek Uninstaller", url: "https://geekuninstaller.com/", description: "軽量で持ち運び可能なアンインストーラ。", tags: ["削除", "軽量"] },
+          { name: "BleachBit", url: "https://www.bleachbit.org/", description: "不要キャッシュの削除に使える。", tags: ["クリーンアップ", "無料"] },
+          { name: "Patch My PC", url: "https://patchmypc.com/", description: "主要ソフトの更新をまとめて適用できる。", tags: ["更新", "自動化"] },
+          { name: "Ninite", url: "https://ninite.com/", description: "初期セットアップ時の一括インストールが便利。", tags: ["導入", "自動化"] },
         ]
       }
     ]

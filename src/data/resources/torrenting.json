@@ -1,0 +1,901 @@
+{
+  "id": "torrenting",
+  "slug": "torrenting",
+  "title": "トレント",
+  "description": "トレントクライアント、トラッカー、関連ツール",
+  "icon": "🔄",
+  "color": "from-purple-500 to-violet-600",
+  "subcategories": [
+    {
+      "id": "torrenting-general",
+      "title": "一般",
+      "resources": [
+        {
+          "name": "RuTracker",
+          "url": "https://rutracker.org/",
+          "description": "Video / Audio / Comics / Magazines / Software / Requires Sign-Up",
+          "starred": true,
+          "mirrors": [
+            "https://rutracker.net/"
+          ]
+        },
+        {
+          "name": "m0nkrus",
+          "url": "https://rentry.co/FMHYB64#m0nkrus",
+          "description": "Editing Software",
+          "starred": true
+        },
+        {
+          "name": "1337x",
+          "url": "https://1337x.to/home/",
+          "description": "Video / Audio / NSFW / Mirrors /.onion / User Ranks",
+          "mirrors": [
+            "https://x1337x.cc/"
+          ]
+        },
+        {
+          "name": "RARBG Dump",
+          "url": "https://rarbgdump.com/",
+          "description": "Video / Audio / Games / Books / NSFW / Continuation Project"
+        },
+        {
+          "name": "LimeTorrents",
+          "url": "https://www.limetorrents.lol/",
+          "description": "Video / Audio / Books"
+        },
+        {
+          "name": "TorrentDownloads",
+          "url": "https://www.torrentdownloads.pro/",
+          "description": "Video / Audio / Books"
+        },
+        {
+          "name": "ExtraTorrent",
+          "url": "https://extratorrent.st/",
+          "description": "Video / Audio / Books / NSFW"
+        },
+        {
+          "name": "rutor.info",
+          "url": "https://rutor.is/",
+          "description": "Video / Audio / Books / ROMs / Magazines / Use Translator",
+          "mirrors": [
+            "https://rutor.info/"
+          ]
+        },
+        {
+          "name": "UZTracker",
+          "url": "https://uztracker.net/",
+          "description": "Video / Audio / Books / Use Translator",
+          "mirrors": [
+            "https://uztracker.ru"
+          ]
+        },
+        {
+          "name": "NNM-Club",
+          "url": "https://nnmclub.to/",
+          "description": "Video / Audio"
+        },
+        {
+          "name": "Torrenting",
+          "url": "https://www.torrenting.com/",
+          "description": "Video / Audio / Books / NSFW / Requires Sign-Up"
+        },
+        {
+          "name": "Knaben.info",
+          "url": "https://knaben.info/",
+          "description": "Torrent Site Proxies"
+        }
+      ]
+    },
+    {
+      "id": "torrenting-aggregators",
+      "title": "アグリゲーター",
+      "resources": [
+        {
+          "name": "ExT",
+          "url": "https://ext.to/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "2",
+          "url": "https://search.extto.com/",
+          "description": ""
+        },
+        {
+          "name": "Proxy",
+          "url": "https://extranet.torrentbay.st/",
+          "description": ""
+        },
+        {
+          "name": "BTDigg",
+          "url": "https://btdig.com/",
+          "description": "DHT-Based /.onion",
+          "starred": true
+        },
+        {
+          "name": "Knaben",
+          "url": "https://knaben.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "TorrentProject",
+          "url": "https://torrentproject.cc/",
+          "description": "DHT-Based",
+          "mirrors": [
+            "https://torrentproject2.net/"
+          ]
+        },
+        {
+          "name": "DaMagNet",
+          "url": "https://damag.net/",
+          "description": "DHT-Based"
+        },
+        {
+          "name": "TorrentDownload",
+          "url": "https://www.torrentdownload.info/",
+          "description": ""
+        },
+        {
+          "name": "TorrentQuest",
+          "url": "https://torrentquest.com/",
+          "description": ""
+        },
+        {
+          "name": "Trackly.cc",
+          "url": "https://trackly.cc/",
+          "description": ""
+        },
+        {
+          "name": "Cleanbay",
+          "url": "https://cleanbay.netlify.app/",
+          "description": ""
+        },
+        {
+          "name": "CloudTorrents",
+          "url": "https://cloudtorrents.com/",
+          "description": ""
+        },
+        {
+          "name": "Torrents-CSV",
+          "url": "https://torrents-csv.com/",
+          "description": ""
+        },
+        {
+          "name": "FileMood",
+          "url": "https://filemood.com/",
+          "description": ""
+        },
+        {
+          "name": "BT4G",
+          "url": "https://bt4gprx.com/",
+          "description": ""
+        },
+        {
+          "name": "PiratesParadise",
+          "url": "https://piratesparadise.org/",
+          "description": ""
+        },
+        {
+          "name": "snowfl",
+          "url": "https://snowfl.com/",
+          "description": ""
+        },
+        {
+          "name": "Torlock",
+          "url": "https://www.torlock.com/",
+          "description": ""
+        },
+        {
+          "name": "uIndex",
+          "url": "https://uindex.org/",
+          "description": ""
+        },
+        {
+          "name": "BTSearch",
+          "url": "https://btsearch.19950817.xyz/en",
+          "description": ""
+        },
+        {
+          "name": "Torrent CSE",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:0led5tukccj",
+          "description": "Multi Site Search"
+        },
+        {
+          "name": "CSE 2",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:kh3piqxus6n",
+          "description": "Multi Site Search"
+        },
+        {
+          "name": "0Mag",
+          "url": "https://www.0mag.net/",
+          "description": "Magnet Link Sharing Platform",
+          "mirrors": [
+            "https://16mag.net/"
+          ]
+        },
+        {
+          "name": "Magnetissimo",
+          "url": "https://github.com/sergiotapia/magnetissimo",
+          "description": "Magnet Search Web App"
+        },
+        {
+          "name": "TorrentSearchRobot",
+          "url": "https://t.me/TorrentSearchRoBot",
+          "description": "Telegram Torrent Search Bots"
+        },
+        {
+          "name": "TorrentHuntBot",
+          "url": "https://t.me/torrenthuntbot",
+          "description": "Telegram Torrent Search Bots"
+        },
+        {
+          "name": "Torrentinim",
+          "url": "https://github.com/sergiotapia/torrentinim",
+          "description": "Self-Hosted Torrent Search Engines"
+        },
+        {
+          "name": "BitMagnet",
+          "url": "https://bitmagnet.io/",
+          "description": "Self-Hosted Torrent Search Engines"
+        }
+      ]
+    },
+    {
+      "id": "torrenting-audio-siteshttpswwwredditcomrfreemediaheckyeahwikiaudiowiki25baaudiotorrenting",
+      "title": "音声 Sites",
+      "resources": [
+        {
+          "name": "qBittorrent",
+          "url": "https://www.qbittorrent.org/",
+          "description": "Torrent Client / Windows, Mac, Linux / Tools",
+          "starred": true
+        },
+        {
+          "name": "qBittorrent Enhanced",
+          "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
+          "description": "Torrent Client / Windows, Mac, Linux / Tools"
+        },
+        {
+          "name": "Deluge",
+          "url": "https://www.deluge-torrent.org/",
+          "description": "Torrent Client / Windows, Mac, Linux / Plugins / Config / Telegram Plugin",
+          "starred": true
+        },
+        {
+          "name": "Transmission",
+          "url": "https://transmissionbt.com/",
+          "description": "Torrent Client / Windows, Mac, Linux",
+          "starred": true
+        },
+        {
+          "name": "rTorrent",
+          "url": "https://rakshasa.github.io/rtorrent/",
+          "description": "Torrent Client / Linux / Extended / Tools / Mods",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "RuTorrent",
+          "url": "https://github.com/Novik/ruTorrent",
+          "description": "RTorrent Web Frontends"
+        },
+        {
+          "name": "Flood",
+          "url": "https://flood.js.org/",
+          "description": "RTorrent Web Frontends"
+        },
+        {
+          "name": "torrent-control",
+          "url": "https://github.com/Mika-/torrent-control",
+          "description": "Easily Send Torrents to Client"
+        },
+        {
+          "name": "Remote Torrent Adder",
+          "url": "https://github.com/bogenpirat/remote-torrent-adder",
+          "description": "Easily Send Torrents to Client"
+        },
+        {
+          "name": "Tixati",
+          "url": "https://tixati.com/",
+          "description": "Torrent Client / Windows, Linux, Android"
+        },
+        {
+          "name": "BiglyBT",
+          "url": "https://www.biglybt.com/",
+          "description": "Torrent Client / Windows, Mac, Linux, Android"
+        },
+        {
+          "name": "LIII",
+          "url": "https://codecpack.co/download/LIII-BitTorrent-Client.html",
+          "description": "Torrent Client / Windows"
+        },
+        {
+          "name": "WizTorrent",
+          "url": "https://wiztorrent.com/",
+          "description": "Torrent Client / Streaming / WebShare / Windows, Mac, Linux"
+        },
+        {
+          "name": "rqbit",
+          "url": "https://github.com/ikatson/rqbit/",
+          "description": "Lightweight Torrent Client / Streaming / UPnP Integration / Windows, Mac, Linux"
+        },
+        {
+          "name": "PikaTorrent",
+          "url": "https://www.pikatorrent.com/",
+          "description": "Torrent Client / Windows, Mac, Linux, Android, iOS",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Distribyted",
+          "url": "https://distribyted.com/",
+          "description": "Torrent Client / Windows, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Fragments",
+          "url": "https://apps.gnome.org/Fragments/",
+          "description": "Torrent Client / Linux"
+        },
+        {
+          "name": "BitFlu",
+          "url": "https://bitflu.workaround.ch/",
+          "description": "Torrent Client / Linux"
+        },
+        {
+          "name": "kTorrent",
+          "url": "https://apps.kde.org/ktorrent/",
+          "description": "Torrent Client / Linux",
+          "mirrors": [
+            "https://invent.kde.org/network/ktorrent"
+          ]
+        },
+        {
+          "name": "Rats Search",
+          "url": "https://github.com/DEgITx/rats-search",
+          "description": "Torrent Search Client"
+        },
+        {
+          "name": "Download Torrents Through I2P",
+          "url": "https://decentnet.github.io/blog/20200329-download-torrents-through-i2p.html",
+          "description": ""
+        },
+        {
+          "name": "flood",
+          "url": "https://flood.js.org/",
+          "description": "rTorrent, Transmission & qBittorrent WebUI",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "r/Seedboxes",
+          "url": "https://www.reddit.com/r/seedboxes/",
+          "description": "Seedbox Subreddit"
+        },
+        {
+          "name": "Seedbox Guide",
+          "url": "https://seedboxgui.de/seedbox/",
+          "description": "Seedbox Comparisons"
+        }
+      ]
+    },
+    {
+      "id": "torrenting-qbittorrent-tools",
+      "title": "qBittorrent ツール",
+      "resources": [
+        {
+          "name": "qBit Plugins",
+          "url": "https://github.com/qbittorrent/search-plugins",
+          "description": "Plugins Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "qBit Themes",
+          "url": "https://github.com/qbittorrent/qBittorrent/wiki/List-of-known-qBittorrent-themes",
+          "description": "Themes Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "qBit WebUIs",
+          "url": "https://github.com/qbittorrent/qBittorrent/wiki/List-of-known-alternate-WebUIs",
+          "description": "WebUI Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "qBitMF",
+          "url": "https://github.com/qBitMF/qBitMF",
+          "description": "Multi-Connection Tool"
+        },
+        {
+          "name": "⁠qui",
+          "url": "https://github.com/autobrr/qui",
+          "description": "Web Clients / WebUIs"
+        },
+        {
+          "name": "VueTorrent",
+          "url": "https://github.com/VueTorrent/VueTorrent",
+          "description": "Web Clients / WebUIs"
+        },
+        {
+          "name": "qBit Manage",
+          "url": "https://github.com/StuffAnThings/qbit_manage",
+          "description": "Manager / Automation Tool"
+        },
+        {
+          "name": "qBitController",
+          "url": "https://github.com/Bartuzen/qBitController",
+          "description": "Mobile Controllers"
+        },
+        {
+          "name": "Docker qBit",
+          "url": "https://github.com/linuxserver/docker-qbittorrent",
+          "description": "Docker Builds"
+        },
+        {
+          "name": "QBT VPN",
+          "url": "https://github.com/binhex/arch-qbittorrentvpn",
+          "description": "Docker Builds"
+        },
+        {
+          "name": "Dark Theme",
+          "url": "https://draculatheme.com/qbittorrent",
+          "description": "QBT Themes"
+        },
+        {
+          "name": "iOS Style",
+          "url": "https://github.com/ntoporcov/iQbit/",
+          "description": "QBT Themes"
+        },
+        {
+          "name": "Quantum",
+          "url": "https://github.com/UHAXM1/Quantum",
+          "description": "Auto Port Updater for Proton"
+        }
+      ]
+    },
+    {
+      "id": "torrenting-remote-torrenting",
+      "title": "Remote トレント",
+      "resources": [
+        {
+          "name": "TorBox",
+          "url": "https://torbox.app/",
+          "description": "Freemium / 10GB / 10 Monthly Downloads / Unofficial Mobile Client",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Seedr",
+          "url": "https://www.seedr.cc/",
+          "description": "2GB / Telegram Bot / API Wrapper",
+          "starred": true
+        },
+        {
+          "name": "⁠BitTorrented",
+          "url": "https://bittorrented.com/",
+          "description": "Unlimited"
+        },
+        {
+          "name": "Torrent_To_Google_Drive_Downloader",
+          "url": "https://colab.research.google.com/github/FKLC/Torrent-To-Google-Drive-Downloader/blob/master/Torrent_To_Google_Drive_Downloader.ipynb",
+          "description": "Google Colab / 15GB"
+        },
+        {
+          "name": "webtor",
+          "url": "https://webtor.io/",
+          "description": "Unlimited / Download Speed Limited / No Sign-Up"
+        },
+        {
+          "name": "Multi-Up",
+          "url": "https://multiup.io/en/upload/from-torrent",
+          "description": "10 GB"
+        }
+      ]
+    },
+    {
+      "id": "torrenting-torrent-streaming-automationhttpswwwredditcomrfreemediaheckyeahwikivideowiki25batorrentapps",
+      "title": "トレント Streaming / Automation",
+      "resources": [
+        {
+          "name": "Private Trackers General",
+          "url": "https://claraiscute.neocities.org/Guides/private-trackers",
+          "description": "Private Tracker Guides",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "2",
+          "url": "https://claraiscute.pages.dev/Guides/private-trackers/",
+          "description": "Private Tracker Guides",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "r/TrackersInfo",
+          "url": "https://www.reddit.com/r/TrackersInfo/wiki/official_recruitments/",
+          "description": "Private Tracker Guides",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Private_Trackers",
+          "url": "https://igwiki.lyci.de/wiki/Private_trackers",
+          "description": "Private Tracker Guides",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "The Sheet",
+          "url": "https://inviteroute.github.io/sheet/",
+          "description": "Private Tracker Guides",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Graph",
+          "url": "https://inviteroute.github.io/graph/",
+          "description": "Private Tracker Guides",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Scene Related",
+          "url": "https://opentrackers.org/links/warez-scene/#scenerelated",
+          "description": "Warez / Scene Site Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "TrackerStatus",
+          "url": "https://trackerstatus.info/",
+          "description": "Tracker Status Updates",
+          "starred": true
+        },
+        {
+          "name": "⁠OpenSignup",
+          "url": "https://opensignup.xyz/",
+          "description": "Tracker Status Updates"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://t.me/trackersignup",
+          "description": "Tracker Status Updates"
+        },
+        {
+          "name": "TrackerHub",
+          "url": "https://hdvinnie.github.io/TrackerHub/",
+          "description": "Tracker Status Updates"
+        },
+        {
+          "name": "⁠Tracker Pathways",
+          "url": "https://trackerpathways.org/",
+          "description": "Private Tracker Pathways, Requirements, Invite Tiers"
+        },
+        {
+          "name": "r/trackers",
+          "url": "https://reddit.com/r/trackers",
+          "description": "Tracker Discussion"
+        },
+        {
+          "name": "r/OpenSignups",
+          "url": "https://www.reddit.com/r/OpenSignups/",
+          "description": "Open Tracker Signup Subs"
+        },
+        {
+          "name": "r/OpenedSignups",
+          "url": "https://www.reddit.com/r/OpenedSignups/",
+          "description": "Open Tracker Signup Subs"
+        },
+        {
+          "name": "Private Tracker Spreadsheet",
+          "url": "https://hdvinnie.github.io/Private-Trackers-Spreadsheet/",
+          "description": "Private Tracker Lists"
+        },
+        {
+          "name": "OpenSignups",
+          "url": "https://t.me/trackersignup",
+          "description": "Open Signups Private Trackers / Telegram"
+        },
+        {
+          "name": "⁠cross-seed",
+          "url": "https://www.cross-seed.org/",
+          "description": "Cross-Seeding Tool / Seed Same Torrent Across Multiple Sites",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Upload-Assistant",
+          "url": "https://github.com/L4GSP1KE/Upload-Assistant",
+          "description": "Private Tracker Auto-Upload"
+        },
+        {
+          "name": "TrackerScreenshot",
+          "url": "https://github.com/KlevGG/TrackerScreenshot",
+          "description": "Auto Screenshot Tracker Stats"
+        },
+        {
+          "name": "ngosang",
+          "url": "https://ngosang.github.io/trackerslist/",
+          "description": "Tracker Lists",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ngosang/trackerslist",
+          "description": "Tracker Lists",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "TrackersList.com",
+          "url": "https://trackerslist.com/",
+          "description": "Tracker Lists",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/XIU2/TrackersListCollection",
+          "description": "Tracker Lists",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "newTrackon",
+          "url": "https://newtrackon.com/list",
+          "description": "Tracker Lists",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Milkie",
+          "url": "https://milkie.cc",
+          "description": "Scene Release Download",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/E4khNy5dz3",
+          "description": "Scene Release Download"
+        },
+        {
+          "name": "Scnlog",
+          "url": "https://scnlog.me",
+          "description": "Scene Release Download"
+        },
+        {
+          "name": "PreDB.net",
+          "url": "https://predb.net/",
+          "description": "Scene Release Info",
+          "starred": true
+        },
+        {
+          "name": "Pre Database",
+          "url": "https://predataba.se",
+          "description": "Scene Release Info"
+        },
+        {
+          "name": "Xrel",
+          "url": "https://www.xrel.to",
+          "description": "Scene Release Info"
+        },
+        {
+          "name": "NG Pre",
+          "url": "https://ngp.re/",
+          "description": "Scene Release Info"
+        },
+        {
+          "name": "Archiv.pw",
+          "url": "https://archiv.pw/",
+          "description": "Scene Release Info"
+        },
+        {
+          "name": "srrDB",
+          "url": "https://www.srrdb.com",
+          "description": "Scene Release Info"
+        },
+        {
+          "name": "M2V",
+          "url": "https://m2v.ru",
+          "description": "Scene Release Info"
+        },
+        {
+          "name": "T2M",
+          "url": "https://nutbread.github.io/t2m/",
+          "description": "Torrent to Magnet Converters",
+          "starred": true
+        },
+        {
+          "name": "2",
+          "url": "https://github.com/nutbread/t2m",
+          "description": "Torrent to Magnet Converters"
+        },
+        {
+          "name": "Torrent Kitty",
+          "url": "https://www.torrentkitty.tv/",
+          "description": "Torrent to Magnet Converters"
+        },
+        {
+          "name": "2",
+          "url": "https://www.torrentkitty.net/",
+          "description": "Torrent to Magnet Converters"
+        },
+        {
+          "name": "3",
+          "url": "https://www.torrentkitty.lol/",
+          "description": "Torrent to Magnet Converters"
+        },
+        {
+          "name": "Magnet2Torrent",
+          "url": "https://magnet2torrent.com/",
+          "description": "Magnet to Torrent Converter",
+          "starred": true
+        },
+        {
+          "name": "Port Forwarding Guide",
+          "url": "https://wispydocs.pages.dev/torrenting/#port-forwarding",
+          "description": ""
+        },
+        {
+          "name": "PeerBanHelper",
+          "url": "https://github.com/PBH-BTN/PeerBanHelper/blob/master/README.EN.md",
+          "description": "Block Unwanted Leeches / Peers"
+        },
+        {
+          "name": "btcache",
+          "url": "https://btcache.me/",
+          "description": "Torrent Storage Cache"
+        },
+        {
+          "name": "iTorrents",
+          "url": "https://itorrents.org",
+          "description": "Torrent Storage Cache"
+        },
+        {
+          "name": "Torrage",
+          "url": "https://torrage.info/",
+          "description": "Torrent Storage Cache"
+        },
+        {
+          "name": "InfoTorrent",
+          "url": "https://infotorrent.tnl.one/",
+          "description": "Check Torrent File Health"
+        },
+        {
+          "name": "Webtorrent Checker",
+          "url": "https://checker.openwebtorrent.com/",
+          "description": "Check Torrent File Health"
+        },
+        {
+          "name": "TorrentTags",
+          "url": "https://torrenttags.com/",
+          "description": "Check Torrents for Copyright Claims"
+        },
+        {
+          "name": "Magnet Link Generator",
+          "url": "https://magnetlinkgenerator.com/",
+          "description": "Magnet Link Generator"
+        },
+        {
+          "name": "magnet2list",
+          "url": "https://hutstep.github.io/magnet2list/",
+          "description": "Convert Magnets to Tracker Lists"
+        },
+        {
+          "name": "OpenWebTorrent",
+          "url": "https://openwebtorrent.com/",
+          "description": "Free Webtorrent Tracker"
+        },
+        {
+          "name": "AutoDL-Irssi",
+          "url": "https://autodl-community.github.io/autodl-irssi/",
+          "description": "IRC Channel Monitor / Autodownload / Slack Notifications"
+        },
+        {
+          "name": "PrivTracker",
+          "url": "https://privtracker.com/",
+          "description": "Private BitTorrent Tracker Generator",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "AnonSeed",
+          "url": "https://www.anonseed.com/",
+          "description": "Anonymous Torrent Sharing"
+        },
+        {
+          "name": "⁠mkbrr",
+          "url": "https://mkbrr.com/",
+          "description": "Torrent Creators"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/autobrr/mkbrr",
+          "description": "Torrent Creators"
+        },
+        {
+          "name": "Torf GUI",
+          "url": "https://github.com/SavageCore/torf-gui",
+          "description": "Torrent Creators"
+        },
+        {
+          "name": "DotTorrentGUI",
+          "url": "https://github.com/kz26/dottorrent-gui",
+          "description": "Torrent Creators"
+        },
+        {
+          "name": "Torrent-Creator",
+          "url": "https://kimbatt.github.io/torrent-creator/",
+          "description": "Torrent Creators"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Kimbatt/torrent-creator",
+          "description": "Torrent Creators"
+        },
+        {
+          "name": "Torrent Parts",
+          "url": "https://torrent.parts/",
+          "description": "Edit Torrents Files"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/leoherzog/TorrentParts",
+          "description": "Edit Torrents Files"
+        },
+        {
+          "name": "Torrent File Editor",
+          "url": "https://torrent-file-editor.github.io/",
+          "description": "Edit Torrents Files"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/torrent-file-editor/torrent-file-editor",
+          "description": "Edit Torrents Files"
+        },
+        {
+          "name": "r/torrents",
+          "url": "https://reddit.com/r/torrents",
+          "description": "Torrenting Discussion"
+        },
+        {
+          "name": "IKnowWhatYouDownload",
+          "url": "https://iknowwhatyoudownload.com/",
+          "description": "View Torrents Downloaded by your IP (can be inaccurate)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "unsafe",
+  "slug": "unsafe",
+  "title": "安全でないサイト",
+  "description": "ブラックリスト入りの危険なサイト一覧",
+  "icon": "⚠️",
+  "color": "from-red-600 to-red-800",
+  "subcategories": [
+    {
+      "id": "unsafe-game-sites",
+      "title": "ゲーム Sites",
+      "resources": [
+        {
+          "name": "Untrusted Sites",
+          "url": "https://rentry.org/pgames#untrusted-sites",
+          "description": "More Complete Lists",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Uploaders",
+          "url": "https://rentry.org/pgames#untrusted-uploaders",
+          "description": "More Complete Lists",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Fake FitGirl Sites",
+          "url": "https://claraiscute.neocities.org/Guides/FakeFitgirlwebsites/",
+          "description": "",
+          "tags": [
+            "index"
+          ],
+          "mirrors": [
+            "https://claraiscute.pages.dev/Guides/FakeFitgirlwebsites/"
+          ]
+        },
+        {
+          "name": "Fake ReVanced Sites",
+          "url": "https://counterfeits.revanced.app/",
+          "description": "",
+          "tags": [
+            "index"
+          ]
+        }
+      ],
+      "note": "Scene groups do not have their own sites, so it's best to avoid anything claiming to represent one."
+    },
+    {
+      "id": "unsafe-torrent-sites-clients",
+      "title": "トレント Sites / クライアント",
+      "resources": [
+        {
+          "name": "Fake 1337x Sites",
+          "url": "https://i.ibb.co/2YHqHmVW/image.png",
+          "description": "",
+          "mirrors": [
+            "https://i.imgur.com/gFZjaVh.png"
+          ]
+        }
+      ],
+      "note": "Torrent aggregators pull results from multiple sites, so it's recommended to avoid using them for software and games."
+    }
+  ]
+}

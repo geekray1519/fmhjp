@@ -56,8 +56,93 @@ body {
 }
 
 .glass {
-  backdrop-filter: blur(12px) saturate(180%);
-  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  backdrop-filter: blur(16px) saturate(200%);
+  -webkit-backdrop-filter: blur(16px) saturate(200%);
+}
+
+/* Header scroll shadow */
+.header-scrolled {
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.08);
+}
+.dark .header-scrolled {
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Card hover lift */
+.card-lift {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+}
+.card-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* Starred resource golden glow (dark mode) */
+.dark .starred-glow {
+  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.15), 0 2px 12px rgba(251, 191, 36, 0.08);
+}
+
+/* Search glow on focus */
+.search-glow:focus-within {
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* Sidebar active indicator */
+.sidebar-active {
+  border-left: 3px solid var(--accent);
+  padding-left: 9px !important;
+}
+
+/* Sidebar item hover indicator */
+.sidebar-item {
+  border-left: 3px solid transparent;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+.sidebar-item:hover {
+  border-left-color: var(--border);
+}
+
+/* Gradient top border for footer */
+.gradient-top-border {
+  position: relative;
+}
+.gradient-top-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #6366f1, #a855f7, #ec4899, transparent);
+}
+
+/* Number counter animation */
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-count-up {
+  animation: count-up 0.6s ease-out forwards;
+}
+
+/* Search skeleton pulse */
+@keyframes search-pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+.search-skeleton {
+  background: linear-gradient(90deg, var(--card) 25%, var(--card-hover) 50%, var(--card) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: 12px;
+}
+
+/* Favicon image */
+.favicon-img {
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .gradient-text {
@@ -65,6 +150,18 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.gradient-text-shimmer {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 25%, #ec4899 50%, #a855f7 75%, #6366f1 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: background-position 0.5s ease;
+}
+.gradient-text-shimmer:hover {
+  background-position: 100% center;
 }
 
 .gradient-border {
@@ -163,4 +260,28 @@ html {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Loading skeleton */
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.skeleton {
+  background: var(--card);
+  border-radius: 8px;
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
 }

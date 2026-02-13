@@ -1,0 +1,3594 @@
+{
+  "id": "text-tools",
+  "slug": "text-tools",
+  "title": "テキストツール",
+  "description": "テキスト編集、PDF、ライティングツール",
+  "icon": "📝",
+  "color": "from-rose-500 to-pink-600",
+  "subcategories": [
+    {
+      "id": "text-tools-general",
+      "title": "一般",
+      "resources": [
+        {
+          "name": "SortMyList",
+          "url": "https://sortmylist.com/",
+          "description": "Organize / Format Text",
+          "starred": true
+        },
+        {
+          "name": "TextCleanr",
+          "url": "https://www.textcleanr.com/",
+          "description": "Organize / Format Text"
+        },
+        {
+          "name": "Text Mechanic",
+          "url": "https://textmechanic.com/",
+          "description": "Organize / Format Text"
+        },
+        {
+          "name": "TextFixer",
+          "url": "https://www.textfixer.com/",
+          "description": "Organize / Format Text"
+        },
+        {
+          "name": "OnlineTextTools",
+          "url": "https://onlinetexttools.com/",
+          "description": "Organize / Format Text"
+        },
+        {
+          "name": "Convert Case",
+          "url": "https://convertcase.net/",
+          "description": "Organize / Format Text"
+        },
+        {
+          "name": "TextCleaner",
+          "url": "https://textcleaner.net/all-tools/",
+          "description": "Organize / Format Text"
+        },
+        {
+          "name": "The Alphabetizer",
+          "url": "https://alphabetizer.flap.tv/",
+          "description": "Organize / Format Text"
+        },
+        {
+          "name": "Goblin.tools",
+          "url": "https://goblin.tools/Formalizer/",
+          "description": "Transform Text with Spiciness Levels",
+          "starred": true
+        },
+        {
+          "name": "OpenPaper",
+          "url": "https://openpaper.work/en/",
+          "description": "Document Managers"
+        },
+        {
+          "name": "papis",
+          "url": "https://github.com/papis/papis",
+          "description": "Document Managers"
+        },
+        {
+          "name": "PaperMerge",
+          "url": "https://www.papermerge.com/",
+          "description": "Document Managers"
+        },
+        {
+          "name": "Paperless-ngx",
+          "url": "https://docs.paperless-ngx.com",
+          "description": "Document Managers"
+        },
+        {
+          "name": "Doc Analyzer",
+          "url": "https://github.com/clusterzx/paperless-ai/",
+          "description": "Document Managers"
+        },
+        {
+          "name": "⁠Docspell",
+          "url": "https://docspell.org/",
+          "description": "Document Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/eikek/docspell",
+          "description": "Document Managers"
+        },
+        {
+          "name": "⁠Papra",
+          "url": "https://github.com/papra-hq/papra",
+          "description": "Document Managers"
+        },
+        {
+          "name": "DataShare",
+          "url": "https://datashare.icij.org/",
+          "description": "Document Managers"
+        },
+        {
+          "name": "SmartDoc",
+          "url": "https://killytoronto.github.io/textanalyzer/",
+          "description": "Document Analyzer"
+        },
+        {
+          "name": "Diffr",
+          "url": "https://loilo.github.io/diffr/",
+          "description": "Compare Text"
+        },
+        {
+          "name": "Diffchecker",
+          "url": "https://www.diffchecker.com/",
+          "description": "Compare Text"
+        },
+        {
+          "name": "TextCompare",
+          "url": "https://www.textcompare.org/",
+          "description": "Compare Text"
+        },
+        {
+          "name": "Text-Compare",
+          "url": "https://text-compare.com/",
+          "description": "Compare Text"
+        },
+        {
+          "name": "OnlineTextCompare",
+          "url": "https://onlinetextcompare.com/",
+          "description": "Compare Text"
+        },
+        {
+          "name": "CompareText",
+          "url": "https://www.comparetext.io/",
+          "description": "Compare Text"
+        },
+        {
+          "name": "DiffNow",
+          "url": "https://www.diffnow.com/",
+          "description": "Compare Text"
+        },
+        {
+          "name": "Count Duplicates",
+          "url": "https://www.somacon.com/p568.php",
+          "description": "Count / Remove Duplicates in a List"
+        },
+        {
+          "name": "DuplicateWord",
+          "url": "https://duplicateword.com/",
+          "description": "Count / Remove Duplicates in a List"
+        },
+        {
+          "name": "WindowTextExtractor",
+          "url": "https://github.com/AlexanderPro/WindowTextExtractor",
+          "description": "Extract Text from Any Window"
+        },
+        {
+          "name": "⁠Unredact",
+          "url": "https://github.com/leedrake5/unredact",
+          "description": "PDF Redaction Text Recovery"
+        },
+        {
+          "name": "Textify",
+          "url": "https://ramensoftware.com/textify",
+          "description": "Copy Text from Any Dialog"
+        },
+        {
+          "name": "BeefText",
+          "url": "https://beeftext.org/",
+          "description": "Text Substitution Tool"
+        },
+        {
+          "name": "⁠Asciify",
+          "url": "https://asciify.dev/",
+          "description": "ASCII Character Reference"
+        },
+        {
+          "name": "Scanner",
+          "url": "https://simon-knuth.github.io/scanner/index",
+          "description": "Scanner Apps",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "NAPS2",
+          "url": "https://www.naps2.com/",
+          "description": "Scanner Apps",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Calligrapher.ai",
+          "url": "https://www.calligrapher.ai/",
+          "description": "Text to Handwriting Converters"
+        },
+        {
+          "name": "Text to Handwriting",
+          "url": "https://saurabhdaware.github.io/text-to-handwriting/",
+          "description": "Text to Handwriting Converters"
+        },
+        {
+          "name": "texttohandwriting",
+          "url": "https://texttohandwriting.com/",
+          "description": "Text to Handwriting Converters"
+        },
+        {
+          "name": "HandWrittner",
+          "url": "https://handwrittner.com/?lang=en",
+          "description": "Text to Handwriting Converters"
+        },
+        {
+          "name": "telescopictext",
+          "url": "https://www.telescopictext.org/",
+          "description": "Write Text Within Text"
+        },
+        {
+          "name": "DocuSeal",
+          "url": "https://www.docuseal.com/",
+          "description": "Free Document Signing"
+        },
+        {
+          "name": "TemplateLab",
+          "url": "https://templatelab.com/",
+          "description": "Free Document Templates"
+        },
+        {
+          "name": "FreePrintables",
+          "url": "https://www.freeprintable.net/",
+          "description": "Free Document Templates"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-pastebins",
+      "title": "Pastebin",
+      "resources": [
+        {
+          "name": "GitHub Gists",
+          "url": "https://gist.github.com/",
+          "description": "Multi-Syntax / Requires Sign-Up",
+          "starred": true
+        },
+        {
+          "name": "GitLab Snippets",
+          "url": "https://docs.gitlab.com/user/snippets/",
+          "description": "Multi-Syntax / Requires Sign-Up"
+        },
+        {
+          "name": "pastes.dev",
+          "url": "https://pastes.dev/",
+          "description": "Multi-Syntax / Markdown Support",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "paste.fmhy",
+          "url": "https://paste.fmhy.bid/",
+          "description": "Markdown Support / Syntax Highlighting / Instances",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "PrivateBin",
+          "url": "https://privatebin.net/",
+          "description": "Markdown Support / Syntax Highlighting / Instances",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "NoteBin",
+          "url": "https://notebin.de/",
+          "description": "Markdown Support / Syntax Highlighting / Instances",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠ZeroBin",
+          "url": "https://www.zerobin.net/",
+          "description": "Markdown Support / Syntax Highlighting / Instances",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Rentry",
+          "url": "https://rentry.co/",
+          "description": "Markdown Support / CLI / Styling",
+          "starred": true,
+          "mirrors": [
+            "https://rentry.org/"
+          ]
+        },
+        {
+          "name": "Katbin",
+          "url": "https://katb.in/",
+          "description": "Plain Text",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "fluffle",
+          "url": "https://fluffle.cc/",
+          "description": "Markdown Support / Source"
+        },
+        {
+          "name": "Text.is",
+          "url": "https://text.is/",
+          "description": "Markdown Support"
+        },
+        {
+          "name": "Yasosu",
+          "url": "https://yaso.su/",
+          "description": "Multi-Syntax / Markdown Support",
+          "tags": [
+            "Telegram"
+          ]
+        },
+        {
+          "name": "bpa.st",
+          "url": "https://bpa.st/",
+          "description": "Multi-Syntax / Markdown Support"
+        },
+        {
+          "name": "snowbin",
+          "url": "https://pastes.fmhy.net/",
+          "description": "Markdown Support",
+          "tags": [
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://paste.fmhy.net/"
+          ]
+        },
+        {
+          "name": "⁠Ghostbin",
+          "url": "https://ghostbin.co/",
+          "description": "Multi-Syntax / Markdown Support"
+        },
+        {
+          "name": "cryptgeon",
+          "url": "https://cryptgeon.org/",
+          "description": "Single View / Plain Text",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "pst.moe",
+          "url": "https://pst.moe/",
+          "description": "Multi-Syntax / Markdown Support"
+        },
+        {
+          "name": "Pastee",
+          "url": "https://pastee.dev/",
+          "description": "Multi-Syntax / Markdown Support"
+        },
+        {
+          "name": "dpaste.com",
+          "url": "https://dpaste.com/",
+          "description": "Multi-Syntax / Markdown Support"
+        },
+        {
+          "name": "⁠Codepasta",
+          "url": "https://codepasta.app/",
+          "description": "Multi-Syntax / Markdown Support"
+        },
+        {
+          "name": "lesma",
+          "url": "https://lesma.eu/",
+          "description": "Multi-Syntax / GitLab"
+        },
+        {
+          "name": "NoPaste",
+          "url": "https://nopaste.boris.sh/",
+          "description": "Multi-Syntax",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Pastebin.com",
+          "url": "https://pastebin.com/",
+          "description": "Multi-Syntax"
+        },
+        {
+          "name": "pastebin.pl",
+          "url": "https://pastebin.pl/",
+          "description": "Multi-Syntax"
+        },
+        {
+          "name": "CentOS Pastebin",
+          "url": "https://paste.centos.org/",
+          "description": "Multi-Syntax"
+        },
+        {
+          "name": "snippet.host",
+          "url": "https://snippet.host/",
+          "description": "Multi-Syntax"
+        },
+        {
+          "name": "ProtectedText",
+          "url": "https://www.protectedtext.com/",
+          "description": "Multi-Tab"
+        },
+        {
+          "name": "⁠Pastezz",
+          "url": "https://paste.vidzee.wtf/",
+          "description": "Plain Text"
+        },
+        {
+          "name": "bin",
+          "url": "https://basedbin.fly.dev/",
+          "description": "Minimal Pastebin"
+        },
+        {
+          "name": "txt.fyi",
+          "url": "https://txt.fyi/",
+          "description": "Markdown Pastebin"
+        },
+        {
+          "name": "MarkdownPastebin",
+          "url": "https://markdownpastebin.com/",
+          "description": "Markdown Support"
+        },
+        {
+          "name": "Sparked Paste",
+          "url": "https://paste.sparked.host/",
+          "description": "Plain Text / Syntax Highlighting"
+        },
+        {
+          "name": "Riseup Pad",
+          "url": "https://pad.riseup.net/",
+          "description": "WYSIWYG Pastebin"
+        },
+        {
+          "name": "itty.bitty",
+          "url": "https://itty.bitty.site/",
+          "description": "Site / Pastebin"
+        },
+        {
+          "name": "Pastry",
+          "url": "https://pastry.diy/",
+          "description": "HTML / CSS Based Pastebin"
+        },
+        {
+          "name": "Opengist",
+          "url": "https://opengist.io/",
+          "description": "Self-Hosted Pastebin / GitHub Gists Alt / Demo",
+          "tags": [
+            "Discord"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "text-tools-translators",
+      "title": "翻訳ツール",
+      "resources": [
+        {
+          "name": "Google Translate",
+          "url": "https://translate.google.com/",
+          "description": "Online",
+          "starred": true
+        },
+        {
+          "name": "Extension",
+          "url": "https://chromewebstore.google.com/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb",
+          "description": "Online"
+        },
+        {
+          "name": "SimplyTranslate",
+          "url": "https://st.privacydev.net/",
+          "description": "Online"
+        },
+        {
+          "name": ".onion",
+          "url": "http://st.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion/",
+          "description": "Online"
+        },
+        {
+          "name": "DeepL",
+          "url": "https://www.deepl.com/translator",
+          "description": "Online AI-Based Translation",
+          "starred": true
+        },
+        {
+          "name": "Kagi Translate",
+          "url": "https://translate.kagi.com/",
+          "description": "Online",
+          "starred": true
+        },
+        {
+          "name": "Translate Web Pages",
+          "url": "https://github.com/FilipePS/Traduzir-paginas-web",
+          "description": "Browser Extensions",
+          "starred": true
+        },
+        {
+          "name": "Kagi Extension",
+          "url": "https://translate.kagi.com/extension",
+          "description": "Browser Extensions"
+        },
+        {
+          "name": "Linguist Translator",
+          "url": "https://github.com/translate-tools/linguist",
+          "description": "Browser Extensions"
+        },
+        {
+          "name": "r/Translator",
+          "url": "https://www.reddit.com/r/translator/",
+          "description": "Translation Request Community",
+          "starred": true
+        },
+        {
+          "name": "LibreTranslate",
+          "url": "https://libretranslate.com/",
+          "description": "FOSS Translator / Self-Hosted / Offline",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Translate Shell",
+          "url": "https://www.soimort.org/translate-shell/",
+          "description": "Translation CLI",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Bing Translator",
+          "url": "https://www.bing.com/translator",
+          "description": "Online"
+        },
+        {
+          "name": "Yandex Translator",
+          "url": "https://translate.yandex.com/",
+          "description": "Online"
+        },
+        {
+          "name": "Reverso",
+          "url": "https://context.reverso.net/translation/",
+          "description": "Online In-Context Translations"
+        },
+        {
+          "name": "Nice Translator",
+          "url": "https://nicetranslator.com/",
+          "description": "Batch Multi-Language Translation"
+        },
+        {
+          "name": "Translator++",
+          "url": "https://dreamsavior.net/",
+          "description": "CAT For Games"
+        },
+        {
+          "name": "Renpy Translator",
+          "url": "https://github.com/anonymousException/renpy-translator",
+          "description": "CAT For Games"
+        },
+        {
+          "name": "Poedit",
+          "url": "https://poedit.net/",
+          "description": "Software Translation",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Morsecode World",
+          "url": "https://morsecode.world/",
+          "description": "Morse Code Translation Tools"
+        },
+        {
+          "name": "Sign Translate",
+          "url": "https://sign.mt/",
+          "description": "Text to Sign-Language Video Translator"
+        },
+        {
+          "name": "Text to Sign",
+          "url": "https://wecapable.com/tools/text-to-sign-language-converter/",
+          "description": "Sign Language Translator"
+        },
+        {
+          "name": "⁠Braille Tanslator",
+          "url": "https://wecapable.com/braille-translator/",
+          "description": "Braille Translator"
+        },
+        {
+          "name": "LingoJam",
+          "url": "https://lingojam.com/",
+          "description": "Translator Creator"
+        }
+      ],
+      "note": "AI Chatbots sometimes translate better than traditional translators, especially when it comes to languages with inherently different structures."
+    },
+    {
+      "id": "text-tools-audio-transcription",
+      "title": "音声 Transcription",
+      "resources": [
+        {
+          "name": "ASR Leaderboard",
+          "url": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard",
+          "description": "Speech to Text Leaderboard",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Whisper",
+          "url": "https://github.com/openai/whisper",
+          "description": "Audio Transcription / WebUI"
+        },
+        {
+          "name": "SpeechTexter",
+          "url": "https://www.speechtexter.com/",
+          "description": "Browser-Based Speech-To-Text Tools"
+        },
+        {
+          "name": "VoiceToText",
+          "url": "https://voicetotext.org/",
+          "description": "Browser-Based Speech-To-Text Tools"
+        },
+        {
+          "name": "Dictation",
+          "url": "https://dictation.io/speech",
+          "description": "Browser-Based Speech-To-Text Tools"
+        },
+        {
+          "name": "oTranscribe",
+          "url": "https://otranscribe.com/",
+          "description": "Browser-Based Speech-To-Text Tools"
+        },
+        {
+          "name": "TalkTyper",
+          "url": "https://talktyper.com/",
+          "description": "Browser-Based Speech-To-Text Tools"
+        },
+        {
+          "name": "Revoldiv",
+          "url": "https://revoldiv.com/",
+          "description": "AI-Based Transcriptions"
+        },
+        {
+          "name": "Turboscribe",
+          "url": "https://turboscribe.ai/",
+          "description": "AI-Based Transcriptions"
+        },
+        {
+          "name": "Vibe",
+          "url": "https://thewh1teagle.github.io/vibe/",
+          "description": "Audio Transcription Software"
+        },
+        {
+          "name": "Buzz",
+          "url": "https://github.com/chidiwilliams/buzz",
+          "description": "Audio Transcription Tool"
+        },
+        {
+          "name": "Handy",
+          "url": "https://handy.computer/",
+          "description": "Audio Transcription Tool",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠TransPocket",
+          "url": "https://transpocket.com/",
+          "description": "Audio Transcription Tool"
+        },
+        {
+          "name": "WhisperX",
+          "url": "https://github.com/m-bain/whisperX",
+          "description": "Audio Transcription Tool"
+        },
+        {
+          "name": "Parakeet",
+          "url": "https://huggingface.co/spaces/nvidia/parakeet-tdt-0.6b-v2",
+          "description": "Audio Transcription / HuggingFace"
+        },
+        {
+          "name": "SpeechNotes",
+          "url": "https://speechnotes.co/",
+          "description": "Speech Recognition Notes App"
+        },
+        {
+          "name": "LilySpeech",
+          "url": "https://lilyspeech.com/",
+          "description": "Fast Voice-To-Text Software"
+        },
+        {
+          "name": "VoiceNotebook",
+          "url": "https://voicenotebook.com/",
+          "description": "Speech Transcription Notebook"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-encode-decode",
+      "title": "エンコード / デコード",
+      "resources": [
+        {
+          "name": "DecodeUnicode",
+          "url": "https://decodeunicode.org/",
+          "description": "Unicode Decoding Database",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "CyberChef",
+          "url": "https://gchq.github.io/CyberChef/",
+          "description": "Encode / Decode Text",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Base64 Decode",
+          "url": "https://www.base64decode.org/",
+          "description": "Encode / Decode Base64",
+          "starred": true
+        },
+        {
+          "name": "Auto Decoder",
+          "url": "https://greasyfork.org/en/scripts/485772-fmhy-base64-auto-decoder",
+          "description": "Auto-Decode B64 Links on Pastebins",
+          "starred": true
+        },
+        {
+          "name": "Ciphey",
+          "url": "https://github.com/Ciphey/Ciphey",
+          "description": "Automated Decryption Tool"
+        },
+        {
+          "name": "Universal Encoding Tool",
+          "url": "https://unenc.com/",
+          "description": "Encode / Convert Text"
+        },
+        {
+          "name": "cryptii",
+          "url": "https://cryptii.com/",
+          "description": "Text / URL Encoding"
+        },
+        {
+          "name": "DenCode",
+          "url": "https://dencode.com/",
+          "description": "Text / URL Encoding"
+        },
+        {
+          "name": "Coder",
+          "url": "https://www.den4b.com/tools/coder",
+          "description": "Text / File / URL Encoding"
+        },
+        {
+          "name": "Online Tools",
+          "url": "https://emn178.github.io/online-tools/index.html",
+          "description": "Text / URL Encoding and Decoding"
+        },
+        {
+          "name": "URL Decode",
+          "url": "https://url-decode.com/",
+          "description": "URL Encoding / Decoding"
+        },
+        {
+          "name": "Encode",
+          "url": "https://url-decode.com/tool/url-encode",
+          "description": "URL Encoding / Decoding"
+        },
+        {
+          "name": "quipqiup",
+          "url": "https://www.quipqiup.com/",
+          "description": "Cryptogram Solvers"
+        },
+        {
+          "name": "dCode",
+          "url": "https://www.dcode.fr/en",
+          "description": "Cryptogram Solvers"
+        },
+        {
+          "name": "StegCloak",
+          "url": "https://stegcloak.surge.sh/",
+          "description": "Hide Messages in Text"
+        },
+        {
+          "name": "Base64 Repair",
+          "url": "https://base64.guru/tools/repair",
+          "description": "Fix Broken Base64"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-grammar-check",
+      "title": "文法チェック",
+      "resources": [
+        {
+          "name": "LanguageTool",
+          "url": "https://languagetool.org/",
+          "description": "Web App",
+          "starred": true
+        },
+        {
+          "name": "QuillBot",
+          "url": "https://quillbot.com/grammar-check",
+          "description": "Web App / Extension / Features"
+        },
+        {
+          "name": "Grammarly",
+          "url": "https://www.grammarly.com/grammar-check",
+          "description": "Web App / Extension"
+        },
+        {
+          "name": "Writing Tools",
+          "url": "https://github.com/theJayTea/WritingTools",
+          "description": "Desktop App - Requires Sign-Up"
+        },
+        {
+          "name": "Harper",
+          "url": "https://writewithharper.com/",
+          "description": "Web App / Extension",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "DeepL Write",
+          "url": "https://www.deepl.com/write",
+          "description": "Web App"
+        },
+        {
+          "name": "⁠Kagi Proofread",
+          "url": "https://translate.kagi.com/proofread",
+          "description": "Web App"
+        },
+        {
+          "name": "Scribens",
+          "url": "https://www.scribens.com/",
+          "description": "Web App"
+        },
+        {
+          "name": "EditGPT",
+          "url": "https://www.editgpt.app/",
+          "description": "Web App / Requires Sign-Up"
+        },
+        {
+          "name": "ProWritingAid",
+          "url": "https://prowritingaid.com/grammar-checker",
+          "description": "Web App / Requires Sign-Up"
+        },
+        {
+          "name": "Outwrite",
+          "url": "https://www.outwrite.com/",
+          "description": "Web App / Requires Sign-Up"
+        }
+      ],
+      "note": "Most chatbots in the AI section can also check grammar."
+    },
+    {
+      "id": "text-tools-emoji-indexes",
+      "title": "絵文字インデックス",
+      "resources": [
+        {
+          "name": "Emojipedia",
+          "url": "https://emojipedia.org/",
+          "description": "Emoji Indexes",
+          "starred": true
+        },
+        {
+          "name": "EmojiDB",
+          "url": "https://emojidb.org/",
+          "description": "Emoji Indexes"
+        },
+        {
+          "name": "Slackmojis",
+          "url": "https://slackmojis.com/",
+          "description": "Emoji Indexes"
+        },
+        {
+          "name": "Emoji Picker",
+          "url": "https://github-emoji-picker.vercel.app/",
+          "description": "Emoji Indexes"
+        },
+        {
+          "name": "EmojiBatch",
+          "url": "https://www.emojibatch.com/",
+          "description": "Emoji Indexes"
+        },
+        {
+          "name": "Emoji Engine",
+          "url": "https://www.emojiengine.com/",
+          "description": "Multilingual Emoji Search"
+        },
+        {
+          "name": "winMoji",
+          "url": "https://www.winmoji.com/",
+          "description": "Emoji Managers"
+        },
+        {
+          "name": "EmojiRequests",
+          "url": "https://emojirequest.com/",
+          "description": "Custom User-Made Emojis"
+        },
+        {
+          "name": "Cult of the Party Parrot",
+          "url": "https://cultofthepartyparrot.com/",
+          "description": "Party Parrot Emojis"
+        },
+        {
+          "name": "Pepe Server Archive",
+          "url": "https://github.com/Overimagine1/pepe-server-archive",
+          "description": "Pepe Emojis"
+        },
+        {
+          "name": "Emojify",
+          "url": "https://madelinemiller.dev/apps/emojify/",
+          "description": "Emojify Text"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-unicode-characters",
+      "title": "Unicode文字",
+      "resources": [
+        {
+          "name": "Amp What",
+          "url": "https://www.amp-what.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "CopyChar",
+          "url": "https://copychar.cc/",
+          "description": ""
+        },
+        {
+          "name": "Unicode Table",
+          "url": "https://symbl.cc/",
+          "description": ""
+        },
+        {
+          "name": "Unicode Explorer",
+          "url": "https://unicode-explorer.com/",
+          "description": ""
+        },
+        {
+          "name": "Symbol.so",
+          "url": "https://symbol.so/",
+          "description": ""
+        },
+        {
+          "name": "Graphemica",
+          "url": "https://graphemica.com/",
+          "description": ""
+        },
+        {
+          "name": "SymbolSelect",
+          "url": "https://www.symbolselect.com/",
+          "description": ""
+        },
+        {
+          "name": "Character Map",
+          "url": "https://github.com/character-map-uwp/Character-Map-UWP",
+          "description": ""
+        },
+        {
+          "name": "Unifoundry",
+          "url": "https://unifoundry.com/",
+          "description": ""
+        },
+        {
+          "name": "Cool Symbol",
+          "url": "https://coolsymbol.com/",
+          "description": ""
+        },
+        {
+          "name": "emotes.io",
+          "url": "https://emotes.io/",
+          "description": "Copy Unicode Emotes"
+        },
+        {
+          "name": "CuteSymbols",
+          "url": "https://www.cutesymbols.net/",
+          "description": "Copy Unicode Emotes"
+        },
+        {
+          "name": "2",
+          "url": "https://www.textemoji.org/",
+          "description": "Copy Unicode Emotes"
+        },
+        {
+          "name": "GetSymbol",
+          "url": "https://www.getsymbol.net/",
+          "description": "Copy Unicode Emotes"
+        },
+        {
+          "name": "2",
+          "url": "https://www.cute-kaomoji.com/",
+          "description": "Copy Unicode Emotes"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-typing-lessons",
+      "title": "タイピング練習",
+      "resources": [
+        {
+          "name": "Monkeytype",
+          "url": "https://monkeytype.com/",
+          "description": "Custom Touch Typing Tests",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "keybr",
+          "url": "https://www.keybr.com/",
+          "description": "Custom Touch Typing Practice",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Typing Guide",
+          "url": "https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o",
+          "description": "In-Depth Typing Guide"
+        },
+        {
+          "name": "Typ.ing",
+          "url": "https://typ.ing/",
+          "description": "Typing Tests"
+        },
+        {
+          "name": "Typings",
+          "url": "https://typings.gg/",
+          "description": "Typing Tests"
+        },
+        {
+          "name": "typing.works",
+          "url": "https://typing.works/",
+          "description": "Typing Tests"
+        },
+        {
+          "name": "Typing.com",
+          "url": "https://www.typing.com/",
+          "description": "Touch Typing Lessons"
+        },
+        {
+          "name": "Typing Club",
+          "url": "https://www.typingclub.com/",
+          "description": "Touch Typing Lessons"
+        },
+        {
+          "name": "typing.academy",
+          "url": "https://www.typing.academy/",
+          "description": "Typing Lessons / Requires JavaScript Enabled"
+        },
+        {
+          "name": "TypeRacer",
+          "url": "https://play.typeracer.com/",
+          "description": "Typing Games"
+        },
+        {
+          "name": "ZType",
+          "url": "https://zty.pe/",
+          "description": "Typing Games"
+        },
+        {
+          "name": "TypeRush",
+          "url": "https://www.typerush.com/",
+          "description": "Typing Games"
+        },
+        {
+          "name": "ARRRType",
+          "url": "https://www.arrrtype.com/",
+          "description": "Typing Games"
+        },
+        {
+          "name": "NGram Type",
+          "url": "https://ranelpadon.github.io/ngram-type/",
+          "description": "Touch Typing Tests"
+        },
+        {
+          "name": "KeyZen MAB",
+          "url": "https://adamgradzki.com/keyzen-mab/",
+          "description": "Touch Typing Tests"
+        },
+        {
+          "name": "Keyzen Colmak",
+          "url": "https://ranelpadon.github.io/keyzen-colemak-dh/",
+          "description": "Touch Typing Tests"
+        },
+        {
+          "name": "⁠Typersguild",
+          "url": "https://typersguild.com/",
+          "description": "Book Typing Tests"
+        },
+        {
+          "name": "TypeLit.io",
+          "url": "https://www.typelit.io/",
+          "description": "Book Typing Tests"
+        },
+        {
+          "name": "Entertrained",
+          "url": "https://entertrained.app/",
+          "description": "Book Typing Tests"
+        },
+        {
+          "name": "TypingStudy",
+          "url": "https://www.typingstudy.com/",
+          "description": "Multilingual Touch Typing Tests"
+        },
+        {
+          "name": "TypeFast",
+          "url": "https://typefast.io/",
+          "description": "Multilingual Touch Typing Tests"
+        },
+        {
+          "name": "10fastfingers",
+          "url": "https://10fastfingers.com/",
+          "description": "Typing Competitions"
+        },
+        {
+          "name": "List of Text Editors",
+          "url": "https://en.wikipedia.org/wiki/List_of_text_editors",
+          "description": "Text Editor / Notepad Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "⁠TextEditors",
+          "url": "http://texteditors.org/",
+          "description": "Text Editor Index + Reviews",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Notepad++",
+          "url": "https://notepad-plus-plus.org/",
+          "description": "Notepad & Code Editor",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/notepad-plus-plus/notepad-plus-plus",
+          "description": "Notepad & Code Editor"
+        },
+        {
+          "name": "NotepadNext",
+          "url": "https://github.com/dail8859/NotepadNext",
+          "description": "Notepad & Code Editor"
+        },
+        {
+          "name": "EncryptPad",
+          "url": "https://evpo.net/encryptpad/",
+          "description": "Encrypted Text Editor",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Notepads",
+          "url": "https://www.notepadsapp.com/",
+          "description": "Text Editor",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "FastNotes",
+          "url": "https://fastedit.frozenassassine.de/",
+          "description": "Text Editor",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Kompad",
+          "url": "https://github.com/hudy9x/kompad",
+          "description": "Text Editor"
+        },
+        {
+          "name": "Sublime Text",
+          "url": "https://www.sublimetext.com/",
+          "description": "Text Editor / Package Manager"
+        },
+        {
+          "name": "Zim Wiki",
+          "url": "https://zim-wiki.org/",
+          "description": "Wiki Text Editor"
+        },
+        {
+          "name": "tomboy-ng",
+          "url": "https://github.com/tomboy-notes/tomboy-ng",
+          "description": "TomBoy-Based Text Editor"
+        },
+        {
+          "name": "SciTE",
+          "url": "https://www.scintilla.org/SciTE.html",
+          "description": "Text Editor"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-note-taking",
+      "title": "ノートアプリ",
+      "resources": [
+        {
+          "name": "Obsidian",
+          "url": "https://obsidian.md/",
+          "description": "Markdown Note-Taking",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "AnyType",
+          "url": "https://anytype.io/",
+          "description": "Note-Taking / E2EE",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "AppFlowy",
+          "url": "https://appflowy.com/",
+          "description": "Note-Taking",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Logseq",
+          "url": "https://logseq.com/",
+          "description": "Outlining",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Notesnook",
+          "url": "https://notesnook.com/",
+          "description": "Note-Taking / E2EE",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Simplenote",
+          "url": "https://simplenote.com/",
+          "description": "Note-Taking",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "AFFiNE",
+          "url": "https://affine.pro/",
+          "description": "Note-Taking",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.com/",
+          "description": "Note-Taking"
+        },
+        {
+          "name": "Lokus",
+          "url": "https://www.lokusmd.com/",
+          "description": "Markdown Note-Taking",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Trilium",
+          "url": "https://github.com/TriliumNext/Trilium",
+          "description": "Info Manager"
+        },
+        {
+          "name": "Mochi Cards",
+          "url": "https://mochi.cards/",
+          "description": "Note-Taking / Study Tools"
+        },
+        {
+          "name": "Silicon",
+          "url": "https://github.com/cu/silicon",
+          "description": "Note-Taking / Study Tools"
+        },
+        {
+          "name": "Flotes",
+          "url": "https://flotes.app/",
+          "description": "Markdown Note-Taking"
+        },
+        {
+          "name": "QOwnNotes",
+          "url": "https://www.qownnotes.org/",
+          "description": "Markdown Note-Taking"
+        },
+        {
+          "name": "vNote",
+          "url": "https://app.vnote.fun/en_us/",
+          "description": "Markdown Note-Taking",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Tiddly",
+          "url": "https://tiddlywiki.com/",
+          "description": "Info Manager / Desktop"
+        },
+        {
+          "name": "Org-roam",
+          "url": "https://www.orgroam.com/",
+          "description": "Info Manager"
+        },
+        {
+          "name": "Desklamp",
+          "url": "https://desklamp.io/",
+          "description": "Reading / Note-Taking / Highlighting Tool / Guide"
+        },
+        {
+          "name": "Memos",
+          "url": "https://usememos.com/",
+          "description": "Note-Taking",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Papers.IM",
+          "url": "https://papers.im/",
+          "description": "Note-Taking"
+        },
+        {
+          "name": "Janta",
+          "url": "https://app.janta.dev/",
+          "description": "Note-Taking"
+        },
+        {
+          "name": "Joplin",
+          "url": "https://joplinapp.org/",
+          "description": "Note-Taking / Firefox / Chrome",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "MicroPad",
+          "url": "https://getmicropad.com/",
+          "description": "Note-Taking"
+        },
+        {
+          "name": "WriteDown",
+          "url": "https://writedown.app/",
+          "description": "Note-Taking"
+        },
+        {
+          "name": "DocMost",
+          "url": "https://docmost.com/",
+          "description": "Note-Taking"
+        },
+        {
+          "name": "KeyNote NF",
+          "url": "https://github.com/dpradov/keynote-nf",
+          "description": "Note-Taking / E2EE"
+        },
+        {
+          "name": "SilentNotes",
+          "url": "https://www.martinstoeckli.ch/silentnotes/",
+          "description": "Note-Taking / E2EE",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Google Keep",
+          "url": "https://keep.google.com/",
+          "description": "Simple Notes"
+        },
+        {
+          "name": "⁠Crypt.ee",
+          "url": "https://crypt.ee/",
+          "description": "Encrypted Notes / E2EE"
+        },
+        {
+          "name": "Standard Notes",
+          "url": "https://standardnotes.com/",
+          "description": "Encrypted Notes / E2EE",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Saber",
+          "url": "https://saber.adil.hanney.org/",
+          "description": "Handwritten Notes"
+        },
+        {
+          "name": "Butterfly",
+          "url": "https://butterfly.linwood.dev/",
+          "description": "Handwritten Notes",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Xournal++",
+          "url": "https://xournalpp.github.io/",
+          "description": "Handwritten Notes",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "BookStack",
+          "url": "https://www.bookstackapp.com/",
+          "description": "Self-Hosted Info Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/BookStackApp/BookStack",
+          "description": "Self-Hosted Info Managers"
+        },
+        {
+          "name": "NoteDiscovery",
+          "url": "https://www.notediscovery.com/",
+          "description": "Self-Hosted Info Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/gamosoft/NoteDiscovery/",
+          "description": "Self-Hosted Info Managers"
+        },
+        {
+          "name": "Siyuan",
+          "url": "https://b3log.org/siyuan/en",
+          "description": "Self-Hosted Info Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/siyuan-note/siyuan",
+          "description": "Self-Hosted Info Managers"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-office-suites",
+      "title": "オフィススイート",
+      "resources": [
+        {
+          "name": "LibreOffice",
+          "url": "https://www.libreoffice.org/",
+          "description": "FOSS Office Suite",
+          "starred": true
+        },
+        {
+          "name": "OnlyOffice",
+          "url": "https://www.onlyoffice.com/",
+          "description": "FOSS Office Suite",
+          "starred": true
+        },
+        {
+          "name": "Microsoft Office",
+          "url": "https://massgrave.dev/office_c2r_links",
+          "description": "Office Suite / Hotkeys / Removal Tool",
+          "starred": true
+        },
+        {
+          "name": "Calligra",
+          "url": "https://calligra.org/",
+          "description": "FOSS Office Suite"
+        },
+        {
+          "name": "Office365Version",
+          "url": "https://www.office365versions.com/",
+          "description": "Office 365 Version History"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-online-editors",
+      "title": "オンラインエディタ",
+      "resources": [
+        {
+          "name": "Proton Docs",
+          "url": "https://proton.me/drive/docs",
+          "description": "Local / Cloud Saves",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "takenote",
+          "url": "https://takenote.dev/",
+          "description": "Local Saves",
+          "starred": true
+        },
+        {
+          "name": "Zen",
+          "url": "https://zen.unit.ms/",
+          "description": "Local Saves",
+          "starred": true
+        },
+        {
+          "name": "Leaflet",
+          "url": "https://leaflet.pub/",
+          "description": "Cloud Saves / Customizable / Examples"
+        },
+        {
+          "name": "Browserpad",
+          "url": "https://browserpad.org/",
+          "description": "Local Saves"
+        },
+        {
+          "name": "Online Notepad",
+          "url": "https://onlinenotep.ad",
+          "description": "Local Saves"
+        },
+        {
+          "name": "Notepad",
+          "url": "https://notepad.js.org/",
+          "description": "Local Saves"
+        },
+        {
+          "name": "onlinenotepad",
+          "url": "https://onlinenotepad.org/",
+          "description": "Local Saves"
+        },
+        {
+          "name": "notepad-online.net",
+          "url": "https://notepad-online.net/",
+          "description": "Local Saves"
+        },
+        {
+          "name": "ssavr",
+          "url": "https://www.ssavr.com/",
+          "description": "Local Saves"
+        },
+        {
+          "name": "notepad-online.com",
+          "url": "https://notepad-online.com/",
+          "description": "Local Saves"
+        },
+        {
+          "name": "JustNotePad",
+          "url": "https://justnotepad.com/",
+          "description": "Local Saves"
+        },
+        {
+          "name": "NotesOnline",
+          "url": "https://notesonline.org/",
+          "description": "Local Saves"
+        },
+        {
+          "name": "PasteePad",
+          "url": "https://pasteepad.com/",
+          "description": "Local Saves"
+        },
+        {
+          "name": "Shrib",
+          "url": "https://shrib.com/",
+          "description": "Local / Cloud Saves"
+        },
+        {
+          "name": "MemOnNotepad",
+          "url": "https://www.memonotepad.com/",
+          "description": "Local / Cloud Saves"
+        },
+        {
+          "name": "Write Box",
+          "url": "https://write-box.appspot.com/",
+          "description": "Local / Cloud Saves"
+        },
+        {
+          "name": "dDocs",
+          "url": "https://docs.fileverse.io/",
+          "description": "Cloud Saves"
+        },
+        {
+          "name": "NimbleText",
+          "url": "https://nimbletext.com/Live",
+          "description": "Cloud Saves"
+        },
+        {
+          "name": "ZippyJot",
+          "url": "https://www.zippyjot.com/",
+          "description": "Cloud Saves"
+        },
+        {
+          "name": "KiloDoc",
+          "url": "https://www.kilodoc.com/",
+          "description": "Cloud Saves"
+        },
+        {
+          "name": "TinyList",
+          "url": "https://tinylist.app/",
+          "description": "Cloud Saves"
+        },
+        {
+          "name": "Edit-Document",
+          "url": "https://edit-document.com/",
+          "description": "Local / Cloud Saves"
+        },
+        {
+          "name": "TextSlave",
+          "url": "https://www.textslave.com/",
+          "description": "Cloud Saves"
+        },
+        {
+          "name": "GhostText",
+          "url": "https://ghosttext.fregante.com/",
+          "description": "Cloud Saves"
+        },
+        {
+          "name": "AnyTextEditor",
+          "url": "https://anytexteditor.com/",
+          "description": "Cloud Saves"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-mind-mapping",
+      "title": "マインドマッピング",
+      "resources": [
+        {
+          "name": "Obsidian Canvas",
+          "url": "https://obsidian.md/canvas",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "FreeMind",
+          "url": "https://freemind.sourceforge.net/",
+          "description": ""
+        },
+        {
+          "name": "Kinopio",
+          "url": "https://kinopio.club/",
+          "description": ""
+        },
+        {
+          "name": "Freeplane",
+          "url": "https://github.com/freeplane/freeplane",
+          "description": ""
+        },
+        {
+          "name": "Mindomo",
+          "url": "https://www.mindomo.com/",
+          "description": ""
+        },
+        {
+          "name": "Yuque",
+          "url": "https://www.yuque.com/",
+          "description": ""
+        },
+        {
+          "name": "MindMapp",
+          "url": "https://mindmapp.cedoor.dev/app",
+          "description": ""
+        },
+        {
+          "name": "are.na",
+          "url": "https://www.are.na/",
+          "description": ""
+        },
+        {
+          "name": "Domino",
+          "url": "https://kool.tools/domino",
+          "description": ""
+        },
+        {
+          "name": "GitMind",
+          "url": "https://gitmind.com/",
+          "description": ""
+        },
+        {
+          "name": "xTiles",
+          "url": "https://xtiles.app/en",
+          "description": ""
+        },
+        {
+          "name": "Capacities",
+          "url": "https://capacities.io/",
+          "description": ""
+        },
+        {
+          "name": "bubbl",
+          "url": "https://bubbl.us/",
+          "description": ""
+        },
+        {
+          "name": "Heimer",
+          "url": "https://github.com/juzzlin/Heimer",
+          "description": ""
+        },
+        {
+          "name": "Cubox",
+          "url": "https://cubox.cc/",
+          "description": ""
+        },
+        {
+          "name": "vym",
+          "url": "https://github.com/insilmaril/vym",
+          "description": ""
+        },
+        {
+          "name": "⁠Tangent",
+          "url": "https://www.tangentnotes.com/",
+          "description": "Markdown Mind Mapping",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "markmap",
+          "url": "https://markmap.js.org/",
+          "description": "Markdown Mind Mapping",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Coggle",
+          "url": "https://coggle.it/",
+          "description": "Collaborative"
+        },
+        {
+          "name": "CardSmith",
+          "url": "https://cardsmith.co/",
+          "description": "Collaborative Mind Mapping"
+        },
+        {
+          "name": "Memrey",
+          "url": "https://www.memrey.com/",
+          "description": "Collaborative Mind Mapping"
+        },
+        {
+          "name": "MindMeister",
+          "url": "https://www.mindmeister.com/",
+          "description": "Collaborative Mind Mapping"
+        },
+        {
+          "name": "Slatebox",
+          "url": "https://slatebox.com/",
+          "description": "Collaborative Mind Mapping"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-text-code-collaboration",
+      "title": "テキスト / Code Collaboration",
+      "resources": [
+        {
+          "name": "Google Docs",
+          "url": "https://www.google.com/docs/about/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "HTML Converter",
+          "url": "https://github.com/evbacher/gd2md-html",
+          "description": ""
+        },
+        {
+          "name": "CryptPad",
+          "url": "https://cryptpad.fr/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Mattermost",
+          "url": "https://mattermost.com/",
+          "description": ""
+        },
+        {
+          "name": "Codeshare",
+          "url": "https://codeshare.io/",
+          "description": ""
+        },
+        {
+          "name": "HackMD",
+          "url": "https://hackmd.io/",
+          "description": ""
+        },
+        {
+          "name": "Taskade",
+          "url": "https://www.taskade.com/",
+          "description": ""
+        },
+        {
+          "name": "Socket",
+          "url": "https://socket.io/",
+          "description": ""
+        },
+        {
+          "name": "Whimsical",
+          "url": "https://whimsical.com/",
+          "description": ""
+        },
+        {
+          "name": "Ellipsus",
+          "url": "https://ellipsus.com/",
+          "description": ""
+        },
+        {
+          "name": "Etherpad",
+          "url": "https://etherpad.org/",
+          "description": ""
+        },
+        {
+          "name": "SharePad",
+          "url": "https://sharepad.io/",
+          "description": ""
+        },
+        {
+          "name": "Pixso",
+          "url": "https://pixso.net/",
+          "description": ""
+        },
+        {
+          "name": "FidusWriter",
+          "url": "https://www.fiduswriter.org/",
+          "description": ""
+        },
+        {
+          "name": "overleaf",
+          "url": "https://www.overleaf.com/",
+          "description": ""
+        },
+        {
+          "name": "Typst",
+          "url": "https://typst.app/home",
+          "description": ""
+        },
+        {
+          "name": "Resources",
+          "url": "https://github.com/qjcg/awesome-typst",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/typst/typst",
+          "description": ""
+        },
+        {
+          "name": "Rustpad",
+          "url": "https://rustpad.io",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ekzhang/rustpad",
+          "description": ""
+        },
+        {
+          "name": "OnlineInterview.io",
+          "url": "https://onlineinterview.io/",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "text-tools-spreadsheet-editors",
+      "title": "スプレッドシートエディタ",
+      "resources": [
+        {
+          "name": "MTEB Leaderboard",
+          "url": "https://huggingface.co/spaces/mteb/leaderboard",
+          "description": "Text Embedding AI Leaderboard",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "⁠Proton Sheets",
+          "url": "https://proton.me/drive/sheets",
+          "description": "Online Spreadsheet Viewers / CSV Editors"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/proton",
+          "description": "Online Spreadsheet Viewers / CSV Editors"
+        },
+        {
+          "name": "⁠dSheets",
+          "url": "https://sheets.fileverse.io/",
+          "description": "Online Spreadsheet Viewers / CSV Editors"
+        },
+        {
+          "name": "EditCSVOnline",
+          "url": "https://www.editcsvonline.com/",
+          "description": "Online Spreadsheet Viewers / CSV Editors"
+        },
+        {
+          "name": "tad",
+          "url": "https://github.com/antonycourtney/tad",
+          "description": "Spreadsheet Viewers / CSV Editors"
+        },
+        {
+          "name": "Tree Sheets",
+          "url": "https://strlen.com/treesheets/",
+          "description": "Spreadsheet Viewers / CSV Editors"
+        },
+        {
+          "name": "VisiData",
+          "url": "https://www.visidata.org/",
+          "description": "Spreadsheet Viewers / CSV Editors"
+        },
+        {
+          "name": "Gnumeric",
+          "url": "https://gnome.pages.gitlab.gnome.org/gnumeric-web/",
+          "description": "Spreadsheet Viewers / CSV Editors"
+        },
+        {
+          "name": "Quadratic",
+          "url": "https://www.quadratichq.com/",
+          "description": "Spreadsheet Viewers / CSV Editors"
+        },
+        {
+          "name": "Baserow",
+          "url": "https://baserow.io/",
+          "description": "Collaborative Spreadsheets"
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.com/baserow/baserow",
+          "description": "Collaborative Spreadsheets"
+        },
+        {
+          "name": "Framacalc",
+          "url": "https://framacalc.org/",
+          "description": "Collaborative Spreadsheets"
+        },
+        {
+          "name": "EtherCalc",
+          "url": "https://ethercalc.net/",
+          "description": "Collaborative Spreadsheets"
+        },
+        {
+          "name": "NocoDB",
+          "url": "https://github.com/nocodb/nocodb",
+          "description": "Collaborative Spreadsheets"
+        },
+        {
+          "name": "AirTable",
+          "url": "https://airtable.com/",
+          "description": "Collaborative Spreadsheets"
+        },
+        {
+          "name": "Jamovi",
+          "url": "https://www.jamovi.org/",
+          "description": "Statistical Spreadsheets"
+        },
+        {
+          "name": "Excel Practice Online",
+          "url": "https://excel-practice-online.com/",
+          "description": "Excel Practice / Guides"
+        },
+        {
+          "name": "Excel Macro Mastery",
+          "url": "https://excelmacromastery.com/vba-articles/",
+          "description": "Excel VBA Guides"
+        },
+        {
+          "name": "ExcelJet",
+          "url": "https://exceljet.net/formulas",
+          "description": "Excel Formulas"
+        },
+        {
+          "name": "Excel Functions",
+          "url": "https://www.excelfunctions.net/",
+          "description": "Excel Formulas"
+        },
+        {
+          "name": "Vertex42",
+          "url": "https://www.vertex42.com/",
+          "description": "Excel Templates"
+        },
+        {
+          "name": "Plain Text Table",
+          "url": "https://plaintexttools.github.io/plain-text-table/",
+          "description": "Text Tables"
+        },
+        {
+          "name": "SubjectiveSort",
+          "url": "https://wiesenthal.github.io/SubjectiveSort/",
+          "description": "Create Ranked List from CSV"
+        },
+        {
+          "name": "Structifi",
+          "url": "https://structifi.com/",
+          "description": "Convert Files to Structured Data"
+        },
+        {
+          "name": "TadViewer",
+          "url": "https://www.tadviewer.com/",
+          "description": "View / Analyze Tabular Data"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-writing-tools",
+      "title": "ライティングツール",
+      "resources": [
+        {
+          "name": "Writer",
+          "url": "https://www.gibney.org/writer",
+          "description": "Distraction-Free Writing",
+          "starred": true
+        },
+        {
+          "name": "FocusWriter",
+          "url": "https://gottcode.org/focuswriter/",
+          "description": "Distraction-Free Writing"
+        },
+        {
+          "name": "Writemonkey",
+          "url": "https://writemonkey.com/",
+          "description": "Distraction-Free Writing"
+        },
+        {
+          "name": "blank.page",
+          "url": "https://blank.page/",
+          "description": "Distraction-Free Writing"
+        },
+        {
+          "name": "Telegra.ph",
+          "url": "https://telegra.ph/",
+          "description": "Distraction-Free Writing"
+        },
+        {
+          "name": "Aurelius",
+          "url": "https://aurelius.ink",
+          "description": "Distraction-Free Writing"
+        },
+        {
+          "name": "ZenPen",
+          "url": "https://zenpen.io/",
+          "description": "Distraction-Free Writing"
+        },
+        {
+          "name": "Write.as",
+          "url": "https://write.as/",
+          "description": "Distraction-Free Writing"
+        },
+        {
+          "name": "Owri",
+          "url": "https://owri.netlify.app/",
+          "description": "Distraction-Free Writing"
+        },
+        {
+          "name": "WriteSpace",
+          "url": "https://www.writespace.app/",
+          "description": "Distraction-Free Writing"
+        },
+        {
+          "name": "WriteNext",
+          "url": "https://www.writenext.io/",
+          "description": "Distraction-Free Writing"
+        },
+        {
+          "name": "Manuskript",
+          "url": "https://www.theologeek.ch/manuskript/",
+          "description": "Writing Organizer / Planner",
+          "starred": true
+        },
+        {
+          "name": "NovelWriter",
+          "url": "https://novelwriter.io/",
+          "description": "Novel Editors",
+          "starred": true
+        },
+        {
+          "name": "Bibisco",
+          "url": "https://bibisco.com/",
+          "description": "Novel Editors"
+        },
+        {
+          "name": "Linked",
+          "url": "https://uselinked.com/",
+          "description": "Journal Apps",
+          "starred": true
+        },
+        {
+          "name": "journaltxt",
+          "url": "https://journaltxt.github.io/",
+          "description": "Journal Apps"
+        },
+        {
+          "name": "Gekri",
+          "url": "https://gekri.com/",
+          "description": "Journal Apps"
+        },
+        {
+          "name": "Microsoft Journal",
+          "url": "https://www.microsoft.com/en-us/garage/profiles/journal/",
+          "description": "Journal Apps"
+        },
+        {
+          "name": "Diarium",
+          "url": "https://diariumapp.com/",
+          "description": "Journal Apps"
+        },
+        {
+          "name": "jrnl.sh",
+          "url": "https://jrnl.sh/",
+          "description": "Journal Apps"
+        },
+        {
+          "name": "⁠Heavyweight",
+          "url": "https://heavyweight.cc/",
+          "description": "Generate Important-Looking Letters"
+        },
+        {
+          "name": "Tuesday JS",
+          "url": "https://kirill-live.itch.io/tuesday-js",
+          "description": "Visual Novel Editor",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "RenPy",
+          "url": "https://www.renpy.org/",
+          "description": "Visual Novel Editor",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Fortelling",
+          "url": "https://www.fortelling.app/",
+          "description": "Novel Plotting / Editing Workspaces"
+        },
+        {
+          "name": "Novelist",
+          "url": "https://beta.novelist.app",
+          "description": "Novel Plotting / Editing Workspaces"
+        },
+        {
+          "name": "Infinite Story",
+          "url": "https://infinite-story.com/",
+          "description": "Collaborative Writing / Feedback"
+        },
+        {
+          "name": "Strand",
+          "url": "https://strand.jinay.dev/",
+          "description": "Collaborative Writing / Feedback"
+        },
+        {
+          "name": "Agora",
+          "url": "https://www.agorawriter.com/",
+          "description": "Collaborative Writing / Feedback"
+        },
+        {
+          "name": "WriteAlong",
+          "url": "https://www.writealong.io/",
+          "description": "Collaborative Writing / Feedback"
+        },
+        {
+          "name": "Gateway Forge",
+          "url": "https://gatewayforge.com/",
+          "description": "Worldbuilding / Story Writing Apps"
+        },
+        {
+          "name": "Modules",
+          "url": "https://gatewayforge.com/resources",
+          "description": "Worldbuilding / Story Writing Apps"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/c3PEQxxKfn",
+          "description": "Worldbuilding / Story Writing Apps"
+        },
+        {
+          "name": "Chronicler",
+          "url": "https://chronicler.pro/",
+          "description": "Worldbuilding / Story Writing Apps"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/cXJwcbe2b7",
+          "description": "Worldbuilding / Story Writing Apps"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/mak-kirkland/chronicler",
+          "description": "Worldbuilding / Story Writing Apps"
+        },
+        {
+          "name": "LanguageIsAVirus",
+          "url": "https://www.languageisavirus.com/",
+          "description": "Writing Prompts"
+        },
+        {
+          "name": "MDWA",
+          "url": "https://www.squibler.io/dangerous-writing-prompt-app",
+          "description": "Writing Prompts"
+        },
+        {
+          "name": "Twinery",
+          "url": "https://twinery.org/",
+          "description": "Interactive Non-Linear Story Creator"
+        },
+        {
+          "name": "TextUSM",
+          "url": "https://textusm.com/",
+          "description": "User Story Map Generator",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Idyll",
+          "url": "https://idyll-lang.org/editor",
+          "description": "Create Interactive Essays",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "STARC",
+          "url": "https://starc.app/",
+          "description": "Script / Screen Writing Tools"
+        },
+        {
+          "name": "WriteSolo",
+          "url": "https://www.writersolo.com/",
+          "description": "Script / Screen Writing Tools"
+        },
+        {
+          "name": "Celtx",
+          "url": "https://www.celtx.com/",
+          "description": "Script / Screen Writing Tools"
+        },
+        {
+          "name": "Rarebit",
+          "url": "https://rarebit.neocities.org/",
+          "description": "Webcomics Template"
+        },
+        {
+          "name": "PolyGlot",
+          "url": "https://draquet.github.io/PolyGlot/",
+          "description": "Spoken Language Construction Tools"
+        },
+        {
+          "name": "VulgarLang",
+          "url": "https://www.vulgarlang.com/",
+          "description": "Spoken Language Construction Tools"
+        },
+        {
+          "name": "How to annotate literally everything",
+          "url": "https://beepb00p.xyz/annotating.html",
+          "description": "Annotation Tools / Resources"
+        },
+        {
+          "name": "Label Buddy",
+          "url": "https://jeromedockes.github.io/labelbuddy/labelbuddy/current/",
+          "description": "Annotation Tool",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "rNote",
+          "url": "https://rnote.flxzt.net/",
+          "description": "Annotation Tool",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "MonsterWriter",
+          "url": "https://www.monsterwriter.com/",
+          "description": "Thesis Writing / Note-Taking"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-to-do-lists",
+      "title": "ToDoリスト",
+      "resources": [
+        {
+          "name": "Goblin.tools",
+          "url": "https://goblin.tools/",
+          "description": "Automatic Task Breakdown",
+          "starred": true
+        },
+        {
+          "name": "TickTick",
+          "url": "https://www.ticktick.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Features",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_software_sites2",
+          "description": ""
+        },
+        {
+          "name": "Super Productivity",
+          "url": "https://super-productivity.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Columns",
+          "url": "https://columns.app/",
+          "description": "Checklists"
+        },
+        {
+          "name": "YearCompass",
+          "url": "https://yearcompass.com/",
+          "description": "New Years Resolution Booklet"
+        },
+        {
+          "name": "daily.place",
+          "url": "https://www.daily.place/",
+          "description": ""
+        },
+        {
+          "name": "SuperList",
+          "url": "https://www.superlist.com/",
+          "description": ""
+        },
+        {
+          "name": "dooit",
+          "url": "https://github.com/dooit-org/dooit",
+          "description": ""
+        },
+        {
+          "name": "Extras",
+          "url": "https://github.com/dooit-org/dooit-extras",
+          "description": ""
+        },
+        {
+          "name": "ToDo List",
+          "url": "https://www.abstractspoon.com/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/abstractspoon",
+          "description": ""
+        },
+        {
+          "name": "Diry AI",
+          "url": "https://www.diry.ai/",
+          "description": ""
+        },
+        {
+          "name": "Fokus",
+          "url": "https://fokus-website.netlify.app/",
+          "description": ""
+        },
+        {
+          "name": "OpenToDoList",
+          "url": "https://gitlab.com/rpdev/opentodolist",
+          "description": ""
+        },
+        {
+          "name": "Microsoft To Do",
+          "url": "https://to-do.office.com/",
+          "description": ""
+        },
+        {
+          "name": "NullBoard",
+          "url": "https://github.com/apankrat/nullboard",
+          "description": ""
+        },
+        {
+          "name": "LunaTask",
+          "url": "https://lunatask.app/",
+          "description": ""
+        },
+        {
+          "name": "ToDoZero",
+          "url": "https://todozero.com/",
+          "description": ""
+        },
+        {
+          "name": "LifeAt",
+          "url": "https://lifeat.io/",
+          "description": ""
+        },
+        {
+          "name": "Tasks",
+          "url": "https://github.com/BaldissaraMatheus/Tasks.md",
+          "description": ""
+        },
+        {
+          "name": "Taskwarrior",
+          "url": "https://taskwarrior.org/",
+          "description": ""
+        },
+        {
+          "name": "Vikunja",
+          "url": "https://vikunja.io/",
+          "description": "Self-Hosted"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-ascii-art",
+      "title": "ASCIIアート",
+      "resources": [
+        {
+          "name": "TAAG",
+          "url": "https://patorjk.com/software/taag/",
+          "description": "ASCII Art / Text Generators",
+          "starred": true
+        },
+        {
+          "name": "DeepAA",
+          "url": "https://github.com/OsciiArt/DeepAA",
+          "description": "ASCII Art / Text Generators"
+        },
+        {
+          "name": "Kammerl",
+          "url": "https://www.kammerl.de/ascii/AsciiSignature.php",
+          "description": "ASCII Art / Text Generators"
+        },
+        {
+          "name": "ASCII Art Studio",
+          "url": "https://www.majorgeeks.com/files/details/ascii_art_studio.html",
+          "description": "ASCII Art / Text Generators"
+        },
+        {
+          "name": "ASCII Today",
+          "url": "https://ascii.today/",
+          "description": "ASCII Art / Text Generators"
+        },
+        {
+          "name": "REXPaint",
+          "url": "https://www.gridsagegames.com/rexpaint/",
+          "description": "ASCII Editors / Drawing"
+        },
+        {
+          "name": "Asciistrator",
+          "url": "https://wieslawsoltes.github.io/Asciistrator/",
+          "description": "ASCII Editors / Drawing"
+        },
+        {
+          "name": "ASCII Sketch",
+          "url": "https://files.littlebird.com.au/ascii-sketch.html",
+          "description": "ASCII Editors / Drawing"
+        },
+        {
+          "name": "Playscii",
+          "url": "https://jp.itch.io/playscii",
+          "description": "ASCII Editors / Drawing"
+        },
+        {
+          "name": "PabloDraw",
+          "url": "https://picoe.ca/products/pablodraw/",
+          "description": "ASCII Editors / Drawing"
+        },
+        {
+          "name": "ASCII Paint",
+          "url": "https://ascii.alienmelon.com/",
+          "description": ""
+        },
+        {
+          "name": "⁠TextPaint",
+          "url": "https://textpaint.com/",
+          "description": ""
+        },
+        {
+          "name": "⁠ASCII Blaster",
+          "url": "https://asdf.us/asciiblaster/",
+          "description": ""
+        },
+        {
+          "name": "2",
+          "url": "https://ircart.github.io/asciiblaster/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ircart/asciiblaster",
+          "description": ""
+        },
+        {
+          "name": "⁠shabzefilters",
+          "url": "https://shabzefilters.netlify.app/",
+          "description": "Image to ASCII Art"
+        },
+        {
+          "name": "ascii-art-generator",
+          "url": "https://www.ascii-art-generator.org/",
+          "description": "Image to ASCII Art"
+        },
+        {
+          "name": "asciiart",
+          "url": "https://asciiart.club/",
+          "description": "Image to ASCII Art"
+        },
+        {
+          "name": "ascii-image-converter",
+          "url": "https://github.com/TheZoraiz/ascii-image-converter",
+          "description": "Image to ASCII Art"
+        },
+        {
+          "name": "Monospace",
+          "url": "https://codepen.io/Mikhail-Bespalov/pen/JoPqYrz",
+          "description": "Image to ASCII Art"
+        },
+        {
+          "name": "ITOA",
+          "url": "https://itoa.hex.dance/",
+          "description": "Image to ASCII Art"
+        },
+        {
+          "name": "ascii-exploration",
+          "url": "https://ascii-exploration.vercel.app/",
+          "description": "Image to ASCII Art"
+        },
+        {
+          "name": "text-image",
+          "url": "https://www.text-image.com/",
+          "description": "Image to ASCII Art"
+        },
+        {
+          "name": "ASCII-art-creator",
+          "url": "https://github.com/CherryPill/ASCII-art-creator",
+          "description": "Image to ASCII Art"
+        },
+        {
+          "name": "Love ASCII",
+          "url": "http://loveascii.com/",
+          "description": "Browse / Copy ASCII Art"
+        },
+        {
+          "name": "asciiart.eu",
+          "url": "https://www.asciiart.eu/",
+          "description": "Browse / Copy ASCII Art"
+        },
+        {
+          "name": "EmojiCombos",
+          "url": "https://emojicombos.com/",
+          "description": "Browse / Copy ASCII Art"
+        },
+        {
+          "name": "16colors",
+          "url": "https://16colo.rs/",
+          "description": "Browse / Copy ASCII Art"
+        },
+        {
+          "name": "ascii.co",
+          "url": "https://ascii.co.uk/art",
+          "description": "Browse / Copy ASCII Art"
+        },
+        {
+          "name": "RoySAC",
+          "url": "https://www.roysac.com/sitemap.html",
+          "description": "Browse / Copy ASCII Art"
+        },
+        {
+          "name": "Image to Braille",
+          "url": "https://505e06b2.github.io/Image-to-Braille/",
+          "description": "Convert Images to Braille"
+        },
+        {
+          "name": "AnsiLove",
+          "url": "https://www.ansilove.org/downloads.html",
+          "description": "ANSI / ASCII Art to PNG Converters"
+        },
+        {
+          "name": "convert-ascii-to-image",
+          "url": "https://onlinetools.com/ascii/convert-ascii-to-image",
+          "description": "ANSI / ASCII Art to PNG Converters"
+        },
+        {
+          "name": "lvllvl",
+          "url": "https://lvllvl.com/",
+          "description": "C64 PETSCII Image Editor"
+        },
+        {
+          "name": "Petmate",
+          "url": "https://nurpax.github.io/petmate/",
+          "description": "C64 PETSCII Image Editor"
+        },
+        {
+          "name": "Markdown Guide",
+          "url": "https://www.markdownguide.org/",
+          "description": "Guide for Markdown (.md)",
+          "starred": true
+        },
+        {
+          "name": "generatedata.com",
+          "url": "https://generatedata.com/",
+          "description": "Generate Test Data in Markup Formats",
+          "starred": true
+        },
+        {
+          "name": "markup.rocks",
+          "url": "https://markup.rocks/",
+          "description": "Online Markup Editor"
+        },
+        {
+          "name": "Markup Validation Service",
+          "url": "https://validator.w3.org/",
+          "description": "Validate Your Markup Language Structure"
+        },
+        {
+          "name": "YAMLine",
+          "url": "https://yamline.com/",
+          "description": "Online YAML Tools / Converters"
+        },
+        {
+          "name": "yq",
+          "url": "https://mikefarah.gitbook.io/yq/",
+          "description": "Portable YAML Processor",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "readme.so",
+          "url": "https://readme.so/",
+          "description": "Create README.md Files"
+        },
+        {
+          "name": "Tableconvert",
+          "url": "https://tableconvert.com/",
+          "description": "Markdown / Code Converter"
+        },
+        {
+          "name": "Linkspector",
+          "url": "https://github.com/UmbrellaDocs/action-linkspector",
+          "description": "Check Markdown Files for Dead Links"
+        },
+        {
+          "name": "Table Magic",
+          "url": "https://stevecat.net/table-magic/",
+          "description": "Table to Markdown Converters"
+        },
+        {
+          "name": "Clipboard2Markdown",
+          "url": "https://euangoddard.github.io/clipboard2markdown/",
+          "description": "Text to Markdown Converter"
+        },
+        {
+          "name": "gd2md-html",
+          "url": "https://github.com/evbacher/gd2md-html",
+          "description": "Convert Google Doc to Markdown"
+        },
+        {
+          "name": "MarkItDown",
+          "url": "https://github.com/microsoft/markitdown",
+          "description": "File to Markdown Converter"
+        },
+        {
+          "name": "GetMarkdown",
+          "url": "https://www.getmarkdown.com/",
+          "description": "File to Markdown Converter"
+        },
+        {
+          "name": "Quartz",
+          "url": "https://quartz.jzhao.xyz/",
+          "description": "Publish Markdown"
+        },
+        {
+          "name": "Perlite",
+          "url": "https://perlite.secure77.de/",
+          "description": "Publish Markdown"
+        },
+        {
+          "name": "FlowerShow",
+          "url": "https://flowershow.app/",
+          "description": "Publish Markdown"
+        },
+        {
+          "name": "Markdown Tutorial",
+          "url": "https://www.markdowntutorial.com/",
+          "description": "Interactive Markdown Tutorial"
+        },
+        {
+          "name": "emoji-cheat-sheet",
+          "url": "https://github.com/ikatyang/emoji-cheat-sheet",
+          "description": "Emoji Markdown Cheatsheet"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-markdown-editors",
+      "title": "Markdownエディタ",
+      "resources": [
+        {
+          "name": "MarkD",
+          "url": "https://markd.it/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/itzcozi/markd/",
+          "description": ""
+        },
+        {
+          "name": "HedgeDoc",
+          "url": "https://hedgedoc.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "⁠Markdown Monster",
+          "url": "https://markdownmonster.west-wind.com/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/RickStrahl/MarkdownMonster",
+          "description": ""
+        },
+        {
+          "name": "Zettlr",
+          "url": "https://www.zettlr.com/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Zettlr/Zettlr",
+          "description": ""
+        },
+        {
+          "name": "Dillinger",
+          "url": "https://dillinger.io/",
+          "description": ""
+        },
+        {
+          "name": "MarkdownTools",
+          "url": "https://www.markdowntools.com/",
+          "description": ""
+        },
+        {
+          "name": "Glow",
+          "url": "https://github.com/charmbracelet/glow",
+          "description": ""
+        },
+        {
+          "name": "MarkdownLivePreview",
+          "url": "https://markdownlivepreview.com/",
+          "description": ""
+        },
+        {
+          "name": "Vrite",
+          "url": "https://editor.vrite.io/",
+          "description": ""
+        },
+        {
+          "name": "MindForger",
+          "url": "https://www.mindforger.com/",
+          "description": ""
+        },
+        {
+          "name": "⁠Markpad",
+          "url": "https://github.com/alecdotdev/Markpad",
+          "description": "Lightweight / Minimal"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-latex-tools",
+      "title": "LaTeX ツール",
+      "resources": [
+        {
+          "name": "Typst",
+          "url": "https://typst.app/home",
+          "description": "LaTeX Alternative / Resources",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Overleaf",
+          "url": "https://www.overleaf.com/",
+          "description": "LaTeX Editors",
+          "starred": true
+        },
+        {
+          "name": "⁠Crixet",
+          "url": "https://crixet.com/",
+          "description": "LaTeX Editors"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/ffMZrSxUQa",
+          "description": "LaTeX Editors"
+        },
+        {
+          "name": "⁠Lyx",
+          "url": "https://www.lyx.org/",
+          "description": "LaTeX Editors"
+        },
+        {
+          "name": "TeXStudio",
+          "url": "https://texstudio.org/",
+          "description": "LaTeX Editors"
+        },
+        {
+          "name": "⁠MathCheap",
+          "url": "https://mathcheap.xyz/",
+          "description": "AI-Powered LaTex Editor w / Image to Text OCR",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Learn LaTeX",
+          "url": "https://www.learnlatex.org/",
+          "description": "LaTeX Guide"
+        },
+        {
+          "name": "Tables Generator",
+          "url": "https://www.tablesgenerator.com/",
+          "description": "Create LaTeX Tables"
+        },
+        {
+          "name": "LaTeX-OCR",
+          "url": "https://lukas-blecher.github.io/LaTeX-OCR/",
+          "description": "Extract Mathematical Expressions"
+        },
+        {
+          "name": "Detexify",
+          "url": "https://detexify.kirelabs.org/classify.html",
+          "description": "Character Recognition"
+        },
+        {
+          "name": "Nerd Fonts",
+          "url": "https://www.nerdfonts.com/",
+          "description": "Icon-Rich Developer / Terminal Fonts",
+          "starred": true
+        },
+        {
+          "name": "OpenDyslexic",
+          "url": "https://opendyslexic.org/",
+          "description": "Typeface for Dyslexia"
+        },
+        {
+          "name": "Typewolf",
+          "url": "https://www.typewolf.com/",
+          "description": "Trending Website Fonts"
+        },
+        {
+          "name": "Typ.io",
+          "url": "https://typ.io/",
+          "description": "Trending Website Fonts"
+        },
+        {
+          "name": "Cava's Pixel Resources",
+          "url": "https://caveras.net/",
+          "description": "Pixel Fonts"
+        },
+        {
+          "name": "Oldschool PC Fonts",
+          "url": "https://int10h.org/oldschool-pc-fonts/",
+          "description": "Oldschool PC Fonts"
+        },
+        {
+          "name": "FiraCode",
+          "url": "https://github.com/tonsky/FiraCode",
+          "description": "Monospace Fonts"
+        },
+        {
+          "name": "Cascadia Code",
+          "url": "https://github.com/microsoft/cascadia-code",
+          "description": "Monospace Fonts"
+        },
+        {
+          "name": "Maple Font",
+          "url": "https://github.com/subframe7536/Maple-font",
+          "description": "Monospace Fonts"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-open-source-freeware",
+      "title": "オープンソース / フリーウェア",
+      "resources": [
+        {
+          "name": "FontSource",
+          "url": "https://fontsource.org/",
+          "description": "Open Source",
+          "starred": true
+        },
+        {
+          "name": "Font Squirrel",
+          "url": "https://www.fontsquirrel.com/",
+          "description": "Commercial Use",
+          "starred": true
+        },
+        {
+          "name": "DaFont",
+          "url": "https://www.dafont.com/",
+          "description": "Freeware",
+          "starred": true
+        },
+        {
+          "name": "1001 Fonts",
+          "url": "https://www.1001fonts.com/",
+          "description": "Freeware",
+          "starred": true
+        },
+        {
+          "name": "Modern Fonts Stacks",
+          "url": "https://modernfontstacks.com/",
+          "description": "Collection of CSS System Font Stacks"
+        },
+        {
+          "name": "Velvetyne",
+          "url": "https://velvetyne.fr/",
+          "description": "Open Source"
+        },
+        {
+          "name": "uncut.wtf",
+          "url": "https://uncut.wtf/",
+          "description": "Open Source"
+        },
+        {
+          "name": "Beautiful Web Type",
+          "url": "https://beautifulwebtype.com/",
+          "description": "Open Source"
+        },
+        {
+          "name": "FontRepo",
+          "url": "https://www.fontrepo.com/",
+          "description": "Open Source"
+        },
+        {
+          "name": "Bunny Fonts",
+          "url": "https://fonts.bunny.net/",
+          "description": "Open Source"
+        },
+        {
+          "name": "Google Fonts",
+          "url": "https://fonts.google.com/",
+          "description": "Commercial Use / Self-Host / Privacy-Friendly API"
+        },
+        {
+          "name": "FontShare",
+          "url": "https://fontshare.com/",
+          "description": "Commercial Use"
+        },
+        {
+          "name": "OnlineWebFonts",
+          "url": "https://www.onlinewebfonts.com/",
+          "description": "Commercial Use"
+        },
+        {
+          "name": "Fontlot",
+          "url": "https://fontlot.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "Fontsly",
+          "url": "https://fontsly.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "FOSSFonts",
+          "url": "https://fossfonts.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "Fonts4Free",
+          "url": "https://www.fonts4free.net/",
+          "description": "Freeware"
+        },
+        {
+          "name": "FontSpace",
+          "url": "https://www.fontspace.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "Online Fonts",
+          "url": "https://online-fonts.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "CDNFonts",
+          "url": "https://www.cdnfonts.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "Fontesk",
+          "url": "https://fontesk.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "FontStruct",
+          "url": "https://fontstruct.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "iFonts",
+          "url": "https://ifonts.xyz/",
+          "description": "Freeware"
+        },
+        {
+          "name": "DownloadFonts",
+          "url": "https://www.downloadfonts.io/",
+          "description": "Freeware"
+        },
+        {
+          "name": "AbstractFonts",
+          "url": "https://www.abstractfonts.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "FontGet",
+          "url": "https://www.fontget.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "FreeFontsDownload",
+          "url": "https://freefontsdownload.net/",
+          "description": "Freeware"
+        },
+        {
+          "name": "Fonts2u",
+          "url": "https://fonts2u.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "Awwwards",
+          "url": "https://www.awwwards.com/awwwards/collections/free-fonts/",
+          "description": "Freeware"
+        },
+        {
+          "name": "GlukFonts",
+          "url": "https://www.glukfonts.pl/fonts.php",
+          "description": "Freeware"
+        },
+        {
+          "name": "Iconian",
+          "url": "https://www.iconian.com/",
+          "description": "Freeware"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-free-fonts",
+      "title": "無料フォント",
+      "resources": [
+        {
+          "name": "Fonts CSE",
+          "url": "https://cse.google.com/cse?cx=82154ebab193e493d",
+          "description": "Multi-Site Font Search",
+          "starred": true
+        },
+        {
+          "name": "Font Piracy 101",
+          "url": "https://rentry.co/FontPiracy",
+          "description": "Font Download Guide",
+          "starred": true
+        },
+        {
+          "name": "BeFonts",
+          "url": "https://befonts.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Windows Fonts",
+          "url": "https://wfonts.com/",
+          "description": ""
+        },
+        {
+          "name": "Free Fonts Family",
+          "url": "https://freefontsfamily.org/",
+          "description": ""
+        },
+        {
+          "name": "Cufon Fonts",
+          "url": "https://www.cufonfonts.com/",
+          "description": ""
+        },
+        {
+          "name": "FontsFree",
+          "url": "https://fontsfree.net",
+          "description": ""
+        },
+        {
+          "name": "DFonts",
+          "url": "https://www.dfonts.org/",
+          "description": ""
+        },
+        {
+          "name": "⁠dafont.style",
+          "url": "https://dafont.style/",
+          "description": ""
+        },
+        {
+          "name": "Font Spring",
+          "url": "https://www.fontspring.com/free",
+          "description": ""
+        },
+        {
+          "name": "⁠FontBolt",
+          "url": "https://www.fontbolt.com/",
+          "description": ""
+        },
+        {
+          "name": "FFonts",
+          "url": "https://www.ffonts.net/",
+          "description": ""
+        },
+        {
+          "name": "⁠DaFontFree",
+          "url": "https://www.dafontfree.co/",
+          "description": ""
+        },
+        {
+          "name": "FontsHub",
+          "url": "https://fontshub.pro/",
+          "description": ""
+        },
+        {
+          "name": "Font Meme",
+          "url": "https://fontmeme.com/",
+          "description": ""
+        },
+        {
+          "name": "FONToMASS",
+          "url": "https://m.vk.com/topic-178186634_39300099?offset=0",
+          "description": ""
+        },
+        {
+          "name": "Mr.E-Fonts",
+          "url": "https://archive.org/details/Mr.E-Fonts",
+          "description": ""
+        },
+        {
+          "name": "psd_fonts",
+          "url": "https://vk.com/psd_fonts",
+          "description": ""
+        },
+        {
+          "name": "1001 Free Fonts",
+          "url": "https://www.1001freefonts.com/",
+          "description": ""
+        },
+        {
+          "name": "Font Interceptor",
+          "url": "https://fontinterceptor.mschfmag.com/",
+          "description": "Download Fonts from Websites",
+          "starred": true
+        },
+        {
+          "name": "FontDrop",
+          "url": "https://fontdrop.info/",
+          "description": "Analyze Font Files",
+          "starred": true
+        },
+        {
+          "name": "Transfonter",
+          "url": "https://transfonter.org/",
+          "description": "Create CSS @font-face Kits"
+        },
+        {
+          "name": "FontBase",
+          "url": "https://fontba.se/",
+          "description": "Font Managers"
+        },
+        {
+          "name": "NexusFont",
+          "url": "https://www.xiles.app/",
+          "description": "Font Managers"
+        },
+        {
+          "name": "Linux Font Manager",
+          "url": "https://github.com/FontManager/font-manager",
+          "description": "Font Managers"
+        },
+        {
+          "name": "Adobe Fonts",
+          "url": "https://fonts.adobe.com/fonts/vs/upload",
+          "description": "Find Similar Fonts"
+        },
+        {
+          "name": "Font Finder",
+          "url": "https://www.whatfontis.com/",
+          "description": "Find Similar Fonts"
+        },
+        {
+          "name": "WhatTheFont",
+          "url": "https://www.myfonts.com/pages/whatthefont",
+          "description": "Find Similar Fonts"
+        },
+        {
+          "name": "Identifont",
+          "url": "http://www.identifont.com/",
+          "description": "Find Similar Fonts"
+        },
+        {
+          "name": "Fonts Ninja",
+          "url": "https://fonts.ninja/tools",
+          "description": "Find Similar Fonts / Extensions"
+        },
+        {
+          "name": "WhatFont",
+          "url": "https://whatfonttool.com/",
+          "description": "Find Similar Fonts / Extensions"
+        },
+        {
+          "name": "Unicode Explorer",
+          "url": "https://unicode-explorer.com/",
+          "description": "Unicode Character Identification"
+        },
+        {
+          "name": "Compart",
+          "url": "https://www.compart.com/en/unicode",
+          "description": "Unicode Character Identification"
+        },
+        {
+          "name": "Colors & Fonts",
+          "url": "https://www.colorsandfonts.com/",
+          "description": "Typography Tools"
+        },
+        {
+          "name": "DS-Fusion",
+          "url": "https://ds-fusion.github.io/",
+          "description": "AI Typography Generator"
+        },
+        {
+          "name": "Formito",
+          "url": "https://formito.com/tools/logo",
+          "description": "Typography Logo Maker"
+        },
+        {
+          "name": "Type Terms",
+          "url": "https://avark.agency/typeterms/",
+          "description": "Typography Cheat Sheet"
+        },
+        {
+          "name": "The Good Line-Height",
+          "url": "https://thegoodlineheight.com/",
+          "description": "Typography Scaling Editor"
+        },
+        {
+          "name": "Font List",
+          "url": "https://wavian.com/font-list.html",
+          "description": "Examples of Font Styles"
+        },
+        {
+          "name": "So You Need A Typeface 2.0",
+          "url": "https://ianli.github.io/so-you-need-a-typeface/",
+          "description": "Examples of Font Styles"
+        },
+        {
+          "name": "Type Design Resources",
+          "url": "https://typedesignresources.com/",
+          "description": "Typeface Resources"
+        },
+        {
+          "name": "Free Faces",
+          "url": "https://www.freefaces.gallery/",
+          "description": "Typeface Resources"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-font-text-generators",
+      "title": "Font / テキスト Generators",
+      "resources": [
+        {
+          "name": "FontoGen",
+          "url": "https://github.com/SerCeMan/fontogen",
+          "description": "Custom AI Font Generators",
+          "starred": true
+        },
+        {
+          "name": "⁠Refont",
+          "url": "https://refont.ai/",
+          "description": "Custom AI Font Generators"
+        },
+        {
+          "name": "Make WordArt",
+          "url": "https://www.makewordart.com/",
+          "description": "WordArt Generators / 3D Text",
+          "starred": true
+        },
+        {
+          "name": "FlameText",
+          "url": "https://www.flamingtext.com/",
+          "description": "WordArt Generators / 3D Text"
+        },
+        {
+          "name": "MakeText",
+          "url": "https://maketext.io/",
+          "description": "WordArt Generators / 3D Text"
+        },
+        {
+          "name": "TextGiraffe",
+          "url": "https://www.textgiraffe.com/",
+          "description": "WordArt Generators / 3D Text"
+        },
+        {
+          "name": "Text Pro",
+          "url": "https://textpro.me/",
+          "description": "WordArt Generators / 3D Text"
+        },
+        {
+          "name": "CoolText",
+          "url": "https://cooltext.com/",
+          "description": "WordArt Generators / 3D Text"
+        },
+        {
+          "name": "Polona Typo",
+          "url": "https://typo.polona.pl/en/",
+          "description": "Generate WordArt from Book, Poster, & Map Letters"
+        },
+        {
+          "name": "Text Color Fader",
+          "url": "https://patorjk.com/text-color-fader/",
+          "description": "Rainbow Text Generator"
+        },
+        {
+          "name": "Fast3DText",
+          "url": "https://fast3dtext.com/",
+          "description": "Animated / 3D Text Generators"
+        },
+        {
+          "name": "TextDrom",
+          "url": "https://en.textdrom.com/",
+          "description": "Animated / 3D Text Generators"
+        },
+        {
+          "name": "3DText2GIF",
+          "url": "https://3dtext2gif.com/",
+          "description": "Animated / 3D Text Generators"
+        },
+        {
+          "name": "TextStudio",
+          "url": "https://www.textstudio.com/",
+          "description": "Animated / 3D Text Generators"
+        },
+        {
+          "name": "Textanim",
+          "url": "https://textanim.com/",
+          "description": "Animated Text Generators"
+        },
+        {
+          "name": "Space Type Generator",
+          "url": "https://spacetypegenerator.com/",
+          "description": "Animated Text Generators"
+        },
+        {
+          "name": "Batname",
+          "url": "https://batname.vercel.app/",
+          "description": "Batman (2022) Text Generator"
+        },
+        {
+          "name": "NFG's Arcade Font Maker",
+          "url": "https://nfggames.com/games/fontmaker/",
+          "description": "Arcade Text Generators"
+        },
+        {
+          "name": "Arcade Font Writer",
+          "url": "https://arcade.photonstorm.com/",
+          "description": "Arcade Text Generators"
+        },
+        {
+          "name": "The Ransomizer",
+          "url": "https://www.ransomizer.com/",
+          "description": "Ransom Note Style Text"
+        },
+        {
+          "name": "Glitch",
+          "url": "https://glitchtextgenerator.com/",
+          "description": "Zalgo Text Generator"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-font-customization",
+      "title": "フォントカスタマイズ",
+      "resources": [
+        {
+          "name": "TypeTrials",
+          "url": "https://typetrials.com/",
+          "description": "Variable Font Playground",
+          "starred": true
+        },
+        {
+          "name": "V-Fonts",
+          "url": "https://v-fonts.com/",
+          "description": "Variable Fonts Testers"
+        },
+        {
+          "name": "Phase",
+          "url": "https://www.eliashanzer.com/phase/",
+          "description": "Variable Fonts Testers"
+        },
+        {
+          "name": "enFont",
+          "url": "https://enfont.javierarce.com/",
+          "description": "Custom Font Creators"
+        },
+        {
+          "name": "Calligraphr",
+          "url": "https://www.calligraphr.com/en/",
+          "description": "Custom Font Creators"
+        },
+        {
+          "name": "Fontjoy",
+          "url": "https://fontjoy.com/",
+          "description": "Generate Font Combinations"
+        },
+        {
+          "name": "FontSprite",
+          "url": "https://adamstrange.itch.io/fontsprite",
+          "description": "FontSprite Editor"
+        },
+        {
+          "name": "BitFontMaker2",
+          "url": "https://pentacom.jp/pentacom/bitfontmaker2/",
+          "description": "BitMap Font Editor"
+        },
+        {
+          "name": "FontEdit",
+          "url": "https://github.com/ayoy/fontedit",
+          "description": "Font / Typeface Editors"
+        },
+        {
+          "name": "metaflop",
+          "url": "https://www.metaflop.com/",
+          "description": "Font / Typeface Editors"
+        },
+        {
+          "name": "MFEKglif",
+          "url": "https://github.com/MFEK/glif",
+          "description": "Font / Typeface Editors"
+        },
+        {
+          "name": "Glyphr Studio",
+          "url": "https://www.glyphrstudio.com/",
+          "description": "Font / Typeface Editors"
+        },
+        {
+          "name": "Birdfont",
+          "url": "https://birdfont.org/",
+          "description": "Font / Typeface Editors"
+        },
+        {
+          "name": "Universal Sans",
+          "url": "https://universalsans.com/",
+          "description": "Font / Typeface Editors"
+        },
+        {
+          "name": "FontForge",
+          "url": "https://fontforge.org/en-US/",
+          "description": "Font / Typeface Editors"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/fontforge/fontforge",
+          "description": "Font / Typeface Editors"
+        }
+      ]
+    },
+    {
+      "id": "text-tools-unicode-text-generators",
+      "title": "Unicode テキスト Generators",
+      "resources": [
+        {
+          "name": "YayText",
+          "url": "https://yaytext.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Messletters",
+          "url": "https://www.messletters.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "FSymbols",
+          "url": "https://fsymbols.com/generators/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Fancy Text",
+          "url": "https://fancy-text.net/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Cool Fonts Online",
+          "url": "https://coolfont.org/",
+          "description": ""
+        },
+        {
+          "name": "⁠Discord Fonts",
+          "url": "https://discord-fonts.com/",
+          "description": ""
+        },
+        {
+          "name": "FontMaker.io",
+          "url": "https://fontmaker.io/",
+          "description": ""
+        },
+        {
+          "name": "Aesthetic Font Generator",
+          "url": "https://www.tesms.net/",
+          "description": ""
+        },
+        {
+          "name": "Text-Generator",
+          "url": "https://text-generator.app/",
+          "description": ""
+        },
+        {
+          "name": "BoldTextGenerator",
+          "url": "https://boldtextgenerator.org/",
+          "description": ""
+        },
+        {
+          "name": "TextEditor",
+          "url": "https://texteditor.com/",
+          "description": ""
+        },
+        {
+          "name": "FontGenerator.design",
+          "url": "https://fontgenerator.design/",
+          "description": ""
+        },
+        {
+          "name": "Font Generator Online",
+          "url": "https://www.fontgeneratoronline.com/",
+          "description": ""
+        },
+        {
+          "name": "FontGenerator.cc",
+          "url": "https://fontgenerator.cc/",
+          "description": ""
+        },
+        {
+          "name": "FontGenerator.cool",
+          "url": "https://fontgenerator.cool/",
+          "description": ""
+        },
+        {
+          "name": "Fancy Text Decorator",
+          "url": "https://fancytextdecorator.com/",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

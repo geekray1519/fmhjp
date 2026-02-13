@@ -1,0 +1,3073 @@
+{
+  "id": "video-tools",
+  "slug": "video-tools",
+  "title": "動画ツール",
+  "description": "動画編集、変換、ダウンロードツール",
+  "icon": "🎞️",
+  "color": "from-amber-500 to-yellow-600",
+  "subcategories": [
+    {
+      "id": "video-tools-general",
+      "title": "一般",
+      "resources": [
+        {
+          "name": "Digital Video Intro",
+          "url": "https://github.com/leandromoreira/digital_video_introduction",
+          "description": "Digital Video Guides / Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Reincubate Camo",
+          "url": "https://reincubate.com/camo/",
+          "description": "Use Any Camera as Webcam",
+          "starred": true
+        },
+        {
+          "name": "Kast",
+          "url": "https://kast.gg/",
+          "description": "Online Screen Share"
+        },
+        {
+          "name": "Screen Share Party",
+          "url": "https://ba.net/screen/",
+          "description": "Online Screen Share"
+        },
+        {
+          "name": "Screenz",
+          "url": "https://screenz.agst.dev/",
+          "description": "Online Screen Share"
+        },
+        {
+          "name": "Deep-Live-Cam",
+          "url": "https://github.com/hacksider/Deep-Live-Cam",
+          "description": "Video Face Swap Tools"
+        },
+        {
+          "name": "Rope",
+          "url": "https://github.com/Hillobar/Rope",
+          "description": "Video Face Swap Tools"
+        },
+        {
+          "name": "SimSwap",
+          "url": "https://github.com/neuralchen/SimSwap",
+          "description": "Video Face Swap Tools"
+        },
+        {
+          "name": "Roop",
+          "url": "https://github.com/s0md3v/roop",
+          "description": "Video Face Swap Tools"
+        },
+        {
+          "name": "VideoHelp Forum",
+          "url": "https://forum.videohelp.com/",
+          "description": "All Things Media / Video"
+        },
+        {
+          "name": "ICAT",
+          "url": "https://www.nvidia.com/en-us/geforce/technologies/icat/",
+          "description": "Video Quality Comparison & Analysis Tools"
+        },
+        {
+          "name": "Video Compare",
+          "url": "https://github.com/pixop/video-compare",
+          "description": "Video Quality Comparison & Analysis Tools"
+        },
+        {
+          "name": "videoduplicatefinder",
+          "url": "https://github.com/0x90d/videoduplicatefinder",
+          "description": "Duplicate Video Finder"
+        },
+        {
+          "name": "MkvDefaultTrackChanger",
+          "url": "https://mkvdefaulttrackchanger.pages.dev/",
+          "description": "Easily Change Default MKV Subtitle / Audio Tracks",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠MP4Recover",
+          "url": "https://github.com/ActiveTK/MP4Recover",
+          "description": "Recover Broken MP4 Files"
+        },
+        {
+          "name": "VHS Decode",
+          "url": "https://github.com/oyvindln/vhs-decode",
+          "description": "VHS Decoder"
+        },
+        {
+          "name": "VidClue",
+          "url": "https://vidclue.com/",
+          "description": "Short Form Video Inspiration"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-disc-utilities",
+      "title": "ディスクユーティリティ",
+      "resources": [
+        {
+          "name": "ImgBurn",
+          "url": "https://www.majorgeeks.com/files/details/imgburn.html",
+          "description": "CD / DVD Burning"
+        },
+        {
+          "name": "CDBurnerXP",
+          "url": "https://cdburnerxp.se/",
+          "description": "CD / DVD Burning"
+        },
+        {
+          "name": "DVDStyler",
+          "url": "https://www.dvdstyler.org/en/",
+          "description": "CD / DVD Burning"
+        },
+        {
+          "name": "DeepBurner",
+          "url": "https://www.deepburner.com/",
+          "description": "CD / DVD Burning"
+        },
+        {
+          "name": "Alcohol Soft",
+          "url": "https://www.alcohol-soft.com/",
+          "description": "CD / DVD Burning"
+        },
+        {
+          "name": "VidCoder",
+          "url": "https://vidcoder.net/",
+          "description": "DVD / Blu-ray Ripping"
+        },
+        {
+          "name": "XReveal",
+          "url": "https://www.xreveal.com/",
+          "description": "DVD / Blu-ray Ripping"
+        },
+        {
+          "name": "MakeMKV",
+          "url": "https://www.makemkv.com/",
+          "description": "Create MKV from Blu-ray / DVD / Beta Version"
+        },
+        {
+          "name": "DGDemux",
+          "url": "https://www.rationalqm.us/dgdemux/dgdemux.html",
+          "description": "Blu-ray / UHD Disk Demuxer"
+        },
+        {
+          "name": "PgcDemux",
+          "url": "https://www.videohelp.com/software/PgcDemux",
+          "description": "DVD Disk Demuxer"
+        },
+        {
+          "name": "BatchGuy",
+          "url": "https://github.com/yaboy58/BatchGuy",
+          "description": "Blu-ray Ripping"
+        },
+        {
+          "name": "UHD Drives Flashing Guide",
+          "url": "https://forum.makemkv.com/forum/viewtopic.php?f=16&t=19634",
+          "description": ""
+        },
+        {
+          "name": "Redump",
+          "url": "http://redump.org/",
+          "description": "Disc Preservation Project"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-video-file-hosts",
+      "title": "動画ファイルホスト",
+      "resources": [
+        {
+          "name": "DoodStream",
+          "url": "https://doodstream.com/",
+          "description": "5GB / 60 Days / Requires Sign-Up",
+          "starred": true
+        },
+        {
+          "name": "Litterbox",
+          "url": "https://litterbox.catbox.moe/",
+          "description": "1GB / 3 Days",
+          "starred": true
+        },
+        {
+          "name": "Catbox",
+          "url": "https://catbox.moe/",
+          "description": "200MB / Forever / Allows Hotlinking",
+          "starred": true
+        },
+        {
+          "name": "Gofile",
+          "url": "https://gofile.io/",
+          "description": "100GB Monthly / 10 Days",
+          "starred": true
+        },
+        {
+          "name": "Send.now",
+          "url": "https://send.now/",
+          "description": "Unlimited / 30 Days",
+          "starred": true
+        },
+        {
+          "name": "VOE",
+          "url": "https://voe.sx/",
+          "description": "Unlimited / 60 Days / 720p / Requires Sign-Up"
+        },
+        {
+          "name": "MixDrop",
+          "url": "https://mixdrop.ag/",
+          "description": "Unlimited / 60 Days / 720p / Requires Sign-Up"
+        },
+        {
+          "name": "FEX.NET",
+          "url": "https://fex.net/",
+          "description": "100GB / 10GB Guest / 7 Days"
+        },
+        {
+          "name": "Byse",
+          "url": "https://byse.sx/",
+          "description": "50GB / 40TB per account / Forever / Requires Sign-Up",
+          "mirrors": [
+            "https://filemoon.sx/",
+            "https://filemoon.to/",
+            "https://filemoon.in/"
+          ]
+        },
+        {
+          "name": "Hexupload",
+          "url": "https://hexload.com/",
+          "description": "15GB / 30 Days"
+        },
+        {
+          "name": "AnonTransfer",
+          "url": "https://anontransfer.com/",
+          "description": "15GB / 30 Days"
+        },
+        {
+          "name": "Vidoza",
+          "url": "https://vidoza.net/",
+          "description": "15GB / 15 Days / Requires Sign-Up"
+        },
+        {
+          "name": "⁠Streamain",
+          "url": "https://streamain.com/",
+          "description": "Unlimited / Unlimited / Forever"
+        },
+        {
+          "name": "Vidmoly",
+          "url": "https://vidmoly.me/",
+          "description": "15TB / 1 Year"
+        },
+        {
+          "name": "NetU",
+          "url": "https://netu.tv/",
+          "description": "7.5GB / 90 Days (after last view)"
+        },
+        {
+          "name": "Streamplay",
+          "url": "https://streamplay.to/",
+          "description": "30TB / 20GB"
+        },
+        {
+          "name": "Luluvdoo",
+          "url": "https://luluvdoo.com/",
+          "description": "15GB / 60 Days Since Last Download"
+        },
+        {
+          "name": "Streamtape",
+          "url": "https://streamtape.com/",
+          "description": "15GB / Requires Sign-Up /.to"
+        },
+        {
+          "name": "⁠Darkibox",
+          "url": "https://darkibox.com/",
+          "description": "10GB / 53 Days"
+        },
+        {
+          "name": "Dubz",
+          "url": "https://dubz.co/",
+          "description": "100MB / Forever"
+        },
+        {
+          "name": "Streamable",
+          "url": "https://streamable.com/",
+          "description": "250MB / 2 Days (90 Days with Account)"
+        },
+        {
+          "name": "uguu",
+          "url": "https://uguu.se/",
+          "description": "128MB / 3 Hours"
+        },
+        {
+          "name": "webmshare",
+          "url": "https://webmshare.com/",
+          "description": "WebM & GIF Hosting / 20MB / Forever"
+        },
+        {
+          "name": "Videy",
+          "url": "https://videy.co/",
+          "description": "100MB / MP4 Only"
+        },
+        {
+          "name": "⁠Private Video Sharing",
+          "url": "https://privatevideosharing.com/",
+          "description": "P2P Video Streaming / Temp Files"
+        }
+      ],
+      "note": "Most file hosts remove files after inactivity, while some delete them regardless. Check each host if you're concerned about file expiry. Tags are: Account Space / Individual File Limit / File Retention."
+    },
+    {
+      "id": "video-tools-screen-recording",
+      "title": "画面録画",
+      "resources": [
+        {
+          "name": "OBS Studio",
+          "url": "https://obsproject.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/obsproject",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/obsproject/obs-studio",
+          "description": ""
+        },
+        {
+          "name": "Shinobi",
+          "url": "https://shinobi.video/",
+          "description": "Network Video Recorder / Mac, Linux / GitLab",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "MythTV",
+          "url": "https://www.mythtv.org/",
+          "description": "Digital Video Recorder (DVR) / Windows, Mac, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "FFmpeg",
+          "url": "https://ffmpeg.org/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/FFmpeg/FFmpeg",
+          "description": ""
+        },
+        {
+          "name": "Tools",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools#wiki_.25B7_ffmpeg_tools",
+          "description": ""
+        },
+        {
+          "name": "Openscreen",
+          "url": "https://openscreen.vercel.app/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/siddharthvaddem/openscreen",
+          "description": ""
+        },
+        {
+          "name": "ShareX",
+          "url": "https://getsharex.com/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/ShareX",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ShareX/ShareX",
+          "description": ""
+        },
+        {
+          "name": "vokoscreenNG",
+          "url": "https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/vkohaupt/vokoscreenNG",
+          "description": ""
+        },
+        {
+          "name": "Cap",
+          "url": "https://cap.so/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/CapSoftware/Cap",
+          "description": ""
+        },
+        {
+          "name": "Shar.ec",
+          "url": "https://shar.ec/",
+          "description": ""
+        },
+        {
+          "name": "ScreenREC",
+          "url": "https://screen-rec.vercel.app/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/heysagnik/screenREC",
+          "description": ""
+        },
+        {
+          "name": "RecordScreen",
+          "url": "https://recordscreen.io/",
+          "description": ""
+        },
+        {
+          "name": "Google Screen Recorder",
+          "url": "https://toolbox.googleapps.com/apps/screen_recorder/",
+          "description": ""
+        },
+        {
+          "name": "⁠Cursorful",
+          "url": "https://cursorful.com/",
+          "description": "Browser Screen Recording"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-processing-encoding",
+      "title": "処理 / エンコーディング",
+      "resources": [
+        {
+          "name": "HandBrake",
+          "url": "https://handbrake.fr/",
+          "description": "Video Encoding Software / Windows, Mac, Linux / Guide",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "VidCoder",
+          "url": "https://vidcoder.net/",
+          "description": "Video Encoding Software / Windows, Mac, Linux / Guide",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "FFmpeg",
+          "url": "https://ffmpeg.org/",
+          "description": "Multimedia Processors / Windows, Mac, Linux / Tools",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Shutter Encoder",
+          "url": "https://www.shutterencoder.com/",
+          "description": "Video Encoding Software / Windows, Mac, Linux",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "MKVToolNix",
+          "url": "https://mkvtoolnix.download/",
+          "description": "MKV Editing Tools / Windows, Mac, Linux",
+          "starred": true
+        },
+        {
+          "name": "archived-things",
+          "url": "https://sometimes-archives-things.github.io/archived-things/",
+          "description": "Video Encoding Guides",
+          "starred": true
+        },
+        {
+          "name": "Codec Wiki",
+          "url": "https://wiki.x266.mov/",
+          "description": "Video Encoding Guides"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/bbQD5MjDr3",
+          "description": "Video Encoding Guides"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/av1-community-contributors/codec-wiki",
+          "description": "Video Encoding Guides"
+        },
+        {
+          "name": "⁠Video Noob Guide",
+          "url": "https://gist.github.com/arch1t3cht/b5b9552633567fa7658deee5aec60453/",
+          "description": "Video Encoding Guides"
+        },
+        {
+          "name": "JET Guide",
+          "url": "https://jaded-encoding-thaumaturgy.github.io/JET-guide/master/",
+          "description": "Video Encoding Guides"
+        },
+        {
+          "name": "The Encoding Guide",
+          "url": "https://encoding-guide.neocities.org/",
+          "description": "Video Encoding Guides"
+        },
+        {
+          "name": "Silentaperture",
+          "url": "https://silentaperture.gitlab.io/mdbook-guide/",
+          "description": "Video Encoding Guides"
+        },
+        {
+          "name": "Basics to the Art of Remuxing",
+          "url": "https://claraiscute.neocities.org/Guides/remuxing/",
+          "description": "Learn How to Remux Videos",
+          "starred": true,
+          "mirrors": [
+            "https://claraiscute.pages.dev/Guides/remuxing/"
+          ]
+        },
+        {
+          "name": "DDVT",
+          "url": "https://forum.doom9.org/showthread.php?t=183479",
+          "description": "Dolby Vision RPU Demuxing / Injecting / Editing"
+        },
+        {
+          "name": "MKV Muxing Batch GUI",
+          "url": "https://github.com/yaser01/mkv-muxing-batch-gui",
+          "description": "Mux Videos / Windows, Linux"
+        },
+        {
+          "name": "IFME",
+          "url": "https://github.com/Anime4000/IFME",
+          "description": "Video Encoding / Windows, Linux"
+        },
+        {
+          "name": "Av1an",
+          "url": "https://github.com/master-of-zen/Av1an",
+          "description": "Video Encoding / Windows, Mac, Linux"
+        },
+        {
+          "name": "FastFlix",
+          "url": "https://fastflix.org/",
+          "description": "Video Conversion / Windows, Mac, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Winnydows",
+          "url": "https://winnydows.com/",
+          "description": "Video Conversion Software / Windows, Mac, Linux",
+          "tags": [
+            "Telegram"
+          ]
+        },
+        {
+          "name": "staxrip",
+          "url": "https://github.com/staxrip/staxrip/",
+          "description": "Video Encoding / Contact Sheet + Thumbnails Creator / Windows"
+        },
+        {
+          "name": "XMedia Recode",
+          "url": "https://www.xmedia-recode.de/en/",
+          "description": "Video Conversion / Windows"
+        },
+        {
+          "name": "NEAV1E",
+          "url": "https://github.com/Alkl58/NotEnoughAV1Encodes",
+          "description": "AV1 Encoding / Windows"
+        },
+        {
+          "name": "sickbeard_mp4_automator",
+          "url": "https://github.com/mdhiggins/sickbeard_mp4_automator",
+          "description": "Automate Video Processing / Windows, Mac, Linux"
+        },
+        {
+          "name": "selur",
+          "url": "https://www.selur.de/",
+          "description": "Video Encoding / Windows, Linux"
+        },
+        {
+          "name": "vvenc",
+          "url": "https://github.com/fraunhoferhhi/vvenc",
+          "description": "VVC Encode / Decode"
+        },
+        {
+          "name": "vvdec",
+          "url": "https://github.com/fraunhoferhhi/vvdec",
+          "description": "VVC Encode / Decode"
+        },
+        {
+          "name": "VVCEasy",
+          "url": "https://github.com/MartinEesmaa/VVCEasy",
+          "description": "VVC Encode / Decode"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-online-processing",
+      "title": "オンライン処理",
+      "resources": [
+        {
+          "name": "Compress Video Online",
+          "url": "https://compress-video-online.com/",
+          "description": "Compress / Unlimited"
+        },
+        {
+          "name": "8mb.video",
+          "url": "https://8mb.video/",
+          "description": "Compress / 2GB",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "autocompressor",
+          "url": "https://autocompressor.net/",
+          "description": "Compress / 2GB"
+        },
+        {
+          "name": "Rotato",
+          "url": "https://tools.rotato.app/",
+          "description": "Compress / 2GB"
+        },
+        {
+          "name": "VideoSmaller",
+          "url": "https://www.videosmaller.com/",
+          "description": "Compress / 500MB"
+        },
+        {
+          "name": "YouCompress",
+          "url": "https://www.youcompress.com/",
+          "description": "Compress / 500MB"
+        },
+        {
+          "name": "MP4Compress",
+          "url": "https://www.mp4compress.com/",
+          "description": "Compress / 500MB"
+        },
+        {
+          "name": "VERT",
+          "url": "https://vert.sh/",
+          "description": "Converter",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Video Express Converter",
+          "url": "https://vc.germanov.dev/",
+          "description": ""
+        },
+        {
+          "name": "VideoConverter",
+          "url": "https://www.movavi.com/video-converter/",
+          "description": "Converter"
+        },
+        {
+          "name": "Restream Tools",
+          "url": "https://restream.io/tools",
+          "description": "Converter"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-ffmpeg-tools",
+      "title": "FFmpeg ツール",
+      "resources": [
+        {
+          "name": "FFmpeg-Builds",
+          "url": "https://github.com/BtbN/FFmpeg-Builds",
+          "description": "Autobuild Tools"
+        },
+        {
+          "name": "media-autobuild_suite",
+          "url": "https://github.com/m-ab-s/media-autobuild_suite",
+          "description": "Autobuild Tools"
+        },
+        {
+          "name": "ffmpeg-web",
+          "url": "https://ffmpeg-web.netlify.app/",
+          "description": "FFmpeg Web App",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ffmpegwasm",
+          "url": "https://ffmpegwasm.netlify.app/",
+          "description": "FFmpeg Web App",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "2",
+          "url": "https://ffmpeg.gcc.ac.cn/",
+          "description": "FFmpeg Web App",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "FFmpeg Libav",
+          "url": "https://github.com/leandromoreira/ffmpeg-libav-tutorial",
+          "description": "FFmpeg Guides"
+        },
+        {
+          "name": "ffmprovisr",
+          "url": "https://amiaopensource.github.io/ffmprovisr/",
+          "description": "FFmpeg Guides"
+        },
+        {
+          "name": "ASM Lessons",
+          "url": "https://github.com/FFmpeg/asm-lessons",
+          "description": "FFmpeg Assembly Language Lessons / Multiple Languages"
+        },
+        {
+          "name": "FFmpeg Cheat Sheet",
+          "url": "https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730",
+          "description": "Command Lists"
+        },
+        {
+          "name": "FFmpeg Commander",
+          "url": "https://alfg.github.io/ffmpeg-commander/",
+          "description": "Command Lists"
+        },
+        {
+          "name": "FFmpeg Buddy",
+          "url": "https://evanhahn.github.io/ffmpeg-buddy/",
+          "description": "Command Lists"
+        },
+        {
+          "name": "WebMConverter",
+          "url": "https://argorar.github.io/WebMConverter/",
+          "description": "WebM Converter"
+        },
+        {
+          "name": "PureMPV",
+          "url": "https://github.com/4ndrs/PureMPV",
+          "description": "Info Copy Tool"
+        },
+        {
+          "name": "FFmpeg Batch",
+          "url": "https://ffmpeg-batch.sourceforge.io/",
+          "description": "Bulk Conversion Tools"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-live-streaming",
+      "title": "ライブストリーミング",
+      "resources": [
+        {
+          "name": "Awesome Streaming",
+          "url": "https://github.com/juancarlospaco/awesome-streaming-tools",
+          "description": "Live Streaming Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "StreamerFreebies",
+          "url": "https://streamerfreebies.com/",
+          "description": "Live Streaming Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "OBS Studio",
+          "url": "https://obsproject.com/",
+          "description": "Live Stream Manager / Windows, Mac, Linux",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Streamer.bot",
+          "url": "https://streamer.bot/",
+          "description": "Live Stream Manager / X",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠MeldStudio",
+          "url": "https://meldstudio.co/",
+          "description": "Live Stream Manager / Windows, Mac"
+        },
+        {
+          "name": "StreamLabs",
+          "url": "https://streamlabs.com/",
+          "description": "Live Stream Manager / Windows, Mac",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Stream Elements",
+          "url": "https://streamelements.com/",
+          "description": "Streaming Service Manager"
+        },
+        {
+          "name": "Restream",
+          "url": "https://restream.io/",
+          "description": "Multi-Platform Streams"
+        },
+        {
+          "name": "TwitchChat",
+          "url": "https://twitchat.fr/",
+          "description": "Live Stream Manager",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "VDO Ninja",
+          "url": "https://vdo.ninja/",
+          "description": "Live Stream Colab Tool"
+        },
+        {
+          "name": "LiveStreamDVR",
+          "url": "https://github.com/MrBrax/LiveStreamDVR",
+          "description": "Live Stream Recorder"
+        },
+        {
+          "name": "⁠StreamRecorder",
+          "url": "https://streamrecorder.io/",
+          "description": "Live Stream Recorder"
+        },
+        {
+          "name": "NVIDIA Broadcast",
+          "url": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/",
+          "description": "Stream Audio / Video Enhancer / Windows"
+        },
+        {
+          "name": "Owncast",
+          "url": "https://owncast.online/",
+          "description": "Self-Hosted Live Streaming"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/owncast/owncast",
+          "description": "Self-Hosted Live Streaming"
+        },
+        {
+          "name": "OwnCast",
+          "url": "https://owncast.online/",
+          "description": "Self-Hosted Live Streaming"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/owncast/owncast",
+          "description": "Self-Hosted Live Streaming"
+        },
+        {
+          "name": "Restreamer",
+          "url": "https://github.com/datarhei/restreamer",
+          "description": "Self-Hosted Live Streaming"
+        },
+        {
+          "name": "WDFlat",
+          "url": "https://www.wdflat.com/",
+          "description": "Stream Elements"
+        },
+        {
+          "name": "Strem",
+          "url": "https://github.com/strem-app/strem",
+          "description": "Stream Automation"
+        },
+        {
+          "name": "ppInk",
+          "url": "https://github.com/PubPub-zz/ppInk/",
+          "description": "Screen Annotation"
+        },
+        {
+          "name": "⁠AnnotateWeb",
+          "url": "https://annotateweb.com/",
+          "description": "Screen Annotation"
+        },
+        {
+          "name": "glnk",
+          "url": "https://github.com/geovens/gInk",
+          "description": "Screen Annotation"
+        },
+        {
+          "name": "Annotate Screen",
+          "url": "https://annotatescreen.com/",
+          "description": "Screen Annotation"
+        },
+        {
+          "name": "Live Draw",
+          "url": "https://github.com/antfu/live-draw",
+          "description": "Screen Annotation"
+        },
+        {
+          "name": "Amuse",
+          "url": "https://6klabs.com/amuse",
+          "description": "Now Playing Overlays"
+        },
+        {
+          "name": "Songify",
+          "url": "https://songify.overcode.tv/",
+          "description": "Now Playing Overlays"
+        },
+        {
+          "name": "real-url",
+          "url": "https://github.com/wbt5/real-url",
+          "description": "Copy Live Stream URLs"
+        },
+        {
+          "name": "Chat-Downloader",
+          "url": "https://github.com/xenova/chat-downloader",
+          "description": "Retrieve Chat Messages from Livestreams"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-vtuber-tools",
+      "title": "VTuber ツール",
+      "resources": [
+        {
+          "name": "Runa's Archive",
+          "url": "https://kekuwi.github.io/Runa-Archive",
+          "description": "VTuber Resources",
+          "tags": [
+            "index",
+            "Discord"
+          ]
+        },
+        {
+          "name": "Best VTuber",
+          "url": "https://gist.github.com/emilianavt/cbf4d6de6f7fb01a42d4cce922795794",
+          "description": "VTuber Resources"
+        },
+        {
+          "name": "VTResources",
+          "url": "https://vtresources.carrd.co/",
+          "description": "VTuber Resources"
+        },
+        {
+          "name": "VTuber Assets",
+          "url": "https://discord.gg/acU3dFRtvC",
+          "description": "VTuber Resources"
+        },
+        {
+          "name": "VTuber Kit",
+          "url": "https://kyuppin.itch.io/vtuber-kit",
+          "description": "VTuber Character Creators / Tracking"
+        },
+        {
+          "name": "VRoid",
+          "url": "https://vroid.com/en/studio",
+          "description": "VTuber Character Creators / Tracking"
+        },
+        {
+          "name": "VSeeFace",
+          "url": "https://www.vseeface.icu/",
+          "description": "3D Tracking & Puppeteering (VRM)"
+        },
+        {
+          "name": "Kalidoface 3D",
+          "url": "https://3d.kalidoface.com/",
+          "description": "3D Tracking & Puppeteering (VRM)"
+        },
+        {
+          "name": "Animaze",
+          "url": "https://www.animaze.us/",
+          "description": "3D Tracking & Puppeteering (VRM)"
+        },
+        {
+          "name": "Vtube Studio",
+          "url": "https://denchisoft.com/",
+          "description": "2D / Live2D Tracking"
+        },
+        {
+          "name": "Inochi2D",
+          "url": "https://inochi2d.com/",
+          "description": "2D / Live2D Tracking"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/abnxwN6r9v",
+          "description": "2D / Live2D Tracking"
+        },
+        {
+          "name": "veadotube",
+          "url": "https://olmewe.itch.io/veadotube-mini",
+          "description": "PNGTuber & Reactive Software"
+        },
+        {
+          "name": "TransTube",
+          "url": "https://girkovarpa.itch.io/transtube",
+          "description": "PNGTuber & Reactive Software"
+        },
+        {
+          "name": "avatarify-python",
+          "url": "https://github.com/alievk/avatarify-python",
+          "description": "Real-Time Photo / Video Avatars"
+        },
+        {
+          "name": "VTuberized Logos",
+          "url": "https://vtuber-style-logos.vercel.app/",
+          "description": "VTuber Style Logos"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-mac-video-toolshttpswwwredditcomrfreemediaheckyeahwikilinuxwiki25b7macvideo",
+      "title": "Mac 動画 ツール",
+      "resources": [
+        {
+          "name": "Awesome Video",
+          "url": "https://github.com/krzemienski/awesome-video",
+          "description": "Video Streaming Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Video Help",
+          "url": "https://www.videohelp.com/software/sections/video-players?orderby=Rating",
+          "description": "Video Player Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "MPC-HC",
+          "url": "https://github.com/clsid2/mpc-hc/",
+          "description": "Video Player / YT-DL Support / OpenSubtitles Bypass",
+          "starred": true
+        },
+        {
+          "name": "MPC-QT",
+          "url": "https://mpc-qt.github.io/",
+          "description": "Video Player / YT-DL Support / OpenSubtitles Bypass"
+        },
+        {
+          "name": "MPC-BE",
+          "url": "https://sourceforge.net/projects/mpcbe/",
+          "description": "Video Player / YT-DL Support / OpenSubtitles Bypass"
+        },
+        {
+          "name": "MPV",
+          "url": "https://mpv.io/",
+          "description": "Video Player / Custom Builder / Frontends",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "VLC",
+          "url": "https://www.videolan.org/",
+          "description": "Video Player",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "FastStream",
+          "url": "https://faststream.online/",
+          "description": "Fragmentation Streaming Extension",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "OpenVideo",
+          "url": "https://openvideofs.github.io",
+          "description": "Use Streaming Sites in Ad-Free Player with Subs, Speed Control & More",
+          "starred": true
+        },
+        {
+          "name": "Stream-Bypass",
+          "url": "https://github.com/ByteDream/stream-bypass",
+          "description": "Use Streaming Sites in Ad-Free Player with Subs, Speed Control & More"
+        },
+        {
+          "name": "Codec Guide",
+          "url": "https://www.codecguide.com/",
+          "description": "Video Player Codec Collections"
+        },
+        {
+          "name": "ALF FreeWare VideoCODECs",
+          "url": "https://codec.kyiv.ua/",
+          "description": "Video Player Codec Collections"
+        },
+        {
+          "name": "Free-Codecs",
+          "url": "https://www.free-codecs.com/",
+          "description": "Video Player Codec Collections"
+        },
+        {
+          "name": "Screenbox",
+          "url": "https://github.com/huynhsontung/Screenbox",
+          "description": "Video Player"
+        },
+        {
+          "name": "AVPlayer",
+          "url": "http://www.awesomevideoplayer.com/",
+          "description": "Multi-Video Players"
+        },
+        {
+          "name": "ICAT",
+          "url": "https://www.nvidia.com/en-us/geforce/technologies/icat/",
+          "description": "Multi-Video Players"
+        },
+        {
+          "name": "GridPlayer",
+          "url": "https://github.com/vzhd1701/gridplayer",
+          "description": "Multi-Video Players"
+        },
+        {
+          "name": "SPlayer",
+          "url": "https://www.splayer.org/",
+          "description": "Video Player with Smart Translation"
+        },
+        {
+          "name": "PotPlayer",
+          "url": "https://potplayer.tv/",
+          "description": "Video Player / Twitch Addon / YouTube Addon"
+        },
+        {
+          "name": "ImPlay",
+          "url": "https://github.com/tsl0922/ImPlay",
+          "description": "Video Player"
+        },
+        {
+          "name": "SMPlayer",
+          "url": "https://www.smplayer.info/",
+          "description": "Video Player / YouTube",
+          "tags": [
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://sourceforge.net/projects/smplayer/"
+          ]
+        },
+        {
+          "name": "uView",
+          "url": "https://www.idruf.com/",
+          "description": "Video Player"
+        },
+        {
+          "name": "Rise Media Player",
+          "url": "https://github.com/Rise-Software/Rise-Media-Player",
+          "description": "Video Player"
+        },
+        {
+          "name": "Flyleaf",
+          "url": "https://github.com/SuRGeoNix/Flyleaf",
+          "description": "Video Player"
+        },
+        {
+          "name": "MoonPlayer",
+          "url": "https://github.com/coslyk/moonplayer",
+          "description": "Video Player"
+        },
+        {
+          "name": "KikoPlay",
+          "url": "https://kikoplay.fun/",
+          "description": "Video Player"
+        },
+        {
+          "name": "Plyr",
+          "url": "https://plyr.io/",
+          "description": "Online HTML5, YouTube and Vimeo Player",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠panoptic",
+          "url": "https://panoptic.live/",
+          "description": "Watch Multiple Live Streams At Once"
+        },
+        {
+          "name": "MotionMonkey",
+          "url": "https://omega.gg/MotionMonkey/",
+          "description": "Stream Online Videos in Player"
+        },
+        {
+          "name": "⁠Private Video Sharing",
+          "url": "https://privatevideosharing.com/",
+          "description": "P2P Video Streaming / Temp Files"
+        },
+        {
+          "name": "StreamLink",
+          "url": "https://streamlink.github.io/",
+          "description": "Extract Videos from Sites to Players / Twitch Adblock",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "polsy.org.uk",
+          "url": "https://polsy.org.uk/",
+          "description": "Alt Players for Video Sites"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-stream-sync",
+      "title": "ストリーム同期",
+      "resources": [
+        {
+          "name": "SyncPlay",
+          "url": "https://syncplay.pl/",
+          "description": "App",
+          "starred": true
+        },
+        {
+          "name": "Watch2Gether",
+          "url": "https://w2g.tv/",
+          "description": "Online Player",
+          "starred": true
+        },
+        {
+          "name": "SyncWatch",
+          "url": "https://github.com/Semro/syncwatch",
+          "description": "Online Extension",
+          "starred": true
+        },
+        {
+          "name": "Kosmi",
+          "url": "https://kosmi.io/",
+          "description": "Online Player",
+          "starred": true
+        },
+        {
+          "name": "WatchParty",
+          "url": "https://www.watchparty.me/",
+          "description": "Online / Virtual Browser",
+          "starred": true
+        },
+        {
+          "name": "neko",
+          "url": "https://neko.m1k1o.net/",
+          "description": "Docker Virtual Browser",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "HyperBeam",
+          "url": "https://hyperbeam.com/",
+          "description": "Virtual Computer Embed"
+        },
+        {
+          "name": "VIP",
+          "url": "https://greasyfork.org/en/scripts/457795",
+          "description": "Virtual Computer Embed"
+        },
+        {
+          "name": "OpenTogetherTube",
+          "url": "https://opentogethertube.com/",
+          "description": "Online Player"
+        },
+        {
+          "name": "TurtleTV",
+          "url": "https://turtletv.app/",
+          "description": "Online Player"
+        },
+        {
+          "name": "twoseven",
+          "url": "https://twoseven.xyz/",
+          "description": "Online Player"
+        },
+        {
+          "name": "Metastream",
+          "url": "https://getmetastream.com/",
+          "description": "Online Extension / X",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Caracal Club",
+          "url": "https://caracal.club/",
+          "description": "Online Player"
+        },
+        {
+          "name": "CyTube",
+          "url": "https://cytu.be/",
+          "description": "Online Player"
+        },
+        {
+          "name": "⁠CinevoSync",
+          "url": "https://sync.cinevo.site/",
+          "description": "Online Player"
+        },
+        {
+          "name": "VideoTogether",
+          "url": "https://2gether.video/en-us/",
+          "description": "App"
+        },
+        {
+          "name": "baked.live",
+          "url": "https://baked.live/",
+          "description": "Online Player"
+        },
+        {
+          "name": "Rave.io",
+          "url": "https://rave.io/",
+          "description": "Online Extension"
+        },
+        {
+          "name": "MovieNight",
+          "url": "https://github.com/zorchenhimer/MovieNight",
+          "description": "Docker"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/F2VSgjJ",
+          "description": "Docker"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-mpv-tools",
+      "title": "MPV ツール",
+      "resources": [
+        {
+          "name": "⁠Awesome-MPV",
+          "url": "https://github.com/stax76/awesome-mpv",
+          "description": "MPV Tools / Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "igv's shaders",
+          "url": "https://gist.github.com/igv",
+          "description": "Various Shaders",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "MPV Config Guide",
+          "url": "https://thewiki.moe/tutorials/mpv/",
+          "description": "",
+          "mirrors": [
+            "https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/",
+            "https://hooke007-github-io.translate.goog/unofficial/index.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp"
+          ]
+        },
+        {
+          "name": "ModernX",
+          "url": "https://github.com/cyl0/ModernX",
+          "description": "Alt User Interfaces"
+        },
+        {
+          "name": "tethys",
+          "url": "https://github.com/Zren/mpv-osc-tethys",
+          "description": "Alt User Interfaces"
+        },
+        {
+          "name": "uosc",
+          "url": "https://github.com/tomasklaen/uosc",
+          "description": "Alt User Interfaces"
+        },
+        {
+          "name": "Simple MPV WebUI",
+          "url": "https://github.com/open-dynaMIX/simple-mpv-webui",
+          "description": "WebUI Controller"
+        },
+        {
+          "name": "MPV Context Menu",
+          "url": "https://gitlab.com/carmanaught/mpvcontextmenu",
+          "description": ""
+        },
+        {
+          "name": "MPV Scripts",
+          "url": "https://github.com/mpv-player/mpv/wiki/User-Scripts",
+          "description": "Userscripts"
+        },
+        {
+          "name": "VideoClip",
+          "url": "https://github.com/Ajatt-Tools/videoclip",
+          "description": "Clip Tool",
+          "mirrors": [
+            "https://github.com/f0e/mpv-lossless-cut"
+          ]
+        },
+        {
+          "name": "MPV WebM",
+          "url": "https://github.com/ekisu/mpv-webm",
+          "description": "WebM Tool"
+        },
+        {
+          "name": "Play With MPV",
+          "url": "https://greasyfork.org/en/scripts/416271",
+          "description": "Open Videos with MPV"
+        },
+        {
+          "name": "ff2mpv",
+          "url": "https://github.com/woodruffw/ff2mpv",
+          "description": "Open Videos with MPV"
+        },
+        {
+          "name": "MPV WebTorrent Hook",
+          "url": "https://github.com/noctuid/mpv-webtorrent-hook",
+          "description": "Torrent Streaming"
+        },
+        {
+          "name": "AutoSubSync MPV",
+          "url": "https://github.com/joaquintorres/autosubsync-mpv",
+          "description": "Sub Sync"
+        },
+        {
+          "name": "MPV SponsorBlock",
+          "url": "https://github.com/po5/mpv_sponsorblock",
+          "description": "SponsorBlock for MPV",
+          "mirrors": [
+            "https://codeberg.org/jouni/mpv_sponsorblock_minimal"
+          ]
+        },
+        {
+          "name": "ThumbFast",
+          "url": "https://github.com/po5/thumbfast",
+          "description": "MPV Thumbnails"
+        },
+        {
+          "name": "ArtCNN",
+          "url": "https://github.com/Artoriuz/ArtCNN",
+          "description": "Anime Upscaling"
+        },
+        {
+          "name": "AniSD",
+          "url": "https://github.com/Sirosky/Upscale-Hub/releases/tag/AniSD-ArtCNN",
+          "description": "Anime Upscaling"
+        },
+        {
+          "name": "Ani4k",
+          "url": "https://github.com/Sirosky/Upscale-Hub/releases/tag/Ani4k-v2-ArtCNN",
+          "description": "Anime Upscaling"
+        },
+        {
+          "name": "FSR",
+          "url": "https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5",
+          "description": "AMD FidelityFX port"
+        },
+        {
+          "name": "CAS",
+          "url": "https://gist.github.com/agyild/bbb4e58298b2f86aa24da3032a0d2ee6",
+          "description": "AMD FidelityFX port"
+        },
+        {
+          "name": "MPV Prescalers",
+          "url": "https://github.com/bjin/mpv-prescalers/",
+          "description": "NNEDI / RAVU Upscaling"
+        },
+        {
+          "name": "GLSL CFL Prediction",
+          "url": "https://github.com/Artoriuz/glsl-chroma-from-luma-prediction",
+          "description": "Chroma Upscaling"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-vlc-tools",
+      "title": "VLC ツール",
+      "resources": [
+        {
+          "name": "Awesome VLC",
+          "url": "https://github.com/mfkl/awesome-vlc",
+          "description": "VLC Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "VLSub",
+          "url": "https://github.com/exebetche/vlsub",
+          "description": "Sub Downloader"
+        },
+        {
+          "name": "VLC Slow Seek Fix",
+          "url": "https://redd.it/os6f1q",
+          "description": ""
+        },
+        {
+          "name": "Jellyfin",
+          "url": "https://jellyfin.org/",
+          "description": "Media Server / Matrix",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Kodi",
+          "url": "https://kodi.tv/",
+          "description": "Media Server",
+          "starred": true
+        },
+        {
+          "name": "Xbox Kodi",
+          "url": "https://apps.microsoft.com/detail/9nblggh4t892",
+          "description": "Media Server"
+        },
+        {
+          "name": "TRaSH Guides",
+          "url": "https://trash-guides.info/",
+          "description": "Server Setup Guides"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/4K2kdvwzFh",
+          "description": "Server Setup Guides"
+        },
+        {
+          "name": "The Complete Guide",
+          "url": "https://redd.it/pqsomd",
+          "description": "Server Setup Guides"
+        },
+        {
+          "name": "Self-Hosted Anime",
+          "url": "https://github.com/shyonae/selfhosted-anime/wiki",
+          "description": "Anime Server Setup Guides"
+        },
+        {
+          "name": "Prowlarr",
+          "url": "https://prowlarr.com/",
+          "description": "Autodownload Tools"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Prowlarr/Prowlarr",
+          "description": "Autodownload Tools"
+        },
+        {
+          "name": "FlexGet",
+          "url": "https://flexget.com/",
+          "description": "Autodownload Tools"
+        },
+        {
+          "name": "r/softwarr",
+          "url": "https://reddit.com/r/softwarr",
+          "description": "Autodownload Tools"
+        },
+        {
+          "name": "Reiverr",
+          "url": "https://github.com/aleksilassila/reiverr",
+          "description": "Media Server Manager"
+        },
+        {
+          "name": "Fixarr",
+          "url": "https://github.com/sachinsenal0x64/fixarr",
+          "description": "Media Server File Renamer"
+        },
+        {
+          "name": "HTPC Download Box",
+          "url": "https://github.com/sebgl/htpc-download-box",
+          "description": "Media Server Automation"
+        },
+        {
+          "name": "Huntarr",
+          "url": "https://github.com/plexguide/Huntarr.io",
+          "description": "Automate Media Server Missing Content / Quality Upgrades",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Seanime",
+          "url": "https://seanime.app/",
+          "description": "Anime Server"
+        },
+        {
+          "name": "Plex",
+          "url": "https://www.plex.tv/",
+          "description": "Media Server"
+        },
+        {
+          "name": "DMS",
+          "url": "https://github.com/anacrolix/dms",
+          "description": "Media Server"
+        },
+        {
+          "name": "Emby",
+          "url": "https://emby.media/",
+          "description": "Media Server"
+        },
+        {
+          "name": "Universal Media Server",
+          "url": "https://www.universalmediaserver.com/",
+          "description": "Media Server"
+        },
+        {
+          "name": "OSMC",
+          "url": "https://osmc.tv/",
+          "description": "Media Server"
+        },
+        {
+          "name": "Kawaii-Player",
+          "url": "https://github.com/kanishka-linux/kawaii-player",
+          "description": "Media Server"
+        },
+        {
+          "name": "Streama",
+          "url": "https://github.com/streamaserver/streama",
+          "description": "Media Server"
+        },
+        {
+          "name": "Gerbera",
+          "url": "https://gerbera.io/",
+          "description": "Media Server"
+        },
+        {
+          "name": "Homehost",
+          "url": "https://github.com/ridhwaans/homehost",
+          "description": "Media Server"
+        },
+        {
+          "name": "Dim",
+          "url": "https://github.com/Dusk-Labs/dim",
+          "description": "Media Server"
+        },
+        {
+          "name": "Kyoo",
+          "url": "https://github.com/zoriya/Kyoo",
+          "description": "Media Server"
+        },
+        {
+          "name": "Chocolate",
+          "url": "https://github.com/ChocolateApp/Chocolate",
+          "description": "Media Server"
+        },
+        {
+          "name": "Media-Hoarder",
+          "url": "https://github.com/theMK2k/Media-Hoarder",
+          "description": "Media Catalog Frontend"
+        },
+        {
+          "name": "Frames",
+          "url": "https://github.com/Eleven-am/frames",
+          "description": "Google Drive Server"
+        },
+        {
+          "name": "HTPC",
+          "url": "https://r-htpc.github.io/wiki/",
+          "description": "Home Theater PC guides",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "MSX",
+          "url": "https://msx.benzac.de/info/",
+          "description": "Web App"
+        },
+        {
+          "name": "Tunarr",
+          "url": "https://tunarr.com/",
+          "description": "Custom Live Channel Servers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/chrisbenincasa/tunarr/",
+          "description": "Custom Live Channel Servers"
+        },
+        {
+          "name": "ErsatzTV",
+          "url": "https://ersatztv.org/",
+          "description": "Custom Live Channel Servers"
+        },
+        {
+          "name": "dizqueTV",
+          "url": "https://github.com/vexorian/dizquetv",
+          "description": "Custom Live Channel Servers"
+        },
+        {
+          "name": "⁠YAMS",
+          "url": "https://yams.media/",
+          "description": "Linux Media Server Auto-Install Script"
+        },
+        {
+          "name": "ansible-hms-docker",
+          "url": "https://github.com/ahembree/ansible-hms-docker",
+          "description": "Automated Docker Media Server Setups"
+        },
+        {
+          "name": "DockSTARTer",
+          "url": "https://github.com/GhostWriters/DockSTARTer",
+          "description": "Automated Docker Media Server Setups"
+        },
+        {
+          "name": "Jellyseerr",
+          "url": "https://github.com/Fallenbagel/jellyseerr",
+          "description": "User Request Management"
+        },
+        {
+          "name": "Mobile",
+          "url": "https://github.com/jellyseerr/mobile-app",
+          "description": "User Request Management"
+        },
+        {
+          "name": "Ombi",
+          "url": "https://github.com/Ombi-app/Ombi",
+          "description": "User Request Management"
+        },
+        {
+          "name": "Dispatcharr",
+          "url": "https://github.com/Dispatcharr/Dispatcharr",
+          "description": "IPTV Playlist Managers for Servers"
+        },
+        {
+          "name": "⁠tuliprox",
+          "url": "https://github.com/euzu/tuliprox",
+          "description": "IPTV Playlist Managers for Servers"
+        },
+        {
+          "name": "YTDL-Sub",
+          "url": "https://ytdl-sub.readthedocs.io/en/",
+          "description": "Add YouTube Channels to Media Servers",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "xTeVe",
+          "url": "https://github.com/xteve-project/xTeVe",
+          "description": "Plex / Emby M3U Proxy"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-plex-tools",
+      "title": "Plex ツール",
+      "resources": [
+        {
+          "name": "Reddit Guide",
+          "url": "https://redd.it/ma1hlm",
+          "description": "Plex Setup Guides"
+        },
+        {
+          "name": "Tautulli",
+          "url": "https://tautulli.com/",
+          "description": "Server Monitor / Note"
+        },
+        {
+          "name": "SuperPlex",
+          "url": "https://normantheidiot.neocities.org/superplex/",
+          "description": "Plex Plugins"
+        },
+        {
+          "name": "Kitana",
+          "url": "https://github.com/pannal/Kitana",
+          "description": "Plugin Frontend"
+        },
+        {
+          "name": "Reaparr",
+          "url": "https://www.reaparr.rocks/",
+          "description": "Merge Plex Libraries w / Your Own"
+        },
+        {
+          "name": "PlexDrive",
+          "url": "https://github.com/plexdrive/plexdrive",
+          "description": "Mount Google Drive"
+        },
+        {
+          "name": "mergerfs",
+          "url": "https://docs.ultra.cc/books/rclone/page/rclone-vfs-and-mergerfs-setup",
+          "description": "Mount Google Drive"
+        },
+        {
+          "name": "SyncLounce",
+          "url": "https://synclounge.tv/",
+          "description": "Media Sync"
+        },
+        {
+          "name": "PseudoTV",
+          "url": "https://github.com/DEFENDORe/pseudotv",
+          "description": "Create TV Channels"
+        },
+        {
+          "name": "Overseerr",
+          "url": "https://overseerr.dev/",
+          "description": "User Requests / IMDb Extension"
+        },
+        {
+          "name": "Pasta Tool",
+          "url": "https://www.pastatool.com/",
+          "description": "Audio / Sub Changer"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-jellyfin-tools",
+      "title": "Jellyfin ツール",
+      "resources": [
+        {
+          "name": "Awesome Jellyfin",
+          "url": "https://github.com/awesome-jellyfin/awesome-jellyfin",
+          "description": "Jellyfin Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Fladder",
+          "url": "https://github.com/DonutWare/Fladder/",
+          "description": "Desktop Client / Windows, Mac, Linux, Android, iOS",
+          "starred": true
+        },
+        {
+          "name": "Blink",
+          "url": "https://github.com/prayag17/Blink",
+          "description": "Desktop Client"
+        },
+        {
+          "name": "jellyfin-media-player",
+          "url": "https://github.com/jellyfin/jellyfin-media-player",
+          "description": "Desktop Client"
+        },
+        {
+          "name": "Findroid",
+          "url": "https://github.com/jarnedemeulemeester/findroid",
+          "description": "JellyFin Android Clients"
+        },
+        {
+          "name": "Streamyfin",
+          "url": "https://github.com/streamyfin/streamyfin",
+          "description": "JellyFin Android Clients"
+        },
+        {
+          "name": "Jellyfin Forum",
+          "url": "https://forum.jellyfin.org/",
+          "description": "Official Jellyfin Forum"
+        },
+        {
+          "name": "Jellyfin Vue",
+          "url": "https://github.com/jellyfin/jellyfin-vue",
+          "description": "Jellyfin Web Client"
+        },
+        {
+          "name": "Jellyfin \"arr\" Setup Guide",
+          "url": "https://www.fuzzygrim.com/posts/media-server",
+          "description": ""
+        },
+        {
+          "name": "Jellyfin Customization Guide",
+          "url": "https://youtu.be/F85qMyBeiDI",
+          "description": ""
+        },
+        {
+          "name": "Jellyfin Themes",
+          "url": "https://jellyfin.org/docs/general/clients/css-customization/#community-themes",
+          "description": ""
+        },
+        {
+          "name": "Jellyfin RPC",
+          "url": "https://github.com/Radiicall/jellyfin-rpc",
+          "description": "Jellyfin Discord Rich Presence"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-kodi-tools",
+      "title": "Kodi ツール",
+      "resources": [
+        {
+          "name": "Elementum",
+          "url": "https://elementum.surge.sh/",
+          "description": "Torrent Streaming / Trakt Sync / Similar to Stremio + Torrentio",
+          "starred": true
+        },
+        {
+          "name": "EverythingKodi",
+          "url": "https://rumble.com/c/EverythingKodi",
+          "description": "Kodi Addon Tutorials"
+        },
+        {
+          "name": "Kodi Builds Chart",
+          "url": "https://kodiapps.com/builds-chart",
+          "description": ""
+        },
+        {
+          "name": "r/Addons4Kodi",
+          "url": "https://www.reddit.com/r/Addons4Kodi/",
+          "description": "Kodi Addons"
+        },
+        {
+          "name": "Tracker",
+          "url": "https://kinkeadtech.com/best-kodi-streaming-addons/",
+          "description": "Kodi Addons"
+        },
+        {
+          "name": "Trending",
+          "url": "https://kodiapps.com/addons-chart",
+          "description": "Kodi Addons"
+        },
+        {
+          "name": "⁠TroyPoint",
+          "url": "https://troypoint.com/",
+          "description": "Kodi Addons"
+        },
+        {
+          "name": "Kodi Skins",
+          "url": "https://kodi.tv/addons/omega/category/skins/",
+          "description": "Kodi Skins"
+        },
+        {
+          "name": "WIP Skins",
+          "url": "https://forum.kodi.tv/forumdisplay.php?fid=160",
+          "description": "Kodi Skins"
+        },
+        {
+          "name": "Synko",
+          "url": "https://github.com/Skaytacium/synko",
+          "description": "Kodi Stream Sync"
+        },
+        {
+          "name": "Plex Kodi Connect",
+          "url": "https://github.com/croneter/PlexKodiConnect",
+          "description": "Plex for Kodi"
+        },
+        {
+          "name": "plex-for-kodi",
+          "url": "https://github.com/pannal/plex-for-kodi",
+          "description": "Plex for Kodi"
+        },
+        {
+          "name": "quasar",
+          "url": "https://quasar.surge.sh/",
+          "description": "Torrent Plugin"
+        },
+        {
+          "name": "IPTV Client",
+          "url": "https://kodi.wiki/view/Add-on:PVR_IPTV_Simple_Client",
+          "description": ""
+        },
+        {
+          "name": "Simkl",
+          "url": "https://simkl.com/",
+          "description": "Media Tracker"
+        },
+        {
+          "name": "tinyMediaManager",
+          "url": "https://www.tinymediamanager.org/",
+          "description": "Media Collection Managers"
+        },
+        {
+          "name": "MediaElch",
+          "url": "https://www.kvibes.de/mediaelch/",
+          "description": "Media Collection Managers"
+        },
+        {
+          "name": "yt-dlp",
+          "url": "https://github.com/yt-dlp/yt-dlp",
+          "description": "Multi-Site / Commands",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "YTDL-PATCHED",
+          "url": "https://github.com/ytdl-patched/ytdl-patched",
+          "description": "Multi-Site / Commands",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "cobalt",
+          "url": "https://cobalt.tools/",
+          "description": "Multi-Site / Online / Instances / Playlist Support / X",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "9xbuddy",
+          "url": "https://9xbuddy.com/",
+          "description": "Multi-Site / Online",
+          "starred": true,
+          "mirrors": [
+            "https://9xbuddy.site/",
+            "https://9xbuddy.in/"
+          ]
+        },
+        {
+          "name": "Video DownloadHelper",
+          "url": "https://www.downloadhelper.net/",
+          "description": "Extensions",
+          "starred": true
+        },
+        {
+          "name": "Note",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/video-downloadhelper.md",
+          "description": "Extensions"
+        },
+        {
+          "name": "FetchV",
+          "url": "https://fetchv.net/",
+          "description": "Extensions"
+        },
+        {
+          "name": "MPMux",
+          "url": "https://mpmux.com/",
+          "description": "Extensions"
+        },
+        {
+          "name": "CD(R)M-Project",
+          "url": "https://cdm-project.com/explore/repos",
+          "description": "DRM Tools",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠VideoDL",
+          "url": "https://github.com/CharlesPikachu/videodl",
+          "description": "Multi-Site"
+        },
+        {
+          "name": "VideoFK",
+          "url": "https://www.videofk.com/",
+          "description": "Multi-Site / Online"
+        },
+        {
+          "name": "⁠OFA Downloader",
+          "url": "https://oneforalldownloader.com/",
+          "description": "Multi-Site / Online"
+        },
+        {
+          "name": "you-get",
+          "url": "https://you-get.org/",
+          "description": "Multi-Site / CLI",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Hitomi Downloader",
+          "url": "https://github.com/KurtBestor/Hitomi-Downloader",
+          "description": "Multi-Site / Software"
+        },
+        {
+          "name": "SCrawler",
+          "url": "https://github.com/AAndyProgram/SCrawler",
+          "description": "Multi-Site / Software",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Musvkrobot",
+          "url": "https://t.me/musvkrobot",
+          "description": "Multi-Site / Telegram Bot"
+        },
+        {
+          "name": "SSSTik",
+          "url": "https://ssstik.io/",
+          "description": "TikTok"
+        },
+        {
+          "name": "myfaveTT",
+          "url": "https://myfavett.com/",
+          "description": "TikTok"
+        },
+        {
+          "name": "tiktok-to-ytdlp",
+          "url": "https://github.com/Dinoosauro/tiktok-to-ytdlp",
+          "description": "TikTok"
+        },
+        {
+          "name": "Threads Downloader",
+          "url": "https://threadsdownloader.com/",
+          "description": "Threads"
+        },
+        {
+          "name": "Piner",
+          "url": "https://piner.io/",
+          "description": "Pinterest / Online"
+        },
+        {
+          "name": "hls-downloader",
+          "url": "https://github.com/puemos/hls-downloader",
+          "description": "HLS Downloaders"
+        },
+        {
+          "name": "hls extension",
+          "url": "https://webextension.org/listing/hls-downloader.html",
+          "description": "HLS Downloaders"
+        },
+        {
+          "name": "hlsloader",
+          "url": "https://www.hlsloader.com/",
+          "description": "HLS Downloaders"
+        },
+        {
+          "name": "GetWVKeys",
+          "url": "https://getwvkeys.cc/",
+          "description": "Send Widevine Requests",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "r/VideoEditing",
+          "url": "https://www.reddit.com/r/VideoEditing/",
+          "description": "Video Editing Subreddit / Wiki",
+          "starred": true
+        },
+        {
+          "name": "Eyecandy",
+          "url": "https://eyecannndy.com/",
+          "description": "Visual Technique Examples",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Waifu2x GUI",
+          "url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI",
+          "description": "Video Upscaling",
+          "starred": true
+        },
+        {
+          "name": "⁠TheAnimeScripter",
+          "url": "https://github.com/NevermindNilas/TheAnimeScripter",
+          "description": "Video Upscaling"
+        },
+        {
+          "name": "Video2x",
+          "url": "https://github.com/k4yt3x/video2x",
+          "description": "Video Upscaling"
+        },
+        {
+          "name": "Enhancr",
+          "url": "https://github.com/mafiosnik777/enhancr",
+          "description": "Video Upscaling"
+        },
+        {
+          "name": "Lossless Scaling",
+          "url": "https://fmhy.net/gaming#download-games",
+          "description": "Video Upscaling"
+        },
+        {
+          "name": "Dandere2x",
+          "url": "https://github.com/akai-katto/dandere2x",
+          "description": "Video Upscaling"
+        },
+        {
+          "name": "Codecs and Containers",
+          "url": "https://www.reddit.com/r/VideoEditing/wiki/codecsandcontainers",
+          "description": "Info on Codecs & Containers"
+        },
+        {
+          "name": "VideoHelp Forum",
+          "url": "https://forum.videohelp.com/forums/2-Video",
+          "description": "Video Editing Forums"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-video-editors",
+      "title": "動画エディタ",
+      "resources": [
+        {
+          "name": "Kdenlive",
+          "url": "https://kdenlive.org/en/",
+          "description": "Video Editor",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "DaVinci Resolve",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+          "description": "Video Editor / Requires Sign-Up (Fake Info Works) / Subtitle Generator",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "LosslessCut",
+          "url": "https://github.com/mifi/lossless-cut",
+          "description": "Single Video Editor",
+          "starred": true
+        },
+        {
+          "name": "Shotcut",
+          "url": "https://shotcut.org/",
+          "description": "Video Editor",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Satvrn",
+          "url": "https://rentry.co/FMHYB64#satvrn",
+          "description": "Video Editors / Plugins"
+        },
+        {
+          "name": "Auto-Editor",
+          "url": "https://auto-editor.com/",
+          "description": "CLI Editor"
+        },
+        {
+          "name": "MoviePy",
+          "url": "https://zulko.github.io/moviepy/",
+          "description": "Python Editor"
+        },
+        {
+          "name": "Webm Generator",
+          "url": "https://github.com/dfaker/WebmGenerator",
+          "description": "Webm Editor"
+        },
+        {
+          "name": "avisynth",
+          "url": "http://avisynth.nl/index.php/Main_Page",
+          "description": "Video Processors"
+        },
+        {
+          "name": "VapourSynth",
+          "url": "https://www.vapoursynth.com/",
+          "description": "Video Processors"
+        },
+        {
+          "name": "Source Filmmaker",
+          "url": "https://store.steampowered.com/app/1840/Source_Filmmaker/",
+          "description": "Steam Movie-Making Tool / Resources"
+        },
+        {
+          "name": "OpenRV",
+          "url": "https://github.com/AcademySoftwareFoundation/OpenRV",
+          "description": "Image / Sequence Playback Review"
+        },
+        {
+          "name": "Remotion",
+          "url": "https://www.remotion.dev/",
+          "description": "Video Editor"
+        },
+        {
+          "name": "Olive",
+          "url": "https://www.olivevideoeditor.org/",
+          "description": "Video Editor"
+        },
+        {
+          "name": "EZVid",
+          "url": "https://www.ezvid.com/",
+          "description": "Video Editor"
+        },
+        {
+          "name": "OpenShot",
+          "url": "https://www.openshot.org/",
+          "description": "Video Editor"
+        },
+        {
+          "name": "Lightworks",
+          "url": "https://lwks.com/",
+          "description": "Video Editor"
+        },
+        {
+          "name": "VSDC",
+          "url": "https://www.videosoftdev.com/",
+          "description": "Video Editor"
+        },
+        {
+          "name": "Pitivi",
+          "url": "https://www.pitivi.org/",
+          "description": "Video Editor"
+        },
+        {
+          "name": "Visla",
+          "url": "https://www.visla.us/",
+          "description": "Video Editor"
+        },
+        {
+          "name": "Windows Movie Maker",
+          "url": "https://www.majorgeeks.com/files/details/windows_movie_maker.html",
+          "description": "Video Editor",
+          "mirrors": [
+            "https://archive.org/details/mm26enu_202002",
+            "https://archive.org/details/MM2.1And2.6_201903"
+          ]
+        },
+        {
+          "name": "Avidemux",
+          "url": "http://fixounet.free.fr/avidemux/",
+          "description": "Cut / Filter / Encode"
+        },
+        {
+          "name": "suckless-cut",
+          "url": "https://github.com/couleur-tweak-tips/suckless-cut",
+          "description": "Cut / Trim Videos"
+        },
+        {
+          "name": "vidcutter",
+          "url": "https://github.com/ozmartian/vidcutter",
+          "description": "Cut / Trim Videos"
+        },
+        {
+          "name": "Opus",
+          "url": "https://www.opus.pro/",
+          "description": "Clip Creator"
+        },
+        {
+          "name": "Kurku",
+          "url": "https://app.kurku.tech/",
+          "description": "Motion Tracking Tools"
+        },
+        {
+          "name": "FreeMoCap",
+          "url": "https://freemocap.org/",
+          "description": "Motion Tracking Tools"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-online-editors",
+      "title": "オンラインエディタ",
+      "resources": [
+        {
+          "name": "wide.video",
+          "url": "https://wide.video/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/Q54kW97yj5",
+          "description": ""
+        },
+        {
+          "name": "Pikimov",
+          "url": "https://pikimov.com/",
+          "description": "Use Edge or Chrome",
+          "starred": true
+        },
+        {
+          "name": "Mastershot",
+          "url": "https://mastershot.app/",
+          "description": "Requires Sign-Up",
+          "starred": true
+        },
+        {
+          "name": "Klippy",
+          "url": "https://www.klippy.pro/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/xJVXbQVPZP",
+          "description": ""
+        },
+        {
+          "name": "Panzoid",
+          "url": "https://panzoid.com/",
+          "description": ""
+        },
+        {
+          "name": "vidmix",
+          "url": "https://vidmix.app/",
+          "description": ""
+        },
+        {
+          "name": "Video Cutter",
+          "url": "https://video-cutter-js.com/",
+          "description": ""
+        },
+        {
+          "name": "Omniclip",
+          "url": "https://omniclip.app/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/Nr8t9s5wSM",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/omni-media/omniclip",
+          "description": ""
+        },
+        {
+          "name": "Cuttr",
+          "url": "https://cuttr.in/",
+          "description": "Transcription Based Editor"
+        },
+        {
+          "name": "Vididoo",
+          "url": "https://vididoo.vercel.app/",
+          "description": "Multitool"
+        },
+        {
+          "name": "VideoCandy",
+          "url": "https://videocandy.com/",
+          "description": "Multitool"
+        },
+        {
+          "name": "Video2Edit",
+          "url": "https://www.video2edit.com/",
+          "description": "Multitool"
+        },
+        {
+          "name": "Crop Video",
+          "url": "https://crop-video.com/",
+          "description": "Crop Videos"
+        },
+        {
+          "name": "LoopVid",
+          "url": "https://loopvid.kastden.org/",
+          "description": "Loop Videos"
+        },
+        {
+          "name": "Crossfade",
+          "url": "https://crossfade.io/",
+          "description": "Video / Audio Crossfading"
+        },
+        {
+          "name": "VidLouder",
+          "url": "https://www.videolouder.com/",
+          "description": "Increase Video Volume"
+        },
+        {
+          "name": "Convert2Video",
+          "url": "https://convert2video.com/",
+          "description": "Image / Audio to Video"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-effects-enhancements",
+      "title": "エフェクト / 拡張",
+      "resources": [
+        {
+          "name": "Efecto",
+          "url": "https://efecto.app/",
+          "description": "Online Video Effects",
+          "starred": true
+        },
+        {
+          "name": "effect.app",
+          "url": "https://effect.app/",
+          "description": "Online Video Effects"
+        },
+        {
+          "name": "Video Enhance AI",
+          "url": "https://lrepacks.net/repaki-programm-dlya-grafiki/",
+          "description": "Video Enhancement Tool / Search \"Topaz\" on LR"
+        },
+        {
+          "name": "Gyroflow",
+          "url": "https://gyroflow.xyz/",
+          "description": "Video Stabilization"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/gyroflow/gyroflow",
+          "description": "Video Stabilization"
+        },
+        {
+          "name": "ComfyUI-Video-Stabilizer",
+          "url": "https://github.com/nomadoor/ComfyUI-Video-Stabilizer",
+          "description": "Video Stabilization"
+        },
+        {
+          "name": "Flowframes",
+          "url": "https://nmkd.itch.io/flowframes",
+          "description": "Video Interpolation / Increase FPS"
+        },
+        {
+          "name": "Beta",
+          "url": "https://kemono.cr/patreon/user/19695417",
+          "description": "Video Interpolation / Increase FPS"
+        },
+        {
+          "name": "SVP",
+          "url": "https://www.svp-team.com/",
+          "description": "Video Interpolation / Increase FPS"
+        },
+        {
+          "name": "Guide",
+          "url": "https://www.svp-team.com/wiki/Manual:SVPcode",
+          "description": "Video Interpolation / Increase FPS"
+        },
+        {
+          "name": "VideoColorizerColab",
+          "url": "https://colab.research.google.com/github/jantic/DeOldify/blob/master/VideoColorizerColab.ipynb",
+          "description": "Video Colorization Colab"
+        },
+        {
+          "name": "OpenColorIO",
+          "url": "https://opencolorio.org/",
+          "description": "Video Color Manager"
+        },
+        {
+          "name": "FreshLUTs",
+          "url": "https://freshluts.com/",
+          "description": "Free LUTs (Color Filters)"
+        },
+        {
+          "name": "blur",
+          "url": "https://github.com/f0e/blur",
+          "description": "Add Motion Blur to Videos / Tutorial"
+        },
+        {
+          "name": "Smoothie",
+          "url": "https://github.com/couleur-tweak-tips/smoothie-rs",
+          "description": "Add Motion Blur to Videos / Tutorial"
+        },
+        {
+          "name": "ProPainter",
+          "url": "https://github.com/sczhou/ProPainter",
+          "description": "Video Inpainting"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-vfx-sites",
+      "title": "VFXサイト",
+      "resources": [
+        {
+          "name": "FootageCrate",
+          "url": "https://footagecrate.com/",
+          "description": ""
+        },
+        {
+          "name": "FreeVideoEffect",
+          "url": "https://freevideoeffect.com/",
+          "description": ""
+        },
+        {
+          "name": "VideoCoPilot",
+          "url": "https://www.videocopilot.net/",
+          "description": ""
+        },
+        {
+          "name": "VFXmed",
+          "url": "https://www.vfxmed.com/",
+          "description": ""
+        },
+        {
+          "name": "Team V.R releases",
+          "url": "https://rentry.co/FMHYB64#team-vr",
+          "description": ""
+        },
+        {
+          "name": "flex_cg_vfx",
+          "url": "https://t.me/flex_cg_vfx",
+          "description": ""
+        },
+        {
+          "name": "Download Pirate",
+          "url": "https://www.downloadpirate.com/",
+          "description": "Use Adblock",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "ShareAE",
+          "url": "https://www.shareae.com/",
+          "description": "After Effects"
+        },
+        {
+          "name": "HunterAE",
+          "url": "https://hunterae.com/",
+          "description": "After Effects"
+        },
+        {
+          "name": "AETemp",
+          "url": "https://t.me/AETemp",
+          "description": "After Effects"
+        },
+        {
+          "name": "Visual Effects Pack",
+          "url": "https://t.me/visual_effects_pack",
+          "description": "After Effects"
+        },
+        {
+          "name": "AERiver",
+          "url": "https://aeriver.com/",
+          "description": "After Effects"
+        },
+        {
+          "name": "AEDownloadPro",
+          "url": "https://aedownloadpro.com/",
+          "description": "After Effects"
+        },
+        {
+          "name": "Intro HD",
+          "url": "https://intro-hd.net/",
+          "description": "After Effects"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-animation-tools",
+      "title": "Animation ツール",
+      "resources": [
+        {
+          "name": "Creator Resources",
+          "url": "https://www.newgrounds.com/wiki/creator-resources/",
+          "description": "Art & Animation Resource Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Unreal Engine",
+          "url": "https://www.unrealengine.com/",
+          "description": "3D Creation Tools",
+          "starred": true
+        },
+        {
+          "name": "MoonRay",
+          "url": "https://openmoonray.org/",
+          "description": "3D Creation Tools"
+        },
+        {
+          "name": "cgsoftbox",
+          "url": "https://t.me/cgsoftbox",
+          "description": "3D Creation Tools"
+        },
+        {
+          "name": "SketchUp",
+          "url": "https://www.sketchup.com/",
+          "description": "3D Creation Tools"
+        },
+        {
+          "name": "Plugins",
+          "url": "https://sucj.me/",
+          "description": "3D Creation Tools"
+        },
+        {
+          "name": "Twinmotion",
+          "url": "https://www.twinmotion.com/en-US",
+          "description": "3D Creation Tools"
+        },
+        {
+          "name": "Immersity AI",
+          "url": "https://www.immersity.ai/",
+          "description": "2D Image to 3D Animation Tool",
+          "starred": true
+        },
+        {
+          "name": "OpenToonz",
+          "url": "https://opentoonz.github.io/e/",
+          "description": "Motion Graphics Editors / Animation Tools"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/opentoonz/opentoonz",
+          "description": "Motion Graphics Editors / Animation Tools"
+        },
+        {
+          "name": "Friction",
+          "url": "https://friction.graphics/",
+          "description": "Motion Graphics Editors / Animation Tools"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/friction2d/friction",
+          "description": "Motion Graphics Editors / Animation Tools"
+        },
+        {
+          "name": "Wick Editor",
+          "url": "https://www.wickeditor.com/editor/",
+          "description": "Motion Graphics Editors / Animation Tools"
+        },
+        {
+          "name": "Tixl",
+          "url": "https://tixl.app/",
+          "description": "Motion Graphics Editors / Animation Tools"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/tixl3d/tixl",
+          "description": "Motion Graphics Editors / Animation Tools"
+        },
+        {
+          "name": "Clipnote Studio",
+          "url": "https://calcium-chan.itch.io/clipnote",
+          "description": "Motion Graphics Editors / Animation Tools"
+        },
+        {
+          "name": "⁠Touch Designer",
+          "url": "https://derivative.ca/",
+          "description": "Motion Graphics Editors / Animation Tools"
+        },
+        {
+          "name": "Pencil2D",
+          "url": "https://www.pencil2d.org/",
+          "description": "Motion Graphics Editors / Animation Tools"
+        },
+        {
+          "name": "Animaker",
+          "url": "https://www.animaker.com/",
+          "description": "Animated Video Creator"
+        },
+        {
+          "name": "3DThis",
+          "url": "https://3dthis.com/",
+          "description": "3D Animation Tools"
+        },
+        {
+          "name": "Mega Scans",
+          "url": "https://quixel.com/megascans",
+          "description": "3D Scans"
+        },
+        {
+          "name": "Mixer",
+          "url": "https://quixel.com/mixer",
+          "description": "3D Texture Creation Tool"
+        },
+        {
+          "name": "PlanetSide",
+          "url": "https://planetside.co.uk/",
+          "description": "CG Environment Generator"
+        },
+        {
+          "name": "cgplugdump",
+          "url": "https://t.me/cgplugdump",
+          "description": "CG Software Plugins"
+        },
+        {
+          "name": "Physically Based",
+          "url": "https://physicallybased.info/",
+          "description": "RGB Values of Elements"
+        },
+        {
+          "name": "AnimeEffects",
+          "url": "https://github.com/AnimeEffectsDevs/AnimeEffects",
+          "description": "2D Animation Tools"
+        },
+        {
+          "name": "enve",
+          "url": "https://maurycyliebner.github.io/",
+          "description": "2D Animation Tools"
+        },
+        {
+          "name": "Cavalry",
+          "url": "https://cavalry.scenegroup.co/",
+          "description": "2D Animation Tools"
+        },
+        {
+          "name": "TupiTube",
+          "url": "https://tupitube.com/",
+          "description": "2D Animation Tools"
+        },
+        {
+          "name": "Synfig",
+          "url": "https://www.synfig.org/",
+          "description": "2D Animation Tools"
+        },
+        {
+          "name": "ScribbleDiffusion",
+          "url": "https://scribblediffusion.com/",
+          "description": "Turn Doodles into Artwork"
+        },
+        {
+          "name": "MonsterMash",
+          "url": "https://monstermash.zone/",
+          "description": "Sketch-Based Modeling & Animation Tool"
+        },
+        {
+          "name": "Storyboarder",
+          "url": "https://wonderunit.com/storyboarder/",
+          "description": "Quickly Visualize & Test Animations",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "LuxCoreRender",
+          "url": "https://luxcorerender.org/",
+          "description": "Rendering Engine"
+        },
+        {
+          "name": "RenderChan",
+          "url": "https://morevnaproject.org/renderchan/",
+          "description": "2D Animation Render Manager"
+        },
+        {
+          "name": "Mandelbulber",
+          "url": "https://mandelbulber.com/",
+          "description": "Fractal Rendering Software / 3D"
+        },
+        {
+          "name": "FragM",
+          "url": "https://github.com/3Dickulus/FragM",
+          "description": "Fractal Rendering Software / 3D"
+        },
+        {
+          "name": "JWildfire",
+          "url": "https://jwildfire.overwhale.com/",
+          "description": "Flame Fractal Rendering Software"
+        },
+        {
+          "name": "IFSRenderer",
+          "url": "https://github.com/bezo97/IFSRenderer",
+          "description": "Flame Fractal Rendering Software"
+        },
+        {
+          "name": "Fractorium",
+          "url": "http://fractorium.com/",
+          "description": "Flame Fractal Rendering Software"
+        },
+        {
+          "name": "BestSnip",
+          "url": "https://bestsnip.com/animation/",
+          "description": "Online Animation Tools"
+        },
+        {
+          "name": "Sketch Machine",
+          "url": "https://sketchmachine.net/",
+          "description": "Online Animation Tools"
+        },
+        {
+          "name": "Plask",
+          "url": "https://plask.ai/",
+          "description": "Online Animation Tools"
+        },
+        {
+          "name": "Rive",
+          "url": "https://rive.app/",
+          "description": "Online Animation Tools"
+        },
+        {
+          "name": "Glaxnimate",
+          "url": "https://glaxnimate.mattbas.org/",
+          "description": "Vector Animation Tools"
+        },
+        {
+          "name": "Trangram",
+          "url": "https://www.trangram.com/",
+          "description": "Vector Animation Tools"
+        },
+        {
+          "name": "LibreSprite",
+          "url": "https://libresprite.github.io/",
+          "description": "Pixel Art Animation Tools"
+        },
+        {
+          "name": "GraphicsGale",
+          "url": "https://graphicsgale.com/us/",
+          "description": "Pixel Art Animation Tools"
+        },
+        {
+          "name": "JPixel",
+          "url": "https://pixelfromhell.itch.io/jpixel",
+          "description": "Pixel Art Animation Tools"
+        },
+        {
+          "name": "Aseprite",
+          "url": "https://github.com/aseprite/aseprite",
+          "description": "Pixel Art Animation Tools"
+        },
+        {
+          "name": "Guide",
+          "url": "https://youtu.be/Z4Enx-Nb43E",
+          "description": "Pixel Art Animation Tools"
+        },
+        {
+          "name": "SpookyGhost",
+          "url": "https://encelo.itch.io/spookyghost",
+          "description": "Pixel Art Animation Tools"
+        },
+        {
+          "name": "Spritesheet Generator",
+          "url": "https://spritesheetgenerator.online/",
+          "description": "Spritesheet Generator / Gitea"
+        },
+        {
+          "name": "Animated Drawings",
+          "url": "https://sketch.metademolab.com/",
+          "description": "Animate Drawings"
+        },
+        {
+          "name": "⁠FliiipBook",
+          "url": "https://www.fliiipbook.com/",
+          "description": "Animate Drawings"
+        },
+        {
+          "name": "Mutsuacen",
+          "url": "https://mutsuacen.com/",
+          "description": "Animate Drawings"
+        },
+        {
+          "name": "FAIR Animated Drawings",
+          "url": "https://fairanimateddrawings.com/site/home",
+          "description": "Animate Drawings"
+        },
+        {
+          "name": "MotorPen",
+          "url": "https://motorpen.com/",
+          "description": "Animate Drawings"
+        },
+        {
+          "name": "FlipAnim",
+          "url": "https://flipanim.com/",
+          "description": "Create Animated Flipbooks"
+        },
+        {
+          "name": "Viggle",
+          "url": "https://viggle.ai/",
+          "description": "Animated Character Creators",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Mixamo",
+          "url": "https://www.mixamo.com/",
+          "description": "3D Character Animation Tools"
+        },
+        {
+          "name": "Endorphin",
+          "url": "https://archive.org/",
+          "description": "3D Character Animation Tools"
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://www.reddit.com/r/endorphin/",
+          "description": "3D Character Animation Tools"
+        },
+        {
+          "name": "Cascadeur",
+          "url": "https://cascadeur.com/",
+          "description": "3D Character Animation Tools"
+        },
+        {
+          "name": "MMHuman3D",
+          "url": "https://github.com/open-mmlab/mmhuman3d",
+          "description": "3D Human Model Creator"
+        },
+        {
+          "name": "Talking Face Avatar",
+          "url": "https://github.com/Yazdi9/Talking_Face_Avatar",
+          "description": "Talking Avatar Generator"
+        },
+        {
+          "name": "Blender Open Movies",
+          "url": "https://youtube.com/playlist?list=PLav47HAVZMjnTFVZL-aImCQIC0uLZtNCz",
+          "description": "CGI Assets"
+        }
+      ]
+    },
+    {
+      "id": "video-tools-stock-videos",
+      "title": "Stock 動画",
+      "resources": [
+        {
+          "name": "Awesome Stock Resources",
+          "url": "https://github.com/neutraltone/awesome-stock-resources#videos",
+          "description": "Stock Video Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "CuteStockFootage",
+          "url": "https://cutestockfootage.com/free/video",
+          "description": "Stock Video Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Pexels",
+          "url": "https://www.pexels.com/",
+          "description": "Stock Videos"
+        },
+        {
+          "name": "Dareful",
+          "url": "https://dareful.com/",
+          "description": "4K Stock Videos"
+        },
+        {
+          "name": "Monzoom",
+          "url": "https://www.monzoom.com/",
+          "description": "4K Stock Videos"
+        },
+        {
+          "name": "BeachFrontBroll",
+          "url": "https://www.beachfrontbroll.com/",
+          "description": "Stock Videos"
+        },
+        {
+          "name": "Videvo",
+          "url": "https://www.videvo.net/",
+          "description": "Stock Videos"
+        },
+        {
+          "name": "veed.io",
+          "url": "https://www.veed.io/videos",
+          "description": "Stock Videos"
+        },
+        {
+          "name": "VidsPlay",
+          "url": "https://www.vidsplay.com/",
+          "description": "Stock Videos"
+        },
+        {
+          "name": "MixKit",
+          "url": "https://mixkit.co/",
+          "description": "Stock Videos"
+        },
+        {
+          "name": "ineedfx",
+          "url": "https://ineedfx.com/",
+          "description": "Stock Videos"
+        },
+        {
+          "name": "MotionPlaces",
+          "url": "https://www.motionplaces.com/",
+          "description": "Worldwide Stock Videos"
+        },
+        {
+          "name": "DroneStock",
+          "url": "https://dronestock.com/",
+          "description": "Drone Video Footage"
+        },
+        {
+          "name": "MovieTools",
+          "url": "https://movietools.info/",
+          "description": "Video Loops"
+        }
+      ]
+    }
+  ]
+}

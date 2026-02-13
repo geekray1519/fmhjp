@@ -1,0 +1,5327 @@
+{
+  "id": "reading",
+  "slug": "reading",
+  "title": "読書 / 書籍",
+  "description": "電子書籍、マンガ、コミック、学術論文",
+  "icon": "📖",
+  "color": "from-stone-500 to-neutral-600",
+  "subcategories": [
+    {
+      "id": "reading-general",
+      "title": "一般",
+      "resources": [
+        {
+          "name": "Open Slum",
+          "url": "https://open-slum.org/",
+          "description": "Book Site Index / Uptime Tracking",
+          "tags": [
+            "index"
+          ],
+          "mirrors": [
+            "https://open-slum.pages.dev/"
+          ]
+        },
+        {
+          "name": "Anna's Archive",
+          "url": "https://annas-archive.li/",
+          "description": "Books / Comics / Auto-Expand / Matrix",
+          "starred": true,
+          "tags": [
+            "Subreddit"
+          ],
+          "mirrors": [
+            "https://annas-archive.gl/"
+          ]
+        },
+        {
+          "name": "Z-Library",
+          "url": "https://z-lib.gd/",
+          "description": "Books / Comics / Apps / Extensions /.onion",
+          "starred": true,
+          "tags": [
+            "Subreddit"
+          ],
+          "mirrors": [
+            "https://articles.sk/",
+            "https://1lib.sk/",
+            "https://z-lib.fm/"
+          ]
+        },
+        {
+          "name": "Mobilism",
+          "url": "https://forum.mobilism.org",
+          "description": "Books / Audiobooks / Magazines / Newspapers / Comics / Ranks",
+          "starred": true,
+          "mirrors": [
+            "https://forum.mobilism.me/"
+          ]
+        },
+        {
+          "name": "MyAnonaMouse",
+          "url": "https://www.myanonamouse.net/",
+          "description": "Books / Audiobooks / Comics / Sheet Music / Requires Invite",
+          "starred": true
+        },
+        {
+          "name": "Library Genesis",
+          "url": "https://libgen.li/",
+          "description": "Books / Comics / Manga / Tools / Mirrors",
+          "starred": true,
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "Internet Archive",
+          "url": "https://archive.org/details/texts",
+          "description": "Books / Audiobooks / Magazines / Newspapers / Tools"
+        },
+        {
+          "name": "WeLib",
+          "url": "https://welib.org/",
+          "description": "Anna's Archive Mirror / Unofficial"
+        },
+        {
+          "name": "eBookBB",
+          "url": "https://ebookbb.in/",
+          "description": "Books / Download"
+        },
+        {
+          "name": "iBookPile",
+          "url": "https://ibookpile.in/",
+          "description": "Books / Download"
+        },
+        {
+          "name": "Liber3",
+          "url": "https://liber3.eth.limo/",
+          "description": "Book Search / Download"
+        },
+        {
+          "name": "BookSee",
+          "url": "https://en.booksee.org/",
+          "description": "Book Search / Download"
+        },
+        {
+          "name": "⁠eBookoz",
+          "url": "https://ebookoz.net/",
+          "description": "Books"
+        },
+        {
+          "name": "Bookstagram",
+          "url": "https://vk.com/bookstagram_eng",
+          "description": "Books / Magazines / VK"
+        },
+        {
+          "name": "dpgroup",
+          "url": "https://www.dpgroup.org/",
+          "description": "Books / Magazines / Sign-Up"
+        },
+        {
+          "name": "Library Land",
+          "url": "https://library.land/",
+          "description": "Books / Online Reading"
+        },
+        {
+          "name": "BookFrom.net",
+          "url": "https://www.bookfrom.net/",
+          "description": "Books / Online Reading"
+        },
+        {
+          "name": "Novel12",
+          "url": "https://novel12.com/",
+          "description": "Books / Online Reading"
+        },
+        {
+          "name": "⁠ReadOnlineFreeBook",
+          "url": "https://readonlinefreebook.com/",
+          "description": "Books / Online Reading"
+        },
+        {
+          "name": "NovelsArchive",
+          "url": "https://t.me/NovelsArchive",
+          "description": "Books / Telegram"
+        },
+        {
+          "name": "BooksMania",
+          "url": "https://t.me/booksmania",
+          "description": "Books / Telegram"
+        },
+        {
+          "name": "BookArticlesBot",
+          "url": "https://t.me/BookArticlesBot",
+          "description": "Books / Telegram"
+        },
+        {
+          "name": "FreeBannedBooks",
+          "url": "https://freebannedbooks.org/",
+          "description": "US Banned Books"
+        },
+        {
+          "name": "⁠Shelfmark",
+          "url": "https://github.com/calibrain/shelfmark",
+          "description": "Ebook Downloader"
+        },
+        {
+          "name": "Calibre",
+          "url": "https://calibre-ebook.com/",
+          "description": "Ebook Manager / Downloader / Libraries / Tools"
+        },
+        {
+          "name": "Reading CSE",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:s9ddesylrm8",
+          "description": "Multi-Site Book Search"
+        },
+        {
+          "name": "2",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:rc855wetniu",
+          "description": "Multi-Site Book Search"
+        },
+        {
+          "name": "3",
+          "url": "https://cse.google.com/cse?cx=e9657e69c76480cb8",
+          "description": "Multi-Site Book Search"
+        },
+        {
+          "name": "4",
+          "url": "https://cse.google.com/cse?cx=c46414ccb6a943e39",
+          "description": "Multi-Site Book Search"
+        },
+        {
+          "name": "Rave",
+          "url": "https://ravebooksearch.com/",
+          "description": "Multi-Site Book Search"
+        },
+        {
+          "name": "Recherche",
+          "url": "https://recherche-ebook.fr/en/",
+          "description": "Multi-Site Book Search"
+        },
+        {
+          "name": "Flibusta",
+          "url": "https://flibusta.is/",
+          "description": "Russian Ebook Library / Sign-Up / Use Translator"
+        },
+        {
+          "name": ".i2p",
+          "url": "https://flibusta.i2p/",
+          "description": "Russian Ebook Library / Sign-Up / Use Translator"
+        },
+        {
+          "name": "2",
+          "url": "http://zmw2cyw2vj7f6obx3msmdvdepdhnw2ctc4okza2zjxlukkdfckhq.b32.i2p/",
+          "description": "Russian Ebook Library / Sign-Up / Use Translator"
+        },
+        {
+          "name": "The Free Book Library",
+          "url": "https://ebooks.i2p/",
+          "description": "Requires I2P"
+        },
+        {
+          "name": "r/FreeEBOOKS",
+          "url": "https://reddit.com/r/FreeEBOOKS",
+          "description": "Ebook Subreddit"
+        },
+        {
+          "name": "Book Search Guide",
+          "url": "https://docs.google.com/document/d/1ZwWs8JOrlkrrqiHwkQSwc4_NM85Zbzc9t9ifQ1rHZgM/mobilebasic",
+          "description": "Guide to Finding Articles / Books"
+        },
+        {
+          "name": "Request Guide",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/irc-highway-note.md",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "reading-public-domain",
+      "title": "パブリックドメイン",
+      "resources": [
+        {
+          "name": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/",
+          "description": "Historical Fiction / Nonfiction / Australia / Canada / Nordic",
+          "starred": true
+        },
+        {
+          "name": "Unglue.it",
+          "url": "https://unglue.it/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Wikisource",
+          "url": "https://en.wikisource.org",
+          "description": ""
+        },
+        {
+          "name": "Open Library",
+          "url": "https://openlibrary.org/",
+          "description": ""
+        },
+        {
+          "name": "OpenChapter",
+          "url": "https://openchapter.io/",
+          "description": ""
+        },
+        {
+          "name": "FreeEditorial",
+          "url": "https://www.freeditorial.com/en/",
+          "description": ""
+        },
+        {
+          "name": "Spanish",
+          "url": "https://www.freeditorial.com",
+          "description": ""
+        },
+        {
+          "name": "Page by Page Books",
+          "url": "https://www.pagebypagebooks.com/",
+          "description": ""
+        },
+        {
+          "name": "Standard EBooks",
+          "url": "https://standardebooks.org/",
+          "description": ""
+        },
+        {
+          "name": "Manybooks",
+          "url": "https://manybooks.net/",
+          "description": ""
+        },
+        {
+          "name": "JustFreeBooks",
+          "url": "https://www.justfreebooks.info/",
+          "description": ""
+        },
+        {
+          "name": "Global Grey",
+          "url": "https://www.globalgreyebooks.com/index.html",
+          "description": ""
+        },
+        {
+          "name": "DPLA",
+          "url": "https://dp.la/",
+          "description": ""
+        },
+        {
+          "name": "Fadedpage",
+          "url": "https://www.fadedpage.com/",
+          "description": ""
+        },
+        {
+          "name": "E-Book Mecca",
+          "url": "https://ebook-mecca.com/",
+          "description": ""
+        },
+        {
+          "name": "Freeditorial",
+          "url": "https://freeditorial.com/",
+          "description": ""
+        },
+        {
+          "name": "Planet eBook",
+          "url": "https://www.planetebook.com/",
+          "description": ""
+        },
+        {
+          "name": "Loyal Books",
+          "url": "https://www.loyalbooks.com/",
+          "description": ""
+        },
+        {
+          "name": "Lit2Go",
+          "url": "https://etc.usf.edu/lit2go/",
+          "description": ""
+        },
+        {
+          "name": "Planet Publish",
+          "url": "https://www.planetpublish.com/",
+          "description": ""
+        },
+        {
+          "name": "BAEN",
+          "url": "https://www.baen.com/catalog/category/view/s/free-library/id/2012",
+          "description": ""
+        },
+        {
+          "name": "Ebookzy",
+          "url": "https://ebookzy.com/",
+          "description": "Classics"
+        },
+        {
+          "name": "⁠By the Fireplace",
+          "url": "https://bythefireplace.com/",
+          "description": "Classics"
+        },
+        {
+          "name": "DigiLibraries",
+          "url": "https://digilibraries.com/",
+          "description": "Classics"
+        },
+        {
+          "name": "ExClassics",
+          "url": "https://www.exclassics.com/",
+          "description": "Obscure Books"
+        },
+        {
+          "name": "The H.P. Lovecraft Archive",
+          "url": "https://www.hplovecraft.com/",
+          "description": "Complete H.P. Lovecraft Writings Archive"
+        },
+        {
+          "name": "sherlock-holm.es",
+          "url": "https://sherlock-holm.es/",
+          "description": "Complete Sherlock Holmes Canon"
+        },
+        {
+          "name": "GrimmStories",
+          "url": "https://www.grimmstories.com/",
+          "description": "Fairy Tales"
+        },
+        {
+          "name": "AndersenStories",
+          "url": "https://www.andersenstories.com/",
+          "description": "Fairy Tales"
+        },
+        {
+          "name": "Wikibooks",
+          "url": "https://www.wikibooks.org/",
+          "description": "Wikimedia Community"
+        },
+        {
+          "name": "Hoopla",
+          "url": "https://www.hoopladigital.com/",
+          "description": "Requires Library Card"
+        },
+        {
+          "name": "WorldCat",
+          "url": "https://www.worldcat.org/",
+          "description": "Search Local Libraries / Extension"
+        },
+        {
+          "name": "LibrarySearch",
+          "url": "https://librarysearch.gre.ac.uk/",
+          "description": "Search Local Libraries / Extension"
+        },
+        {
+          "name": "TRL",
+          "url": "https://www.trl.org/",
+          "description": "Search Local Libraries / Extension"
+        },
+        {
+          "name": "PublicDomainReview",
+          "url": "https://publicdomainreview.org/",
+          "description": "Reviews / Essays of Public Domain Material"
+        },
+        {
+          "name": "⁠Distributed Proofreaders",
+          "url": "https://www.pgdp.net/",
+          "description": "Help Digitize Public Domain Books to Ebooks"
+        }
+      ]
+    },
+    {
+      "id": "reading-pdf-search",
+      "title": "PDF 検索",
+      "resources": [
+        {
+          "name": "Ocean of PDF",
+          "url": "https://oceanofpdf.com/",
+          "description": "Books / Comics"
+        },
+        {
+          "name": "pdfroom",
+          "url": "https://pdfroom.com/",
+          "description": "Books / Comics"
+        },
+        {
+          "name": "Ebook PDF",
+          "url": "https://ebookpdf.com/",
+          "description": "Books"
+        },
+        {
+          "name": "KuPDF",
+          "url": "https://kupdf.net/",
+          "description": "Books"
+        },
+        {
+          "name": "ePDF",
+          "url": "https://epdf.pub/",
+          "description": "Books",
+          "mirrors": [
+            "https://epdf.pub/"
+          ]
+        },
+        {
+          "name": "PDFCoffee",
+          "url": "https://pdfcoffee.com",
+          "description": "Books"
+        },
+        {
+          "name": "PDFCookie",
+          "url": "https://pdfcookie.com/",
+          "description": "Books"
+        },
+        {
+          "name": "iDoc",
+          "url": "https://idoc.tips/",
+          "description": "Books"
+        },
+        {
+          "name": "freepdfbook",
+          "url": "https://freepdfbook.com/",
+          "description": "Books"
+        },
+        {
+          "name": "AWS S3",
+          "url": "https://www.google.com/search?q=site%3As3.amazonaws.com+%3CSearch+term%3E+filetype%3Apdf",
+          "description": "Find PDFs on AWS"
+        }
+      ]
+    },
+    {
+      "id": "reading-calibre-libraries",
+      "title": "Calibreライブラリ",
+      "resources": [
+        {
+          "name": "Ebook-Translator",
+          "url": "https://translator.bookfere.com",
+          "description": "Calibre Translators",
+          "starred": true
+        },
+        {
+          "name": "Libgen for Calibre",
+          "url": "https://github.com/poochinski9/libgen-calibre-store-plugin",
+          "description": "Libgen for Calibre"
+        },
+        {
+          "name": "opencalibre",
+          "url": "https://reddit.com/r/opencalibre",
+          "description": "Community Shared Calibre Libraries"
+        },
+        {
+          "name": "Calibre-Web-Automated",
+          "url": "https://github.com/crocodilestick/Calibre-Web-Automated",
+          "description": "Calibre Web Apps"
+        },
+        {
+          "name": "Calibre Web",
+          "url": "https://github.com/janeczku/calibre-web",
+          "description": "Calibre Web Apps"
+        },
+        {
+          "name": "acsm-calibre-plugin",
+          "url": "https://github.com/Leseratte10/acsm-calibre-plugin",
+          "description": "ACSM Plugin"
+        }
+      ]
+    },
+    {
+      "id": "reading-ebook-readers",
+      "title": "電子書籍リーダー",
+      "resources": [
+        {
+          "name": "Ebook Reader Index",
+          "url": "https://wiki.mobileread.com/wiki/E-book_software",
+          "description": "Ebook Reader Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Mobile Read",
+          "url": "https://www.mobileread.com/",
+          "description": "Ebook Reader Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Koodo",
+          "url": "https://www.koodoreader.com/",
+          "description": "Ebook Reader / All Platforms",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "KoReader",
+          "url": "https://koreader.rocks/",
+          "description": "Ebook Reader / Windows, Linux, Android",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "SumatraPDFReader",
+          "url": "https://www.sumatrapdfreader.org/free-pdf-reader",
+          "description": "Ebook & PDF Reader / Windows",
+          "starred": true
+        },
+        {
+          "name": "Calibre",
+          "url": "https://calibre-ebook.com/",
+          "description": "Ebook Reader / Windows, Mac, Linux",
+          "starred": true
+        },
+        {
+          "name": "Foxit",
+          "url": "https://www.foxit.com/pdf-reader/",
+          "description": "PDF Reader / All Platforms / Features (search) / Warning",
+          "starred": true
+        },
+        {
+          "name": "PlayTorrio",
+          "url": "https://playtorrio.xyz/",
+          "description": "Ebook Reader / Windows",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Readest",
+          "url": "https://readest.com/",
+          "description": "Ebook Reader / All Platforms",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "EBook Reader",
+          "url": "https://epub-reader.online/",
+          "description": "Ebook Reader / Windows, Mac, Android, iOS"
+        },
+        {
+          "name": "Jane Reader",
+          "url": "https://janereader.com/",
+          "description": "Ebook Reader / Windows, Mac"
+        },
+        {
+          "name": "FBReader",
+          "url": "https://fbreader.org/",
+          "description": "Ebook Reader / Windows, Android, iOS"
+        },
+        {
+          "name": "Anx Reader",
+          "url": "https://anx.anxcye.com/",
+          "description": "Ebook Reader / Windows, Mac, Android, iOS",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Alexandria",
+          "url": "https://github.com/btpf/Alexandria",
+          "description": "Ebook Reader / Windows, Mac, Linux"
+        },
+        {
+          "name": "Librum",
+          "url": "https://librumreader.com",
+          "description": "Ebook Reader / Windows, Mac, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Thorium",
+          "url": "https://thorium.edrlab.org/",
+          "description": "Ebook Reader / Windows, Mac, Linux"
+        },
+        {
+          "name": "Okular",
+          "url": "https://okular.kde.org/",
+          "description": "PDF / Windows, Mac, Linux"
+        },
+        {
+          "name": "Aquile Reader",
+          "url": "https://apps.microsoft.com/detail/9p08t4jltqnk",
+          "description": "Ebook Reader / Windows"
+        },
+        {
+          "name": "Icecream Reader",
+          "url": "https://icecreamapps.com/Ebook-Reader/",
+          "description": "Ebook Reader / Windows"
+        },
+        {
+          "name": "Foliate",
+          "url": "https://johnfactotum.github.io/foliate/",
+          "description": "Ebook Reader / Linux"
+        },
+        {
+          "name": "qPDFview",
+          "url": "https://launchpad.net/qpdfview",
+          "description": "PDF / Windows"
+        },
+        {
+          "name": "MuPDF",
+          "url": "https://mupdf.com/",
+          "description": "PDF / Windows, Linux, Android"
+        },
+        {
+          "name": "Evince",
+          "url": "https://apps.gnome.org/Evince/",
+          "description": "PDF / DjVu Reader / Linux / GitLab"
+        },
+        {
+          "name": "Sioyek",
+          "url": "https://sioyek.info/",
+          "description": "PDF / Windows, Mac, Linux"
+        },
+        {
+          "name": "Yomu",
+          "url": "https://www.yomu-reader.com/",
+          "description": "Ebook Reader / Mac, iOS"
+        },
+        {
+          "name": "FBReader",
+          "url": "https://apps.apple.com/app/fbreader-epub-and-fb2-reader/id1067172178",
+          "description": "Ebook Reader / Mac, iOS"
+        },
+        {
+          "name": "FF PDF",
+          "url": "https://github.com/sdushantha/ff-pdf/",
+          "description": "PDF / Linux"
+        },
+        {
+          "name": "WinDjView",
+          "url": "https://windjview.sourceforge.io/",
+          "description": "DjVu Reader / Windows"
+        },
+        {
+          "name": "DjVuLibr",
+          "url": "https://djvu.sourceforge.net/",
+          "description": "DjVu Reader / Windows"
+        },
+        {
+          "name": "Bookworm",
+          "url": "https://github.com/babluboy/bookworm",
+          "description": "Elementary OS Ebook Reader"
+        },
+        {
+          "name": "AnyFlip",
+          "url": "https://anyflip.com/",
+          "description": "Interactive Flipbook Reader"
+        }
+      ]
+    },
+    {
+      "id": "reading-browser-ebook-readers",
+      "title": "ブラウザ Ebook Readers",
+      "resources": [
+        {
+          "name": "Reader View",
+          "url": "https://webextension.org/listing/chrome-reader-view.html",
+          "description": "",
+          "starred": true,
+          "mirrors": [
+            "https://mybrowseraddon.com/reader-view.html"
+          ]
+        },
+        {
+          "name": "Google Play Books",
+          "url": "https://play.google.com/books",
+          "description": "Manage Books / Auto Metadata / Allows 1000 Uploads",
+          "starred": true
+        },
+        {
+          "name": "Anna’s Archive Reader",
+          "url": "https://annas-archive.li/view",
+          "description": ""
+        },
+        {
+          "name": "Flow",
+          "url": "https://www.flowoss.com/",
+          "description": ""
+        },
+        {
+          "name": "Online Cloud File Viewer",
+          "url": "https://www.fviewer.com/",
+          "description": ""
+        },
+        {
+          "name": "Readwok",
+          "url": "https://readwok.com/",
+          "description": ""
+        },
+        {
+          "name": "ePub Reader Online",
+          "url": "https://www.ofoct.com/viewer/epub-reader-online.html",
+          "description": ""
+        },
+        {
+          "name": "Ebook Reader",
+          "url": "https://reader.ttsu.app/manage",
+          "description": ""
+        },
+        {
+          "name": "foliate-js",
+          "url": "https://github.com/johnfactotum/foliate-js",
+          "description": ""
+        },
+        {
+          "name": "Minimal Reader",
+          "url": "https://www.minimalreader.xyz/",
+          "description": ""
+        },
+        {
+          "name": "Litera Reader",
+          "url": "https://litera-reader.com/",
+          "description": ""
+        },
+        {
+          "name": "Cubari",
+          "url": "https://cubari.moe/",
+          "description": "Image Proxy / Reader / JSON Generator"
+        },
+        {
+          "name": "Reader Mode",
+          "url": "https://readermode.io/",
+          "description": "Article Readers / Managers"
+        },
+        {
+          "name": "Tranquility",
+          "url": "https://addons.mozilla.org/en-GB/firefox/addon/tranquility-1/",
+          "description": "Article Readers / Managers"
+        },
+        {
+          "name": "Open Media Library",
+          "url": "https://openmedialibrary.com/",
+          "description": "Online Book Manager"
+        },
+        {
+          "name": "⁠Doqment",
+          "url": "https://github.com/shivaprsd/doqment",
+          "description": "Firefox PDF Reader Dark Mode"
+        }
+      ]
+    },
+    {
+      "id": "reading-e-reader-tools",
+      "title": "E-Reader ツール",
+      "resources": [
+        {
+          "name": "Kindle Comic Converter",
+          "url": "https://github.com/ciromattia/kcc",
+          "description": "Multi-Format Converter",
+          "starred": true
+        },
+        {
+          "name": "EinkBro",
+          "url": "https://github.com/plateaukao/einkbro",
+          "description": "E-Ink Browser",
+          "starred": true
+        },
+        {
+          "name": "ComparisonTabl.es",
+          "url": "https://comparisontabl.es/",
+          "description": "Compare E-Readers"
+        },
+        {
+          "name": "FreeReadFeed",
+          "url": "https://www.freereadfeed.com/",
+          "description": "Free Kindle Releases"
+        },
+        {
+          "name": "eReaderIQ",
+          "url": "https://www.ereaderiq.com/freebies",
+          "description": "Free Kindle Releases"
+        },
+        {
+          "name": "Send to Kobo/Kindle",
+          "url": "https://send.djazz.se/",
+          "description": "Send Ebooks to Kindle",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Techy Notes Guide",
+          "url": "https://techy-notes.com/remove-drm-from-kindle-ebooks/",
+          "description": "Kindle DRM Removal Guides"
+        },
+        {
+          "name": "ItsFOSS Guide",
+          "url": "https://itsfoss.com/calibre-remove-drm-kindle/",
+          "description": "Kindle DRM Removal Guides"
+        },
+        {
+          "name": "Kindle to PDF",
+          "url": "https://redd.it/bm837l",
+          "description": "Kindle to PDF Conversion Guide"
+        },
+        {
+          "name": "KoboCloud",
+          "url": "https://github.com/fsantini/KoboCloud",
+          "description": "Sync Kobo to Cloud Services"
+        },
+        {
+          "name": "⁠ReaderBackdrop",
+          "url": "https://www.readerbackdrop.com/",
+          "description": "Wallpapers for E-Readers"
+        },
+        {
+          "name": "The Open Book",
+          "url": "https://github.com/joeycastillo/The-Open-Book",
+          "description": "DIY Ebook Reader"
+        },
+        {
+          "name": "Amazon Kindle EPUB Fix",
+          "url": "https://kindle-epub-fix.netlify.app/",
+          "description": "Fix EPUB to work with Send to Kindle"
+        },
+        {
+          "name": "⁠Manga & Comic Converter",
+          "url": "https://www.mangaconverter.com/",
+          "description": "Convert Manga / Comic Files to E-Reader Formats",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "The Anarchist Library",
+          "url": "https://theanarchistlibrary.org/special/index",
+          "description": "Anarchism",
+          "starred": true
+        },
+        {
+          "name": "FreeSFOnline",
+          "url": "https://www.freesfonline.net/",
+          "description": "Sci-Fi / Fantasy"
+        },
+        {
+          "name": "eBookHunter.net",
+          "url": "https://www.ebookhunter.net/",
+          "description": "Romance / Fantasy"
+        },
+        {
+          "name": "EpubPuB",
+          "url": "https://www.epub.pub/",
+          "description": "Romance / Fantasy"
+        },
+        {
+          "name": "HourWolf",
+          "url": "https://www.hourwolf.com/sfbooks/",
+          "description": "Fantasy"
+        },
+        {
+          "name": "byGosh",
+          "url": "https://bygosh.com",
+          "description": "Children's Books"
+        },
+        {
+          "name": "StoryWhale",
+          "url": "https://www.storywhale.com/",
+          "description": "Children's Books"
+        },
+        {
+          "name": "Baldwin Library",
+          "url": "https://ufdc.ufl.edu/juv",
+          "description": "Children's Books"
+        },
+        {
+          "name": "BookDash",
+          "url": "https://github.com/bookdash/bookdash-android-app",
+          "description": "Children's Books"
+        },
+        {
+          "name": "Artbooks Archive",
+          "url": "https://t.me/archive_artbooks",
+          "description": "Artbooks"
+        },
+        {
+          "name": "ArtFacultas",
+          "url": "https://t.me/ArtFacultas",
+          "description": "Artbooks"
+        },
+        {
+          "name": "FreeArt",
+          "url": "https://t.me/free_art_book",
+          "description": "Artbooks"
+        },
+        {
+          "name": "TheArtbooks",
+          "url": "https://t.me/theartbooks",
+          "description": "Artbooks"
+        },
+        {
+          "name": "⁠Music and Books",
+          "url": "https://musicsandbooks.org/",
+          "description": "Music Books"
+        },
+        {
+          "name": "VGArtbooks",
+          "url": "https://vk.com/vgartbooks",
+          "description": "Video Game Artbooks"
+        },
+        {
+          "name": "The Eldritch Dark",
+          "url": "http://www.eldritchdark.com/",
+          "description": "Clark Ashton Smith"
+        },
+        {
+          "name": "Booklet Library",
+          "url": "https://bookletlibrary.org/",
+          "description": "Booklet Library"
+        },
+        {
+          "name": "Auto-Brochures.com",
+          "url": "https://www.auto-brochures.com/",
+          "description": "Auto Brochures"
+        },
+        {
+          "name": "The Trove",
+          "url": "https://web.archive.org/web/20210614215400/https://thetrove.is/",
+          "description": "Books / Fantasy / TTRPG"
+        },
+        {
+          "name": "Project Aon",
+          "url": "https://www.projectaon.org/en/Main/Home",
+          "description": "Lone Wolf Gamebooks"
+        },
+        {
+          "name": "Trans Reads",
+          "url": "https://transreads.org/",
+          "description": "Transgender-Focused Literature"
+        },
+        {
+          "name": "Anarchist FAQ",
+          "url": "https://www.anarchistfaq.org/",
+          "description": "Anarchism / Translations"
+        },
+        {
+          "name": "Archive.Leftove.rs",
+          "url": "https://archive.leftove.rs/",
+          "description": "Protest Documents"
+        },
+        {
+          "name": "Marxists Internet Archive",
+          "url": "https://www.marxists.org/",
+          "description": "Socialism / Communism"
+        },
+        {
+          "name": "Liberation School",
+          "url": "https://liberationschool.org/",
+          "description": "Communism"
+        },
+        {
+          "name": "Red Texts",
+          "url": "https://redtexts.org/",
+          "description": "Communism"
+        },
+        {
+          "name": "Communism Essays / FAQs",
+          "url": "https://dessalines.github.io/essays",
+          "description": "Communism"
+        },
+        {
+          "name": "Avalon Library",
+          "url": "https://avalonlibrary.net/",
+          "description": "Conspirology Books"
+        }
+      ]
+    },
+    {
+      "id": "reading-light-novels",
+      "title": "ライトノベル",
+      "resources": [
+        {
+          "name": "Wotaku",
+          "url": "https://wotaku.wiki/websites#novels",
+          "description": "Light Novel Site Index",
+          "tags": [
+            "index",
+            "Discord"
+          ]
+        },
+        {
+          "name": "EverythingMoe",
+          "url": "https://everythingmoe.com/section/novel",
+          "description": "Light Novel Sites Index",
+          "tags": [
+            "index",
+            "Subreddit",
+            "Discord"
+          ],
+          "mirrors": [
+            "https://everythingmoe.org/section/novel"
+          ]
+        },
+        {
+          "name": "The Index",
+          "url": "https://theindex.moe/library/novels",
+          "description": "Light Novel Site Index / Wiki",
+          "tags": [
+            "index",
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠NovelFire",
+          "url": "https://novelfire.net/",
+          "description": "Online Reading",
+          "starred": true
+        },
+        {
+          "name": "NovelCool",
+          "url": "https://www.novelcool.com/",
+          "description": "Online Reading",
+          "starred": true
+        },
+        {
+          "name": "WuxiaClick",
+          "url": "https://wuxia.click/",
+          "description": "Online Reading",
+          "starred": true
+        },
+        {
+          "name": "Wuxiabox",
+          "url": "https://www.wuxiabox.com/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "NovelNext",
+          "url": "https://novelnext.com/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "WuxiaSpot",
+          "url": "https://www.wuxiaspot.com/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "WTR-LAB",
+          "url": "https://wtr-lab.com/",
+          "description": "Online Reading / Requires Sign-Up for AI Translations"
+        },
+        {
+          "name": "Vynovel",
+          "url": "https://vynovel.com/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "Novel Bin",
+          "url": "https://novelbin.com/",
+          "description": "Online Reading",
+          "mirrors": [
+            "https://novelbin.me/"
+          ]
+        },
+        {
+          "name": "Translated Light Novels",
+          "url": "https://rentry.co/FMHYB64#translated-light-novels",
+          "description": "Downloads"
+        },
+        {
+          "name": "⁠jnovels",
+          "url": "https://jnovels.com/",
+          "description": "Downloads"
+        },
+        {
+          "name": "MP4DIRECTS",
+          "url": "https://mp4directs.com/",
+          "description": "Downloads"
+        },
+        {
+          "name": "⁠Light Novel World",
+          "url": "https://lightnovelworld.org/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "Wuxia World",
+          "url": "https://wuxiaworld.site/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "Ranobes",
+          "url": "https://ranobes.top/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "NovelBuddy",
+          "url": "https://novelbuddy.io/",
+          "description": "Online Reading",
+          "mirrors": [
+            "https://novelbuddy.com/"
+          ]
+        },
+        {
+          "name": "ReadNovelFull",
+          "url": "https://readnovelfull.com",
+          "description": "Online Reading"
+        },
+        {
+          "name": "Just Light Novels",
+          "url": "https://www.justlightnovels.com/",
+          "description": "Downloads"
+        },
+        {
+          "name": "LightNovelHeaven",
+          "url": "https://lightnovelheaven.com",
+          "description": "Online Reading"
+        },
+        {
+          "name": "AllNovel",
+          "url": "https://allnovel.org",
+          "description": "Online Reading"
+        },
+        {
+          "name": "NovelFull",
+          "url": "https://novelfull.com/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "NOVGO",
+          "url": "https://novgo.net/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "NovelGo",
+          "url": "https://novelgo.id",
+          "description": "Online Reading"
+        },
+        {
+          "name": "Armaell's Library",
+          "url": "https://armaell-library.net/",
+          "description": "Downloads"
+        },
+        {
+          "name": "Baka-Tsuki",
+          "url": "https://www.baka-tsuki.org",
+          "description": "Online Reading"
+        },
+        {
+          "name": "WuxiaWorld.com",
+          "url": "https://www.wuxiaworld.com/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "AsianHobbyist",
+          "url": "https://www.asianhobbyist.com/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "Ocean of EPUB",
+          "url": "https://oceanofepub.net/",
+          "description": "Downloads"
+        },
+        {
+          "name": "Light Novel Archive",
+          "url": "https://t.me/LightNovelArchives",
+          "description": "Telegram / Downloads"
+        },
+        {
+          "name": "LN_Index",
+          "url": "https://t.me/LN_Index",
+          "description": "Telegram / Downloads"
+        },
+        {
+          "name": "Book Smelting Bot",
+          "url": "https://t.me/epub_smelter_bot",
+          "description": "Telegram / Bot"
+        },
+        {
+          "name": "FreeWebNovel",
+          "url": "https://freewebnovel.com/",
+          "description": "Web Novels"
+        },
+        {
+          "name": "WebNovel.com",
+          "url": "https://www.webnovel.com/",
+          "description": "Web Novels"
+        },
+        {
+          "name": "Royal Road",
+          "url": "https://www.royalroad.com/",
+          "description": "Web Novels"
+        },
+        {
+          "name": "Scribblehub",
+          "url": "https://www.scribblehub.com/",
+          "description": "Web Novels"
+        },
+        {
+          "name": "Novels.pl",
+          "url": "https://www.novels.pl/",
+          "description": "Novels / Audio Recordings"
+        },
+        {
+          "name": "Baka-Tsuki",
+          "url": "https://www.baka-tsuki.org/project/?title=Main_Page",
+          "description": "Novels / Audio Recordings"
+        },
+        {
+          "name": "LN-Crawler-Colab",
+          "url": "https://colab.research.google.com/github/HongYue1/LightNovel-Crawler-Colab/blob/main/lightnovel_crawler.ipynb",
+          "description": "Light Novel Downloaders"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/HongYue1/LightNovel-Crawler-Colab",
+          "description": "Light Novel Downloaders"
+        },
+        {
+          "name": "Lightnovel Crawler",
+          "url": "https://github.com/dipu-bd/lightnovel-crawler/",
+          "description": "Light Novel Downloaders"
+        },
+        {
+          "name": "novel-downloader",
+          "url": "https://greasyfork.org/en/scripts/406070",
+          "description": "Light Novel Downloaders"
+        },
+        {
+          "name": "QuickNovel",
+          "url": "https://github.com/LagradOst/QuickNovel",
+          "description": "Light Novel Downloaders"
+        },
+        {
+          "name": "anime-dl",
+          "url": "https://github.com/vrienstudios/anime-dl",
+          "description": "Light Novel Downloaders"
+        },
+        {
+          "name": "WebToEpub",
+          "url": "https://github.com/dteviot/WebToEpub",
+          "description": "Novel to EPUB Converter"
+        },
+        {
+          "name": "LNMTL",
+          "url": "https://lnmtl.com/",
+          "description": "Light Novel Translators"
+        },
+        {
+          "name": "Omni",
+          "url": "https://app.readomni.com/",
+          "description": "Light Novel Translators"
+        }
+      ]
+    },
+    {
+      "id": "reading-fanfiction-stories",
+      "title": "ファンフィクション / 小説",
+      "resources": [
+        {
+          "name": "Archive of Our Own",
+          "url": "https://archiveofourown.org/",
+          "description": "Fanfiction Archive / Enhancements",
+          "starred": true
+        },
+        {
+          "name": "Short Stories",
+          "url": "https://short-stories.co/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "SCP Foundation",
+          "url": "https://scp-wiki.wikidot.com/",
+          "description": "Fictional Story Collabs / Wiki",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "Everything2",
+          "url": "https://everything2.com/",
+          "description": "Short Stories / Poetry / Writing Help"
+        },
+        {
+          "name": "Fork Read",
+          "url": "https://forkread.com/",
+          "description": "Publish Short Stories"
+        },
+        {
+          "name": "Booksie",
+          "url": "https://www.booksie.com/",
+          "description": "Short Stories"
+        },
+        {
+          "name": "Vestal Review",
+          "url": "https://www.vestalreview.net/",
+          "description": "Short Stories"
+        },
+        {
+          "name": "Library of Short Stories",
+          "url": "https://www.libraryofshortstories.com/",
+          "description": "Short Stories"
+        },
+        {
+          "name": "Vocal Media",
+          "url": "https://vocal.media/fiction/",
+          "description": "Short Stories"
+        },
+        {
+          "name": "xpressenglish",
+          "url": "https://xpressenglish.com/",
+          "description": "Short Stories"
+        },
+        {
+          "name": "ClassicShorts",
+          "url": "https://www.classicshorts.com/",
+          "description": "Classic Short Stories"
+        },
+        {
+          "name": "Pulp Magazines Project",
+          "url": "https://www.pulpmags.org/",
+          "description": "Classic Fiction Story Magazine"
+        },
+        {
+          "name": "Poop Fiction",
+          "url": "https://readpoopfiction.com/",
+          "description": "Random Short Stories"
+        },
+        {
+          "name": "the Wanderers' Library",
+          "url": "https://wanderers-library.wikidot.com/",
+          "description": "Fictional Story Collabs"
+        },
+        {
+          "name": "RPC Authority",
+          "url": "http://rpc-wiki.net/",
+          "description": "Fictional Story Collabs"
+        },
+        {
+          "name": "OrionsArm",
+          "url": "https://www.orionsarm.com/",
+          "description": "Fictional Story Collabs"
+        },
+        {
+          "name": "Fanfiction.net",
+          "url": "https://www.fanfiction.net/",
+          "description": "Fanfiction"
+        },
+        {
+          "name": "SquidgeWorld",
+          "url": "https://squidgeworld.org/",
+          "description": "Fanfiction"
+        },
+        {
+          "name": "FanMTL",
+          "url": "https://www.fanmtl.com/",
+          "description": "Fanfiction"
+        },
+        {
+          "name": "Inkitt",
+          "url": "https://www.inkitt.com/fanfiction",
+          "description": "Fanfiction"
+        },
+        {
+          "name": "Wattpad",
+          "url": "https://wattpad.com/",
+          "description": "Fanfiction / Downloader"
+        },
+        {
+          "name": "Royal Road",
+          "url": "https://royalroad.com/",
+          "description": "Fanfiction"
+        },
+        {
+          "name": "FictionPress",
+          "url": "https://www.fictionpress.com/",
+          "description": "Fanfiction"
+        },
+        {
+          "name": "Quotev",
+          "url": "https://www.quotev.com/stories/c/Fanfiction",
+          "description": "Fanfiction"
+        },
+        {
+          "name": "AlternateHistory",
+          "url": "https://www.alternatehistory.com/forum/",
+          "description": "Historical \"What if?\" Fiction"
+        },
+        {
+          "name": "Liminal Archives",
+          "url": "http://liminal-archives.wikidot.com/",
+          "description": "Liminal Space Stories"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/fxhwcsyKN2",
+          "description": "Liminal Space Stories"
+        },
+        {
+          "name": "The Backrooms Wiki",
+          "url": "http://backrooms-wiki.wikidot.com/",
+          "description": "Liminal Space Stories"
+        },
+        {
+          "name": "The Voidclusters",
+          "url": "http://voidclusters.wikidot.com/",
+          "description": "Liminal Space Stories"
+        },
+        {
+          "name": "Potions and Snitches",
+          "url": "https://www.potionsandsnitches.org/",
+          "description": "Harry Potter Fanfiction"
+        },
+        {
+          "name": "Fim Fiction",
+          "url": "https://www.fimfiction.net/",
+          "description": "MLP Fanfiction"
+        },
+        {
+          "name": "fiction.live",
+          "url": "https://fiction.live/",
+          "description": "Fanfiction"
+        }
+      ]
+    },
+    {
+      "id": "reading-newspapers",
+      "title": "新聞",
+      "resources": [
+        {
+          "name": "Veridian",
+          "url": "https://veridiansoftware.com/collections/",
+          "description": "Newspaper Archive List",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Mobilism Newspapers",
+          "url": "https://forum.mobilism.org/viewforum.php?f=123",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "User Ranks",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/mobilism-ranks.md",
+          "description": ""
+        },
+        {
+          "name": "Google Newspaper Search",
+          "url": "https://news.google.com/newspapers",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "SoftArchive",
+          "url": "https://softarchive.download/newspapers",
+          "description": ""
+        },
+        {
+          "name": "Meta-Press",
+          "url": "https://www.meta-press.es/",
+          "description": "Newspaper Search"
+        },
+        {
+          "name": "EngNewspapers",
+          "url": "https://vk.com/engnewspapers",
+          "description": "Telegram"
+        },
+        {
+          "name": "newspaper_archive",
+          "url": "https://t.me/newspaper_archive",
+          "description": "Telegram"
+        },
+        {
+          "name": "Chronicling America",
+          "url": "https://chroniclingamerica.loc.gov/newspapers/",
+          "description": ""
+        },
+        {
+          "name": "Kiosko",
+          "url": "https://en.kiosko.net/",
+          "description": ""
+        },
+        {
+          "name": "FultonHistory",
+          "url": "https://fultonhistory.com/Fulton.html",
+          "description": ""
+        },
+        {
+          "name": "Loc.gov Newspapers",
+          "url": "https://www.loc.gov/newspapers/",
+          "description": ""
+        },
+        {
+          "name": "Newspapers",
+          "url": "https://newspapers.com/",
+          "description": ""
+        },
+        {
+          "name": "ThoughtCo",
+          "url": "https://www.thoughtco.com/us-historical-newspapers-online-by-state-1422215",
+          "description": ""
+        },
+        {
+          "name": "Library of Congress Newspapers",
+          "url": "https://guides.loc.gov/foreign-newspapers/digital-resources",
+          "description": ""
+        },
+        {
+          "name": "Archive.org Newspapers",
+          "url": "https://rentry.co/FMHYB64#archiveorg-newspapers",
+          "description": ""
+        },
+        {
+          "name": "World-Newspapers",
+          "url": "https://world-newspapers.com/",
+          "description": "Online Newspaper Indexes"
+        },
+        {
+          "name": "NewsPaperIndex",
+          "url": "https://www.newspaperindex.com/",
+          "description": "Online Newspaper Indexes"
+        },
+        {
+          "name": "Paperboy",
+          "url": "https://www.thepaperboy.com/",
+          "description": "Online Newspaper Indexes"
+        },
+        {
+          "name": "LA Times",
+          "url": "https://latimes.newspapers.com/",
+          "description": ""
+        },
+        {
+          "name": "Front Pages",
+          "url": "https://www.frontpages.com/",
+          "description": "Newspaper Front Pages"
+        },
+        {
+          "name": "Europeana Newspapers",
+          "url": "https://www.europeana.eu/en/collections/topic/18-newspapers",
+          "description": "European Historical Newspapers"
+        },
+        {
+          "name": "Newspaper Map",
+          "url": "https://newspapermap.com/",
+          "description": "Find / Translate Worldwide Newspapers"
+        }
+      ]
+    },
+    {
+      "id": "reading-esoteric-cultural",
+      "title": "秘教 / 文化",
+      "resources": [
+        {
+          "name": "Sacred Text Archive",
+          "url": "https://sacred-texts.com/",
+          "description": "Esoterica / Mythology / Folklore / Classic View",
+          "starred": true
+        },
+        {
+          "name": "Libris Adepti",
+          "url": "https://librisadepti.com/",
+          "description": "Esoterica / Occult",
+          "starred": true
+        },
+        {
+          "name": "Grimoar.cz",
+          "url": "http://english.grimoar.cz/?Loc=key&Lng=2",
+          "description": "Occult Books"
+        },
+        {
+          "name": "Darkbooks",
+          "url": "https://darkbooks.org/collection/top250.html",
+          "description": "Occult Books"
+        },
+        {
+          "name": "Astrum Argenteum",
+          "url": "https://www.astrumargenteum.org/library/",
+          "description": "Occult Books"
+        },
+        {
+          "name": "Hermetic International",
+          "url": "https://www.hermetics.net/",
+          "description": "Occult / Gnosticism / Hermetic / Philosophy"
+        },
+        {
+          "name": "Hermetics",
+          "url": "https://www.hermetics.org/library.html",
+          "description": "Ancient Texts / Mythology / Occult"
+        },
+        {
+          "name": "EatTheFruit",
+          "url": "https://www.eatthefruit.com/media-library/pdf-library/",
+          "description": "Ancient Texts / Mythology"
+        },
+        {
+          "name": "Dhamma Talks",
+          "url": "https://www.dhammatalks.org/",
+          "description": "Esoterica / Buddhism"
+        },
+        {
+          "name": "Sutta Central",
+          "url": "https://suttacentral.net/",
+          "description": "Esoterica / Buddhism"
+        },
+        {
+          "name": "Jainism Library of Jain Literature",
+          "url": "https://www.atmadharma.com/index.html",
+          "description": "Esoterica"
+        },
+        {
+          "name": "Awakening-Intuition",
+          "url": "https://www.awakening-intuition.com/ebooks.html",
+          "description": "Esoterica / Occult"
+        },
+        {
+          "name": "Biblioteca Pleyades",
+          "url": "https://www.bibliotecapleyades.net/esp_tema.htm",
+          "description": "Mythology / Conspiracy / Esoterica"
+        },
+        {
+          "name": "Gnostic Society Library",
+          "url": "http://www.gnosis.org/library.html",
+          "description": "Gnosticism"
+        },
+        {
+          "name": "Logoi Library",
+          "url": "https://logoilibrary.com/",
+          "description": "Gnosticism / Hermeticism"
+        },
+        {
+          "name": "The Library of Consciousness",
+          "url": "https://www.organism.earth/library/",
+          "description": "Esoterica"
+        },
+        {
+          "name": "Esoteric Archive",
+          "url": "https://esotericarchives.com/",
+          "description": "Esoterica"
+        },
+        {
+          "name": "magZtore",
+          "url": "https://t.me/magZtore",
+          "description": "Esoterica / Telegram"
+        },
+        {
+          "name": "WonderlandLibraryOfMagicBooks",
+          "url": "https://t.me/WonderlandLibraryOfMagicBooks",
+          "description": "Esoterica / Telegram"
+        },
+        {
+          "name": "Synchroncity1111",
+          "url": "https://t.me/synchroncity1111",
+          "description": "Esoterica / Telegram"
+        },
+        {
+          "name": "SpiritualBooks",
+          "url": "https://t.me/spiritualbooks",
+          "description": "Esoterica / Telegram"
+        },
+        {
+          "name": "Masonic Library",
+          "url": "https://masonicshop.com/masonic-library/",
+          "description": "Esoterica / Freemasonry"
+        },
+        {
+          "name": "Rosicrucian Esotericism Lecture",
+          "url": "https://rsarchive.org/",
+          "description": "Rosicrucian Esotericism"
+        },
+        {
+          "name": "IAPSOP",
+          "url": "http://iapsop.com/",
+          "description": "Spiritualist / Occult Periodicals"
+        },
+        {
+          "name": "Dhushara Research",
+          "url": "https://www.dhushara.com/index.htm",
+          "description": "Metaphysics / Conspiracies / Psychedelics"
+        },
+        {
+          "name": "The Theosophical Society",
+          "url": "https://www.theosociety.org/",
+          "description": "Theosophy"
+        },
+        {
+          "name": "Theosophy World",
+          "url": "https://www.theosophy.world/portfolio/term/ebooks",
+          "description": "Theosophy"
+        },
+        {
+          "name": "Great Library of Eris",
+          "url": "https://libraryoferis.org/",
+          "description": "Discordianism"
+        },
+        {
+          "name": "Shankaracharya",
+          "url": "https://www.shankaracharya.org/",
+          "description": "Hinduism"
+        },
+        {
+          "name": "Vedanta Shastras",
+          "url": "https://www.shastras.com/",
+          "description": "Hinduism"
+        },
+        {
+          "name": "Encyclopedia Of Hinduism",
+          "url": "https://archive.org/details/ConstanceA.JonesJamesD.RyanEncyclopediaOfHinduism/",
+          "description": "Hinduism Encyclopedia"
+        },
+        {
+          "name": "BhagavadGitaApp",
+          "url": "https://github.com/WirelessAlien/BhagavadGitaApp",
+          "description": "Bhagavad Gita Apps"
+        },
+        {
+          "name": "Dharmik",
+          "url": "https://github.com/shub39/Dharmik",
+          "description": "Bhagavad Gita Apps"
+        },
+        {
+          "name": "Vedabase",
+          "url": "https://vedabase.io/en/",
+          "description": "Bhaktivedanta Swami / Books / Transcripts / Letters"
+        },
+        {
+          "name": "84000",
+          "url": "https://84000.co/",
+          "description": "Buddhism"
+        },
+        {
+          "name": "Encyclopedia Of Buddhism",
+          "url": "https://archive.org/details/EdwardA.IronsEncyclopediaOfBuddhismEncyclopediaOfWorldReligions/",
+          "description": "Buddhist Encyclopedia"
+        },
+        {
+          "name": "Buddhism Dictionary",
+          "url": "http://www.buddhism-dict.net/ddb/",
+          "description": "Buddhist Dictionary"
+        },
+        {
+          "name": "Early Christian Writings",
+          "url": "https://www.earlychristianwritings.com/index.html",
+          "description": "Christianity / Gnosticism"
+        },
+        {
+          "name": "HolyBooks",
+          "url": "https://holybooks.com/",
+          "description": "Religious Texts"
+        },
+        {
+          "name": "The Dead Sea Scrolls",
+          "url": "https://www.deadseascrolls.org.il/",
+          "description": "Dead Sea Scrolls Archive"
+        },
+        {
+          "name": "DigiVatLib",
+          "url": "https://digi.vatlib.it/",
+          "description": "Digital Vatican Library"
+        },
+        {
+          "name": "BibleGateway",
+          "url": "https://www.biblegateway.com/",
+          "description": "Christian Bible"
+        },
+        {
+          "name": "Armorer",
+          "url": "https://armorer.io/",
+          "description": "Christian Bible"
+        },
+        {
+          "name": "Bible.com",
+          "url": "https://www.bible.com/",
+          "description": "Christian Bible"
+        },
+        {
+          "name": "eSword",
+          "url": "https://e-sword.net/",
+          "description": "Christian Bible Desktop App"
+        },
+        {
+          "name": "Classics Ethereal Library",
+          "url": "https://www.ccel.org/",
+          "description": "Christianity"
+        },
+        {
+          "name": "Hidden Bible",
+          "url": "http://www.hiddenbible.com/enoch/online.html",
+          "description": "Enoch Translation"
+        },
+        {
+          "name": "Quran.com",
+          "url": "https://quran.com/",
+          "description": "Quran Translations"
+        },
+        {
+          "name": "Android",
+          "url": "https://github.com/quran/quran_android",
+          "description": "Quran Translations"
+        },
+        {
+          "name": "iOS",
+          "url": "https://github.com/quran/quran-ios",
+          "description": "Quran Translations"
+        },
+        {
+          "name": "Tanzil",
+          "url": "https://tanzil.net/",
+          "description": "Quran Translations"
+        },
+        {
+          "name": "AbcQuran",
+          "url": "https://github.com/jomtek/AbcQuran",
+          "description": "Quran Translations"
+        },
+        {
+          "name": "Awesome Islam",
+          "url": "https://github.com/AhmedKamal/awesome-Islam",
+          "description": "Islam Related Projects / Apps"
+        },
+        {
+          "name": "OpenMaktaba",
+          "url": "https://openmaktaba.com/",
+          "description": "Islamic Books"
+        },
+        {
+          "name": "TheIslam360",
+          "url": "https://theislam360.com/",
+          "description": "Islamic Research App"
+        },
+        {
+          "name": "Halakhah",
+          "url": "https://www.halakhah.com/",
+          "description": "Talmud Translation"
+        },
+        {
+          "name": "Targum",
+          "url": "http://targum.info/targumic-texts/",
+          "description": "Targum Translation"
+        },
+        {
+          "name": "Sefaria",
+          "url": "https://www.sefaria.org/",
+          "description": "Jewish Texts Translations"
+        },
+        {
+          "name": "Muslim Scholars",
+          "url": "https://muslimscholars.info/",
+          "description": "Muslim Scholar Database"
+        },
+        {
+          "name": "2Muslims",
+          "url": "https://www.2muslims.com/",
+          "description": "Muslim Resources"
+        },
+        {
+          "name": "Five Prayers",
+          "url": "https://github.com/Five-Prayers/five-prayers-android",
+          "description": "Muslim Tools App"
+        },
+        {
+          "name": "Sunnah.com",
+          "url": "https://sunnah.com/",
+          "description": "Hadith Translation"
+        }
+      ]
+    },
+    {
+      "id": "reading-downloading",
+      "title": "ダウンロード",
+      "resources": [
+        {
+          "name": "Mobilism Audiobooks",
+          "url": "https://forum.mobilism.org/viewforum.php?f=124",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "2",
+          "url": "https://forum.mobilism.me/viewforum.php?f=124",
+          "description": ""
+        },
+        {
+          "name": "User Ranks",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/mobilism-ranks.md",
+          "description": ""
+        },
+        {
+          "name": "AudiobookBay",
+          "url": "https://audiobookbay.lu/",
+          "description": "Torrents / Warning",
+          "starred": true
+        },
+        {
+          "name": "MyAnonaMouse",
+          "url": "https://www.myanonamouse.net/",
+          "description": "Invites",
+          "starred": true
+        },
+        {
+          "name": "Audiobook CSE",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:cwbbza56vhd",
+          "description": "Multi-Site Audiobook Search",
+          "starred": true
+        },
+        {
+          "name": "Rave Search",
+          "url": "https://ravebooksearch.com/index-audiobooks",
+          "description": "Multi-Site Audiobook Search"
+        },
+        {
+          "name": "AudioBooksBee",
+          "url": "https://audiobooksbee.com/",
+          "description": ""
+        },
+        {
+          "name": "LearnOutLoud",
+          "url": "https://www.learnoutloud.com/Free-Audiobooks",
+          "description": ""
+        },
+        {
+          "name": "Golden Audiobooks",
+          "url": "https://goldenaudiobook.net/",
+          "description": ""
+        },
+        {
+          "name": "DigitalBook",
+          "url": "https://www.digitalbook.io/",
+          "description": ""
+        },
+        {
+          "name": "Librivox",
+          "url": "https://librivox.org/",
+          "description": ""
+        },
+        {
+          "name": "Book Radio",
+          "url": "https://bookradio.vercel.app/",
+          "description": ""
+        },
+        {
+          "name": "Audiobooks For Soul",
+          "url": "https://audiobooks4soul.com/",
+          "description": ""
+        },
+        {
+          "name": "AppAudiobooks",
+          "url": "https://appaudiobooks.net/",
+          "description": ""
+        },
+        {
+          "name": "LitGu.ru",
+          "url": "https://litgu.ru/",
+          "description": "Use Translator"
+        },
+        {
+          "name": "audiobooks_English",
+          "url": "https://t.me/audiobooks_English",
+          "description": "Telegram"
+        },
+        {
+          "name": "Audible (selected)",
+          "url": "https://t.me/+GV_tJ_U7em04YjU9",
+          "description": "Telegram"
+        },
+        {
+          "name": "FreeClassicAudiobooks",
+          "url": "https://www.freeclassicaudiobooks.com/",
+          "description": "Classic Audiobooks"
+        },
+        {
+          "name": "Storynory",
+          "url": "https://www.storynory.com/",
+          "description": "Children Audio Stories"
+        },
+        {
+          "name": "Audiobooks Poetry",
+          "url": "https://archive.org/details/audio_bookspoetry",
+          "description": "Audiobooks / Poetry"
+        },
+        {
+          "name": "audiobook-dl",
+          "url": "https://github.com/jo1gi/audiobook-dl",
+          "description": "Audiobook Downloaders"
+        },
+        {
+          "name": "⁠Shelfmark",
+          "url": "https://github.com/calibrain/shelfmark",
+          "description": "Audiobook Downloaders"
+        }
+      ]
+    },
+    {
+      "id": "reading-streaming",
+      "title": "ストリーミング",
+      "resources": [
+        {
+          "name": "Tokybook",
+          "url": "https://tokybook.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Downloader",
+          "url": "https://github.com/rahaaatul/TokySnatcher",
+          "description": ""
+        },
+        {
+          "name": "2",
+          "url": "https://github.com/nazdridoy/audiobooksnatcher",
+          "description": ""
+        },
+        {
+          "name": "NEPU Audiobooks",
+          "url": "https://nepu.to/ebooks",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "FullLengthAudiobooks",
+          "url": "https://fulllengthaudiobooks.net/",
+          "description": ""
+        },
+        {
+          "name": "HDAudiobooks",
+          "url": "https://hdaudiobooks.net/",
+          "description": ""
+        },
+        {
+          "name": "BigAudiobooks",
+          "url": "https://bigaudiobooks.net/",
+          "description": ""
+        },
+        {
+          "name": "HotAudioBooks",
+          "url": "https://hotaudiobooks.com/",
+          "description": ""
+        },
+        {
+          "name": "BookAudiobook",
+          "url": "https://bookaudiobook.net/",
+          "description": ""
+        },
+        {
+          "name": "GalaxyAudiobooks",
+          "url": "https://galaxyaudiobook.com/",
+          "description": ""
+        },
+        {
+          "name": "Downloader",
+          "url": "https://github.com/nazdridoy/audiobooksnatcher",
+          "description": ""
+        },
+        {
+          "name": "Audiozaic",
+          "url": "https://audiozaic.com/",
+          "description": ""
+        },
+        {
+          "name": "NAudios",
+          "url": "https://naudios.com/",
+          "description": ""
+        },
+        {
+          "name": "Find Audiobook",
+          "url": "https://findaudiobook.app/",
+          "description": ""
+        },
+        {
+          "name": "Audio AZ",
+          "url": "https://audioaz.com/",
+          "description": ""
+        },
+        {
+          "name": "r/audiobooksonyoutube",
+          "url": "https://reddit.com/r/audiobooksonyoutube",
+          "description": ""
+        },
+        {
+          "name": "PlayTorrio",
+          "url": "https://playtorrio.xyz/",
+          "description": "Audiobook App / Windows",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Spotify Audiobooks",
+          "url": "https://open.spotify.com/artist/1FSWXfsYsosTxjcV9WoLax",
+          "description": "Select Playlists"
+        }
+      ]
+    },
+    {
+      "id": "reading-audiobook-tools",
+      "title": "Audiobook ツール",
+      "resources": [
+        {
+          "name": "⁠AudiobookCovers",
+          "url": "https://audiobookcovers.com/",
+          "description": "Download Audiobook Covers"
+        },
+        {
+          "name": "AudioBookConverter",
+          "url": "https://github.com/yermak/AudioBookConverter",
+          "description": "Audiobook Format Converter"
+        },
+        {
+          "name": "Audible Tools",
+          "url": "https://audible-tools.kamsker.at/",
+          "description": "Audible DRM Remover / Manager"
+        },
+        {
+          "name": "AaxAudioConverter",
+          "url": "https://github.com/audiamus/AaxAudioConverter",
+          "description": "Audible DRM Remover / Manager"
+        },
+        {
+          "name": "Libation",
+          "url": "https://getlibation.com/",
+          "description": "Audible DRM Remover / Manager"
+        },
+        {
+          "name": "AudiobookShelf",
+          "url": "https://www.audiobookshelf.org/",
+          "description": "Self-Hosted Audiobook Servers"
+        },
+        {
+          "name": "Multi-Platform Client",
+          "url": "https://github.com/Vito0912/abs_flutter",
+          "description": "Self-Hosted Audiobook Servers"
+        },
+        {
+          "name": "Mobile",
+          "url": "https://github.com/advplyr/audiobookshelf-app",
+          "description": "Self-Hosted Audiobook Servers"
+        },
+        {
+          "name": "2",
+          "url": "https://github.com/GrakovNe/lissen-android/",
+          "description": "Self-Hosted Audiobook Servers"
+        },
+        {
+          "name": "BookSonic",
+          "url": "https://booksonic.org/",
+          "description": "Self-Hosted Audiobook Servers"
+        }
+      ]
+    },
+    {
+      "id": "reading-comics",
+      "title": "コミック",
+      "resources": [
+        {
+          "name": "ReadComicsOnline",
+          "url": "https://readcomiconline.li/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "BatCave",
+          "url": "https://batcave.biz/",
+          "description": "May Require VPN",
+          "starred": true
+        },
+        {
+          "name": "GetComics",
+          "url": "https://getcomics.org/",
+          "description": "Download Comics",
+          "starred": true
+        },
+        {
+          "name": "ComicBookPlus",
+          "url": "https://comicbookplus.com/",
+          "description": "Golden Age Comics",
+          "starred": true
+        },
+        {
+          "name": "Explosm",
+          "url": "https://explosm.net/rcg",
+          "description": "Cyanide & Happiness Webcomics",
+          "starred": true
+        },
+        {
+          "name": "xkcd",
+          "url": "https://xkcd.com/",
+          "description": "xkcd Webcomics / Explanations",
+          "starred": true
+        },
+        {
+          "name": "findxkcd",
+          "url": "https://xkcd-search.typesense.org/",
+          "description": "xkcd Webcomics / Explanations"
+        },
+        {
+          "name": "Comic CSE",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:p4hgytyrohg",
+          "description": "Multi-Site Comic Search",
+          "starred": true
+        },
+        {
+          "name": "Cover",
+          "url": "https://frenchfrysoftware.com/cover/",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "Comic Library Utilities",
+          "url": "https://clucomics.org/",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/allaboutduncan/comic-utils",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "PlayTorrio",
+          "url": "https://playtorrio.xyz/",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/bbkVHRHnRk",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ayman708-UX/PlayTorrio",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "MComix",
+          "url": "https://sourceforge.net/projects/mcomix/",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "CBR Reader",
+          "url": "https://www.cdisplayex.com/",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "Stump",
+          "url": "https://www.stumpapp.dev/",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "⁠GonVisor",
+          "url": "https://www.gonvisor.com/",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "comic-book-reader",
+          "url": "https://github.com/binarynonsense/comic-book-reader",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "OpenComic",
+          "url": "https://github.com/ollm/OpenComic",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "YACReader",
+          "url": "https://yacreader.com/",
+          "description": "Comic Readers / Managers"
+        },
+        {
+          "name": "XOXO Comics",
+          "url": "https://xoxocomic.com/",
+          "description": ""
+        },
+        {
+          "name": "ReadAllComics",
+          "url": "https://readallcomics.com/",
+          "description": ""
+        },
+        {
+          "name": "Read Comics Online",
+          "url": "https://readcomicsonline.ru/",
+          "description": ""
+        },
+        {
+          "name": "4chan /co/",
+          "url": "https://boards.4channel.org/co/catalog#s=official%20win",
+          "description": "Weekly Downloads"
+        },
+        {
+          "name": "ZipComic",
+          "url": "https://www.zipcomic.com/",
+          "description": ""
+        },
+        {
+          "name": "OldComicsWorld",
+          "url": "https://oldcomicsworld.blogspot.com/",
+          "description": "Golden Age Comic Downloads"
+        },
+        {
+          "name": "DigitalComicMuseum",
+          "url": "https://digitalcomicmuseum.com/",
+          "description": "Golden Age Comic Downloads"
+        },
+        {
+          "name": "Comics Kingdom",
+          "url": "https://comicskingdom.com/",
+          "description": "Comics Strips"
+        },
+        {
+          "name": "GoComics",
+          "url": "https://www.gocomics.com/",
+          "description": "Comics Strips / Site Fix"
+        },
+        {
+          "name": "The Oatmeal",
+          "url": "https://theoatmeal.com/",
+          "description": "Webcomics"
+        },
+        {
+          "name": "Hiveworks Comics",
+          "url": "https://www.thehiveworks.com/",
+          "description": "Webcomics"
+        },
+        {
+          "name": "Loading Artist",
+          "url": "https://loadingartist.com/",
+          "description": "Webcomics"
+        },
+        {
+          "name": "Collective of Heroes",
+          "url": "https://collectiveofheroes.net/",
+          "description": "Superhero Webcomics"
+        },
+        {
+          "name": "Comic Book Library",
+          "url": "http://nv3x2jozywh63fkohn5mwp2d73vasusjixn3im3ueof52fmbjsigw6ad.onion/",
+          "description": "Requires Tor"
+        },
+        {
+          "name": "ComicEater",
+          "url": "https://github.com/kanjieater/ComicEater",
+          "description": "Comic Archiving Tools"
+        },
+        {
+          "name": "Comics Downloader",
+          "url": "https://github.com/Girbons/comics-downloader",
+          "description": "Comic Downloaders"
+        },
+        {
+          "name": "Comic Library Utilities",
+          "url": "https://clucomics.org/",
+          "description": "Comic Downloaders"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/allaboutduncan/comic-utils",
+          "description": "Comic Downloaders"
+        },
+        {
+          "name": "Mylar3",
+          "url": "https://github.com/mylar3/mylar3",
+          "description": "Comic Downloaders"
+        },
+        {
+          "name": "Comic-DL",
+          "url": "https://github.com/Xonshiz/comic-dl",
+          "description": "Comic Downloaders"
+        },
+        {
+          "name": "ComicReader",
+          "url": "https://comicreader.netlify.app/",
+          "description": "Online Comic Reader"
+        },
+        {
+          "name": "KThoom",
+          "url": "https://github.com/codedread/kthoom",
+          "description": "Online Comic Reader"
+        },
+        {
+          "name": "ComicFury",
+          "url": "https://comicfury.com/",
+          "description": "User-Made Comics"
+        },
+        {
+          "name": "Comic Translate",
+          "url": "https://github.com/ogkalu2/comic-translate",
+          "description": "Comic Translator"
+        },
+        {
+          "name": "Webcomix",
+          "url": "https://github.com/J-CPelletier/webcomix",
+          "description": "Webcomics Downloader"
+        },
+        {
+          "name": "Komga",
+          "url": "https://komga.org/",
+          "description": "Comic / Manga Media Server",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ComicTagger",
+          "url": "https://github.com/comictagger/comictagger",
+          "description": "Comic Metadata Tagger"
+        }
+      ]
+    },
+    {
+      "id": "reading-manga",
+      "title": "マンガ",
+      "resources": [
+        {
+          "name": "Wotaku",
+          "url": "https://wotaku.wiki/websites#manga",
+          "description": "Manga Sites Index",
+          "tags": [
+            "index",
+            "Discord"
+          ]
+        },
+        {
+          "name": "The Index",
+          "url": "https://theindex.moe/library/manga",
+          "description": "Manga Sites Index / Wiki",
+          "tags": [
+            "index",
+            "Discord"
+          ]
+        },
+        {
+          "name": "EverythingMoe",
+          "url": "https://everythingmoe.com/section/manga",
+          "description": "Manga Sites Index",
+          "tags": [
+            "index",
+            "Subreddit",
+            "Discord"
+          ],
+          "mirrors": [
+            "https://everythingmoe.org/#section-manga"
+          ]
+        },
+        {
+          "name": "Rawmangaz",
+          "url": "https://claraiscute.neocities.org/Guides/rawmangaz/",
+          "description": "List of Raw Manga Sites",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Weeb Central",
+          "url": "https://weebcentral.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "MangaDex",
+          "url": "https://mangadex.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Downloader",
+          "url": "https://mangadex-dl.mansuf.link/",
+          "description": ""
+        },
+        {
+          "name": "Script",
+          "url": "https://github.com/frozenpandaman/mangadex-dl",
+          "description": ""
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://www.reddit.com/r/mangadex/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/mangadex",
+          "description": ""
+        },
+        {
+          "name": "⁠Comix",
+          "url": "https://comix.to/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://reddit.com/r/comix",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/kZgWWHUj22",
+          "description": ""
+        },
+        {
+          "name": "MangaFire",
+          "url": "https://mangafire.to/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://www.reddit.com/r/Mangafire/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/KRQQKzQ6CS",
+          "description": ""
+        },
+        {
+          "name": "MangaNato",
+          "url": "https://www.manganato.gg/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "2",
+          "url": "https://www.nelomanga.net/",
+          "description": ""
+        },
+        {
+          "name": "3",
+          "url": "https://www.mangakakalot.gg",
+          "description": ""
+        },
+        {
+          "name": "4",
+          "url": "https://www.natomanga.com/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/Qhz84GGvE9",
+          "description": ""
+        },
+        {
+          "name": "Kagane",
+          "url": "https://kagane.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/kBPYVSzwUE",
+          "description": ""
+        },
+        {
+          "name": "Nyaa Manga / LNs",
+          "url": "https://nyaa.si/?f=0&c=3_0&q=",
+          "description": "Torrents",
+          "starred": true
+        },
+        {
+          "name": "MangaKatana",
+          "url": "https://mangakatana.com/",
+          "description": ""
+        },
+        {
+          "name": "Atsumaru",
+          "url": "https://atsu.moe/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/Tj4QmEF4uV",
+          "description": ""
+        },
+        {
+          "name": "MangaBuddy",
+          "url": "https://mangabuddy.com",
+          "description": ""
+        },
+        {
+          "name": "MangaForest",
+          "url": "https://mangaforest.me/",
+          "description": ""
+        },
+        {
+          "name": "MangaMirror",
+          "url": "https://mangamirror.com/",
+          "description": ""
+        },
+        {
+          "name": "MangaBall",
+          "url": "https://mangaball.net/",
+          "description": ""
+        },
+        {
+          "name": "mangapill",
+          "url": "https://mangapill.com/",
+          "description": ""
+        },
+        {
+          "name": "⁠WeebDex",
+          "url": "https://weebdex.org/search?contentRating=safe",
+          "description": "Manga Site / Some NSFW",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Like Manga",
+          "url": "https://likemanga.in/",
+          "description": ""
+        },
+        {
+          "name": "MangaHere",
+          "url": "https://www.mangahere.cc/",
+          "description": ""
+        },
+        {
+          "name": "MangaFox",
+          "url": "https://fanfox.net/",
+          "description": ""
+        },
+        {
+          "name": "Rive Manga",
+          "url": "https://rivestream.org/manga",
+          "description": ""
+        },
+        {
+          "name": "MangaHaven",
+          "url": "https://mangahaven.net/",
+          "description": ""
+        },
+        {
+          "name": "The Manga Library",
+          "url": "https://rentry.co/FMHYB64#the-manga-library",
+          "description": ""
+        },
+        {
+          "name": "MangaHub",
+          "url": "https://mangahub.io/",
+          "description": ""
+        },
+        {
+          "name": "Cubari Proxy",
+          "url": "https://proxy.cubari.moe/",
+          "description": "Multi Site Web Client",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "MangaBerri",
+          "url": "https://mangaberri.com/",
+          "description": "Use Adblock"
+        },
+        {
+          "name": "⁠Mgeko",
+          "url": "https://www.mgeko.cc/",
+          "description": "Manhwa / Manhua"
+        },
+        {
+          "name": "Webtoon",
+          "url": "https://www.webtoons.com/",
+          "description": "Manhwa",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Toonily",
+          "url": "https://toonily.com/",
+          "description": "Manhwa"
+        },
+        {
+          "name": "ManhwaClan",
+          "url": "https://manhwaclan.com/",
+          "description": "Manhwa"
+        },
+        {
+          "name": "⁠ManhwaZone",
+          "url": "https://manhwazone.to/",
+          "description": "Manhwa",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠AquaReader",
+          "url": "https://aquareader.net/",
+          "description": "Manhua"
+        },
+        {
+          "name": "Great Discord Links",
+          "url": "https://discord.gg/xAsyVb52a9",
+          "description": "Manga Scanlation Groups"
+        },
+        {
+          "name": "MangaDex Groups",
+          "url": "https://mangadex.org/groups",
+          "description": "Manga Scanlation Groups"
+        },
+        {
+          "name": "Madokami",
+          "url": "https://wotaku.wiki/guides/manga/madokami",
+          "description": "Makokami Download Guide / Archive"
+        },
+        {
+          "name": "MediaBang",
+          "url": "https://medibang.com/mpc/",
+          "description": "User-Created Manga"
+        },
+        {
+          "name": "⁠NamiComi",
+          "url": "https://namicomi.com/en",
+          "description": "User-Created Manga"
+        },
+        {
+          "name": "MP4DIRECTS",
+          "url": "https://mp4directs.com/",
+          "description": "Manga Downloads"
+        },
+        {
+          "name": "⁠jnovels",
+          "url": "https://jnovels.com/",
+          "description": "Manga Downloads"
+        },
+        {
+          "name": "MangaUpdates",
+          "url": "https://www.mangaupdates.com/",
+          "description": "Manga Database / Releases Updates"
+        },
+        {
+          "name": "Manga CSE",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:4im0fkhej3z",
+          "description": "Multi-Site Manga Search"
+        },
+        {
+          "name": "CSE 2",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:a5mavctjnsc#gsc.tab=0",
+          "description": "Multi-Site Manga Search"
+        },
+        {
+          "name": "PlayTorrio",
+          "url": "https://playtorrio.xyz/",
+          "description": "Manga App / Windows",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Seanime",
+          "url": "https://seanime.app/",
+          "description": "Self-Hosted Manga App"
+        },
+        {
+          "name": "Webcomic Reader",
+          "url": "https://openuserjs.org/scripts/anka-213/Webcomic_Reader",
+          "description": "Preloads Images, Remembers Progress and Keyboard Support"
+        },
+        {
+          "name": "BallonsTranslator",
+          "url": "https://github.com/dmMaze/BallonsTranslator/blob/master/README_EN.md",
+          "description": "Manga Translators"
+        },
+        {
+          "name": "Cotrans",
+          "url": "https://cotrans.touhou.ai/",
+          "description": "Manga Translators"
+        },
+        {
+          "name": "Scanlate",
+          "url": "https://scanlate.io/",
+          "description": "Manga Translators"
+        },
+        {
+          "name": "Manga-Manager",
+          "url": "https://github.com/MangaManagerORG/Manga-Manager",
+          "description": "Manga Managers"
+        },
+        {
+          "name": "Scan Updates",
+          "url": "https://www.scanupdates.com/",
+          "description": "Scan Release Updates"
+        }
+      ]
+    },
+    {
+      "id": "reading-magazines",
+      "title": "雑誌",
+      "resources": [
+        {
+          "name": "Mobilism Magazines",
+          "url": "https://forum.mobilism.org/viewforum.php?f=123",
+          "description": "Multi-Host / User Ranks",
+          "starred": true
+        },
+        {
+          "name": "PDFMagazines",
+          "url": "https://pdfmagazines.club/",
+          "description": "Novafile",
+          "starred": true
+        },
+        {
+          "name": "DownMagaz",
+          "url": "https://downmagaz.net/",
+          "description": "Novafile / Turbobit",
+          "starred": true
+        },
+        {
+          "name": "MagazineLib",
+          "url": "https://magazinelib.com/",
+          "description": "VK",
+          "starred": true
+        },
+        {
+          "name": "Calameo",
+          "url": "https://calameo.com/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "Magzter",
+          "url": "https://www.magzter.com/top-free-magazines",
+          "description": "Online Reading"
+        },
+        {
+          "name": "FlipHTML5",
+          "url": "https://fliphtml5.com/exploring",
+          "description": "Online Reading"
+        },
+        {
+          "name": "Magazine Rack",
+          "url": "https://archive.org/details/magazine_rack",
+          "description": "Archive.org"
+        },
+        {
+          "name": "Computer Magazines",
+          "url": "https://archive.org/details/computermagazines",
+          "description": "Archive.org"
+        },
+        {
+          "name": "freemagazines",
+          "url": "https://freemagazines.top/",
+          "description": "VK"
+        },
+        {
+          "name": "FreeMagazinePDF",
+          "url": "https://freemagazinespdf.com/",
+          "description": "VK"
+        },
+        {
+          "name": "⁠EBooksYard",
+          "url": "https://ebooksyard.com/",
+          "description": "VK"
+        },
+        {
+          "name": "ENMagazine",
+          "url": "https://t.me/enmagazine",
+          "description": "Telegram"
+        },
+        {
+          "name": "ItsAllInEnglish",
+          "url": "https://t.me/itsallinenglishs",
+          "description": "Telegram"
+        },
+        {
+          "name": "World Mags",
+          "url": "https://www.worldmags.net/",
+          "description": "Nitroflare / Novafile"
+        },
+        {
+          "name": "PDF Dude",
+          "url": "https://pdfdude.com/",
+          "description": "Novafile"
+        },
+        {
+          "name": "PDF Magazines Download",
+          "url": "https://pdf-magazines-download.com/",
+          "description": "Novafile"
+        },
+        {
+          "name": "PDF Magaz",
+          "url": "https://www.pdfmagaz.in/",
+          "description": "Novafile"
+        },
+        {
+          "name": "PDF Magazines Archive",
+          "url": "https://pdf-magazines-archive.com/",
+          "description": "Novafile"
+        },
+        {
+          "name": "MagDownload",
+          "url": "https://magdownload.org/",
+          "description": "Nitroflare"
+        },
+        {
+          "name": "WholeEarth",
+          "url": "https://wholeearth.info/",
+          "description": "Whole Earth Science Magazines"
+        },
+        {
+          "name": "Lainzine",
+          "url": "https://lainzine.org/",
+          "description": "Lain-Inspired Magazine"
+        },
+        {
+          "name": "Retromags",
+          "url": "https://www.retromags.com/",
+          "description": "Retro Gaming Magazines"
+        },
+        {
+          "name": "⁠Out-of-Print Archive",
+          "url": "https://www.outofprintarchive.com/",
+          "description": "Retro Gaming Magazines"
+        },
+        {
+          "name": "VGHF",
+          "url": "https://archive.gamehistory.org/folder/9a193e8c-67e0-45ff-98d2-a33e85721cc4",
+          "description": "Retro Gaming Magazines"
+        },
+        {
+          "name": "PC Zone",
+          "url": "https://pixsoriginadventures.co.uk/PCZone/",
+          "description": "PC Zone Magazines"
+        },
+        {
+          "name": "CGW Museum",
+          "url": "https://www.cgwmuseum.org/",
+          "description": "Computer Gaming World Magazines"
+        },
+        {
+          "name": "Atari Magazines",
+          "url": "https://www.atarimagazines.com/",
+          "description": "Classic Computer Magazine Archive"
+        },
+        {
+          "name": "RadioShack Catalogs",
+          "url": "https://www.radioshackcatalogs.com/",
+          "description": "RadioShack Catalog Archive"
+        },
+        {
+          "name": "HomePower",
+          "url": "https://www.homepower.com/archive-browse",
+          "description": "Home Power Magazines"
+        },
+        {
+          "name": "Archive Fashion for the World",
+          "url": "https://www.archivepdf.net/",
+          "description": "Fashion Magazines"
+        },
+        {
+          "name": "⁠Music and Books",
+          "url": "https://musicsandbooks.org/",
+          "description": "Music Magazines"
+        },
+        {
+          "name": "Openstax",
+          "url": "https://openstax.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "AcademicTorrents",
+          "url": "https://academictorrents.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Institutional Access",
+          "url": "https://www.facebook.com/groups/850609558335839",
+          "description": "Request Institutional Access PDFs"
+        },
+        {
+          "name": "Online Books Page",
+          "url": "https://onlinebooks.library.upenn.edu/",
+          "description": ""
+        },
+        {
+          "name": "The Literature Network",
+          "url": "https://www.online-literature.com/",
+          "description": ""
+        },
+        {
+          "name": "Memory of the World",
+          "url": "https://www.memoryoftheworld.org/",
+          "description": ""
+        },
+        {
+          "name": "Taleem360",
+          "url": "https://www.taleem360.com/",
+          "description": ""
+        },
+        {
+          "name": "LibreTexts",
+          "url": "https://commons.libretexts.org",
+          "description": "",
+          "mirrors": [
+            "https://libretexts.org/platforms/libraries/",
+            "https://libretexts.org/"
+          ]
+        },
+        {
+          "name": "PDFBooksWorld",
+          "url": "https://www.pdfbooksworld.com/",
+          "description": ""
+        },
+        {
+          "name": "Monoskop",
+          "url": "https://monoskop.org/log/",
+          "description": ""
+        },
+        {
+          "name": "LibertyFund",
+          "url": "https://oll.libertyfund.org/",
+          "description": ""
+        },
+        {
+          "name": "ACM",
+          "url": "https://dl.acm.org/",
+          "description": ""
+        },
+        {
+          "name": "HathiTrust",
+          "url": "https://www.hathitrust.org/",
+          "description": ""
+        },
+        {
+          "name": "FreeBookCentre",
+          "url": "https://freebookcentre.net/",
+          "description": ""
+        },
+        {
+          "name": "OAPEN",
+          "url": "https://oapen.org/",
+          "description": ""
+        },
+        {
+          "name": "VDOC.PUB",
+          "url": "https://vdoc.pub/",
+          "description": ""
+        },
+        {
+          "name": "Sciarium",
+          "url": "https://sciarium.com/",
+          "description": ""
+        },
+        {
+          "name": "OpenED",
+          "url": "https://open.bccampus.ca/",
+          "description": ""
+        },
+        {
+          "name": "De Gruyter Brill",
+          "url": "https://www.degruyterbrill.com/?submittedFilterId=by-type&access_4=open&pageSize=10&sort=datedescending&type_5=book",
+          "description": "",
+          "mirrors": [
+            "https://www.degruyterbrill.com/page/2045"
+          ]
+        },
+        {
+          "name": "Springer",
+          "url": "https://link.springer.com/search?showAll=false&query=&facet-content-type=%22Book%22",
+          "description": ""
+        },
+        {
+          "name": "Learn Anything / Books",
+          "url": "https://github.com/learn-anything/books",
+          "description": ""
+        },
+        {
+          "name": "Tradepub",
+          "url": "https://knowfree.tradepub.com/",
+          "description": ""
+        },
+        {
+          "name": "eBookRoom",
+          "url": "https://t.me/eBookRoom",
+          "description": ""
+        },
+        {
+          "name": "BookGoldMine",
+          "url": "https://www.bookgoldmine.com/",
+          "description": ""
+        },
+        {
+          "name": "SuperKuh",
+          "url": "http://erewhon.superkuh.com/library/",
+          "description": ""
+        },
+        {
+          "name": "⁠InfoBooks",
+          "url": "https://www.infobooks.org/",
+          "description": ""
+        },
+        {
+          "name": "Non-Fiction",
+          "url": "https://vk.com/non_fic",
+          "description": ""
+        },
+        {
+          "name": "FreePLRDownloads",
+          "url": "https://freeplrdownloads.com/",
+          "description": ""
+        },
+        {
+          "name": "E-Books Directory",
+          "url": "https://www.e-booksdirectory.com/",
+          "description": ""
+        },
+        {
+          "name": "The Ergonomic Development of Video Game Controllers",
+          "url": "https://www.longdom.org/open-access/the-ergonomic-development-of-video-game-controllers-2165-7556-1000209.pdf",
+          "description": ""
+        },
+        {
+          "name": "Wikiversity",
+          "url": "https://www.wikiversity.org/",
+          "description": "Learning Resources, Guides, Quizzes, Tools & More"
+        },
+        {
+          "name": "OpenEdition",
+          "url": "https://www.openedition.org/",
+          "description": "Books / Journals"
+        },
+        {
+          "name": "JSTor",
+          "url": "https://www.jstor.org/",
+          "description": "Books / Journals"
+        },
+        {
+          "name": "UCL Press",
+          "url": "https://www.uclpress.co.uk/",
+          "description": "Books / Journals"
+        },
+        {
+          "name": "Dummies Store",
+          "url": "https://t.me/dummiesbook",
+          "description": "Books for Dummies Collection"
+        },
+        {
+          "name": "2012books",
+          "url": "https://2012books.lardbucket.org/",
+          "description": "Creative Commons Books"
+        },
+        {
+          "name": "ck12",
+          "url": "https://www.ck12.org/",
+          "description": "Interactive CK-12"
+        },
+        {
+          "name": "Bookishfrenzy",
+          "url": "https://t.me/premium_ebooks",
+          "description": "Books / Exam Books"
+        },
+        {
+          "name": "Digital Libraries / Archives",
+          "url": "https://oedb.org/ilibrarian/250-plus-killer-digital-libraries-and-archives/",
+          "description": "Online University Libraries"
+        },
+        {
+          "name": "OpenDOAR",
+          "url": "https://v2.sherpa.ac.uk/opendoar/",
+          "description": "Academic Repository Search"
+        },
+        {
+          "name": "Science Forums",
+          "url": "https://www.scienceforums.net/",
+          "description": "Forums / Science"
+        },
+        {
+          "name": "EveryCulture",
+          "url": "https://www.everyculture.com/index.html",
+          "description": "World Culture Encyclopedia"
+        },
+        {
+          "name": "⁠Japanese Wiki Corpus",
+          "url": "https://www.japanesewiki.com/",
+          "description": "Japanese Culture / History Encyclopedia"
+        },
+        {
+          "name": "Encyclopaedia Iranica",
+          "url": "https://www.iranicaonline.org/",
+          "description": "Iranian Culture Encyclopedia"
+        },
+        {
+          "name": "Technical Library",
+          "url": "https://t.me/+Tz4VCcFAMVJGzd8z",
+          "description": "Trading / Stocks"
+        },
+        {
+          "name": "MedicalStudyZone",
+          "url": "https://medicalstudyzone.com/",
+          "description": "Medical"
+        },
+        {
+          "name": "VetBooks",
+          "url": "https://vetbooks.ir/",
+          "description": "Veterinary"
+        },
+        {
+          "name": "Brill",
+          "url": "https://brill.com/",
+          "description": "International Law Books / Free for Students Only"
+        }
+      ]
+    },
+    {
+      "id": "reading-textbooks",
+      "title": "教科書",
+      "resources": [
+        {
+          "name": "IvyPanda",
+          "url": "https://ivypanda.com/blog/1000-open-textbooks-and-learning-resources-for-all-subjects/",
+          "description": "Open-Source Textbooks",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Textbook Search Engine",
+          "url": "https://cse.google.com/cse/publicurl?cx=011394183039475424659:5bfyqg89ers",
+          "description": "Search for Textbooks",
+          "mirrors": [
+            "https://cse.google.com/cse?cx=001639227550064093264:dznewka3cca"
+          ]
+        },
+        {
+          "name": "Open Textbook Library",
+          "url": "https://open.umn.edu/opentextbooks/",
+          "description": "Textbooks"
+        },
+        {
+          "name": "OpenStax College Textbooks",
+          "url": "https://philschatz.com/books/",
+          "description": "Textbooks"
+        },
+        {
+          "name": "⁠ReadYourFlow",
+          "url": "https://readyourflow.com/",
+          "description": "Textbooks"
+        },
+        {
+          "name": "TextBookGo",
+          "url": "http://textbookgo.com/",
+          "description": "TextBooks"
+        },
+        {
+          "name": "Wikibooks",
+          "url": "https://en.wikibooks.org/",
+          "description": "Open-Content Texbooks"
+        },
+        {
+          "name": "CLP",
+          "url": "https://personal.math.ubc.ca/~CLP/",
+          "description": "Calculus Textbooks"
+        },
+        {
+          "name": "Pearson",
+          "url": "https://redd.it/smm6ib",
+          "description": "Pearson Textbook Download Guide"
+        }
+      ]
+    },
+    {
+      "id": "reading-stem-resources",
+      "title": "STEMリソース",
+      "resources": [
+        {
+          "name": "Awesome AI",
+          "url": "https://github.com/owainlewis/awesome-artificial-intelligence#free-content",
+          "description": "Artificial Intelligence Books",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "IntechOpen",
+          "url": "https://www.intechopen.com/",
+          "description": "Science"
+        },
+        {
+          "name": "Naked Scientists",
+          "url": "https://www.thenakedscientists.com/",
+          "description": "Podcasts / Shows / Science"
+        },
+        {
+          "name": "Free Astronomy Resources",
+          "url": "https://er-cryptid.tumblr.com/post/176809097526/free-astronomy-resources",
+          "description": "Books / Notes / Astronomy / Physics"
+        },
+        {
+          "name": "GoodTheorist",
+          "url": "https://www.goodtheorist.science/",
+          "description": "Theoretical Physics"
+        },
+        {
+          "name": "Chemistry.com.pk",
+          "url": "https://chemistry.com.pk/",
+          "description": "Chemistry / Books"
+        },
+        {
+          "name": "Biology.com.pk",
+          "url": "https://biology.com.pk/",
+          "description": "Biology / Books"
+        },
+        {
+          "name": "Institute of Mathematics",
+          "url": "https://aimath.org/textbooks/",
+          "description": "Math / Books"
+        },
+        {
+          "name": "RealNotComplex",
+          "url": "https://realnotcomplex.com/",
+          "description": "Math / Books"
+        },
+        {
+          "name": "HBPMS",
+          "url": "https://hbpms.blogspot.com/",
+          "description": "Math / Books"
+        },
+        {
+          "name": "All About Circuits",
+          "url": "https://www.allaboutcircuits.com/education/",
+          "description": "Electronics"
+        },
+        {
+          "name": "Ultimate Electronics Book",
+          "url": "https://ultimateelectronicsbook.com/",
+          "description": "Electronics Schematics / Simulations"
+        },
+        {
+          "name": "SemiWiki",
+          "url": "https://semiwiki.com/",
+          "description": "Semiconductor Wiki"
+        },
+        {
+          "name": "PDFiles",
+          "url": "https://www.pdfiles.net/",
+          "description": "IT Books"
+        },
+        {
+          "name": "Explanations",
+          "url": "https://magcius.github.io/xplain/article/",
+          "description": "Advanced Computer Explanations"
+        }
+      ]
+    },
+    {
+      "id": "reading-history-books",
+      "title": "History 書籍",
+      "resources": [
+        {
+          "name": "r/AskHistorians Recommended",
+          "url": "https://www.reddit.com/r/AskHistorians/wiki/books",
+          "description": "Recommended History Books",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "EarlyModernTexts",
+          "url": "https://www.earlymoderntexts.com",
+          "description": "Historical Texts",
+          "starred": true
+        },
+        {
+          "name": "World History",
+          "url": "https://www.worldhistory.org/",
+          "description": "History Encyclopedias",
+          "starred": true
+        },
+        {
+          "name": "Livius",
+          "url": "https://www.livius.org/",
+          "description": "History Encyclopedias"
+        },
+        {
+          "name": "Duke University Library",
+          "url": "https://repository.duke.edu/catalog?utf8=%E2%9C%93&search_scope=https%3A%2F%2Frepository.duke.edu%2Fcatalog&q=&search_field=all_fields",
+          "description": "Historical Books"
+        },
+        {
+          "name": "Early English Books",
+          "url": "https://quod.lib.umich.edu/e/eebogroup/",
+          "description": "Historical Texts / Books"
+        },
+        {
+          "name": "NYPL",
+          "url": "https://digitalcollections.nypl.org/",
+          "description": "Historical Texts / Books"
+        },
+        {
+          "name": "Amherst",
+          "url": "https://acdc.amherst.edu/",
+          "description": "Historical Texts / Books"
+        },
+        {
+          "name": "Making of America",
+          "url": "https://quod.lib.umich.edu/m/moa/",
+          "description": "American History"
+        },
+        {
+          "name": "Classical Libraries",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRkUFBfVVqv5Tr2aZS4apFNpTJ-ys6VqeQxgsAI1v7cH5putIgchYWJAVGHuu0lWGmdD2DU7Vb1o7XH/pubhtml",
+          "description": "Classical Literature Collection / Full List"
+        },
+        {
+          "name": "Perseus Digital Library",
+          "url": "https://www.perseus.tufts.edu/hopper/",
+          "description": "Classic / Greek / Roman / Arabic / Germanic"
+        },
+        {
+          "name": "In Parenthesis",
+          "url": "https://www.yorku.ca/inpar/",
+          "description": "Historic Tales"
+        },
+        {
+          "name": "CELT",
+          "url": "https://celt.ucc.ie/",
+          "description": "Irish / History / Literature / Politics"
+        },
+        {
+          "name": "textfiles.com",
+          "url": "http://textfiles.com/",
+          "description": "1980s Text File Index"
+        },
+        {
+          "name": "Digital Archive",
+          "url": "https://digitalarchive.wilsoncenter.org/collections",
+          "description": "Historical Documents"
+        },
+        {
+          "name": "Smithsonian Institution Archives",
+          "url": "https://siarchives.si.edu/",
+          "description": "Historical Documents"
+        },
+        {
+          "name": "Archives.gov",
+          "url": "https://archives.gov/",
+          "description": "US Historical Documents"
+        },
+        {
+          "name": "Europeana",
+          "url": "https://www.europeana.eu/",
+          "description": "European Historical Documents"
+        },
+        {
+          "name": "The National Archives",
+          "url": "https://nationalarchives.gov.uk/",
+          "description": "UK Historical Documents"
+        },
+        {
+          "name": "ToposText",
+          "url": "https://topostext.org/",
+          "description": "Historical Greek Documents"
+        },
+        {
+          "name": "Jewish Virtual Library",
+          "url": "https://www.jewishvirtuallibrary.org/",
+          "description": "Encyclopedia of Jewish / Israeli History"
+        },
+        {
+          "name": "WorldRadioHistory",
+          "url": "https://worldradiohistory.com/",
+          "description": "Radio History Archive"
+        },
+        {
+          "name": "The Morgan Library Museum",
+          "url": "https://www.themorgan.org/music",
+          "description": "Musical Manuscripts"
+        },
+        {
+          "name": "DIAMM",
+          "url": "https://www.diamm.ac.uk/",
+          "description": "Musical Manuscripts"
+        },
+        {
+          "name": "Tank Archives",
+          "url": "https://www.tankarchives.com/",
+          "description": "World War II Armoured Warfare Documents / X"
+        },
+        {
+          "name": "HornTip",
+          "url": "https://www.horntip.com/",
+          "description": "Military Songbooks"
+        },
+        {
+          "name": "De Re Militari",
+          "url": "https://deremilitari.org/articles/",
+          "description": "Medieval Military History"
+        },
+        {
+          "name": "ByzantineMilitary",
+          "url": "https://byzantinemilitary.blogspot.com/",
+          "description": "Byzantine Military History"
+        },
+        {
+          "name": "WarshipsResearch",
+          "url": "https://warshipsresearch.blogspot.com/",
+          "description": "Maritime History"
+        },
+        {
+          "name": "Wiktenauer",
+          "url": "https://wiktenauer.com/",
+          "description": "Historical European Martial Arts Wiki"
+        },
+        {
+          "name": "Radical Scatters",
+          "url": "http://radicalscatters.unl.edu/indices.html",
+          "description": "Emily Dickinson Fragments / Texts"
+        },
+        {
+          "name": "The History of Maritime Piracy",
+          "url": "http://www.cindyvallar.com/pirates.html",
+          "description": "Piracy History Blog"
+        },
+        {
+          "name": "Van Gogh Letters",
+          "url": "https://vangoghletters.org/vg/",
+          "description": "Vincent van Gogh Letters"
+        },
+        {
+          "name": "DigitalTransgenderArchive",
+          "url": "https://www.digitaltransgenderarchive.net/",
+          "description": "Transgender History Archive"
+        }
+      ]
+    },
+    {
+      "id": "reading-quotes-poetry",
+      "title": "引用 / 詩",
+      "resources": [
+        {
+          "name": "Wikiquote",
+          "url": "https://en.wikiquote.org",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Poetry Foundation",
+          "url": "https://www.poetryfoundation.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "⁠Eudaimonia",
+          "url": "https://www.eudaimonia.wiki/",
+          "description": "Collaborative Book of Wisdom / Quotes"
+        },
+        {
+          "name": "BrainyQuote",
+          "url": "https://www.brainyquote.com/",
+          "description": ""
+        },
+        {
+          "name": "AZQuotes",
+          "url": "https://www.azquotes.com/",
+          "description": ""
+        },
+        {
+          "name": "QuoteGarden",
+          "url": "https://www.quotegarden.com/",
+          "description": ""
+        },
+        {
+          "name": "TheOtherPages",
+          "url": "https://theotherpages.org/quote.html",
+          "description": ""
+        },
+        {
+          "name": "Quote Collections",
+          "url": "https://rentry.co/zeoemsh9",
+          "description": ""
+        },
+        {
+          "name": "Poetry In Translation",
+          "url": "https://www.poetryintranslation.com/",
+          "description": ""
+        },
+        {
+          "name": "PoemHunter",
+          "url": "https://www.poemhunter.com/",
+          "description": ""
+        },
+        {
+          "name": "DiscoverPoetry",
+          "url": "https://discoverpoetry.com/",
+          "description": ""
+        },
+        {
+          "name": "RUVerses",
+          "url": "https://ruverses.com/",
+          "description": ""
+        },
+        {
+          "name": "Poetry.com",
+          "url": "https://www.poetry.com/",
+          "description": ""
+        },
+        {
+          "name": "Poets.org",
+          "url": "https://poets.org/",
+          "description": ""
+        },
+        {
+          "name": "PoetryArchive",
+          "url": "https://poetryarchive.org/",
+          "description": ""
+        },
+        {
+          "name": "ScottishPoetryLibrary",
+          "url": "https://www.scottishpoetrylibrary.org.uk/",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "reading-programming-books",
+      "title": "Programming 書籍",
+      "resources": [
+        {
+          "name": "Free-Programming-Books",
+          "url": "https://ebookfoundation.github.io/free-programming-books-search/",
+          "description": "Programming Book Index",
+          "tags": [
+            "index",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "O'Reilly",
+          "url": "https://www.oreilly.com/",
+          "description": "Tech / Programming / Downloader / Infinite trial by clearing cookies & making a new account",
+          "starred": true
+        },
+        {
+          "name": "ScanLibs",
+          "url": "https://scanlibs.com/",
+          "description": "",
+          "starred": true,
+          "mirrors": [
+            "https://forcoder.net/",
+            "https://coderprog.com/"
+          ]
+        },
+        {
+          "name": "IT eBooks",
+          "url": "https://it-ebooks.info/",
+          "description": ""
+        },
+        {
+          "name": "FreeTechBooks",
+          "url": "https://www.freetechbooks.com/",
+          "description": ""
+        },
+        {
+          "name": "FreeComputerEbooks",
+          "url": "https://freecomputerbooks.com/",
+          "description": ""
+        },
+        {
+          "name": "TechBooksFree",
+          "url": "https://techbooksforfree.com/",
+          "description": ""
+        },
+        {
+          "name": "eBooks-IT",
+          "url": "https://ebooks-it.org",
+          "description": ""
+        },
+        {
+          "name": "Essential Programming Books",
+          "url": "https://www.programming-books.io/",
+          "description": ""
+        },
+        {
+          "name": "GoalKicker",
+          "url": "https://goalkicker.com/",
+          "description": ""
+        },
+        {
+          "name": "Flavio Copes",
+          "url": "https://flaviocopes.com/",
+          "description": ""
+        },
+        {
+          "name": "WOW! eBook",
+          "url": "https://www.wowebook.org/",
+          "description": ""
+        },
+        {
+          "name": "Free Ebooks Download List",
+          "url": "https://free-ebook-download-links.blogspot.com/",
+          "description": ""
+        },
+        {
+          "name": "Python Data Science Handbook",
+          "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+          "description": "Python Data Science",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Go Books",
+          "url": "https://github.com/dariubs/GoBooks",
+          "description": "GoLang Books"
+        },
+        {
+          "name": "JSBooks",
+          "url": "https://jsbooks.revolunet.com/",
+          "description": "Javascript Books"
+        },
+        {
+          "name": "X-Files",
+          "url": "https://doc.lagout.org/",
+          "description": "Tech / Programming"
+        },
+        {
+          "name": "ChessProgramming",
+          "url": "https://www.chessprogramming.org/",
+          "description": "Chess Programming Wiki"
+        },
+        {
+          "name": "Hacker News Books",
+          "url": "https://hackernewsbooks.com/",
+          "description": "Books Mentioned on HN"
+        }
+      ]
+    },
+    {
+      "id": "reading-academic-papers",
+      "title": "学術論文",
+      "resources": [
+        {
+          "name": "Sci-Hub",
+          "url": "https://sci-hub.se/",
+          "description": "Science Articles / Research Papers / Mirrors / VK",
+          "starred": true,
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/",
+          "description": "Research Papers",
+          "starred": true
+        },
+        {
+          "name": "ChinaRxiv",
+          "url": "https://chinarxiv.org/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Google Scholar",
+          "url": "https://scholar.google.com/",
+          "description": "Academic Papers Search Engine",
+          "starred": true
+        },
+        {
+          "name": "Citrus Search",
+          "url": "https://citrus-search.com/",
+          "description": "Find Similar Research Papers",
+          "starred": true
+        },
+        {
+          "name": "ResearchGate",
+          "url": "https://www.researchgate.net/",
+          "description": "Research Papers / Publications",
+          "starred": true
+        },
+        {
+          "name": "SciLit",
+          "url": "https://www.scilit.com/",
+          "description": "Research Papers / Publications",
+          "starred": true
+        },
+        {
+          "name": "Mendeley",
+          "url": "https://www.mendeley.com/",
+          "description": "Research Papers / Data / Reference Manager",
+          "starred": true
+        },
+        {
+          "name": "Scientific Doc Paywall Bypass",
+          "url": "https://greasyfork.org/en/scripts/35521",
+          "description": "Bypass Scientific Document Paywalls"
+        },
+        {
+          "name": "Lumina",
+          "url": "https://www.lumina.sh/",
+          "description": "AI Research Paper Search"
+        },
+        {
+          "name": "BulletPapers",
+          "url": "https://www.bulletpapers.ai/",
+          "description": "Paper Summaries"
+        },
+        {
+          "name": "Springer",
+          "url": "https://link.springer.com/",
+          "description": "Research Papers / Publications"
+        },
+        {
+          "name": "ScienceDirect",
+          "url": "https://www.sciencedirect.com/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "BASE",
+          "url": "https://www.base-search.net/",
+          "description": "Academic Papers Search Engine"
+        },
+        {
+          "name": "Neliti",
+          "url": "https://www.neliti.com/",
+          "description": "Academic Papers Search Engine"
+        },
+        {
+          "name": "Share OSF",
+          "url": "https://share.osf.io/",
+          "description": "Academic Papers Search Engine"
+        },
+        {
+          "name": "Scinapse",
+          "url": "https://scinapse.io/",
+          "description": "Academic Papers Search Engine / Pro Script"
+        },
+        {
+          "name": "Semantic Scholar",
+          "url": "https://www.semanticscholar.org/",
+          "description": "Academic Papers Search Engine"
+        },
+        {
+          "name": "Consensus",
+          "url": "https://consensus.app/",
+          "description": "Academic Papers Search Engine"
+        },
+        {
+          "name": "Crossref",
+          "url": "https://search.crossref.org/",
+          "description": "Articles Papers Search Engine"
+        },
+        {
+          "name": "Lens",
+          "url": "https://www.lens.org/",
+          "description": "Research Papers / Patents Database"
+        },
+        {
+          "name": "Dimensions",
+          "url": "https://app.dimensions.ai/discover/publication",
+          "description": "Research Papers / Patents Database"
+        },
+        {
+          "name": "Academia",
+          "url": "https://www.academia.edu/",
+          "description": "Academic Papers / Downloader"
+        },
+        {
+          "name": "FreeFullPDF",
+          "url": "https://freefullpdf.com/",
+          "description": "Academic Papers"
+        },
+        {
+          "name": "Zooniverse",
+          "url": "https://www.zooniverse.org/",
+          "description": "Crowdsourced Research"
+        },
+        {
+          "name": "Clarivate",
+          "url": "https://mjl.clarivate.com/",
+          "description": "Research Papers / Publications"
+        },
+        {
+          "name": "Science Hub",
+          "url": "https://www.smartquantai.com/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "MyScienceWork",
+          "url": "https://www.mysciencework.com/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Caltech Library",
+          "url": "https://authors.library.caltech.edu/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "SciAlert",
+          "url": "https://scialert.net/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Springer",
+          "url": "https://www.springer.com/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Biomed Central",
+          "url": "https://www.biomedcentral.com/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Zenodo",
+          "url": "https://zenodo.org/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "re3data",
+          "url": "https://www.re3data.org/",
+          "description": "Research Data"
+        },
+        {
+          "name": "Retraction Watch",
+          "url": "https://retractionwatch.com/",
+          "description": "Retracted Research Papers"
+        },
+        {
+          "name": "HAL",
+          "url": "https://hal.science/",
+          "description": "Scientific Paper Search"
+        },
+        {
+          "name": "Science.gov",
+          "url": "https://www.science.gov/",
+          "description": "Scientific Paper Search"
+        },
+        {
+          "name": "⁠Pidantuan",
+          "url": "https://www.pidantuan.com/",
+          "description": "Scientific Paper Sharing Community / Sign-Up Required"
+        },
+        {
+          "name": "Awesome Detection Transformer",
+          "url": "https://github.com/IDEA-Research/awesome-detection-transformer",
+          "description": "Computer Vision Research Papers"
+        },
+        {
+          "name": "IDEAS",
+          "url": "https://ideas.repec.org/",
+          "description": "Economic Research Papers"
+        },
+        {
+          "name": "RePEc",
+          "url": "http://repec.org/",
+          "description": "Economic Research Papers"
+        },
+        {
+          "name": "PsyArXiv",
+          "url": "https://psyarxiv.com/",
+          "description": "Psychology Research Papers"
+        },
+        {
+          "name": "SocArXiv",
+          "url": "https://osf.io/preprints/socarxiv",
+          "description": "Social Science Research Papers"
+        },
+        {
+          "name": "Open Knowledge Maps",
+          "url": "https://openknowledgemaps.org/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Internet Archive Scholar",
+          "url": "https://scholar.archive.org/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Alexandria",
+          "url": "https://www.alexandria.ucsb.edu/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Paper Panda",
+          "url": "https://paperpanda.app/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Open Access Library",
+          "url": "https://www.oalib.com/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Paperity",
+          "url": "https://paperity.org/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "OpenAire",
+          "url": "https://explore.openaire.eu/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Association for learning Technology",
+          "url": "https://repository.alt.ac.uk/view/subjects/",
+          "description": "Research Papers"
+        },
+        {
+          "name": "Local Models Papers",
+          "url": "https://rentry.org/LocalModelsPapers",
+          "description": "LLM Related Research Papers"
+        },
+        {
+          "name": "PromptPapers",
+          "url": "https://github.com/thunlp/PromptPapers",
+          "description": "Pre-Trained Language Model Tuning Papers"
+        },
+        {
+          "name": "Legal Core",
+          "url": "https://core.ac.uk/",
+          "description": "Papers / Academic"
+        },
+        {
+          "name": "Dataone",
+          "url": "https://www.dataone.org/",
+          "description": "Datasets"
+        },
+        {
+          "name": "Kaggle",
+          "url": "https://www.kaggle.com/datasets",
+          "description": "Datasets"
+        },
+        {
+          "name": "Data Catalog",
+          "url": "https://datacatalog.worldbank.org/",
+          "description": "Datasets"
+        },
+        {
+          "name": "DBpedia",
+          "url": "https://www.dbpedia.org/",
+          "description": "Datasets"
+        },
+        {
+          "name": "GBIF",
+          "url": "https://www.gbif.org/",
+          "description": "Biodiversity Datasets"
+        },
+        {
+          "name": "RPubs",
+          "url": "https://rpubs.com/",
+          "description": "R Markdown Data Publishing"
+        },
+        {
+          "name": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/",
+          "description": "Medical Journals / Search"
+        },
+        {
+          "name": "OpenMD",
+          "url": "https://openmd.com/",
+          "description": "Medical Journals"
+        },
+        {
+          "name": "Free Medical Journals",
+          "url": "http://www.freemedicaljournals.com/",
+          "description": "Medical Journals"
+        },
+        {
+          "name": "⁠JMIR Publications",
+          "url": "https://jmirpublications.com/",
+          "description": "Health / Medicine Journals"
+        },
+        {
+          "name": "⁠PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/",
+          "description": "Biomedical / Life Science Journals"
+        },
+        {
+          "name": "medRxiv",
+          "url": "https://www.medrxiv.org/",
+          "description": "Medicine Preprints"
+        },
+        {
+          "name": "bioRvix",
+          "url": "https://www.biorxiv.org/",
+          "description": "Biology Preprints"
+        },
+        {
+          "name": "Bioline",
+          "url": "https://www.bioline.org.br/",
+          "description": "Bioscience Journals"
+        },
+        {
+          "name": "SSRN",
+          "url": "https://www.ssrn.com/",
+          "description": "Early Stage Research Papers"
+        },
+        {
+          "name": "⁠PubPeer",
+          "url": "https://pubpeer.com/",
+          "description": "View Scientific Research Criticism / Comments"
+        },
+        {
+          "name": "PapersWithCode",
+          "url": "https://huggingface.co/papers",
+          "description": "AI Research Papers"
+        },
+        {
+          "name": "Catalyzex",
+          "url": "https://www.catalyzex.com/",
+          "description": "AI Research Papers"
+        },
+        {
+          "name": "AI Reading List",
+          "url": "https://docs.google.com/document/d/1bEQM1W-1fzSVWNbS4ne5PopB2b7j8zD4Jc3nm4rbK-U/",
+          "description": "AI Research Papers"
+        },
+        {
+          "name": "AI RND",
+          "url": "https://www.ai-rnd.com/",
+          "description": "AI Research Papers"
+        },
+        {
+          "name": "Daily Papers",
+          "url": "https://huggingface.co/papers",
+          "description": "AI Research Papers"
+        },
+        {
+          "name": "CensorBib",
+          "url": "https://censorbib.nymity.ch/",
+          "description": "Internet Censorship Research Papers"
+        },
+        {
+          "name": "Censored Planet",
+          "url": "https://censoredplanet.org/",
+          "description": "Internet Censorship Research Papers"
+        },
+        {
+          "name": "Connected Papers",
+          "url": "https://www.connectedpapers.com/",
+          "description": "Find Connected Academic Papers"
+        },
+        {
+          "name": "LitMaps",
+          "url": "https://app.litmaps.com/",
+          "description": "Find Connected Academic Papers"
+        }
+      ]
+    },
+    {
+      "id": "reading-documents-articles",
+      "title": "ドキュメント / 記事",
+      "resources": [
+        {
+          "name": "TheFreeLibrary",
+          "url": "https://www.thefreelibrary.com/",
+          "description": "Articles",
+          "starred": true
+        },
+        {
+          "name": "Nexus Search",
+          "url": "https://t.me/nexus_search/214",
+          "description": "Science / Articles",
+          "starred": true,
+          "mirrors": [
+            "https://t.me/libgen_scihub_science_nexus_bot"
+          ]
+        },
+        {
+          "name": "Epstein Exposed",
+          "url": "https://www.epsteinexposed.com/",
+          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images",
+          "starred": true
+        },
+        {
+          "name": "JMail",
+          "url": "https://www.jmail.world/",
+          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images"
+        },
+        {
+          "name": "2",
+          "url": "https://jmailarchive.org/",
+          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images"
+        },
+        {
+          "name": "Epstein Library",
+          "url": "https://www.justice.gov/epstein",
+          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images"
+        },
+        {
+          "name": "Epstein Visualizer",
+          "url": "https://epsteinvisualizer.com/",
+          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images"
+        },
+        {
+          "name": "Epstein Files Browser",
+          "url": "https://epstein-files-browser.vercel.app/",
+          "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images"
+        },
+        {
+          "name": "Heystacks",
+          "url": "https://heystacks.com/",
+          "description": "Public Google Docs"
+        },
+        {
+          "name": "IDoc",
+          "url": "https://idoc.pub/",
+          "description": "Document Search"
+        },
+        {
+          "name": "Higher Intellect",
+          "url": "https://preterhuman.net/",
+          "description": "Document Search"
+        },
+        {
+          "name": "qDoc",
+          "url": "https://idoc.tips/",
+          "description": "Document Search"
+        },
+        {
+          "name": "Dirzon",
+          "url": "https://www.dirzon.com/Doc/SearchAsync",
+          "description": "Document Search"
+        },
+        {
+          "name": "PDFHost",
+          "url": "https://pdfhost.io/",
+          "description": "Document Search"
+        },
+        {
+          "name": "DOKU.PUB",
+          "url": "https://doku.pub/",
+          "description": "Science / Articles"
+        },
+        {
+          "name": "Academic Journals",
+          "url": "https://academicjournals.org/",
+          "description": "Science / Articles"
+        },
+        {
+          "name": "DOAJ",
+          "url": "https://doaj.org/",
+          "description": "Journals / Articles"
+        },
+        {
+          "name": "Proquest",
+          "url": "https://www.proquest.com/",
+          "description": "Journals / Articles"
+        },
+        {
+          "name": "MDPI",
+          "url": "https://www.mdpi.com/",
+          "description": "Articles"
+        },
+        {
+          "name": "longdom",
+          "url": "https://www.longdom.org/",
+          "description": "Articles"
+        },
+        {
+          "name": "Typewriter",
+          "url": "https://tetw.org/",
+          "description": "Educational Articles & Essays"
+        },
+        {
+          "name": "E-International Relations",
+          "url": "https://www.e-ir.info/",
+          "description": "International Relation Articles"
+        },
+        {
+          "name": "SkillCommons",
+          "url": "https://www.skillscommons.org/",
+          "description": "Work Training Documents"
+        },
+        {
+          "name": "Institute of Education Sciences",
+          "url": "https://eric.ed.gov/",
+          "description": "Documents / Texts / Papers"
+        },
+        {
+          "name": "SecretCanada",
+          "url": "https://www.secretcanada.com/",
+          "description": "Canadian Document Archive"
+        },
+        {
+          "name": "Pandora",
+          "url": "https://pandora.nla.gov.au/",
+          "description": "Australian Document Archive"
+        },
+        {
+          "name": "OATD",
+          "url": "https://oatd.org/",
+          "description": "Theses / Dissertations"
+        },
+        {
+          "name": "lol my thesis",
+          "url": "https://lolmythesis.com/",
+          "description": "Summarized Theses"
+        },
+        {
+          "name": "NSA Archive",
+          "url": "https://nsarchive.gwu.edu/",
+          "description": "Reports"
+        },
+        {
+          "name": "NAP",
+          "url": "https://nap.nationalacademies.org/",
+          "description": "Reports"
+        },
+        {
+          "name": "WorldBank",
+          "url": "https://www.worldbank.org/en/home",
+          "description": "Poverty Solution Research Data"
+        },
+        {
+          "name": "Einstein Papers",
+          "url": "https://einsteinpapers.press.princeton.edu/",
+          "description": "Albert Einsteins Collected Papers Archive"
+        },
+        {
+          "name": "Aesthetics Archive",
+          "url": "https://contempaesthetics.org/",
+          "description": "Aesthetics Articles / Notes Contemporary"
+        },
+        {
+          "name": "CIA Publications",
+          "url": "https://www.cia.gov/resources/publications/",
+          "description": "History / Reports"
+        },
+        {
+          "name": "The Uncensored Library",
+          "url": "https://www.uncensoredlibrary.com/en",
+          "description": "Uncensored / Declassified Documents"
+        },
+        {
+          "name": "FBI Vault",
+          "url": "https://vault.fbi.gov/",
+          "description": "Declassified Documents"
+        },
+        {
+          "name": "The Black Vault",
+          "url": "https://www.theblackvault.com/",
+          "description": "Declassified Documents"
+        },
+        {
+          "name": "Archives.gov",
+          "url": "https://www.archives.gov/",
+          "description": "Declassified Documents"
+        },
+        {
+          "name": "Distributed Denial of SecretsS",
+          "url": "https://ddosecrets.org/",
+          "description": "Transparency Collective"
+        },
+        {
+          "name": "WikiLeaks",
+          "url": "https://wikileaks.org/",
+          "description": "Leaked Documents / Index"
+        },
+        {
+          "name": "Library of Leaks",
+          "url": "https://libraryofleaks.org/",
+          "description": "Leaked Documents"
+        },
+        {
+          "name": "Cryptome",
+          "url": "https://cryptome.org/",
+          "description": "Leaked Documents"
+        },
+        {
+          "name": "Snowden Archive",
+          "url": "https://github.com/iamcryptoki/snowden-archive",
+          "description": "Leaked Snowden Documents"
+        },
+        {
+          "name": "Google Leaks",
+          "url": "https://www.zachvorhies.com/google_leaks/",
+          "description": "Leaked Google Documents"
+        },
+        {
+          "name": "Constitute Project",
+          "url": "https://www.constituteproject.org/",
+          "description": "World Constitutions Database"
+        },
+        {
+          "name": "The American Presidency Project",
+          "url": "https://www.presidency.ucsb.edu/",
+          "description": "Presidential Documents"
+        },
+        {
+          "name": "Marine Corps Pubs",
+          "url": "https://www.marines.mil/News/Publications/MCPEL/",
+          "description": "Military Documents / Manuals"
+        },
+        {
+          "name": "Air Force Pubs",
+          "url": "https://www.e-publishing.af.mil/product-index/",
+          "description": "Military Documents / Manuals"
+        },
+        {
+          "name": "Army Pubs",
+          "url": "https://armypubs.army.mil/",
+          "description": "Military Documents / Manuals"
+        },
+        {
+          "name": "LiberatedManuals",
+          "url": "https://www.liberatedmanuals.com/",
+          "description": "Military Documents / Manuals"
+        },
+        {
+          "name": "NASA NTRS",
+          "url": "https://ntrs.nasa.gov/collections/pubspace",
+          "description": "NASA Documents"
+        },
+        {
+          "name": "STI",
+          "url": "https://sti.nasa.gov/",
+          "description": "NASA Documents"
+        },
+        {
+          "name": "CourtListerner",
+          "url": "https://www.courtlistener.com/",
+          "description": "Court Documents"
+        },
+        {
+          "name": "USA Courts",
+          "url": "https://pacer.uscourts.gov/",
+          "description": "Court Documents"
+        },
+        {
+          "name": "Case.law",
+          "url": "https://case.law/",
+          "description": "Court Documents"
+        },
+        {
+          "name": "Parliament Archives",
+          "url": "https://archives.parliament.uk/",
+          "description": "UK Parliamentary Documents"
+        },
+        {
+          "name": "PapalEncyclicals",
+          "url": "https://www.papalencyclicals.net/",
+          "description": "Catholic Church Documents"
+        },
+        {
+          "name": "Open Payments",
+          "url": "https://openpaymentsdata.cms.gov/",
+          "description": "Medical Device Company Payment Reports"
+        },
+        {
+          "name": "Aleph",
+          "url": "https://docs.aleph.occrp.org/",
+          "description": "Document Index Tool"
+        },
+        {
+          "name": "Dataset Search",
+          "url": "https://datasetsearch.research.google.com/",
+          "description": "Dataset Search Google"
+        },
+        {
+          "name": "PDF / Doc Search Engine",
+          "url": "https://cse.google.com/cse?cx=000013508089310229747:qf70z1tyrs0",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "reading-manuals",
+      "title": "マニュアル",
+      "resources": [
+        {
+          "name": "Manuals & Schematics",
+          "url": "https://redd.it/nlw3er",
+          "description": "Manual Directories",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "SafeManuals",
+          "url": "https://safe-manuals.com/",
+          "description": "Manual Directories",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Manuzoid",
+          "url": "https://manuzoid.com/",
+          "description": "Manual Directories",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "manualzz",
+          "url": "https://manualzz.com/",
+          "description": "Manual Directories",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "ManualsNet",
+          "url": "https://manualsnet.com/",
+          "description": "Manual Directories",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "manua.ls",
+          "url": "https://www.manua.ls/",
+          "description": "Manual Directories",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "ManualsLib",
+          "url": "https://www.manualslib.com/",
+          "description": "Manual Directories",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "RepairWiki",
+          "url": "https://repair.wiki/",
+          "description": "Repair Articles / Old Layout",
+          "starred": true
+        },
+        {
+          "name": "ManualLib",
+          "url": "https://www.manuallib.com/",
+          "description": "Manual Search"
+        },
+        {
+          "name": "Manuals+",
+          "url": "https://manuals.plus/",
+          "description": "Manual Search"
+        },
+        {
+          "name": "iFixIt",
+          "url": "https://www.ifixit.com/",
+          "description": "Repair Manuals"
+        },
+        {
+          "name": "Restarters",
+          "url": "https://wiki.restarters.net/",
+          "description": "Device Repair Wiki / Guides"
+        },
+        {
+          "name": "WonderHowTo",
+          "url": "https://www.wonderhowto.com/",
+          "description": "Tech How-Tos"
+        },
+        {
+          "name": "Manned.org",
+          "url": "https://manned.org/",
+          "description": "Operating System Manuals"
+        },
+        {
+          "name": "RetroSix",
+          "url": "https://www.retrosix.wiki/",
+          "description": "Retro Console Repair Guides + Info",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "AntiqueRadio",
+          "url": "https://antiqueradio.org/",
+          "description": "Vintage Radio + TV Restoration Guides"
+        },
+        {
+          "name": "Exploitee.rs",
+          "url": "https://www.exploitee.rs/",
+          "description": "Device Exploitation Wiki"
+        },
+        {
+          "name": "JDMFSM",
+          "url": "https://jdmfsm.info/Auto/",
+          "description": "Auto Repair Manuals"
+        },
+        {
+          "name": "Charm",
+          "url": "https://charm.li/",
+          "description": "Auto Repair Manuals"
+        },
+        {
+          "name": "CarPDFManual",
+          "url": "https://www.carpdfmanual.com/",
+          "description": "Auto Repair Manuals"
+        },
+        {
+          "name": "ProCarManuals",
+          "url": "https://procarmanuals.com/",
+          "description": "Auto Repair Manuals"
+        },
+        {
+          "name": "Ownersman.com",
+          "url": "https://ownersman.com/",
+          "description": "Car Owner Manuals"
+        },
+        {
+          "name": "PremierProduct",
+          "url": "https://www.premierproducts-uk.co.uk/",
+          "description": "Vehicle Manuals"
+        },
+        {
+          "name": "Auto Manual",
+          "url": "https://www.auto-manual.com/",
+          "description": "Vehicle Manuals"
+        },
+        {
+          "name": "David Kleinfeld Laboratory",
+          "url": "https://neurophysics.ucsd.edu/Manuals/",
+          "description": "Lab Manuals"
+        },
+        {
+          "name": "GoodReads",
+          "url": "https://www.goodreads.com/",
+          "description": "Tracking / Database / Reviews / Recommendations / Frontend",
+          "starred": true
+        },
+        {
+          "name": "StoryGraph",
+          "url": "https://www.thestorygraph.com/",
+          "description": "Tracking / Recommendations",
+          "starred": true
+        },
+        {
+          "name": "MyAnimeList",
+          "url": "https://myanimelist.net/",
+          "description": "Manga / Light Novels / Tracking / Database / Reviews / Tools",
+          "starred": true
+        },
+        {
+          "name": "Anilist",
+          "url": "https://anilist.co/",
+          "description": "Manga / Light Novels / Manhwa / Manhua / Tracking / Databsase / Reviews / Wrapper / Extras",
+          "starred": true
+        },
+        {
+          "name": "MangaBaka",
+          "url": "https://mangabaka.org/",
+          "description": "Multi-Site Manga + Novel Rating Aggregator / Tracking",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Novel Updates",
+          "url": "https://www.novelupdates.com/",
+          "description": "Light Novel Tracking / Databases",
+          "starred": true
+        },
+        {
+          "name": "⁠RanobeDB",
+          "url": "https://ranobedb.org/",
+          "description": "Light Novel Tracking / Databases"
+        },
+        {
+          "name": "LeagueOfComicGeeks",
+          "url": "https://leagueofcomicgeeks.com/",
+          "description": "Comic Tracking / Database / Releases",
+          "starred": true
+        },
+        {
+          "name": "Listal",
+          "url": "https://www.listal.com/",
+          "description": "Book Database"
+        },
+        {
+          "name": "Books Search",
+          "url": "https://books-search.typesense.org/",
+          "description": "Book Database"
+        },
+        {
+          "name": "LibraryThing",
+          "url": "https://www.talpasearch.com/",
+          "description": "Find Books by Describing Them"
+        },
+        {
+          "name": "Ratings Filter",
+          "url": "https://www.book-filter.com/",
+          "description": "Goodreads / Storygraph Rating Aggregator + Filter"
+        },
+        {
+          "name": "ISFDB",
+          "url": "https://isfdb.org/",
+          "description": "Speculative Fiction"
+        },
+        {
+          "name": "nooSFere",
+          "url": "https://www.noosfere.org/",
+          "description": "Science Fiction"
+        },
+        {
+          "name": "Romance.io",
+          "url": "https://www.romance.io/",
+          "description": "Romance Database"
+        },
+        {
+          "name": "Oku",
+          "url": "https://oku.club/",
+          "description": "Book Tracking Platform"
+        },
+        {
+          "name": "Literal",
+          "url": "https://literal.club/",
+          "description": "Social Book Tracking Platform"
+        },
+        {
+          "name": "BookWyrm",
+          "url": "https://joinbookwyrm.com/",
+          "description": "Book Tracking Platform / Official Instance"
+        },
+        {
+          "name": "MangaUpdates",
+          "url": "https://www.mangaupdates.com/",
+          "description": "Manga Tracking"
+        },
+        {
+          "name": "Hardcover",
+          "url": "https://hardcover.app/",
+          "description": "Tracking / Reviews / Recommendations"
+        },
+        {
+          "name": "LibraryThing",
+          "url": "https://www.librarything.com/",
+          "description": "Book Cataloguing Community"
+        },
+        {
+          "name": "CandlApp",
+          "url": "https://www.candlapp.com/",
+          "description": "Book Tracking / Recommendations"
+        },
+        {
+          "name": "Anobii",
+          "url": "https://www.anobii.com/",
+          "description": "Book Cataloguing / Reviews"
+        },
+        {
+          "name": "Mad Cover Site",
+          "url": "https://madcoversite.com/",
+          "description": "MAD Magazine History Archive"
+        },
+        {
+          "name": "rate.house",
+          "url": "https://rate.house/",
+          "description": "Media Trackers"
+        },
+        {
+          "name": "Yamtrack",
+          "url": "https://github.com/FuzzyGrim/Yamtrack",
+          "description": "Media Trackers"
+        },
+        {
+          "name": "libib",
+          "url": "https://www.libib.com/",
+          "description": "Desktop Catalogs"
+        },
+        {
+          "name": "All My Books",
+          "url": "https://www.bolidesoft.com/allmybooks.html",
+          "description": "Desktop Catalogs"
+        }
+      ]
+    },
+    {
+      "id": "reading-curated-recommendations",
+      "title": "キュレーション",
+      "resources": [
+        {
+          "name": "The Greatest Books",
+          "url": "https://www.thegreatestbooks.org/",
+          "description": "Algorithmic Books List",
+          "starred": true
+        },
+        {
+          "name": "Five Books",
+          "url": "https://fivebooks.com/",
+          "description": "Expert Recommended Books",
+          "starred": true
+        },
+        {
+          "name": "TasteDive",
+          "url": "https://tastedive.com/books",
+          "description": "Discovery and Recommendations",
+          "starred": true
+        },
+        {
+          "name": "ComicBookRoundup",
+          "url": "https://comicbookroundup.com/",
+          "description": "Comic Rating Aggregator ⁠",
+          "starred": true
+        },
+        {
+          "name": "MangaUpdates",
+          "url": "https://www.mangaupdates.com/",
+          "description": "Manga Database / Releases Updates",
+          "starred": true
+        },
+        {
+          "name": "Charts and Culture",
+          "url": "https://pastebin.com/uRDJVGkL",
+          "description": "Books / Comics / Manga Recommendation Directory"
+        },
+        {
+          "name": "r/ifyoulikeblank",
+          "url": "https://www.reddit.com/r/ifyoulikeblank/",
+          "description": "Personalized Recommendation Subreddit"
+        },
+        {
+          "name": "BookHype",
+          "url": "https://bookhype.com/",
+          "description": "Book Discovery / Recommendations"
+        },
+        {
+          "name": "Reddit Reads",
+          "url": "https://www.redditreads.com/",
+          "description": "Most Popular Books from Subreddits"
+        },
+        {
+          "name": "Gnooks",
+          "url": "https://www.gnooks.com/",
+          "description": "Book Discovery / Recommendations"
+        },
+        {
+          "name": "RecommendMeABook",
+          "url": "https://recommendmeabook.com/",
+          "description": "First Page Book Teasers"
+        },
+        {
+          "name": "WhichBook",
+          "url": "https://www.whichbook.net/",
+          "description": "Mood-Based Book Discovery"
+        },
+        {
+          "name": "⁠r/TrueLit Top 100 Lists",
+          "url": "https://www.reddit.com/r/TrueLit/wiki/top100lists",
+          "description": "Book Recommendations"
+        },
+        {
+          "name": "Readow",
+          "url": "https://readow.ai/",
+          "description": "Book Recommendations"
+        },
+        {
+          "name": "Shepherd",
+          "url": "https://shepherd.com/",
+          "description": "Book Recommendations"
+        },
+        {
+          "name": "Newvella",
+          "url": "https://newvella.com/",
+          "description": "Book Discovery / Recommendations"
+        },
+        {
+          "name": "GoodBooks",
+          "url": "https://www.goodbooks.io/",
+          "description": "Book Discovery / Reviews"
+        },
+        {
+          "name": "Literature-Map",
+          "url": "https://www.literature-map.com/",
+          "description": "Author Discovery by Genre"
+        },
+        {
+          "name": "Break the Bubble!",
+          "url": "https://abooklike.foo/escape",
+          "description": "Challenge Narrow Tastes"
+        },
+        {
+          "name": "Most Recommended Books",
+          "url": "https://www.mostrecommendedbooks.com/",
+          "description": "Book Recommendations"
+        },
+        {
+          "name": "Read This Twice",
+          "url": "https://readthistwice.com/",
+          "description": "Book Recommendations"
+        },
+        {
+          "name": "Hacker Recommended Books",
+          "url": "https://hacker-recommended-books.vercel.app/",
+          "description": "Book Recommendations"
+        },
+        {
+          "name": "PagePundit",
+          "url": "https://pagepundit.com/",
+          "description": "Book Recommendations"
+        },
+        {
+          "name": "Mind Expanding Books",
+          "url": "https://mindexpandingbooks.com",
+          "description": "Book Recommendations",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Litsy",
+          "url": "https://www.litsy.com/",
+          "description": "Book Recommendation / Photo Sharing Community"
+        },
+        {
+          "name": "Bookmarks Review",
+          "url": "https://bookmarks.reviews/",
+          "description": "Book Review Aggregator"
+        },
+        {
+          "name": "5000 Best",
+          "url": "http://5000best.com/books/",
+          "description": "Top 5000 Books"
+        },
+        {
+          "name": "BookStash",
+          "url": "https://bookstash.io/",
+          "description": "Book Summaries"
+        },
+        {
+          "name": "Sobrief",
+          "url": "https://sobrief.com/",
+          "description": "Book Summaries"
+        },
+        {
+          "name": "Summrize",
+          "url": "https://www.summrize.com/",
+          "description": "Book Summaries"
+        },
+        {
+          "name": "Glimbay",
+          "url": "https://glimbay.netlify.app/",
+          "description": "Book Summaries"
+        },
+        {
+          "name": "ComicBookCanon",
+          "url": "https://www.comicbookcanon.com/",
+          "description": "Comics / Manga Top Lists"
+        },
+        {
+          "name": "r/Marvel Recommended",
+          "url": "https://www.reddit.com/r/Marvel/wiki/faq",
+          "description": "Marvel Comic Recommendations"
+        },
+        {
+          "name": "r/DCcomics Recommended",
+          "url": "https://www.reddit.com/r/DCcomics/wiki/recommended",
+          "description": "DC Comic Recommendations"
+        },
+        {
+          "name": "DC Media List",
+          "url": "https://docs.google.com/spreadsheets/d/1znGm7MswCG0yuRHSvyHDUuIdeNSS7DP-yWOEqKYTAIY/",
+          "description": "Full DC Media List (1935-2024)"
+        },
+        {
+          "name": "Comic Book Reading Orders",
+          "url": "https://comicbookreadingorders.com/",
+          "description": "Comic Book Reading Orders"
+        },
+        {
+          "name": "Nevix",
+          "url": "https://nevix.com/",
+          "description": "Manga / Social Media"
+        },
+        {
+          "name": "Kitsu",
+          "url": "https://kitsu.io/",
+          "description": "Manga"
+        },
+        {
+          "name": "Mangaki",
+          "url": "https://mangaki.fr/",
+          "description": "Manga Recommendations"
+        },
+        {
+          "name": "Spin.moe",
+          "url": "https://spin.moe/",
+          "description": "Find Random Manga"
+        },
+        {
+          "name": "Anime-Planet",
+          "url": "https://anime-planet.com/",
+          "description": "Manga"
+        },
+        {
+          "name": "Kenmei",
+          "url": "https://www.kenmei.co/",
+          "description": "Manga",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "AllManga",
+          "url": "https://allmanga.to/",
+          "description": "Manga",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Manga Codex",
+          "url": "https://mangacodex.com/",
+          "description": "Manga Infographics & Sales Stats"
+        },
+        {
+          "name": "VNDB",
+          "url": "https://vndb.org/",
+          "description": "Visual Novels"
+        },
+        {
+          "name": "r/VisualNovel Recs",
+          "url": "https://sites.google.com/view/rvisualnovels-recs/",
+          "description": "Visual Novel Recommendations"
+        },
+        {
+          "name": "VN Recs",
+          "url": "https://vnrecs.github.io/",
+          "description": "Visual Novel Recommendations"
+        },
+        {
+          "name": "Ebook Converters Wiki",
+          "url": "https://wiki.mobileread.com/wiki/E-book_conversion",
+          "description": "Ebook Converter Software Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Ebook-Converter",
+          "url": "https://ebook-converter.com/",
+          "description": "Ebook Converter Software Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "DeDRM_tools",
+          "url": "https://github.com/noDRM/DeDRM_tools",
+          "description": "Ebook DRM Removal Tools",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Spreeder",
+          "url": "https://www.spreeder.com/app.php?intro=1",
+          "description": "Speed Reading Tools",
+          "starred": true
+        },
+        {
+          "name": "Speed Reader",
+          "url": "https://speed-reader.com/",
+          "description": "Speed Reading Tools"
+        },
+        {
+          "name": "BR Script",
+          "url": "https://greasyfork.org/en/scripts/465635",
+          "description": "Speed Reading Tools"
+        },
+        {
+          "name": "PlayText",
+          "url": "https://playtext.app/",
+          "description": "Speed Reading Tools"
+        },
+        {
+          "name": "AccelaReader",
+          "url": "https://accelareader.com/",
+          "description": "Speed Reading Tools"
+        },
+        {
+          "name": "SwiftRead",
+          "url": "https://swiftread.com/",
+          "description": "Speed Reading Tools"
+        },
+        {
+          "name": "Notation",
+          "url": "https://github.com/numanzamandipuu/Notation",
+          "description": "Speed Reading Tools"
+        },
+        {
+          "name": "Tailwind BR",
+          "url": "https://crisanlucid.github.io/vite-react-tailwind-bionic-reading/",
+          "description": "Speed Reading Tools"
+        },
+        {
+          "name": "⁠ogma",
+          "url": "https://github.com/0hAodha/ogma",
+          "description": "Speed Reading Tools"
+        },
+        {
+          "name": "SpeedRead",
+          "url": "https://github.com/pasky/speedread",
+          "description": "Speed Reading Tools"
+        },
+        {
+          "name": "Kindle Comic Converter",
+          "url": "https://github.com/ciromattia/kcc",
+          "description": "Multi-Format Converter / App",
+          "starred": true
+        },
+        {
+          "name": "Papeer",
+          "url": "https://papeer.tech/",
+          "description": "Webpage to EPUB Converter",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/lapwat/papeer",
+          "description": "Webpage to EPUB Converter"
+        },
+        {
+          "name": "dotepub",
+          "url": "https://dotepub.com/",
+          "description": "Webpage to EPUB Converter"
+        },
+        {
+          "name": "epub-creator",
+          "url": "https://github.com/NiklasGollenstede/epub-creator",
+          "description": "Webpage to EPUB Converter"
+        },
+        {
+          "name": "⁠Scribd DL",
+          "url": "https://github.com/rkwyu/scribd-dl",
+          "description": "Scribd Downloaders"
+        },
+        {
+          "name": "Scribd PDF",
+          "url": "https://scribd.pdfdownloaders.com/",
+          "description": "Scribd Downloaders"
+        },
+        {
+          "name": "ScribdVPDF",
+          "url": "https://scribdvpdf.blogspot.com/",
+          "description": "Scribd Downloaders"
+        },
+        {
+          "name": "2",
+          "url": "https://docdownloader.com/",
+          "description": "Scribd Downloaders"
+        },
+        {
+          "name": "3",
+          "url": "https://scribd.vpdfs.com/",
+          "description": "Scribd Downloaders"
+        },
+        {
+          "name": "4",
+          "url": "https://scribd.downloader.tips/",
+          "description": "Scribd Downloaders"
+        },
+        {
+          "name": "5",
+          "url": "https://scribd.vdownloaders.com/",
+          "description": "Scribd Downloaders"
+        },
+        {
+          "name": "Ebook-Online-Convert",
+          "url": "https://ebook.online-convert.com/",
+          "description": "Multi-Format Converter / Online"
+        },
+        {
+          "name": "⁠Manga & Comic Converter",
+          "url": "https://www.mangaconverter.com/",
+          "description": "Comic / Manga to Book Converter / Online",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "eBook Converter Bot",
+          "url": "https://t.me/ebook_converter_bot",
+          "description": "Telegram Ebook Converter",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "CrowBook",
+          "url": "https://github.com/crowdagger/crowbook",
+          "description": "Markdown to EPUB Converter"
+        },
+        {
+          "name": "Libby",
+          "url": "https://libbyapp.com/",
+          "description": "Library Search / Downloader"
+        },
+        {
+          "name": "How to Get Library Card Online",
+          "url": "https://rentry.co/9b3vdo",
+          "description": ""
+        },
+        {
+          "name": "BookInfo",
+          "url": "https://lordgnomembe.github.io/BookInfo/",
+          "description": "Get Book Info via ISBN"
+        },
+        {
+          "name": "FiveFilters",
+          "url": "https://www.fivefilters.org/",
+          "description": "Multiple Article Accessibility Tools"
+        },
+        {
+          "name": "⁠IPDL",
+          "url": "https://ipdl.cat/",
+          "description": "Monitor Digital Library Torrent Health"
+        },
+        {
+          "name": "Readarr",
+          "url": "https://readarr.com/",
+          "description": "Book Torrent Autodownload / Manager"
+        },
+        {
+          "name": "LazyLibrarian",
+          "url": "https://gitlab.com/LazyLibrarian/LazyLibrarian",
+          "description": "Book Torrent Autodownload / Manager"
+        },
+        {
+          "name": "FicHub",
+          "url": "https://fichub.net/",
+          "description": "Fanfiction Downloader"
+        },
+        {
+          "name": "FanFictionDownloader",
+          "url": "https://fanfictiondownloader.net/",
+          "description": "Fanfiction Downloader"
+        },
+        {
+          "name": "Sigil Ebook",
+          "url": "https://sigil-ebook.com/",
+          "description": "EPUB Editor"
+        },
+        {
+          "name": "EPUB Translator",
+          "url": "https://github.com/quantrancse/epub-translator",
+          "description": "EPUB Translators"
+        },
+        {
+          "name": "epub-translator",
+          "url": "https://github.com/sharplab/epub-translator",
+          "description": "EPUB Translators"
+        },
+        {
+          "name": "SmartStitch",
+          "url": "https://github.com/MechTechnology/SmartStitch",
+          "description": "Stitch Together Webtoons"
+        },
+        {
+          "name": "FanFicFare",
+          "url": "https://github.com/JimmXinu/FanFicFare",
+          "description": "Generate Ebooks from Stories / Fanfiction"
+        },
+        {
+          "name": "HowLongToRead",
+          "url": "https://howlongtoread.com/",
+          "description": "Find Book Lengths / Reading Times"
+        },
+        {
+          "name": "ReadingLength",
+          "url": "https://www.readinglength.com/",
+          "description": "Find Book Lengths / Reading Times"
+        },
+        {
+          "name": "BTW",
+          "url": "https://booktriggerwarnings.com/",
+          "description": "Book Trigger Warnings"
+        },
+        {
+          "name": "DIY Book Scanner",
+          "url": "https://diybookscanner.org/",
+          "description": "How to Scan Books"
+        },
+        {
+          "name": "The Submission Grinder",
+          "url": "https://thegrinder.diabolicalplots.com/",
+          "description": "Find a Publisher"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5306 @@
+{
+  "id": "image-tools",
+  "slug": "image-tools",
+  "title": "画像ツール",
+  "description": "画像編集、AI画像生成、スクリーンショット",
+  "icon": "🖼️",
+  "color": "from-teal-500 to-cyan-600",
+  "subcategories": [
+    {
+      "id": "image-tools-general",
+      "title": "一般",
+      "resources": [
+        {
+          "name": "PuccaNoodles' Sheet",
+          "url": "https://docs.google.com/spreadsheets/d/1-8OKuEvRR038Uno--Vi9tQRe4eFCSfQTPov7nXgiJ3w/",
+          "description": "Image Creation Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Croppola",
+          "url": "https://croppola.com/",
+          "description": "Cropping Tools"
+        },
+        {
+          "name": "AutoCropper",
+          "url": "https://www.autocropper.io/",
+          "description": "Cropping Tools"
+        },
+        {
+          "name": "Bulk Image Crop",
+          "url": "https://bulkimagecrop.com/",
+          "description": "Cropping Tools"
+        },
+        {
+          "name": "Avatar Cropper",
+          "url": "https://avatarcropper.com/",
+          "description": "Cropping Tools"
+        },
+        {
+          "name": "imgsli",
+          "url": "https://imgsli.com/",
+          "description": "Before & After Slider Generator"
+        },
+        {
+          "name": "⁠PixelFrame",
+          "url": "https://pixelframe.design/",
+          "description": "Custom Pop Culture Graphic Generator"
+        },
+        {
+          "name": "Scribus",
+          "url": "https://www.scribus.net/",
+          "description": "Page Layout & Typesetting Programs"
+        },
+        {
+          "name": "Quarkdown",
+          "url": "https://quarkdown.com/",
+          "description": "Page Layout & Typesetting Programs"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/iamgio/quarkdown",
+          "description": "Page Layout & Typesetting Programs"
+        },
+        {
+          "name": "Images.weserv.nl",
+          "url": "https://images.weserv.nl/",
+          "description": "Image Editing Server"
+        },
+        {
+          "name": "GradientArt",
+          "url": "https://gra.dient.art/",
+          "description": "Gradient Editor"
+        },
+        {
+          "name": "TailBlend",
+          "url": "https://tailblend.vercel.app/",
+          "description": "Gradient Editor"
+        },
+        {
+          "name": "Canvas",
+          "url": "https://www.nvidia.com/en-us/studio/creative-side-hustle/",
+          "description": "Turn Simple Art into Photorealistic Landscapes"
+        },
+        {
+          "name": "Image Splitter",
+          "url": "https://ruyili.ca/image-splitter/",
+          "description": "Split Images into Tiles"
+        },
+        {
+          "name": "PicFont",
+          "url": "https://picfont.com/",
+          "description": "Add Text to Images"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-editing-software",
+      "title": "編集ソフトウェア",
+      "resources": [
+        {
+          "name": "GIMP",
+          "url": "https://www.gimp.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Photoshop UI",
+          "url": "https://github.com/Diolinux/PhotoGIMP",
+          "description": ""
+        },
+        {
+          "name": "Texture Synthesizer",
+          "url": "https://github.com/bootchk/resynthesizer",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/kHBNw2B",
+          "description": ""
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://www.reddit.com/r/GIMP/",
+          "description": ""
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.gnome.org/GNOME/gimp",
+          "description": ""
+        },
+        {
+          "name": "ImageMagick",
+          "url": "https://imagemagick.org/index.php",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Scripts",
+          "url": "https://www.fmwconcepts.com/imagemagick/index.php",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/imagemagick/imagemagick",
+          "description": ""
+        },
+        {
+          "name": "⁠Affinity",
+          "url": "https://www.affinity.studio/",
+          "description": ""
+        },
+        {
+          "name": "⁠AffinityOnLinux",
+          "url": "https://github.com/ryzendew/Linux-Affinity-Installer",
+          "description": ""
+        },
+        {
+          "name": "No Login Method",
+          "url": "https://rentry.co/FMHYB64#affinity",
+          "description": ""
+        },
+        {
+          "name": "LazPaint",
+          "url": "https://lazpaint.github.io/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/bgrabitmap/lazpaint/",
+          "description": ""
+        },
+        {
+          "name": "PhotoDemon",
+          "url": "https://photodemon.org/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/tannerhelland/PhotoDemon",
+          "description": ""
+        },
+        {
+          "name": "⁠RapidRAW",
+          "url": "https://github.com/CyberTimon/RapidRAW",
+          "description": ""
+        },
+        {
+          "name": "Paint.net",
+          "url": "https://www.getpaint.net/index.html",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/paintdotnet",
+          "description": ""
+        },
+        {
+          "name": "Gimel Studio",
+          "url": "https://gimelstudio.com/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/GimelStudio/GimelStudio",
+          "description": ""
+        },
+        {
+          "name": "Hugin",
+          "url": "https://hugin.sourceforge.io/",
+          "description": "Panorama Image Generator / Windows, Mac, Linux"
+        },
+        {
+          "name": "IOPaint",
+          "url": "https://github.com/Sanster/IOPaint",
+          "description": "AI Image Multitool Editor"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-online-editors",
+      "title": "オンラインエディタ",
+      "resources": [
+        {
+          "name": "Pixlr",
+          "url": "https://pixlr.com/",
+          "description": "Simple Editor / Hide Premium / Unlimited Saves",
+          "starred": true
+        },
+        {
+          "name": "Lunapic",
+          "url": "https://lunapic.com/",
+          "description": "Multi-Tool",
+          "starred": true
+        },
+        {
+          "name": "Photopea",
+          "url": "https://www.photopea.com/",
+          "description": "Photoshop Alt",
+          "starred": true
+        },
+        {
+          "name": "BitMappery",
+          "url": "https://www.igorski.nl/application/bitmappery/",
+          "description": "Photoshop Alt"
+        },
+        {
+          "name": "iPiccy",
+          "url": "https://ipiccy.com/",
+          "description": "Photoshop Alt"
+        },
+        {
+          "name": "Stet",
+          "url": "https://stet.io/",
+          "description": "Photoshop Alt"
+        },
+        {
+          "name": "Polarr",
+          "url": "https://photoeditor.polarr.co/",
+          "description": "Multi-Tool"
+        },
+        {
+          "name": "Resize Pixel",
+          "url": "https://www.resizepixel.com/",
+          "description": "Multi-Tool"
+        },
+        {
+          "name": "Tom's Editor",
+          "url": "https://tomseditor.com/editor/",
+          "description": "Multi-Tool"
+        },
+        {
+          "name": "photo.codes",
+          "url": "https://www.photo.codes/",
+          "description": "Simple Editor w / Shareable Colab Codes"
+        },
+        {
+          "name": "MiNi Photo Editor",
+          "url": "https://mini2-photo-editor.netlify.app/",
+          "description": "Simple Editor",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Polotno Studio",
+          "url": "https://studio.polotno.com/",
+          "description": "Simple Editor"
+        },
+        {
+          "name": "ILoveImg",
+          "url": "https://www.iloveimg.com/photo-editor",
+          "description": "Simple Editor"
+        },
+        {
+          "name": "UpperPix",
+          "url": "https://upperpix.com/",
+          "description": "Simple Editor"
+        },
+        {
+          "name": "Online Photo Editor",
+          "url": "https://www.freeonlinephotoeditor.com/",
+          "description": "Simple Editor"
+        },
+        {
+          "name": "Picverse",
+          "url": "https://www.picverse.com/online-photo-editor",
+          "description": "Simple Editor"
+        },
+        {
+          "name": "webp2jpg",
+          "url": "https://renzhezhilu.github.io/webp2jpg-online/",
+          "description": "Simple Editor"
+        },
+        {
+          "name": "edit.photo",
+          "url": "https://edit.photo/",
+          "description": "Simple Editor"
+        },
+        {
+          "name": "RedKetchup",
+          "url": "https://redketchup.io/",
+          "description": "Multi-Tool"
+        },
+        {
+          "name": "fffuel",
+          "url": "https://fffuel.co/",
+          "description": "Multi-Tool"
+        },
+        {
+          "name": "Mara",
+          "url": "https://mara.photos/",
+          "description": "Multi-Tool"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-content-removers",
+      "title": "コンテンツ削除ツール",
+      "resources": [
+        {
+          "name": "ObjectRemover",
+          "url": "https://objectremover.com/",
+          "description": "Object Removers",
+          "starred": true
+        },
+        {
+          "name": "Lama Cleaner",
+          "url": "https://lama-cleaner-docs.vercel.app/",
+          "description": "Object Removers"
+        },
+        {
+          "name": "Inpaint",
+          "url": "https://theinpaint.com/",
+          "description": "Object Removers"
+        },
+        {
+          "name": "Cleanup.pictures",
+          "url": "https://cleanup.pictures/",
+          "description": "Object Removers"
+        },
+        {
+          "name": "HAMA",
+          "url": "https://www.hama.app/",
+          "description": "Object Removers"
+        },
+        {
+          "name": "BRIA RMBG",
+          "url": "https://briaai-bria-rmbg-2-0.hf.space/",
+          "description": "Background Remover",
+          "starred": true
+        },
+        {
+          "name": "BG Bye",
+          "url": "https://bgbye.io/",
+          "description": "Background Remover",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://fyrean.itch.io/bgbye-background-remover",
+            "https://bgbye.fyrean.com/"
+          ]
+        },
+        {
+          "name": "Pixelcut",
+          "url": "https://www.pixelcut.ai/",
+          "description": "Background Remover"
+        },
+        {
+          "name": "Ripolas Background Remover",
+          "url": "https://ripolas.org/background-remover/",
+          "description": "Background Remover / Non-AI"
+        },
+        {
+          "name": "Change BG",
+          "url": "https://www.change-bg.org/",
+          "description": "Background Remover"
+        },
+        {
+          "name": "BGNix",
+          "url": "https://www.bgnix.com/",
+          "description": "Background Remover",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Adobe Express Background Remover",
+          "url": "https://www.adobe.com/express/feature/image/remove-background",
+          "description": "Background Remover"
+        },
+        {
+          "name": "remove.bg",
+          "url": "https://www.remove.bg/",
+          "description": "Background Remover / GIMP Plugin"
+        },
+        {
+          "name": "Rembg",
+          "url": "https://github.com/danielgatis/rembg",
+          "description": "Self-Hosted Background Remover"
+        },
+        {
+          "name": "Segment Anything",
+          "url": "https://aidemos.meta.com/segment-anything",
+          "description": "Visual Segmentation / GUI / Stable Diffusion WebUI / Extensions"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-upscale-restore",
+      "title": "アップスケール / 復元",
+      "resources": [
+        {
+          "name": "Waifu2x",
+          "url": "https://github.com/nagadomi/nunif",
+          "description": "Anime Image Upscaling / WebUI / Self-Hosted",
+          "starred": true
+        },
+        {
+          "name": "WaifuXL",
+          "url": "https://waifuxl.com/",
+          "description": "Anime Image Upscaling / Online / Self-Hosted",
+          "starred": true
+        },
+        {
+          "name": "Upscayl",
+          "url": "https://upscayl.org/",
+          "description": "Image Upscaling / Self-Hosted",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "chaiNNer",
+          "url": "https://chainner.app/",
+          "description": "Image Upscaling / Self-Hosted",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "OpenModelDB",
+          "url": "https://openmodeldb.info/",
+          "description": "AI Upscaling Model Database",
+          "starred": true
+        },
+        {
+          "name": "Real-ESRGAN",
+          "url": "https://github.com/xinntao/Real-ESRGAN",
+          "description": "Image Restoration Algorithms / Face Restoration / Online / Self-Hosted"
+        },
+        {
+          "name": "image-upscaling.net",
+          "url": "https://image-upscaling.net/",
+          "description": "Image Upscaling / Online"
+        },
+        {
+          "name": "IMGUpscaler",
+          "url": "https://imgupscaler.ai/",
+          "description": "Image Upscaling / Restoration / Video Upscaling / Online"
+        },
+        {
+          "name": "Bigjpg",
+          "url": "https://bigjpg.com/",
+          "description": "Image Upscaling / Online"
+        },
+        {
+          "name": "Ilaria_Upscaler",
+          "url": "https://huggingface.co/spaces/TheStinger/Ilaria_Upscaler",
+          "description": "Image Upscaling / Online"
+        },
+        {
+          "name": "Final2x",
+          "url": "https://github.com/Tohrusky/Final2x",
+          "description": "Image Upscaling / Self-Hosted"
+        },
+        {
+          "name": "Lossless Scaling",
+          "url": "https://fmhy.net/gaming#download-games",
+          "description": "Image Upscaling"
+        },
+        {
+          "name": "imgupscaler",
+          "url": "https://imgupscaler.com/",
+          "description": "Image Upscaling / Online"
+        },
+        {
+          "name": "QualityScaler",
+          "url": "https://github.com/Djdefrag/QualityScaler",
+          "description": "Image Upscaling / Video Upscaling / Denoising / Self-Hosted"
+        },
+        {
+          "name": "resdet",
+          "url": "https://github.com/0x09/resdet",
+          "description": "Detect Source Resolution of Upscaled Images / Self-Hosted"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-image-effects",
+      "title": "画像 Effects",
+      "resources": [
+        {
+          "name": "Mosh",
+          "url": "https://moshpro.app/",
+          "description": "Glitch Images",
+          "starred": true
+        },
+        {
+          "name": "Efecto",
+          "url": "https://efecto.app/",
+          "description": "Glitch Images"
+        },
+        {
+          "name": "glitch2",
+          "url": "https://akx.github.io/glitch2/",
+          "description": "Glitch Images"
+        },
+        {
+          "name": "GlitchyImage",
+          "url": "https://glitchyimage.com/",
+          "description": "Glitch Images"
+        },
+        {
+          "name": "PhotoFunia",
+          "url": "https://photofunia.com/",
+          "description": "Photo Effects / Filters"
+        },
+        {
+          "name": "effect.app",
+          "url": "https://effect.app/",
+          "description": "Photo Effects / Filters"
+        },
+        {
+          "name": "⁠Tooooools",
+          "url": "https://tooooools.app/",
+          "description": "Photo Effects / Filters"
+        },
+        {
+          "name": "Image Mage",
+          "url": "https://imagemageage.github.io/",
+          "description": "Photo Effects / Filters"
+        },
+        {
+          "name": "Palettum",
+          "url": "https://palettum.com/",
+          "description": "Add Custom Color Palettes to Images & GIFs",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "InColor",
+          "url": "https://www.myheritage.com/incolor",
+          "description": "B&W Image Colorization / Requires Sign-Up"
+        },
+        {
+          "name": "⁠Dual Shades",
+          "url": "https://dual-shades.anmolagrawal.dev/",
+          "description": "Generate B&W Images w / Colorized Subjects"
+        },
+        {
+          "name": "PhotoJoiner",
+          "url": "https://www.photojoiner.com/",
+          "description": "Collage Maker"
+        },
+        {
+          "name": "⁠shabzefilters",
+          "url": "https://shabzefilters.netlify.app/",
+          "description": "ASCII, Dot, Braille, Block, Line, etc"
+        },
+        {
+          "name": "AIDraw",
+          "url": "https://ai-draw.tokyo/en/",
+          "description": "Turn Photos into Line Art"
+        },
+        {
+          "name": "⁠FiniteCurve",
+          "url": "https://www.finitecurve.com/",
+          "description": "Turn Photos into Line Art"
+        },
+        {
+          "name": "Tiler",
+          "url": "https://github.com/nuno-faria/tiler",
+          "description": "Mosaic Image Generator"
+        },
+        {
+          "name": "Fotosketcher",
+          "url": "https://fotosketcher.com/",
+          "description": "Turn Photos into Artwork / Windows"
+        },
+        {
+          "name": "Mimi",
+          "url": "https://mimi-panda.com/",
+          "description": "Turn Photos into Coloring Book Sketch"
+        },
+        {
+          "name": "Text-Image",
+          "url": "https://www.text-image.com/",
+          "description": "Text Image Generator"
+        },
+        {
+          "name": "ordered-dither-maker",
+          "url": "https://seleb.github.io/ordered-dither-maker/",
+          "description": "Image Dithering / Bitmap Generators"
+        },
+        {
+          "name": "BDFM",
+          "url": "https://bitmap.designfamilymarket.com/",
+          "description": "Image Dithering / Bitmap Generators"
+        },
+        {
+          "name": "Ditherista",
+          "url": "https://github.com/robertkist/ditherista/",
+          "description": "Image Dithering / Bitmap Generators"
+        },
+        {
+          "name": "Dither Me This",
+          "url": "https://doodad.dev/dither-me-this/",
+          "description": "Image Dithering / Bitmap Generators"
+        },
+        {
+          "name": "Rutt-Etra-Izer",
+          "url": "https://airtightinteractive.com/demos/js/ruttetra/",
+          "description": "Scanned-line Images"
+        },
+        {
+          "name": "Tinter",
+          "url": "https://github.com/uxie-io/tinter",
+          "description": "Hue Editor"
+        },
+        {
+          "name": "Geometrize",
+          "url": "https://www.geometrize.co.uk/",
+          "description": "Redraw Images with Geometric Shapes",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "PBNify",
+          "url": "https://pbnify.com/",
+          "description": "Paint by Number Tool"
+        },
+        {
+          "name": "Party-ify",
+          "url": "https://nathanielw.github.io/party-ify/",
+          "description": "Party-ify Images"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-painting-drawing",
+      "title": "ペイント / ドローイング",
+      "resources": [
+        {
+          "name": "Digital Art Brushes",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_digital_brushes",
+          "description": "Download Brushes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Krita",
+          "url": "https://krita.org/en/",
+          "description": "Painting App / Windows, Mac, Linux / AI Generation",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "miniPaint",
+          "url": "https://viliusle.github.io/miniPaint/",
+          "description": "Browser Painting / Web",
+          "starred": true
+        },
+        {
+          "name": "Pinta Project",
+          "url": "https://www.pinta-project.com/",
+          "description": "Painting App / Windows, Mac, Linux",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Magma",
+          "url": "https://magma.com/",
+          "description": "Collaborative Drawing"
+        },
+        {
+          "name": "⁠MagicalDraw",
+          "url": "https://draw.kuku.lu/",
+          "description": "Collaborative Drawing"
+        },
+        {
+          "name": "DrawPile",
+          "url": "https://drawpile.net/",
+          "description": "Collaborative Drawing"
+        },
+        {
+          "name": "malmal",
+          "url": "https://malmal.io/",
+          "description": "Collaborative Drawing"
+        },
+        {
+          "name": "SmoothDraw",
+          "url": "https://qrli.github.io/smoothdraw/",
+          "description": "Painting App / Windows"
+        },
+        {
+          "name": "Inkscape",
+          "url": "https://inkscape.org/",
+          "description": "Drawing / Sketching / Windows, Mac, Linux / GitLab"
+        },
+        {
+          "name": "FireAlpaca",
+          "url": "https://firealpaca.com/",
+          "description": "Painting App / Windows, Mac"
+        },
+        {
+          "name": "PixiEditor",
+          "url": "https://pixieditor.net/",
+          "description": "Vector Editor / Painting App / Windows, Mac, Linux",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "SumoPaint",
+          "url": "https://sumopaint.com/",
+          "description": "Browser Painting / Web"
+        },
+        {
+          "name": "KRESKA.art",
+          "url": "https://kreska.art/",
+          "description": "Browser Painting / Drawing / Web"
+        },
+        {
+          "name": "⁠Wigglypaint",
+          "url": "https://wigglypaint.net/",
+          "description": "Browser Painting / Animated Brushes"
+        },
+        {
+          "name": "Milton",
+          "url": "https://www.miltonpaint.com/",
+          "description": "Infinite Canvas Painting / Windows, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "AutoDraw",
+          "url": "https://www.autodraw.com/",
+          "description": "AI Drawing Tools / Web"
+        },
+        {
+          "name": "⁠Provector",
+          "url": "https://start.provector.app/",
+          "description": "Vector Editor / Web",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Graphite",
+          "url": "https://graphite.rs/",
+          "description": "Vector Editor / Web",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠Vectorpea",
+          "url": "https://www.vectorpea.com/",
+          "description": "Vector Editor / Web"
+        },
+        {
+          "name": "HeavyPaint",
+          "url": "https://www.heavypaint.com/",
+          "description": "Water Color Painting / Android, iOS, Web"
+        },
+        {
+          "name": "Mixbox Painter",
+          "url": "https://scrtwpns.com/mixbox/painter/",
+          "description": "Realistic Paint Mixing / Web"
+        },
+        {
+          "name": "Vervette",
+          "url": "https://www.taron.de/Vervette/sandbox/",
+          "description": "Realistic Fluid Painting / Web"
+        },
+        {
+          "name": "ArtistAssistApp",
+          "url": "https://artistassistapp.com/",
+          "description": "Useful Painting Tools / Web"
+        },
+        {
+          "name": "Inscribed",
+          "url": "https://inscribed.app/",
+          "description": "Sketch-Based Slides / Web",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Sketch Toy",
+          "url": "https://www.sketchtoy.com/",
+          "description": "Drawing / Sketching / Web"
+        },
+        {
+          "name": "tldraw",
+          "url": "https://www.tldraw.com/",
+          "description": "Drawing / Sketching / Web"
+        },
+        {
+          "name": "Ok! So",
+          "url": "https://okso.app/",
+          "description": "Drawing / Sketching / Web"
+        },
+        {
+          "name": "Kleki",
+          "url": "https://kleki.com/",
+          "description": "Drawing / Sketching / Web"
+        },
+        {
+          "name": "Sketchbook",
+          "url": "https://www.sketchbook.com/",
+          "description": "Drawing / Sketching / Windows, Mac, Android, iOS"
+        },
+        {
+          "name": "Fresco",
+          "url": "https://www.adobe.com/products/fresco.html",
+          "description": "Drawing / Windows, iOS"
+        },
+        {
+          "name": "Concepts",
+          "url": "https://concepts.app/",
+          "description": "Drawing / Sketching / Windows, Android, iOS"
+        },
+        {
+          "name": "MonsterMash",
+          "url": "https://monstermash.zone/",
+          "description": "Sketch-Based Modeling & Animation Tool / Web"
+        },
+        {
+          "name": "IOGraphica",
+          "url": "https://iographica.com/",
+          "description": "Turn Mouse Movement into Art / Windows, Mac, Linux"
+        },
+        {
+          "name": "Perfect Freehand",
+          "url": "https://perfect-freehand-example.vercel.app/",
+          "description": "Draw Free Hand Lines / Web",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "minimator",
+          "url": "https://minimator.app/",
+          "description": "Create Grid-Based Drawings / Web",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Perspective Tools",
+          "url": "https://perspectivetools.com/",
+          "description": "Interactive Perspective Grids"
+        },
+        {
+          "name": "Animated Drawings",
+          "url": "https://sketch.metademolab.com/",
+          "description": "Animate Drawings"
+        },
+        {
+          "name": "FAIR Animated Drawings",
+          "url": "https://fairanimateddrawings.com/site/home",
+          "description": "Animate Drawings"
+        },
+        {
+          "name": "MotorPen",
+          "url": "https://motorpen.com/",
+          "description": "Animate Drawings"
+        },
+        {
+          "name": "DrawTab",
+          "url": "https://docs.thesevenpens.com/drawtab",
+          "description": "Drawing Tablet Info / Wiki"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-pixel-art",
+      "title": "ピクセルアート",
+      "resources": [
+        {
+          "name": "Awesome Pixel Art",
+          "url": "https://github.com/Siilwyn/awesome-pixel-art",
+          "description": "Pixel Art Resource Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Aseprite",
+          "url": "https://github.com/aseprite/aseprite",
+          "description": "Pixel Art Editor / Guide",
+          "starred": true
+        },
+        {
+          "name": "LibreSprite",
+          "url": "https://libresprite.github.io/",
+          "description": "Pixel Art Editor",
+          "starred": true
+        },
+        {
+          "name": "Piskel",
+          "url": "https://www.piskelapp.com/",
+          "description": "Pixel Art Editor / Web",
+          "starred": true
+        },
+        {
+          "name": "rx",
+          "url": "https://rx.cloudhead.io/",
+          "description": "Pixel Art Editor / Mac, Linux",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "PixiEditor",
+          "url": "https://pixieditor.net/",
+          "description": "Pixel Art Editor / Windows, Mac, Linux",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "CSprite",
+          "url": "https://csprite.github.io/",
+          "description": "Pixel Art Editor / Windows, Mac, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "PyDPainter",
+          "url": "https://pydpainter.org/",
+          "description": "Bitmap Graphics Editor / Windows, Mac, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Paint Of Persia",
+          "url": "https://dunin.itch.io/ptop",
+          "description": "Rotoscoping Pixel Art Tool / Windows, Mac"
+        },
+        {
+          "name": "Pixelated",
+          "url": "https://pixelated.vercel.app/",
+          "description": "Pixel Art Editor / Web"
+        },
+        {
+          "name": "PixilArt",
+          "url": "https://www.pixilart.com/draw",
+          "description": "Pixel Art Editor / Web"
+        },
+        {
+          "name": "GraphicsGale",
+          "url": "https://graphicsgale.com/us/",
+          "description": "Pixel Art Editor"
+        },
+        {
+          "name": "JPixel",
+          "url": "https://pixelfromhell.itch.io/jpixel",
+          "description": "Pixel Art Editor"
+        },
+        {
+          "name": "SpookyGhost",
+          "url": "https://encelo.itch.io/spookyghost",
+          "description": "Pixel Art Editor"
+        },
+        {
+          "name": "PixelartVillage",
+          "url": "https://pixelartvillage.com/",
+          "description": "Image to Pixel Art Converter / Web"
+        },
+        {
+          "name": "Pixel It",
+          "url": "https://giventofly.github.io/pixelit/",
+          "description": "Image to Pixel Art Converter / Web"
+        },
+        {
+          "name": "PixelartGenerator",
+          "url": "https://pixelartgenerator.app/",
+          "description": "Image to Pixel Art Converter / Web"
+        },
+        {
+          "name": "Pixelart Converter",
+          "url": "https://app.monopro.org/pixel/?lang=en",
+          "description": "Image to Pixel Art Converter / Web"
+        },
+        {
+          "name": "Pixelorama",
+          "url": "https://pixelorama.org/",
+          "description": "2D Sprite Editor / Windows, Mac, Linux, Web",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "pixeldudesmaker",
+          "url": "https://0x72.itch.io/pixeldudesmaker",
+          "description": "Sprite Generator / Web"
+        },
+        {
+          "name": "Creature Mixer",
+          "url": "https://kenney.itch.io/creature-mixer",
+          "description": "Sprite Generator / Web"
+        },
+        {
+          "name": "Nasu",
+          "url": "https://hundredrabbits.itch.io/nasu",
+          "description": "Spritesheet Editor / Windows, Mac, Linux, Android"
+        },
+        {
+          "name": "GIF to Frames",
+          "url": "https://giftoframes.com/",
+          "description": "GIF to Spritesheet"
+        },
+        {
+          "name": "Pixel Snapper",
+          "url": "https://www.spritefusion.com/pixel-snapper",
+          "description": "Auto-Fix Pixel Art into Grids",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Pixel Reconstructor",
+          "url": "https://i-win.neocities.org/pixel/",
+          "description": "⁠Pixel Art Upscalers"
+        },
+        {
+          "name": "Pixel Art Upscaler",
+          "url": "https://imaginarycatlab.com/free-pixel-art-upscaler.html",
+          "description": "⁠Pixel Art Upscalers"
+        },
+        {
+          "name": "Pixel Art Scaler",
+          "url": "https://lospec.com/pixel-art-scaler/",
+          "description": "⁠Pixel Art Upscalers"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-gif-tools",
+      "title": "GIF ツール",
+      "resources": [
+        {
+          "name": "Gifski",
+          "url": "https://gif.ski/",
+          "description": "GIF Encoder / Windows, Mac, Linux",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "EZGif",
+          "url": "https://ezgif.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "GIFnText",
+          "url": "https://www.gifntext.com/",
+          "description": ""
+        },
+        {
+          "name": "⁠MakeEmoji",
+          "url": "https://makeemoji.com/",
+          "description": "Make Custom Animated Emojis"
+        },
+        {
+          "name": "Slackmoji Lab",
+          "url": "https://slackmojilab.com/",
+          "description": "Make Custom Animated Emojis"
+        },
+        {
+          "name": "Gifsicle",
+          "url": "http://www.lcdf.org/gifsicle/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/kohler/gifsicle",
+          "description": ""
+        },
+        {
+          "name": "Giphy",
+          "url": "https://giphy.com/",
+          "description": "View / Download GIFs"
+        },
+        {
+          "name": "Tenor",
+          "url": "https://tenor.com/",
+          "description": "View / Download GIFs"
+        },
+        {
+          "name": "Gifer",
+          "url": "https://gifer.com/en",
+          "description": "View / Download GIFs"
+        },
+        {
+          "name": "GifCities",
+          "url": "https://gifcities.org/",
+          "description": "View / Download GIFs"
+        },
+        {
+          "name": "Animations",
+          "url": "https://bleuje.com/animationsite/",
+          "description": "View / Download GIFs"
+        },
+        {
+          "name": "GIFBin",
+          "url": "https://gifbin.com/",
+          "description": "View / Download GIFs"
+        },
+        {
+          "name": "DrawIsland",
+          "url": "https://drawisland.com/",
+          "description": "Create GIFs from Drawings"
+        },
+        {
+          "name": "Sketch Machine",
+          "url": "https://sketchmachine.net/",
+          "description": "Create GIFs from Drawings"
+        },
+        {
+          "name": "ScreenToGif",
+          "url": "https://www.screentogif.com/",
+          "description": "GIF Recorder / Windows",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "licecap",
+          "url": "https://www.cockos.com/licecap/",
+          "description": "Create GIFs via Screencasts / Windows, Mac, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ugiffer",
+          "url": "https://iobureau.com/ugiffer/",
+          "description": "Create GIFs via Screencasts / Windows"
+        },
+        {
+          "name": "blinkies.cafe",
+          "url": "https://blinkies.cafe/",
+          "description": "Custom Retro Blinkie GIFs / Badges",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image-tools-meme-tools",
+      "title": "Meme ツール",
+      "resources": [
+        {
+          "name": "Know Your Meme",
+          "url": "https://knowyourmeme.com/",
+          "description": "Meme Databases",
+          "starred": true
+        },
+        {
+          "name": "FindThatMeme",
+          "url": "https://findthatmeme.com/",
+          "description": "Meme Databases"
+        },
+        {
+          "name": "ImgFlip",
+          "url": "https://imgflip.com/memegenerator",
+          "description": "Meme Creators"
+        },
+        {
+          "name": "Meme Generator",
+          "url": "https://www.memegenerator.top/",
+          "description": "Meme Creators"
+        },
+        {
+          "name": "Meme Town",
+          "url": "https://meme.town/",
+          "description": "Meme Creators"
+        },
+        {
+          "name": "MemeBetter",
+          "url": "https://memebetter.com/",
+          "description": "Meme Creators"
+        },
+        {
+          "name": "meme-generator",
+          "url": "https://newfastuff.com/meme-generator/",
+          "description": "Meme Creators"
+        },
+        {
+          "name": "Classic Memes",
+          "url": "https://classic.createa.meme/",
+          "description": "Meme Creators"
+        },
+        {
+          "name": "Emacs Meme Generator",
+          "url": "https://github.com/larsmagne/meme",
+          "description": "Meme Creators"
+        },
+        {
+          "name": "MemeCam",
+          "url": "https://www.memecam.io/",
+          "description": "AI Meme Generator"
+        },
+        {
+          "name": "Memegine",
+          "url": "https://memegine.com/",
+          "description": "Meme Search Engine"
+        },
+        {
+          "name": "GreenScreenMemes",
+          "url": "https://greenscreenmemes.com/",
+          "description": "Green Screen Memes"
+        },
+        {
+          "name": "TweetGen",
+          "url": "https://www.tweetgen.com/",
+          "description": "Fake Tweet Creator"
+        },
+        {
+          "name": "iFake",
+          "url": "https://ifaketextmessage.com/",
+          "description": "Fake Text Creator"
+        },
+        {
+          "name": "Objection!",
+          "url": "https://objection.lol/",
+          "description": "Ace Attorney Courtroom / Objection Generator"
+        },
+        {
+          "name": "Pokémon Battle Creator",
+          "url": "http://www.pokemonbattlecreator.com/",
+          "description": "Pokémon Battle Scene Meme Generator"
+        },
+        {
+          "name": "Master of all Science",
+          "url": "https://masterofallscience.com/",
+          "description": "Rick and Morty Meme Generator"
+        },
+        {
+          "name": "Frinkiac",
+          "url": "https://frinkiac.com/",
+          "description": "Simpsons Meme Generator"
+        },
+        {
+          "name": "Morbotron",
+          "url": "https://morbotron.com/",
+          "description": "Futurama Meme Generator"
+        },
+        {
+          "name": "LowQualitymemes",
+          "url": "https://www.lowqualitymemes.com/",
+          "description": "Low Quality / Cursed Meme Generator"
+        },
+        {
+          "name": "YouWouldntStealAWebsite",
+          "url": "https://youwouldntsteala.website/editor.html",
+          "description": "\"You Wouldn't Steal\" Meme Generator"
+        },
+        {
+          "name": "BreakYourOwnNews",
+          "url": "https://www.breakyourownnews.com/",
+          "description": "Breaking News Meme Generator"
+        },
+        {
+          "name": "AnimorphGenerator",
+          "url": "https://animorphgenerator.com/",
+          "description": "Animorph Image Generator"
+        },
+        {
+          "name": "AwesomeCars",
+          "url": "https://awesomecars.neocities.org/",
+          "description": "Drip Car Memes"
+        },
+        {
+          "name": "GIFMemes",
+          "url": "https://gifmemes.io/",
+          "description": "GIF Memes Creator"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-animationhttpswwwredditcomrfreemediaheckyeahwikivideo-toolswiki25b7animationtools",
+      "title": "アニメーション",
+      "resources": [
+        {
+          "name": "archives.design",
+          "url": "https://archives.design/",
+          "description": "Graphic Design Archive",
+          "starred": true
+        },
+        {
+          "name": "Muzli",
+          "url": "https://search.muz.li/",
+          "description": "Design Inspiration Sites",
+          "starred": true
+        },
+        {
+          "name": "⁠Cosmos",
+          "url": "https://www.cosmos.so/",
+          "description": "Design Inspiration Sites"
+        },
+        {
+          "name": "People’s Graphic Design Archive",
+          "url": "https://peoplesgdarchive.org/",
+          "description": "Graphic Design History Archive"
+        },
+        {
+          "name": "One Page Love",
+          "url": "https://onepagelove.com/",
+          "description": "Single Page Site Design Ideas"
+        },
+        {
+          "name": "SMPoster",
+          "url": "https://www.smposter.com/",
+          "description": "Poster Designs"
+        },
+        {
+          "name": "AnotherGraphic",
+          "url": "https://anothergraphic.org/",
+          "description": "Typography Designs"
+        },
+        {
+          "name": "The Boolean Game",
+          "url": "https://boolean.method.ac/",
+          "description": "Learn Boolean Operations in Vector Editors"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-design-apps",
+      "title": "デザインアプリ",
+      "resources": [
+        {
+          "name": "Figma",
+          "url": "https://www.figma.com/",
+          "description": "Design Collab App / Web",
+          "starred": true
+        },
+        {
+          "name": "Canva",
+          "url": "https://www.canva.com/",
+          "description": "Design App / Windows, Mac, Web / Invites"
+        },
+        {
+          "name": "lunacy",
+          "url": "https://icons8.com/lunacy",
+          "description": "Design App / Windows, Mac, Linux"
+        },
+        {
+          "name": "VistaCreate",
+          "url": "https://create.vista.com/",
+          "description": "Design App / Web"
+        },
+        {
+          "name": "Penpot",
+          "url": "https://penpot.app/",
+          "description": "Design App & Prototyping Platform",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "blush",
+          "url": "https://blush.design/",
+          "description": "Illustration Design / Web"
+        },
+        {
+          "name": "Pattern Ninja",
+          "url": "https://patterninja.com/",
+          "description": "Background / Pattern Design / Web"
+        },
+        {
+          "name": "Pixelied",
+          "url": "https://pixelied.com/",
+          "description": "Online Design Tool / Web"
+        },
+        {
+          "name": "⁠Antlii",
+          "url": "https://antlii.work/",
+          "description": "Online Design Generators"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-icons-avatars",
+      "title": "アイコン / アバター",
+      "resources": [
+        {
+          "name": "Alphacoders Avatars",
+          "url": "https://avatars.alphacoders.com/",
+          "description": "PFPs / Avatars",
+          "starred": true
+        },
+        {
+          "name": "Picrew",
+          "url": "https://picrew.me/en/",
+          "description": "Avatar Creator",
+          "starred": true
+        },
+        {
+          "name": "⁠Icon Gen",
+          "url": "https://icon-gen.netlify.app/",
+          "description": "Logo to Avatar / Icon Generator"
+        },
+        {
+          "name": "PixelMe",
+          "url": "https://xsgames.co/pixelme/",
+          "description": "8-bit Avatar Creators"
+        },
+        {
+          "name": "Avatar Mixer",
+          "url": "https://kenney.itch.io/avatar-mixer",
+          "description": "8-bit Avatar Creators"
+        },
+        {
+          "name": "⁠Square Face Generator",
+          "url": "https://squareface.app/",
+          "description": "Square Face Avatar Generator"
+        },
+        {
+          "name": "⁠Icon Z",
+          "url": "https://icon-z.com/",
+          "description": "Simple Face Avatar Creators"
+        },
+        {
+          "name": "Avatar Maker",
+          "url": "https://avatarmaker.com/",
+          "description": "Simple Face Avatar Creators"
+        },
+        {
+          "name": "Avataaars",
+          "url": "https://getavataaars.com/",
+          "description": "Simple Face Avatar Creators"
+        },
+        {
+          "name": "Personas",
+          "url": "https://personas.draftbit.com/",
+          "description": "Simple Face Avatar Creators"
+        },
+        {
+          "name": "MultiAvatar",
+          "url": "https://multiavatar.com/",
+          "description": "Generate Random Avatars"
+        },
+        {
+          "name": "⁠FreeLogoMaker",
+          "url": "https://myfreelogomaker.com/",
+          "description": "Logo Creators"
+        },
+        {
+          "name": "⁠BrandCrowd",
+          "url": "https://www.brandcrowd.com/",
+          "description": "Logo Creators"
+        },
+        {
+          "name": "OnlineLogoMaker",
+          "url": "https://www.onlinelogomaker.com/",
+          "description": "Logo Creators"
+        },
+        {
+          "name": "Logo Fast",
+          "url": "https://logofa.st/",
+          "description": "Simple Logo Creators Based on Premade Icons"
+        },
+        {
+          "name": "LogoFreeway",
+          "url": "https://logofreeway.com/logos.php",
+          "description": "Simple Logo Creators Based on Premade Icons"
+        },
+        {
+          "name": "LogoMaker",
+          "url": "https://www.namecheap.com/logo-maker/app/new/",
+          "description": "Generate Logos Based on Project Name & Style"
+        },
+        {
+          "name": "PFP Finder",
+          "url": "https://pfpfinder.com",
+          "description": "PFPs / Avatars"
+        },
+        {
+          "name": "Random Avatars",
+          "url": "https://randomavatar.com/",
+          "description": "PFPs / Avatars"
+        },
+        {
+          "name": "pfps.gg",
+          "url": "https://pfps.gg/",
+          "description": "Profile Picture Index"
+        },
+        {
+          "name": "Innocenzi",
+          "url": "https://avatar.innocenzi.dev/",
+          "description": "Round Avatar Creator"
+        },
+        {
+          "name": "RealFaviconGenerator",
+          "url": "https://realfavicongenerator.net/",
+          "description": "Favicon Generator"
+        },
+        {
+          "name": "Formia",
+          "url": "https://www.formia.so/",
+          "description": "2D to 3D Icon Converter"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-textures-patterns",
+      "title": "テクスチャ / パターン",
+      "resources": [
+        {
+          "name": "AmbientCG",
+          "url": "https://ambientcg.com/",
+          "description": "Textures"
+        },
+        {
+          "name": "TextureTown",
+          "url": "https://textures.neocities.org/",
+          "description": "Textures"
+        },
+        {
+          "name": "3D textures",
+          "url": "https://icons8.com/l/3d-textures/",
+          "description": "Textures"
+        },
+        {
+          "name": "Textureking",
+          "url": "https://www.textureking.com/",
+          "description": "Textures"
+        },
+        {
+          "name": "Texture Labs",
+          "url": "https://texturelabs.org/",
+          "description": "Textures"
+        },
+        {
+          "name": "Transparent Textures",
+          "url": "https://www.transparenttextures.com/",
+          "description": "Textures"
+        },
+        {
+          "name": "Texture Club",
+          "url": "https://www.sketchuptextureclub.com/",
+          "description": "Textures"
+        },
+        {
+          "name": "TexturesForFree",
+          "url": "https://texturesforfree.com/",
+          "description": "Textures"
+        },
+        {
+          "name": "texture4photoshop",
+          "url": "https://t.me/texture4photoshop",
+          "description": "Textures"
+        },
+        {
+          "name": "MatLib",
+          "url": "https://matlib.gpuopen.com/main/materials/all",
+          "description": "Textures"
+        },
+        {
+          "name": "TextureNinja",
+          "url": "https://texture.ninja/",
+          "description": "Textures"
+        },
+        {
+          "name": "cgbookcase",
+          "url": "https://www.cgbookcase.com/",
+          "description": "Textures"
+        },
+        {
+          "name": "Subtle Patterns",
+          "url": "https://www.toptal.com/designers/subtlepatterns/",
+          "description": "Patterns"
+        },
+        {
+          "name": "Background Tiles",
+          "url": "https://background-tiles.com/",
+          "description": "Patterns"
+        },
+        {
+          "name": "ArmorLab",
+          "url": "https://armory3d.org/lab/",
+          "description": "Texture Generators"
+        },
+        {
+          "name": "Pixela",
+          "url": "https://pixela.ai/",
+          "description": "Texture Generators"
+        },
+        {
+          "name": "TextureLab",
+          "url": "https://www.texturelab.io/",
+          "description": "Texture Generators"
+        },
+        {
+          "name": "TextureLab",
+          "url": "https://njbrown.itch.io/texturelab",
+          "description": "Procedural Texture Generator",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Material Maker",
+          "url": "https://rodzilla.itch.io/material-maker",
+          "description": "Procedural Texture Creator"
+        },
+        {
+          "name": "DoodDad",
+          "url": "https://doodad.dev/pattern-generator",
+          "description": "Pattern Generators"
+        },
+        {
+          "name": "Repeater",
+          "url": "https://repeater.space/",
+          "description": "Pattern Generators"
+        },
+        {
+          "name": "PatternPad",
+          "url": "https://patternpad.com/",
+          "description": "Pattern Generators"
+        },
+        {
+          "name": "patternico",
+          "url": "https://patternico.com/",
+          "description": "Pattern Generators"
+        },
+        {
+          "name": "Repeater",
+          "url": "https://www.richardwestenra.com/repeater/",
+          "description": "Pattern Generators"
+        },
+        {
+          "name": "more.graphics",
+          "url": "https://more.graphics/",
+          "description": "Pattern Generators"
+        },
+        {
+          "name": "Valentina",
+          "url": "https://gitlab.com/smart-pattern/valentina",
+          "description": "Pattern Generators"
+        },
+        {
+          "name": "Haikei",
+          "url": "https://app.haikei.app/",
+          "description": "Pattern Generators"
+        },
+        {
+          "name": "Noise & Gradient",
+          "url": "https://www.noiseandgradient.com/",
+          "description": "Background / Gradient Generators"
+        },
+        {
+          "name": "PhotoGradient",
+          "url": "https://photogradient.com/",
+          "description": "Background / Gradient Generators"
+        },
+        {
+          "name": "BGJar",
+          "url": "https://bgjar.com/",
+          "description": "Background / Gradient Generators"
+        },
+        {
+          "name": "MeshGradient",
+          "url": "https://meshgradient.in/",
+          "description": "Background / Gradient Generators"
+        },
+        {
+          "name": "BGGenerator",
+          "url": "https://bggenerator.com/",
+          "description": "Background / Gradient Generators"
+        },
+        {
+          "name": "Tabbied",
+          "url": "https://tabbied.com/",
+          "description": "Art Pattern Generators"
+        },
+        {
+          "name": "Slopes",
+          "url": "https://tinkersynth.com/slopes/",
+          "description": "Art Pattern Generators"
+        },
+        {
+          "name": "Mixer",
+          "url": "https://quixel.com/mixer",
+          "description": "3D Texture Creation Software"
+        },
+        {
+          "name": "The Textures Resource",
+          "url": "https://textures.spriters-resource.com/",
+          "description": "Game Textures"
+        },
+        {
+          "name": "Trianglify.io",
+          "url": "https://trianglify.io/",
+          "description": "Low-Poly Texture Generator"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-free-assets",
+      "title": "無料アセット",
+      "resources": [
+        {
+          "name": "Gumroad",
+          "url": "https://gumroad.com/",
+          "description": ""
+        },
+        {
+          "name": "psdkeys",
+          "url": "https://psdkeys.com/",
+          "description": ""
+        },
+        {
+          "name": "Freeject",
+          "url": "https://www.freeject.net/",
+          "description": ""
+        },
+        {
+          "name": "⁠Salvaged",
+          "url": "https://salvaged.nu/",
+          "description": ""
+        },
+        {
+          "name": "AvaxGFX",
+          "url": "https://avxgfx.com/",
+          "description": ""
+        },
+        {
+          "name": "Cg_peers Archive",
+          "url": "https://t.me/Cgpeers_archive",
+          "description": ""
+        },
+        {
+          "name": "PNGTree",
+          "url": "https://pngtree.com/",
+          "description": ""
+        },
+        {
+          "name": "TianUI",
+          "url": "https://www.titanui.com/",
+          "description": ""
+        },
+        {
+          "name": "Designer Candies",
+          "url": "https://designercandies.net/category/freebies/",
+          "description": ""
+        },
+        {
+          "name": "PSDLY",
+          "url": "https://www.psdly.to/",
+          "description": ""
+        },
+        {
+          "name": "Unblast",
+          "url": "https://unblast.com/",
+          "description": ""
+        },
+        {
+          "name": "CGArchives",
+          "url": "https://cgarchives.com/",
+          "description": ""
+        },
+        {
+          "name": "CGPerec",
+          "url": "https://t.me/cgperec",
+          "description": ""
+        },
+        {
+          "name": "SearchGFX",
+          "url": "https://searchgfx.com/",
+          "description": ""
+        },
+        {
+          "name": "Quasual",
+          "url": "https://m.vk.com/quasual",
+          "description": ""
+        },
+        {
+          "name": "designersgan9",
+          "url": "https://m.vk.com/designersgan9",
+          "description": ""
+        },
+        {
+          "name": "Free_Design_Files",
+          "url": "https://t.me/Free_Design_Files",
+          "description": ""
+        },
+        {
+          "name": "WockupWorld",
+          "url": "https://m.vk.com/mockupworld",
+          "description": ""
+        },
+        {
+          "name": "OnlyGFX",
+          "url": "https://www.onlygfx.com/",
+          "description": ""
+        },
+        {
+          "name": "The GFX",
+          "url": "https://m.vk.com/the_gfx",
+          "description": ""
+        },
+        {
+          "name": "Graphics Materials",
+          "url": "https://vk.com/topic-178186634_39330245",
+          "description": ""
+        },
+        {
+          "name": "desiignertm",
+          "url": "https://vk.com/desiignertm",
+          "description": ""
+        },
+        {
+          "name": "all_psd",
+          "url": "https://vk.com/all_psd",
+          "description": ""
+        },
+        {
+          "name": "Playersdsg",
+          "url": "https://t.me/playersdsg",
+          "description": ""
+        },
+        {
+          "name": "designbloody",
+          "url": "https://vk.com/designbloody",
+          "description": ""
+        },
+        {
+          "name": "designarchiv",
+          "url": "https://t.me/designarchiv",
+          "description": ""
+        },
+        {
+          "name": "outsideotf",
+          "url": "https://t.me/s/outsideotf",
+          "description": ""
+        },
+        {
+          "name": "DOPE Editing",
+          "url": "https://t.me/DOPE_editing",
+          "description": ""
+        },
+        {
+          "name": "desgang",
+          "url": "https://t.me/desgang",
+          "description": ""
+        },
+        {
+          "name": "grphc dsgn",
+          "url": "https://t.me/+xx1YjI6DC4RiZjJk",
+          "description": ""
+        },
+        {
+          "name": "creativemrkt",
+          "url": "https://t.me/creativemrkt",
+          "description": ""
+        },
+        {
+          "name": "freepsdvn",
+          "url": "https://freepsdvn.com/",
+          "description": ""
+        },
+        {
+          "name": "PrivateDesigner",
+          "url": "https://t.me/privatedesigner",
+          "description": ""
+        },
+        {
+          "name": "Solutioonn",
+          "url": "https://t.me/solutioonn",
+          "description": ""
+        },
+        {
+          "name": "ae-project",
+          "url": "https://ae-project.su/",
+          "description": ""
+        },
+        {
+          "name": "godownloads",
+          "url": "https://www.godownloads.org/",
+          "description": ""
+        },
+        {
+          "name": "PanosFX",
+          "url": "https://www.panosfx.com/",
+          "description": "Photoshop Actions"
+        },
+        {
+          "name": "Fix the Photo",
+          "url": "https://fixthephoto.com/free-photoshop-actions",
+          "description": "Photoshop Actions"
+        },
+        {
+          "name": "2ndBrain",
+          "url": "https://rentry.co/2ndBrain",
+          "description": "Image Download Site Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "designer",
+          "url": "https://start.me/p/jj0JAp/designer",
+          "description": "Image Download Site Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "gallery-dl",
+          "url": "https://github.com/mikf/gallery-dl",
+          "description": "Image Download Tools",
+          "starred": true
+        },
+        {
+          "name": "RipMe",
+          "url": "https://github.com/RipMeApp/ripme",
+          "description": "Image Download Tools"
+        },
+        {
+          "name": "WFDownloader",
+          "url": "https://www.wfdownloader.xyz/",
+          "description": "Image Download Tools"
+        },
+        {
+          "name": "ImgDownloader",
+          "url": "https://imgdownloader.com/",
+          "description": "Image Download Tools"
+        },
+        {
+          "name": "SCrawler",
+          "url": "https://github.com/AAndyProgram/SCrawler",
+          "description": "Image Download Tools"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/uFNUXvFFmg",
+          "description": "Image Download Tools"
+        },
+        {
+          "name": "Image Extractor",
+          "url": "https://extract.pics/",
+          "description": "Image Download Tools"
+        },
+        {
+          "name": "same.energy",
+          "url": "https://same.energy/",
+          "description": "Visual Search Engine"
+        },
+        {
+          "name": "Dezoomify",
+          "url": "https://dezoomify.ophir.dev/",
+          "description": "Download Zoomable Images"
+        },
+        {
+          "name": "OpenMoji",
+          "url": "https://openmoji.org/",
+          "description": "Emojis"
+        },
+        {
+          "name": "JoyPixels",
+          "url": "https://www.joypixels.com/",
+          "description": "Emojis"
+        },
+        {
+          "name": "PixelJoint",
+          "url": "https://pixeljoint.com/",
+          "description": "Download / Share Pixel Art"
+        },
+        {
+          "name": "Lospec",
+          "url": "https://lospec.com/",
+          "description": "Download / Share Pixel Art"
+        },
+        {
+          "name": "rsrcs",
+          "url": "https://rentry.co/rsrcs",
+          "description": "Download / Share Pixel Art"
+        },
+        {
+          "name": "shot.cafe",
+          "url": "https://shot.cafe/",
+          "description": "Media Screenshots"
+        },
+        {
+          "name": "FanCaps",
+          "url": "https://fancaps.net/",
+          "description": "Media Screenshots"
+        },
+        {
+          "name": "Film Grab",
+          "url": "https://film-grab.com/",
+          "description": "Media Screenshots"
+        },
+        {
+          "name": "Footyrenders",
+          "url": "https://www.footyrenders.com/",
+          "description": "Football Related Images"
+        },
+        {
+          "name": "PSDGraphics",
+          "url": "https://www.psdgraphics.com/",
+          "description": "PSD Files"
+        },
+        {
+          "name": "Placeit",
+          "url": "https://placeit.net/",
+          "description": "Image Templates"
+        },
+        {
+          "name": "Worldvectorlogo",
+          "url": "https://worldvectorlogo.com/",
+          "description": "Logo Search / Designs"
+        },
+        {
+          "name": "Brands of the World",
+          "url": "https://www.brandsoftheworld.com/",
+          "description": "Logo Search / Designs"
+        },
+        {
+          "name": "seeklogo",
+          "url": "https://seeklogo.com/",
+          "description": "Logo Search / Designs"
+        },
+        {
+          "name": "SuperTinyIcons",
+          "url": "https://edent.github.io/SuperTinyIcons/",
+          "description": "Logo Search / Designs"
+        },
+        {
+          "name": "MariaLetta",
+          "url": "https://github.com/MariaLetta/mega-doodles-pack",
+          "description": "Free Doodles"
+        },
+        {
+          "name": "Block Posters",
+          "url": "https://www.blockposters.com/",
+          "description": "Create Printable Posters"
+        },
+        {
+          "name": "PosterRazor",
+          "url": "https://posterazor.sourceforge.io/",
+          "description": "Create Printable Posters"
+        },
+        {
+          "name": "Rasterbator",
+          "url": "https://rasterbator.net/",
+          "description": "Create Printable Posters"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-image-search-engines",
+      "title": "画像 検索 エンジン",
+      "resources": [
+        {
+          "name": "Search by Image",
+          "url": "https://github.com/dessant/search-by-image",
+          "description": "Browser Extension",
+          "starred": true
+        },
+        {
+          "name": "Yandex Images",
+          "url": "https://yandex.com/images/",
+          "description": "Image Search",
+          "starred": true
+        },
+        {
+          "name": "Mavink",
+          "url": "https://mavink.com/",
+          "description": "Image Search"
+        },
+        {
+          "name": "SauceNao",
+          "url": "https://saucenao.com/",
+          "description": "Reverse Image Search / Extension",
+          "starred": true
+        },
+        {
+          "name": "SmartImage",
+          "url": "https://github.com/Decimation/SmartImage",
+          "description": "Reverse Image Search App",
+          "starred": true
+        },
+        {
+          "name": "Google Lens",
+          "url": "https://www.google.com/?olud",
+          "description": "Reverse Image Search",
+          "starred": true
+        },
+        {
+          "name": "TinEye",
+          "url": "https://tineye.com/",
+          "description": "Reverse Image Search / Extension",
+          "starred": true
+        },
+        {
+          "name": "⁠Bing Visual Search",
+          "url": "https://bing.com/camera",
+          "description": "Reverse Image Search"
+        },
+        {
+          "name": "infini.wtf",
+          "url": "https://infini.wtf/",
+          "description": "Reddit Image Search"
+        },
+        {
+          "name": "IQDB",
+          "url": "https://iqdb.org/",
+          "description": "Reverse Image Search"
+        },
+        {
+          "name": "CopySeeker",
+          "url": "https://copyseeker.net/",
+          "description": "Reverse Image Search"
+        },
+        {
+          "name": "MaxURL",
+          "url": "https://qsniyg.github.io/maxurl/",
+          "description": "Larger Image Search",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "VISE",
+          "url": "https://www.robots.ox.ac.uk/~vgg/software/vise/",
+          "description": "Image Search with Search Queries"
+        },
+        {
+          "name": "Have I Been Trained?",
+          "url": "https://haveibeentrained.com/",
+          "description": "AI Image Search"
+        },
+        {
+          "name": "RootAbout",
+          "url": "https://rootabout.com/",
+          "description": "Archive / OpenLibrary Reverse Image Search"
+        },
+        {
+          "name": "Multicolr",
+          "url": "https://labs.tineye.com/multicolr/",
+          "description": "Color-Based Image Search"
+        },
+        {
+          "name": "trace.moe",
+          "url": "https://trace.moe/",
+          "description": "Anime Reverse Image Search"
+        },
+        {
+          "name": "Saucekudasai",
+          "url": "https://saucekudasai.com/",
+          "description": "Anime Reverse Image Search"
+        },
+        {
+          "name": "Image_Max_URL",
+          "url": "https://openuserjs.org/scripts/qsniyg/Image_Max_URL",
+          "description": "Browser Userscript"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-stock-images",
+      "title": "Stock 画像",
+      "resources": [
+        {
+          "name": "Awesome Stock Resources",
+          "url": "https://github.com/neutraltone/awesome-stock-resources#photography",
+          "description": "Stock Photo Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "GetPaidStock",
+          "url": "https://getpaidstock.com/",
+          "description": "Paid Stock Photo Downloaders",
+          "starred": true
+        },
+        {
+          "name": "DownPic",
+          "url": "https://downpic.cc",
+          "description": "Paid Stock Photo Downloaders"
+        },
+        {
+          "name": "Downloader.la",
+          "url": "https://downloader.la/",
+          "description": "Paid Stock Photo Downloaders"
+        },
+        {
+          "name": "EveryPixel",
+          "url": "https://www.everypixel.com/",
+          "description": "Stock Photo Search Engines",
+          "starred": true
+        },
+        {
+          "name": "O-DAN",
+          "url": "https://o-dan.net/en/",
+          "description": "Stock Photo Search Engines"
+        },
+        {
+          "name": "LibreStock",
+          "url": "https://librestock.com/",
+          "description": "Stock Photo Search Engines"
+        },
+        {
+          "name": "Unsplash",
+          "url": "https://unsplash.com/",
+          "description": "Stock Photos / Royalty-Free"
+        },
+        {
+          "name": "Pixabay",
+          "url": "https://pixabay.com/",
+          "description": "Stock Photos"
+        },
+        {
+          "name": "Adobe Stock",
+          "url": "https://stock.adobe.com/free",
+          "description": "Stock Photos / Royalty-Free"
+        },
+        {
+          "name": "Pixnio",
+          "url": "https://pixnio.com/",
+          "description": "Stock Photos / Royalty-Free"
+        },
+        {
+          "name": "Pikwizard",
+          "url": "https://pikwizard.com/",
+          "description": "Stock Photos / Royalty-Free"
+        },
+        {
+          "name": "Pexels",
+          "url": "https://www.pexels.com/",
+          "description": "Stock Photos / Royalty-Free"
+        },
+        {
+          "name": "Pixelmob",
+          "url": "https://app.pixelmob.co/",
+          "description": "Stock Photos / Royalty-Free"
+        },
+        {
+          "name": "diverseui",
+          "url": "https://diverseui.com/",
+          "description": "Human Face Photos / Royalty-Free"
+        },
+        {
+          "name": "themeisle",
+          "url": "https://mystock.themeisle.com/",
+          "description": "Stock Photos / CC0"
+        },
+        {
+          "name": "PxHere",
+          "url": "https://pxhere.com/",
+          "description": "Stock Photos / CC0"
+        },
+        {
+          "name": "focastock",
+          "url": "https://focastock.com/",
+          "description": "Stock Photos / CC0"
+        },
+        {
+          "name": "Foodiesfeed",
+          "url": "https://www.foodiesfeed.com/",
+          "description": "Food Photos / CC0"
+        },
+        {
+          "name": "freenaturestock",
+          "url": "https://freenaturestock.com/",
+          "description": "Nature Photos / CC0"
+        },
+        {
+          "name": "Burst",
+          "url": "https://www.shopify.com/stock-photos",
+          "description": "Stock Photos"
+        },
+        {
+          "name": "Hippopx",
+          "url": "https://www.hippopx.com/",
+          "description": "Stock Photos"
+        },
+        {
+          "name": "BarnImages",
+          "url": "https://barnimages.com/",
+          "description": "Stock Photos"
+        },
+        {
+          "name": "Lummi",
+          "url": "https://www.lummi.ai/",
+          "description": "AI Generated Stock Photos"
+        },
+        {
+          "name": "Smithsonian Open Access",
+          "url": "https://www.si.edu/OpenAccess",
+          "description": "Smithsonian High-Quality Photos"
+        },
+        {
+          "name": "desirefx",
+          "url": "https://desirefx.me/category/stock_images/",
+          "description": "Stock Photo Overlays"
+        },
+        {
+          "name": "creativity103",
+          "url": "https://creativity103.com/",
+          "description": "Abstract Background Photos"
+        },
+        {
+          "name": "Warren Photographic",
+          "url": "https://www.warrenphotographic.co.uk/index.php",
+          "description": "Animal Photos"
+        },
+        {
+          "name": "PhyloPic",
+          "url": "https://www.phylopic.org/",
+          "description": "Animal Silhouettes"
+        },
+        {
+          "name": "iwaria",
+          "url": "https://iwaria.com/",
+          "description": "African Photos"
+        },
+        {
+          "name": "twnsnd",
+          "url": "https://nos.twnsnd.co/",
+          "description": "Vintage Photos / Public Domain"
+        },
+        {
+          "name": "PNGIMG",
+          "url": "https://pngimg.com/",
+          "description": "PNG Photos / Noncommercial License"
+        },
+        {
+          "name": "stickpng",
+          "url": "https://www.stickpng.com/",
+          "description": "PNG Photos / Noncommercial License"
+        },
+        {
+          "name": "gfxmountain",
+          "url": "https://gfxmountain.com/stock-photos/",
+          "description": "Stock Photo Collections"
+        },
+        {
+          "name": "freepikuz_pro",
+          "url": "https://t.me/freepikuz_pro",
+          "description": "FreePik Downloader"
+        },
+        {
+          "name": "Flickr Commons",
+          "url": "https://www.flickr.com/commons",
+          "description": "Public Photo Archives / Downloader"
+        },
+        {
+          "name": "Shutterstock Premium",
+          "url": "https://t.me/shutterstockpremium",
+          "description": "Shutterstock Telegram Downloaders"
+        },
+        {
+          "name": "freestockphotos",
+          "url": "https://t.me/freestockphotos",
+          "description": "Shutterstock Telegram Downloaders"
+        },
+        {
+          "name": "Shutter",
+          "url": "https://t.me/Shutter",
+          "description": "Shutterstock Telegram Downloaders"
+        },
+        {
+          "name": "Nohat",
+          "url": "https://nohat.cc/",
+          "description": "Stock Photos / Vectors"
+        },
+        {
+          "name": "FreeImages",
+          "url": "https://www.freeimages.com/",
+          "description": "Stock Photos / Vectors"
+        },
+        {
+          "name": "cgispread",
+          "url": "https://cgispread.com/",
+          "description": "Stock Photos / Vectors"
+        },
+        {
+          "name": "Vecteezy",
+          "url": "https://www.vecteezy.com/",
+          "description": "Stock Photos / Vectors"
+        },
+        {
+          "name": "FreeDesignFile",
+          "url": "https://freedesignfile.com/",
+          "description": "Stock Photos / Vectors"
+        },
+        {
+          "name": "publicdomainvectors",
+          "url": "https://publicdomainvectors.org/",
+          "description": "Vector Images"
+        },
+        {
+          "name": "Free Vector",
+          "url": "https://www.freevector.com/",
+          "description": "Vector Images"
+        },
+        {
+          "name": "VectorJunky",
+          "url": "https://www.vectorjunky.com/",
+          "description": "Vector Images"
+        },
+        {
+          "name": "freevectors",
+          "url": "https://www.freevectors.net/",
+          "description": "Vector Images"
+        },
+        {
+          "name": "vector4free",
+          "url": "https://www.vector4free.com/",
+          "description": "Vector Images"
+        },
+        {
+          "name": "VectorPortal",
+          "url": "https://www.vectorportal.com/",
+          "description": "Vectores Images / Creative Common Attribution"
+        },
+        {
+          "name": "VectorStock",
+          "url": "https://www.vectorstock.com/free-vectors",
+          "description": "Vectores Images / Creative Common Attribution"
+        },
+        {
+          "name": "123freevectors",
+          "url": "https://www.123freevectors.com/",
+          "description": "Background Vectors"
+        },
+        {
+          "name": "mockups-design",
+          "url": "https://mockups-design.com/",
+          "description": "Product Mockups"
+        },
+        {
+          "name": "zippypixels",
+          "url": "https://zippypixels.com/",
+          "description": "Product Mockups"
+        },
+        {
+          "name": "Mockups",
+          "url": "https://mockups.pixeltrue.com/",
+          "description": "Product Mockups"
+        }
+      ],
+      "note": "Royalty-free implies images free for personal or commercial use with some usage restrictions (see site's TOS). CC0 stands for Creative Commons Zero and means images are public domain. Sites not tagged have licensing that varies."
+    },
+    {
+      "id": "image-tools-art-illustrations",
+      "title": "アート / イラスト",
+      "resources": [
+        {
+          "name": "Kemono",
+          "url": "https://kemono.cr/posts?tag=",
+          "description": "Patreon Content / Some NSFW / Patreon Redirect / Use Adblock",
+          "starred": true
+        },
+        {
+          "name": "ArtStation",
+          "url": "https://www.artstation.com/",
+          "description": "User-Made Art / Fanart / Downloader",
+          "starred": true
+        },
+        {
+          "name": "Pixiv",
+          "url": "https://www.pixiv.net/",
+          "description": "Japanese Fanart",
+          "starred": true
+        },
+        {
+          "name": "Danbooru",
+          "url": "https://safebooru.donmai.us/",
+          "description": "Anime-Style Image Booru / Downloader",
+          "starred": true
+        },
+        {
+          "name": "Sankaku Complex",
+          "url": "https://chan.sankakucomplex.com/",
+          "description": "Anime-Style Image Booru / Downloader"
+        },
+        {
+          "name": "yande.re",
+          "url": "https://yande.re/",
+          "description": "Anime-Style Image Booru / Downloader"
+        },
+        {
+          "name": "hydrus",
+          "url": "https://hydrusnetwork.github.io/hydrus/",
+          "description": "Booru-Style Media Tagger",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Buzzly",
+          "url": "https://buzzly.art/",
+          "description": "User-Made Art / Fanart"
+        },
+        {
+          "name": "Artfol",
+          "url": "https://www.artfol.app/",
+          "description": "User-Made Art / Fanart"
+        },
+        {
+          "name": "Cara",
+          "url": "https://cara.app/",
+          "description": "User-Made Art / Fanart"
+        },
+        {
+          "name": "DeviantArt",
+          "url": "https://www.deviantart.com/",
+          "description": "User-Made Art / Fanart"
+        },
+        {
+          "name": "InkBlot",
+          "url": "https://inkblot.art/",
+          "description": "User-Made Art / Fanart / Requires Sign-Up"
+        },
+        {
+          "name": "⁠Zerochan",
+          "url": "https://www.zerochan.net/",
+          "description": "Japanese Fanart",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠PidgiWiki",
+          "url": "https://www.pidgi.net/",
+          "description": "Video Game PNGs",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Safebooru",
+          "url": "https://safebooru.org/",
+          "description": "Image Boorus"
+        },
+        {
+          "name": "TBIB",
+          "url": "https://tbib.org/",
+          "description": "Image Boorus"
+        },
+        {
+          "name": "icons8",
+          "url": "https://icons8.com/illustrations",
+          "description": ""
+        },
+        {
+          "name": "LostGeometry",
+          "url": "https://lostgeometry.craftwork.design/",
+          "description": ""
+        },
+        {
+          "name": "3D Illustrations",
+          "url": "https://3d.khagwal.com/",
+          "description": ""
+        },
+        {
+          "name": "StorySet",
+          "url": "https://storyset.com/",
+          "description": "Customizable Illustrations"
+        },
+        {
+          "name": "unDraw",
+          "url": "https://undraw.co/illustrations",
+          "description": "Customizable Illustrations"
+        },
+        {
+          "name": "blush",
+          "url": "https://blush.design/",
+          "description": "Customizable Illustrations"
+        },
+        {
+          "name": "Humaaans",
+          "url": "https://www.humaaans.com/",
+          "description": "Customizable Illustrations"
+        },
+        {
+          "name": "Pastel",
+          "url": "https://usepastel.com/marker-illustrations",
+          "description": "Marker Illustrations"
+        },
+        {
+          "name": "Fresh Folk",
+          "url": "https://fresh-folk.com/",
+          "description": "Illustrations of People"
+        },
+        {
+          "name": "lukaszadam",
+          "url": "https://lukaszadam.com/illustrations",
+          "description": "Illustrations of People"
+        },
+        {
+          "name": "free-gophers-pack",
+          "url": "https://github.com/MariaLetta/free-gophers-pack",
+          "description": "Gophers Illustrations"
+        },
+        {
+          "name": "reshot",
+          "url": "https://www.reshot.com/",
+          "description": "Misc Illustrations"
+        },
+        {
+          "name": "freeillustrations",
+          "url": "https://freeillustrations.xyz/",
+          "description": "Misc Illustrations"
+        },
+        {
+          "name": "DrawKit",
+          "url": "https://www.drawkit.com/",
+          "description": "Misc Illustrations"
+        },
+        {
+          "name": "NiceIllustrations",
+          "url": "https://niceillustrations.com/free-illustrations/",
+          "description": "Misc Illustrations"
+        },
+        {
+          "name": "manypixels",
+          "url": "https://www.manypixels.co/gallery",
+          "description": "Misc Illustrations"
+        },
+        {
+          "name": "OldBookIllustrations",
+          "url": "https://www.oldbookillustrations.com/",
+          "description": "Illustrations from Old Books"
+        },
+        {
+          "name": "Buhitter",
+          "url": "https://buhitter.com/",
+          "description": "X.com Illustration Search"
+        },
+        {
+          "name": "imgbrd-grabber",
+          "url": "https://www.bionus.org/imgbrd-grabber/",
+          "description": "Booru Image Downloader"
+        },
+        {
+          "name": "Artbreeder",
+          "url": "https://artbreeder.com/",
+          "description": "Image Discovery / Combining"
+        },
+        {
+          "name": "TEv2",
+          "url": "http://te2.tewi.us/",
+          "description": "Share Your Drawings"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-media-covers-posters",
+      "title": "メディア Covers / Posters",
+      "resources": [
+        {
+          "name": "Ben Dodson",
+          "url": "https://bendodson.com/projects/itunes-artwork-finder/",
+          "description": "Movies / TV / Music / Comic / Book / Anime / Manga",
+          "starred": true,
+          "mirrors": [
+            "https://bendodson.com/projects/apple-tv-movies-artwork-finder/"
+          ]
+        },
+        {
+          "name": "BigBoxCollection",
+          "url": "https://bigboxcollection.com/",
+          "description": "3D Game Boxes"
+        },
+        {
+          "name": "The Poster DB",
+          "url": "https://theposterdb.com/",
+          "description": "Movies / TV"
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://www.reddit.com/r/ThePosterDB",
+          "description": "Movies / TV"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/NARZqQX",
+          "description": "Movies / TV"
+        },
+        {
+          "name": "DVD Covers",
+          "url": "https://www.dvd-covers.org/",
+          "description": "Movies / TV"
+        },
+        {
+          "name": "MediUX",
+          "url": "https://mediux.pro/",
+          "description": "Movies / TV"
+        },
+        {
+          "name": "Movie Posters Gallery",
+          "url": "https://www.moviepostersgallery.com/",
+          "description": "Movies"
+        },
+        {
+          "name": "Film On Paper",
+          "url": "https://www.filmonpaper.com/posters/",
+          "description": "Movies"
+        },
+        {
+          "name": "The Poster Collector",
+          "url": "https://postercollector.co.uk/",
+          "description": "Movies"
+        },
+        {
+          "name": "IMP Awards",
+          "url": "http://www.impawards.com/",
+          "description": "Movies"
+        },
+        {
+          "name": "GameTDB",
+          "url": "https://www.gametdb.com/",
+          "description": "Games"
+        },
+        {
+          "name": "The Cover Project",
+          "url": "https://www.thecoverproject.net/",
+          "description": "Games"
+        },
+        {
+          "name": "LibRetro Thumbnails",
+          "url": "https://thumbnails.libretro.com/",
+          "description": "Games"
+        },
+        {
+          "name": "Gaming Alexandria",
+          "url": "https://www.gamingalexandria.com/wp/#",
+          "description": "Games"
+        },
+        {
+          "name": "Cover Century",
+          "url": "https://www.covercentury.com/",
+          "description": "Movies / Games"
+        },
+        {
+          "name": "FanArt",
+          "url": "https://fanart.tv/",
+          "description": "Poster Fanart",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "r/MoviePosterPorn",
+          "url": "https://www.reddit.com/r/MoviePosterPorn/",
+          "description": "Movie Poster Subreddit"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-download-extensions",
+      "title": "Download 拡張機能",
+      "resources": [
+        {
+          "name": "Download all Images",
+          "url": "https://webextension.org/listing/save-images.html",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/belaviyo/save-images/",
+          "description": ""
+        },
+        {
+          "name": "Cute Save Button",
+          "url": "https://github.com/Dezaimasu/cute-button",
+          "description": ""
+        },
+        {
+          "name": "Changing the Save Icon",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/cute-save-button-icon.md",
+          "description": ""
+        },
+        {
+          "name": "svgexport",
+          "url": "https://svgexport.io/",
+          "description": ""
+        },
+        {
+          "name": "SVG Gobbler",
+          "url": "https://github.com/rossmoody/svg-gobbler",
+          "description": ""
+        },
+        {
+          "name": "Image Picka",
+          "url": "https://github.com/eight04/image-picka",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "image-tools-wallpapershttpswwwredditcomrfreemediaheckyeahwikisystem-toolswiki25b7wallpapers",
+      "title": "壁紙",
+      "resources": [
+        {
+          "name": "Thingiverse",
+          "url": "https://www.thingiverse.com/",
+          "description": "Share / Download 3D Models",
+          "starred": true
+        },
+        {
+          "name": "Printables",
+          "url": "https://www.printables.com/",
+          "description": "Find Practical 3D Models Ready for Printing",
+          "starred": true
+        },
+        {
+          "name": "Clara.io",
+          "url": "https://clara.io/library",
+          "description": "Misc 3D Models"
+        },
+        {
+          "name": "PolyHaven",
+          "url": "https://polyhaven.com/",
+          "description": "Misc 3D Models"
+        },
+        {
+          "name": "CadNav",
+          "url": "https://www.cadnav.com/",
+          "description": "Misc 3D Models"
+        },
+        {
+          "name": "Open3dModel",
+          "url": "https://open3dmodel.com/",
+          "description": "Misc 3D Models"
+        },
+        {
+          "name": "Archibase",
+          "url": "https://archibase.co/",
+          "description": "Misc 3D Models"
+        },
+        {
+          "name": "Sketchfab",
+          "url": "https://sketchfab.com/",
+          "description": "Misc 3D Models / Requires Sign-Up"
+        },
+        {
+          "name": "Ripper",
+          "url": "https://github.com/gamedev44/Fabulous-Ripper",
+          "description": "Misc 3D Models / Requires Sign-Up"
+        },
+        {
+          "name": "⁠Tripo Studio",
+          "url": "https://studio.tripo3d.ai/",
+          "description": "Misc 3D Models / Requires Sign-Up"
+        },
+        {
+          "name": "3DArchive",
+          "url": "https://t.me/ArchiveStl",
+          "description": "Misc 3D Models / Requires Sign-Up"
+        },
+        {
+          "name": "cgtrader",
+          "url": "https://www.cgtrader.com/free-3d-models",
+          "description": "Misc 3D Models / Requires Sign-Up"
+        },
+        {
+          "name": "3dsky",
+          "url": "https://3dsky.org/",
+          "description": "Misc 3D Models / Requires Sign-Up"
+        },
+        {
+          "name": "Cults",
+          "url": "https://cults3d.com/",
+          "description": "Printable 3D Models / Requires Sign-Up"
+        },
+        {
+          "name": "Thangs",
+          "url": "https://thangs.com/",
+          "description": "Printable 3D Models / Requires Sign-Up"
+        },
+        {
+          "name": "MakerWorld",
+          "url": "https://makerworld.com/",
+          "description": "Printable 3D Models / Requires Sign-Up"
+        },
+        {
+          "name": "Pinshape",
+          "url": "https://pinshape.com/",
+          "description": "Printable 3D Models / Requires Sign-Up"
+        },
+        {
+          "name": "STLFinder",
+          "url": "https://www.stlfinder.com/",
+          "description": "Multi-Site Search"
+        },
+        {
+          "name": "3D Warehouse",
+          "url": "https://3dwarehouse.sketchup.com/",
+          "description": "3D Models Compatible with SketchUp / Requires Sign-Up"
+        },
+        {
+          "name": "Pack 3D Models",
+          "url": "https://p3dm.ru/",
+          "description": "Vehicle / Character 3D Models"
+        },
+        {
+          "name": "Figurosity",
+          "url": "https://figurosity.com/",
+          "description": "Human 3D Models"
+        },
+        {
+          "name": "Handz",
+          "url": "https://www.handz.design/",
+          "description": "3D Hand Models"
+        },
+        {
+          "name": "Generated Photos",
+          "url": "https://generated.photos/",
+          "description": "AI Generated Model Photos"
+        },
+        {
+          "name": "ripper.store",
+          "url": "https://forum.ripper.store/",
+          "description": "3D Avatar Assets"
+        },
+        {
+          "name": "Archive3D",
+          "url": "https://free3d.io/",
+          "description": "Furniture / Accessories / Vehicle 3D Models"
+        },
+        {
+          "name": "poly.pizza",
+          "url": "https://poly.pizza/",
+          "description": "Low Poly 3D Models"
+        },
+        {
+          "name": "RIGModels",
+          "url": "https://rigmodels.com/",
+          "description": "Rig / Animate 3D Models"
+        },
+        {
+          "name": "NASA 3D Resources",
+          "url": "https://nasa3d.arc.nasa.gov/models/printable",
+          "description": "NASA 3D Models"
+        },
+        {
+          "name": "3D Find It",
+          "url": "https://www.3dfindit.com/en/",
+          "description": "Industrial / Engineering 3D Models"
+        },
+        {
+          "name": "thebasemesh",
+          "url": "https://www.thebasemesh.com/",
+          "description": "Mesh 3D Models"
+        },
+        {
+          "name": "BlenderKit",
+          "url": "https://www.blenderkit.com/",
+          "description": "3D Model Library Integrated into Blender"
+        },
+        {
+          "name": "⁠Gridfinity",
+          "url": "https://gridfinity.xyz/",
+          "description": "3D Storage Systems"
+        },
+        {
+          "name": "CosplayStaticFigure",
+          "url": "https://t.me/CosplayStaticFigure",
+          "description": "Cosplay / Figurine 3D Models"
+        },
+        {
+          "name": "3DBrute",
+          "url": "https://3dbrute.com/",
+          "description": "3D Furniture Models"
+        },
+        {
+          "name": "3DZip",
+          "url": "https://3dzip.org/",
+          "description": "3D Furniture Models"
+        },
+        {
+          "name": "DesignConnected",
+          "url": "https://www.designconnected.com/",
+          "description": "3D Furniture Models"
+        },
+        {
+          "name": "Vertex",
+          "url": "https://vertex.im/",
+          "description": "3D Icons"
+        },
+        {
+          "name": "Ameede",
+          "url": "https://www.ameede.com/",
+          "description": "CNC / Laser Design Vectors"
+        },
+        {
+          "name": "Skybox",
+          "url": "https://skybox.blockadelabs.com/",
+          "description": "AI Generated 3D Environments"
+        },
+        {
+          "name": "PoseManiacs",
+          "url": "https://www.posemaniacs.com/",
+          "description": "Pose References"
+        },
+        {
+          "name": "Anatomy Doc",
+          "url": "https://photos.google.com/share/AF1QipMbaSTp0BlK1kBCKVvfZzyDhcgCZQuaDBbp8v8Lj6hxnBaNh7YWoKwCPCYr-10--A?pli=1&key=cU5OaV9TVWhoMWlVZERnaEc2YVFKQTJHbnVDeWR3",
+          "description": "Pose References"
+        },
+        {
+          "name": "Adorkastock",
+          "url": "https://www.adorkastock.com/",
+          "description": "Pose References"
+        },
+        {
+          "name": "Anatomy360",
+          "url": "https://anatomy360.info/anatomy-scan-reference-dump/",
+          "description": "Pose References"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-3d-modeling-apps",
+      "title": "3Dモデリングアプリ",
+      "resources": [
+        {
+          "name": "Blender",
+          "url": "https://www.blender.org/",
+          "description": "FOSS 3D Modeling App",
+          "starred": true
+        },
+        {
+          "name": "MCprep",
+          "url": "https://theduckcow.com/dev/blender/mcprep/",
+          "description": "All-in-one Minecraft Blender Addon",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Shap-e",
+          "url": "https://github.com/openai/shap-e",
+          "description": "Generate 3D Objects Based on Text / Image Prompts",
+          "starred": true
+        },
+        {
+          "name": "Goo Engine",
+          "url": "https://www.dillongoostudios.com/gooengine/",
+          "description": "3D Anime Blender Mod"
+        },
+        {
+          "name": "Meshy.ai",
+          "url": "https://www.meshy.ai/",
+          "description": "AI 3D Model Generators"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/KgD5yVM9Y4",
+          "description": "AI 3D Model Generators"
+        },
+        {
+          "name": "⁠Tripo Studio",
+          "url": "https://studio.tripo3d.ai/",
+          "description": "AI 3D Model Generators"
+        },
+        {
+          "name": "TRELLIS",
+          "url": "https://trellis3d.github.io/",
+          "description": "AI 3D Model Generators"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/microsoft/TRELLIS",
+          "description": "AI 3D Model Generators"
+        },
+        {
+          "name": "HuggingFace",
+          "url": "https://huggingface.co/spaces/JeffreyXiang/TRELLIS",
+          "description": "AI 3D Model Generators"
+        },
+        {
+          "name": "VFXmed",
+          "url": "https://www.vfxmed.com/",
+          "description": "Blender Addons"
+        },
+        {
+          "name": "Wings 3D",
+          "url": "https://www.wings3d.com/",
+          "description": "Cross-Platform 3D Modeling App"
+        },
+        {
+          "name": "JustSketchMe",
+          "url": "https://justsketch.me/",
+          "description": "Cross-Platform 3D Pose Reference Tool"
+        },
+        {
+          "name": "MakeHuman",
+          "url": "https://static.makehumancommunity.org/",
+          "description": "3D Humanoid Modeler"
+        },
+        {
+          "name": "PoseMy.art",
+          "url": "https://app.posemy.art/",
+          "description": "Posing Tools"
+        },
+        {
+          "name": "SetPose",
+          "url": "https://setpose.com/",
+          "description": "Posing Tools"
+        },
+        {
+          "name": "DesignDoll",
+          "url": "https://terawell.net/en/index.php",
+          "description": "Posing Tools"
+        },
+        {
+          "name": "Magic Poser",
+          "url": "https://magicposer.com/",
+          "description": "Posing Tools"
+        },
+        {
+          "name": "Quickposes",
+          "url": "https://quickposes.com/en",
+          "description": "Posing Tools"
+        },
+        {
+          "name": "JustSketchMe",
+          "url": "https://app.justsketch.me/",
+          "description": "Posing Tools"
+        },
+        {
+          "name": "Vectary",
+          "url": "https://www.vectary.com/",
+          "description": "Online 3D Modeling Tools"
+        },
+        {
+          "name": "Womp",
+          "url": "https://beta.womp.com/",
+          "description": "Online 3D Modeling Tools"
+        },
+        {
+          "name": "Bloom3D",
+          "url": "https://bloom3d.com/",
+          "description": "Online 3D Modeling Tools"
+        },
+        {
+          "name": "Zdog",
+          "url": "https://zzz.dog/",
+          "description": "Online 3D Modeling Tools"
+        },
+        {
+          "name": "FaceMaker",
+          "url": "http://facemaker.uvrg.org/",
+          "description": "3D Face / Avatar Generator"
+        },
+        {
+          "name": "Recursivity",
+          "url": "https://gregtatum.com/poems/recursive/5/",
+          "description": "3D Tree Creator"
+        },
+        {
+          "name": "ModelViewer",
+          "url": "https://modelviewer.dev/",
+          "description": "3D Model Viewers"
+        },
+        {
+          "name": "3DViewer",
+          "url": "https://3dviewer.net/",
+          "description": "3D Model Viewers"
+        },
+        {
+          "name": "F3D",
+          "url": "https://f3d.app/",
+          "description": "3D Model Viewers"
+        },
+        {
+          "name": "Armorpaint",
+          "url": "https://armorpaint.org/",
+          "description": "3D Painting"
+        },
+        {
+          "name": "SculptGL",
+          "url": "https://stephaneginier.com/sculptgl/",
+          "description": "3D Sculpting"
+        },
+        {
+          "name": "MagicaVoxel",
+          "url": "https://ephtracy.github.io/",
+          "description": "Voxel Art Editor / Interactive Path Tracing Renderer"
+        },
+        {
+          "name": "Goxel",
+          "url": "https://goxel.xyz/",
+          "description": "Voxel Art Editor / Interactive Path Tracing Renderer"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-3d-modeling-tools",
+      "title": "3D Modeling ツール",
+      "resources": [
+        {
+          "name": "Efecto",
+          "url": "https://efecto.app/",
+          "description": "3D Model Visual Effects",
+          "starred": true
+        },
+        {
+          "name": "Embossify",
+          "url": "https://www.embossify.com/",
+          "description": "Image to 3D Model Converters"
+        },
+        {
+          "name": "Tripo3D",
+          "url": "https://www.tripo3d.ai/app/home",
+          "description": "Image to 3D Model Converters"
+        },
+        {
+          "name": "3D Transformer",
+          "url": "https://www.3dtransformer.com/",
+          "description": "Rotate 3D Images"
+        },
+        {
+          "name": "3DConvert",
+          "url": "https://3d-convert.com/en/",
+          "description": "Online 3D Image Converter"
+        },
+        {
+          "name": "PaintUp",
+          "url": "http://technohippy.github.io/teddyjs/",
+          "description": "Make 2D Art into 3D"
+        },
+        {
+          "name": "⁠VGGT",
+          "url": "https://huggingface.co/spaces/facebook/vggt",
+          "description": "Make 2D Art into 3D"
+        },
+        {
+          "name": "Keygen",
+          "url": "https://keygen.co/",
+          "description": "3D Key Model Generator"
+        },
+        {
+          "name": "AliceVision",
+          "url": "https://alicevision.org/",
+          "description": "3D Reconstruction / Camera Tracking"
+        },
+        {
+          "name": "Perspective Grid",
+          "url": "https://www.reubenlara.com/perspectivegrid/",
+          "description": "3D Perspective Tool"
+        },
+        {
+          "name": "Assemblr",
+          "url": "https://www.assemblrworld.com/",
+          "description": "Augmented Reality Image Creator"
+        },
+        {
+          "name": "MeshLab",
+          "url": "https://www.meshlab.net/",
+          "description": "3D Mesh Processing",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Ninja Ripper",
+          "url": "https://kemono.cr/patreon/user/45591569",
+          "description": "Extract 3D Models from Games",
+          "mirrors": [
+            "https://gamebanana.com/tools/5638",
+            "https://0curtain0.github.io/ninja_ripper.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image-tools-3d-printing",
+      "title": "3Dプリンティング",
+      "resources": [
+        {
+          "name": "Polymaker",
+          "url": "https://wiki.polymaker.com/",
+          "description": "3D Printer Guides / Learning"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/polymaker",
+          "description": "3D Printer Guides / Learning"
+        },
+        {
+          "name": "Teaching Tech",
+          "url": "https://teachingtechyt.github.io/index.html",
+          "description": "3D Printer Guides / Learning"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/teachingtechYT/teachingtechYT.github.io",
+          "description": "3D Printer Guides / Learning"
+        },
+        {
+          "name": "3D Printer Recs",
+          "url": "https://redd.it/1bh9jud",
+          "description": "Hobbyist 3D Printer Recommendations"
+        },
+        {
+          "name": "⁠SpoolScout",
+          "url": "https://www.spoolscout.com/",
+          "description": "Search / Compare 3D Printing Filament Prices"
+        },
+        {
+          "name": "OrcaSlicer",
+          "url": "https://www.orcaslicer.com/",
+          "description": "3D Printing Software"
+        },
+        {
+          "name": "X",
+          "url": "https://x.com/real_OrcaSlicer",
+          "description": "3D Printing Software"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/P4VE9UY9gJ",
+          "description": "3D Printing Software"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/OrcaSlicer/OrcaSlicer",
+          "description": "3D Printing Software"
+        },
+        {
+          "name": "⁠PrusaSlicer",
+          "url": "https://help.prusa3d.com/product/prusaslicer",
+          "description": "3D Printing Software"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/prusa3d/PrusaSlicer",
+          "description": "3D Printing Software"
+        },
+        {
+          "name": "⁠CrealityPrint",
+          "url": "https://github.com/CrealityOfficial/CrealityPrint",
+          "description": "3D Printing Software"
+        },
+        {
+          "name": "Ultimaker Cura",
+          "url": "https://ultimaker.com/software/ultimaker-cura",
+          "description": "3D Printing Software"
+        },
+        {
+          "name": "⁠e-NABLE",
+          "url": "https://enablingthefuture.org/",
+          "description": "Volunteer Own 3D Printer for use in Prosthetic Limb Printing"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-cad-engineering",
+      "title": "CADエンジニアリング",
+      "resources": [
+        {
+          "name": "Onshape",
+          "url": "https://www.onshape.com/en/products/free",
+          "description": "CAD Modeling with Real-time Collaboration"
+        },
+        {
+          "name": "Tinkercad",
+          "url": "https://www.tinkercad.com/",
+          "description": "Educational CAD Modeling"
+        },
+        {
+          "name": "FreeCAD",
+          "url": "https://www.freecad.org/",
+          "description": "Parametric CAD Modeling",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠Chili3d",
+          "url": "https://chili3d.com/",
+          "description": "Web-Based CAD App",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "BRL-CAD",
+          "url": "https://brlcad.org/",
+          "description": "Cross-Platform CSG CAD Modeling"
+        },
+        {
+          "name": "OpenSCAD",
+          "url": "https://openscad.org/",
+          "description": "Cross-Platform CSG CAD Modeling"
+        },
+        {
+          "name": "LibreCAD",
+          "url": "https://librecad.org/",
+          "description": "2D CAD Modeling"
+        },
+        {
+          "name": "QCAD",
+          "url": "https://www.qcad.org/en/",
+          "description": "2D CAD Modeling"
+        },
+        {
+          "name": "Mayo",
+          "url": "https://github.com/fougue/mayo",
+          "description": "3D CAD Viewer and Converter"
+        },
+        {
+          "name": "CadHub",
+          "url": "https://cadhub.xyz/",
+          "description": "Community Hub for CAD Projects"
+        },
+        {
+          "name": "Creator Resources",
+          "url": "https://www.newgrounds.com/wiki/creator-resources/",
+          "description": "Art / Animation Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome Colab Notebooks",
+          "url": "https://github.com/amrzv/awesome-colab-notebooks",
+          "description": "Image Colab Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "ImgOps",
+          "url": "https://imgops.com/",
+          "description": "Image Operations Meta-Tool",
+          "starred": true
+        },
+        {
+          "name": "AntiDupl",
+          "url": "https://github.com/ermig1979/AntiDupl",
+          "description": "Duplicate Image Removers",
+          "starred": true
+        },
+        {
+          "name": "cbird",
+          "url": "https://github.com/scrubbbbs/cbird",
+          "description": "Duplicate Image Removers"
+        },
+        {
+          "name": "Slowpoke Pics",
+          "url": "https://slow.pics/",
+          "description": "Image Comparisons",
+          "starred": true
+        },
+        {
+          "name": "ICAT",
+          "url": "https://www.nvidia.com/en-us/geforce/technologies/icat/",
+          "description": "Image Comparisons"
+        },
+        {
+          "name": "Image Comparison Tool",
+          "url": "https://jklgit.github.io/Image-Comparison-in-Browser/index.html",
+          "description": "Image Comparisons"
+        },
+        {
+          "name": "odiff",
+          "url": "https://github.com/dmtrKovalenko/odiff",
+          "description": "Image Visual Difference Tool"
+        },
+        {
+          "name": "Picviewer CE+",
+          "url": "https://github.com/hoothin/UserScripts/tree/master/Picviewer%20CE+",
+          "description": "Turn Webpages into Image Galleries"
+        },
+        {
+          "name": "⁠Universal Sig Rotator",
+          "url": "https://sig.grumpybumpers.com/",
+          "description": "Rotates Image for Forum Signatures / Site Banners"
+        },
+        {
+          "name": "Binternet",
+          "url": "https://github.com/Ahwxorg/Binternet",
+          "description": "Pinterest Frontends"
+        },
+        {
+          "name": "Pinvibe",
+          "url": "https://www.pinvibe.com/",
+          "description": "Pinterest Frontends"
+        },
+        {
+          "name": "Image Color Summarizer",
+          "url": "https://mk.bcgsc.ca/color-summarizer/",
+          "description": "Image Color Summarizer"
+        },
+        {
+          "name": "Image Colors",
+          "url": "https://franciscouzo.github.io/image_colors/",
+          "description": "Image Color Scatter Plot"
+        },
+        {
+          "name": "Image Pixel Sorter",
+          "url": "http://birdhat.org/misc/sort-pixels/",
+          "description": "Sort Pixels of Images"
+        },
+        {
+          "name": "Adobe Bridge",
+          "url": "https://adobe.com/products/bridge.html",
+          "description": "Adobe Assets Manager"
+        },
+        {
+          "name": "behind!",
+          "url": "https://github.com/kubuzetto/behind",
+          "description": "View Background Images"
+        },
+        {
+          "name": "Visual Center",
+          "url": "https://javier.xyz/visual-center/",
+          "description": "Find the Visual Center of an Image"
+        },
+        {
+          "name": "Watermarkly",
+          "url": "https://watermarkly.com/",
+          "description": "Image Watermarking"
+        },
+        {
+          "name": "BatchWatermark",
+          "url": "https://batchwatermark.com/",
+          "description": "Image Watermarking"
+        },
+        {
+          "name": "Watermarkup",
+          "url": "https://watermarkup.com/watermark.html",
+          "description": "Image Watermarking"
+        },
+        {
+          "name": "Watermark Remover",
+          "url": "https://www.watermarkremover.io/",
+          "description": "Watermark Removal"
+        },
+        {
+          "name": "Unwatermark",
+          "url": "https://unwatermark.ai/",
+          "description": "Watermark Removal"
+        },
+        {
+          "name": "DeWatermark",
+          "url": "https://dewatermark.ai/",
+          "description": "Watermark Removal"
+        },
+        {
+          "name": "Glaze",
+          "url": "https://glaze.cs.uchicago.edu/index.html",
+          "description": "Protect Digital Art from AI Copies"
+        },
+        {
+          "name": "Nightshade",
+          "url": "https://nightshade.cs.uchicago.edu/downloads.html",
+          "description": "Protect Digital Art from AI Copies"
+        },
+        {
+          "name": "APNG Maker",
+          "url": "https://rukario.github.io/Schande/Uninteresting%20stuff/APNG%20Maker.html",
+          "description": "Create / Optimize APNG Images"
+        },
+        {
+          "name": "JPEGMedic ARWE",
+          "url": "https://www.jpegmedic.com/tools/jpegmedic-arwe/",
+          "description": "Ransomware-Encrypted Image Recovery Tool"
+        },
+        {
+          "name": "CamScanner",
+          "url": "https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783",
+          "description": "Scan & Digitize Documents / iOS"
+        },
+        {
+          "name": "Swapface",
+          "url": "https://swapface.org/",
+          "description": "Face Swapping"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/5yPew6Cy6a",
+          "description": "Face Swapping"
+        },
+        {
+          "name": "Face Swapper",
+          "url": "https://faceswapper.ai/",
+          "description": "Face Swapping"
+        },
+        {
+          "name": "FaceSwapVideo",
+          "url": "https://faceswapvideo.io/",
+          "description": "Face Swapping"
+        },
+        {
+          "name": "facy.ai",
+          "url": "https://facy.ai/swap-face-ai/photo",
+          "description": "Face Swapping"
+        },
+        {
+          "name": "AIFaceSwap",
+          "url": "https://aifaceswap.io/",
+          "description": "Face Swapping"
+        },
+        {
+          "name": "FaceFusion",
+          "url": "https://github.com/facefusion/facefusion",
+          "description": "Face Swapping"
+        },
+        {
+          "name": "WiseTagger",
+          "url": "https://github.com/0xb8/WiseTagger",
+          "description": "Image Tagger"
+        },
+        {
+          "name": "BooruDatasetTagManager",
+          "url": "https://github.com/starik222/BooruDatasetTagManager",
+          "description": "Booru Image Tagger"
+        },
+        {
+          "name": "Cluttr",
+          "url": "https://gitlab.com/bearjaws/cluttr",
+          "description": "Image File Organizers / Managers"
+        },
+        {
+          "name": "Diffractor",
+          "url": "https://www.diffractor.com/",
+          "description": "Image File Organizers / Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/diffractor/diffractor",
+          "description": "Image File Organizers / Managers"
+        },
+        {
+          "name": "Exif Sorter",
+          "url": "https://www.amok.am/en/freeware/amok_exif_sorter/",
+          "description": "Image File Organizers / Managers"
+        },
+        {
+          "name": "TagStudio",
+          "url": "https://github.com/TagStudioDev/TagStudio",
+          "description": "Image File Organizers / Managers"
+        },
+        {
+          "name": "Allusion",
+          "url": "https://allusion-app.github.io/",
+          "description": "Reference Image Manager"
+        },
+        {
+          "name": "Something to Draw",
+          "url": "https://something-to-draw.com/",
+          "description": "Find Things to Draw"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-image-compressors",
+      "title": "画像 Compressors",
+      "resources": [
+        {
+          "name": "Caesium",
+          "url": "https://saerasoft.com/caesium/",
+          "description": "Compression Software / Web App / CLI",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Squoosh",
+          "url": "https://squoosh.app/",
+          "description": "Compressor / Converter",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Seopix",
+          "url": "https://www.seopix.io/",
+          "description": "Batch Compressor / Editor",
+          "starred": true
+        },
+        {
+          "name": "optimize.photos",
+          "url": "https://optimize.photos/",
+          "description": "Batch Compressor"
+        },
+        {
+          "name": "CompressImage",
+          "url": "https://compressimage.io/",
+          "description": "Batch Compressor"
+        },
+        {
+          "name": "CrushImage",
+          "url": "https://crushimage.com/",
+          "description": "Batch Compressor"
+        },
+        {
+          "name": "Bulk Image Compress",
+          "url": "https://imagecompressr.com/",
+          "description": "Batch Compressor"
+        },
+        {
+          "name": "HiCompress",
+          "url": "https://hicompress.com/tools",
+          "description": "Batch Compressor"
+        },
+        {
+          "name": "minipic",
+          "url": "https://minipic.app/",
+          "description": "Batch Compressor / Converter"
+        },
+        {
+          "name": "Compress JPEG",
+          "url": "https://compressjpeg.com/",
+          "description": "Batch Compressor / Unlimited Upload"
+        },
+        {
+          "name": "TinyPNG",
+          "url": "https://tinypng.com/",
+          "description": "Batch Compressor / 20MB Upload",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "TinyJPG",
+          "url": "https://tinyjpg.com/",
+          "description": "Batch Compressor / 20MB Upload",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ImageSmaller",
+          "url": "https://www.imagesmaller.com/",
+          "description": "Compressor / 50MB Upload"
+        },
+        {
+          "name": "CompressOrDie",
+          "url": "https://compress-or-die.com/",
+          "description": "Multitool"
+        },
+        {
+          "name": "PNGQuant",
+          "url": "https://pngquant.org/",
+          "description": "PNG Compression Software",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image-tools-image-optimization",
+      "title": "画像 Optimization",
+      "resources": [
+        {
+          "name": "ImageMagick",
+          "url": "https://imagemagick.org/index.php",
+          "description": "Image Optimization / Scripts",
+          "starred": true
+        },
+        {
+          "name": "RIOT",
+          "url": "https://riot-optimizer.com/",
+          "description": "Image Optimization"
+        },
+        {
+          "name": "YOGA",
+          "url": "https://yoga.flozz.org/",
+          "description": "Image Optimization"
+        },
+        {
+          "name": "ImageFoo",
+          "url": "https://imagefoo.com/",
+          "description": "Image Optimization"
+        },
+        {
+          "name": "tiny.pictures",
+          "url": "https://tiny.pictures/",
+          "description": "Image Optimization"
+        },
+        {
+          "name": "Ihancer",
+          "url": "https://ihancer.com",
+          "description": "Image Optimization"
+        },
+        {
+          "name": "Waifu2x",
+          "url": "https://www.waifu2x.net/",
+          "description": "Image Optimization"
+        },
+        {
+          "name": "OxiPNG",
+          "url": "https://github.com/shssoichiro/oxipng",
+          "description": "PNG Optimization"
+        },
+        {
+          "name": "Crunch",
+          "url": "https://github.com/chrissimpkins/Crunch",
+          "description": "PNG Optimization / Self-Hosted / No Sign-Up"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-image-converters",
+      "title": "画像コンバーター",
+      "resources": [
+        {
+          "name": "minipic",
+          "url": "https://minipic.app/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "RedKetchup",
+          "url": "https://redketchup.io/",
+          "description": ""
+        },
+        {
+          "name": "Knvrt",
+          "url": "https://www.knvrt.one/",
+          "description": ""
+        },
+        {
+          "name": "Convertmyimage",
+          "url": "https://convert-my-image.com/",
+          "description": ""
+        },
+        {
+          "name": "ImageConvert",
+          "url": "https://imageconvert.org/",
+          "description": ""
+        },
+        {
+          "name": "imverter",
+          "url": "https://www.imverter.com/",
+          "description": ""
+        },
+        {
+          "name": "Raw Pics",
+          "url": "https://raw.pics.io/",
+          "description": ""
+        },
+        {
+          "name": "Converseen",
+          "url": "https://converseen.fasterland.net/",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "image-tools-image-resizing",
+      "title": "画像 Resizing",
+      "resources": [
+        {
+          "name": "PixelHunter",
+          "url": "https://pixelhunter.io/",
+          "description": "Resize Images for Different Sites"
+        },
+        {
+          "name": "Resize App Icon",
+          "url": "https://resizeappicon.com/",
+          "description": "Resize Square Images"
+        },
+        {
+          "name": "⁠Pro Image Tool",
+          "url": "https://proimagetool.com/",
+          "description": ""
+        },
+        {
+          "name": "Simple Image Resizer",
+          "url": "https://www.simpleimageresizer.com/",
+          "description": ""
+        },
+        {
+          "name": "ImageResizer",
+          "url": "https://imageresizer.com/",
+          "description": ""
+        },
+        {
+          "name": "PicResize",
+          "url": "https://picresize.com/",
+          "description": ""
+        },
+        {
+          "name": "Birme",
+          "url": "https://www.birme.net/",
+          "description": ""
+        },
+        {
+          "name": "Bulk Image Resize",
+          "url": "https://bulkimageresize.com/",
+          "description": ""
+        },
+        {
+          "name": "ResizeNow",
+          "url": "https://www.resizenow.com/en",
+          "description": ""
+        },
+        {
+          "name": "BulkResizePhotos",
+          "url": "https://bulkresizephotos.com/",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "image-tools-image-to-text-ocr",
+      "title": "画像 to テキスト / OCR",
+      "resources": [
+        {
+          "name": "ImageToText",
+          "url": "https://www.imagetotext.info/",
+          "description": "Online OCR",
+          "starred": true
+        },
+        {
+          "name": "Capture2Text",
+          "url": "https://capture2text.sourceforge.net/",
+          "description": "OCR Desktop Apps",
+          "starred": true
+        },
+        {
+          "name": "⁠NormCap",
+          "url": "https://dynobo.github.io/normcap/",
+          "description": "OCR Desktop Apps"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/dynobo/normcap",
+          "description": "OCR Desktop Apps"
+        },
+        {
+          "name": "tesseract",
+          "url": "https://github.com/tesseract-ocr/tesseract",
+          "description": "OCR Desktop Apps"
+        },
+        {
+          "name": "gImageReader",
+          "url": "https://github.com/manisandro/gImageReader",
+          "description": "OCR Desktop Apps"
+        },
+        {
+          "name": "Text Grab",
+          "url": "https://github.com/TheJoeFin/Text-Grab",
+          "description": "Minimal OCR Windows Tool",
+          "starred": true
+        },
+        {
+          "name": "TextShot",
+          "url": "https://github.com/ianzhao05/textshot",
+          "description": "Cross-Platform OCR"
+        },
+        {
+          "name": "ImageScanOCR",
+          "url": "https://github.com/ttop32/ImageScanOCR",
+          "description": "Windows OCR Tool"
+        },
+        {
+          "name": "Handwriting-OCR",
+          "url": "https://github.com/Breta01/handwriting-ocr",
+          "description": "Handwriting OCR"
+        },
+        {
+          "name": "Project Naptha",
+          "url": "https://projectnaptha.com/",
+          "description": "Automatic OCR while Browsing Images"
+        },
+        {
+          "name": "i2ocr",
+          "url": "https://www.i2ocr.com/",
+          "description": "Online OCR"
+        },
+        {
+          "name": "OCR.SPACE",
+          "url": "https://ocr.space/",
+          "description": "Online OCR"
+        },
+        {
+          "name": "OCRTool",
+          "url": "https://ocrtool.net/",
+          "description": "Online OCR"
+        },
+        {
+          "name": "2OCR",
+          "url": "https://2ocr.com/",
+          "description": "Online OCR"
+        },
+        {
+          "name": "OnlineOCR",
+          "url": "https://onlineocr.org/",
+          "description": "Online OCR"
+        },
+        {
+          "name": "NewOCR",
+          "url": "https://www.newocr.com/",
+          "description": "Online OCR"
+        },
+        {
+          "name": "OnlineOCR",
+          "url": "https://www.onlineocr.net/",
+          "description": "Online OCR"
+        }
+      ],
+      "note": "ご注意ください most AI Chatbots have built-in image to text, and in many cases are even more accurate than OCR tools."
+    },
+    {
+      "id": "image-tools-image-viewers",
+      "title": "画像ビューア",
+      "resources": [
+        {
+          "name": "IrfanView",
+          "url": "https://www.irfanview.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "JPEGView",
+          "url": "https://github.com/sylikc/jpegview",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "FastStone",
+          "url": "https://www.faststone.org/index.htm",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "qView",
+          "url": "https://interversehq.com/qview/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "XnView MP",
+          "url": "https://www.xnview.com/en/xnviewmp/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Digikam",
+          "url": "https://www.digikam.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "ImageGlass",
+          "url": "https://github.com/d2phap/ImageGlass",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "⁠Imagine",
+          "url": "https://www.nyam.pe.kr/dev/imagine/",
+          "description": ""
+        },
+        {
+          "name": "nomacs",
+          "url": "https://nomacs.org/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/nomacs/nomacs",
+          "description": ""
+        },
+        {
+          "name": "qimgv",
+          "url": "https://github.com/easymodo/qimgv",
+          "description": ""
+        },
+        {
+          "name": "oculante",
+          "url": "https://github.com/woelper/oculante",
+          "description": ""
+        },
+        {
+          "name": "Diffractor",
+          "url": "https://www.diffractor.com/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/diffractor/diffractor",
+          "description": ""
+        },
+        {
+          "name": "PhotoQt",
+          "url": "https://github.com/luspi/photoqt",
+          "description": ""
+        },
+        {
+          "name": "⁠NeeView",
+          "url": "https://neelabo.github.io/NeeView/en-us/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/neelabo/NeeView",
+          "description": ""
+        },
+        {
+          "name": "PicView",
+          "url": "https://picview.org/",
+          "description": ""
+        },
+        {
+          "name": "ImagefanReloaded",
+          "url": "https://github.com/mihnea-radulescu/imagefanreloaded",
+          "description": ""
+        },
+        {
+          "name": "Image Eye",
+          "url": "https://www.fmjsoft.com/imageeye.html",
+          "description": ""
+        },
+        {
+          "name": "Quick Picture Viewer",
+          "url": "https://moduleart.github.io/quick-picture-viewer/",
+          "description": ""
+        },
+        {
+          "name": "HoneyView",
+          "url": "https://en.bandisoft.com/honeyview/",
+          "description": ""
+        },
+        {
+          "name": "picturama",
+          "url": "https://picturama.github.io/",
+          "description": ""
+        },
+        {
+          "name": "narrative",
+          "url": "https://narrative.so/",
+          "description": ""
+        },
+        {
+          "name": "G'MIC",
+          "url": "https://gmic.eu/",
+          "description": ""
+        },
+        {
+          "name": "BeeRef",
+          "url": "https://beeref.org/",
+          "description": "Reference Image Viewers"
+        },
+        {
+          "name": "PureRef",
+          "url": "https://www.pureref.com/",
+          "description": "Reference Image Viewers"
+        },
+        {
+          "name": "HDRView",
+          "url": "https://github.com/wkjarosz/hdrview",
+          "description": "HDR / Technical Image Viewers"
+        },
+        {
+          "name": "tev",
+          "url": "https://github.com/Tom94/tev",
+          "description": "HDR / Technical Image Viewers"
+        },
+        {
+          "name": "FlipFlip",
+          "url": "https://github.com/ififfy/flipflip/",
+          "description": "Image Slideshow"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-offline-galleries",
+      "title": "オフラインギャラリー",
+      "resources": [
+        {
+          "name": "FOSS Photo Libraries",
+          "url": "https://meichthys.github.io/foss_photo_libraries/",
+          "description": "",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Immich",
+          "url": "https://immich.app/",
+          "description": ""
+        },
+        {
+          "name": "Storage Server",
+          "url": "https://pixelunion.eu/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/immich-app/immich",
+          "description": ""
+        },
+        {
+          "name": "Damselfly",
+          "url": "https://github.com/Webreaper/Damselfly",
+          "description": ""
+        },
+        {
+          "name": "HomeGallery",
+          "url": "https://home-gallery.org/",
+          "description": ""
+        },
+        {
+          "name": "LibrePhotos",
+          "url": "https://github.com/LibrePhotos/librephotos",
+          "description": ""
+        },
+        {
+          "name": "Lychee",
+          "url": "https://lycheeorg.github.io/",
+          "description": ""
+        },
+        {
+          "name": "PhotoPrism",
+          "url": "https://github.com/photoprism/photoprism",
+          "description": ""
+        },
+        {
+          "name": "Photoview",
+          "url": "https://github.com/photoview/photoview",
+          "description": ""
+        },
+        {
+          "name": "Ente",
+          "url": "https://help.ente.io/self-hosting/",
+          "description": ""
+        },
+        {
+          "name": "Photonix",
+          "url": "https://photonix.org/",
+          "description": ""
+        },
+        {
+          "name": "photos",
+          "url": "https://github.com/nextcloud/photos/",
+          "description": ""
+        },
+        {
+          "name": "imagestore",
+          "url": "https://github.com/gregordr/imagestore",
+          "description": ""
+        },
+        {
+          "name": "Memories",
+          "url": "https://memories.gallery/",
+          "description": ""
+        },
+        {
+          "name": "Piwigo",
+          "url": "https://piwigo.org/",
+          "description": ""
+        },
+        {
+          "name": "PiGallery 2",
+          "url": "https://bpatrik.github.io/pigallery2/",
+          "description": ""
+        },
+        {
+          "name": "PicoShare",
+          "url": "https://github.com/mtlynch/picoshare",
+          "description": ""
+        },
+        {
+          "name": "Up1",
+          "url": "https://github.com/Upload/Up1",
+          "description": ""
+        },
+        {
+          "name": "Chevereto",
+          "url": "https://chevereto.com/",
+          "description": ""
+        },
+        {
+          "name": "Photofield",
+          "url": "https://github.com/SmilyOrg/photofield",
+          "description": ""
+        },
+        {
+          "name": "⁠Urocissa",
+          "url": "https://hsa00000.github.io/urocissa/",
+          "description": "Handles Millions of Images",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ],
+      "note": "Note that the options listed in this section require self-hosting."
+    },
+    {
+      "id": "image-tools-online-galleries",
+      "title": "オンラインギャラリー",
+      "resources": [
+        {
+          "name": "Postimages",
+          "url": "https://postimages.org/",
+          "description": "32MB / Forever",
+          "starred": true
+        },
+        {
+          "name": "Rimgo",
+          "url": "https://rimgo.codeberg.page/",
+          "description": "Imgur Frontend",
+          "mirrors": [
+            "https://codeberg.org/rimgo/instances"
+          ]
+        },
+        {
+          "name": "tixte",
+          "url": "https://tixte.com/",
+          "description": "15GB Storage Total / Forever / Requires Sign-Up"
+        },
+        {
+          "name": "lookimg",
+          "url": "https://lookimg.com/",
+          "description": "20MB / Forever / Requires Sign-Up"
+        },
+        {
+          "name": "Horizon",
+          "url": "https://horizon.pics/",
+          "description": "75MB (500MB Storage) / Forever / Requires Sign-Up"
+        },
+        {
+          "name": "imgchest",
+          "url": "https://imgchest.com/",
+          "description": "10MB (30MB with Account) / Forever"
+        },
+        {
+          "name": "Imgur",
+          "url": "https://imgur.com/",
+          "description": "20MB Image / 200MB Animated / Forever / Upload Limits / Direct Link Grabber"
+        },
+        {
+          "name": "Google Photos",
+          "url": "https://photos.google.com/",
+          "description": "200MB / 15GB Cloud / Forever"
+        },
+        {
+          "name": "Ente",
+          "url": "https://ente.io/",
+          "description": "Unlimited / 10GB Cloud"
+        },
+        {
+          "name": "Piczel",
+          "url": "https://piczel.tv/",
+          "description": "10MB / Forever / Requires Sign-Up"
+        },
+        {
+          "name": "TurboImageHost",
+          "url": "https://www.turboimagehost.com/",
+          "description": "20MB / Forever"
+        },
+        {
+          "name": "Google Photos Toolkit",
+          "url": "https://github.com/xob0t/Google-Photos-Toolkit",
+          "description": "Manage / Delete Google Photos"
+        },
+        {
+          "name": "Google Takeout",
+          "url": "https://takeout.google.com/",
+          "description": "Export from Google Photos / Script"
+        },
+        {
+          "name": "Google Photos EXIF",
+          "url": "https://github.com/mattwilson1024/google-photos-exif",
+          "description": "Populate Missing EXIF metadata in Google Photos"
+        },
+        {
+          "name": "GPhotos Guide",
+          "url": "https://github.com/g8row/gphotos-guide",
+          "description": "Guide for Unlimited Google Photos Storage on Windows"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-image-hosts",
+      "title": "画像 Hosts",
+      "resources": [
+        {
+          "name": "ImgBB",
+          "url": "https://imgbb.com/",
+          "description": "32MB / Forever",
+          "starred": true
+        },
+        {
+          "name": "Catbox",
+          "url": "https://catbox.moe/",
+          "description": "200MB / Forever / Proxy / ShareX Config / Tools / Extensions",
+          "starred": true
+        },
+        {
+          "name": "pixelfed",
+          "url": "https://pixelfed.org/",
+          "description": "Decentralized Image Sharing Social Network / Requires Sign-Up / Tools / Android",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "sxcu.net",
+          "url": "https://sxcu.net/",
+          "description": "Free ShareX Uploader Service / 95MB / N / A"
+        },
+        {
+          "name": "FreeImage.Host",
+          "url": "https://freeimage.host/",
+          "description": "64MB (128MB W / Account) / Forever"
+        },
+        {
+          "name": "imgbox",
+          "url": "https://imgbox.com/",
+          "description": "10MB / Forever"
+        },
+        {
+          "name": "i",
+          "url": "https://tikolu.net/i/",
+          "description": "8MB / Forever"
+        },
+        {
+          "name": "IMGPile",
+          "url": "https://imgpile.com/",
+          "description": "100MB / Forever"
+        },
+        {
+          "name": "YourImageShare",
+          "url": "https://yourimageshare.com/",
+          "description": "100MB / Forever"
+        },
+        {
+          "name": "pic.maxiol",
+          "url": "https://pic.maxiol.com/",
+          "description": "100MB / Forever"
+        },
+        {
+          "name": "GIFYU",
+          "url": "https://gifyu.com/",
+          "description": "50MB (100MB w / Account) / Forever"
+        },
+        {
+          "name": "ThumbSnap",
+          "url": "https://thumbsnap.com/",
+          "description": "48MB / Forever"
+        },
+        {
+          "name": "Kepkuldes",
+          "url": "https://kepkuldes.com/",
+          "description": "40MB / Forever"
+        },
+        {
+          "name": "Pikky",
+          "url": "https://pikky.net/",
+          "description": "20MB / Forever"
+        },
+        {
+          "name": "imagebam",
+          "url": "https://www.imagebam.com/",
+          "description": "20MB / Forever"
+        },
+        {
+          "name": "imagevenue",
+          "url": "https://www.imagevenue.com/",
+          "description": "20MB / Forever"
+        },
+        {
+          "name": "FastPic",
+          "url": "https://fastpic.org/",
+          "description": "25MB / Forever"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-screenshot-tools",
+      "title": "スクリーンショットツール",
+      "resources": [
+        {
+          "name": "ShareX",
+          "url": "https://getsharex.com/",
+          "description": "Screenshot & Screen Recorder Tool / Image Hosts / File Manager",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Flameshot",
+          "url": "https://flameshot.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/flameshot-org/flameshot",
+          "description": ""
+        },
+        {
+          "name": "Zipline",
+          "url": "https://zipline.diced.sh/",
+          "description": "Self-Hosted ShareX Server",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Greenshot",
+          "url": "https://getgreenshot.org/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/greenshot/greenshot",
+          "description": ""
+        },
+        {
+          "name": "KSnip",
+          "url": "https://github.com/ksnip/ksnip",
+          "description": ""
+        },
+        {
+          "name": "Nimbus Capture",
+          "url": "https://nimbusweb.me/screenshot.php",
+          "description": ""
+        },
+        {
+          "name": "PixpinApp",
+          "url": "https://pixpin.cn/",
+          "description": ""
+        },
+        {
+          "name": "ScreenshotX",
+          "url": "https://screenshotx.com/",
+          "description": ""
+        },
+        {
+          "name": "⁠Pilko",
+          "url": "https://pilko.studio/",
+          "description": "Video Frame Capture Tool"
+        },
+        {
+          "name": "VideoToJPG",
+          "url": "https://videotojpg.com/",
+          "description": "Video Frame Extraction",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "FRAMED",
+          "url": "https://framedsc.com/index.htm",
+          "description": "In-Game Screenshotting Tips"
+        },
+        {
+          "name": "Moocup",
+          "url": "https://moocup.jaydip.me/",
+          "description": "Screenshot Editor / Mockups",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Screenshot Guru",
+          "url": "https://screenshot.guru/",
+          "description": "Take Screenshots of Websites"
+        },
+        {
+          "name": "Site-Shot",
+          "url": "https://www.site-shot.com/",
+          "description": "Take Screenshots of Websites"
+        },
+        {
+          "name": "Pikwy",
+          "url": "https://pikwy.com/",
+          "description": "Take Screenshots of Websites"
+        },
+        {
+          "name": "Screenshot Rocks",
+          "url": "https://screenshot.rocks/",
+          "description": "Create Screenshot Mockups of Websites"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/daveearley/screenshot.rocks",
+          "description": "Create Screenshot Mockups of Websites"
+        },
+        {
+          "name": "paste.photos",
+          "url": "https://www.paste.photos/",
+          "description": "Paste Image to Download"
+        },
+        {
+          "name": "How to Screenshot",
+          "url": "https://screenshot.help/",
+          "description": "Multi-Platform Screenshot Tutorials"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-palette-generators",
+      "title": "パレット生成",
+      "resources": [
+        {
+          "name": "Color Designer",
+          "url": "https://colordesigner.io/tools",
+          "description": "Color Palette Generators",
+          "starred": true
+        },
+        {
+          "name": "Color Palette Pro",
+          "url": "https://colorpalette.pro/",
+          "description": "Color Palette Generators"
+        },
+        {
+          "name": "Guide",
+          "url": "https://colorpalette.pro/manual",
+          "description": "Color Palette Generators"
+        },
+        {
+          "name": "TheGoodColors",
+          "url": "https://thegoodcolors.com/",
+          "description": "Color Palette Generators"
+        },
+        {
+          "name": "Super Color Palette",
+          "url": "https://supercolorpalette.com/",
+          "description": "Color Palette Generators"
+        },
+        {
+          "name": "Nof",
+          "url": "https://nofpg.netlify.app/",
+          "description": "Color Palette Generators"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Northstrix/nof",
+          "description": "Color Palette Generators"
+        },
+        {
+          "name": "Coolors",
+          "url": "https://coolors.co/",
+          "description": "Color Palette Generators"
+        },
+        {
+          "name": "Clariss",
+          "url": "https://www.clariss.xyz/",
+          "description": "Generate Color Palettes from Images"
+        },
+        {
+          "name": "Color Palette Generator",
+          "url": "https://www.degraeve.com/color-palette",
+          "description": "Generate Color Palettes from Images"
+        },
+        {
+          "name": "Palitra",
+          "url": "https://palitra.app/",
+          "description": "Generate Color Palettes from Images"
+        },
+        {
+          "name": "Color Picker",
+          "url": "https://imagecolorpicker.com/",
+          "description": "Generate Color Palettes from Images"
+        },
+        {
+          "name": "Color Space",
+          "url": "https://mycolor.space/",
+          "description": "Generate Gradient Color Palettes"
+        },
+        {
+          "name": "Colors Wall",
+          "url": "https://colorswall.com/",
+          "description": "Generate Random Color Palettes"
+        },
+        {
+          "name": "ColorKit",
+          "url": "https://colorkit.co/color-palette-generator/",
+          "description": "Generate Random Color Palettes"
+        },
+        {
+          "name": "Color Kit",
+          "url": "https://colorkit.io/",
+          "description": "Generate Color Palettes by Mixing 2 Colors"
+        },
+        {
+          "name": "Pigment",
+          "url": "https://pigment.shapefactory.co/",
+          "description": "Simple Color Palette Generators"
+        },
+        {
+          "name": "Eva Design System",
+          "url": "https://colors.eva.design/",
+          "description": "Simple Color Palette Generators"
+        },
+        {
+          "name": "Scale",
+          "url": "https://hihayk.github.io/scale/",
+          "description": "Simple Color Palette Generators"
+        },
+        {
+          "name": "Huey",
+          "url": "https://huey.design/",
+          "description": "Simple Color Palette Generators"
+        },
+        {
+          "name": "ColorBox",
+          "url": "https://colorbox.io/",
+          "description": "Advanced Color Palette Generators"
+        },
+        {
+          "name": "hue.tools",
+          "url": "https://hue.tools/",
+          "description": "Advanced Color Palette Generators"
+        },
+        {
+          "name": "Randoma11y",
+          "url": "https://randoma11y.com/",
+          "description": "Advanced Color Palette Generators"
+        },
+        {
+          "name": "accessiblepalette",
+          "url": "https://accessiblepalette.com/",
+          "description": "Advanced Color Palette Generators"
+        },
+        {
+          "name": "colorcolor",
+          "url": "https://colorcolor.in/",
+          "description": "Advanced Color Palette Generators"
+        },
+        {
+          "name": "Good Palette",
+          "url": "https://goodpalette.io/",
+          "description": "Generate UI Color Palettes"
+        },
+        {
+          "name": "Huemint",
+          "url": "https://huemint.com/",
+          "description": "Generate UI Color Palettes"
+        },
+        {
+          "name": "AI Colors",
+          "url": "https://aicolors.co/",
+          "description": "Generate UI Color Palettes"
+        },
+        {
+          "name": "PaletteMaker",
+          "url": "https://palettemaker.com/",
+          "description": "Generate UI Color Palettes"
+        },
+        {
+          "name": "Couleur.io",
+          "url": "https://couleur.io/",
+          "description": "CSS Color Palettes Generator"
+        },
+        {
+          "name": "UI Colors",
+          "url": "https://uicolors.app/create",
+          "description": "Tailwind CSS Color Generators"
+        },
+        {
+          "name": "Tints",
+          "url": "https://www.tints.dev/",
+          "description": "Tailwind CSS Color Generators"
+        },
+        {
+          "name": "Poolors",
+          "url": "https://poolors.com/",
+          "description": "Generate Most / Least Used Color Palettes"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-color-pickers",
+      "title": "カラーピッカー",
+      "resources": [
+        {
+          "name": "React Color",
+          "url": "https://casesandberg.github.io/react-color/",
+          "description": "Color Pickers Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "BrandColors",
+          "url": "https://brandcolors.net/",
+          "description": "Brand Color Palettes Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Material UI",
+          "url": "https://materialui.co/colors/",
+          "description": "Color Pickers"
+        },
+        {
+          "name": "OKLCH",
+          "url": "https://oklch.com/",
+          "description": "Color Pickers"
+        },
+        {
+          "name": "Color Deck",
+          "url": "https://color.obscuredetour.com/",
+          "description": "Color Pickers"
+        },
+        {
+          "name": "Picular",
+          "url": "https://picular.co/",
+          "description": "Color Pickers"
+        },
+        {
+          "name": "ColorKit's Color Picker",
+          "url": "https://colorkit.co/color-picker/",
+          "description": "Color Pickers"
+        },
+        {
+          "name": "Colorpicker",
+          "url": "https://colorpicker.fr/",
+          "description": "Color Picker Desktop Apps"
+        },
+        {
+          "name": "Just Color Picker",
+          "url": "https://annystudio.com/software/colorpicker/",
+          "description": "Color Picker Desktop Apps"
+        },
+        {
+          "name": "epick",
+          "url": "https://github.com/vv9k/epick",
+          "description": "Color Picker Desktop Apps"
+        },
+        {
+          "name": "Colorscales",
+          "url": "https://www.colorscales.com/en/start",
+          "description": "Find Colors in Color Space"
+        },
+        {
+          "name": "ColourCode",
+          "url": "https://www.toptal.com/designers/colourcode/",
+          "description": "Find Colors by Moving Mouse"
+        },
+        {
+          "name": "Colordot",
+          "url": "https://color.hailpixel.com/",
+          "description": "Find Colors by Moving Mouse"
+        },
+        {
+          "name": "Geenes",
+          "url": "https://geenes.app/welcome",
+          "description": "Find UI Color Palettes"
+        },
+        {
+          "name": "Leonardo",
+          "url": "https://leonardocolor.io/",
+          "description": "Find UI Color Palettes"
+        },
+        {
+          "name": "Sorted CSS Colors",
+          "url": "https://enes.in/sorted-colors/",
+          "description": "Find Similar CSS Colors"
+        },
+        {
+          "name": "Color Hunt",
+          "url": "https://colorhunt.co/",
+          "description": "Find Color Palettes"
+        },
+        {
+          "name": "COLOURlovers",
+          "url": "https://www.colourlovers.com/",
+          "description": "Find Color Palettes"
+        },
+        {
+          "name": "SchemeColor",
+          "url": "https://www.schemecolor.com/",
+          "description": "Find Color Palettes"
+        },
+        {
+          "name": "Culrs",
+          "url": "https://culrs.com/",
+          "description": "Find Color Palettes"
+        },
+        {
+          "name": "Colorffy",
+          "url": "https://colorffy.com/",
+          "description": "Find Color Palettes"
+        },
+        {
+          "name": "Adobe Color",
+          "url": "https://color.adobe.com/",
+          "description": "Find Color Palettes with Color Wheel"
+        },
+        {
+          "name": "Color Lisa",
+          "url": "https://colorlisa.com/",
+          "description": "Find Art-Based Color Palettes"
+        },
+        {
+          "name": "Color Leap",
+          "url": "https://colorleap.app/",
+          "description": "Find Historical Color Palettes"
+        },
+        {
+          "name": "COLORWISE",
+          "url": "https://colorwise.io/",
+          "description": "Find Color Palettes from Product Hunt Products"
+        },
+        {
+          "name": "r/Photography Guide",
+          "url": "https://www.reddit.com/r/photography/wiki/introduction",
+          "description": "Photography / Camera Guides"
+        },
+        {
+          "name": "Cambridge In Colour",
+          "url": "https://www.cambridgeincolour.com/",
+          "description": "Photography / Camera Guides"
+        },
+        {
+          "name": "Camera Decision",
+          "url": "https://cameradecision.com/",
+          "description": "Compare Cameras"
+        },
+        {
+          "name": "Digicamfinder",
+          "url": "https://digicamfinder.com/",
+          "description": "Compare Cameras"
+        },
+        {
+          "name": "Camera Wiki",
+          "url": "http://camera-wiki.org/",
+          "description": "Camera Model Wiki"
+        },
+        {
+          "name": "PhotoFeeler",
+          "url": "https://www.photofeeler.com/",
+          "description": "Get Photo Feedback"
+        },
+        {
+          "name": "darktable",
+          "url": "https://www.darktable.org/",
+          "description": "RAW Photo Editors / Windows, Mac, Linux"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/darktable-org/darktable",
+          "description": "RAW Photo Editors / Windows, Mac, Linux"
+        },
+        {
+          "name": "RawTherapee",
+          "url": "https://www.rawtherapee.com/",
+          "description": "RAW Photo Editors / Windows, Mac, Linux"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/RawTherapee/RawTherapee",
+          "description": "RAW Photo Editors / Windows, Mac, Linux"
+        },
+        {
+          "name": "⁠LightZone",
+          "url": "https://github.com/ktgw0316/LightZone",
+          "description": "RAW Photo Editors / Windows, Mac, Linux"
+        },
+        {
+          "name": "HDRMerge",
+          "url": "https://jcelaya.github.io/hdrmerge/",
+          "description": "RAW Photography HDR Merge Tool",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "PixelPeeper",
+          "url": "https://pixelpeeper.com/",
+          "description": "Extract Lightroom Edits / Settings"
+        },
+        {
+          "name": "PhotoEphemeris",
+          "url": "https://photoephemeris.com/",
+          "description": "Photography Sunlight Calculator"
+        },
+        {
+          "name": "MagicLantern",
+          "url": "https://www.magiclantern.fm/",
+          "description": "Custom Canon EOS Firmware / Unsupported",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "CHDK",
+          "url": "https://chdk.fandom.com/wiki/CHDK",
+          "description": "Custom Canon PowerShot Firmware"
+        },
+        {
+          "name": "fSpy",
+          "url": "https://fspy.io/",
+          "description": "Still Image Camera Matching"
+        },
+        {
+          "name": "DPReview",
+          "url": "https://www.dpreview.com/reviews/image-comparison/fullscreen",
+          "description": "Camera Image Quality Comparison"
+        },
+        {
+          "name": "Canon Camera Museum",
+          "url": "https://global.canon/en/c-museum/camera-series.html",
+          "description": "History of Canon Cameras"
+        }
+      ]
+    },
+    {
+      "id": "image-tools-photo-forensics-metadata",
+      "title": "写真フォレンジック / メタデータ",
+      "resources": [
+        {
+          "name": "Photo OSINT",
+          "url": "https://start.me/p/0PgzqO/photo-osint",
+          "description": "Image OSINT Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Fawkes",
+          "url": "http://sandlab.cs.uchicago.edu/fawkes/",
+          "description": "Facial Cloaking",
+          "starred": true
+        },
+        {
+          "name": "FotoForensics",
+          "url": "https://www.fotoforensics.com/",
+          "description": "Photo Forensics Tools",
+          "starred": true
+        },
+        {
+          "name": "Sherloq",
+          "url": "https://github.com/GuidoBartoli/sherloq",
+          "description": "Photo Forensics Tools"
+        },
+        {
+          "name": "Forensically",
+          "url": "https://29a.ch/photo-forensics/",
+          "description": "Photo Forensics Tools"
+        },
+        {
+          "name": "ViewEXIF",
+          "url": "https://www.imgonline.com.ua/eng/exif-info.php",
+          "description": "EXIF / Metadata Viewers"
+        },
+        {
+          "name": "Jimpl",
+          "url": "https://jimpl.com/",
+          "description": "EXIF / Metadata Viewers"
+        },
+        {
+          "name": "ExifData",
+          "url": "https://exifdata.com/",
+          "description": "EXIF / Metadata Viewers"
+        },
+        {
+          "name": "OnlineEXIFViewer",
+          "url": "https://onlineexifviewer.com/",
+          "description": "EXIF / Metadata Viewers"
+        },
+        {
+          "name": "ExifLooter",
+          "url": "https://github.com/aydinnyunus/exifLooter",
+          "description": "EXIF / Metadata Viewers"
+        },
+        {
+          "name": "CameraSummary",
+          "url": "https://camerasummary.com/",
+          "description": "EXIF / Metadata Viewers"
+        },
+        {
+          "name": "exiftool",
+          "url": "https://exiftool.org/",
+          "description": "Remove Meta / EXIF Data"
+        },
+        {
+          "name": "2",
+          "url": "https://github.com/FrankBijnen/ExifToolGui/",
+          "description": "Remove Meta / EXIF Data"
+        },
+        {
+          "name": "EXIFRemove",
+          "url": "https://www.exifremove.com/",
+          "description": "Remove Meta / EXIF Data"
+        },
+        {
+          "name": "scrambled-exif",
+          "url": "https://gitlab.com/juanitobananas/scrambled-exif",
+          "description": "Remove Meta / EXIF Data"
+        },
+        {
+          "name": "MetaEditor",
+          "url": "https://metaeditor.picvario.com/",
+          "description": "Remove Meta / EXIF Data"
+        },
+        {
+          "name": "Metadata-Remover",
+          "url": "https://github.com/Anish-M-code/Metadata-Remover",
+          "description": "Remove Meta / EXIF Data"
+        },
+        {
+          "name": "adarsus",
+          "url": "https://www.adarsus.com/en/remove-metadata-online-document-image-video/",
+          "description": "Remove Meta / EXIF Data"
+        },
+        {
+          "name": "VerExif",
+          "url": "https://www.verexif.com/en/",
+          "description": "Remove Meta / EXIF Data"
+        },
+        {
+          "name": "Pic2Map",
+          "url": "https://www.pic2map.com/",
+          "description": "Image EXIF data viewer with GPS support"
+        },
+        {
+          "name": "TheExifer",
+          "url": "https://www.thexifer.net/",
+          "description": "Image EXIF Data Editors"
+        },
+        {
+          "name": "Photini",
+          "url": "https://github.com/jim-easterbrook/Photini",
+          "description": "Image EXIF Data Editors"
+        },
+        {
+          "name": "ColorPilot",
+          "url": "https://www.colorpilot.com/exif.html",
+          "description": "Image EXIF Data Editors"
+        },
+        {
+          "name": "Picarta",
+          "url": "https://picarta.ai/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/g5BAd2UFbs",
+          "description": ""
+        },
+        {
+          "name": "GeoSpy",
+          "url": "https://geospy.net/",
+          "description": ""
+        },
+        {
+          "name": "Image Identification Project",
+          "url": "https://www.imageidentify.com/",
+          "description": "Image Identification Tool"
+        },
+        {
+          "name": "StegOnline",
+          "url": "https://georgeom.net/StegOnline/upload",
+          "description": "Images Steganography Tools"
+        },
+        {
+          "name": "OpenStego",
+          "url": "https://www.openstego.com/",
+          "description": "Images Steganography Tools"
+        },
+        {
+          "name": "OpenPuff",
+          "url": "https://embeddedsw.net/OpenPuff_Steganography_Home.html",
+          "description": "Images Steganography Tools"
+        },
+        {
+          "name": "Steganography-PNG",
+          "url": "https://pedrooaugusto.github.io/steganography-png/",
+          "description": "Images Steganography Tools"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pedrooaugusto/steganography-png",
+          "description": "Images Steganography Tools"
+        },
+        {
+          "name": "ImSter",
+          "url": "https://github.com/DJayalath/ImSter",
+          "description": "Images Steganography Tools"
+        },
+        {
+          "name": "stegano",
+          "url": "https://bztsrc.gitlab.io/stegano/",
+          "description": "Images Steganography Tools"
+        },
+        {
+          "name": "hide-text",
+          "url": "https://all-tools.github.io/hide-text-in-image/",
+          "description": "Images Steganography Tools"
+        },
+        {
+          "name": "stegpy",
+          "url": "https://github.com/izcoser/stegpy",
+          "description": "Images Steganography Tools"
+        },
+        {
+          "name": "Aperisolve",
+          "url": "https://aperisolve.fr/",
+          "description": "Steganography Analysis Tool"
+        },
+        {
+          "name": "2",
+          "url": "https://www.aperisolve.com/",
+          "description": "Steganography Analysis Tool"
+        },
+        {
+          "name": "stegextract",
+          "url": "https://github.com/evyatarmeged/stegextract",
+          "description": "Steganography Analysis Tool"
+        },
+        {
+          "name": "Redacted",
+          "url": "https://redacted.app/",
+          "description": "Blur, Pixelate or Blackout parts of Images"
+        },
+        {
+          "name": "Image Scrubber",
+          "url": "https://everestpipkin.github.io/image-scrubber/",
+          "description": "Blur Images / Scrub Metadata"
+        },
+        {
+          "name": "Schizoware",
+          "url": "https://sourceforge.net/projects/schizoware/",
+          "description": "Image Name / Hash Randomizer"
+        },
+        {
+          "name": "Base64 Image",
+          "url": "https://www.base64-image.de/",
+          "description": "Encode / Decode Images"
+        }
+      ]
+    }
+  ]
+}

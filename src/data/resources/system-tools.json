@@ -1,0 +1,3044 @@
+{
+  "id": "system-tools",
+  "slug": "system-tools",
+  "title": "システムツール",
+  "description": "Windows設定、ハードウェア、システム最適化",
+  "icon": "⚙️",
+  "color": "from-zinc-500 to-gray-600",
+  "subcategories": [
+    {
+      "id": "system-tools-general",
+      "title": "一般",
+      "resources": [
+        {
+          "name": "Awesome Windows 11",
+          "url": "https://github.com/awesome-windows11/windows11",
+          "description": "Windows 11 Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "PC-Optimization-Hub",
+          "url": "https://github.com/BoringBoredom/PC-Optimization-Hub",
+          "description": "System Optimization Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "PowerToys",
+          "url": "https://learn.microsoft.com/en-us/windows/powertoys/",
+          "description": "System Tools / Search / Plugins",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Sysinternals",
+          "url": "https://learn.microsoft.com/en-us/sysinternals/",
+          "description": "Advanced System Tools",
+          "starred": true
+        },
+        {
+          "name": "CPU-Z",
+          "url": "https://www.cpuid.com/softwares/cpu-z.html",
+          "description": "System Info Tools",
+          "starred": true
+        },
+        {
+          "name": "winfetch",
+          "url": "https://github.com/lptstr/winfetch",
+          "description": "System Info Tools"
+        },
+        {
+          "name": "CPU Fetch",
+          "url": "https://github.com/Dr-Noob/cpufetch",
+          "description": "System Info Tools"
+        },
+        {
+          "name": "Glow",
+          "url": "https://github.com/turkaysoftware/glow",
+          "description": "System Info Tools"
+        },
+        {
+          "name": "GPU-Z",
+          "url": "https://www.techpowerup.com/download/techpowerup-gpu-z/",
+          "description": "System Info Tools"
+        },
+        {
+          "name": "SuperF4",
+          "url": "https://stefansundin.github.io/superf4/",
+          "description": "Process Killers",
+          "starred": true
+        },
+        {
+          "name": "FKill",
+          "url": "https://github.com/sindresorhus/fkill-cli",
+          "description": "Process Killers"
+        },
+        {
+          "name": "Bulk Crap Uninstaller",
+          "url": "https://www.bcuninstaller.com/",
+          "description": "Bulk Uninstallation Tools",
+          "starred": true
+        },
+        {
+          "name": "Revo Uninstaller",
+          "url": "https://www.revouninstaller.com/products/revo-uninstaller-free/",
+          "description": "Bulk Uninstallation Tools"
+        },
+        {
+          "name": "GeekUninstaller",
+          "url": "https://geekuninstaller.com/",
+          "description": "Bulk Uninstallation Tools"
+        },
+        {
+          "name": "NanaRun",
+          "url": "https://github.com/M2Team/NanaRun",
+          "description": "System Admin Tools"
+        },
+        {
+          "name": "BleachBit",
+          "url": "https://www.bleachbit.org/",
+          "description": "Clean System Storage"
+        },
+        {
+          "name": "PolicyPlus",
+          "url": "https://github.com/Fleex255/PolicyPlus",
+          "description": "Local Group Policy Editor"
+        },
+        {
+          "name": "GhostBuster",
+          "url": "https://bitbucket.org/wvd-vegt/ghostbuster/src/master/",
+          "description": "Remove Non-Present Devices"
+        },
+        {
+          "name": "Device Cleanup Tool",
+          "url": "https://www.majorgeeks.com/files/details/device_cleanup_tool.html",
+          "description": "Remove Non-Present Devices"
+        },
+        {
+          "name": "Should I Remove It?",
+          "url": "https://www.shouldiremoveit.com/",
+          "description": "Program Removal Guide"
+        },
+        {
+          "name": "CoreTemp",
+          "url": "https://www.alcpu.com/CoreTemp/",
+          "description": "Process Monitors"
+        },
+        {
+          "name": "System Informer",
+          "url": "https://systeminformer.sourceforge.io/",
+          "description": "Process Monitors"
+        },
+        {
+          "name": "Why Is This Running?",
+          "url": "https://github.com/pranshuparmar/witr",
+          "description": "Process Tracing / Debugging"
+        },
+        {
+          "name": "ThrottleStop",
+          "url": "https://www.techpowerup.com/download/techpowerup-throttlestop/",
+          "description": "Laptop CPU Monitor / Optimizer"
+        },
+        {
+          "name": "RegExp",
+          "url": "https://github.com/zodiacon/TotalRegistry",
+          "description": "Registry Explorers / Scanners"
+        },
+        {
+          "name": "RegScanner",
+          "url": "https://www.nirsoft.net/utils/regscanner.html",
+          "description": "Registry Explorers / Scanners"
+        },
+        {
+          "name": "ripgrep-all",
+          "url": "https://github.com/phiresky/ripgrep-all",
+          "description": "Registry Explorers / Scanners"
+        },
+        {
+          "name": "Registry-Finder",
+          "url": "https://registry-finder.com/",
+          "description": "Registry Explorers / Scanners"
+        },
+        {
+          "name": "WinbIndex",
+          "url": "https://winbindex.m417z.com/",
+          "description": "Windows System Files / Binaries"
+        },
+        {
+          "name": "OfflineInsiderEnroll",
+          "url": "https://github.com/abbodi1406/offlineinsiderenroll",
+          "description": "Enable Windows Insider without Account",
+          "mirrors": [
+            "https://gitlab.com/stdout12/offlineinsiderenroll",
+            "https://codeberg.org/stdout12/offlineinsiderenroll"
+          ]
+        },
+        {
+          "name": "Rhasspy",
+          "url": "https://rhasspy.readthedocs.io/en/latest/",
+          "description": "Voice Assistant"
+        },
+        {
+          "name": "OpenRecall",
+          "url": "https://github.com/openrecall/openrecall",
+          "description": "Memory Search App / System Recorders"
+        },
+        {
+          "name": "Windrecorder",
+          "url": "https://github.com/yuka-friends/Windrecorder/",
+          "description": "Memory Search App / System Recorders"
+        },
+        {
+          "name": "Time.is",
+          "url": "https://time.is/",
+          "description": "Check Accuracy of System Clock"
+        },
+        {
+          "name": "⁠LenovoLegionToolkit",
+          "url": "https://github.com/XKaguya/LenovoLegionToolkit",
+          "description": "Lenovo Vantage + Hotkeys Replacement for Lenovo Legion Laptops"
+        },
+        {
+          "name": "G-Helper",
+          "url": "https://github.com/seerge/g-helper",
+          "description": "Armoury Crate Replacement for ASUS Laptops"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-system-tweaks",
+      "title": "システムチューニング",
+      "resources": [
+        {
+          "name": "Windhawk",
+          "url": "https://windhawk.net/",
+          "description": "System Tweaking Tools / Warning",
+          "starred": true
+        },
+        {
+          "name": "MajorGeeks Windows Tweaks",
+          "url": "https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html",
+          "description": "System Tweaking Tools / Warning"
+        },
+        {
+          "name": "Winaero",
+          "url": "https://winaero.com/",
+          "description": "System Tweaking Tools / Warning"
+        },
+        {
+          "name": "2",
+          "url": "https://winaerotweaker.com/",
+          "description": "System Tweaking Tools / Warning"
+        },
+        {
+          "name": "StartAllBack",
+          "url": "https://www.startallback.com/",
+          "description": "Tweaked Start Menu & Taskbar / Windows 11 / Fix",
+          "starred": true
+        },
+        {
+          "name": "EverythingToolbar",
+          "url": "https://github.com/srwi/EverythingToolbar",
+          "description": "Everything Search in Taskbar",
+          "starred": true
+        },
+        {
+          "name": "Open Shell",
+          "url": "https://open-shell.github.io/Open-Shell-Menu/",
+          "description": "Classic Start Menus",
+          "starred": true
+        },
+        {
+          "name": "Customizable Skin",
+          "url": "https://github.com/bonzibudd/Fluent-Metro",
+          "description": "Classic Start Menus"
+        },
+        {
+          "name": "StartIsBack",
+          "url": "https://startisback.com/",
+          "description": "Classic Start Menus"
+        },
+        {
+          "name": "Fix",
+          "url": "https://rentry.co/FMHYB64#startxback",
+          "description": "Classic Start Menus"
+        },
+        {
+          "name": "EarTrumpet",
+          "url": "https://eartrumpet.app/",
+          "description": "Tweaked Volume Mixer",
+          "starred": true
+        },
+        {
+          "name": "Volumey",
+          "url": "https://github.com/G-Stas/Volumey",
+          "description": "Tweaked Volume Mixer"
+        },
+        {
+          "name": "Volume2",
+          "url": "https://github.com/irzyxa/Volume2",
+          "description": "Tweaked Volume Mixer"
+        },
+        {
+          "name": "AltSnap",
+          "url": "https://github.com/RamonUnch/AltSnap",
+          "description": "Tweaked Windows Dragging",
+          "starred": true
+        },
+        {
+          "name": "Edge-Uninstall",
+          "url": "https://gist.github.com/ave9858/c3451d9f452389ac7607c99d45edecc6",
+          "description": "Microsoft Edge Removal Script",
+          "starred": true
+        },
+        {
+          "name": "BatUtil",
+          "url": "https://github.com/abbodi1406/BatUtil",
+          "description": "System Scripts"
+        },
+        {
+          "name": "2",
+          "url": "https://gitlab.com/stdout12/batutil",
+          "description": "System Scripts"
+        },
+        {
+          "name": "3",
+          "url": "https://codeberg.org/stdout12/BatUtil",
+          "description": "System Scripts"
+        },
+        {
+          "name": "TechNet-Gallery",
+          "url": "https://github.com/MScholtes/TechNet-Gallery",
+          "description": "System Scripts"
+        },
+        {
+          "name": "Wintoys",
+          "url": "https://apps.microsoft.com/store/detail/wintoys/9P8LTPGCBZXD",
+          "description": "System App Tweaking"
+        },
+        {
+          "name": "Wox",
+          "url": "https://github.com/Wox-launcher/Wox",
+          "description": "Keystroke / App Launchers"
+        },
+        {
+          "name": "Listary",
+          "url": "https://www.listary.com/",
+          "description": "Keystroke / App Launchers"
+        },
+        {
+          "name": "Raycast",
+          "url": "https://www.raycast.com/",
+          "description": "Keystroke / App Launchers"
+        },
+        {
+          "name": "FlowLauncher",
+          "url": "https://www.flowlauncher.com/",
+          "description": "Keystroke / App Launchers"
+        },
+        {
+          "name": "Ueli",
+          "url": "https://ueli.app/",
+          "description": "Keystroke / App Launchers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/oliverschwendener/ueli",
+          "description": "Keystroke / App Launchers"
+        },
+        {
+          "name": "Kando",
+          "url": "https://kando.menu/",
+          "description": "App Launcher / Pie Menu",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Cerebro App",
+          "url": "https://cerebroapp.com/",
+          "description": "Tweaked System Navigation"
+        },
+        {
+          "name": "SmartSystemMenu",
+          "url": "https://github.com/AlexanderPro/SmartSystemMenu",
+          "description": "Tweaked System Menu"
+        },
+        {
+          "name": "Shell",
+          "url": "https://nilesoft.org/",
+          "description": "Tweaked / Custom Context Menus"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/moudey/shell",
+          "description": "Tweaked / Custom Context Menus"
+        },
+        {
+          "name": "RCWM",
+          "url": "https://github.com/GChuf/RCWM",
+          "description": "Tweaked / Custom Context Menus"
+        },
+        {
+          "name": "Explorer Tab Utility",
+          "url": "https://github.com/w4po/ExplorerTabUtility",
+          "description": "Improved / Tweaked File Explorers"
+        },
+        {
+          "name": "Quick Access Popup",
+          "url": "https://www.quickaccesspopup.com/",
+          "description": "File Manager"
+        },
+        {
+          "name": "Spencer",
+          "url": "https://www.the-sz.com/products/spencer/",
+          "description": "Classic Start Menu"
+        },
+        {
+          "name": "yasb",
+          "url": "https://github.com/amnweb/yasb",
+          "description": "Tweaked Taskbar"
+        },
+        {
+          "name": "Taskbar Tweaker",
+          "url": "https://ramensoftware.com/7-taskbar-tweaker",
+          "description": "Taskbar Advanced Features / Win 10"
+        },
+        {
+          "name": "⁠AppGroup",
+          "url": "https://github.com/iandiv/AppGroup",
+          "description": "Create Taskbar App Groups / Folders"
+        },
+        {
+          "name": "RBTray",
+          "url": "https://github.com/benbuck/rbtray",
+          "description": "Minimize any App to Tray"
+        },
+        {
+          "name": "Taskbar Hide",
+          "url": "https://www.eusing.com/hidewindows/bosskey.htm",
+          "description": "Easily Hide / Show Taskbar"
+        },
+        {
+          "name": "QuickLook",
+          "url": "https://github.com/QL-Win/QuickLook",
+          "description": "macOS Quick Look for Windows / Scan Note"
+        },
+        {
+          "name": "MSEdgeRedirect",
+          "url": "https://github.com/rcmaehl/MSEdgeRedirect",
+          "description": "Redirect Microsoft Edge"
+        },
+        {
+          "name": "TopNotify",
+          "url": "https://github.com/SamsidParty/TopNotify",
+          "description": "Move Windows Notifications"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-package-managers",
+      "title": "パッケージマネージャー",
+      "resources": [
+        {
+          "name": "WinGet",
+          "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget",
+          "description": "CLI Package Manager / Browse / Auto Update",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "UniGetUI",
+          "url": "https://www.marticliment.com/unigetui/",
+          "description": "GUI for Popular Package Managers",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Scoop",
+          "url": "https://scoop.sh/",
+          "description": "Portable Package Manager",
+          "starred": true
+        },
+        {
+          "name": "sfsu",
+          "url": "https://github.com/winpax/sfsu/",
+          "description": "Fast Scoop Utilities",
+          "starred": true
+        },
+        {
+          "name": "hok",
+          "url": "https://github.com/chawyehsu/hok",
+          "description": "Fast Scoop Utilities"
+        },
+        {
+          "name": "Chocolatey",
+          "url": "https://chocolatey.org/",
+          "description": "Package Manager / GUI",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "RuckZuck",
+          "url": "https://ruckzuck.tools/",
+          "description": "Package Manager"
+        },
+        {
+          "name": "RepoHub",
+          "url": "https://repo-hub.com/",
+          "description": "Package Manager / Web-Based",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Topgrade",
+          "url": "https://github.com/topgrade-rs/topgrade",
+          "description": "CLI Package Manager"
+        },
+        {
+          "name": "Silent Install",
+          "url": "https://www.silentinstall.org/",
+          "description": "Build Multi-Program Installers"
+        },
+        {
+          "name": "0Install",
+          "url": "https://0install.net/",
+          "description": "Decentralized Cross-Platform Package Manager"
+        },
+        {
+          "name": "portableapps",
+          "url": "https://portableapps.com/download",
+          "description": "Package Manager for Portable Apps"
+        },
+        {
+          "name": "Baulk",
+          "url": "https://github.com/baulk/baulk",
+          "description": "Minimalist Package Manager"
+        },
+        {
+          "name": "NirLauncher",
+          "url": "https://launcher.nirsoft.net/",
+          "description": "Portable Package Manager for NirSoft Utilities"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-task-automation",
+      "title": "タスク自動化",
+      "resources": [
+        {
+          "name": "AutoHotkey",
+          "url": "https://www.autohotkey.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Resources",
+          "url": "https://github.com/ahkscript/awesome-AutoHotkey",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/Aat7KHmG7v",
+          "description": ""
+        },
+        {
+          "name": "Scheduler",
+          "url": "https://www.splinterware.com/products/scheduler.html",
+          "description": "System Task Scheduler"
+        },
+        {
+          "name": "TaskRunner",
+          "url": "https://www.keyefficiency.com/",
+          "description": "System Task Scheduler"
+        },
+        {
+          "name": "AutoIt",
+          "url": "https://www.autoitscript.com/",
+          "description": ""
+        },
+        {
+          "name": "Resources",
+          "url": "https://github.com/J2TEAM/awesome-AutoIt",
+          "description": ""
+        },
+        {
+          "name": "Tinytask",
+          "url": "https://tinytask.net/",
+          "description": ""
+        },
+        {
+          "name": "MacroRecorder",
+          "url": "https://www.macrorecorder.com/",
+          "description": ""
+        },
+        {
+          "name": "sikulix",
+          "url": "http://sikulix.com/",
+          "description": ""
+        },
+        {
+          "name": "ChoEazyCopy",
+          "url": "https://github.com/Cinchoo/ChoEazyCopy",
+          "description": ""
+        },
+        {
+          "name": "Organize",
+          "url": "https://organize.readthedocs.io",
+          "description": "Automated File Manager",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system-tools-terminal-cli",
+      "title": "ターミナル / CLI",
+      "resources": [
+        {
+          "name": "⁠Awesome Terminals",
+          "url": "https://github.com/cdleon/awesome-terminals",
+          "description": "Terminal Emulator List",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "terminals-are-sexy",
+          "url": "https://terminalsare.sexy/",
+          "description": "Terminal Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome CLI Apps",
+          "url": "https://github.com/agarrharr/awesome-cli-apps",
+          "description": "Command Line Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Command Line Tools",
+          "url": "https://github.com/learn-anything/command-line-tools",
+          "description": "Command Line Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "ss64",
+          "url": "https://ss64.com/",
+          "description": "Command Line Reference Index",
+          "starred": true
+        },
+        {
+          "name": "Windows Terminal",
+          "url": "https://www.microsoft.com/store/productId/9N0DX20HK701",
+          "description": "Windows Terminal Emulators"
+        },
+        {
+          "name": "2",
+          "url": "https://github.com/microsoft/terminal/",
+          "description": "Windows Terminal Emulators"
+        },
+        {
+          "name": "ConEmu",
+          "url": "https://github.com/Maximus5/ConEmu",
+          "description": "Windows Terminal Emulators"
+        },
+        {
+          "name": "Tabby",
+          "url": "https://tabby.sh/",
+          "description": "Windows Terminal Emulators"
+        },
+        {
+          "name": "MobaXterm",
+          "url": "https://mobaxterm.mobatek.net/",
+          "description": "Windows Terminal Emulators"
+        },
+        {
+          "name": "WezTerm",
+          "url": "https://wezfurlong.org/wezterm/",
+          "description": "Windows Terminal Emulators"
+        },
+        {
+          "name": "PowerShell",
+          "url": "https://github.com/powershell/powershell",
+          "description": "Microsoft PowerShell / Windows, Mac, Linux"
+        },
+        {
+          "name": "BusyBox",
+          "url": "https://frippery.org/busybox/",
+          "description": "Unix Commands for Windows"
+        },
+        {
+          "name": "Clink",
+          "url": "https://github.com/chrisant996/clink",
+          "description": "Command Line Editing"
+        },
+        {
+          "name": "Nushell",
+          "url": "https://www.nushell.sh/",
+          "description": "Alt Shell"
+        },
+        {
+          "name": "Tiny Care Terminal",
+          "url": "https://github.com/notwaldorf/tiny-care-terminal",
+          "description": "Terminal Dashboard That Cares"
+        },
+        {
+          "name": "Command Challenge",
+          "url": "https://cmdchallenge.com/",
+          "description": "Command Line Learning"
+        },
+        {
+          "name": "Mintty",
+          "url": "https://mintty.github.io/",
+          "description": "Cygwin Terminal Emulator"
+        },
+        {
+          "name": "GetDNote",
+          "url": "https://www.getdnote.com/",
+          "description": "Command Line Notebook"
+        },
+        {
+          "name": "LeanandMean",
+          "url": "https://github.com/AveYo/LeanAndMean",
+          "description": "Powershell Snippets / Use with Caution"
+        },
+        {
+          "name": "PowerShell Scripts",
+          "url": "https://github.com/fleschutz/PowerShell",
+          "description": "Shell Scripts"
+        },
+        {
+          "name": "PowershellGallery",
+          "url": "https://www.powershellgallery.com/",
+          "description": "Shell Scripts"
+        },
+        {
+          "name": "WindowsPowerShell",
+          "url": "https://github.com/stevencohn/WindowsPowerShell",
+          "description": "Shell Scripts"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-remote-desktop",
+      "title": "リモートデスクトップ",
+      "resources": [
+        {
+          "name": "Parsec",
+          "url": "https://parsec.app/",
+          "description": "Desktop Client / X",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "RustDesk",
+          "url": "https://rustdesk.com/",
+          "description": "Desktop Client",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Aspia",
+          "url": "https://aspia.org/",
+          "description": "Desktop Client",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Sunshine",
+          "url": "https://app.lizardbyte.dev/Sunshine/",
+          "description": "Remote Server for Moonlight / Mobile",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Apollo",
+          "url": "https://github.com/ClassicOldSong/Apollo",
+          "description": "Remote Server for Moonlight / Mobile",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Moonlight",
+          "url": "https://moonlight-stream.org/",
+          "description": "Gaming Remote Desktop Client",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Kasm",
+          "url": "https://kasm.com/",
+          "description": "Container Streaming Platform / Resource Intensive / Guide",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Arcane",
+          "url": "https://github.com/PhrozenIO/Arcane",
+          "description": "Desktop Client"
+        },
+        {
+          "name": "HopToDesk",
+          "url": "https://www.hoptodesk.com/",
+          "description": "Desktop Client / GitLab"
+        },
+        {
+          "name": "CoScreen",
+          "url": "https://www.coscreen.co/",
+          "description": "Desktop Client"
+        },
+        {
+          "name": "⁠DWS",
+          "url": "https://www.dwservice.net/",
+          "description": "Web-Based"
+        },
+        {
+          "name": "Remote Desktop Connection",
+          "url": "https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c",
+          "description": "Desktop Client / Built Into Windows"
+        },
+        {
+          "name": "Remotly",
+          "url": "https://remotly.com/",
+          "description": "Desktop Client"
+        },
+        {
+          "name": "Bananas",
+          "url": "https://getbananas.net/",
+          "description": "Desktop Client",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ChromeRemoteDesktop",
+          "url": "https://remotedesktop.google.com/",
+          "description": "Web-Based"
+        },
+        {
+          "name": "InputDirector",
+          "url": "https://www.inputdirector.com/",
+          "description": "Multi-Computer Client"
+        },
+        {
+          "name": "Mouse Without Borders",
+          "url": "https://www.microsoft.com/en-us/garage/wall-of-fame/mouse-without-borders/",
+          "description": "Multi-Computer Client"
+        },
+        {
+          "name": "p2p",
+          "url": "https://github.com/miroslavpejic85/p2p",
+          "description": "Portable Client"
+        },
+        {
+          "name": "Screensy",
+          "url": "https://screensy.marijn.it/",
+          "description": "Web-Based",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Screego",
+          "url": "https://app.screego.net/",
+          "description": "Web-Based",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Screen-Sharing",
+          "url": "https://share-your-screen.vercel.app/",
+          "description": "Web-Based",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "TigerVNC",
+          "url": "https://tigervnc.org/",
+          "description": "VNC Client",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "TightVNC",
+          "url": "https://www.tightvnc.com/",
+          "description": "VNC Client"
+        },
+        {
+          "name": "noVNC",
+          "url": "https://novnc.com/info.html",
+          "description": "JavaScript VNC Client",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system-tools-clipboard-managers",
+      "title": "クリップボードマネージャー",
+      "resources": [
+        {
+          "name": "Ditto",
+          "url": "https://ditto-cp.sourceforge.io/",
+          "description": "Clipboard Manager",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "PasteBar",
+          "url": "https://www.pastebar.app/",
+          "description": "Clipboard Manager",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "CrossPaste",
+          "url": "https://crosspaste.com/",
+          "description": "Clipboard Manager",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ArsClip",
+          "url": "https://www.joejoesoft.com/vcms/97/",
+          "description": "Clipboard Manager"
+        },
+        {
+          "name": "ClipAngel",
+          "url": "https://sourceforge.net/projects/clip-angel/",
+          "description": "Clipboard Manager"
+        },
+        {
+          "name": "CopyQ",
+          "url": "https://hluk.github.io/CopyQ/",
+          "description": "Clipboard Managers with Editing and Scripting Features"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/hluk/CopyQ",
+          "description": "Clipboard Managers with Editing and Scripting Features"
+        },
+        {
+          "name": "XClipper",
+          "url": "https://kaustubhpatange.github.io/XClipper/",
+          "description": "Clipboard Managers with Editing and Scripting Features"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/KaustubhPatange/XClipper",
+          "description": "Clipboard Managers with Editing and Scripting Features"
+        },
+        {
+          "name": "MultiClipBoardSlots",
+          "url": "https://www.softwareok.com/?seite=Microsoft/MultiClipBoardSlots",
+          "description": "Extend Clipboard by 10 Memory Slots"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-window-managers",
+      "title": "ウィンドウマネージャー",
+      "resources": [
+        {
+          "name": "GlazeWM",
+          "url": "https://github.com/glzr-io/glazewm",
+          "description": "Tiling Window Manager",
+          "starred": true
+        },
+        {
+          "name": "Komorebi",
+          "url": "https://github.com/LGUG2Z/komorebi",
+          "description": "Tiling Window Manager",
+          "starred": true
+        },
+        {
+          "name": "WorkSpacer",
+          "url": "https://workspacer.org/",
+          "description": "Tiling Window Manager",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/workspacer/workspacer",
+          "description": "Tiling Window Manager"
+        },
+        {
+          "name": "⁠Seelen UI",
+          "url": "https://github.com/eythaann/Seelen-UI",
+          "description": "Tiling Window Manager",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Whim",
+          "url": "https://github.com/dalyIsaac/Whim/",
+          "description": "Pluggable Dynamic Window Manager"
+        },
+        {
+          "name": "DWM",
+          "url": "https://github.com/prabirshrestha/dwm-win32",
+          "description": "Port of X11 dwm to Windows"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-virtual-machines",
+      "title": "仮想マシン",
+      "resources": [
+        {
+          "name": "Awesome Web Desktops",
+          "url": "https://github.com/syxanash/awesome-web-desktops",
+          "description": "Browser Operating Systems / VMs",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Simone's Computer",
+          "url": "https://simone.computer/#/webdesktops",
+          "description": "Browser Operating Systems / VMs",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "VMware Workstation",
+          "url": "https://www.techpowerup.com/download/vmware-workstation-pro/",
+          "description": "Virtual Machine / macOS VM",
+          "starred": true
+        },
+        {
+          "name": "QEMU",
+          "url": "https://www.qemu.org/",
+          "description": "Virtual Machine / Use w / Virt-Manager or Vagrantup / Docker Container / GitLab",
+          "starred": true
+        },
+        {
+          "name": "VirtualBox",
+          "url": "https://www.virtualbox.org/",
+          "description": "Virtual Machine / Portable",
+          "starred": true
+        },
+        {
+          "name": "Virt-Manager",
+          "url": "https://virt-manager.org/",
+          "description": "Virtual Machine Managers",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/virt-manager/virt-manager",
+          "description": "Virtual Machine Managers"
+        },
+        {
+          "name": "Vagrantup",
+          "url": "https://www.vagrantup.com/",
+          "description": "Virtual Machine Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/hashicorp/vagrant",
+          "description": "Virtual Machine Managers"
+        },
+        {
+          "name": "Looking Glass",
+          "url": "https://looking-glass.io/",
+          "description": "Kernel-Based Virtual Machine for VGA PCI Pass-Through",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Hyper-V",
+          "url": "https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/",
+          "description": "Virtual Machine"
+        },
+        {
+          "name": "Denodo Test",
+          "url": "https://community.denodo.com/test-drives/",
+          "description": "Virtual Machine"
+        },
+        {
+          "name": "OSBoxes",
+          "url": "https://www.osboxes.org/",
+          "description": "Preinstalled Virtual Machine"
+        },
+        {
+          "name": "JSLinux",
+          "url": "https://bellard.org/jslinux/",
+          "description": "Online Linux Virtual Machines"
+        },
+        {
+          "name": "QuickEmu",
+          "url": "https://github.com/quickemu-project/quickemu",
+          "description": "Virtual Machine Creator"
+        },
+        {
+          "name": "Dexpot",
+          "url": "https://www.dexpot.de/",
+          "description": "Virtual Machine Creator"
+        },
+        {
+          "name": "WSL",
+          "url": "https://learn.microsoft.com/en-us/windows/wsl/",
+          "description": "Run Linux on Windows / Resources / Startup Launcher / Wayland / X Server",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠Dockur",
+          "url": "https://github.com/dockur",
+          "description": "Run Windows / macOS in Docker Containers"
+        },
+        {
+          "name": "Virtual x86",
+          "url": "https://copy.sh/v86/",
+          "description": "x86-compatible OS Emulators"
+        },
+        {
+          "name": "PCjs Machines",
+          "url": "https://www.pcjs.org/",
+          "description": "Classic Computer Emulators"
+        },
+        {
+          "name": "InfiniteMac",
+          "url": "https://infinitemac.org/",
+          "description": "Apple OS Emulators"
+        },
+        {
+          "name": "winevdm",
+          "url": "https://github.com/otya128/winevdm",
+          "description": "16-bit Windows on 64-bit Systems"
+        },
+        {
+          "name": "Blink",
+          "url": "https://github.com/jart/blink",
+          "description": "Linux Emulator for Windows"
+        },
+        {
+          "name": "Dockerholics",
+          "url": "https://github.com/petersem/dockerholics",
+          "description": "Docker Apps"
+        },
+        {
+          "name": "WebCatalog",
+          "url": "https://webcatalog.io",
+          "description": "Turn Sites into Desktop Apps"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-hackintosh",
+      "title": "Hackintosh",
+      "resources": [
+        {
+          "name": "Hackintosh",
+          "url": "https://hackintosh.com/",
+          "description": "Hackintosh Building Guides",
+          "starred": true
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://www.reddit.com/r/hackintosh/",
+          "description": "Hackintosh Building Guides"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/u8V7N5C",
+          "description": "Hackintosh Building Guides"
+        },
+        {
+          "name": "Dortania",
+          "url": "https://dortania.github.io/OpenCore-Install-Guide/",
+          "description": "Hackintosh Installation Guide",
+          "starred": true
+        },
+        {
+          "name": "OpenCore-Legacy-Patcher",
+          "url": "https://dortania.github.io/OpenCore-Legacy-Patcher",
+          "description": "macOS on Unsupported Hardware"
+        },
+        {
+          "name": "OneClick-macOS",
+          "url": "https://github.com/notAperson535/OneClick-macOS-Simple-KVM",
+          "description": "macOS VM with QEMU"
+        },
+        {
+          "name": "Emaculation",
+          "url": "https://www.emaculation.com/",
+          "description": "Virtual macOS Environments"
+        },
+        {
+          "name": "Hackintosh Tools",
+          "url": "https://rentry.org/hackintosh-tools",
+          "description": ""
+        },
+        {
+          "name": "PSU Calculator",
+          "url": "https://www.newegg.com/tools/power-supply-calculator/",
+          "description": "Find Compatible Power Supplies",
+          "starred": true
+        },
+        {
+          "name": "DeviceTests",
+          "url": "https://devicetests.com/",
+          "description": "Multiple Device Tests"
+        },
+        {
+          "name": "NotCPUCores",
+          "url": "https://github.com/rcmaehl/NotCPUCores",
+          "description": "CPU Optimizer"
+        },
+        {
+          "name": "BES",
+          "url": "https://mion.yosei.fi/BES/",
+          "description": "CPU Optimizer"
+        },
+        {
+          "name": "ParkControl",
+          "url": "https://bitsum.com/parkcontrol/",
+          "description": "CPU Optimizer"
+        },
+        {
+          "name": "QuickCPU",
+          "url": "https://coderbag.com/product/quickcpu",
+          "description": "CPU Optimizer"
+        },
+        {
+          "name": "Process Lasso",
+          "url": "https://bitsum.com/",
+          "description": "CPU Optimizer"
+        },
+        {
+          "name": "Ozone3D",
+          "url": "https://www.ozone3d.net/index_softwares.php",
+          "description": "System Benchmarking"
+        },
+        {
+          "name": "UNIGINE Benchmarks",
+          "url": "https://benchmark.unigine.com/",
+          "description": "System Benchmarking"
+        },
+        {
+          "name": "OCCT",
+          "url": "https://www.ocbase.com/occt/personal",
+          "description": "System Benchmarking"
+        },
+        {
+          "name": "Testmem5",
+          "url": "https://www.overclock.net/threads/memory-testing-with-testmem5-tm5-with-custom-configs.1751608/",
+          "description": "Memory Benchmarking"
+        },
+        {
+          "name": "MemTest",
+          "url": "https://www.memtest.org/",
+          "description": "Memory Diagnostic Tool"
+        },
+        {
+          "name": "SDIO",
+          "url": "https://glenn.delahoy.com/snappy-driver-installer-origin",
+          "description": "Update / Install Missing Drivers / Note"
+        },
+        {
+          "name": "Drivers Collection",
+          "url": "https://driverscollection.com/",
+          "description": "Update / Install Missing Drivers / Note"
+        },
+        {
+          "name": "Driverscape",
+          "url": "https://www.driverscape.com/",
+          "description": "Update / Install Missing Drivers / Note"
+        },
+        {
+          "name": "DriverStoreExplorer",
+          "url": "https://github.com/lostindark/DriverStoreExplorer",
+          "description": "Update / Install Missing Drivers / Note"
+        },
+        {
+          "name": "VOGONS Drivers",
+          "url": "https://vogonsdrivers.com/",
+          "description": "Vintage Computer Hardware Forum / Forums"
+        }
+      ],
+      "note": "Generating a unique SMBIOS is crucial for Apple services like iMessage and iCloud to function properly."
+    },
+    {
+      "id": "system-tools-hardware-monitors",
+      "title": "ハードウェアモニター",
+      "resources": [
+        {
+          "name": "HWiNFO",
+          "url": "https://www.hwinfo.com/",
+          "description": "System Info & Monitoring",
+          "starred": true
+        },
+        {
+          "name": "Traffic Monitor",
+          "url": "https://github.com/zhongyang219/TrafficMonitor/",
+          "description": "Network & Hardware Monitor / Use Lite Version"
+        },
+        {
+          "name": "CoolerControl",
+          "url": "https://docs.coolercontrol.org/",
+          "description": "Cooling Device Monitor / GitLab",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "BatteryMode",
+          "url": "https://en.bmode.tarcode.ru/",
+          "description": "System Tray Battery Percentage / Managers",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "HWMonitor",
+          "url": "https://www.cpuid.com/softwares/hwmonitor.html",
+          "description": "Hardware Monitor"
+        },
+        {
+          "name": "fastfetch",
+          "url": "https://github.com/fastfetch-cli/fastfetch",
+          "description": "System Info & Monitoring"
+        },
+        {
+          "name": "⁠btop4win",
+          "url": "https://github.com/aristocratos/btop4win",
+          "description": "System Info & Monitoring"
+        },
+        {
+          "name": "⁠NeoHtop",
+          "url": "https://abdenasser.github.io/neohtop/",
+          "description": "Task Manager Alt"
+        },
+        {
+          "name": "Task Manager DeLuxe",
+          "url": "https://www.mitec.cz/tmx.html",
+          "description": "Task Manager Alt"
+        },
+        {
+          "name": "Libre Hardware Monitor",
+          "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+          "description": "Updated Fork of Open Hardware Monitor"
+        },
+        {
+          "name": "FanControl",
+          "url": "https://getfancontrol.com/",
+          "description": "PC Fan Controllers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Rem0o/FanControl.Releases",
+          "description": "PC Fan Controllers"
+        },
+        {
+          "name": "FanCtrl",
+          "url": "https://github.com/lich426/FanCtrl",
+          "description": "PC Fan Controllers"
+        },
+        {
+          "name": "bottom",
+          "url": "https://github.com/ClementTsang/bottom",
+          "description": "Terminal Hardware Monitors"
+        },
+        {
+          "name": "Glances",
+          "url": "https://nicolargo.github.io/glances/",
+          "description": "Terminal Hardware Monitors"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/nicolargo/glances",
+          "description": "Terminal Hardware Monitors"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-gpu-tools",
+      "title": "GPU ツール",
+      "resources": [
+        {
+          "name": "NVTOP",
+          "url": "https://github.com/Syllo/nvtop",
+          "description": "GPU / Accelerator Process Monitor",
+          "starred": true
+        },
+        {
+          "name": "NVCleanstall",
+          "url": "https://www.techpowerup.com/download/techpowerup-nvcleanstall/",
+          "description": "NVIDIA Driver Packages",
+          "starred": true
+        },
+        {
+          "name": "NVSlimmer",
+          "url": "https://forums.guru3d.com/threads/nvslimmer-nvidia-driver-slimming-utility-continued.457504/",
+          "description": "NVIDIA Driver Packages"
+        },
+        {
+          "name": "Display Driver Uninstaller",
+          "url": "https://www.wagnardsoft.com/display-driver-uninstaller-ddu-",
+          "description": "Display Driver Removal Tool",
+          "tags": [
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://www.guru3d.com/download/display-driver-uninstaller-download"
+          ]
+        },
+        {
+          "name": "TinyNvidiaUpdateChecker",
+          "url": "https://github.com/ElPumpo/TinyNvidiaUpdateChecker",
+          "description": "NVIDIA GPU Update Checker"
+        },
+        {
+          "name": "nvidiaProfileInspector",
+          "url": "https://github.com/Orbmu2k/nvidiaProfileInspector",
+          "description": "Modify / View Hidden NVIDIA Settings / Guide"
+        },
+        {
+          "name": "NvidiaProfileInspectorRevamped",
+          "url": "https://github.com/xHybred/NvidiaProfileInspectorRevamped",
+          "description": "Modify / View Hidden NVIDIA Settings / Guide"
+        },
+        {
+          "name": "RadeonSoftwareSlimmer",
+          "url": "https://github.com/GSDragoon/RadeonSoftwareSlimmer",
+          "description": "Debloat AMD Drivers"
+        },
+        {
+          "name": "R.ID",
+          "url": "https://rdn-id.com/",
+          "description": "AMD 3rd Party Drivers",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "PresentMon",
+          "url": "https://github.com/GameTechDev/PresentMon",
+          "description": "GPU Benchmarking"
+        },
+        {
+          "name": "Universal x86 Tuning Utility",
+          "url": "https://amdaputuningutility.com/",
+          "description": "Laptop GPU Controller",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "RyzenAdj",
+          "url": "https://github.com/FlyGoat/RyzenAdj",
+          "description": "Ryzen Laptop GPU Controller"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-disk-tools",
+      "title": "ディスクツール",
+      "resources": [
+        {
+          "name": "Awesome Storage",
+          "url": "https://github.com/okhosting/awesome-storage",
+          "description": "File Storage Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome DataHoarding",
+          "url": "https://github.com/simon987/awesome-datahoarding",
+          "description": "Data Hoarding Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "WizTree",
+          "url": "https://www.diskanalyzer.com/",
+          "description": "Disk Usage Analyzers",
+          "starred": true
+        },
+        {
+          "name": "TreeSize",
+          "url": "https://www.jam-software.com/treesize",
+          "description": "Disk Usage Analyzers"
+        },
+        {
+          "name": "WinDirStat",
+          "url": "https://windirstat.net/",
+          "description": "Disk Usage Analyzers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/windirstat/windirstat/",
+          "description": "Disk Usage Analyzers"
+        },
+        {
+          "name": "CrystalDiskMark",
+          "url": "https://crystalmark.info/en/software/crystaldiskmark/",
+          "description": "Disk Benchmarking Tools",
+          "starred": true
+        },
+        {
+          "name": "CCISOBench",
+          "url": "https://ccsiobench.com/",
+          "description": "Disk Benchmarking Tools"
+        },
+        {
+          "name": "GParted",
+          "url": "https://gparted.org/",
+          "description": "Partition Managers",
+          "starred": true
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.gnome.org/GNOME/gparted/",
+          "description": "Partition Managers"
+        },
+        {
+          "name": "MiniTool Partition Wizard",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download#wiki_.25BA_software_sites",
+          "description": "Partition Managers"
+        },
+        {
+          "name": "AOMEI Partition Assistant",
+          "url": "https://www.diskpart.com/",
+          "description": "Partition Managers"
+        },
+        {
+          "name": "Features",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download#wiki_.25BA_software_sites",
+          "description": "Partition Managers"
+        },
+        {
+          "name": "Validrive",
+          "url": "https://www.grc.com/validrive.htm",
+          "description": "Check True Storage Size of USB Devices",
+          "starred": true
+        },
+        {
+          "name": "TrueNAS",
+          "url": "https://www.truenas.com/",
+          "description": "Storage System"
+        },
+        {
+          "name": "QDirStat",
+          "url": "https://github.com/shundhammer/qdirstat",
+          "description": "Directory Statistics"
+        },
+        {
+          "name": "CrystalDiskInfo",
+          "url": "https://crystalmark.info/en/software/crystaldiskinfo/",
+          "description": "Drive Diagnostics"
+        },
+        {
+          "name": "Warning",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/crystaldiskinfo.md",
+          "description": "Drive Diagnostics"
+        },
+        {
+          "name": "Scrutiny",
+          "url": "https://github.com/AnalogJ/scrutiny",
+          "description": "Drive Diagnostics"
+        },
+        {
+          "name": "GSmartControl",
+          "url": "https://gsmartcontrol.shaduri.dev/",
+          "description": "Drive Diagnostics"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ashaduri/gsmartcontrol",
+          "description": "Drive Diagnostics"
+        },
+        {
+          "name": "smartmontools",
+          "url": "https://www.smartmontools.org/",
+          "description": "Drive Diagnostics"
+        },
+        {
+          "name": "Macrorit Partition Expert",
+          "url": "https://macrorit.com/partition-magic-manager/partition-expert-download.html",
+          "description": "Disk Usage Analyzer"
+        },
+        {
+          "name": "Diskovery",
+          "url": "https://diskovery.io/",
+          "description": "Disk Usage Analyzer"
+        },
+        {
+          "name": "Gdu",
+          "url": "https://github.com/dundee/gdu",
+          "description": "Disk Usage Analyzer with Parallel Processing"
+        },
+        {
+          "name": "dua",
+          "url": "https://lib.rs/crates/dua-cli",
+          "description": "Disk Usage Analyzer with Parallel Processing"
+        },
+        {
+          "name": "Erdtree",
+          "url": "https://github.com/solidiquis/erdtree",
+          "description": "Cross-Platform Disk Usage Analyzer"
+        },
+        {
+          "name": "PC Manager",
+          "url": "https://pcmanager-en.microsoft.com/",
+          "description": "Disk Managers / Cleanup"
+        },
+        {
+          "name": "Air Live Drive",
+          "url": "https://www.airlivedrive.com/en/",
+          "description": "Mount Cloud Drives as Local Disks"
+        },
+        {
+          "name": "SFTPDrive",
+          "url": "https://www.callback.com/sftpdrive",
+          "description": "Mount SFTP Servers as Local Disks"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-monitor-tools",
+      "title": "Monitor ツール",
+      "resources": [
+        {
+          "name": "DisplayFusion",
+          "url": "https://www.displayfusion.com/",
+          "description": "Dual Monitor Tools",
+          "starred": true
+        },
+        {
+          "name": "Dual Monitor Tool",
+          "url": "https://sourceforge.net/projects/dualmonitortool/",
+          "description": "Dual Monitor Tools"
+        },
+        {
+          "name": "f.lux",
+          "url": "https://justgetflux.com/",
+          "description": "Auto-Adjust Display Color / Temperature",
+          "starred": true
+        },
+        {
+          "name": "LightBulb",
+          "url": "https://github.com/Tyrrrz/LightBulb",
+          "description": "Auto-Adjust Display Color / Temperature"
+        },
+        {
+          "name": "ScreenTemperature",
+          "url": "https://github.com/massaiTHEdog1/ScreenTemperature",
+          "description": "Auto-Adjust Display Color / Temperature"
+        },
+        {
+          "name": "Monitorian",
+          "url": "https://github.com/emoacht/Monitorian",
+          "description": "Adjust Monitor Brightness",
+          "starred": true
+        },
+        {
+          "name": "Twinkle Tray",
+          "url": "https://twinkletray.com/",
+          "description": "Adjust Monitor Brightness"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/xanderfrangos/twinkle-tray",
+          "description": "Adjust Monitor Brightness"
+        },
+        {
+          "name": "Dimmer",
+          "url": "https://www.nelsonpires.com/software/dimmer",
+          "description": "Adjust Monitor Brightness"
+        },
+        {
+          "name": "EIZO",
+          "url": "https://www.eizo.be/monitor-test/",
+          "description": "Monitor Performance Tests"
+        },
+        {
+          "name": "Monitor",
+          "url": "https://www.monitortests.com/",
+          "description": "Monitor Performance Tests"
+        },
+        {
+          "name": "LCDTech",
+          "url": "https://lcdtech.info/en/tests/",
+          "description": "Monitor Performance Tests"
+        },
+        {
+          "name": "TestUFO",
+          "url": "https://www.testufo.com/",
+          "description": "Monitor Framerate Test"
+        },
+        {
+          "name": "LittleBigMouse",
+          "url": "https://github.com/mgth/LittleBigMouse",
+          "description": "DPI Test"
+        },
+        {
+          "name": "Scalizer",
+          "url": "https://github.com/wonmor/Scalizer-Windows",
+          "description": "Auto DPI Scaling / YouTube"
+        },
+        {
+          "name": "ICM",
+          "url": "https://claraiscute.neocities.org/Guides/ICM/",
+          "description": "ICC Profiles and Monitor Calibration",
+          "mirrors": [
+            "https://claraiscute.pages.dev/Guides/ICM/"
+          ]
+        },
+        {
+          "name": "Display Calc",
+          "url": "https://www.tools.rodrigopolo.com/display_calc/",
+          "description": "Display Distance / Dimension Calculator"
+        },
+        {
+          "name": "Multi-Monitor Calculator",
+          "url": "https://multimonitorcalculator.com/",
+          "description": "Dual-Monitor Setup Planning / Tests"
+        },
+        {
+          "name": "Wide Gamut",
+          "url": "https://www.wide-gamut.com/",
+          "description": "Color Compatibility Test"
+        },
+        {
+          "name": "⁠novideo_srgb",
+          "url": "https://github.com/ledoge/novideo_srgb",
+          "description": "Restrict NVIDIA GPUs to sRGB / Prevent Oversaturation"
+        },
+        {
+          "name": "Dead.Pixel",
+          "url": "https://lcdtech.info/en/tests/dead.pixel.htm",
+          "description": "Dead Pixel Test"
+        },
+        {
+          "name": "JScreenFix",
+          "url": "https://www.jscreenfix.com/",
+          "description": "Repair Stuck Pixels"
+        },
+        {
+          "name": "CenterOfMyScreen",
+          "url": "https://centerofmyscreen.com/",
+          "description": "Find Center of Monitor"
+        },
+        {
+          "name": "ShowDesktopOneMonitor",
+          "url": "https://github.com/ruzrobert/ShowDesktopOneMonitor",
+          "description": "Show Desktop for Only One Monitor"
+        },
+        {
+          "name": "⁠Virtual Display Driver",
+          "url": "https://github.com/VirtualDrivers/Virtual-Display-Driver",
+          "description": "Virtual Display Driver"
+        },
+        {
+          "name": "Deskreen",
+          "url": "https://deskreen.com/",
+          "description": "Use Mobile Device as Monitor"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pavlobu/deskreen",
+          "description": "Use Mobile Device as Monitor"
+        },
+        {
+          "name": "SpaceDesk",
+          "url": "https://www.spacedesk.net/",
+          "description": "Use Mobile Device as Monitor"
+        },
+        {
+          "name": "ShaderGlass",
+          "url": "https://github.com/mausimus/ShaderGlass",
+          "description": "Custom Screen Shaders"
+        },
+        {
+          "name": "DaltonLens",
+          "url": "https://daltonlens.org/",
+          "description": "Color Blindness Filters"
+        },
+        {
+          "name": "Toptal",
+          "url": "https://www.toptal.com/designers/colorfilter",
+          "description": "Color Blindness Filters"
+        },
+        {
+          "name": "NVDA",
+          "url": "https://www.nvaccess.org/download/",
+          "description": "Screen Reader for Blind Users",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system-tools-mouse-keyboard",
+      "title": "マウス / キーボード",
+      "resources": [
+        {
+          "name": "r/MechanicalKeyboards Wiki",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/wiki/index",
+          "description": "Mechanical Keyboard Resources",
+          "starred": true
+        },
+        {
+          "name": "Hotkey Cheatsheet",
+          "url": "https://hotkeycheatsheet.com/",
+          "description": "Hotkey Cheatsheets",
+          "starred": true
+        },
+        {
+          "name": "KeyCombiner",
+          "url": "https://keycombiner.com/",
+          "description": "Hotkey Cheatsheets"
+        },
+        {
+          "name": "Use The Keyboard",
+          "url": "https://usethekeyboard.com/",
+          "description": "Hotkey Cheatsheets"
+        },
+        {
+          "name": "VIA",
+          "url": "https://usevia.app/",
+          "description": "Custom Keyboard Layouts / Remapping",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/the-via/app",
+          "description": "Custom Keyboard Layouts / Remapping"
+        },
+        {
+          "name": "SharpKeys",
+          "url": "https://github.com/randyrants/sharpkeys/",
+          "description": "Custom Keyboard Layouts / Remapping"
+        },
+        {
+          "name": "Kanata",
+          "url": "https://github.com/jtroo/kanata",
+          "description": "Custom Keyboard Layouts / Remapping"
+        },
+        {
+          "name": "keymapper",
+          "url": "https://github.com/houmain/keymapper",
+          "description": "Custom Keyboard Layouts / Remapping"
+        },
+        {
+          "name": "Ergogen",
+          "url": "https://ergogen.xyz/",
+          "description": "Custom Keyboard Layouts / Remapping"
+        },
+        {
+          "name": "Mahou",
+          "url": "https://gitea.com/BladeMight/Mahou",
+          "description": "Custom Keyboard Layouts / Remapping"
+        },
+        {
+          "name": "geekhack",
+          "url": "https://geekhack.org/",
+          "description": "Keyboard Forums",
+          "starred": true
+        },
+        {
+          "name": "KeebTalk",
+          "url": "https://www.keebtalk.com/",
+          "description": "Keyboard Forums"
+        },
+        {
+          "name": "HotkeyP",
+          "url": "https://sourceforge.net/projects/hotkeyp/",
+          "description": "Hotkey Remapping"
+        },
+        {
+          "name": "CheatKeys",
+          "url": "https://cheatkeys.com/cheatsheet",
+          "description": "Hotkey Remapping"
+        },
+        {
+          "name": "X-Mouse Button Control",
+          "url": "https://www.highrez.co.uk/downloads/XMouseButtonControl.htm",
+          "description": "Re-Map Mouse Buttons / Scroll Wheel"
+        },
+        {
+          "name": "MoveMouse",
+          "url": "https://github.com/sw3103/movemouse/",
+          "description": "Simulate User Activity"
+        },
+        {
+          "name": "MouseJiggler",
+          "url": "https://github.com/arkane-systems/mousejiggler",
+          "description": "Simulate User Activity"
+        },
+        {
+          "name": "Raw Accel",
+          "url": "https://github.com/RawAccelOfficial/rawaccel",
+          "description": "Mouse Acceleration Tool"
+        },
+        {
+          "name": "StrokeIt",
+          "url": "https://www.tcbmi.com/strokeit/",
+          "description": "Mouse Gestures"
+        },
+        {
+          "name": "Espanso",
+          "url": "https://espanso.org/",
+          "description": "Typing Shortcuts",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "win-vind",
+          "url": "https://pit-ray.github.io/win-vind/",
+          "description": "Vim Style Keybindings for Windows"
+        },
+        {
+          "name": "Vial",
+          "url": "https://get.vial.today/",
+          "description": "Custom Keyboard Config Tool"
+        },
+        {
+          "name": "KeyViz",
+          "url": "https://github.com/mulaRahul/keyviz",
+          "description": "Keystroke Visualizer"
+        },
+        {
+          "name": "WhatPulse",
+          "url": "https://whatpulse.org/",
+          "description": "Mouse / Keyboard Usage Analyzer"
+        },
+        {
+          "name": "Kmonad",
+          "url": "https://github.com/kmonad/kmonad",
+          "description": "Keyboard Manager"
+        },
+        {
+          "name": "Deskhop",
+          "url": "https://github.com/hrvach/deskhop",
+          "description": "Quickly Switch Devices between Computers"
+        },
+        {
+          "name": "Is this good?",
+          "url": "https://wiki.keyboard.gay/",
+          "description": "Custom Keyboard Guides"
+        },
+        {
+          "name": "DreyMaR's",
+          "url": "https://dreymar.colemak.org/",
+          "description": "Keyboard Tips and Resources"
+        },
+        {
+          "name": "KDB",
+          "url": "http://xahlee.info/kbd/keyboarding.html",
+          "description": "Mechanical Keyboard Building Guides"
+        },
+        {
+          "name": "Cosmos",
+          "url": "https://ryanis.cool/cosmos/",
+          "description": "Create Custom Keyboards"
+        },
+        {
+          "name": "Keyboard Simulator",
+          "url": "https://keyboardsimulator.xyz/",
+          "description": "Design & Test Virtual Keyboards"
+        },
+        {
+          "name": "Key Test",
+          "url": "https://en.key-test.ru/",
+          "description": "Keyboard Tester"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-system-audio",
+      "title": "システムオーディオ",
+      "resources": [
+        {
+          "name": "Equalizer APO",
+          "url": "https://sourceforge.net/projects/equalizerapo/",
+          "description": "Audio Equalizers",
+          "starred": true
+        },
+        {
+          "name": "2",
+          "url": "https://equalizerapo.com/",
+          "description": "Audio Equalizers"
+        },
+        {
+          "name": "GUI",
+          "url": "https://sourceforge.net/projects/peace-equalizer-apo-extension/",
+          "description": "Audio Equalizers"
+        },
+        {
+          "name": "Dolby Access",
+          "url": "https://apps.microsoft.com/detail/9n0866fs04w8",
+          "description": "Audio Equalizers"
+        },
+        {
+          "name": "Note",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/dolby-access-atmos-note.md",
+          "description": "Audio Equalizers"
+        },
+        {
+          "name": "FXSound",
+          "url": "https://www.fxsound.com/",
+          "description": "Audio Equalizers"
+        },
+        {
+          "name": "AutoEQ",
+          "url": "https://autoeq.app/",
+          "description": "Create Custom Equalizer Presets",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠PEQdB",
+          "url": "https://peqdb.com/",
+          "description": "Create Custom Equalizer Presets",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "VoiceMeeter",
+          "url": "https://vb-audio.com/Voicemeeter/index.htm",
+          "description": "Audio Mixers / Multi-Device Playback / Banana"
+        },
+        {
+          "name": "⁠Sonar",
+          "url": "https://steelseries.com/gg/sonar",
+          "description": "Noise Cancelling Software"
+        },
+        {
+          "name": "noise-suppression-for-voice",
+          "url": "https://github.com/werman/noise-suppression-for-voice",
+          "description": "Noise Cancelling Software"
+        },
+        {
+          "name": "SoundSwitch",
+          "url": "https://soundswitch.aaflalo.me/",
+          "description": "Switch Audio Device with Hotkey",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "SonyHeadphonesClient",
+          "url": "https://github.com/Plutoberth/SonyHeadphonesClient",
+          "description": "Sony Headphones Clone"
+        },
+        {
+          "name": "Audiocheck",
+          "url": "https://www.audiocheck.net/",
+          "description": "Audio Tests"
+        },
+        {
+          "name": "LowAudioLatency",
+          "url": "https://github.com/spddl/LowAudioLatency/",
+          "description": "Reduce Audio Latency"
+        },
+        {
+          "name": "DigitalFeed",
+          "url": "https://abx.digitalfeed.net/",
+          "description": "Lossless Audio Sound System Test"
+        },
+        {
+          "name": "Online Mic Test",
+          "url": "https://onlinemictest.com/",
+          "description": "Mic Test"
+        },
+        {
+          "name": "Check Mic",
+          "url": "https://webcammictest.com/check-mic.html",
+          "description": "Mic Test"
+        },
+        {
+          "name": "Sound Meter",
+          "url": "https://mybrowseraddon.com/sound-meter.html",
+          "description": "Measure Surrounding Sound Level"
+        },
+        {
+          "name": "REW",
+          "url": "https://www.roomeqwizard.com",
+          "description": "Measure Surrounding Sound Level"
+        },
+        {
+          "name": "AirPods Dirty Secret",
+          "url": "https://docs.kenp.io/",
+          "description": "AirPods Repair Directory"
+        },
+        {
+          "name": "Genuine Installation Media",
+          "url": "https://massgrave.dev/genuine-installation-media",
+          "description": "Windows ISOs / Clean Install Guide",
+          "starred": true
+        },
+        {
+          "name": "Windows Install / Debloat Guide",
+          "url": "https://wispydocs.pages.dev/windows/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "files.rg-adguard",
+          "url": "https://files.rg-adguard.net/",
+          "description": "Verify ISO Legitimacy"
+        },
+        {
+          "name": "MVS dump",
+          "url": "https://awuctl.github.io/mvs/",
+          "description": "Verify ISO Legitimacy"
+        },
+        {
+          "name": "OS.click",
+          "url": "https://os.click/en",
+          "description": "Windows ISOs"
+        },
+        {
+          "name": "MyDigitalLife",
+          "url": "https://forums.mydigitallife.net/",
+          "description": "Windows ISOs / Forums"
+        },
+        {
+          "name": "Microsoft SD",
+          "url": "https://www.microsoft.com/en-us/software-download/",
+          "description": "Windows ISOs / Official Site"
+        },
+        {
+          "name": "Old School OS",
+          "url": "https://www.oldschoolos.com/",
+          "description": "Oldschool ISOs"
+        },
+        {
+          "name": "OS Vault",
+          "url": "https://osvault.weebly.com/directory.html",
+          "description": "Oldschool ISOs"
+        },
+        {
+          "name": "VETUSWARE",
+          "url": "https://vetusware.com/",
+          "description": "Oldschool ISOs"
+        },
+        {
+          "name": "WinWorldPC",
+          "url": "https://winworldpc.com/",
+          "description": "Oldschool ISOs"
+        },
+        {
+          "name": "Fido",
+          "url": "https://github.com/pbatard/Fido",
+          "description": "ISO Powershell Script"
+        },
+        {
+          "name": "NetBoot",
+          "url": "https://netboot.xyz/",
+          "description": "iPXE Network Boot"
+        },
+        {
+          "name": "⁠MrChromebox",
+          "url": "https://docs.mrchromebox.tech/",
+          "description": "Install Windows / Linux on Chromebook"
+        },
+        {
+          "name": "Chrultrabook",
+          "url": "https://docs.chrultrabook.com/",
+          "description": "Install Windows / Linux on Chromebook"
+        },
+        {
+          "name": "CoolStar",
+          "url": "https://coolstar.org/chromebook/windows-install.html",
+          "description": "Install Windows / Linux on Chromebook"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-usb-bootloaders",
+      "title": "USB / ブートローダー",
+      "resources": [
+        {
+          "name": "Rufus",
+          "url": "https://rufus.ie/",
+          "description": "Create Bootable USB Drives",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "MediaCreationTool",
+          "url": "https://github.com/AveYo/MediaCreationTool.bat",
+          "description": "Windows Deployment Automation"
+        },
+        {
+          "name": "USBTreeView",
+          "url": "https://www.uwe-sieber.de/usbtreeview_e.html",
+          "description": "USB Device Tree Viewer"
+        },
+        {
+          "name": "CloverBootloader",
+          "url": "https://github.com/CloverHackyColor/CloverBootloader/",
+          "description": "Bootloaders / Config"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-windows-activation",
+      "title": "Windows認証",
+      "resources": [
+        {
+          "name": "MAS",
+          "url": "https://rentry.co/FMHYB64#mas",
+          "description": "Windows & Office Activation",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "OfficeRTool",
+          "url": "https://rentry.co/FMHYB64#officertool-project",
+          "description": "Office Activation / Offline"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-windows-updates",
+      "title": "Windows更新",
+      "resources": [
+        {
+          "name": "Windows 10 After EOL",
+          "url": "https://massgrave.dev/windows10_eol",
+          "description": "Receive Windows Updates After Win10's End-Of-Life",
+          "starred": true
+        },
+        {
+          "name": "ChangeWindows",
+          "url": "https://www.changewindows.org/timeline",
+          "description": "Latest Windows Update Info",
+          "starred": true
+        },
+        {
+          "name": "VCRedist",
+          "url": "https://github.com/abbodi1406/vcredist",
+          "description": "AIO Repack for Microsoft Visual C++ Redists",
+          "mirrors": [
+            "https://gitlab.com/stdout12/vcredist",
+            "https://codeberg.org/stdout12/vcredist"
+          ]
+        },
+        {
+          "name": "LegacyUpdate",
+          "url": "https://legacyupdate.net/",
+          "description": "Fix Windows Updates for Legacy Editions"
+        },
+        {
+          "name": "WURefresh",
+          "url": "https://github.com/AveYo/MediaCreationTool.bat/blob/main/bypass11/windows_update_refresh.bat",
+          "description": "Reset Windows Update Components"
+        },
+        {
+          "name": "UUP Dump",
+          "url": "https://uupdump.net/",
+          "description": "Download Previous Windows Updates"
+        },
+        {
+          "name": "Microsoft Update Catalog",
+          "url": "https://www.catalog.update.microsoft.com/",
+          "description": "Download Previous Windows Updates"
+        },
+        {
+          "name": "PC Health Check",
+          "url": "https://aka.ms/GetPCHealthCheckApp",
+          "description": "Identify why your PC isn't Ready for Windows 11"
+        },
+        {
+          "name": "WhyNotWin11",
+          "url": "https://github.com/rcmaehl/WhyNotWin11",
+          "description": "Identify why your PC isn't Ready for Windows 11"
+        },
+        {
+          "name": "FlashMyBoard",
+          "url": "https://flashmyboard.com/",
+          "description": "Receive Motherboard Update Notifications"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-windows-repair",
+      "title": "Windows修復",
+      "resources": [
+        {
+          "name": "MagNumDB",
+          "url": "https://www.magnumdb.com/",
+          "description": "Windows Debugging Tools"
+        },
+        {
+          "name": "ErrorLookup",
+          "url": "https://github.com/henrypp/errorlookup",
+          "description": "Windows Debugging Tools"
+        },
+        {
+          "name": "Microsoft Error Lookup",
+          "url": "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-code-lookup-tool",
+          "description": "Windows Debugging Tools"
+        },
+        {
+          "name": "Medicat",
+          "url": "https://medicatusb.com/",
+          "description": "WinPE / Recovery Toolkits"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/mon5termatt/medicat_installer",
+          "description": "WinPE / Recovery Toolkits"
+        },
+        {
+          "name": "⁠SergeiStrelec",
+          "url": "https://sergeistrelec.name/",
+          "description": "WinPE / Recovery Toolkits"
+        },
+        {
+          "name": "PhoenixPE",
+          "url": "https://github.com/PhoenixPE/PhoenixPE",
+          "description": "WinPE / Recovery Toolkits"
+        },
+        {
+          "name": "Hiren's BootCD PE",
+          "url": "https://www.hirensbootcd.org/",
+          "description": "WinPE / Recovery Toolkits"
+        },
+        {
+          "name": "r/TechSupport",
+          "url": "https://www.reddit.com/r/techsupport/",
+          "description": "Tech Support Subreddit",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Wiki",
+          "url": "https://rtech.support/",
+          "description": "Tech Support Subreddit",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Hardforum",
+          "url": "https://hardforum.com/",
+          "description": "Tech Support Forums"
+        },
+        {
+          "name": "TechGuy",
+          "url": "https://www.techguy.org/",
+          "description": "Tech Support Forums"
+        },
+        {
+          "name": "Eleven Forums",
+          "url": "https://www.elevenforum.com/",
+          "description": "Tech Support Forums"
+        },
+        {
+          "name": "Ten Forums",
+          "url": "https://www.tenforums.com/",
+          "description": "Tech Support Forums"
+        },
+        {
+          "name": "Windows-Ricing",
+          "url": "https://github.com/winthemers/wiki",
+          "description": "Windows Ricing Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Frutiger Aero Archive",
+          "url": "https://frutigeraeroarchive.org/",
+          "description": "Windows Ricing Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Heliohost Guide",
+          "url": "https://ninjasr.varesia.com/w/lb/windows",
+          "description": "Windows Ricing Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Rainmeter",
+          "url": "https://www.rainmeter.net/",
+          "description": "Desktop Customization Environments",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/rainmeter",
+          "description": "Desktop Customization Environments"
+        },
+        {
+          "name": "⁠Seelen UI",
+          "url": "https://github.com/eythaann/Seelen-UI",
+          "description": "Desktop Customization Environments"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/ABfASx5ZAJ",
+          "description": "Desktop Customization Environments"
+        },
+        {
+          "name": "OpenRGB",
+          "url": "https://openrgb.org/",
+          "description": "RGB Lighting Control",
+          "starred": true
+        },
+        {
+          "name": "Beta",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/openrgb-beta.md",
+          "description": "RGB Lighting Control"
+        },
+        {
+          "name": "WLED",
+          "url": "https://kno.wled.ge/",
+          "description": "RGB Lighting Control"
+        },
+        {
+          "name": "Aurora",
+          "url": "https://www.project-aurora.com/",
+          "description": "RGB Lighting Control"
+        },
+        {
+          "name": "LiquidCTL",
+          "url": "https://github.com/liquidctl/liquidctl",
+          "description": "RGB Lighting Control"
+        },
+        {
+          "name": "Artemis",
+          "url": "https://artemis-rgb.com/",
+          "description": "RGB Lighting Control"
+        },
+        {
+          "name": "FireLight",
+          "url": "https://github.com/nicolasdeory/firelight",
+          "description": "RGB Lighting Control"
+        },
+        {
+          "name": "VSThemes",
+          "url": "https://vsthemes.org/en/",
+          "description": "Theme Indexes",
+          "starred": true
+        },
+        {
+          "name": "WindowsCustomization",
+          "url": "https://windowscustomization.com/",
+          "description": "Theme Indexes"
+        },
+        {
+          "name": "7Themes",
+          "url": "https://7themes.su/",
+          "description": "Theme Indexes"
+        },
+        {
+          "name": "VirtualCustoms",
+          "url": "https://virtualcustoms.net/",
+          "description": "Customization Communities"
+        },
+        {
+          "name": "⁠WinClassic",
+          "url": "https://winclassic.net/",
+          "description": "Customization Communities"
+        },
+        {
+          "name": "winthemers",
+          "url": "https://discord.com/invite/8FFWAqdtc4",
+          "description": "Customization Communities"
+        },
+        {
+          "name": "Desktops",
+          "url": "https://deskto.ps/",
+          "description": "Customization Showcases"
+        },
+        {
+          "name": "⁠ExplorerPatcher",
+          "url": "https://github.com/valinet/ExplorerPatcher",
+          "description": "Win 10 Style Customization App for Win 11"
+        },
+        {
+          "name": "SecureUxTheme",
+          "url": "https://github.com/namazso/SecureUxTheme",
+          "description": "UX Patcher"
+        },
+        {
+          "name": "UltraUXThemePatcher",
+          "url": "https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en",
+          "description": "UX Patcher"
+        },
+        {
+          "name": "MechvibesDX",
+          "url": "https://github.com/hainguyents13/mechvibes-dx",
+          "description": "Keyboard Sound Effects"
+        },
+        {
+          "name": "MechaKeys",
+          "url": "https://mechakeys.robolab.io/",
+          "description": "Keyboard Sound Effects"
+        },
+        {
+          "name": "ElectricSheep",
+          "url": "https://electricsheep.org/",
+          "description": "Screensavers"
+        },
+        {
+          "name": "After Dark CSS",
+          "url": "https://www.bryanbraun.com/after-dark-css/",
+          "description": "Screensavers"
+        },
+        {
+          "name": "⁠Wallpapers Clan",
+          "url": "https://wallpapers-clan.com/",
+          "description": "Custom Folder Icons"
+        },
+        {
+          "name": "FolderMarker",
+          "url": "https://foldermarker.com/",
+          "description": "Custom Folder Icons"
+        },
+        {
+          "name": "Flaired Folder",
+          "url": "https://flaired-folders.vercel.app/",
+          "description": "Custom Folder Icons"
+        },
+        {
+          "name": "CustomFolder",
+          "url": "https://www.gdzsoft.com/",
+          "description": "Custom Folder Icons"
+        },
+        {
+          "name": "Recycle Bin Themes",
+          "url": "https://github.com/sdushantha/recycle-bin-themes",
+          "description": "Custom Recycle Bin Icons"
+        },
+        {
+          "name": "msstyleEditor",
+          "url": "https://github.com/nptr/msstyleEditor",
+          "description": "Visual Style Editor"
+        },
+        {
+          "name": "Taskbar Tweaker",
+          "url": "https://tweaker.ramensoftware.com/",
+          "description": "Taskbar Customization / Old School Style"
+        },
+        {
+          "name": "TranslucentTB",
+          "url": "https://github.com/TranslucentTB/TranslucentTB",
+          "description": "Taskbar Customization / Old School Style"
+        },
+        {
+          "name": "NiceTaskbar",
+          "url": "https://www.microsoft.com/en-us/p/nicetaskbar/9pkl2s93xwb5",
+          "description": "Taskbar Customization / Old School Style"
+        },
+        {
+          "name": "⁠Sweezy Cursors",
+          "url": "https://sweezy-cursors.com/",
+          "description": "Custom Animated Cursors / Requires no Extension"
+        },
+        {
+          "name": "AccentColorizer",
+          "url": "https://github.com/krlvm/AccentColorizer",
+          "description": "Accent Color Customization"
+        },
+        {
+          "name": "BeautySearch",
+          "url": "https://github.com/krlvm/BeautySearch",
+          "description": "Search Customization"
+        },
+        {
+          "name": "ElevenClock",
+          "url": "https://www.marticliment.com/elevenclock/",
+          "description": "Clock Customization"
+        },
+        {
+          "name": "HackBGRT",
+          "url": "https://github.com/Metabolix/HackBGRT",
+          "description": "Boot Logo Changer"
+        },
+        {
+          "name": "WinDynamicDesktop",
+          "url": "https://github.com/t1m0thyj/WinDynamicDesktop",
+          "description": "Auto Change Wallpaper"
+        },
+        {
+          "name": "Dynamic Theme",
+          "url": "https://apps.microsoft.com/detail/9nblggh1zbkw",
+          "description": "Auto Change Wallpaper"
+        },
+        {
+          "name": "ExplorerBlurMica",
+          "url": "https://github.com/Maplespe/ExplorerBlurMica",
+          "description": "File Explorer Effects"
+        },
+        {
+          "name": "QTTabBar",
+          "url": "https://github.com/indiff/qttabbar",
+          "description": "Windows File Explorer Enhancement"
+        },
+        {
+          "name": "WinSetView",
+          "url": "https://github.com/LesFerch/WinSetView",
+          "description": "Globally Set Explorer Folder Views"
+        },
+        {
+          "name": "MicaForEveryone",
+          "url": "https://github.com/MicaForEveryone/MicaForEveryone",
+          "description": "Title Bar Effects"
+        },
+        {
+          "name": "FluentFlyout",
+          "url": "https://fluentflyout.com/",
+          "description": "Modernized Flyout Menus"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/unchihugo/FluentFlyout",
+          "description": "Modernized Flyout Menus"
+        },
+        {
+          "name": "ModernFlyouts",
+          "url": "https://modernflyouts-community.github.io",
+          "description": "Modernized Flyout Menus"
+        },
+        {
+          "name": "Alternative Windows Shells Wiki",
+          "url": "https://en.wikipedia.org/wiki/List_of_alternative_shells_for_Windows",
+          "description": "Alt Windows Shells"
+        },
+        {
+          "name": "Aerial",
+          "url": "https://github.com/OrangeJedi/Aerial",
+          "description": "Apple TV Screensaver"
+        },
+        {
+          "name": "ExcelDarkThemeFix",
+          "url": "https://github.com/matafokka/ExcelDarkThemeFix",
+          "description": "Fix Excel on Themed Windows"
+        },
+        {
+          "name": "MacType",
+          "url": "https://www.mactype.net/",
+          "description": "Use Mac Fonts on Windows",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system-tools-app-themes",
+      "title": "アプリテーマ",
+      "resources": [
+        {
+          "name": "Dracula",
+          "url": "https://draculatheme.com/",
+          "description": "Custom App Themes",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/yDcFsrYuq9",
+          "description": "Custom App Themes"
+        },
+        {
+          "name": "Catppuccin",
+          "url": "https://catppuccin.com/",
+          "description": "Custom App Themes"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/r6Mdz5dpFc",
+          "description": "Custom App Themes"
+        },
+        {
+          "name": "Rosé Pine",
+          "url": "https://rosepinetheme.com/",
+          "description": "Custom App Themes"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/r6wf35KVJW",
+          "description": "Custom App Themes"
+        },
+        {
+          "name": "Aura Theme",
+          "url": "https://github.com/daltonmenezes/aura-theme",
+          "description": "Custom App Themes"
+        },
+        {
+          "name": "theme.park",
+          "url": "https://theme-park.dev/",
+          "description": "Custom App Themes"
+        },
+        {
+          "name": "Totally Awesome List",
+          "url": "https://forum.spacehey.com/topic?id=94545",
+          "description": "Old School App Themes"
+        },
+        {
+          "name": "Pokemon Terminal",
+          "url": "https://github.com/LazoCoder/Pokemon-Terminal",
+          "description": "Pokémon Terminal Themes"
+        },
+        {
+          "name": "Traffic Monitor",
+          "url": "https://github.com/zhongyang219/TrafficMonitor/",
+          "description": "System Monitor Themes"
+        },
+        {
+          "name": "terminal.sexy",
+          "url": "https://terminal.sexy/",
+          "description": "Terminal Themes"
+        },
+        {
+          "name": "TerminalSplash",
+          "url": "https://terminalsplash.com/",
+          "description": "Terminal Themes"
+        },
+        {
+          "name": "Solarized",
+          "url": "https://ethanschoonover.com/solarized",
+          "description": "Terminal Themes"
+        },
+        {
+          "name": "WindowsTerminalThemes",
+          "url": "https://windowsterminalthemes.dev/",
+          "description": "Terminal Themes"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-wallpapers",
+      "title": "壁紙",
+      "resources": [
+        {
+          "name": "WallSync",
+          "url": "https://roigoatzzz.github.io/Wallsync/",
+          "description": "Wallpaper Site Index",
+          "tags": [
+            "index",
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://wallsync.pages.dev/"
+          ]
+        },
+        {
+          "name": "wallhaven.cc",
+          "url": "https://wallhaven.cc/",
+          "description": "Search Wallpapers / Downloader",
+          "starred": true
+        },
+        {
+          "name": "Wallpaper Abyss",
+          "url": "https://wall.alphacoders.com/",
+          "description": "Search Wallpapers",
+          "starred": true
+        },
+        {
+          "name": "Rev Wallpaper",
+          "url": "https://weris.ordinall.dev/",
+          "description": "Reverse Wallpaper Search",
+          "starred": true
+        },
+        {
+          "name": "r/WallpaperRequests",
+          "url": "https://www.reddit.com/r/WallpaperRequests/",
+          "description": "Reverse Wallpaper Search"
+        },
+        {
+          "name": "Studio Ghibli Wallpapers",
+          "url": "https://www.ghibli.jp/info/013772",
+          "description": "Studio Ghibli Wallpapers",
+          "starred": true
+        },
+        {
+          "name": "LWP",
+          "url": "https://github.com/jszczerbinsky/lwp",
+          "description": "Live Wallpapers",
+          "starred": true
+        },
+        {
+          "name": "DesktopHut",
+          "url": "https://www.desktophut.com/",
+          "description": "Live Wallpapers"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/QzgnQtJdfs",
+          "description": "Live Wallpapers"
+        },
+        {
+          "name": "r/LivingBackgrounds",
+          "url": "https://reddit.com/r/LivingBackgrounds",
+          "description": "Live Wallpapers"
+        },
+        {
+          "name": "WALLegend",
+          "url": "https://wallegend.net/en/",
+          "description": "Live Wallpapers"
+        },
+        {
+          "name": "MoeWalls",
+          "url": "https://moewalls.com/",
+          "description": "Live Wallpapers"
+        },
+        {
+          "name": "WallpaperCave",
+          "url": "https://wallpapercave.com/",
+          "description": "Search Wallpapers"
+        },
+        {
+          "name": "⁠WallsCloud",
+          "url": "https://wallscloud.net/en/",
+          "description": "Search Wallpapers"
+        },
+        {
+          "name": "WallpapersCraft",
+          "url": "https://wallpaperscraft.com/",
+          "description": "Search Wallpapers"
+        },
+        {
+          "name": "⁠WallBrowser",
+          "url": "https://wallbrowser.com/",
+          "description": "Search Wallpapers"
+        },
+        {
+          "name": "VSThemes",
+          "url": "https://vsthemes.org/en/",
+          "description": "Search Wallpapers"
+        },
+        {
+          "name": "⁠Wallpapers Clan",
+          "url": "https://wallpapers-clan.com/",
+          "description": "Search Wallpapers"
+        },
+        {
+          "name": "r/Wallpaper",
+          "url": "https://www.reddit.com/r/wallpaper/",
+          "description": "Wallpapers Community"
+        },
+        {
+          "name": "⁠WallWidgy",
+          "url": "https://www.wallwidgy.app/",
+          "description": "Minimalist Wallpapers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/not-ayan/wallwidgy",
+          "description": "Minimalist Wallpapers"
+        },
+        {
+          "name": "Simple Desktops",
+          "url": "https://simpledesktops.com/",
+          "description": "Minimalist Wallpapers"
+        },
+        {
+          "name": "Minimalistic Wallpaper",
+          "url": "https://minimalistic-wallpaper.demolab.com/",
+          "description": "Minimalist Wallpapers"
+        },
+        {
+          "name": "SetAsWall",
+          "url": "https://www.setaswall.com/",
+          "description": "Minimalist Wallpapers"
+        },
+        {
+          "name": "Frutiger Aero Archive",
+          "url": "https://frutigeraeroarchive.org/",
+          "description": "2000s Style Wallpapers"
+        },
+        {
+          "name": "⁠Kawaii Hoshi",
+          "url": "https://kawaiihoshi.com/",
+          "description": "Cute Wallpapers"
+        },
+        {
+          "name": "DualMonitorBackgrounds",
+          "url": "https://www.dualmonitorbackgrounds.com/",
+          "description": "Dual Monitor Wallpapers"
+        },
+        {
+          "name": "CoolBackgrounds",
+          "url": "https://coolbackgrounds.io/",
+          "description": "Customizable Wallpapers"
+        },
+        {
+          "name": "Aesthetic Wallpapers",
+          "url": "https://github.com/D3Ext/aesthetic-wallpapers",
+          "description": "Aesthetic Wallpapers"
+        },
+        {
+          "name": "Xbox Wallpapers",
+          "url": "https://www.xbox.com/en-us/wallpapers/",
+          "description": "Xbox Wallpapers"
+        },
+        {
+          "name": "Anime Pictures",
+          "url": "https://anime-pictures.net/",
+          "description": "Anime Wallpapers"
+        },
+        {
+          "name": "WallpaperWaifu",
+          "url": "https://wallpaperwaifu.com/",
+          "description": "Anime Wallpapers"
+        },
+        {
+          "name": "MyLiveWallpapers",
+          "url": "https://mylivewallpapers.com/",
+          "description": "Anime Wallpapers"
+        },
+        {
+          "name": "WallsPic",
+          "url": "https://wallspic.com/",
+          "description": "Misc Wallpapers"
+        },
+        {
+          "name": "WallpaperFlare",
+          "url": "https://www.wallpaperflare.com/",
+          "description": "Misc Wallpapers"
+        },
+        {
+          "name": "HDQwalls",
+          "url": "https://hdqwalls.com/",
+          "description": "Misc Wallpapers"
+        },
+        {
+          "name": "UHD Wallpaper",
+          "url": "https://www.uhdpaper.com/",
+          "description": "Misc Wallpapers"
+        },
+        {
+          "name": "G_Walls",
+          "url": "https://t.me/G_Walls",
+          "description": "Telegram Wallpaper Channels"
+        },
+        {
+          "name": "Engine Workshop File",
+          "url": "https://discord.com/invite/KMbdezWjKY",
+          "description": "Wallpaper Engine Wallpapers"
+        }
+      ]
+    },
+    {
+      "id": "system-tools-wallpaper-tools",
+      "title": "Wallpaper ツール",
+      "resources": [
+        {
+          "name": "Wallpaper Engine",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/games/#wiki_.25BA_download_games",
+          "description": "Wallpaper / Live Wallpaper Manager",
+          "starred": true,
+          "mirrors": [
+            "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent/"
+          ]
+        },
+        {
+          "name": "Lively",
+          "url": "https://www.rocksdanister.com/lively/",
+          "description": "Live Wallpaper Manager",
+          "starred": true
+        },
+        {
+          "name": "ScreenPlay",
+          "url": "https://screen-play.app/",
+          "description": "Live Wallpaper Manager"
+        },
+        {
+          "name": "backiee",
+          "url": "https://apps.microsoft.com/store/detail/backiee-wallpaper-studio-10/9WZDNCRFHZCD",
+          "description": "Wallpaper Manager"
+        },
+        {
+          "name": "wallhaven-desktop",
+          "url": "https://github.com/luisflorido/wallhaven-desktop",
+          "description": "Wallhaven Wallpaper Manager"
+        },
+        {
+          "name": "SuperPaper",
+          "url": "https://github.com/hhannine/superpaper",
+          "description": "Cross-Platform Multi-Monitor Wallpaper Manager"
+        },
+        {
+          "name": "Background Switcher",
+          "url": "https://johnsad.ventures/software/backgroundswitcher/",
+          "description": "Multi-Host Wallpaper Switcher"
+        },
+        {
+          "name": "AutoWall",
+          "url": "https://github.com/SegoCode/AutoWall",
+          "description": "Turn Videos / GIFs to Live Wallpapers"
+        },
+        {
+          "name": "Awesome Wallpaper",
+          "url": "https://awesome-wallpaper.com/",
+          "description": "Show System Information on Wallpaper"
+        }
+      ]
+    }
+  ]
+}

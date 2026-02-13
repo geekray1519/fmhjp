@@ -1,0 +1,59 @@
+name: FMHY月次データ更新
+
+on:
+  schedule:
+    # 毎月1日 午前0時 UTC (午前9時 JST)
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # 手動実行用
+
+permissions:
+  contents: write
+
+jobs:
+  update-fmhy-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Node.js セットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: 依存関係インストール
+        run: npm ci
+
+      - name: FMHYデータを取得・パース
+        run: node scripts/update-data.mjs
+
+      - name: 変更を確認
+        id: check
+        run: |
+          git add src/data/resources/ src/data/category-meta.json
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "変更なし"
+          else
+            ADDED=$(git diff --staged --stat | tail -1)
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "変更検出: $ADDED"
+          fi
+
+      - name: ビルド確認
+        if: steps.check.outputs.changed == 'true'
+        run: npm run build
+
+      - name: コミット＆プッシュ
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "📦 FMHYデータ月次更新 - $(date +'%Y-%m-%d')"
+          git push

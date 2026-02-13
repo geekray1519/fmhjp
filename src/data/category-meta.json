@@ -1,0 +1,218 @@
+{
+  "ai": {
+    "id": "ai",
+    "slug": "ai",
+    "titleJa": "AI・人工知能",
+    "icon": "🤖",
+    "color": "from-violet-500 to-purple-600",
+    "description": "AIチャットボット、画像生成、音声合成などのAIツール",
+    "sourceFile": "ai.md"
+  },
+  "audio": {
+    "id": "audio",
+    "slug": "audio",
+    "titleJa": "音楽 / オーディオ",
+    "icon": "🎵",
+    "color": "from-pink-500 to-rose-600",
+    "description": "音楽ストリーミング、ポッドキャスト、ラジオ、音楽ダウンロード",
+    "sourceFile": "audio.md"
+  },
+  "developer-tools": {
+    "id": "developer-tools",
+    "slug": "developer-tools",
+    "titleJa": "開発者ツール",
+    "icon": "💻",
+    "color": "from-cyan-500 to-blue-600",
+    "description": "プログラミング、API、IDE、開発リソース",
+    "sourceFile": "developer-tools.md"
+  },
+  "downloading": {
+    "id": "downloading",
+    "slug": "downloading",
+    "titleJa": "ダウンロード",
+    "icon": "📥",
+    "color": "from-green-500 to-emerald-600",
+    "description": "直接ダウンロードリンク、ダウンロードマネージャー",
+    "sourceFile": "downloading.md"
+  },
+  "educational": {
+    "id": "educational",
+    "slug": "educational",
+    "titleJa": "教育 / 学習",
+    "icon": "📚",
+    "color": "from-amber-500 to-orange-600",
+    "description": "オンラインコース、語学学習、教育リソース",
+    "sourceFile": "educational.md"
+  },
+  "file-tools": {
+    "id": "file-tools",
+    "slug": "file-tools",
+    "titleJa": "ファイルツール",
+    "icon": "📁",
+    "color": "from-slate-500 to-gray-600",
+    "description": "ファイル管理、圧縮、変換ツール",
+    "sourceFile": "file-tools.md"
+  },
+  "gaming": {
+    "id": "gaming",
+    "slug": "gaming",
+    "titleJa": "ゲーム",
+    "icon": "🎮",
+    "color": "from-red-500 to-rose-600",
+    "description": "ゲームダウンロード、ROM、エミュレーター",
+    "sourceFile": "gaming.md"
+  },
+  "gaming-tools": {
+    "id": "gaming-tools",
+    "slug": "gaming-tools",
+    "titleJa": "ゲームツール",
+    "icon": "🕹️",
+    "color": "from-orange-500 to-red-600",
+    "description": "ゲームMOD、最適化、録画ツール",
+    "sourceFile": "gaming-tools.md"
+  },
+  "image-tools": {
+    "id": "image-tools",
+    "slug": "image-tools",
+    "titleJa": "画像ツール",
+    "icon": "🖼️",
+    "color": "from-teal-500 to-cyan-600",
+    "description": "画像編集、AI画像生成、スクリーンショット",
+    "sourceFile": "image-tools.md"
+  },
+  "internet-tools": {
+    "id": "internet-tools",
+    "slug": "internet-tools",
+    "titleJa": "インターネットツール",
+    "icon": "🌐",
+    "color": "from-blue-500 to-indigo-600",
+    "description": "ブラウザ、拡張機能、Webツール",
+    "sourceFile": "internet-tools.md"
+  },
+  "linux-macos": {
+    "id": "linux-macos",
+    "slug": "linux-macos",
+    "titleJa": "Linux / macOS",
+    "icon": "🐧",
+    "color": "from-yellow-500 to-amber-600",
+    "description": "Linux・macOS向けソフトウェアとツール",
+    "sourceFile": "linux-macos.md"
+  },
+  "misc": {
+    "id": "misc",
+    "slug": "misc",
+    "titleJa": "その他",
+    "icon": "🔮",
+    "color": "from-fuchsia-500 to-pink-600",
+    "description": "地図、ショッピング、旅行、その他便利ツール",
+    "sourceFile": "misc.md"
+  },
+  "mobile": {
+    "id": "mobile",
+    "slug": "mobile",
+    "titleJa": "モバイル",
+    "icon": "📱",
+    "color": "from-lime-500 to-green-600",
+    "description": "Android・iOSアプリ、モバイルツール",
+    "sourceFile": "mobile.md"
+  },
+  "non-english": {
+    "id": "non-english",
+    "slug": "non-english",
+    "titleJa": "多言語リソース",
+    "icon": "🌍",
+    "color": "from-indigo-500 to-violet-600",
+    "description": "英語以外の各言語向けリソース",
+    "sourceFile": "non-english.md"
+  },
+  "privacy": {
+    "id": "privacy",
+    "slug": "privacy",
+    "titleJa": "プライバシー / セキュリティ",
+    "icon": "🛡️",
+    "color": "from-emerald-500 to-teal-600",
+    "description": "VPN、広告ブロック、プライバシー保護ツール",
+    "sourceFile": "privacy.md"
+  },
+  "reading": {
+    "id": "reading",
+    "slug": "reading",
+    "titleJa": "読書 / 書籍",
+    "icon": "📖",
+    "color": "from-stone-500 to-neutral-600",
+    "description": "電子書籍、マンガ、コミック、学術論文",
+    "sourceFile": "reading.md"
+  },
+  "social-media-tools": {
+    "id": "social-media-tools",
+    "slug": "social-media-tools",
+    "titleJa": "SNSツール",
+    "icon": "💬",
+    "color": "from-sky-500 to-blue-600",
+    "description": "SNS管理、YouTube、Reddit、Twitter関連ツール",
+    "sourceFile": "social-media-tools.md"
+  },
+  "storage": {
+    "id": "storage",
+    "slug": "storage",
+    "titleJa": "ストレージ",
+    "icon": "☁️",
+    "color": "from-gray-500 to-slate-600",
+    "description": "クラウドストレージ、ファイル共有、バックアップ",
+    "sourceFile": "storage.md"
+  },
+  "system-tools": {
+    "id": "system-tools",
+    "slug": "system-tools",
+    "titleJa": "システムツール",
+    "icon": "⚙️",
+    "color": "from-zinc-500 to-gray-600",
+    "description": "Windows設定、ハードウェア、システム最適化",
+    "sourceFile": "system-tools.md"
+  },
+  "text-tools": {
+    "id": "text-tools",
+    "slug": "text-tools",
+    "titleJa": "テキストツール",
+    "icon": "📝",
+    "color": "from-rose-500 to-pink-600",
+    "description": "テキスト編集、PDF、ライティングツール",
+    "sourceFile": "text-tools.md"
+  },
+  "torrenting": {
+    "id": "torrenting",
+    "slug": "torrenting",
+    "titleJa": "トレント",
+    "icon": "🔄",
+    "color": "from-purple-500 to-violet-600",
+    "description": "トレントクライアント、トラッカー、関連ツール",
+    "sourceFile": "torrenting.md"
+  },
+  "video": {
+    "id": "video",
+    "slug": "video",
+    "titleJa": "動画 / 映像",
+    "icon": "🎬",
+    "color": "from-red-500 to-orange-600",
+    "description": "動画ストリーミング、映画、TV、アニメ",
+    "sourceFile": "video.md"
+  },
+  "video-tools": {
+    "id": "video-tools",
+    "slug": "video-tools",
+    "titleJa": "動画ツール",
+    "icon": "🎞️",
+    "color": "from-amber-500 to-yellow-600",
+    "description": "動画編集、変換、ダウンロードツール",
+    "sourceFile": "video-tools.md"
+  },
+  "unsafe": {
+    "id": "unsafe",
+    "slug": "unsafe",
+    "titleJa": "安全でないサイト",
+    "icon": "⚠️",
+    "color": "from-red-600 to-red-800",
+    "description": "ブラックリスト入りの危険なサイト一覧",
+    "sourceFile": "unsafe.md"
+  }
+}

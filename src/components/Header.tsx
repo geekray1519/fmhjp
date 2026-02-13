@@ -15,11 +15,15 @@ export function Header({ onMenuToggle, menuOpen }: HeaderProps) {
   const { theme, setTheme } = useTheme();
   const [query, setQuery] = useState("");
   const [mounted, setMounted] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const router = useRouter();
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     setMounted(true);
+    const onScroll = () => setScrolled(window.scrollY > 10);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   const handleSearch = (e: React.FormEvent) => {
@@ -46,7 +50,7 @@ export function Header({ onMenuToggle, menuOpen }: HeaderProps) {
   }, [handleKeyDown]);
 
   return (
-    <header className="sticky top-0 z-50 glass border-b border-border bg-background/80">
+    <header className={`sticky top-0 z-50 glass border-b border-border bg-background/80 transition-shadow duration-300 ${scrolled ? "header-scrolled" : ""}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
@@ -57,13 +61,13 @@ export function Header({ onMenuToggle, menuOpen }: HeaderProps) {
             >
               {menuOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
-            <Link href="/" className="flex items-center gap-2">
-              <span className="text-2xl font-bold gradient-text">FMHJP</span>
+            <Link href="/" className="flex items-center gap-2 group">
+              <span className="text-2xl font-bold gradient-text-shimmer">FMHJP</span>
             </Link>
           </div>
 
           <form onSubmit={handleSearch} className="hidden sm:flex flex-1 max-w-md mx-8">
-            <div className="relative w-full group">
+            <div className="relative w-full group search-glow rounded-xl">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-muted group-focus-within:text-accent transition-colors" size={16} />
               <input
                 ref={searchInputRef}

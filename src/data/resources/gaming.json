@@ -1,0 +1,6383 @@
+{
+  "id": "gaming",
+  "slug": "gaming",
+  "title": "ゲーム",
+  "description": "ゲームダウンロード、ROM、エミュレーター",
+  "icon": "🎮",
+  "color": "from-red-500 to-rose-600",
+  "subcategories": [
+    {
+      "id": "gaming-general",
+      "title": "一般",
+      "resources": [
+        {
+          "name": "r/PiratedGames Mega",
+          "url": "https://rentry.org/pgames",
+          "description": "Piracy Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/dZWwhUy",
+          "description": "Piracy Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "CS.RIN Mega",
+          "url": "https://cs.rin.ru/forum/viewtopic.php?f=10&t=95461",
+          "description": "Piracy Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "privateersclub",
+          "url": "https://megathread.pages.dev/",
+          "description": "Piracy Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/jz8dUnnD6Q",
+          "description": "Piracy Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Wotaku",
+          "url": "https://wotaku.wiki/games",
+          "description": "Otaku Games Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/vShRGx8ZBC",
+          "description": "Otaku Games Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "EverythingMoe",
+          "url": "https://everythingmoe.com/section/game",
+          "description": "Otaku Games Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/GuueaDgKdS",
+          "description": "Otaku Games Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "CS.RIN.RU",
+          "url": "https://cs.rin.ru/forum",
+          "description": "Download / Signup / PW: cs.rin.ru / csrin.org /.onion",
+          "starred": true,
+          "mirrors": [
+            "https://csrin.org/"
+          ]
+        },
+        {
+          "name": "AnkerGames",
+          "url": "https://ankergames.net/",
+          "description": "Download / Torrent / Pre-Installed",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "SteamRIP",
+          "url": "https://steamrip.com/",
+          "description": "Download / Pre-Installed",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "AstralGames",
+          "url": "https://astral-games.xyz/",
+          "description": "Download / Achievements / Pre-Installed",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "GOG Games",
+          "url": "https://gog-games.to/",
+          "description": "Download / Torrent / GOG Games Only /.onion",
+          "starred": true
+        },
+        {
+          "name": "UnionCrax",
+          "url": "https://union-crax.xyz/",
+          "description": "Download / Pre-Installed / Status / Launcher",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Online Fix",
+          "url": "https://online-fix.me/",
+          "description": "Download / Torrent / Multiplayer / Requires Sign-Up / PW: online-fix.me / Use Translator",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "Discord"
+          ]
+        },
+        {
+          "name": "SteamUnderground",
+          "url": "https://steamunderground.net/",
+          "description": "Download / Pre-Installed",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Ova Games",
+          "url": "https://www.ovagames.com/",
+          "description": "Download / PW: www.ovagames.com / Requires Redirect Bypass",
+          "starred": true
+        },
+        {
+          "name": "Torrminatorr",
+          "url": "https://forum.torrminatorr.com/",
+          "description": "Download / Forum / Requires Sign-Up",
+          "starred": true
+        },
+        {
+          "name": "Virgil Game Search",
+          "url": "https://virgil.samidy.com/Games/",
+          "description": "Multi-Site Search Engines",
+          "starred": true
+        },
+        {
+          "name": "2",
+          "url": "https://virgil-search.pages.dev/Games/",
+          "description": "Multi-Site Search Engines"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/SamidyFR/Virgil",
+          "description": "Multi-Site Search Engines"
+        },
+        {
+          "name": "Rezi Search",
+          "url": "https://rezi.one/",
+          "description": "Multi-Site Search Engines"
+        },
+        {
+          "name": "Playseek",
+          "url": "https://playseek.app/",
+          "description": "Multi-Site Search Engines"
+        },
+        {
+          "name": "Game Download CSE",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:cbjowp5sdqg",
+          "description": "Multi-Site Search Engines"
+        },
+        {
+          "name": "Game Torrent CSE",
+          "url": "https://cse.google.com/cse?cx=006516753008110874046:pobnsujblyx",
+          "description": "Multi-Site Search Engines"
+        },
+        {
+          "name": "r/PiratedGames CSE",
+          "url": "https://cse.google.com/cse?cx=20c2a3e5f702049aa",
+          "description": "Multi-Site Search Engines"
+        },
+        {
+          "name": "g4u",
+          "url": "https://g4u.to/",
+          "description": "Download / PW: 404"
+        },
+        {
+          "name": "GLoad",
+          "url": "https://gload.to/",
+          "description": "Download / Use Translator"
+        },
+        {
+          "name": "GameBounty",
+          "url": "https://gamebounty.world/",
+          "description": "Download",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "scene cat",
+          "url": "https://rentry.co/FMHYB64#scene-cat",
+          "description": "Download",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠Fluxy Repacks",
+          "url": "https://fluxyrepacks.xyz/",
+          "description": "Download / Note",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠GoMorGames",
+          "url": "https://gomorgames.com/",
+          "description": "Download",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "appnetica",
+          "url": "https://appnetica.com/",
+          "description": "Torrent / Pre-Installed / Use Translator",
+          "tags": [
+            "Telegram"
+          ]
+        },
+        {
+          "name": "AtopGames",
+          "url": "https://atopgames.com/",
+          "description": "Download / Pre-Installed",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "ElEnemigos",
+          "url": "https://elenemigos.com/",
+          "description": "Download / PW: elenemigos.com / Use Translator",
+          "tags": [
+            "Telegram",
+            "Discord"
+          ]
+        },
+        {
+          "name": "Reloaded Steam",
+          "url": "https://reloadedsteam.com/",
+          "description": "Download / Pre-Installed / Use Adblock",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "SteamGG",
+          "url": "https://steamgg.net/",
+          "description": "Download / Pre-Installed / Use Adblock",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "Rexa Games",
+          "url": "https://rexagames.com/",
+          "description": "Download / Pre-Installed / Use Adblock",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "SteamOra",
+          "url": "https://steamora.net/",
+          "description": "Download / Pre-Installed",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "TriahGames",
+          "url": "https://triahgames.com/",
+          "description": "Download / PW: www.triahgames.com",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "World of PC Games",
+          "url": "https://worldofpcgames.com/",
+          "description": "Download / Pre-Installed / Use Adblock / Site Info",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "⁠The Dark Games",
+          "url": "https://the-dark-games.com/",
+          "description": "Download / Pre-Installed / Use Adblock / Site Info",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "GetFreeGames",
+          "url": "https://getfreegames.net/",
+          "description": "Download / Pre-Installed / Use Adblock / Site Info",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "Games4U",
+          "url": "https://games4u.org/",
+          "description": "Download / Use Adblock / Sources on DDL Pages"
+        },
+        {
+          "name": "CG Games",
+          "url": "https://www.cg-gamespc.com/",
+          "description": "Download"
+        },
+        {
+          "name": "GamePCFull",
+          "url": "https://gamepcfull.com/",
+          "description": "Download"
+        },
+        {
+          "name": "IRC Games",
+          "url": "https://redd.it/x804wg",
+          "description": "Download Games via IRC"
+        },
+        {
+          "name": "FreeToGame",
+          "url": "https://www.freetogame.com/games",
+          "description": "F2P Games / Trackers"
+        },
+        {
+          "name": "⁠TendingNow",
+          "url": "https://trendingnow.games/free",
+          "description": "F2P Games / Trackers"
+        },
+        {
+          "name": "Acid Play",
+          "url": "https://acid-play.com/",
+          "description": "F2P Games / Trackers"
+        },
+        {
+          "name": "Anti Denuvo Sanctuary",
+          "url": "https://rentry.co/FMHYB64#ads",
+          "description": "Denuvo Games / Works Offline"
+        },
+        {
+          "name": "ROM Heaven CSF",
+          "url": "https://rentry.co/FMHYB64#csf",
+          "description": "Clean Steam Files"
+        }
+      ],
+      "note": "Use redirect bypassers to skip link shorteners. 忘れずに install an 広告ブロッカー."
+    },
+    {
+      "id": "gaming-game-repacks",
+      "title": "ゲーム Repacks",
+      "resources": [
+        {
+          "name": "FitGirl Repacks",
+          "url": "https://fitgirl-repacks.site/",
+          "description": "Download / Torrent / ROM Repacks / Unofficial Launcher",
+          "starred": true
+        },
+        {
+          "name": "KaOsKrew",
+          "url": "https://kaoskrew.org/",
+          "description": "Download / Torrent",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "ARMGDDN Browser",
+          "url": "https://github.com/KaladinDMP/AGBrowser",
+          "description": "Download / Avoid Software",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "Discord"
+          ],
+          "mirrors": [
+            "https://cs.rin.ru/forum/viewtopic.php?f=14&t=140593"
+          ]
+        },
+        {
+          "name": "Gnarly Repacks",
+          "url": "https://rentry.co/FMHYB64#gnarly",
+          "description": "Download / PW: gnarly",
+          "starred": true
+        },
+        {
+          "name": "ScOOt3r Repacks",
+          "url": "https://discord.gg/xe3Fys8Upy",
+          "description": "Download / Torrent",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "M4CKD0GE Repacks",
+          "url": "https://m4ckd0ge-repacks.site/",
+          "description": "Download",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Dyren Repacks",
+          "url": "https://rentry.co/FMHYB64#dyren",
+          "description": "Download / Torrent",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠Vanya Games",
+          "url": "https://vanya-games.site/",
+          "description": "Download"
+        },
+        {
+          "name": "DODI Repacks",
+          "url": "https://rentry.co/FMHYB64#dodi",
+          "description": "Torrent / Redirect Bypass / Site Warning",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠Stevv Game",
+          "url": "https://www.stevvgame.com/",
+          "description": "Download",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Xatab Repacks",
+          "url": "https://byxatab.com/",
+          "description": "Torrent / Use Translator"
+        },
+        {
+          "name": "Elamigos",
+          "url": "https://elamigos.site/",
+          "description": "Download"
+        },
+        {
+          "name": "FreeGOGPCGames",
+          "url": "https://freegogpcgames.com/",
+          "description": "GOG Games Torrent Uploads / Hash Note"
+        }
+      ],
+      "note": "Repacks are compressed versions of games that exchange smaller downloads for longer installation times. Good if you have low bandwidth or data limits."
+    },
+    {
+      "id": "gaming-mac-gameshttpswwwredditcomrfreemediaheckyeahwikilinuxwiki25b7macgaming",
+      "title": "Mac ゲーム",
+      "resources": [
+        {
+          "name": "OSGL",
+          "url": "https://trilarion.github.io/opensourcegames/",
+          "description": "Open-Source Games",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome Open Source Games",
+          "url": "https://github.com/michelpereira/awesome-open-source-games",
+          "description": "Open-Source Games",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "LibreGameWiki",
+          "url": "https://libregamewiki.org/List_of_games",
+          "description": "Open-Source Games",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome Terminal Games",
+          "url": "https://ligurio.github.io/awesome-ttygames/",
+          "description": "ASCII Terminal Games",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Kliktopia",
+          "url": "https://kliktopia.org/",
+          "description": "Klik Games",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "itch.io",
+          "url": "https://itch.io/games/new-and-popular/featured/free",
+          "description": "Indie Games",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/qDaYeXPsRK",
+          "description": "Indie Games"
+        },
+        {
+          "name": "Killed By A Pixel",
+          "url": "https://frankforce.com/all-games/",
+          "description": "Indie Games"
+        },
+        {
+          "name": "Gamdie",
+          "url": "https://gamdie.com/",
+          "description": "Indie Games"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/cDKH3R4nR2",
+          "description": "Indie Games"
+        },
+        {
+          "name": "Indie Rentry",
+          "url": "https://rentry.org/hhtxv7ud",
+          "description": "Indie Games"
+        },
+        {
+          "name": "DigiPen",
+          "url": "https://games.digipen.edu/",
+          "description": "Indie Games"
+        },
+        {
+          "name": "Game Jolt",
+          "url": "https://gamejolt.com/games?price=free",
+          "description": "Indie Games"
+        },
+        {
+          "name": "Alpha Beta Gamer",
+          "url": "https://alphabetagamer.com/",
+          "description": "Play Games in Alpha / Beta Testing",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Necromanthus",
+          "url": "https://necromanthus.com/",
+          "description": "3D Shockwave Games"
+        },
+        {
+          "name": "LemmaSoft",
+          "url": "https://lemmasoft.renai.us/",
+          "description": "Visual Novel Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Visual Novels Android",
+          "url": "https://t.me/visual_novels_android_eng",
+          "description": "Android Visual Novel Ports"
+        },
+        {
+          "name": "⁠Adventure Game Studio",
+          "url": "https://www.adventuregamestudio.co.uk/#play",
+          "description": "Point-And-Click Games",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "vgperson",
+          "url": "https://vgperson.com/games/",
+          "description": "Simple Japanese Games"
+        },
+        {
+          "name": "Visual Pinball",
+          "url": "https://github.com/vpinball/vpinball",
+          "description": "Pinball Table Editor / Simulator / Tables"
+        },
+        {
+          "name": "Ninja Kiwi Archive",
+          "url": "https://ninjakiwi.com/archive",
+          "description": "Ninja Kiwi / Bloons Archive",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "DoujinStyle",
+          "url": "https://doujinstyle.com",
+          "description": "Doujin Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "MoriyaShrine",
+          "url": "https://moriyashrine.org/",
+          "description": "Touhou Games"
+        },
+        {
+          "name": "Kahvibreak",
+          "url": "https://bluemaxima.org/kahvibreak/",
+          "description": "Java 2 Micro Mobile Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Planet Casio",
+          "url": "https://www.planet-casio.com/Fr/programmes/jeux-casio.php",
+          "description": "Calculator Games"
+        },
+        {
+          "name": "Cemetech",
+          "url": "https://cemetech.net/",
+          "description": "Calculator Games"
+        },
+        {
+          "name": "UnorthodoxFun",
+          "url": "https://github.com/rarelygoeshere/UnorthodoxFun",
+          "description": "Games on Unorthodox Platforms"
+        },
+        {
+          "name": "⁠Fangame Archive",
+          "url": "https://archive.dappermink.me/",
+          "description": "I Wanna Be the Guy Fan Game Archives"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/HSeycPx",
+          "description": "I Wanna Be the Guy Fan Game Archives"
+        },
+        {
+          "name": "Delicious Fruit",
+          "url": "https://delicious-fruit.com/",
+          "description": "I Wanna Be the Guy Fan Game Archives"
+        },
+        {
+          "name": "GamesOnPDF",
+          "url": "https://github.com/rarelygoeshere/GamesOnPDF",
+          "description": "PDF Games"
+        },
+        {
+          "name": "PyGames",
+          "url": "https://www.pygame.org/",
+          "description": "Python Games",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Flashtro",
+          "url": "https://flashtro.com/",
+          "description": "Cracker Intros"
+        },
+        {
+          "name": "Redump Forum",
+          "url": "http://forum.redump.org/",
+          "description": "Disc Preservation Project"
+        }
+      ]
+    },
+    {
+      "id": "gaming-virtual-reality",
+      "title": "仮想現実",
+      "resources": [
+        {
+          "name": "VRPirates",
+          "url": "https://vrpirates.wiki/",
+          "description": "VR Piracy Wiki",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "Discord"
+          ],
+          "mirrors": [
+            "https://vrpirates.club/"
+          ]
+        },
+        {
+          "name": "ARMGDDN Browser",
+          "url": "https://github.com/KaladinDMP/AGBrowser",
+          "description": "VR Games / Avoid Software",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "Discord"
+          ],
+          "mirrors": [
+            "https://cs.rin.ru/forum/viewtopic.php?f=14&t=140593"
+          ]
+        },
+        {
+          "name": "Phoenix Place",
+          "url": "https://phoenixplace.xyz/",
+          "description": "VR Games / Requires Sign-Up",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠The Gear VR Vault",
+          "url": "https://vault.gearvr.net/",
+          "description": "VR Abandonware Games / Apps"
+        },
+        {
+          "name": "⁠heyVR.io",
+          "url": "https://heyvr.io/",
+          "description": "Browser VR Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "r/QuestPiracy",
+          "url": "https://www.reddit.com/r/QuestPiracy/",
+          "description": "Oculus Quest Subreddit"
+        },
+        {
+          "name": "SideQuest",
+          "url": "https://sidequestvr.com/",
+          "description": "VR Sideloading Platform",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "VRCArena",
+          "url": "https://www.vrcarena.com/",
+          "description": "Resources for Social VR Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "UEVR",
+          "url": "https://uevr.io/",
+          "description": "Convert Unreal Engine Games to VR"
+        },
+        {
+          "name": "Oculess",
+          "url": "https://github.com/basti564/Oculess",
+          "description": "Remove Oculus Quest Account Requirements & Telemetry"
+        },
+        {
+          "name": "ALVR",
+          "url": "https://github.com/alvr-org/ALVR",
+          "description": "Stream VR Games from PC to Headset"
+        }
+      ]
+    },
+    {
+      "id": "gaming-abandonware-retro",
+      "title": "レトロ / 放棄ソフト",
+      "resources": [
+        {
+          "name": "My Abandonware",
+          "url": "https://www.myabandonware.com/",
+          "description": "Abandonware",
+          "starred": true
+        },
+        {
+          "name": "AbandonwareGames",
+          "url": "https://abandonwaregames.net/",
+          "description": "Abandonware",
+          "starred": true
+        },
+        {
+          "name": "Retro eXo",
+          "url": "https://www.retro-exo.com/",
+          "description": "Abandonware / Retro PC Games / Torrents",
+          "starred": true
+        },
+        {
+          "name": "Zombs-Lair",
+          "url": "https://www.zombs-lair.com/",
+          "description": "Abandonware",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "VETUSWARE",
+          "url": "https://vetusware.com/category/Games/",
+          "description": "Abandonware",
+          "starred": true
+        },
+        {
+          "name": "CollectionChamber",
+          "url": "https://collectionchamber.blogspot.com/",
+          "description": "Abandonware",
+          "starred": true
+        },
+        {
+          "name": "LegendsWorld",
+          "url": "https://www.legendsworld.net/",
+          "description": "Retro PC Adventures",
+          "starred": true
+        },
+        {
+          "name": "RAZE",
+          "url": "https://github.com/ZDoom/Raze",
+          "description": "Oldschool Shooter Engines",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/zdoom-edge-raze-official-268086704961748992",
+          "description": "Oldschool Shooter Engines"
+        },
+        {
+          "name": "BuildGDX",
+          "url": "https://m210.duke4.net/",
+          "description": "Oldschool Shooter Engines"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/zZw2eq3n7G",
+          "description": "Oldschool Shooter Engines"
+        },
+        {
+          "name": "File Hunter",
+          "url": "https://www.file-hunter.com/",
+          "description": "MSX Games"
+        },
+        {
+          "name": "Old-Games",
+          "url": "https://www.old-games.ru/",
+          "description": "Abandonware"
+        },
+        {
+          "name": "Japanese PC Compendium",
+          "url": "https://japanesepccompendium.blogspot.com/",
+          "description": "Retro Japanese PC Games"
+        },
+        {
+          "name": "OldGamesDownload",
+          "url": "https://oldgamesdownload.com/",
+          "description": "Abandonware"
+        },
+        {
+          "name": "ClassicPCGames",
+          "url": "https://archive.org/details/classicpcgames",
+          "description": "Abandonware"
+        },
+        {
+          "name": "Magipack",
+          "url": "https://rentry.co/FMHYB64#magipack",
+          "description": "Abandonware"
+        },
+        {
+          "name": "C.A.G.E",
+          "url": "https://discord.gg/cage",
+          "description": "Abandonware / Requires Discord"
+        },
+        {
+          "name": "GiochiAbandonware",
+          "url": "https://giochiabandonware.com/",
+          "description": "Abandonware / Use Translator"
+        },
+        {
+          "name": "Old-Games.com",
+          "url": "https://www.old-games.com/",
+          "description": "Abandonware / 2 Daily Downloads"
+        },
+        {
+          "name": "Win7Games",
+          "url": "https://win7games.com/",
+          "description": "Classic Windows Games"
+        },
+        {
+          "name": "The U-M Software Archives",
+          "url": "https://websites.umich.edu/~archive/",
+          "description": "Retro PC / Mac Games"
+        },
+        {
+          "name": "DOS HAVEN",
+          "url": "https://www.doshaven.eu/",
+          "description": "DOS Games"
+        },
+        {
+          "name": "FreeDOSGames",
+          "url": "https://www.freedosgames.de/",
+          "description": "DOS Games"
+        },
+        {
+          "name": "Abandonware DOS",
+          "url": "https://www.abandonwaredos.com/",
+          "description": "DOS Games"
+        },
+        {
+          "name": "MSX Resource Center",
+          "url": "https://www.msx.org/",
+          "description": "MSX Games"
+        },
+        {
+          "name": "Generation MSX",
+          "url": "https://www.generation-msx.nl/",
+          "description": "MSX Games"
+        },
+        {
+          "name": "World of Spectrum",
+          "url": "https://worldofspectrum.org/",
+          "description": "Sinclair ZX Spectrum Games"
+        },
+        {
+          "name": "SpectrumComputing",
+          "url": "https://spectrumcomputing.co.uk/",
+          "description": "Sinclair ZX Spectrum Games"
+        },
+        {
+          "name": "GamesNostalgia",
+          "url": "https://gamesnostalgia.com/",
+          "description": "Commodore 64 Games"
+        },
+        {
+          "name": "whdload",
+          "url": "https://www.whdload.de/",
+          "description": "Amiga Games"
+        }
+      ]
+    },
+    {
+      "id": "gaming-decomps-ports",
+      "title": "デコンパイル / 移植",
+      "resources": [
+        {
+          "name": "Game Decompilations",
+          "url": "https://decomps.samidy.com/",
+          "description": "Game Decompilations",
+          "tags": [
+            "index",
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://rentry.co/Decomps"
+          ]
+        },
+        {
+          "name": "RetroReversing",
+          "url": "https://www.retroreversing.com/source-code/decompiled-retail-console-games",
+          "description": "Game Decompilations",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "awesome-game-decompilations",
+          "url": "https://github.com/CharlotteCross1998/awesome-game-decompilations",
+          "description": "Game Decompilations",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Galaxy of Games",
+          "url": "https://galaxyofgames.neocities.org/",
+          "description": "Game Ports, Decompilations, etc",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "TheGamingEmporium",
+          "url": "https://www.thegamingemporium.com/",
+          "description": "Game Ports, Decompilations, etc",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "GameTechWiki Ports",
+          "url": "https://emulation.gametechwiki.com/index.php/Game_engine_recreations_and_source_ports",
+          "description": "Game Ports, Decompilations, etc",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "IOQuake3",
+          "url": "https://ioquake3.org/",
+          "description": "Quake 3 Source Port",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "YQuake2",
+          "url": "https://www.yamagi.org/quake2/",
+          "description": "Quake 2 Source Port",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Ship of Harkinian",
+          "url": "https://www.shipofharkinian.com/",
+          "description": "Ocarina of Time Port",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Zelda 64: Recompiled",
+          "url": "https://github.com/Zelda64Recomp/Zelda64Recomp",
+          "description": "Majora's Mask Port",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Beyond All Reason",
+          "url": "https://www.beyondallreason.info/",
+          "description": "Open-Source Total Annihilation / Supreme Commander",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "DFWorkshop",
+          "url": "https://www.dfworkshop.net/",
+          "description": "Daggerfall Unity Engine Port"
+        },
+        {
+          "name": "EDuke32",
+          "url": "https://www.eduke32.com/",
+          "description": "Duke Nukem 3D Source Port",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "NBlood",
+          "url": "https://github.com/NBlood/NBlood",
+          "description": "Reverse-Engineered Duke Nukem Ports"
+        },
+        {
+          "name": "ECWolf",
+          "url": "https://maniacsvault.net/ecwolf/",
+          "description": "Wolfenstein 3D, Spear of Destiny & Super 3D Noah's Ark Port"
+        },
+        {
+          "name": "SRB2Kart",
+          "url": "https://mb.srb2.org/threads/srb2kart.25868/",
+          "description": "Open-Source Sonic Kart Games"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/STJr/Kart-Public",
+          "description": "Open-Source Sonic Kart Games"
+        },
+        {
+          "name": "RingRacers",
+          "url": "https://github.com/KartKrewDev/RingRacers",
+          "description": "Open-Source Sonic Kart Games"
+        },
+        {
+          "name": "Arx Libertatis",
+          "url": "https://arx-libertatis.org/",
+          "description": "Arx Fatalis PC Port"
+        },
+        {
+          "name": "Pixel Gun World",
+          "url": "https://pgun.rilisoft.info/",
+          "description": "Pixel Gun 3D Revivals / PC Ports"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/pHteGmZzbU",
+          "description": "Pixel Gun 3D Revivals / PC Ports"
+        },
+        {
+          "name": "Pixel Gun X",
+          "url": "https://discord.com/invite/8796Fs9tZm",
+          "description": "Pixel Gun 3D Revivals / PC Ports"
+        },
+        {
+          "name": "Infinity Blade PC",
+          "url": "https://www.reddit.com/r/infinityblade",
+          "description": "Infinity Blade I / II PC Ports",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "N64Recomp",
+          "url": "https://github.com/N64Recomp/N64Recomp",
+          "description": "Static Recompilers / Native PC Porting Tools ⁠"
+        },
+        {
+          "name": "PS2Recomp",
+          "url": "https://github.com/ran-j/PS2Recomp",
+          "description": "Static Recompilers / Native PC Porting Tools ⁠"
+        }
+      ]
+    },
+    {
+      "id": "gaming-remakes-recreations",
+      "title": "リメイク / 再制作",
+      "resources": [
+        {
+          "name": "Awesome Game Remakes",
+          "url": "https://github.com/radek-sprta/awesome-game-remakes",
+          "description": "Open-Source Remakes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Game Clones",
+          "url": "https://osgameclones.com/",
+          "description": "Open-Source Remakes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Clone Hero",
+          "url": "https://clonehero.net/",
+          "description": "Guitar Hero Clone / Wiki / Guides / Setlists / Wii Controller Support / Custom Client",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "OpenMW",
+          "url": "https://openmw.org/",
+          "description": "Morrowind Remake / Multiplayer",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "OpenRCT2",
+          "url": "https://openrct2.io/",
+          "description": "Open-Source RollerCoaster Tycoon 2 / Plugins",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "OpenBOR",
+          "url": "https://github.com/DCurrent/openbor",
+          "description": "2D Side Scrolling / Beat 'Em Up Engine / Wiki / Forum / Resources",
+          "starred": true
+        },
+        {
+          "name": "Locomalito",
+          "url": "https://locomalito.com/",
+          "description": "Classic Game Remakes"
+        },
+        {
+          "name": "RetroSpec",
+          "url": "https://retrospec.sgn.net/",
+          "description": "Classic Game Remakes"
+        },
+        {
+          "name": "Mugen",
+          "url": "https://emulation.gametechwiki.com/index.php/Mugen",
+          "description": "2D Fighting Game Engine / Resources"
+        },
+        {
+          "name": "Super Smash Flash",
+          "url": "https://www.supersmashflash.com/",
+          "description": "Flash Super Smash Bros."
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/mcleodgaming",
+          "description": "Flash Super Smash Bros."
+        },
+        {
+          "name": "Smash Crusade",
+          "url": "https://smash-crusade.itch.io/crusade",
+          "description": "Flash Super Smash Bros."
+        },
+        {
+          "name": "Forum",
+          "url": "https://projectcrusade.forumotion.com/",
+          "description": "Flash Super Smash Bros."
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/9WBn6u65Fg",
+          "description": "Flash Super Smash Bros."
+        },
+        {
+          "name": "Luanti",
+          "url": "https://www.luanti.org/",
+          "description": "Open-Source Minecraft Clones / Alternatives"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/minetest",
+          "description": "Open-Source Minecraft Clones / Alternatives"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/luanti-org",
+          "description": "Open-Source Minecraft Clones / Alternatives"
+        },
+        {
+          "name": "Classicube",
+          "url": "https://www.classicube.net/",
+          "description": "Open-Source Minecraft Clones / Alternatives"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/DvYYyRw",
+          "description": "Open-Source Minecraft Clones / Alternatives"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/UnknownShadow200/ClassiCube",
+          "description": "Open-Source Minecraft Clones / Alternatives"
+        },
+        {
+          "name": "Chrono Divide",
+          "url": "https://chronodivide.com/",
+          "description": "Command & Conquer Recreations"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/uavJ34JTWY",
+          "description": "Command & Conquer Recreations"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/chronodivide",
+          "description": "Command & Conquer Recreations"
+        },
+        {
+          "name": "OpenRA",
+          "url": "https://openra.net/",
+          "description": "Command & Conquer Recreations"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/m5dVWH4aQE",
+          "description": "Command & Conquer Recreations"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/OpenRA/OpenRA",
+          "description": "Command & Conquer Recreations"
+        },
+        {
+          "name": "The Dark Mod",
+          "url": "https://www.thedarkmod.com/",
+          "description": "Modernized Thief Recreation / Community Missions"
+        },
+        {
+          "name": "Xonotic",
+          "url": "https://xonotic.org/",
+          "description": "Open-Source Modified Quake Engine FPS / GitLab"
+        },
+        {
+          "name": "Silent Hill 2: Enhanced Edition",
+          "url": "https://enhanced.townofsilenthill.com/SH2/",
+          "description": "Silent Hill 2 Mod Project"
+        },
+        {
+          "name": "⁠DevilutionX",
+          "url": "https://devilutionx.com/",
+          "description": "Open-Source Modified Diablo 1",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Team Forever",
+          "url": "https://teamforeveronline.wixsite.com/home",
+          "description": "Sonic 1 & 2 Enhanced / S1F Mods / S2A Mods / YouTube / BlueSky"
+        },
+        {
+          "name": "Sonic 3 A.I.R.",
+          "url": "https://sonic3air.org/",
+          "description": "Sonic 3 & Knuckles Enhanced / Mods",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "SRB2",
+          "url": "https://www.srb2.org/",
+          "description": "Open-Source Sonic Fan Game / Addons / GitLab",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Streets of Rage Remake",
+          "url": "https://sorr.forumotion.net/t838-new-streets-of-rage-remake-v5-2-download-and-info",
+          "description": "Streets of Rage Remake"
+        },
+        {
+          "name": "OpenSA",
+          "url": "https://github.com/Dzierzan/OpenSA",
+          "description": "Swarm Assault Recreation / Requires OpenRA / Non OpenRA Version"
+        },
+        {
+          "name": "SP Tarkov",
+          "url": "https://www.sp-tarkov.com/",
+          "description": "Escape from Tarkov Single Player Mod",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "doukutsu-rs",
+          "url": "https://github.com/doukutsu-rs/doukutsu-rs",
+          "description": "Open-Source Cave Story Remake"
+        },
+        {
+          "name": "Mars 3D",
+          "url": "https://mars3d-game.wixsite.com/index",
+          "description": "Mars 3D Translation & Remake"
+        },
+        {
+          "name": "Unciv",
+          "url": "https://github.com/yairm210/Unciv",
+          "description": "Civilization V Remake",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "FreeCiv",
+          "url": "https://www.freeciv.org/",
+          "description": "Civilization Remake",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "OpenTTD",
+          "url": "https://www.openttd.org/",
+          "description": "Transport Tycoon Remake",
+          "tags": [
+            "Subreddit",
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "CannonBall",
+          "url": "https://github.com/djyt/cannonball",
+          "description": "OutRun Remake"
+        },
+        {
+          "name": "Forge",
+          "url": "https://card-forge.github.io/forge/",
+          "description": "Magic: The Gathering Fangame",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "EDOPro",
+          "url": "https://projectignis.github.io/",
+          "description": "Yu-Gi-Oh! TCG Fangame",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠Hyper Dragon Ball Z",
+          "url": "https://discord.gg/W85hmYcJB9",
+          "description": "Fan-Made Dragon Ball Z Inspired Fighting Game"
+        },
+        {
+          "name": "Pac-Man",
+          "url": "https://github.com/masonicGIT/pacman",
+          "description": "Pac-Man with Added Features"
+        },
+        {
+          "name": "YARC-Official",
+          "url": "https://github.com/YARC-Official",
+          "description": "Rock Band Clone / Launcher",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠YAVSRG (Interlude)",
+          "url": "https://www.yavsrg.net/",
+          "description": "Rhythm Game Engine",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Bridge",
+          "url": "https://github.com/Geomitron/Bridge",
+          "description": "Download Charts for Rhythm Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "ITGmania",
+          "url": "https://www.itgmania.com/",
+          "description": "DDR Clone",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "beatoraja",
+          "url": "https://mocha-repository.info/",
+          "description": "BMS Player as Alternative to IIDX / beatoraja English Guide"
+        },
+        {
+          "name": "Unnamed SDVX clone",
+          "url": "https://github.com/Drewol/unnamed-sdvx-clone",
+          "description": "Sound Voltex Clone"
+        },
+        {
+          "name": "OpenTaiko",
+          "url": "https://github.com/0auBSQ/OpenTaiko",
+          "description": "Taiko no Tatsujin Clone / Taiko Simulator Guide",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Etterna",
+          "url": "https://etternaonline.com/",
+          "description": "O2Jam Clones"
+        },
+        {
+          "name": "Quaver",
+          "url": "https://quavergame.com/",
+          "description": "O2Jam Clones"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/quaver",
+          "description": "O2Jam Clones"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Quaver",
+          "description": "O2Jam Clones"
+        },
+        {
+          "name": "osu!",
+          "url": "https://osu.ppy.sh/home",
+          "description": "Osu! Tatakae! Ouendan Clones"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/ppy",
+          "description": "Osu! Tatakae! Ouendan Clones"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ppy",
+          "description": "Osu! Tatakae! Ouendan Clones"
+        },
+        {
+          "name": "osu!droid",
+          "url": "https://osudroid.moe/",
+          "description": "Osu! Tatakae! Ouendan Clones"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/fAq9em8",
+          "description": "Osu! Tatakae! Ouendan Clones"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/osudroid/osu-droid",
+          "description": "Osu! Tatakae! Ouendan Clones"
+        },
+        {
+          "name": "McOsu",
+          "url": "https://store.steampowered.com/app/607260/McOsu/",
+          "description": "Osu! Tatakae! Ouendan Clones"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/3UQnt7X",
+          "description": "Osu! Tatakae! Ouendan Clones"
+        },
+        {
+          "name": "PPD",
+          "url": "https://projectdxxx.me/",
+          "description": "Project Diva Clone"
+        },
+        {
+          "name": "Rhythia (Discord)",
+          "url": "https://discord.gg/rhythia",
+          "description": "Sound Space Clone"
+        },
+        {
+          "name": "Cytoid",
+          "url": "https://cytoid.io/",
+          "description": "Cytus Clone",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Sonolus",
+          "url": "https://sonolus.com/",
+          "description": "Project Sekai Clone / Guides",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming-revival-projects",
+      "title": "リバイバルプロジェクト",
+      "resources": [
+        {
+          "name": "Age of the Ring",
+          "url": "https://www.moddb.com/mods/the-horse-lords-a-total-modification-for-bfme",
+          "description": "LOTR: The Battle for Middle-Earth II Revival Mod",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Aleph One",
+          "url": "https://alephone.lhowon.org/",
+          "description": "Open-Source Marathon Continuation",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Falcon BMS",
+          "url": "https://www.falcon-bms.com/",
+          "description": "Falcon 4.0 Modernization Project / Forum",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "FlightGear",
+          "url": "https://www.flightgear.org/",
+          "description": "Open-Source Flight Simulator / GitLab"
+        },
+        {
+          "name": "OpenNox",
+          "url": "https://github.com/opennox/opennox",
+          "description": "Nox Revival Project",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Sonic Runners Revival",
+          "url": "https://sonicrunners.com/",
+          "description": "⁠Sonic Runners Revival",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "r/MinecraftStoryMode",
+          "url": "https://www.reddit.com/r/MinecraftStoryMode/",
+          "description": "Minecraft Story Mode Revival Project",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Peacock",
+          "url": "https://thepeacockproject.org/",
+          "description": "Hitman World of Assassination Server Replacement",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "SpaceCadetPinball",
+          "url": "https://github.com/k4zmu2a/SpaceCadetPinball",
+          "description": "Space Cadet Pinball / Android"
+        }
+      ]
+    },
+    {
+      "id": "gaming-emulators",
+      "title": "エミュレーター",
+      "resources": [
+        {
+          "name": "Emulation Wiki",
+          "url": "https://emulation.gametechwiki.com/",
+          "description": "Download Emulators",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome Emulators",
+          "url": "https://github.com/DerekTurtleRoe/awesome-emulators",
+          "description": "Download Emulators",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "PlanetEmu",
+          "url": "https://www.planetemu.net/",
+          "description": "Download Emulators",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "EmuWiki",
+          "url": "https://www.vincenzoscarpa.it/emuwiki/pmwiki/pmwiki.php?n=Emulators.Emulators&lng=en",
+          "description": "Download Emulators",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "EmuCR",
+          "url": "https://www.emucr.com/",
+          "description": "Download Emulators",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Multi System Emulators",
+          "url": "https://emulation.gametechwiki.com/index.php/Multi-system_emulators",
+          "description": "Emulators with Multiple Consoles",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Frontends",
+          "url": "https://emulation.gametechwiki.com/index.php/Frontends",
+          "description": "Emulators with Multiple Consoles",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "RedSquirrel Project List",
+          "url": "https://redsquirrel87.com/doku.php/projects-list",
+          "description": "Emulator Tools",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Multiplayer Emulation",
+          "url": "https://emulation.gametechwiki.com/index.php/Netplay",
+          "description": "Multiplayer Emulation Tools",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Recommended Emulator Specs",
+          "url": "https://emulation.gametechwiki.com/index.php/Computer_specs",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Emulator BIOS Files",
+          "url": "https://emulation.gametechwiki.com/",
+          "description": "Search for \"Emulator Files\"",
+          "starred": true
+        },
+        {
+          "name": "RetroAchievements",
+          "url": "https://retroachievements.org/",
+          "description": "Achievements for Emulators / Compatible Games / DAT Files",
+          "starred": true
+        },
+        {
+          "name": "Dolphin Guides",
+          "url": "https://dolphin-emu.org/docs/guides/",
+          "description": "Dolphin Setup / Performance Guides",
+          "starred": true
+        },
+        {
+          "name": "Dolphin Performance Guide",
+          "url": "https://github.com/shiiion/dolphin/wiki/Performance-Guide",
+          "description": "Dolphin Setup / Performance Guides"
+        },
+        {
+          "name": "Cemu Guide",
+          "url": "https://cemu.cfw.guide/",
+          "description": "Wii U / BOTW Setup Guides",
+          "starred": true
+        },
+        {
+          "name": "r/CemuPiracy Tutorial",
+          "url": "https://www.reddit.com/r/CemuPiracy/wiki/tutorial/",
+          "description": "Wii U / BOTW Setup Guides"
+        },
+        {
+          "name": "Switch Emulation",
+          "url": "https://rentry.co/FMHYB64#switch-emulation",
+          "description": "Switch Emulator Setup Guides"
+        },
+        {
+          "name": "Wiki of Axekin",
+          "url": "https://wiki.axekin.com/",
+          "description": "Emulation Guides",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Handhelds Wiki",
+          "url": "https://handhelds.wiki/",
+          "description": "Retro Handhelds Wiki / Emulation Guides⁠"
+        },
+        {
+          "name": "RetroCatalog",
+          "url": "https://retrocatalog.com/",
+          "description": "Handheld Emulation Compatibility / Info"
+        },
+        {
+          "name": "Handheld Emulation Compatibility",
+          "url": "https://docs.google.com/spreadsheets/d/1irg60f9qsZOkhp0cwOU7Cy4rJQeyusEUzTNQzhoTYTU/",
+          "description": "Handheld Emulation Compatibility / Info"
+        },
+        {
+          "name": "TOSEC",
+          "url": "https://rentry.co/FMHYB64#tosec",
+          "description": "The Old School Emulation Center"
+        },
+        {
+          "name": "Two-Torial",
+          "url": "https://two-torial.maimaidxprism.plus/",
+          "description": "Arcade Game Emulation Guides"
+        },
+        {
+          "name": "Emulation Collective",
+          "url": "https://discord.com/invite/7pcAbZzpXj",
+          "description": "Xbox One / Series X|S UWP Emulation Discord"
+        },
+        {
+          "name": "MouseInjector",
+          "url": "https://github.com/garungorp/MouseInjectorDolphinDuck",
+          "description": "Add Mouse Support to Emulators"
+        },
+        {
+          "name": "SaveFileConverter",
+          "url": "https://savefileconverter.com/",
+          "description": "Convert Console Saves to Emulator Saves"
+        },
+        {
+          "name": "Motion Support Bypass",
+          "url": "https://redd.it/gobcne",
+          "description": "Fix Cemu BOTW Motion Shrines / DL"
+        },
+        {
+          "name": "ns-emu-mod-downloader",
+          "url": "https://github.com/exefer/ns-emu-mod-downloader",
+          "description": "Download Switch Emulator Mods"
+        },
+        {
+          "name": "TOTK Optimization",
+          "url": "https://rentry.co/FMHYB64#totk-optimization",
+          "description": "TOTK Optimization / Fixes"
+        },
+        {
+          "name": "UniversalDynamicInput",
+          "url": "https://github.com/Venomalia/UniversalDynamicInput",
+          "description": "Custom Dolphin Button Pack"
+        },
+        {
+          "name": "Prime Hack",
+          "url": "https://github.com/Kekun/primehack",
+          "description": "Add Mouse Support to Metroid Games"
+        },
+        {
+          "name": "Prime Hunter Hack",
+          "url": "https://github.com/IBreakGames/PrimeHunterHack",
+          "description": "Add Mouse Support to Metroid Games"
+        },
+        {
+          "name": "RPCS3 Setup Guide",
+          "url": "https://docs.google.com/document/d/1gdjNab-CtVS97jH2diPPP5tCrpBeof9-qPIRRB9-BrU/edit",
+          "description": "RPCS3 Emulator Setup Guide"
+        },
+        {
+          "name": "PCSX-Redux",
+          "url": "https://pcsx-redux.consoledev.net",
+          "description": "PSCX Development Emulator"
+        },
+        {
+          "name": "Modernized PCSX2 Settings",
+          "url": "https://mega.nz/folder/WdNAlY5Z#K6PmrQFyDm2k7BEV8KoAmg",
+          "description": "Premade PCSX2 Settings"
+        },
+        {
+          "name": "⁠Skate 3 RPCS3 Online",
+          "url": "https://discord.gg/DFWCaTGyBT",
+          "description": "RPCS3 Skate 3 Multiplayer"
+        },
+        {
+          "name": "⁠ArticBaseServer",
+          "url": "https://github.com/azahar-emu/ArticBaseServer",
+          "description": "Broadcast 3DS Games to Emulators / Requires No Game Dump"
+        },
+        {
+          "name": "PictoChat Online",
+          "url": "https://pict.chat/",
+          "description": "Browser DS PictoChat"
+        },
+        {
+          "name": "webnofrendo",
+          "url": "https://zardam.github.io/webnofrendo/",
+          "description": "NES Numworks Emulator"
+        }
+      ]
+    },
+    {
+      "id": "gaming-rom-resources",
+      "title": "ROMリソース",
+      "resources": [
+        {
+          "name": "ROM Managers",
+          "url": "https://emulation.gametechwiki.com/index.php/ROM_managers",
+          "description": "List of ROM Managers",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Skraper",
+          "url": "https://www.skraper.net/",
+          "description": "ROM Cover / Metadata Scraper",
+          "starred": true
+        },
+        {
+          "name": "ROM Tools",
+          "url": "https://romtools.io/",
+          "description": "Multi-Tool / Patch / Convert / Compress / Analyze"
+        },
+        {
+          "name": "RomStation",
+          "url": "https://www.romstation.fr/",
+          "description": "ROM Downloader / Manager / Multiplayer"
+        },
+        {
+          "name": "⁠Romifleur",
+          "url": "https://github.com/4Sitam4/Romifleur/",
+          "description": "ROM Downloader / Manager"
+        },
+        {
+          "name": "⁠Romm",
+          "url": "https://romm.app/",
+          "description": "Self-Hosted ROM Manager",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠ROM Duplicate Manager",
+          "url": "https://github.com/Anach/ROM_Duplicate_Manager",
+          "description": "Remove Duplicate ROM Files"
+        },
+        {
+          "name": "Hash Tool",
+          "url": "https://www.romhacking.net/hash/",
+          "description": "ROM Patch Compatibility Checker"
+        },
+        {
+          "name": "RomPatcher",
+          "url": "https://www.marcrobledo.com/RomPatcher.js/",
+          "description": "Online ROM Patchers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/marcrobledo/RomPatcher.js/",
+          "description": "Online ROM Patchers"
+        },
+        {
+          "name": "Rom Patcher JS",
+          "url": "https://www.romhacking.net/patch/",
+          "description": "Online ROM Patchers"
+        },
+        {
+          "name": "Hack64 Patcher",
+          "url": "https://hack64.net/tools/patcher.php",
+          "description": "Online ROM Patchers"
+        },
+        {
+          "name": "FFF6Hacking Patcher",
+          "url": "https://www.ff6hacking.com/patcher/",
+          "description": "Online ROM Patchers"
+        },
+        {
+          "name": "Dats.site",
+          "url": "https://dats.site/home.php",
+          "description": "ROM.dat Files"
+        },
+        {
+          "name": "No Intro",
+          "url": "https://no-intro.org/",
+          "description": "ROM.dat Files"
+        },
+        {
+          "name": "Dat-O-Matic",
+          "url": "https://datomatic.no-intro.org/index.php",
+          "description": "ROM Datasets"
+        },
+        {
+          "name": "r/ROMs",
+          "url": "https://www.reddit.com/r/ROMs/",
+          "description": "ROM Discussion Sub / Wiki / Matrix"
+        },
+        {
+          "name": "Kuribo64",
+          "url": "https://kuribo64.net/",
+          "description": "ROM Modding Community"
+        }
+      ]
+    },
+    {
+      "id": "gaming-rom-sites",
+      "title": "ROMサイト",
+      "resources": [
+        {
+          "name": "ROM Sites Wiki",
+          "url": "https://emulation.gametechwiki.com/index.php/ROM_%26_ISO_Sites",
+          "description": "List of ROM Download Sites",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "r/ROMs Mega",
+          "url": "https://r-roms.github.io/",
+          "description": "ROMs / Pastebins",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Myrient",
+          "url": "https://rentry.co/FMHYB64#myrient",
+          "description": "ROMs",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "Discord"
+          ]
+        },
+        {
+          "name": "Axekin",
+          "url": "https://www.axekin.com/",
+          "description": "ROMs",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Vimms Lair",
+          "url": "https://vimm.net/",
+          "description": "ROMs",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "No-Intro",
+          "url": "https://rentry.co/FMHYB64#no-intro",
+          "description": "ROMs",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "ROM Heaven",
+          "url": "https://romheaven.com/",
+          "description": "ROMs",
+          "starred": true
+        },
+        {
+          "name": "Ziperto",
+          "url": "https://ziperto.com/",
+          "description": "ROMs",
+          "starred": true
+        },
+        {
+          "name": "RuTracker ROMs",
+          "url": "https://rutracker.org/forum/viewforum.php?f=548",
+          "description": "ROMs / Torrents / Use VPN / Tools",
+          "starred": true
+        },
+        {
+          "name": "CDRomance",
+          "url": "https://cdromance.org/",
+          "description": "ROM Fan Translations / Hacks",
+          "starred": true
+        },
+        {
+          "name": "Forum",
+          "url": "https://retrogametalk.com/",
+          "description": "ROM Fan Translations / Hacks"
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://www.reddit.com/r/RetroGameTalk/",
+          "description": "ROM Fan Translations / Hacks"
+        },
+        {
+          "name": "⁠ROMHack.ing",
+          "url": "https://www.romhack.ing/",
+          "description": "ROM Fan Translations / Hacks"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/uAufcgz",
+          "description": "ROM Fan Translations / Hacks"
+        },
+        {
+          "name": "⁠ROMHacking.com",
+          "url": "https://romhacking.com/",
+          "description": "ROM Fan Translations / Hacks"
+        },
+        {
+          "name": "ROMhacking",
+          "url": "https://www.romhacking.net/",
+          "description": "ROM Fan Translations / Hacks"
+        },
+        {
+          "name": "⁠ROMHack Plaza",
+          "url": "https://romhackplaza.org/",
+          "description": "ROM Fan Translations / Hacks"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/5CKzeWmZZU",
+          "description": "ROM Fan Translations / Hacks"
+        },
+        {
+          "name": "Reality Incorporated",
+          "url": "https://sites.google.com/view/bonmarioinc/rom-hacks/released-rom-hacks",
+          "description": "ROM Fan Translations / Hacks"
+        },
+        {
+          "name": "WowROMs",
+          "url": "https://wowroms.com/en",
+          "description": "ROMs"
+        },
+        {
+          "name": "Retro Game Champion",
+          "url": "https://www.retrogamechampion.com/",
+          "description": "Retro Game ROMs, Magazines, Music & more",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Zophar's Domain",
+          "url": "https://www.zophar.net/",
+          "description": "ROM Mods"
+        },
+        {
+          "name": "⁠roms.by",
+          "url": "https://www.roms.by/",
+          "description": "ROMs / Requires Sign-Up"
+        },
+        {
+          "name": "TheRomDepot",
+          "url": "https://theromdepot.com/",
+          "description": "ROMs / Requires Sign-Up"
+        },
+        {
+          "name": "BlueRoms",
+          "url": "https://www.blueroms.ws/",
+          "description": "ROMs / Torrents"
+        },
+        {
+          "name": "⁠EpicROMs",
+          "url": "https://epicroms.net/roms/",
+          "description": "ROMs",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "Arquivista ROMs",
+          "url": "https://rentry.co/FMHYB64#arquivista",
+          "description": "ROMs"
+        },
+        {
+          "name": "FinalBurn Neo",
+          "url": "https://rentry.co/FMHYB64#finalburn-neo",
+          "description": "ROMs / Zip"
+        },
+        {
+          "name": "Romsie",
+          "url": "https://roms2000.com/",
+          "description": "ROMs"
+        },
+        {
+          "name": "Retrostic",
+          "url": "https://www.retrostic.com/",
+          "description": "ROMs"
+        },
+        {
+          "name": "ROMsGames",
+          "url": "https://www.romsgames.net/roms/",
+          "description": "ROMs"
+        },
+        {
+          "name": "ConsoleROMs",
+          "url": "https://www.consoleROMs.com/",
+          "description": "ROMs"
+        },
+        {
+          "name": "ROMsHQ",
+          "url": "https://romshq.com/",
+          "description": "ROMs"
+        },
+        {
+          "name": "Emu-Land",
+          "url": "https://www.emu-land.net/en",
+          "description": "ROMs"
+        },
+        {
+          "name": "Player One",
+          "url": "https://player1.eu/",
+          "description": "ROMs"
+        },
+        {
+          "name": "HexRom",
+          "url": "https://hexrom.com/",
+          "description": "ROMs",
+          "tags": [
+            "Telegram"
+          ]
+        },
+        {
+          "name": "The Old Computer",
+          "url": "https://www.theoldcomputer.com/",
+          "description": "ROMs"
+        },
+        {
+          "name": "Emuparadise",
+          "url": "https://www.emuparadise.me/",
+          "description": "ROMs / Forum / Fix Downloads"
+        },
+        {
+          "name": "ROM-Collections",
+          "url": "https://rentry.co/FMHYB64#rom-collections",
+          "description": "ROMs"
+        },
+        {
+          "name": "ROMsPURE",
+          "url": "https://ROMspure.cc/",
+          "description": "ROMs"
+        },
+        {
+          "name": "Romspedia",
+          "url": "https://www.romspedia.com/",
+          "description": "ROMs"
+        },
+        {
+          "name": "TechToROMs",
+          "url": "https://techtoroms.com/",
+          "description": "ROMs"
+        },
+        {
+          "name": "RPGOnly",
+          "url": "https://rpgonly.com",
+          "description": "ROMs"
+        },
+        {
+          "name": "ROMsFun",
+          "url": "https://romsfun.com/",
+          "description": "ROMs"
+        },
+        {
+          "name": "RetroZone",
+          "url": "https://retrozone.co/",
+          "description": "ROMs",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "ROMSPack",
+          "url": "https://www.romspack.com/",
+          "description": "ROMs"
+        },
+        {
+          "name": "NGR",
+          "url": "https://www.nextgenroms.com/",
+          "description": "ROMs",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "FantasyAnime",
+          "url": "https://fantasyanime.com/",
+          "description": "ROMs"
+        },
+        {
+          "name": "Rom Magnet Links",
+          "url": "https://emulation.gametechwiki.com/index.php/ROM_%26_ISO_Sites#BitTorrent",
+          "description": "ROMs / Torrent"
+        },
+        {
+          "name": "DLXbGame",
+          "url": "https://dlxbgame.com/",
+          "description": "ROMs / Xbox 360 / Avoid PC Games"
+        },
+        {
+          "name": "ROM CSE",
+          "url": "https://cse.google.com/cse?cx=f47f68e49301a07ac",
+          "description": "Multi-Site ROM Search"
+        },
+        {
+          "name": "CSE 2",
+          "url": "https://cse.google.com/cse?cx=744926a50bd7eb010",
+          "description": "Multi-Site ROM Search"
+        },
+        {
+          "name": "Wad Archive",
+          "url": "https://archive.org/details/wadarchive",
+          "description": "83k WAD Files"
+        },
+        {
+          "name": "Cah4e3",
+          "url": "https://cah4e3.shedevr.org.ru/",
+          "description": "Unlicensed ROMs / Bootlegs / Use Translator"
+        },
+        {
+          "name": "AtariMania",
+          "url": "https://www.atarimania.com/",
+          "description": "ROMs / Atari Consoles"
+        },
+        {
+          "name": "/1CC/",
+          "url": "https://1cc.kr.eu.org/1cc/index.html",
+          "description": "Arcade MAME ROMs"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/e7xffWFf9p",
+          "description": "Arcade MAME ROMs"
+        },
+        {
+          "name": "PleasureDome",
+          "url": "https://pleasuredome.github.io/pleasuredome/mame/",
+          "description": "Arcade MAME ROMs"
+        },
+        {
+          "name": "MAME World",
+          "url": "https://mameworld.info/",
+          "description": "Arcade MAME ROMs"
+        },
+        {
+          "name": "Arcade Database",
+          "url": "http://adb.arcadeitalia.net/default.php?lang=en",
+          "description": "Arcade MAME ROMs"
+        },
+        {
+          "name": "PICOwesome",
+          "url": "https://rentry.co/FMHYB64#picowesome",
+          "description": "PICO-8 ROMs"
+        },
+        {
+          "name": "POP Unofficial Website",
+          "url": "https://popuw.com/",
+          "description": "Prince of Persia ROMs / Mods"
+        },
+        {
+          "name": "⁠FFHacktics",
+          "url": "https://ffhacktics.com/smf/",
+          "description": "Final Fantasy Tactics Mods",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "SAGE",
+          "url": "https://sagexpo.org/",
+          "description": "Sonic Fan Games + Mods"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.sonicfangameshq.com/",
+          "description": "Sonic Fan Games + Mods"
+        },
+        {
+          "name": "Sonic Retro",
+          "url": "https://forums.sonicretro.org/",
+          "description": "Sonic Fan Games + Mods"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/sonicretro/",
+          "description": "Sonic Fan Games + Mods"
+        },
+        {
+          "name": "Mega Man Maker",
+          "url": "https://megamanmaker.com/",
+          "description": "Create Mega Man Levels"
+        }
+      ]
+    },
+    {
+      "id": "gaming-nintendo-roms",
+      "title": "Nintendo ROM",
+      "resources": [
+        {
+          "name": "hShop",
+          "url": "https://hshop.erista.me/",
+          "description": "ROMs / 3DS",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/dYKm279",
+          "description": "ROMs / 3DS"
+        },
+        {
+          "name": "3DS ROMS",
+          "url": "https://3dsroms.org",
+          "description": "ROMs / 3DS"
+        },
+        {
+          "name": "WiiUDownloader",
+          "url": "https://github.com/Xpl0itU/WiiUDownloader",
+          "description": "ROMs / Wii U",
+          "starred": true
+        },
+        {
+          "name": "WiiUSBHelper",
+          "url": "https://github.com/FailedShack/USBHelperInstaller/releases",
+          "description": "ROMs / Wii U"
+        },
+        {
+          "name": "JNUSTool",
+          "url": "https://gbatemp.net/threads/jnustool-nusgrabber-and-cdecrypt-combined.413179/",
+          "description": "ROMs / Wii U"
+        },
+        {
+          "name": "NesFiles",
+          "url": "https://www.nesfiles.com/",
+          "description": "ROMs / NES / Famicom",
+          "starred": true
+        },
+        {
+          "name": "FC Gallery",
+          "url": "https://fcpic.nesbbs.com/index_en.html",
+          "description": "ROMs / NES / Famicom"
+        },
+        {
+          "name": "taodung",
+          "url": "https://taodung.com/",
+          "description": "ROMs / 3DS / Switch"
+        },
+        {
+          "name": "Homebrew Hub",
+          "url": "https://hh.gbdev.io/",
+          "description": "Homebrew ROMs / NES / Game Boy"
+        },
+        {
+          "name": "64DD.org",
+          "url": "https://64dd.org/",
+          "description": "ROMs / 64DD"
+        },
+        {
+          "name": "NXBrew",
+          "url": "https://nxbrew.net/",
+          "description": "ROMs / Switch"
+        },
+        {
+          "name": "SwitchGamesMall",
+          "url": "https://switchgamesmall.icu/",
+          "description": "ROMs / Switch / DDL / Torrents",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "NSWGame",
+          "url": "https://nswgame.com/",
+          "description": "ROMs / DS / 3DS / Switch / Wii / WiiU / Avoid PC Games"
+        },
+        {
+          "name": "notUltraNX",
+          "url": "https://not.ultranx.ru/en",
+          "description": "ROMs / Switch / Requires Sign-Up"
+        },
+        {
+          "name": "ROMSim",
+          "url": "https://romsim.com/",
+          "description": "ROMs / Switch",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "ROMSLAB",
+          "url": "https://romslab.com/",
+          "description": "ROMs / Switch"
+        },
+        {
+          "name": "GNS",
+          "url": "https://rentry.co/FMHYB64#gns",
+          "description": "ROMs / Switch"
+        },
+        {
+          "name": "SwitchROMS",
+          "url": "https://switchroms.io/",
+          "description": "ROMs / Switch"
+        },
+        {
+          "name": "RetroNDS",
+          "url": "https://t.me/retronds",
+          "description": "ROMs / Switch / Requires Telegram"
+        },
+        {
+          "name": "⁠NSWTL",
+          "url": "https://nswtl.info/",
+          "description": "ROMs / Switch / Torrents / Requires Telegram"
+        },
+        {
+          "name": "NSWDB",
+          "url": "https://www.nswdb.com",
+          "description": "Switch Release Tracker"
+        },
+        {
+          "name": "3DSDB",
+          "url": "https://3dsdb.com/",
+          "description": "3DS Release Tracker"
+        },
+        {
+          "name": "SM64ROMHacks",
+          "url": "https://rentry.co/FMHYB64#sm64romhacks",
+          "description": "Super Mario 64 Mods",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "MFGG",
+          "url": "https://mfgg.net/",
+          "description": "Super Mario Fan Games / Mods",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Newer Team",
+          "url": "https://newerteam.com/",
+          "description": "Super Mario Bros. DS / Wii Mods"
+        },
+        {
+          "name": "NSMBHD",
+          "url": "https://nsmbhd.net/",
+          "description": "Super Mario Bros. DS / Wii Mods"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/x7gr3M9",
+          "description": "Super Mario Bros. DS / Wii Mods"
+        },
+        {
+          "name": "SMW Hacks",
+          "url": "https://rentry.co/FMHYB64#smw-hacks",
+          "description": "Super Mario World ROM Mods"
+        },
+        {
+          "name": "SMWCentral",
+          "url": "https://smwcentral.net/",
+          "description": "Super Mario World ROM Mods"
+        },
+        {
+          "name": "Wario Land Vault",
+          "url": "https://wario-land.github.io/HackVault/index.html",
+          "description": "Wario Land ROM Mods"
+        },
+        {
+          "name": "Pokémon ROM Mods",
+          "url": "https://rentry.co/FMHYB64#poke",
+          "description": "Pokémon ROM Mods"
+        },
+        {
+          "name": "OOTMM",
+          "url": "https://ootmm.com/",
+          "description": "Randomize + Merge Ocarina of Time with Majora's Mask"
+        },
+        {
+          "name": "SMBX2",
+          "url": "http://codehaus.wohlsoft.ru/index.php",
+          "description": "Super Mario Enhancement Mod / Levels",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠Super Mario Bros Remastered",
+          "url": "https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public",
+          "description": "Super Mario Bros. Remake",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠SMB Arena",
+          "url": "https://www.smbarena.com/",
+          "description": "Super Mario Bros. 1 Mods"
+        },
+        {
+          "name": "Super Mario and the Rainbow Stars",
+          "url": "https://superstarshi.github.io/smatrs/",
+          "description": "Super Mario Mod",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠Super Mario War",
+          "url": "http://smwstuff.net/",
+          "description": "Multiplayer Deathmatch Style Super Mario. Bros."
+        },
+        {
+          "name": "⁠Mario Party Legacy",
+          "url": "https://mariopartylegacy.com/forum/",
+          "description": "Mario Party Mods"
+        },
+        {
+          "name": "Super Mario Bros Crossover",
+          "url": "https://archive.org/details/SuperMarioCrossoverOffline",
+          "description": "Play SMB with Alternative Characters"
+        },
+        {
+          "name": "MetroidConstruction",
+          "url": "https://metroidconstruction.com/",
+          "description": "Metroid ROM Modding Community",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠NS2DB",
+          "url": "https://ns2db.com/",
+          "description": "Switch 2 / Switch / 3DS ROM Release Tracker"
+        }
+      ]
+    },
+    {
+      "id": "gaming-playstation-roms",
+      "title": "PlayStation ROM",
+      "resources": [
+        {
+          "name": "NoPayStation",
+          "url": "https://nopaystation.com/",
+          "description": "ROMs / PS3 / PSP / PSVita",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "PSVitaVPK",
+          "url": "https://psvitavpk.com/",
+          "description": "ROMs / PSVita",
+          "starred": true
+        },
+        {
+          "name": "AlvRo",
+          "url": "https://rentry.co/FMHYB64#alvro",
+          "description": "ROMs / PS2 / PW: ByAlvRo"
+        },
+        {
+          "name": "Super PSX",
+          "url": "https://www.superpsx.com/",
+          "description": "ROMs / PS3 / PS4 / PS5 / Avoid PC Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "DLPSGame",
+          "url": "https://dlpsgame.com/",
+          "description": "ROMs / PS2 / PS3 / PS4 / PS5 / Avoid PC Games"
+        },
+        {
+          "name": "PKGPS4",
+          "url": "https://www.pkgps4.click/",
+          "description": "ROMs / PS4"
+        },
+        {
+          "name": "PS3R",
+          "url": "https://ps3r.com/",
+          "description": "ROMs / PS3"
+        },
+        {
+          "name": "PS Network Database",
+          "url": "https://rentry.co/FMHYB64#ps-content",
+          "description": "ROMs / PS3"
+        },
+        {
+          "name": "PSXROMs",
+          "url": "https://psxroms.pro/",
+          "description": "ROMs / PS2 / PSP"
+        },
+        {
+          "name": "DownloadGamePSP",
+          "url": "https://downloadgamepsp.org/",
+          "description": "ROMs / PSP / PSVita / Avoid PC Games"
+        },
+        {
+          "name": "PS1 Covers",
+          "url": "https://github.com/xlenore/psx-covers",
+          "description": "Cover Downloaders"
+        },
+        {
+          "name": "PS2 Covers",
+          "url": "https://github.com/xlenore/ps2-covers",
+          "description": "Cover Downloaders"
+        }
+      ]
+    },
+    {
+      "id": "gaming-browser-emulators",
+      "title": "ブラウザ Emulators",
+      "resources": [
+        {
+          "name": "Browser Emulator Index",
+          "url": "https://emulation.gametechwiki.com/index.php/Emulators_on_browsers",
+          "description": "List of Browser Emulators",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "GAM.ONL",
+          "url": "https://gam.onl/",
+          "description": "Multi-Console",
+          "starred": true,
+          "mirrors": [
+            "https://www.retrogames.onl/"
+          ]
+        },
+        {
+          "name": "Console Living Room",
+          "url": "https://archive.org/details/consolelivingroom",
+          "description": "Multi-Console / Archive.org",
+          "starred": true
+        },
+        {
+          "name": "Telemelt",
+          "url": "https://telemelt.com/",
+          "description": "Multiplayer Browser Emulator",
+          "starred": true
+        },
+        {
+          "name": "RetroArch Web",
+          "url": "https://web.libretro.com/",
+          "description": "Multi-Console",
+          "starred": true
+        },
+        {
+          "name": "Play Classic Games",
+          "url": "https://playclassic.games/",
+          "description": "Retro Consoles / Multiple-Emulators",
+          "starred": true
+        },
+        {
+          "name": "EmulatorJS",
+          "url": "https://demo.emulatorjs.org/",
+          "description": "Multi-Console / Supported Systems",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Eclipse",
+          "url": "https://eclipseemu.me/play/",
+          "description": "Multi-Console",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "AfterPlay",
+          "url": "https://afterplay.io/play/recently-played",
+          "description": "Multi-Console",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "rom.so",
+          "url": "https://rom.so/",
+          "description": "Multi-Console / Requires Sign-Up"
+        },
+        {
+          "name": "Online Retro Games",
+          "url": "https://www.vincenzoscarpa.it/emuwiki/pmwiki/pmwiki.php?n=OnlineGames.OnlineGames&lng=en",
+          "description": "Retro Consoles / Archive.org"
+        },
+        {
+          "name": "RetroGames",
+          "url": "https://www.retrogames.cz/",
+          "description": "Retro Consoles"
+        },
+        {
+          "name": "Retro Games Bot",
+          "url": "https://retrogamesbot.com/",
+          "description": "Retro Consoles"
+        },
+        {
+          "name": "Aurora",
+          "url": "https://skitty.xyz/aurora/",
+          "description": "Retro Consoles",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "WebRCade",
+          "url": "https://play.webrcade.com/",
+          "description": "Retro Consoles",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Vizzed",
+          "url": "https://www.vizzed.com/",
+          "description": "Retro Consoles / Multiple-Emulators"
+        },
+        {
+          "name": "Online.OldGames",
+          "url": "https://online.oldgames.sk/",
+          "description": "Retro Consoles / Multiple-Emulators"
+        },
+        {
+          "name": "ClassicGames",
+          "url": "https://www.classicgames.me/",
+          "description": "Retro Consoles / Multiple-Emulators"
+        },
+        {
+          "name": "Virtual Consoles",
+          "url": "https://virtualconsoles.com/",
+          "description": "Retro Consoles / Multiple-Emulators"
+        },
+        {
+          "name": "ClassicReload",
+          "url": "https://classicreload.com/",
+          "description": "Retro Consoles / Multiple-Emulators"
+        },
+        {
+          "name": "Emupedia",
+          "url": "https://emupedia.net/beta/",
+          "description": "Retro Consoles"
+        },
+        {
+          "name": "DOS Games Archive",
+          "url": "https://www.dosgamesarchive.com/",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "Best Old Games",
+          "url": "https://www.bestoldgames.net/",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "DOSGames",
+          "url": "https://dosgames.com/",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "RGB Classic Games",
+          "url": "https://www.classicdosgames.com/",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "⁠Meowio",
+          "url": "https://www.information-superhighway.net/meowio/",
+          "description": "NES Browser Emulator / Custom Music + Sounds"
+        },
+        {
+          "name": "SNESFun",
+          "url": "https://www.snesfun.com/",
+          "description": "SNES Browser Emulator / Multiplayer"
+        },
+        {
+          "name": "PS1FUN",
+          "url": "https://www.ps1fun.com/",
+          "description": "PS1 Browser Emulator"
+        },
+        {
+          "name": "SSega",
+          "url": "https://www.ssega.com/",
+          "description": "Sega Browser Emulators / Multiplayer"
+        },
+        {
+          "name": "Sega Play",
+          "url": "https://sega-play.online/",
+          "description": "Sega Browser Emulator"
+        },
+        {
+          "name": "File-Hunter",
+          "url": "https://www.file-hunter.com/",
+          "description": "MSX / Amiga Browser Emulator"
+        },
+        {
+          "name": "MSXGamesWorld",
+          "url": "https://www.msxgamesworld.com/",
+          "description": "MSX Browser Emulators"
+        },
+        {
+          "name": "CheatMSX",
+          "url": "https://www.cheatmsx.com/",
+          "description": "MSX Browser Emulators"
+        },
+        {
+          "name": "CommodoreGames",
+          "url": "https://www.commodoregames.net/",
+          "description": "Commodore / C64 Browser Emulators"
+        },
+        {
+          "name": "C64Online",
+          "url": "https://c64online.com/",
+          "description": "Commodore / C64 Browser Emulators"
+        },
+        {
+          "name": "QAOP",
+          "url": "https://torinak.com/qaop/games",
+          "description": "ZX Spectrum Browser Emulator"
+        },
+        {
+          "name": "Homebrew Hub",
+          "url": "https://hh.gbdev.io/",
+          "description": "Homebrew ROM Emulator / NES / Gameboy"
+        },
+        {
+          "name": "Tiny8bit",
+          "url": "https://floooh.github.io/tiny8bit/",
+          "description": "Vintage 8-Bit",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "RetroFab",
+          "url": "https://itizso.itch.io/retrofab",
+          "description": "Retro LCD Game Emulators"
+        },
+        {
+          "name": "LCD Games",
+          "url": "http://bdrgames.nl/lcdgames/",
+          "description": "Retro LCD Game Emulators"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/BdR76/lcdgame.js",
+          "description": "Retro LCD Game Emulators"
+        },
+        {
+          "name": "DosGames",
+          "url": "https://dosgames.com/",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "DOSZone",
+          "url": "https://dos.zone/",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/hMVYEbG",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "WePlayDOS",
+          "url": "https://weplaydos.games/",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/82TAR6fJ8g",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/muditjuneja/weplaydos.games",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "PlayDOSGames",
+          "url": "https://www.playdosgames.com/",
+          "description": "DOS Browser Emulators"
+        },
+        {
+          "name": "Simon Tatham's Puzzles",
+          "url": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/",
+          "description": "Multiple Puzzle Games / Mobile",
+          "starred": true
+        },
+        {
+          "name": "⁠Puzzmo",
+          "url": "https://www.puzzmo.com/",
+          "description": "Daily Word + Puzzle Games"
+        },
+        {
+          "name": "Arkadium",
+          "url": "https://www.arkadium.com/",
+          "description": "Daily Word + Puzzle Games"
+        },
+        {
+          "name": "⁠ThinkyGames",
+          "url": "https://thinkygames.com/games/?free=true&platforms=Web",
+          "description": "Indie Puzzle Games"
+        },
+        {
+          "name": "Puzzle Loop",
+          "url": "https://www.puzzle-loop.com/",
+          "description": "Multiple Puzzle Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Puzzle Party",
+          "url": "https://artsandculture.google.com/experiment/puzzle-party/EwGBPZlIzv0KRw",
+          "description": "Multiplayer Jigsaws"
+        },
+        {
+          "name": "PuzzlePrime",
+          "url": "https://www.puzzleprime.com/",
+          "description": "Problems / Puzzles"
+        },
+        {
+          "name": "Game for the Brain",
+          "url": "https://www.gamesforthebrain.com/",
+          "description": "Puzzles / Quizzes"
+        },
+        {
+          "name": "MasasGames",
+          "url": "https://masasgames.com/",
+          "description": "Virtual Escape Rooms"
+        },
+        {
+          "name": "Murdle",
+          "url": "https://murdle.com/",
+          "description": "Daily Murder Mystery"
+        },
+        {
+          "name": "⁠enclose.horse",
+          "url": "https://enclose.horse/",
+          "description": "Daily Horse Enclosure Puzzle / Community Levels"
+        },
+        {
+          "name": "Sokoban Online",
+          "url": "https://www.sokobanonline.com/",
+          "description": "Sokoban Puzzles"
+        },
+        {
+          "name": "DailyDungeon",
+          "url": "https://dailydungeon.net/",
+          "description": "Puzzle Dungeon Crawler"
+        },
+        {
+          "name": "Sokoban",
+          "url": "https://suppilulemur.neocities.org/",
+          "description": "Zelda-Themed Sokoban Puzzles"
+        },
+        {
+          "name": "All The 2048",
+          "url": "https://true65536.github.io/allthe2048/",
+          "description": "2048 Puzzles"
+        },
+        {
+          "name": "DuckDuckgo 2048",
+          "url": "https://duckduckgo.com/?q=play+2048&amp;ia=answer",
+          "description": "2048 Puzzles"
+        },
+        {
+          "name": "2048",
+          "url": "https://play2048.co/",
+          "description": "2048 Puzzles"
+        },
+        {
+          "name": "JetHolt",
+          "url": "https://jetholt.com/hacking/",
+          "description": "Fallout Terminal Hacking Game"
+        },
+        {
+          "name": "RebelWithoutACause",
+          "url": "https://rebelwithoutarootcause.com/demos/terminal/",
+          "description": "Fallout Terminal Hacking Game"
+        },
+        {
+          "name": "Aramor",
+          "url": "https://aramor.epizy.com/fallout-terminal/main",
+          "description": "Fallout Terminal Hacking Game"
+        },
+        {
+          "name": "Rockbasher",
+          "url": "https://www.rockbasher.com/",
+          "description": "Retro Style Puzzle Game"
+        },
+        {
+          "name": "⁠Queens Game",
+          "url": "https://queensgame.io/",
+          "description": "N-Queens Problem Inspired Puzzle"
+        },
+        {
+          "name": "Orion",
+          "url": "https://orion.lukasbach.com/",
+          "description": "Puzzle Game"
+        },
+        {
+          "name": "Euclidea",
+          "url": "https://www.euclidea.xyz/",
+          "description": "Geometric Puzzles"
+        },
+        {
+          "name": "Pixel Puzzler",
+          "url": "https://pixel-puzzler.playcurious.games/",
+          "description": "Block Puzzles"
+        },
+        {
+          "name": "UnFlip",
+          "url": "https://unflipgame.com/",
+          "description": "Block Puzzles"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/Hg6zVmTJeP",
+          "description": "Block Puzzles"
+        },
+        {
+          "name": "Sudoku XV",
+          "url": "https://keeri.place/sudoku-xv",
+          "description": "Sudoku"
+        },
+        {
+          "name": "UsDoku",
+          "url": "https://www.usdoku.com/",
+          "description": "Multiplayer Sudoku"
+        },
+        {
+          "name": "picture dots",
+          "url": "https://www.picturedots.com/",
+          "description": "Make & Play Dot Puzzles"
+        },
+        {
+          "name": "Oh, My Dots!",
+          "url": "https://www.ohmydots.com/",
+          "description": "Connect the Dots Game"
+        },
+        {
+          "name": "BreakLock",
+          "url": "https://maxwellito.github.io/breaklock/",
+          "description": "Pattern Lock Game",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Kuku Kube",
+          "url": "https://kuku-kube.com/",
+          "description": "Find the Different Squares"
+        },
+        {
+          "name": "MazeGenerator",
+          "url": "https://www.mazegenerator.net/",
+          "description": "Maze Generators"
+        },
+        {
+          "name": "Maze Toys",
+          "url": "https://maze.toys/",
+          "description": "Maze Generators"
+        },
+        {
+          "name": "Maze",
+          "url": "https://www.epgsoft.com/maze/",
+          "description": "Maze Generators"
+        }
+      ]
+    },
+    {
+      "id": "gaming-rubiks-cube",
+      "title": "ルービックキューブ",
+      "resources": [
+        {
+          "name": "Grubiks",
+          "url": "https://grubiks.com/",
+          "description": "Multi-Cube Types Simulators",
+          "starred": true
+        },
+        {
+          "name": "Rubikverse",
+          "url": "https://rubikverse.com/",
+          "description": "Multi-Cube Types Simulators"
+        },
+        {
+          "name": "Rubik's Cube Explorer",
+          "url": "https://iamthecu.be/",
+          "description": "3x3 Cube Simulator",
+          "starred": true
+        },
+        {
+          "name": "pCubes",
+          "url": "https://twistypuzzles.com/forum/viewtopic.php?f=1&t=27054",
+          "description": "Multi-Cube Types App / Windows"
+        },
+        {
+          "name": "The Cube",
+          "url": "https://bsehovac.github.io/the-cube/",
+          "description": "Multi-Size Cube Simulator"
+        },
+        {
+          "name": "FT Cube",
+          "url": "https://shuantsu.github.io/ft_cube/",
+          "description": "Multi-Size Simulator & Net Generator"
+        },
+        {
+          "name": "Maple Leaves Sim",
+          "url": "https://filipeteixeira.com.br/mapleaves/",
+          "description": "Maple Leaf Cube Simulator"
+        },
+        {
+          "name": "RubiksCu.be",
+          "url": "https://rubikscu.be/solver/",
+          "description": "3x3 Cube Solver"
+        },
+        {
+          "name": "RubikSolve",
+          "url": "https://rubiksolve.com/",
+          "description": "3x3 Cube Solver"
+        },
+        {
+          "name": "Rubik's Cube Solver",
+          "url": "https://rubiks-cube-solver.com/",
+          "description": "3x3 Cube Solver"
+        }
+      ]
+    },
+    {
+      "id": "gaming-minesweeper",
+      "title": "マインスイーパー",
+      "resources": [
+        {
+          "name": "Minesweeper.Online",
+          "url": "https://minesweeper.online/",
+          "description": "Play Minesweeper",
+          "starred": true
+        },
+        {
+          "name": "Wiki",
+          "url": "https://minesweeper.online/help",
+          "description": "Play Minesweeper"
+        },
+        {
+          "name": "PROXX",
+          "url": "https://proxx.app/",
+          "description": "Play Minesweeper"
+        },
+        {
+          "name": "Authoritative Minesweeper",
+          "url": "https://minesweepergame.com/",
+          "description": "Minesweeper Wiki"
+        },
+        {
+          "name": "Minesweeper Advent Calendar",
+          "url": "https://heptaveegesimal.com/2018/advent-calendar/",
+          "description": "60+ Versions of Minesweeper"
+        },
+        {
+          "name": "mmmines!",
+          "url": "https://mmmines.fly.dev/",
+          "description": "Multiplayer Minesweeper"
+        },
+        {
+          "name": "MinesweeperPro",
+          "url": "https://www.minesweeperpro.com/",
+          "description": "Multiplayer Minesweeper"
+        },
+        {
+          "name": "Mines JD",
+          "url": "https://minesjd.com/",
+          "description": "Multiplayer Minesweeper"
+        },
+        {
+          "name": "m3o",
+          "url": "https://play.m3o.xyz/",
+          "description": "Multiplayer Minesweeper"
+        },
+        {
+          "name": "Minesweeper Infinity",
+          "url": "https://www.minesweeperinfinity.com/",
+          "description": "Infinite Minesweeper"
+        },
+        {
+          "name": "Minesweeper Twist",
+          "url": "https://polyreplay.com/minesweepertwist",
+          "description": "Irregular Grid Minesweeper"
+        }
+      ]
+    },
+    {
+      "id": "gaming-crosswords",
+      "title": "クロスワード",
+      "resources": [
+        {
+          "name": "Crosshare",
+          "url": "https://crosshare.org/",
+          "description": "Crossword Puzzles / Creator",
+          "starred": true
+        },
+        {
+          "name": "BestCrosswords",
+          "url": "https://www.bestcrosswords.com/",
+          "description": "Crossword Puzzles"
+        },
+        {
+          "name": "Hovercats",
+          "url": "https://hovercats.gg/",
+          "description": "Multiplayer Crosswords",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Truncate",
+          "url": "https://truncate.town/",
+          "description": "Crossword Strategy Game"
+        },
+        {
+          "name": "Regex Crossword",
+          "url": "https://regexcrossword.com/",
+          "description": "Regex Crosswords",
+          "mirrors": [
+            "https://jimbly.github.io/regex-crossword/"
+          ]
+        },
+        {
+          "name": "Web Paint-by-Number",
+          "url": "https://webpbn.com/",
+          "description": "Graphic Crosswords (Nonograms)"
+        },
+        {
+          "name": "Nonograms.org",
+          "url": "https://www.nonograms.org/",
+          "description": "Graphic Crosswords (Nonograms)"
+        },
+        {
+          "name": "Crossword Labs",
+          "url": "https://crosswordlabs.com/",
+          "description": "Crossword Creators"
+        },
+        {
+          "name": "Crosserville",
+          "url": "https://www.crosserville.com/",
+          "description": "Crossword Creators"
+        },
+        {
+          "name": "Puzzlemaker",
+          "url": "https://puzzlemaker.discoveryeducation.com/",
+          "description": "Crossword Creators"
+        },
+        {
+          "name": "XWords",
+          "url": "https://www.xwords-generator.de/en",
+          "description": "Crossword Creators"
+        }
+      ]
+    },
+    {
+      "id": "gaming-word-games",
+      "title": "Word ゲーム",
+      "resources": [
+        {
+          "name": "Wordleverse",
+          "url": "https://wordleverse.net/",
+          "description": "Wordle Game Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "DLES",
+          "url": "https://dles.aukspot.com/",
+          "description": "Wordle Game Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "WordleWeb",
+          "url": "https://github.com/rarelygoeshere/WordleWeb",
+          "description": "Wordle Game Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Wordle Collection",
+          "url": "https://rentry.org/v72n74fu",
+          "description": "Wordle Game Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome Wordle",
+          "url": "https://github.com/prakhar897/awesome-wordle",
+          "description": "Wordle Game Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Alldle",
+          "url": "https://alldle.net/",
+          "description": "Wordle Game Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Wordles of the World",
+          "url": "https://rwmpelstilzchen.gitlab.io/wordles/",
+          "description": "Wordle Game Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html",
+          "description": "Original Wordle",
+          "starred": true
+        },
+        {
+          "name": "Wordle Analyzer",
+          "url": "https://wordle-analyzer.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/jakearchibald/wordle-analyzer/",
+          "description": ""
+        },
+        {
+          "name": "Woogles",
+          "url": "https://woogles.io/",
+          "description": "Scrabble",
+          "starred": true
+        },
+        {
+          "name": "MoreWords",
+          "url": "https://www.morewords.com/",
+          "description": "Scrabble"
+        },
+        {
+          "name": "PlayScrabble",
+          "url": "https://playscrabble.com/",
+          "description": "Scrabble"
+        },
+        {
+          "name": "WordHub",
+          "url": "https://wordhub.com/",
+          "description": "Scrabble"
+        },
+        {
+          "name": "TheWordSearch",
+          "url": "https://thewordsearch.com/",
+          "description": "Word Search Puzzles"
+        },
+        {
+          "name": "⁠Puzzmo",
+          "url": "https://www.puzzmo.com/",
+          "description": "Daily Word + Puzzle Games"
+        },
+        {
+          "name": "Make a Word Search",
+          "url": "http://www.makeawordsearch.net/",
+          "description": "Word Search Creators"
+        },
+        {
+          "name": "Word Search Labs",
+          "url": "https://wordsearchlabs.com/",
+          "description": "Word Search Creators"
+        },
+        {
+          "name": "Connections",
+          "url": "https://connections.swellgarfo.com/",
+          "description": "Custom Word Puzzles"
+        },
+        {
+          "name": "RobinWords",
+          "url": "https://www.robinwords.com/",
+          "description": "Word Ladder Game"
+        },
+        {
+          "name": "⁠TiledWords",
+          "url": "https://tiledwords.com/",
+          "description": "Daily Tile Rotation Word Game"
+        },
+        {
+          "name": "JKLM.FUN",
+          "url": "https://jklm.fun/",
+          "description": "Multiplayer Word Games"
+        },
+        {
+          "name": "eWordChallenge",
+          "url": "https://www.ewordchallenge.net/",
+          "description": "Boggle Online"
+        },
+        {
+          "name": "Squaredle",
+          "url": "https://squaredle.app/",
+          "description": "Daily Word Puzzle"
+        },
+        {
+          "name": "Linxicon",
+          "url": "https://linxicon.com/",
+          "description": "Word Connection Games"
+        },
+        {
+          "name": "word.golf",
+          "url": "https://www.word.golf/",
+          "description": "Word Connection Games"
+        },
+        {
+          "name": "Wordle VS",
+          "url": "https://wordlevs.com/",
+          "description": "Multiplayer Wordle"
+        },
+        {
+          "name": "⁠Infinite Wordle",
+          "url": "https://gregcameron.com/infinite-wordle/",
+          "description": "Wordle without Daily Limits"
+        },
+        {
+          "name": "Wordle Unlimited",
+          "url": "https://wordleunlimited.org/",
+          "description": "Wordle without Daily Limits"
+        },
+        {
+          "name": "Fusele",
+          "url": "https://fusele.netlify.app/",
+          "description": "Wordle Variant"
+        },
+        {
+          "name": "Word500",
+          "url": "https://word500.com/",
+          "description": "Wordle + Mastermind"
+        },
+        {
+          "name": "Wordly",
+          "url": "https://wordly.org/",
+          "description": "Wordle Clone"
+        },
+        {
+          "name": "Octordle",
+          "url": "https://www.britannica.com/games/octordle/",
+          "description": "Eight Word Wordle"
+        },
+        {
+          "name": "Sqword",
+          "url": "https://www.sqword.com/",
+          "description": "Deck-Based Wordle"
+        },
+        {
+          "name": "Alphabeticle",
+          "url": "https://alphabeticle.xyz/",
+          "description": "Alphabetical Wordle"
+        },
+        {
+          "name": "WordMaze",
+          "url": "https://wordmaze.click/",
+          "description": "Maze Style Wordle"
+        },
+        {
+          "name": "Pixletters",
+          "url": "https://pixletters.com/",
+          "description": "Pixel Style Wordle"
+        },
+        {
+          "name": "Wourdle",
+          "url": "https://wourdle.com/",
+          "description": "British English Wordle"
+        },
+        {
+          "name": "Ridella",
+          "url": "https://ridella.xyz/",
+          "description": "Riddle Wordle"
+        },
+        {
+          "name": "BoardGameGeek",
+          "url": "https://boardgamegeek.com/",
+          "description": "Board Game Databases",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Kallax",
+          "url": "https://kallax.io/",
+          "description": "Board Game Databases",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Pub Meeple",
+          "url": "https://www.pubmeeple.com/rankings",
+          "description": "Community Board Game Rankings",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Online Board Games",
+          "url": "https://drive.google.com/file/d/1NO-05LM-SakbwqNajBXgIO4HuCSkBd6n/view",
+          "description": "Online Board Game Database / Image",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Roll20",
+          "url": "https://roll20.net/",
+          "description": "Online Virtual Tabletop Platforms",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/roll20",
+          "description": "Online Virtual Tabletop Platforms"
+        },
+        {
+          "name": "Rolisteam",
+          "url": "https://rolisteam.org/",
+          "description": "Online Virtual Tabletop Platforms"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/MrMrQwX",
+          "description": "Online Virtual Tabletop Platforms"
+        },
+        {
+          "name": "⁠BoardGameplay",
+          "url": "https://boardgameplay.com/",
+          "description": "Online Board Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "FlyOrDie",
+          "url": "https://www.flyordie.com/",
+          "description": "Online Board Games"
+        },
+        {
+          "name": "⁠VirtualTabletop",
+          "url": "https://virtualtabletop.io/",
+          "description": "Online Board Games",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "PlayOK",
+          "url": "https://www.playok.com/",
+          "description": "Online Board Games"
+        },
+        {
+          "name": "Screentop",
+          "url": "https://screentop.gg/",
+          "description": "Online Board Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "BoardSpace",
+          "url": "https://boardspace.net/english/index.shtml",
+          "description": "Online Board Games",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "FreeBoardGames",
+          "url": "https://www.freeboardgames.org/",
+          "description": "Online Board Games",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "FunNode",
+          "url": "https://www.funnode.com/",
+          "description": "Online Board Games"
+        },
+        {
+          "name": "Board Game Online",
+          "url": "https://www.boardgame-online.com/",
+          "description": "Online Board Games"
+        },
+        {
+          "name": "Board Game Arena",
+          "url": "https://en.boardgamearena.com/",
+          "description": "Online Board Games / Requires Sign-Up"
+        },
+        {
+          "name": "MahjongFun",
+          "url": "https://www.mahjongfun.com/",
+          "description": "Mahjong Games"
+        },
+        {
+          "name": "Mahjong 4 Friends",
+          "url": "https://mahjong4friends.com/",
+          "description": "Mahjong Games"
+        },
+        {
+          "name": "Classic Mahjong",
+          "url": "https://classic-mahjong.com/",
+          "description": "Mahjong Games"
+        },
+        {
+          "name": "The Mahjong",
+          "url": "https://themahjong.com/",
+          "description": "Mahjong Games"
+        },
+        {
+          "name": "lishogi.org",
+          "url": "https://lishogi.org/",
+          "description": "Shogi",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Online-Go.com",
+          "url": "https://online-go.com/",
+          "description": "Multiplayer GO"
+        },
+        {
+          "name": "lidraughts.org",
+          "url": "https://lidraughts.org/",
+          "description": "Multiplayer Checkers"
+        },
+        {
+          "name": "Colonist",
+          "url": "https://colonist.io/",
+          "description": "Settlers of Catan Board Game",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "Party Project",
+          "url": "https://char64.itch.io/partyproject",
+          "description": "Mario Party-Style Tabletop Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Richup.io",
+          "url": "https://richup.io/",
+          "description": "Monopoly-Style Board Game",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Rally the Troops",
+          "url": "https://www.rally-the-troops.com/",
+          "description": "Historical-Style Board Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "18xx",
+          "url": "https://18xx.games/",
+          "description": "18xx Board Games Online",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Hexxagon",
+          "url": "https://hexxagon.com/",
+          "description": "Rubies Vs Pearls"
+        },
+        {
+          "name": "The Bafflement Fires",
+          "url": "https://www.dpoetry.com/fires/",
+          "description": "1950s Freemasonic Board Game"
+        }
+      ]
+    },
+    {
+      "id": "gaming-chess",
+      "title": "チェス",
+      "resources": [
+        {
+          "name": "lichess",
+          "url": "https://lichess.org/",
+          "description": "Chess Platform",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Print Chess",
+          "url": "https://www.printchess.com/",
+          "description": "Printable Paper Chess Set",
+          "starred": true
+        },
+        {
+          "name": "Chess.com",
+          "url": "https://www.chess.com/",
+          "description": "Chess Platform / - Chess Platform",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "PyChess",
+          "url": "https://www.pychess.org/",
+          "description": "Chess Platform",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "GameKnot",
+          "url": "https://gameknot.com/",
+          "description": "Chess Platform"
+        },
+        {
+          "name": "SparkChess",
+          "url": "https://www.sparkchess.com/",
+          "description": "Chess Platform"
+        },
+        {
+          "name": "Chesses",
+          "url": "https://pippinbarr.com/chesses/",
+          "description": "Multiple Styles of Chess"
+        },
+        {
+          "name": "TheChessDirectory",
+          "url": "https://thechessdirectory.com/play-chess",
+          "description": "Multiple Styles of Chess"
+        },
+        {
+          "name": "Omnichess",
+          "url": "https://omnichess.club/",
+          "description": "Multiple Styles of Chess"
+        },
+        {
+          "name": "Echo Chess",
+          "url": "https://echochess.com/",
+          "description": "Morph-Style Chess",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "The Kilobyte's Gambit",
+          "url": "https://vole.wtf/kilobytes-gambit/",
+          "description": "Retro-Style Chess"
+        },
+        {
+          "name": "Kung Fu Chess",
+          "url": "https://www.kfchess.com/",
+          "description": "Real-Time Chess Without Turns"
+        },
+        {
+          "name": "Pokemon Chess",
+          "url": "https://pokemonchess.com/",
+          "description": "Pokémon-Style Chess",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "ChessBase",
+          "url": "https://www.chessbase.in/",
+          "description": "Indian Chess News"
+        },
+        {
+          "name": "English",
+          "url": "https://en.chessbase.com/",
+          "description": "Indian Chess News"
+        }
+      ]
+    },
+    {
+      "id": "gaming-card-games",
+      "title": "Card ゲーム",
+      "resources": [
+        {
+          "name": "World of Card Games",
+          "url": "https://worldofcardgames.com/",
+          "description": "Multiplayer Card Games",
+          "starred": true
+        },
+        {
+          "name": "Codenames",
+          "url": "https://codenames.game/",
+          "description": "Party Card Game",
+          "starred": true
+        },
+        {
+          "name": "OCTGN",
+          "url": "https://www.octgn.net/",
+          "description": "Virtual Multiplayer Card Games / Tabletop App",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "CardGames.io",
+          "url": "https://cardgames.io/",
+          "description": "Multiplayer Card Games"
+        },
+        {
+          "name": "247Games",
+          "url": "https://www.247games.com/",
+          "description": "Multiplayer Card Games"
+        },
+        {
+          "name": "CardzMania",
+          "url": "https://www.cardzmania.com/",
+          "description": "Multiplayer Card Games"
+        },
+        {
+          "name": "BlacksReds",
+          "url": "https://blacksreds.com/",
+          "description": "Multiplayer Card Games"
+        },
+        {
+          "name": "PlayOK",
+          "url": "https://www.playok.com/",
+          "description": "Multiplayer Card Games"
+        },
+        {
+          "name": "PlayingCards.io",
+          "url": "https://playingcards.io/",
+          "description": "Multiplayer Card Games"
+        },
+        {
+          "name": "Lethal",
+          "url": "https://playlethal.fun/",
+          "description": "Single Turn Card Game",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "gTOONS Remastered",
+          "url": "https://gtoons.app/",
+          "description": "Cartoon Network Strategy Card Game",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Picture Cards",
+          "url": "https://picturecards.online/",
+          "description": "Online Cards Against Humanity"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/kJB4bxSksw",
+          "description": "Online Cards Against Humanity"
+        },
+        {
+          "name": "Bad Cards",
+          "url": "https://bad.cards/",
+          "description": "Online Cards Against Humanity"
+        },
+        {
+          "name": "Pretend You're Xyzzy",
+          "url": "https://pyx-1.pretendyoure.xyz/zy/game.jsp",
+          "description": "Online Cards Against Humanity"
+        },
+        {
+          "name": "Cards Against Humanity",
+          "url": "https://www.cardsagainsthumanity.com/",
+          "description": "Official CAH Site w / Free Printable Set"
+        },
+        {
+          "name": "Secret Hitler",
+          "url": "https://secret-hitler.online/",
+          "description": "Online Secret Hitler Game / Ruleset / Note",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Wikidata Card Game Generator",
+          "url": "https://cardgame.blinry.org/",
+          "description": "Generate \"Top Trumps\" Cards Using Wikidata"
+        },
+        {
+          "name": "Solitaired",
+          "url": "https://solitaired.com/",
+          "description": "Online Solitaire"
+        },
+        {
+          "name": "Solitr",
+          "url": "https://www.solitr.com/",
+          "description": "Online Solitaire"
+        },
+        {
+          "name": "Solitaire Owl",
+          "url": "https://solitaireowl.com/",
+          "description": "Online Solitaire"
+        },
+        {
+          "name": "World of Solitaire",
+          "url": "https://worldofsolitaire.com/",
+          "description": "Online Solitaire"
+        },
+        {
+          "name": "PySolFC",
+          "url": "https://pysolfc.sourceforge.io/",
+          "description": "Portable Solitaire App / Windows, Mac, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Blackjack Break",
+          "url": "https://blackjackbreak.com/",
+          "description": "Online Blackjack"
+        },
+        {
+          "name": "HTML5 Blackjack",
+          "url": "https://www.html5blackjack.net/",
+          "description": "Online Blackjack"
+        },
+        {
+          "name": "Poker Now",
+          "url": "https://www.pokernow.club/",
+          "description": "Multiplayer Poker"
+        },
+        {
+          "name": "247 Free Poker",
+          "url": "https://www.247freepoker.com/",
+          "description": "Multiplayer Poker"
+        }
+      ]
+    },
+    {
+      "id": "gaming-dungeons-and-dragonshttpswwwredditcomrfreemediaheckyeahwikieduwiki25b7dungeons26amp3bdragons",
+      "title": "ダンジョンズ＆ドラゴンズ",
+      "resources": [
+        {
+          "name": "Allchemy",
+          "url": "https://allchemy.io/",
+          "description": "Infinite Item Crafting Games",
+          "starred": true
+        },
+        {
+          "name": "Little Alchemy",
+          "url": "https://littlealchemy.com/",
+          "description": "Infinite Item Crafting Games"
+        },
+        {
+          "name": "Little Alchemy 2",
+          "url": "https://littlealchemy2.com/",
+          "description": "Infinite Item Crafting Games"
+        },
+        {
+          "name": "Infinite Craft",
+          "url": "https://neal.fun/infinite-craft/",
+          "description": "Infinite Item Crafting Games"
+        },
+        {
+          "name": "Wiki",
+          "url": "https://expitau.com/InfiniteCraftWiki/",
+          "description": "Infinite Item Crafting Games"
+        },
+        {
+          "name": "Search",
+          "url": "https://infinibrowser.wiki/",
+          "description": "Infinite Item Crafting Games"
+        },
+        {
+          "name": "The World's Biggest Pac-Man",
+          "url": "https://worldsbiggestpacman.com/",
+          "description": "Infinite Custom Pac-Man",
+          "starred": true
+        },
+        {
+          "name": "Mario Kart PC",
+          "url": "https://mkpc.malahieude.net/mariokart.php",
+          "description": "Browser SNES Style Mario Kart / Multiplayer / Custom Maps",
+          "starred": true
+        },
+        {
+          "name": "Super Monkey Ball Web",
+          "url": "https://rentry.co/FMHYB64#mb-online",
+          "description": "Browser Super Monkey Ball",
+          "starred": true
+        },
+        {
+          "name": "Marble Blast Gold Web",
+          "url": "https://marbleblast.vaniverse.io/",
+          "description": "Browser Marble Blast",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Vanilagy/MarbleBlast",
+          "description": "Browser Marble Blast"
+        },
+        {
+          "name": "Marble Blast Ultra",
+          "url": "https://marbleblastultra.randomityguy.me/",
+          "description": "Browser Marble Blast"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/RandomityGuy/MBHaxe",
+          "description": "Browser Marble Blast"
+        },
+        {
+          "name": "Slope Plus",
+          "url": "https://coweggs.itch.io/slope-plus",
+          "description": "Downhill Ball Game",
+          "starred": true
+        },
+        {
+          "name": "QWOP",
+          "url": "https://www.foddy.net/Athletics.html",
+          "description": "Ragdoll Running Game",
+          "starred": true
+        },
+        {
+          "name": "SMBGames",
+          "url": "https://smbgames.be/",
+          "description": "Browser Super Mario"
+        },
+        {
+          "name": "SMWGames",
+          "url": "https://www.smwgames.com/",
+          "description": "Modded Browser Super Mario World"
+        },
+        {
+          "name": "Level Share Square",
+          "url": "https://levelsharesquare.com/",
+          "description": "Custom Mario Fangame Maps"
+        },
+        {
+          "name": "Jelly Mario",
+          "url": "https://jellymar.io/",
+          "description": "Jelly Super Mario"
+        },
+        {
+          "name": "Club Penguin Legacy",
+          "url": "https://play.cplegacy.com/",
+          "description": "⁠Club Penguin Revival Projects / Server Tracker"
+        },
+        {
+          "name": "Club Penguin Journey",
+          "url": "https://cpjourney.net/",
+          "description": "⁠Club Penguin Revival Projects / Server Tracker"
+        },
+        {
+          "name": "Snubby",
+          "url": "https://rentry.co/FMHYB64#sr-game",
+          "description": "Browser Slime Rancher"
+        },
+        {
+          "name": "CelesteClassic",
+          "url": "https://maddymakesgamesinc.itch.io/celesteclassic",
+          "description": "Full Classic Celeste"
+        },
+        {
+          "name": "TENNIS!",
+          "url": "https://snek-vunderkind.vercel.app/games/tennis.html",
+          "description": "JavaScript Pong"
+        },
+        {
+          "name": "SpaceCadetPinball",
+          "url": "https://alula.github.io/SpaceCadetPinball",
+          "description": "Browser Space Cadet Pinball"
+        },
+        {
+          "name": "Fluppy",
+          "url": "https://fluppy.pages.dev/",
+          "description": ""
+        },
+        {
+          "name": "Google Snake Mods",
+          "url": "https://googlesnakemods.com/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/NA6vHg62An",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/DarkSnakeGang/GoogleSnakeModLoader",
+          "description": ""
+        },
+        {
+          "name": "Play Snake",
+          "url": "https://playsnake.org/",
+          "description": ""
+        },
+        {
+          "name": "Snake-Game",
+          "url": "https://www.onemotion.com/snake-game/",
+          "description": ""
+        },
+        {
+          "name": "⁠LEGO Island Web Port",
+          "url": "https://rentry.co/FMHYB64#bli",
+          "description": "Browser LEGO Island"
+        },
+        {
+          "name": "Flappy Bird",
+          "url": "https://flappybird.io/",
+          "description": "HTML5 Flappy Bird"
+        },
+        {
+          "name": "Lain Game",
+          "url": "https://laingame.net/",
+          "description": "Lain Game Browser Emulator"
+        },
+        {
+          "name": "You Have Not Died Of Dysentery",
+          "url": "https://woe-industries.itch.io/you-have-not-died-of-dysentery",
+          "description": "Oregon Trail with Alt Dysentery Mechanics"
+        },
+        {
+          "name": "The Circle",
+          "url": "https://the-circle.app/",
+          "description": "Dodge Circles"
+        },
+        {
+          "name": "JoeDangerTheGame",
+          "url": "https://joedangerthegame.com/",
+          "description": "Trials Inspired Game"
+        },
+        {
+          "name": "Polka Dot Game",
+          "url": "https://www.polkadotgame.com/",
+          "description": "Dodge & Eat Dots"
+        },
+        {
+          "name": "Launch Ball",
+          "url": "https://launchball.sciencemuseum.org.uk/",
+          "description": "Physics Game w / Map Creator"
+        },
+        {
+          "name": "Spinner",
+          "url": "https://hyperspace-wizard.itch.io/spinner",
+          "description": "Spinner Timing Game"
+        },
+        {
+          "name": "Ehmorris",
+          "url": "https://ehmorris.com/lander/",
+          "description": "Spaceship Landing Game"
+        },
+        {
+          "name": "Dino Swords",
+          "url": "https://dinoswords.gg/",
+          "description": "Stay Alive by Jumping / Destroying Cacti"
+        },
+        {
+          "name": "Web osu!mania",
+          "url": "https://rentry.co/FMHYB64#wosu",
+          "description": "Browser osu!mania Beatmaps",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Taiko Web",
+          "url": "https://rentry.co/FMHYB64#tnt",
+          "description": "Taiko no Tatsujin / Rhythm Game"
+        },
+        {
+          "name": "Rhythm Plus",
+          "url": "https://rhythm-plus.com",
+          "description": "Rhythm Game",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://rhythmplus.io/"
+          ]
+        },
+        {
+          "name": "Bemuse",
+          "url": "https://bemuse.ninja/",
+          "description": "Rhythm Game",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Pulsus",
+          "url": "https://www.pulsus.cc/play/",
+          "description": "3x3 Letter Tile Rhythm Game"
+        },
+        {
+          "name": "DB Evolution",
+          "url": "https://www.txori.com/dbdevolution",
+          "description": "Dragon Ball Fighting Game"
+        },
+        {
+          "name": "Rooms",
+          "url": "https://rooms.xyz/",
+          "description": "Room Design Game",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Haxball",
+          "url": "https://www.haxball.com/",
+          "description": "Physics-Based Soccer"
+        },
+        {
+          "name": "Mexican Train",
+          "url": "https://mexicantrain.online/",
+          "description": "Domino Train Game / Requires Sign-Up"
+        },
+        {
+          "name": "racing-game",
+          "url": "https://racing.pmnd.rs/",
+          "description": "Driving Game / Requires Sign-Up",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "The Race",
+          "url": "https://therace.montblanclegend.com/",
+          "description": "Driving Game",
+          "mirrors": [
+            "https://therace.montblancexplorer.com/"
+          ]
+        },
+        {
+          "name": "slow roads",
+          "url": "https://slowroads.io/",
+          "description": "Driving Game"
+        },
+        {
+          "name": "The Multiverse",
+          "url": "https://across-multiverse.com/",
+          "description": "Universe Exploration Game Across"
+        },
+        {
+          "name": "⁠Messenger",
+          "url": "https://messenger.abeto.co/",
+          "description": "Relaxing 3D Delivery Game"
+        },
+        {
+          "name": "Starshine Legacy",
+          "url": "https://starshine-legacy.starstable.com/index.html",
+          "description": "3D Browser Mystery Game"
+        },
+        {
+          "name": "Neopets",
+          "url": "https://www.neopets.com/",
+          "description": "Virtual Pet Games / Requires Sign-Up"
+        },
+        {
+          "name": "tamaNOTchi",
+          "url": "https://tamanotchi.world/",
+          "description": "Virtual Pet Games / Requires Sign-Up"
+        },
+        {
+          "name": "Marapets",
+          "url": "https://www.marapets.com",
+          "description": "Virtual Pet Games / Requires Sign-Up"
+        },
+        {
+          "name": "Gaia Online",
+          "url": "https://www.gaiaonline.com/",
+          "description": "Anime Virtual Pet / Requires Sign-Up"
+        },
+        {
+          "name": "Edu-Games",
+          "url": "https://www.edu-games.org/",
+          "description": "Educational Games"
+        }
+      ]
+    },
+    {
+      "id": "gaming-multi-game-sites",
+      "title": "Multi-ゲーム Sites",
+      "resources": [
+        {
+          "name": "Flash Arch",
+          "url": "https://flasharch.com/en",
+          "description": "Browser Game Aggregator",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Kongregate",
+          "url": "https://www.kongregate.com/",
+          "description": "Browser Game Aggregator",
+          "starred": true
+        },
+        {
+          "name": "Crazy Games",
+          "url": "https://www.crazygames.com/",
+          "description": "Browser Game Aggregator",
+          "starred": true
+        },
+        {
+          "name": "Flashpoint",
+          "url": "https://flashpointarchive.org/",
+          "description": "Flash Game Archive App / Play Online",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Andkon",
+          "url": "https://andkon.com/arcade/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Addicting Games",
+          "url": "https://www.addictinggames.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Game-Game",
+          "url": "https://game-game.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Flash Library",
+          "url": "https://rentry.co/FMHYB64#software-library-flash",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Nexiloop Games",
+          "url": "https://nexiloop.games/",
+          "description": "Browser Game Aggregator",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Y8",
+          "url": "https://www.y8.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Alfy",
+          "url": "https://www.alfy.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "⁠Gamesfrog",
+          "url": "https://gamesfrog.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Miniplay",
+          "url": "https://www.miniplay.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Poki",
+          "url": "https://poki.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Snokido",
+          "url": "https://www.snokido.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "FreeGames",
+          "url": "https://freegames.org/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "GamezHero",
+          "url": "https://www.gamezhero.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Yandex Games",
+          "url": "https://yandex.com/games/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "yell0wsuit",
+          "url": "https://yell0wsuit.page/games.html",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "GamePix",
+          "url": "https://www.gamepix.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "⁠Gameflare",
+          "url": "https://www.gameflare.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Friv",
+          "url": "https://www.friv.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "RoundGames",
+          "url": "https://www.roundgames.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Flash by Night",
+          "url": "http://www.flashbynight.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "FlashMuseum",
+          "url": "https://flashmuseum.org/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "FlashLegacy",
+          "url": "https://www.flashlegacy.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "iogames.space",
+          "url": "https://iogames.space/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "IOGames",
+          "url": "https://iogames.party/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "Kevin Games",
+          "url": "https://kevin.games/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "TheBestarcade",
+          "url": "https://html5.thebestarcadescript.com/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "AlbinoBlackSheep",
+          "url": "https://www.albinoblacksheep.com/games/",
+          "description": "Browser Game Aggregator"
+        },
+        {
+          "name": "r/WebGames",
+          "url": "https://reddit.com/r/WebGames",
+          "description": "Browser Games Subreddit"
+        },
+        {
+          "name": "Spatial",
+          "url": "https://www.spatial.io/",
+          "description": "3D Browser Games"
+        },
+        {
+          "name": "⁠drifted",
+          "url": "https://www.drifted.com/",
+          "description": "Drifting-Focused Browser Games"
+        },
+        {
+          "name": "Curated PICO-8",
+          "url": "https://nerdyteachers.com/PICO-8/Games/",
+          "description": "PICO-8 Browser Games"
+        },
+        {
+          "name": "Noel Friedrich",
+          "url": "https://www.noel-friedrich.de/terminal/",
+          "description": "Browser Terminal Games"
+        },
+        {
+          "name": "ABA Games",
+          "url": "https://www.asahi-net.or.jp/~cs8k-cyu/browser.html",
+          "description": "Single Button Games"
+        }
+      ]
+    },
+    {
+      "id": "gaming-indie-browser-games",
+      "title": "Indie ブラウザ ゲーム",
+      "resources": [
+        {
+          "name": "Browser Craft",
+          "url": "https://browsercraft.com/",
+          "description": "Indie Browser Game Index / Tracker",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Newgrounds",
+          "url": "https://www.newgrounds.com/games",
+          "description": "Indie Games / Community Developed",
+          "starred": true
+        },
+        {
+          "name": "Nitrome",
+          "url": "https://www.nitrome.com/",
+          "description": "Indie Games / In-House Dev Team",
+          "starred": true
+        },
+        {
+          "name": "itch.io web games",
+          "url": "https://itch.io/games/free/platform-web",
+          "description": "Indie Games / Community Developed",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Armor Games",
+          "url": "https://armorgames.com/",
+          "description": "Indie Games / Official Publisher",
+          "starred": true
+        },
+        {
+          "name": "Js13kGames",
+          "url": "https://js13kgames.com/entries",
+          "description": "Indie Browser Game Competition"
+        },
+        {
+          "name": "Deepnight",
+          "url": "https://deepnight.net/",
+          "description": "Indie Games / In-House Dev Team"
+        },
+        {
+          "name": "watabou",
+          "url": "https://watabou.itch.io/",
+          "description": "Indie Games / In-House Dev Team"
+        },
+        {
+          "name": "DAN-BALL",
+          "url": "https://dan-ball.jp/en/",
+          "description": "Indie Games / In-House Dev Team"
+        },
+        {
+          "name": "Modd.io",
+          "url": "https://www.modd.io/",
+          "description": "Indie Games / Community Developed"
+        },
+        {
+          "name": "Kindanice",
+          "url": "https://kindanice.itch.io/",
+          "description": "Indie Games / itch.io Developer"
+        },
+        {
+          "name": "Graeme Borland",
+          "url": "https://graebor.itch.io/",
+          "description": "Indie Games / itch.io Developer"
+        },
+        {
+          "name": "Jezzamon",
+          "url": "https://jezzamon.itch.io/",
+          "description": "Indie Games / itch.io Developer"
+        },
+        {
+          "name": "⁠heyVR.io",
+          "url": "https://heyvr.io/",
+          "description": "Browser VR Games",
+          "tags": [
+            "Discord"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming-unblocked-games",
+      "title": "Unblocked ゲーム",
+      "resources": [
+        {
+          "name": "GN-Math",
+          "url": "https://gn-math.dev/",
+          "description": "Browser Games / Ports",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ],
+          "mirrors": [
+            "https://gn-math-t.github.io/"
+          ]
+        },
+        {
+          "name": "Selenite",
+          "url": "https://selenite.cc/",
+          "description": "Browser Games / Ports",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ],
+          "mirrors": [
+            "https://selenite.skysthelimit.dev/",
+            "https://selenite.skys.day/"
+          ]
+        },
+        {
+          "name": "VAPOR",
+          "url": "https://vapor.my/",
+          "description": "Browser Games / Ports",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠Truffled",
+          "url": "https://truffled.lol/g",
+          "description": "Browser Games / Ports"
+        },
+        {
+          "name": "Unblock KISD",
+          "url": "https://sites.google.com/view/unblockkisd/",
+          "description": "Browser Games"
+        },
+        {
+          "name": "UBG365",
+          "url": "https://ubg365.github.io/",
+          "description": "Browser Games"
+        },
+        {
+          "name": "⁠US5",
+          "url": "https://us5.thetravelingtourguide.com/",
+          "description": "Browser Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Cool Math Games",
+          "url": "https://www.coolmathgames.com/",
+          "description": "Educational Browser Games"
+        }
+      ],
+      "note": "These are browser game collections that also function as proxies / unblockers."
+    },
+    {
+      "id": "gaming-party-multiplayer",
+      "title": "パーティー / マルチプレイヤー",
+      "resources": [
+        {
+          "name": "Eaglercraft",
+          "url": "https://eaglercraft.com/",
+          "description": "Online Browser Minecraft / Site List / Note",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/yxpa55BahB",
+          "description": "Online Browser Minecraft / Site List / Note"
+        },
+        {
+          "name": "⁠AmplerLauncher",
+          "url": "https://irv77.github.io/AmplerLauncher/",
+          "description": "Online Browser Minecraft / Site List / Note"
+        },
+        {
+          "name": "WebMC",
+          "url": "https://webmc.xyz/",
+          "description": "Online Browser Minecraft / Site List / Note"
+        },
+        {
+          "name": "2",
+          "url": "https://webmc.colbster937.dev/",
+          "description": "Online Browser Minecraft / Site List / Note"
+        },
+        {
+          "name": "3",
+          "url": "https://webmc-launcher.vercel.app/",
+          "description": "Online Browser Minecraft / Site List / Note"
+        },
+        {
+          "name": "EaglerCraftX",
+          "url": "https://fastest.eaglercraft.win/",
+          "description": "Online Browser Minecraft / Site List / Note"
+        },
+        {
+          "name": "2",
+          "url": "https://client.eaglercraft.win/",
+          "description": "Online Browser Minecraft / Site List / Note"
+        },
+        {
+          "name": "Minecraft Classic",
+          "url": "https://classic.minecraft.net/",
+          "description": "Online Browser Minecraft / Site List / Note"
+        },
+        {
+          "name": "NetGames",
+          "url": "https://netgames.io/",
+          "description": "Multiple Games",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Gidd.io",
+          "url": "https://gidd.io/",
+          "description": "Multiple Games",
+          "starred": true
+        },
+        {
+          "name": "Gartic Phone",
+          "url": "https://garticphone.com/",
+          "description": "Telephone Game",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "skribbl",
+          "url": "https://skribbl.io/",
+          "description": "Drawing / Guessing Game / Multiplayer",
+          "starred": true
+        },
+        {
+          "name": "Extra Features",
+          "url": "https://typo.rip/",
+          "description": "Drawing / Guessing Game / Multiplayer"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/toobeeh/skribbltypo",
+          "description": "Drawing / Guessing Game / Multiplayer"
+        },
+        {
+          "name": "DrawBattle",
+          "url": "https://drawbattle.io/",
+          "description": "Drawing / Guessing Game / Multiplayer"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/D6aHB4hRhK",
+          "description": "Drawing / Guessing Game / Multiplayer"
+        },
+        {
+          "name": "Sketchful",
+          "url": "https://sketchful.io/",
+          "description": "Drawing / Guessing Game / Multiplayer"
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://reddit.com/r/Sketchful",
+          "description": "Drawing / Guessing Game / Multiplayer"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/MEvtMCv",
+          "description": "Drawing / Guessing Game / Multiplayer"
+        },
+        {
+          "name": "Drawize",
+          "url": "https://www.drawize.com/",
+          "description": "Drawing / Guessing Game / Multiplayer"
+        },
+        {
+          "name": "Gartic",
+          "url": "https://gartic.io/",
+          "description": "Drawing / Guessing Game / Multiplayer"
+        },
+        {
+          "name": "⁠GamingCouch",
+          "url": "https://gamingcouch.com/",
+          "description": "Multiplayer Phone Controller / Gamepad Games",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠Tough Love Arena",
+          "url": "https://toughlovearena.com/",
+          "description": "Multiplayer Browser Fighting Game",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "AWBW",
+          "url": "https://awbw.amarriner.com/",
+          "description": "Multiplayer Browser Advance Wars",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Bloxd",
+          "url": "https://bloxd.io/",
+          "description": "Online Minecraft Clones"
+        },
+        {
+          "name": "Texture Editor / Assets",
+          "url": "https://www.bloxdforge.com/",
+          "description": "Online Minecraft Clones"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/vwMp5y25RX",
+          "description": "Online Minecraft Clones"
+        },
+        {
+          "name": "MiniBlox",
+          "url": "https://miniblox.io/",
+          "description": "Online Minecraft Clones"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/nAwzkUJNmb",
+          "description": "Online Minecraft Clones"
+        },
+        {
+          "name": "Game Of Bombs",
+          "url": "https://gameofbombs.com/",
+          "description": "Multiplayer Bomberman Style MMO"
+        },
+        {
+          "name": "PandaBomber",
+          "url": "https://pandabomber.gg/",
+          "description": "Multiplayer Bomberman Style Game",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠Splatoon.io",
+          "url": "https://splatoon.io/",
+          "description": "Multiplayer ⁠Splatoon Style Game"
+        },
+        {
+          "name": "Slither.io",
+          "url": "https://slither.io/",
+          "description": "Grow the Longest Worm"
+        },
+        {
+          "name": "Make It Meme",
+          "url": "https://makeitmeme.com/",
+          "description": "Meme Party Game"
+        },
+        {
+          "name": "Hexar.io",
+          "url": "https://www.hexar.io/",
+          "description": "Control the Map"
+        },
+        {
+          "name": "splix.io",
+          "url": "https://splix.io/",
+          "description": "Control the Map"
+        },
+        {
+          "name": "Powerline.io",
+          "url": "https://powerline.io/",
+          "description": "Multiplayer Snake"
+        },
+        {
+          "name": "agar.io",
+          "url": "https://agar.io/",
+          "description": "Become the Biggest Circle"
+        },
+        {
+          "name": "mope.io",
+          "url": "https://mope.io/",
+          "description": "Become the Biggest Animal",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "TagPro",
+          "url": "https://koalabeast.com/",
+          "description": "Multiplayer Capture the Flag",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Golf Party",
+          "url": "https://golfparty.io/",
+          "description": "Multiplayer Mini Golf Game"
+        },
+        {
+          "name": "Bloob.io",
+          "url": "https://bloob.io/",
+          "description": "Multiple Games"
+        },
+        {
+          "name": "Yucata",
+          "url": "https://www.yucata.de/en/",
+          "description": "Multiple Games"
+        },
+        {
+          "name": "Foony",
+          "url": "https://foony.com/",
+          "description": "Multiple Games"
+        },
+        {
+          "name": "Pixoguess",
+          "url": "https://pixoguess.io/",
+          "description": "Guess Pixelated Images"
+        },
+        {
+          "name": "Tensor Trust",
+          "url": "https://tensortrust.ai/",
+          "description": "AI Prompting Multiplayer Skill Game"
+        },
+        {
+          "name": "AI Bingo",
+          "url": "https://ai-bingo.lipsumar.io/",
+          "description": "AI Art Guessing Games"
+        },
+        {
+          "name": "Deeeep",
+          "url": "https://deeeep.io/",
+          "description": "Multiplayer Feeding Frenzy Games"
+        },
+        {
+          "name": "fsh.zone",
+          "url": "https://fsh.zone/",
+          "description": "Multiplayer Fishing Game",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Moo Moo",
+          "url": "https://moomoo.io/",
+          "description": "Multiplayer Survival Game"
+        },
+        {
+          "name": "Really Boring Website",
+          "url": "https://really.boring.website/",
+          "description": "Online Scattergories"
+        },
+        {
+          "name": "Gpop.io",
+          "url": "https://gpop.io/",
+          "description": "Rhythm Game"
+        },
+        {
+          "name": "Betrayal",
+          "url": "https://betrayal.io/",
+          "description": "Among Us Clone"
+        },
+        {
+          "name": "Death by AI",
+          "url": "https://deathbyai.gg/",
+          "description": "Survival Plan Game"
+        },
+        {
+          "name": "Smash Karts",
+          "url": "https://smashkarts.io/",
+          "description": "Kart Battles"
+        },
+        {
+          "name": "Spacewar!",
+          "url": "https://www.masswerk.at/spacewar/",
+          "description": "All 11 Versions / Note"
+        },
+        {
+          "name": "tix.tax",
+          "url": "https://tix.tax/",
+          "description": "Tic-Tac-Toe"
+        }
+      ]
+    },
+    {
+      "id": "gaming-text-adventures",
+      "title": "テキスト Adventures",
+      "resources": [
+        {
+          "name": "IFWiki",
+          "url": "https://www.ifwiki.org/",
+          "description": "Interactive Fiction Encyclopedia / Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "IFDB",
+          "url": "https://ifdb.org/",
+          "description": "Text Adventures",
+          "starred": true
+        },
+        {
+          "name": "Mudlet",
+          "url": "https://www.mudlet.org/",
+          "description": "Text Adventure Platform",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "IFWizz",
+          "url": "https://ifwizz.de/if-en.html",
+          "description": "Text Adventures"
+        },
+        {
+          "name": "IFArchive",
+          "url": "https://www.ifarchive.org/",
+          "description": "Text Adventures"
+        },
+        {
+          "name": "Web Adventures",
+          "url": "https://www.web-adventures.org/",
+          "description": "Text Adventures"
+        },
+        {
+          "name": "Seedship",
+          "url": "https://philome.la/johnayliff/seedship/play/index.html",
+          "description": "Text Adventures"
+        },
+        {
+          "name": "TextAventures",
+          "url": "https://textadventures.co.uk/",
+          "description": "User-Made Text Adventures"
+        },
+        {
+          "name": "WrittenRealms",
+          "url": "https://writtenrealms.com/",
+          "description": "Individual Adventures"
+        },
+        {
+          "name": "Genesis",
+          "url": "https://www.genesismud.org/",
+          "description": "Individual Adventures"
+        },
+        {
+          "name": "Fateful Quest",
+          "url": "https://fateful.quest/",
+          "description": "Individual Adventures"
+        },
+        {
+          "name": "Level 13",
+          "url": "https://nroutasuo.github.io/level13/",
+          "description": "Individual Adventures"
+        },
+        {
+          "name": "Muds",
+          "url": "https://muds.fandom.com/wiki/",
+          "description": "Text Adventure ROMs"
+        },
+        {
+          "name": "SolutionArchive",
+          "url": "https://solutionarchive.com/",
+          "description": "Text Adventure Solutions"
+        }
+      ],
+      "note": "Oldschool text adventure games are known for being unforgiving, but you can usually find solutions / guides online. You can also try feeding the text to AI chatbots, which can be both helpful and amusing."
+    },
+    {
+      "id": "gaming-shooter",
+      "title": "シューター",
+      "resources": [
+        {
+          "name": "Play-CS",
+          "url": "https://play-cs.com/",
+          "description": "Browser Counter-Strike 1.6",
+          "starred": true
+        },
+        {
+          "name": "NZP",
+          "url": "https://nzp.gay/",
+          "description": "Browser Retro Zombies Recreation",
+          "starred": true
+        },
+        {
+          "name": "Krunker.io",
+          "url": "https://krunker.io/",
+          "description": "PvP FPS",
+          "starred": true,
+          "mirrors": [
+            "https://browserfps.com/"
+          ]
+        },
+        {
+          "name": "OpenArena Live",
+          "url": "https://kosmi.io/openarena",
+          "description": "Quake Inspired Games"
+        },
+        {
+          "name": "Q1K3",
+          "url": "https://js13kgames.com/games/q1k3/index.html",
+          "description": "Quake Inspired Games"
+        },
+        {
+          "name": "WebLiero",
+          "url": "https://www.webliero.com/",
+          "description": "Multiplayer Liero Clone"
+        },
+        {
+          "name": "⁠Voxiom",
+          "url": "https://voxiom.io/",
+          "description": "Minecraft Inspired PVP FPS",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Debug Survivor",
+          "url": "https://debug-survivor.leek.io/",
+          "description": "Dev Themed Roguelike Shooter"
+        },
+        {
+          "name": "Venge",
+          "url": "https://venge.io/",
+          "description": "PvP FPS"
+        },
+        {
+          "name": "kour.io",
+          "url": "https://kour.io/",
+          "description": "PvP FPS",
+          "mirrors": [
+            "https://kourio.online/"
+          ]
+        },
+        {
+          "name": "ev.io",
+          "url": "https://ev.io/",
+          "description": "PvP FPS"
+        },
+        {
+          "name": "Deadshot",
+          "url": "https://deadshot.io/",
+          "description": "PvP FPS"
+        },
+        {
+          "name": "LolShot",
+          "url": "https://lolshot.io/",
+          "description": "PvP FPS"
+        },
+        {
+          "name": "ShellShock",
+          "url": "https://www.shellshock.io/",
+          "description": "PvP FPS"
+        },
+        {
+          "name": "MiniRoyale",
+          "url": "https://miniroyale.io/",
+          "description": "Battle Royale Game"
+        },
+        {
+          "name": "Survev.io",
+          "url": "https://survev.io/",
+          "description": "Top-Down Battle Royale",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Hypersomnia",
+          "url": "https://play.hypersomnia.io/",
+          "description": "Top-Down Shooter",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ZombsRoyale.io",
+          "url": "https://zombsroyale.io/",
+          "description": "Top-Down Battle Royale"
+        },
+        {
+          "name": "Gats.io",
+          "url": "https://gats.io/",
+          "description": "Top-Down Battle Royale",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Operius",
+          "url": "https://mors-games.itch.io/operius",
+          "description": "Space Shooter"
+        },
+        {
+          "name": "Galaxies",
+          "url": "https://playcanv.as/p/Ikq6Uk6A/",
+          "description": "Space Combat Game"
+        },
+        {
+          "name": "MK48",
+          "url": "https://mk48.io/",
+          "description": "Ship Combat Game",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Tanki",
+          "url": "https://tankionline.com/",
+          "description": "Online Team VS Team Tank Games"
+        },
+        {
+          "name": "Diep",
+          "url": "https://diep.io/",
+          "description": "Online Team VS Team Tank Games"
+        },
+        {
+          "name": "webXash",
+          "url": "https://x8bitrain.github.io/webXash/",
+          "description": "Half Life Demo"
+        }
+      ]
+    },
+    {
+      "id": "gaming-platformer",
+      "title": "プラットフォーマー",
+      "resources": [
+        {
+          "name": "Bonk",
+          "url": "https://bonk.io/",
+          "description": "Multiplayer Physics Game",
+          "starred": true
+        },
+        {
+          "name": "TotalJerkFace",
+          "url": "https://totaljerkface.com/",
+          "description": "Happy Wheels & Other Games",
+          "starred": true
+        },
+        {
+          "name": "Line Rider",
+          "url": "https://www.linerider.com/",
+          "description": "Draw Sled Tracks",
+          "starred": true
+        },
+        {
+          "name": "LOLBeans",
+          "url": "https://lolbeans.io/",
+          "description": "Fall Guys Clone"
+        },
+        {
+          "name": "Free Rider HD",
+          "url": "https://www.freeriderhd.com/",
+          "description": "Draw / Race Bike Tracks"
+        },
+        {
+          "name": "Raptjs",
+          "url": "https://madebyevan.com/rapt/",
+          "description": "Puzzle Platformer"
+        },
+        {
+          "name": "Synesthesia in Space",
+          "url": "http://synesthesiagame.com/",
+          "description": "Puzzle Platformer"
+        },
+        {
+          "name": "Tales of Dorime",
+          "url": "https://dorime.udany.net/",
+          "description": "2D Platformer"
+        },
+        {
+          "name": "PrinceJS",
+          "url": "https://princejs.com/",
+          "description": "Prince of Persia"
+        }
+      ]
+    },
+    {
+      "id": "gaming-simulation",
+      "title": "シミュレーション",
+      "resources": [
+        {
+          "name": "⁠IsoCity",
+          "url": "https://iso-city.com/",
+          "description": "City Building Game",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "IsoCoaster",
+          "url": "https://iso-coaster.com/",
+          "description": "Theme-Park Building Game",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "HatTrick",
+          "url": "https://www.hattrick.org/",
+          "description": "Multiplayer Football League Manager"
+        },
+        {
+          "name": "⁠MatchSimulator",
+          "url": "https://matchsimulator.com/",
+          "description": "Football League Simulator"
+        },
+        {
+          "name": "FSHistory",
+          "url": "https://s-macke.github.io/FSHistory/",
+          "description": "Play Classic Flight Simulator"
+        },
+        {
+          "name": "⁠Ride Simulator",
+          "url": "https://sims.willby.info/",
+          "description": "Disney Ride Control Simulators"
+        },
+        {
+          "name": "Hacker Wars",
+          "url": "https://hackerwars.io/",
+          "description": "Hacking Simulators"
+        },
+        {
+          "name": "Startup Simulator",
+          "url": "https://toggl.com/startup-simulator/",
+          "description": "Startup Simulation Game"
+        },
+        {
+          "name": "Sim CB",
+          "url": "https://benoitessiambre.com/macro.html",
+          "description": "Central Bank Simulator"
+        },
+        {
+          "name": "Orbity",
+          "url": "https://orbity.io/game.php",
+          "description": "Spaceship Launching Game"
+        },
+        {
+          "name": "Plane Food Simulator",
+          "url": "https://sheepandram.itch.io/pfs2021",
+          "description": "Plane Food Eating Game"
+        },
+        {
+          "name": "Alternate History Simulator",
+          "url": "https://abw.blue/",
+          "description": "Write Alternate History"
+        },
+        {
+          "name": "NationStates",
+          "url": "https://www.nationstates.net/",
+          "description": "Nation Simulation Game / Scripts"
+        },
+        {
+          "name": "Politics and War",
+          "url": "https://politicsandwar.com/",
+          "description": "More Advanced Nation Building Simulation Game",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "GeoFS",
+          "url": "https://www.geo-fs.com/geofs.php",
+          "description": "Plane Simulator"
+        },
+        {
+          "name": "Money Simulator",
+          "url": "https://simulator.money",
+          "description": "Money Simulator"
+        },
+        {
+          "name": "BrantSteele",
+          "url": "https://brantsteele.com/index.php",
+          "description": "Game Show Simulators"
+        },
+        {
+          "name": "Simublast",
+          "url": "https://www.simublast.com/",
+          "description": "Game Show Simulators"
+        }
+      ]
+    },
+    {
+      "id": "gaming-rpgs",
+      "title": "RPG",
+      "resources": [
+        {
+          "name": "Fallen London",
+          "url": "https://www.fallenlondon.com/",
+          "description": "Text-Based RPG"
+        },
+        {
+          "name": "Yume Nikki Online Project",
+          "url": "https://ynoproject.net/",
+          "description": "Multiplayer Yume Nikki",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Dynast",
+          "url": "https://dynast.io/",
+          "description": "Survival Browser Game"
+        },
+        {
+          "name": "Kingdom of Loathing",
+          "url": "https://www.kingdomofloathing.com/",
+          "description": "Comedy RPG"
+        },
+        {
+          "name": "Frasier Fantasy",
+          "url": "https://edward-la-barbera.itch.io/frasier-fantasy",
+          "description": "Comedy RPG"
+        },
+        {
+          "name": "Gridland",
+          "url": "https://gridland.doublespeakgames.com/",
+          "description": "Grid Matching RPG"
+        },
+        {
+          "name": "Backpack Hero",
+          "url": "https://thejaspel.itch.io/backpack-hero",
+          "description": "Turn-Based RPG"
+        },
+        {
+          "name": "Miniconomy",
+          "url": "https://www.miniconomy.com/",
+          "description": "Economy Game"
+        },
+        {
+          "name": "⁠OFF",
+          "url": "https://off.zchr.org/",
+          "description": "Browser RPG"
+        },
+        {
+          "name": "Forumwarz",
+          "url": "https://www.forumwarz.com/",
+          "description": "Browser RPG"
+        },
+        {
+          "name": "Dungeon Crawl",
+          "url": "https://crawl.develz.org/",
+          "description": "Browser RPG"
+        },
+        {
+          "name": "Isleward",
+          "url": "https://bigbadwaffle.itch.io/isleward",
+          "description": "Browser RPG"
+        },
+        {
+          "name": "Hordes.io",
+          "url": "https://hordes.io/",
+          "description": "Browser MMORPGs"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/hordes",
+          "description": "Browser MMORPGs"
+        },
+        {
+          "name": "Aberoth",
+          "url": "https://aberoth.com/",
+          "description": "Browser MMORPGs"
+        },
+        {
+          "name": "RPGMaker Game Archive",
+          "url": "https://archive.org/details/rpgmaker-net-game-archive",
+          "description": "Collection of Games From RPGMaker"
+        }
+      ]
+    },
+    {
+      "id": "gaming-strategy",
+      "title": "ストラテジー",
+      "resources": [
+        {
+          "name": "Super Auto Pets",
+          "url": "https://teamwood.itch.io/super-auto-pets",
+          "description": "Pet Battle Game / Resources",
+          "starred": true
+        },
+        {
+          "name": "KDice",
+          "url": "https://www.kdice.com/",
+          "description": "Multiplayer Dice War"
+        },
+        {
+          "name": "OpenFront",
+          "url": "https://openfront.io/",
+          "description": "Conquest / War Style Games"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/k22YrnAzGp",
+          "description": "Conquest / War Style Games"
+        },
+        {
+          "name": "Territorial",
+          "url": "https://territorial.io/",
+          "description": "Conquest / War Style Games"
+        },
+        {
+          "name": "Warzone",
+          "url": "https://www.warzone.com/",
+          "description": "RISK Clone"
+        },
+        {
+          "name": "Neptune's Pride",
+          "url": "https://np4.ironhelmet.com/",
+          "description": "Space Strategy Game"
+        },
+        {
+          "name": "generals.io",
+          "url": "https://generals.io/",
+          "description": "War Strategy Game"
+        }
+      ]
+    },
+    {
+      "id": "gaming-incremental-idle",
+      "title": "インクリメンタル / 放置ゲーム",
+      "resources": [
+        {
+          "name": "r/Incremental_Games",
+          "url": "https://www.reddit.com/r/incremental_games/wiki/list_of_incremental_games",
+          "description": "Incremental Games Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Galaxy Click",
+          "url": "https://galaxy.click/",
+          "description": "Incremental Games Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "IncrementalDB",
+          "url": "https://www.incrementaldb.com/",
+          "description": "Incremental Games Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Almost Idle",
+          "url": "https://almostidle.com/",
+          "description": "Incremental Games Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Cookie Clicker",
+          "url": "https://orteil.dashnet.org/cookieclicker/",
+          "description": "Incremental Cookie Game",
+          "starred": true,
+          "mirrors": [
+            "https://orteil.dashnet.org/experiments/cookie/"
+          ]
+        },
+        {
+          "name": "The Thorp of Woodstock",
+          "url": "https://cheerfulghost.github.io/civ-clicker/index.html",
+          "description": "Build a Civilization"
+        },
+        {
+          "name": "BitBurner",
+          "url": "https://bitburner-official.github.io/",
+          "description": "Incremental RPG"
+        },
+        {
+          "name": "Progress Quest",
+          "url": "http://progressquest.com/play/",
+          "description": "Idle RPG",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Idlescape",
+          "url": "https://www.play.idlescape.com/",
+          "description": "Idle MMORPG"
+        },
+        {
+          "name": "Universal Paperclips",
+          "url": "https://www.decisionproblem.com/paperclips/index2.html",
+          "description": "A Paperclip Creation Simulator"
+        },
+        {
+          "name": "MousePoint",
+          "url": "https://creativetechguy.com/mousepoint",
+          "description": "Incremental Mouse Movement Game"
+        },
+        {
+          "name": "CandyBox",
+          "url": "https://candybox2.github.io/",
+          "description": "Candy Eating Game"
+        },
+        {
+          "name": "Particle Clicker",
+          "url": "https://particle-clicker.web.cern.ch/",
+          "description": "Incremental Particle Physics Games"
+        },
+        {
+          "name": "KittensGame",
+          "url": "https://kittensgame.com/web/",
+          "description": "Incremental Kitten Maker"
+        },
+        {
+          "name": "Incremancer",
+          "url": "https://incremancer.gti.nz/",
+          "description": "Incremental Zombie Game"
+        },
+        {
+          "name": "Danemancer",
+          "url": "https://cirusdane.github.io/incremancer/",
+          "description": "Incremental Zombie Game"
+        },
+        {
+          "name": "A Dark Room",
+          "url": "https://adarkroom.doublespeakgames.com/",
+          "description": "Dark Room Survival Game"
+        },
+        {
+          "name": "WarClicks",
+          "url": "https://warclicks.com/",
+          "description": "Incremental War Game"
+        },
+        {
+          "name": "Goblin Bet",
+          "url": "https://goblin.bet/",
+          "description": "Bet on 1v1 Monster Fights"
+        },
+        {
+          "name": "The First Alkahistorian",
+          "url": "https://nagshell.github.io/elemental-inception-incremental/",
+          "description": "Incremental Elemental Game"
+        },
+        {
+          "name": "FactoryIdle",
+          "url": "https://factoryidle.com/",
+          "description": "Factory Idle Simulator"
+        },
+        {
+          "name": "Antimatter Dimensions",
+          "url": "https://ivark.github.io/",
+          "description": "Antimatter Idle Game / Android",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Theory of Magic",
+          "url": "https://mathiashjelm.gitlab.io/arcanum/",
+          "description": "Magic Idle Game"
+        },
+        {
+          "name": "Succubox",
+          "url": "https://www.glaielgames.com/succubox/",
+          "description": "Loot Box Idle Game"
+        },
+        {
+          "name": "Swarm Simulator",
+          "url": "https://www.swarmsim.com/",
+          "description": "Idle Bug Swarm Game"
+        }
+      ]
+    },
+    {
+      "id": "gaming-trivia-guessing",
+      "title": "トリビア / 推測",
+      "resources": [
+        {
+          "name": "GuessTheGame",
+          "url": "https://guessthe.game/",
+          "description": "Game Guessing Games",
+          "starred": true
+        },
+        {
+          "name": "Gamedle",
+          "url": "https://www.gamedle.wtf/",
+          "description": "Game Guessing Games"
+        },
+        {
+          "name": "The Impossible Quiz",
+          "url": "https://www.newgrounds.com/portal/view/365143",
+          "description": "Classic Quiz Browser Game"
+        },
+        {
+          "name": "TriviaDuel",
+          "url": "https://www.triviaduel.com/",
+          "description": "Quiz / Trivia"
+        },
+        {
+          "name": "Fun Trivia",
+          "url": "https://www.funtrivia.com/",
+          "description": "Quiz / Trivia"
+        },
+        {
+          "name": "Sporcle",
+          "url": "https://www.sporcle.com/",
+          "description": "Quiz / Trivia"
+        },
+        {
+          "name": "uQuiz",
+          "url": "https://uquiz.com/",
+          "description": "Quiz / Trivia"
+        },
+        {
+          "name": "ARealMe",
+          "url": "https://www.arealme.com/",
+          "description": "Quiz / Trivia"
+        },
+        {
+          "name": "JetPunk",
+          "url": "https://www.jetpunk.com/",
+          "description": "Quiz / Trivia"
+        },
+        {
+          "name": "The Re-Ride",
+          "url": "https://thereri.de/",
+          "description": "You Don't Know Jack: The Ride Remake",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "FlightGuesser",
+          "url": "https://flightguesser.com/",
+          "description": "Flight Path Guessing Game"
+        },
+        {
+          "name": "Akinator",
+          "url": "https://en.akinator.com/",
+          "description": "20 Questions"
+        },
+        {
+          "name": "Buzzinga",
+          "url": "https://buzzinga.io/",
+          "description": "Jeopardy Creator"
+        },
+        {
+          "name": "Bestiefy",
+          "url": "https://bestiefy.com/",
+          "description": "Friend Quizzes"
+        },
+        {
+          "name": "WTM",
+          "url": "https://whatthemovie.com/",
+          "description": "Movie / TV Guessing Games"
+        },
+        {
+          "name": "Moviedle",
+          "url": "https://moviedle.xyz/",
+          "description": "Movie / TV Guessing Games"
+        },
+        {
+          "name": "Actorle",
+          "url": "https://actorle.com/",
+          "description": "Movie / TV Guessing Games"
+        },
+        {
+          "name": "TV",
+          "url": "https://actorle.tv/",
+          "description": "Movie / TV Guessing Games"
+        },
+        {
+          "name": "Kino.wtf",
+          "url": "https://www.kino.wtf/",
+          "description": "Movie / TV Guessing Games"
+        },
+        {
+          "name": "Likewise",
+          "url": "https://pix-media.com/games",
+          "description": "Movie / TV Guessing Games"
+        },
+        {
+          "name": "Flickle",
+          "url": "https://flickle.app/",
+          "description": "Movie / TV Guessing Games"
+        },
+        {
+          "name": "⁠Flickle",
+          "url": "https://www.flickle.co/",
+          "description": "Movie / TV Guessing Games"
+        },
+        {
+          "name": "Framed",
+          "url": "https://framed.wtf/",
+          "description": "Movie / TV Guessing Games"
+        },
+        {
+          "name": "Cinenerdle",
+          "url": "https://www.cinenerdle.app/",
+          "description": "Movie Puzzles"
+        },
+        {
+          "name": "Cinenerdle2",
+          "url": "https://www.cinenerdle2.app/",
+          "description": "Movie Puzzles"
+        },
+        {
+          "name": "BoxOfficeGA",
+          "url": "https://boxofficega.me/",
+          "description": "Box Office Guessing"
+        },
+        {
+          "name": "Scenewise",
+          "url": "https://scenewise.io/",
+          "description": "Movie Scene Order Puzzle"
+        },
+        {
+          "name": "⁠AniGuessr",
+          "url": "https://aniguessr.com/",
+          "description": "Anime Guessing Game"
+        },
+        {
+          "name": "AMQ",
+          "url": "https://animemusicquiz.com/",
+          "description": "Anime Theme Song Guessing"
+        },
+        {
+          "name": "ConnectTheStars",
+          "url": "https://connectthestars.xyz/",
+          "description": "Connect Stars through Movies"
+        },
+        {
+          "name": "Movie To Movie",
+          "url": "https://movietomovie.com/",
+          "description": "Connect Stars through Movies"
+        },
+        {
+          "name": "Play Football",
+          "url": "https://playfootball.games/",
+          "description": "Football Quizzes / Trivia"
+        },
+        {
+          "name": "The Wiki Game",
+          "url": "https://www.thewikigame.com/",
+          "description": "Wikipedia Exploration Games / Automation Tool"
+        },
+        {
+          "name": "WikiRacer",
+          "url": "https://wikiracer.io/",
+          "description": "Wikipedia Exploration Games / Automation Tool"
+        },
+        {
+          "name": "⁠FactorDay",
+          "url": "https://factorday.com/",
+          "description": "Daily Wikipedia-Based Trivia / Crosswords"
+        },
+        {
+          "name": "Catfishing",
+          "url": "https://catfishing.net/",
+          "description": "Wiki Article Guessing Game"
+        },
+        {
+          "name": "More or Less",
+          "url": "https://moreorless.io/",
+          "description": "More or Less Guessing"
+        },
+        {
+          "name": "Muzify",
+          "url": "https://muzify.com/",
+          "description": "Music / Song Guessing Games"
+        },
+        {
+          "name": "Musicle",
+          "url": "https://musicle.app/",
+          "description": "Music / Song Guessing Games"
+        },
+        {
+          "name": "Bandle",
+          "url": "https://bandle.app/",
+          "description": "Music / Song Guessing Games"
+        },
+        {
+          "name": "Spotle",
+          "url": "https://spotle.io/",
+          "description": "Music / Song Guessing Games"
+        },
+        {
+          "name": "Lofidle",
+          "url": "https://lofidle.com/",
+          "description": "Music / Song Guessing Games"
+        },
+        {
+          "name": "DanceMusic",
+          "url": "https://dancemusic.wtf/",
+          "description": "Electronic Music Genre Guessing Game"
+        },
+        {
+          "name": "Poeltl",
+          "url": "https://poeltl.nbpa.com/",
+          "description": "NBA Guessing Game"
+        },
+        {
+          "name": "The Higher Lower Game",
+          "url": "https://www.higherlowergame.com/",
+          "description": "Guess What's Googled More"
+        },
+        {
+          "name": "Google Feud",
+          "url": "https://googlefeud.com/",
+          "description": "Guess What's Googled More"
+        },
+        {
+          "name": "Graphs",
+          "url": "https://www.graphs.world/",
+          "description": "Graph Guessing Game"
+        },
+        {
+          "name": "English Sandwich",
+          "url": "https://englishsandwich.github.io/",
+          "description": "Guess Where Dishes are From"
+        },
+        {
+          "name": "Guess The Price",
+          "url": "https://guesstheprice.net/",
+          "description": "Price Guessing Game"
+        },
+        {
+          "name": "Apparle",
+          "url": "https://www.apparle.com/",
+          "description": "Apparel Price Guessing Game"
+        },
+        {
+          "name": "⁠WildGuesser",
+          "url": "https://wildguesser.com/",
+          "description": "Animal Guessing Games"
+        },
+        {
+          "name": "Metazooa",
+          "url": "https://metazooa.com/",
+          "description": "Animal Guessing Games"
+        },
+        {
+          "name": "Pufferdle",
+          "url": "https://pufferdle.com/",
+          "description": "Fish Guessing Game"
+        },
+        {
+          "name": "ChessGuessr",
+          "url": "https://www.chessguessr.com/",
+          "description": "Chess Style Guessing Game"
+        },
+        {
+          "name": "Huedle",
+          "url": "https://huedle.com/",
+          "description": "Hex Code Guessing Games"
+        },
+        {
+          "name": "Color Rush",
+          "url": "https://www.colorrush.io/",
+          "description": "Hex Code Guessing Games"
+        },
+        {
+          "name": "WhatTheHex",
+          "url": "https://yizzle.com/whatthehex/",
+          "description": "Hex Code Guessing Games"
+        },
+        {
+          "name": "Hexcodle",
+          "url": "https://www.hexcodle.com/",
+          "description": "Hex Code Guessing Games"
+        },
+        {
+          "name": "Nerdle",
+          "url": "https://nerdlegame.com/",
+          "description": "Math Guessing Games"
+        },
+        {
+          "name": "Additional",
+          "url": "https://additional.today/",
+          "description": "Math Guessing Games"
+        },
+        {
+          "name": "Countle",
+          "url": "https://www.countle.org/",
+          "description": "Math Guessing Games"
+        },
+        {
+          "name": "⁠MCdle",
+          "url": "https://www.mcdle.net/",
+          "description": "Minecraft Guessing Games"
+        },
+        {
+          "name": "Minecraftle",
+          "url": "https://minecraftle.zachmanson.com/",
+          "description": "Minecraft Guessing Games"
+        },
+        {
+          "name": "Gearoid Pokémon",
+          "url": "https://gearoid.me/pokemon/",
+          "description": "Pokémon Guessing Games"
+        },
+        {
+          "name": "Pokedle",
+          "url": "https://pokedle.net/",
+          "description": "Pokémon Guessing Games"
+        },
+        {
+          "name": "Squirdle",
+          "url": "https://squirdle.fireblend.com/",
+          "description": "Pokémon Guessing Games"
+        },
+        {
+          "name": "Pokémon Infinite Heardle",
+          "url": "https://pkmn-infinite-heardle.glitch.me/",
+          "description": "Pokémon Music Guessing"
+        },
+        {
+          "name": "LoLdle",
+          "url": "https://loldle.net/",
+          "description": "League of Legends Guessing Games"
+        },
+        {
+          "name": "Owdle",
+          "url": "https://owdle.guessing.day/",
+          "description": "Overwatch Guessing Games"
+        },
+        {
+          "name": "Guess The Year",
+          "url": "https://guess-the-year.davjhan.com/",
+          "description": "Year Guessing Game"
+        },
+        {
+          "name": "ChronoPhoto",
+          "url": "https://www.chronophoto.app/",
+          "description": "Year Guessing Game"
+        },
+        {
+          "name": "Wikitrivia",
+          "url": "https://wikitrivia.tomjwatson.com/",
+          "description": "Guess Which Event Came First"
+        }
+      ]
+    },
+    {
+      "id": "gaming-tetris",
+      "title": "テトリス",
+      "resources": [
+        {
+          "name": "TETR.IO",
+          "url": "https://tetr.io/",
+          "description": "Multiplayer Browser Tetris / Plus / Skin Database / Stats",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Jstris",
+          "url": "https://jstris.jezevec10.com/",
+          "description": "Multiplayer Browser Tetris / Plus / Skin Database"
+        },
+        {
+          "name": "Tetra eSports",
+          "url": "https://tetraesports.com/",
+          "description": "Competitive Multiplayer Tetris",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Apotris",
+          "url": "https://akouzoukos.com/apotris/play/",
+          "description": "Customizable Browser Tetris w / Responsive Controls / Multi-Platform / Source"
+        },
+        {
+          "name": "Tetris",
+          "url": "https://tetris.com/",
+          "description": "Browser Tetris"
+        },
+        {
+          "name": "⁠LazyTetris",
+          "url": "https://lazytetris.com/",
+          "description": "Browser Tetris"
+        },
+        {
+          "name": "Tetr.js",
+          "url": "http://farter.cn/tetr.js/",
+          "description": "Browser Tetris"
+        },
+        {
+          "name": "First-Person Tetris",
+          "url": "https://firstpersontetris.com/",
+          "description": "First Person Tetris"
+        },
+        {
+          "name": "Sandtris",
+          "url": "https://sandtris.com/",
+          "description": "Falling Sand Style Tetris"
+        }
+      ]
+    },
+    {
+      "id": "gaming-geoguessr",
+      "title": "GeoGuessr",
+      "resources": [
+        {
+          "name": "GGHY",
+          "url": "https://gghy.net/",
+          "description": "GeoGuessr Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Plonk It",
+          "url": "https://www.plonkit.net/",
+          "description": "GeoGuessr Guides / Tips",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/plonk-it-854419081813164042",
+          "description": "GeoGuessr Guides / Tips"
+        },
+        {
+          "name": "Regionguessing",
+          "url": "https://docs.google.com/spreadsheets/d/1UNvkoY-LaktF75nU_cP7-wVRAEvH3fSqVZet20HqxXA",
+          "description": "GeoGuessr Guides / Tips"
+        },
+        {
+          "name": "GeoTips",
+          "url": "https://geotips.net/",
+          "description": "GeoGuessr Guides / Tips"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/svhWzU7FMa",
+          "description": "GeoGuessr Guides / Tips"
+        },
+        {
+          "name": "GeoHints",
+          "url": "https://geohints.com/",
+          "description": "GeoGuessr Guides / Tips"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/bCZ8Bg2vUd",
+          "description": "GeoGuessr Guides / Tips"
+        },
+        {
+          "name": "⁠GeoMetas",
+          "url": "https://www.geometas.com/",
+          "description": "GeoGuessr Guides / Tips"
+        },
+        {
+          "name": "Top Tricks",
+          "url": "https://somerandomstuff1.wordpress.com/2019/02/08/geoguessr-the-top-tips-tricks-and-techniques/",
+          "description": "GeoGuessr Guides / Tips"
+        },
+        {
+          "name": "Geotastic",
+          "url": "https://geotastic.net/",
+          "description": "Multiplayer GeoGuessr / Requires Sign-Up",
+          "starred": true
+        },
+        {
+          "name": "Globle",
+          "url": "https://globle-game.com/",
+          "description": "Country Hot-or-Cold Guessing Game",
+          "starred": true
+        },
+        {
+          "name": "LearnableMeta",
+          "url": "https://learnablemeta.com/",
+          "description": "Geoguessr Practice Maps"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/AcXEWznYZe",
+          "description": "Geoguessr Practice Maps"
+        },
+        {
+          "name": "helloquiz",
+          "url": "https://helloquiz.app/",
+          "description": "Geoguessr Practice Maps"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/td7bN9HKhX",
+          "description": "Geoguessr Practice Maps"
+        },
+        {
+          "name": "Emily's GeoGuessr Tools",
+          "url": "https://geo.emily.bz/",
+          "description": "GeoGuessr Tools"
+        },
+        {
+          "name": "Geohub",
+          "url": "https://www.geohub.gg/",
+          "description": "Free GeoGuessr Alt / Requires Google API"
+        },
+        {
+          "name": "GuessWhereYouAre",
+          "url": "https://guesswhereyouare.com/",
+          "description": "Free GeoGuessr Alt w / Multiplayer"
+        },
+        {
+          "name": "OpenGuessr",
+          "url": "https://openguessr.com/",
+          "description": "Free GeoGuessr Alt w / Multiplayer"
+        },
+        {
+          "name": "WorldGuessr",
+          "url": "https://www.worldguessr.com/",
+          "description": "Free GeoGuessr Alt"
+        },
+        {
+          "name": "FreeGuessr",
+          "url": "https://freeguessr.com/",
+          "description": "Free GeoGuessr Alt"
+        },
+        {
+          "name": "City Guesser",
+          "url": "https://virtualvacation.us/guess",
+          "description": "Video-Based GeoGuessr"
+        },
+        {
+          "name": "Quizzity",
+          "url": "https://david-peter.de/quizzity/",
+          "description": "City Guessing Game"
+        },
+        {
+          "name": "⁠TVGuessr",
+          "url": "https://www.tvguessr.garden/",
+          "description": "Guess Countries by TV Channels"
+        },
+        {
+          "name": "Tradle",
+          "url": "https://games.oec.world/en/tradle/",
+          "description": "Guess Countries by their Exports"
+        },
+        {
+          "name": "Back Of Your Hand",
+          "url": "https://backofyourhand.com/",
+          "description": "Local GeoGuessr"
+        },
+        {
+          "name": "LostGamer",
+          "url": "https://lostgamer.io/",
+          "description": "Video Game GeoGuessr"
+        },
+        {
+          "name": "GTA V GeoGuessr",
+          "url": "https://gta-geoguesser.com/",
+          "description": "GTA V GeoGuessr"
+        },
+        {
+          "name": "TimeGuessr",
+          "url": "https://timeguessr.com/",
+          "description": "Historical Time-period GeoGuessr"
+        },
+        {
+          "name": "LanguageGuessr",
+          "url": "https://languageguessr.io/",
+          "description": "Language GeoGuessr / Requires Sign-Up"
+        },
+        {
+          "name": "Artifact Guesser",
+          "url": "https://artifactguesser.com/",
+          "description": "Guess Origins of Cultural Artifacts"
+        },
+        {
+          "name": "GeoArtwork",
+          "url": "https://artsandculture.google.com/experiment/geo-artwork/wgEPVBAUiRVlEQ",
+          "description": "Guess Origins of Cultural Artifacts"
+        },
+        {
+          "name": "travle",
+          "url": "https://travle.earth/",
+          "description": "Guess Countries Between Two Locations"
+        },
+        {
+          "name": "MapGenerator",
+          "url": "https://map-generator-nsj.vercel.app/",
+          "description": "GeoGuessr Map Generator"
+        },
+        {
+          "name": "VirtualStreets",
+          "url": "https://virtualstreets.org/",
+          "description": "Google Street Update Tracker"
+        }
+      ]
+    }
+  ]
+}

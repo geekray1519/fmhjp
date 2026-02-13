@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ChevronRight, Home, Shield, Download, Globe, Smartphone, BookOpen, AlertTriangle } from "lucide-react";
+import { ChevronRight, Home, Shield, Download, Globe, Smartphone, BookOpen, AlertTriangle, Layers } from "lucide-react";
+import { categories } from "@/data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -146,13 +147,38 @@ export default function BeginnersGuidePage() {
         </div>
       </div>
 
+      <div className="mb-16">
+        <div className="flex items-center gap-2 mb-6">
+          <Layers size={20} className="text-accent" />
+          <h2 className="text-2xl font-bold">全{categories.length}カテゴリ</h2>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          {categories.map((cat) => {
+            const count = cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0);
+            return (
+              <Link
+                key={cat.id}
+                href={`/${cat.slug}`}
+                className="group flex items-center gap-3 p-3 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 transition-all"
+              >
+                <span className="text-xl shrink-0">{cat.icon}</span>
+                <div className="min-w-0">
+                  <div className="text-xs font-medium group-hover:text-accent transition-colors truncate">{cat.title}</div>
+                  <div className="text-[10px] text-muted">{count.toLocaleString()} リソース</div>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+
       <div className="text-center py-8 border-t border-border">
         <p className="text-sm text-muted mb-4">準備はできましたか？さっそくリソースを探しましょう！</p>
         <Link
-          href="/"
+          href="/search"
           className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-xl font-medium text-sm hover:opacity-90 transition-opacity"
         >
-          カテゴリを見る
+          リソースを検索する
           <ChevronRight size={16} />
         </Link>
       </div>

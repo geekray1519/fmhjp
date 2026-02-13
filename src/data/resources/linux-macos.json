@@ -1,0 +1,5413 @@
+{
+  "id": "linux-macos",
+  "slug": "linux-macos",
+  "title": "Linux / macOS",
+  "description": "Linux・macOS向けソフトウェアとツール",
+  "icon": "🐧",
+  "color": "from-yellow-500 to-amber-600",
+  "subcategories": [
+    {
+      "id": "linux-macos-general",
+      "title": "一般",
+      "resources": [
+        {
+          "name": "ArchWiki",
+          "url": "https://wiki.archlinux.org/",
+          "description": "Linux Guides / Manuals / TUI",
+          "starred": true
+        },
+        {
+          "name": "Gentoo Wiki",
+          "url": "https://wiki.gentoo.org/wiki/Main_Page",
+          "description": "Gentoo Wikis / Guides"
+        },
+        {
+          "name": "Debian Wiki",
+          "url": "https://wiki.debian.org/",
+          "description": "Debian Wiki / Guides"
+        },
+        {
+          "name": "LinuxJourney",
+          "url": "https://labex.io/linuxjourney",
+          "description": "Interactive Linux Guides"
+        },
+        {
+          "name": "HowToLinux",
+          "url": "https://howtolinux.vercel.app",
+          "description": "Linux Desktop Guides"
+        },
+        {
+          "name": "Sindresorhus Guides",
+          "url": "https://github.com/sindresorhus/guides",
+          "description": "Linux Guides for Node.js Developers"
+        },
+        {
+          "name": "Erik Dubois",
+          "url": "https://www.youtube.com/c/ErikDubois",
+          "description": "Arch-centric Linux Video Tutorials"
+        },
+        {
+          "name": "Linuxtopia",
+          "url": "https://www.linuxtopia.org/",
+          "description": "Linux Guides"
+        },
+        {
+          "name": "Linux Roadmap",
+          "url": "https://roadmap.sh/linux",
+          "description": "Linux Learning Roadmap"
+        },
+        {
+          "name": "Vim Tutorials",
+          "url": "https://www.youtube.com/playlist?list=PL3cu45aM3C2DJVGfCjSBB1yD9YkC7q27-",
+          "description": "Vim Tutorial Playlist by Mental Outlaw"
+        },
+        {
+          "name": "Boot-Repair",
+          "url": "https://help.ubuntu.com/community/Boot-Repair",
+          "description": "Grub Repair Guide for Linux Systems"
+        }
+      ],
+      "note": "ご注意ください that install guides can usually be found on each distros doc page. You can find doc pages on each distros site, or through their DistroWatch pages."
+    },
+    {
+      "id": "linux-macos-cli-cheat-sheets",
+      "title": "CLIチートシート",
+      "resources": [
+        {
+          "name": "Linux Command Library",
+          "url": "https://linuxcommandlibrary.com/",
+          "description": "Searchable Linux Command Index",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/SimonSchubert/LinuxCommandLibrary",
+          "description": "Searchable Linux Command Index"
+        },
+        {
+          "name": "Awesome for One Liner",
+          "url": "https://github.com/sheepla/awesome-for-oneliner",
+          "description": "Curated One-Liner CLI Tools"
+        },
+        {
+          "name": "You Don't Need GUI",
+          "url": "https://github.com/you-dont-need/You-Dont-Need-GUI",
+          "description": "CLI Alts for GUI Tasks"
+        },
+        {
+          "name": "CommandlineFU",
+          "url": "https://www.commandlinefu.com/",
+          "description": "Community-Driven Command Snippets"
+        },
+        {
+          "name": "cheat.sh",
+          "url": "https://github.com/chubin/cheat.sh",
+          "description": "Terminal Commands"
+        },
+        {
+          "name": "Commands.dev",
+          "url": "https://www.commands.dev/",
+          "description": "Terminal Commands"
+        },
+        {
+          "name": "Bash Academy",
+          "url": "https://guide.bash.academy/",
+          "description": "Bash Scripting Guide"
+        },
+        {
+          "name": "ss64 Bash",
+          "url": "https://ss64.com/bash/",
+          "description": "Alphabetical Command Reference"
+        },
+        {
+          "name": "Bash Oneliner",
+          "url": "https://onceupon.github.io/Bash-Oneliner/",
+          "description": "Bash One-Liner Collection"
+        },
+        {
+          "name": "navi",
+          "url": "https://github.com/denisidoro/navi",
+          "description": "Interactive Cheatsheet Tool"
+        },
+        {
+          "name": "All Things Linux",
+          "url": "https://discord.gg/linux",
+          "description": "Linux Discord Server",
+          "starred": true
+        },
+        {
+          "name": "LinuxQuestions",
+          "url": "https://www.linuxquestions.org/questions/",
+          "description": "Linux Q&A Forum"
+        },
+        {
+          "name": "Linux.Chat",
+          "url": "https://discord.gg/linuxchat",
+          "description": "Linux Discord Server"
+        },
+        {
+          "name": "Linux x Technology",
+          "url": "https://linuxdiscord.com/",
+          "description": "Linux Discord Server"
+        },
+        {
+          "name": "Arch Linux Community",
+          "url": "https://discord.gg/3m6dbPR",
+          "description": "Linux Discord Server"
+        },
+        {
+          "name": "Discord-Linux",
+          "url": "https://discord.gg/discord-linux",
+          "description": "Linux Discord Server"
+        },
+        {
+          "name": "Linux.org",
+          "url": "https://linux.org/",
+          "description": "Linux Forum"
+        },
+        {
+          "name": "Arch Forums",
+          "url": "https://bbs.archlinux.org/",
+          "description": "Linux Forum"
+        },
+        {
+          "name": "Gentoo Forums",
+          "url": "https://forums.gentoo.org/",
+          "description": "Linux Forum"
+        },
+        {
+          "name": "⁠phoronix",
+          "url": "https://www.phoronix.com/forums/",
+          "description": "Linux Forum"
+        },
+        {
+          "name": "DistroWatch",
+          "url": "https://distrowatch.com/dwres.php?resource=popularity",
+          "description": "Distro Index w / News + Rankings / Advanced Search",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "ATL ISO Archive",
+          "url": "https://iso.atl.dev/",
+          "description": "Linux / BSD ISO Archive",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "DistroChooser",
+          "url": "https://distrochooser.de/",
+          "description": "Quiz-Based Distro Selector",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Beta",
+          "url": "https://beta.distrochooser.de/",
+          "description": "Quiz-Based Distro Selector",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "distro.moe",
+          "url": "https://distro.moe/",
+          "description": "Random Distro Finder"
+        },
+        {
+          "name": "Linux Live Kit",
+          "url": "https://www.linux-live.org/",
+          "description": "Create Live Distros from Installed Systems"
+        },
+        {
+          "name": "OpenSourceFeed",
+          "url": "https://www.opensourcefeed.org/",
+          "description": "Open-Source Distros"
+        },
+        {
+          "name": "OS.click",
+          "url": "https://os.click/en",
+          "description": "Fast Distro Downloads"
+        },
+        {
+          "name": "LinuxTracker",
+          "url": "https://linuxtracker.org/",
+          "description": "BitTorrent Distro Repo"
+        },
+        {
+          "name": "Linux Comparisons",
+          "url": "https://eylenburg.github.io/linux_comparison.htm",
+          "description": "Detailed Distro Comparison Charts"
+        },
+        {
+          "name": "ArchiveOS",
+          "url": "https://archiveos.org/",
+          "description": "Inactive / Open-Source OS Projects"
+        },
+        {
+          "name": "GNOME Shell Extensions",
+          "url": "https://extensions.gnome.org/",
+          "description": "",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Bottles",
+          "url": "https://usebottles.com/",
+          "description": "Manage Wine containers",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "WineHQ",
+          "url": "https://appdb.winehq.org/",
+          "description": "Wine Compatibility Database",
+          "starred": true
+        },
+        {
+          "name": "Q4Wine",
+          "url": "https://sourceforge.net/projects/q4wine/",
+          "description": "Wine GUI",
+          "starred": true
+        },
+        {
+          "name": "AppImageLauncher",
+          "url": "https://github.com/TheAssassin/AppImageLauncher",
+          "description": "Integrate AppImages to App Launchers",
+          "starred": true
+        },
+        {
+          "name": "GearLever",
+          "url": "https://github.com/mijorus/gearlever",
+          "description": "Integrate AppImages to App Launchers"
+        },
+        {
+          "name": "winetricks",
+          "url": "https://github.com/Winetricks/winetricks",
+          "description": "Wine Fixes",
+          "starred": true
+        },
+        {
+          "name": "rofi",
+          "url": "https://davatorium.github.io/rofi/",
+          "description": "App Launchers / Keystroke Launchers",
+          "starred": true
+        },
+        {
+          "name": "Emoji Selector",
+          "url": "https://github.com/Mange/rofi-emoji",
+          "description": "App Launchers / Keystroke Launchers"
+        },
+        {
+          "name": "vicinae",
+          "url": "https://github.com/vicinaehq/vicinae",
+          "description": "App Launchers / Keystroke Launchers"
+        },
+        {
+          "name": "Fuzzel",
+          "url": "https://codeberg.org/dnkl/fuzzel",
+          "description": "App Launchers / Keystroke Launchers"
+        },
+        {
+          "name": "Ulauncher",
+          "url": "https://ulauncher.io/",
+          "description": "App Launchers / Keystroke Launchers"
+        },
+        {
+          "name": "wofi",
+          "url": "https://hg.sr.ht/~scoopta/wofi",
+          "description": "App Launchers / Keystroke Launchers"
+        },
+        {
+          "name": "FreeRDP",
+          "url": "https://www.freerdp.com/",
+          "description": "Remote Desktop Clients",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/FreeRDP/FreeRDP",
+          "description": "Remote Desktop Clients"
+        },
+        {
+          "name": "⁠Remmina",
+          "url": "https://remmina.org/",
+          "description": "Remote Desktop Clients"
+        },
+        {
+          "name": "⁠Apache Guacamole",
+          "url": "https://guacamole.apache.org/",
+          "description": "Remote Desktop Clients"
+        },
+        {
+          "name": "shell_gpt",
+          "url": "https://github.com/TheR1D/shell_gpt",
+          "description": "AI Terminal Chatbot / GPT",
+          "starred": true
+        },
+        {
+          "name": "shellgpt",
+          "url": "https://github.com/jiacai2050/my-works/tree/main/shellgpt",
+          "description": "AI Terminal Chatbot / GPT"
+        },
+        {
+          "name": "Darling",
+          "url": "https://www.darlinghq.org/",
+          "description": "Run macOS Apps on Linux",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "innoextract",
+          "url": "https://constexpr.org/innoextract/",
+          "description": "Windows Installer Unpacker",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "web2app",
+          "url": "https://github.com/hamza72x/web2app",
+          "description": "Turn Webpages into Desktop Apps"
+        },
+        {
+          "name": "Autokey",
+          "url": "https://autokey.github.io/index.html",
+          "description": "Linux Automation Utility",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ProtonTricks",
+          "url": "https://github.com/Matoking/protontricks",
+          "description": "Run Winetricks Commands for Steam Play / Proton Games"
+        },
+        {
+          "name": "Touchégg",
+          "url": "https://github.com/JoseExposito/touchegg",
+          "description": "Multi-Touch Gesture Recognizer"
+        },
+        {
+          "name": "Ghostwriter",
+          "url": "https://ghostwriter.kde.org/",
+          "description": "Markdown Editor"
+        },
+        {
+          "name": "Remarkable",
+          "url": "https://remarkableapp.github.io/",
+          "description": "Markdown Editor"
+        },
+        {
+          "name": "taskbook",
+          "url": "https://github.com/klaudiosinani/taskbook",
+          "description": "Note Apps"
+        },
+        {
+          "name": "nb",
+          "url": "https://xwmx.github.io/nb",
+          "description": "Note Apps"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/xwmx/nb",
+          "description": "Note Apps"
+        },
+        {
+          "name": "Featherpad",
+          "url": "https://github.com/tsujan/FeatherPad",
+          "description": "Text Editors"
+        },
+        {
+          "name": "gedit",
+          "url": "https://gedit-text-editor.org/",
+          "description": "Text Editors"
+        },
+        {
+          "name": "Kate Editor",
+          "url": "https://kate-editor.org/",
+          "description": "Source Code Editor"
+        },
+        {
+          "name": "TextPieces",
+          "url": "https://gitlab.com/liferooter/textpieces",
+          "description": "Quick Text Transformations"
+        },
+        {
+          "name": "Durdraw",
+          "url": "https://durdraw.org/",
+          "description": "ASCII Editor"
+        },
+        {
+          "name": "ly",
+          "url": "https://github.com/fairyglade/ly",
+          "description": "Display Manager with Console UI"
+        },
+        {
+          "name": "GammaStep",
+          "url": "https://gitlab.com/chinstrap/gammastep",
+          "description": "Adjust Screen Temperature"
+        },
+        {
+          "name": "Weylus",
+          "url": "https://github.com/H-M-H/Weylus",
+          "description": "Use Mobile Device as Trackpad"
+        },
+        {
+          "name": "AudioSource",
+          "url": "https://github.com/gdzx/audiosource",
+          "description": "Use Mobile Device as Microphone"
+        },
+        {
+          "name": "Alpaca",
+          "url": "https://jeffser.com/alpaca/",
+          "description": "Run LLMs on Linux"
+        },
+        {
+          "name": "nyrna",
+          "url": "https://nyrna.merritt.codes",
+          "description": "Suspend Apps / Games"
+        },
+        {
+          "name": "Solaar",
+          "url": "https://github.com/pwr-Solaar/Solaar",
+          "description": "Logitech Device Manager"
+        },
+        {
+          "name": "bluetuith",
+          "url": "https://github.com/darkhz/bluetuith",
+          "description": "Bluetooth Manager"
+        },
+        {
+          "name": "libimobiledevice",
+          "url": "https://libimobiledevice.org",
+          "description": "Communicate with iOS Devices"
+        },
+        {
+          "name": "Linux-PowerToys",
+          "url": "https://github.com/domferr/Linux-PowerToys",
+          "description": "PowerToys for Linux"
+        },
+        {
+          "name": "Railway",
+          "url": "https://flathub.org/apps/de.schmidhuberj.DieBahn",
+          "description": "Travel Info Manager"
+        },
+        {
+          "name": "Wike",
+          "url": "https://github.com/hugolabe/Wike",
+          "description": "Wikipedia App"
+        },
+        {
+          "name": "Komikku",
+          "url": "https://komikku-app.github.io/",
+          "description": "Manga Readers"
+        },
+        {
+          "name": "Suwayomi-VaadinUI",
+          "url": "https://github.com/Suwayomi/Suwayomi-VaadinUI",
+          "description": "Manga Readers"
+        },
+        {
+          "name": "Manga Reader",
+          "url": "https://flathub.org/apps/com.georgefb.mangareader",
+          "description": "Manga Readers"
+        },
+        {
+          "name": "Mako",
+          "url": "https://github.com/emersion/mako",
+          "description": "Customizable Notification Daemon"
+        },
+        {
+          "name": "dunst",
+          "url": "https://dunst-project.org/",
+          "description": "Customizable Notification Daemon"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/dunst-project/dunst",
+          "description": "Customizable Notification Daemon"
+        },
+        {
+          "name": "Eloquent",
+          "url": "https://github.com/sonnyp/Eloquent",
+          "description": "Grammar Check Apps"
+        },
+        {
+          "name": "DidYouMean",
+          "url": "https://github.com/hisbaan/didyoumean",
+          "description": "Grammar Check Apps"
+        },
+        {
+          "name": "KTouch",
+          "url": "https://apps.kde.org/ktouch/",
+          "description": "Typing Practice"
+        },
+        {
+          "name": "typer",
+          "url": "https://github.com/maaslalani/typer",
+          "description": "Typing Practice"
+        },
+        {
+          "name": "Toipe",
+          "url": "https://github.com/Samyak2/toipe",
+          "description": "Typing Practice"
+        }
+      ],
+      "note": "ご注意ください it's usually best to seek specific forums for your Distro if you need help with them. We don't curate individual distros ourselves as we feel the indexes listed are good enough to stand on their own. ご注意ください that install guides can usually be found on each distros doc page. You can find doc pages on each distros site, or through their DistroWatch pages."
+    },
+    {
+      "id": "linux-macos-software-sites",
+      "title": "ソフトウェアサイト",
+      "resources": [
+        {
+          "name": "ArchWiki App Sites",
+          "url": "https://wiki.archlinux.org/title/List_of_applications",
+          "description": "Linux Software / Site Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Ultimate Cheatsheet",
+          "url": "https://gist.github.com/bgoonz/be5c5be77169ef333b431bc37d331176",
+          "description": "Linux Software / Site Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome Linux Software",
+          "url": "https://luong-komorebi.github.io/Awesome-Linux-Software/",
+          "description": "FOSS Linux Software",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome KDE",
+          "url": "https://github.com/francoism90/awesome-kde",
+          "description": "FOSS KDE Software",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome GNOME",
+          "url": "https://github.com/Kazhnuz/awesome-gnome",
+          "description": "FOSS GNOME Software",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "FOSS Software Packages",
+          "url": "https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages",
+          "description": "FOSS Software Packages Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Kapital Sin",
+          "url": "https://www.kapitalsin.com/forum/index.php?board=5.0",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Translator",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools/#wiki_.25B7_translators",
+          "description": ""
+        },
+        {
+          "name": "The Book of Secret Knowledge",
+          "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Linux Software CSE",
+          "url": "https://cse.google.com/cse?cx=81bd91729fe2a412b",
+          "description": "Multi-Site Software Search",
+          "starred": true
+        },
+        {
+          "name": "⁠TuxMate",
+          "url": "https://tuxmate.com/",
+          "description": "Bulk App Installer",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Awesome Linux Minimalism",
+          "url": "https://github.com/MindPatch/awesome-linux-minimalism",
+          "description": "FOSS Software"
+        },
+        {
+          "name": "FOSS Torrents",
+          "url": "https://fosstorrents.com/",
+          "description": "FOSS Software Torrents"
+        },
+        {
+          "name": "Open Source Linux Programs",
+          "url": "https://files.catbox.moe/o99qyz.jpg",
+          "description": "FOSS Software Chart"
+        },
+        {
+          "name": "Rim's Linux Wiki",
+          "url": "https://rlw.pages.dev/",
+          "description": "Linux Software / Tool Index",
+          "tags": [
+            "Discord"
+          ],
+          "mirrors": [
+            "https://rimswiki.xyz/"
+          ]
+        },
+        {
+          "name": "KDE Applications",
+          "url": "https://apps.kde.org/",
+          "description": "KDE Apps & Themes"
+        },
+        {
+          "name": "KDE Store",
+          "url": "https://store.kde.org/browse/",
+          "description": "KDE Apps & Themes"
+        },
+        {
+          "name": "Flatpak",
+          "url": "https://flatpak.org/",
+          "description": "Flatpak App Repositories"
+        },
+        {
+          "name": "Flathub",
+          "url": "https://flathub.org/",
+          "description": "Flatpak App Repositories"
+        },
+        {
+          "name": "SnapCraft",
+          "url": "https://snapcraft.io/store",
+          "description": "Snap Repository"
+        },
+        {
+          "name": "Nix",
+          "url": "https://nixos.org/",
+          "description": "Package Managers"
+        },
+        {
+          "name": "Resources",
+          "url": "https://github.com/nix-community/awesome-nix",
+          "description": "Package Managers"
+        },
+        {
+          "name": "pkgx",
+          "url": "https://pkgx.sh/",
+          "description": "Package Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pkgxdev/pkgx",
+          "description": "Package Managers"
+        },
+        {
+          "name": "Homebrew",
+          "url": "https://brew.sh/",
+          "description": "Package Managers"
+        },
+        {
+          "name": "Zap",
+          "url": "https://zap.srev.in",
+          "description": "App Image Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/srevinsaju/zap",
+          "description": "App Image Managers"
+        },
+        {
+          "name": "AM",
+          "url": "https://github.com/ivan-hc/AM",
+          "description": "App Image Managers"
+        },
+        {
+          "name": "Pkgs",
+          "url": "https://pkgs.org/",
+          "description": "Searchable Linux Package Database"
+        },
+        {
+          "name": "Repology",
+          "url": "https://repology.org/",
+          "description": "Searchable Linux Package Database"
+        },
+        {
+          "name": "AppImageHub",
+          "url": "https://www.appimagehub.com/",
+          "description": "Download AppImages"
+        },
+        {
+          "name": "GUI",
+          "url": "https://github.com/prateekmedia/appimagepool",
+          "description": "Download AppImages"
+        },
+        {
+          "name": "AppImages",
+          "url": "https://appimage.github.io/",
+          "description": "Download AppImages"
+        },
+        {
+          "name": "Get AppImage",
+          "url": "https://g.srev.in/get-appimage/",
+          "description": "Download AppImages"
+        },
+        {
+          "name": "Apps for GNOME",
+          "url": "https://apps.gnome.org/",
+          "description": "GNOME Apps"
+        },
+        {
+          "name": "emplace",
+          "url": "https://github.com/tversteeg/emplace",
+          "description": "System Package Sync"
+        },
+        {
+          "name": "Pacstall",
+          "url": "https://pacstall.dev/",
+          "description": "AUR-Inspired Package Manager for Ubuntu"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-linux-system",
+      "title": "Linuxシステム",
+      "resources": [
+        {
+          "name": "Hardware for Linux",
+          "url": "https://linux-hardware.org/",
+          "description": "Linux Hardware Compatibility Database / Forum",
+          "tags": [
+            "index",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Btop",
+          "url": "https://github.com/aristocratos/btop",
+          "description": "System Info / Resource Monitors",
+          "starred": true
+        },
+        {
+          "name": "fastfetch",
+          "url": "https://github.com/fastfetch-cli/fastfetch",
+          "description": "System Info / Resource Monitors"
+        },
+        {
+          "name": "MangoHud",
+          "url": "https://github.com/flightlessmango/MangoHud",
+          "description": "System Info / Resource Monitors"
+        },
+        {
+          "name": "CPU-X",
+          "url": "https://github.com/TheTumultuousUnicornOfDarkness/CPU-X",
+          "description": "System Info / Resource Monitors"
+        },
+        {
+          "name": "Macchina",
+          "url": "https://github.com/Macchina-CLI/macchina",
+          "description": "System Info / Resource Monitors"
+        },
+        {
+          "name": "Archey4",
+          "url": "https://github.com/HorlogeSkynet/archey4",
+          "description": "System Info / Resource Monitors"
+        },
+        {
+          "name": "Hyfetch",
+          "url": "https://github.com/hykilpikonna/hyfetch",
+          "description": "System Info / Resource Monitors"
+        },
+        {
+          "name": "s-tui",
+          "url": "https://github.com/amanusk/s-tui",
+          "description": "System Info / Resource Monitors"
+        },
+        {
+          "name": "TimeShift",
+          "url": "https://github.com/linuxmint/timeshift",
+          "description": "System Restore / Backup",
+          "starred": true
+        },
+        {
+          "name": "Impression",
+          "url": "https://gitlab.com/adhami3310/Impression",
+          "description": "Create Bootable USB Linux Drives"
+        },
+        {
+          "name": "anuraOS",
+          "url": "https://github.com/MercuryWorkshop/anuraOS",
+          "description": "Linux Browser Emulator"
+        },
+        {
+          "name": "Instance",
+          "url": "https://anura.pro/",
+          "description": "Linux Browser Emulator"
+        },
+        {
+          "name": "SysmonForLinux",
+          "url": "https://github.com/microsoft/SysmonForLinux",
+          "description": "Monitor / Log System Activity"
+        },
+        {
+          "name": "htop",
+          "url": "https://htop.dev/",
+          "description": "Interactive Process Viewers"
+        },
+        {
+          "name": "Zenith",
+          "url": "https://github.com/bvaisvil/zenith",
+          "description": "Interactive Process Viewers"
+        },
+        {
+          "name": "screenFetch",
+          "url": "https://github.com/KittyKatt/screenFetch",
+          "description": "Bash Screenshot Information Tool"
+        },
+        {
+          "name": "Nanobench",
+          "url": "https://github.com/andreas-abel/nanoBench",
+          "description": "CPU Microbenchmark / Documentation"
+        },
+        {
+          "name": "ScanMem",
+          "url": "https://github.com/scanmem/scanmem",
+          "description": "Memory Scanner / Debugger"
+        },
+        {
+          "name": "pacwall",
+          "url": "https://github.com/Kharacternyk/pacwall",
+          "description": "Live Wallpaper Dependency Graph / Package Status"
+        },
+        {
+          "name": "keyd",
+          "url": "https://github.com/rvaiya/keyd",
+          "description": "Keyboard Remapping"
+        },
+        {
+          "name": "xremap",
+          "url": "https://github.com/xremap/xremap",
+          "description": "Keyboard Remapping"
+        },
+        {
+          "name": "LAN Mouse",
+          "url": "https://github.com/feschber/lan-mouse",
+          "description": "Mouse & Keyboard Sharing"
+        },
+        {
+          "name": "Input Leap",
+          "url": "https://github.com/input-leap/input-leap",
+          "description": "Multi-Computer Control"
+        },
+        {
+          "name": "auto-cpufreq",
+          "url": "https://github.com/AdnanHodzic/auto-cpufreq",
+          "description": "CPU Speed & Power Optimization Automation"
+        },
+        {
+          "name": "Fan Control",
+          "url": "https://github.com/wiiznokes/fan-control",
+          "description": "Fan Controller"
+        },
+        {
+          "name": "⁠WinApps",
+          "url": "https://github.com/winapps-org/winapps",
+          "description": "Run Windows Apps on Linux"
+        },
+        {
+          "name": "Teleport",
+          "url": "https://teleportsite.pages.dev/",
+          "description": "Windows App Compatibility Analyzer"
+        },
+        {
+          "name": "NetBoot",
+          "url": "https://netboot.xyz/",
+          "description": "iPXE Network Boot"
+        },
+        {
+          "name": "CloverBootloader",
+          "url": "https://github.com/CloverHackyColor/CloverBootloader/",
+          "description": "Windows, Mac & Linux Bootloader / Config"
+        },
+        {
+          "name": "zfsBootMenu",
+          "url": "https://docs.zfsbootmenu.org/",
+          "description": "ZFS Bootloader"
+        },
+        {
+          "name": "Waycheck",
+          "url": "https://gitlab.freedesktop.org/serebit/waycheck",
+          "description": "Lists Protocols Implemented by a Wayland Compositor"
+        },
+        {
+          "name": "Linux Heads",
+          "url": "https://osresearch.net/",
+          "description": "Minimal CoreBoot",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "coreboot",
+          "url": "https://coreboot.org/",
+          "description": "Replace Proprietary BIOS / UEFI Firmware"
+        },
+        {
+          "name": "Libreboot",
+          "url": "https://libreboot.org/",
+          "description": "Replace Proprietary BIOS / UEFI Firmware"
+        },
+        {
+          "name": "GParted",
+          "url": "https://gparted.org/",
+          "description": "Partition Manager"
+        },
+        {
+          "name": "CoreELEC",
+          "url": "https://coreelec.org",
+          "description": "Kodi-Based Operating System"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/CoreELEC/CoreELEC",
+          "description": "Kodi-Based Operating System"
+        },
+        {
+          "name": "LibreELEC",
+          "url": "https://libreelec.tv/",
+          "description": "Kodi-Based Operating System"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/LibreELEC/LibreELEC.tv",
+          "description": "Kodi-Based Operating System"
+        },
+        {
+          "name": "DistroSea",
+          "url": "https://distrosea.com/",
+          "description": "Cloud Virtual Machine / Allows Browsers"
+        },
+        {
+          "name": "Linux-KVM",
+          "url": "https://www.linux-kvm.org/page/Downloads",
+          "description": "Virtualization Kernel module"
+        },
+        {
+          "name": "WebVM",
+          "url": "https://webvm.io/",
+          "description": "Browser Virtual Machine",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "OSX-KVM",
+          "url": "https://github.com/kholia/OSX-KVM",
+          "description": "macOS Virtual Machines"
+        },
+        {
+          "name": "OneClick-macOS-Simple-KVM",
+          "url": "https://oneclick-macos-simple-kvm.notaperson535.is-a.dev/",
+          "description": "macOS Virtual Machines"
+        },
+        {
+          "name": "macOS-Simple-KVM",
+          "url": "https://github.com/foxlet/macOS-Simple-KVM",
+          "description": "macOS Virtual Machines"
+        },
+        {
+          "name": "kmon",
+          "url": "https://kmon.cli.rs/",
+          "description": "Kernel Manager and Activity Monitor"
+        },
+        {
+          "name": "Kernel Map",
+          "url": "https://makelinux.github.io/kernel/map/",
+          "description": "Interactive Linux Kernel Map"
+        },
+        {
+          "name": "KernelNewbies",
+          "url": "https://kernelnewbies.org/",
+          "description": "Kernel Developer Guides"
+        },
+        {
+          "name": "SystemRescue",
+          "url": "https://www.system-rescue.org/",
+          "description": "Bootable System Rescue Toolkits"
+        },
+        {
+          "name": "Super Grub2 Disk",
+          "url": "https://www.supergrubdisk.org/super-grub2-disk/",
+          "description": "Bootable System Rescue Toolkits"
+        },
+        {
+          "name": "bt-dualboot",
+          "url": "https://github.com/x2es/bt-dualboot",
+          "description": "Dual-Boot Bluetooth Sync Tool"
+        },
+        {
+          "name": "open-gpu-kernel-modules",
+          "url": "https://github.com/NVIDIA/open-gpu-kernel-modules",
+          "description": "NVIDIA Linux Open GPU Kernel Module"
+        },
+        {
+          "name": "nosystemd",
+          "url": "https://nosystemd.org/",
+          "description": "Alternatives to systemd"
+        },
+        {
+          "name": "greetd",
+          "url": "https://sr.ht/~kennylevinsen/greetd/",
+          "description": "Login Manager Daemon"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-linux-video",
+      "title": "Linux 動画",
+      "resources": [
+        {
+          "name": "mpv",
+          "url": "https://mpv.io/",
+          "description": "Video Players",
+          "starred": true
+        },
+        {
+          "name": "VLC",
+          "url": "https://www.videolan.org/",
+          "description": "Video Players"
+        },
+        {
+          "name": "Haruna",
+          "url": "https://apps.kde.org/haruna/",
+          "description": "MPV Frontends",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/KDE/haruna",
+          "description": "MPV Frontends"
+        },
+        {
+          "name": "Celluloid",
+          "url": "https://github.com/celluloid-player/celluloid",
+          "description": "MPV Frontends"
+        },
+        {
+          "name": "Kdenlive",
+          "url": "https://apps.kde.org/kdenlive/",
+          "description": "Video Editors",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/KDE/kdenlive",
+          "description": "Video Editors"
+        },
+        {
+          "name": "⁠davincibox",
+          "url": "https://github.com/zelikos/davincibox",
+          "description": "Video Editors"
+        },
+        {
+          "name": "Flowblade",
+          "url": "https://jliljebl.github.io/flowblade/",
+          "description": "Video Editors"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/jliljebl/flowblade",
+          "description": "Video Editors"
+        },
+        {
+          "name": "MultiPlex",
+          "url": "https://github.com/pojntfx/multiplex",
+          "description": "Torrent Watch Party / Use VPN"
+        },
+        {
+          "name": "MPV Shim",
+          "url": "https://github.com/iwalton3/plex-mpv-shim",
+          "description": "Cast Plex to MPV"
+        },
+        {
+          "name": "gpu-screen-recorder",
+          "url": "https://git.dec05eba.com/gpu-screen-recorder/",
+          "description": "Lightweight Screen Recorder w / Shadowplay"
+        },
+        {
+          "name": "Gromit MPX",
+          "url": "https://github.com/bk138/gromit-mpx",
+          "description": "Screen Annotation"
+        },
+        {
+          "name": "AV Linux",
+          "url": "https://www.bandshed.net/avlinux/",
+          "description": "Video / Audio Editor"
+        },
+        {
+          "name": "REAL Video Enhancer",
+          "url": "https://github.com/TNTwise/REAL-Video-Enhancer",
+          "description": "Video Upscaling"
+        },
+        {
+          "name": "4KTUBE",
+          "url": "https://github.com/rishabh3354/4KTUBE",
+          "description": "Video Downloaders"
+        },
+        {
+          "name": "Video Downloader",
+          "url": "https://github.com/Unrud/video-downloader",
+          "description": "Video Downloaders"
+        },
+        {
+          "name": "Linux-Fake-Background-Webcam",
+          "url": "https://github.com/fangfufu/Linux-Fake-Background-Webcam/",
+          "description": "Fake Webcam Background"
+        },
+        {
+          "name": "AnymeX",
+          "url": "https://anymex.vercel.app/",
+          "description": "Anime Streaming App / Extension Guide",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Hayase",
+          "url": "https://hayase.watch/",
+          "description": "Anime Torrent Streaming App / Extensions"
+        },
+        {
+          "name": "ani-cli",
+          "url": "https://github.com/pystardust/ani-cli",
+          "description": "Anime Streaming Terminal"
+        },
+        {
+          "name": "Trackma",
+          "url": "https://github.com/z411/trackma/",
+          "description": "Anime Tracking App"
+        },
+        {
+          "name": "LiveCaptions",
+          "url": "https://github.com/abb128/LiveCaptions",
+          "description": "Real-Time Captions"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-linux-audio",
+      "title": "Linux 音声",
+      "resources": [
+        {
+          "name": "Awesome Linux Audio",
+          "url": "https://gitlab.com/nodiscc/awesome-linuxaudio",
+          "description": "Live Audio Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "SpotX-Bash",
+          "url": "https://github.com/SpotX-Official/SpotX-Bash",
+          "description": "Spotify Adblockers",
+          "starred": true
+        },
+        {
+          "name": "spotify-adblock",
+          "url": "https://github.com/abba23/spotify-adblock",
+          "description": "Spotify Adblockers"
+        },
+        {
+          "name": "Spicetify",
+          "url": "https://spicetify.app/",
+          "description": "Spotify Themes & Plugins / Note",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Shortwave",
+          "url": "https://flathub.org/en/apps/de.haeckerfelix.Shortwave",
+          "description": "Radio Players",
+          "starred": true
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.gnome.org/World/Shortwave",
+          "description": "Radio Players"
+        },
+        {
+          "name": "QMPlay2",
+          "url": "https://github.com/zaps166/QMPlay2",
+          "description": "Radio Players"
+        },
+        {
+          "name": "SongRec",
+          "url": "https://github.com/marin-m/SongRec",
+          "description": "Song Identifiers",
+          "starred": true
+        },
+        {
+          "name": "Mousai",
+          "url": "https://github.com/SeaDve/Mousai",
+          "description": "Song Identifiers"
+        },
+        {
+          "name": "puddletag",
+          "url": "https://docs.puddletag.net/",
+          "description": "Metadata Organizer",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Tidal Hi-Fi",
+          "url": "https://github.com/Mastermindzh/tidal-hifi",
+          "description": "Hi-Fi Tidal for Linux"
+        },
+        {
+          "name": "cmus",
+          "url": "https://cmus.github.io/",
+          "description": "Audio Player"
+        },
+        {
+          "name": "Tauon Music Box",
+          "url": "https://tauonmusicbox.rocks/",
+          "description": "Audio Player",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Lollypop",
+          "url": "https://gitlab.gnome.org/World/lollypop",
+          "description": "Audio Player"
+        },
+        {
+          "name": "Audacious",
+          "url": "https://audacious-media-player.org/",
+          "description": "Audio Player",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Amberol",
+          "url": "https://gitlab.gnome.org/World/amberol",
+          "description": "Audio Player"
+        },
+        {
+          "name": "Fooyin",
+          "url": "https://www.fooyin.org/",
+          "description": "Audio Player",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Gapless",
+          "url": "https://gitlab.gnome.org/neithern/g4music",
+          "description": "Audio Player"
+        },
+        {
+          "name": "dopamine",
+          "url": "https://github.com/digimezzo/dopamine",
+          "description": "Audio Player"
+        },
+        {
+          "name": "AudioTube",
+          "url": "https://invent.kde.org/multimedia/audiotube",
+          "description": "YouTube Audio Clients"
+        },
+        {
+          "name": "ytermusic",
+          "url": "https://github.com/ccgauche/ytermusic/",
+          "description": "YouTube Audio Clients"
+        },
+        {
+          "name": "Monophony",
+          "url": "https://gitlab.com/zehkira/monophony",
+          "description": "YouTube Audio Clients"
+        },
+        {
+          "name": "MOC",
+          "url": "https://moc.daper.net/",
+          "description": "TUI Audio Players"
+        },
+        {
+          "name": "Kew",
+          "url": "https://github.com/ravachol/kew",
+          "description": "TUI Audio Players"
+        },
+        {
+          "name": "⁠Sonosano",
+          "url": "https://sonosano.krshh.com/",
+          "description": "Self-Hosted P2P Lossless Music Player",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Deezer Linux",
+          "url": "https://github.com/aunetx/deezer-linux",
+          "description": "Deezer Clients"
+        },
+        {
+          "name": "DZR",
+          "url": "https://github.com/yne/dzr",
+          "description": "Deezer Clients"
+        },
+        {
+          "name": "MusicPod",
+          "url": "https://github.com/ubuntu-flutter-community/musicpod",
+          "description": "Podcast / Radio Player"
+        },
+        {
+          "name": "HeadsetControl",
+          "url": "https://github.com/Sapd/HeadsetControl",
+          "description": "Headset Settings Manager"
+        },
+        {
+          "name": "Pipewire Multimedia API",
+          "url": "https://pipewire.org/",
+          "description": "Improved Video / Audio Handling"
+        },
+        {
+          "name": "⁠LibrePods",
+          "url": "https://github.com/kavishdevar/librepods",
+          "description": "Use AirPod Features on Linux"
+        },
+        {
+          "name": "EasyEffects",
+          "url": "https://github.com/wwmm/easyeffects",
+          "description": "Pipewire Audio Effects"
+        },
+        {
+          "name": "Werman",
+          "url": "https://github.com/werman/noise-suppression-for-voice",
+          "description": "Noise Suppression Software"
+        },
+        {
+          "name": "NoiseTorch",
+          "url": "https://github.com/noisetorch/NoiseTorch",
+          "description": "Noise Suppression Software"
+        },
+        {
+          "name": "Qtractor",
+          "url": "https://qtractor.org/",
+          "description": "Audio Editor"
+        },
+        {
+          "name": "Calf Studio Gear",
+          "url": "https://calf-studio-gear.org/",
+          "description": "Audio Production Plugins"
+        },
+        {
+          "name": "Ensembles",
+          "url": "https://github.com/ensemblesaw/ensembles-app",
+          "description": "Musical Performance Arranger"
+        },
+        {
+          "name": "JDSP4Linux",
+          "url": "https://github.com/Audio4Linux/JDSP4Linux",
+          "description": "Audio Processors"
+        },
+        {
+          "name": "cava",
+          "url": "https://github.com/karlstav/cava",
+          "description": "Console Audio Visualizer"
+        },
+        {
+          "name": "Blanket",
+          "url": "https://github.com/rafaelmardojai/blanket",
+          "description": "Ambient Sound Mixer for Linux"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-linux-image",
+      "title": "Linux 画像",
+      "resources": [
+        {
+          "name": "Flameshot",
+          "url": "https://flameshot.org/",
+          "description": "Screenshot Tools",
+          "starred": true
+        },
+        {
+          "name": "Scrot",
+          "url": "https://github.com/resurrecting-open-source-projects/scrot",
+          "description": "Screenshot Tools"
+        },
+        {
+          "name": "v4l2loopback",
+          "url": "https://github.com/v4l2loopback/v4l2loopback",
+          "description": "Create Virtual Cameras"
+        },
+        {
+          "name": "Drawing",
+          "url": "https://maoschanz.github.io/drawing/",
+          "description": "Drawing App"
+        },
+        {
+          "name": "Feh",
+          "url": "https://feh.finalrewind.org/",
+          "description": "Image Viewer"
+        },
+        {
+          "name": "NSXIV",
+          "url": "https://github.com/nsxiv/nsxiv",
+          "description": "Image Viewer"
+        },
+        {
+          "name": "lsix",
+          "url": "https://github.com/hackerb9/lsix",
+          "description": "View Images in Terminal"
+        },
+        {
+          "name": "Upscaler",
+          "url": "https://gitlab.gnome.org/World/Upscaler",
+          "description": "Image Upscaler"
+        },
+        {
+          "name": "Trimage",
+          "url": "https://trimage.org/",
+          "description": "Image Compressor"
+        },
+        {
+          "name": "Curtail",
+          "url": "https://github.com/Huluti/Curtail",
+          "description": "Image Compressor"
+        },
+        {
+          "name": "MkPosters",
+          "url": "https://github.com/patrick-kidger/mkposters",
+          "description": "Turn Markdown Files into Posters"
+        },
+        {
+          "name": "Rapid",
+          "url": "https://damonlynch.net/rapid/",
+          "description": "Quick Linux Photo Importer"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-productivity-calendars",
+      "title": "生産性 / カレンダー",
+      "resources": [
+        {
+          "name": "todo",
+          "url": "https://github.com/sioodmy/todo/",
+          "description": "To-Do Apps"
+        },
+        {
+          "name": "Planify",
+          "url": "https://github.com/alainm23/planify",
+          "description": "To-Do Apps"
+        },
+        {
+          "name": "Timestrap",
+          "url": "https://timestrap.bythewood.me/",
+          "description": "Productivity Managers"
+        },
+        {
+          "name": "Mindfulness at the Computer",
+          "url": "https://fswb.codeberg.page/mindfulness-at-the-computer/",
+          "description": "Productivity Managers"
+        },
+        {
+          "name": "Client Evolution",
+          "url": "https://help.gnome.org/users/evolution/stable/",
+          "description": "Calendars"
+        },
+        {
+          "name": "dLine",
+          "url": "https://github.com/jazz-it/dline",
+          "description": "Calendars"
+        },
+        {
+          "name": "SafeEyes",
+          "url": "https://slgobinath.github.io/SafeEyes/",
+          "description": "Break Reminders"
+        },
+        {
+          "name": "dijo",
+          "url": "https://github.com/oppiliappan/dijo",
+          "description": "Activity Tracker"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-linux-gaming",
+      "title": "Linux ゲーム",
+      "resources": [
+        {
+          "name": "Are We Anti-Cheat Yet?",
+          "url": "https://areweanticheatyet.com/",
+          "description": "Anti-Cheat Game Database / GNU / Linux & Wine / Proton Compatibility",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Comprehensive Gaming Guide",
+          "url": "https://linux-gaming.kwindu.eu/index.php?title=Main_Page",
+          "description": "Linux Gaming Guides",
+          "starred": true,
+          "mirrors": [
+            "https://web.archive.org/web/20221022121735/https://www.reddit.com/r/Piracy/comments/ndrtlf/comment/gyccwhk/?context=3",
+            "https://www.reddit.com/r/LinuxCrackSupport/wiki/index"
+          ]
+        },
+        {
+          "name": "protondb",
+          "url": "https://www.protondb.com/",
+          "description": "Proton Compatibility / Steam Extension",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Heroic Games Launcher",
+          "url": "https://heroicgameslauncher.com/",
+          "description": "Epic / GOG / Prime Games Launcher",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Lutris",
+          "url": "https://lutris.net/",
+          "description": "Games Manager",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "proton-ge-custom",
+          "url": "https://github.com/GloriousEggroll/proton-ge-custom",
+          "description": "Play Windows Games on Linux / Guide",
+          "starred": true
+        },
+        {
+          "name": "ProtonPlus",
+          "url": "https://github.com/Vysp3r/ProtonPlus",
+          "description": "Linux Game Launcher Compatibility Managers",
+          "starred": true
+        },
+        {
+          "name": "ProtonUp-QT",
+          "url": "https://davidotek.github.io/protonup-qt/",
+          "description": "Linux Game Launcher Compatibility Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/DavidoTek/ProtonUp-Qt/",
+          "description": "Linux Game Launcher Compatibility Managers"
+        },
+        {
+          "name": "Proton Sarek",
+          "url": "https://github.com/pythonlover02/Proton-Sarek",
+          "description": "Linux Game Launcher Compatibility Managers"
+        },
+        {
+          "name": "Kapital Sin",
+          "url": "https://www.kapitalsin.com/forum/index.php?board=4.0",
+          "description": "Linux Games / Use Translator",
+          "starred": true
+        },
+        {
+          "name": "Torrminatorr",
+          "url": "https://forum.torrminatorr.com/",
+          "description": "Linux Games / Requires Sign-Up",
+          "starred": true
+        },
+        {
+          "name": "johncena141",
+          "url": "https://1337x.to/user/johncena141/",
+          "description": "Linux Games / Search / Support",
+          "starred": true,
+          "mirrors": [
+            "https://1337x.to/user/johncena141/"
+          ]
+        },
+        {
+          "name": "UnderTaker141",
+          "url": "https://github.com/AbdelrhmanNile/UnderTaker141",
+          "description": "Game Libraries / Launchers"
+        },
+        {
+          "name": "RuTracker",
+          "url": "https://rutracker.org/forum/viewforum.php?f=899",
+          "description": "Linux Games / Use Translator / Tools"
+        },
+        {
+          "name": "Native Linux Games",
+          "url": "https://rentry.co/FMHYB64#native-linux-games",
+          "description": "Linux Games"
+        },
+        {
+          "name": "⁠Faugus Launcher",
+          "url": "https://github.com/Faugus/faugus-launcher",
+          "description": "Play Windows Games on Linux"
+        },
+        {
+          "name": "winesapOS",
+          "url": "https://github.com/winesapOS/winesapOS",
+          "description": "Play Games on Storage Devices"
+        },
+        {
+          "name": "wine-wayland",
+          "url": "https://github.com/varmd/wine-wayland",
+          "description": "Play DX9 / DX11 / Vulkan Games"
+        },
+        {
+          "name": "CreamLinux",
+          "url": "https://github.com/anticitizn/creamlinux",
+          "description": "Steam DLC Unlocker / Installer"
+        },
+        {
+          "name": "SLSsteam",
+          "url": "https://cs.rin.ru/forum/search.php?st=0&sk=t&sd=d&sr=topics&keywords=SLSsteam",
+          "description": "Steamclient Mod w / DLC Unlocker and Emulated Achievements"
+        },
+        {
+          "name": "⁠SteamTinkerLaunch",
+          "url": "https://github.com/sonic2kk/steamtinkerlaunch",
+          "description": "Steam Wrapper w / Custom Launcher Options"
+        },
+        {
+          "name": "AdwSteamGtk",
+          "url": "https://github.com/Foldex/AdwSteamGtk",
+          "description": "Steam Frontend"
+        },
+        {
+          "name": "steam-tui",
+          "url": "https://github.com/dmadisetti/steam-tui",
+          "description": "Rust TUI for Steam"
+        },
+        {
+          "name": "Luxtorpeda",
+          "url": "https://github.com/luxtorpeda-dev/luxtorpeda",
+          "description": "Run Steam Games on Linux"
+        },
+        {
+          "name": "Boxtron",
+          "url": "https://github.com/dreamer/boxtron",
+          "description": "Run Steam Games on Linux"
+        },
+        {
+          "name": "RetroDECK",
+          "url": "https://retrodeck.net/",
+          "description": "Emulator for Steam Deck"
+        },
+        {
+          "name": "CryoUtilities",
+          "url": "https://github.com/CryoByte33/steam-deck-utilities",
+          "description": "Steam Deck Utilities"
+        },
+        {
+          "name": "SamRewritten",
+          "url": "https://github.com/PaulCombal/SamRewritten",
+          "description": "Steam Achievement Manager"
+        },
+        {
+          "name": "Steam for Linux",
+          "url": "https://github.com/ValveSoftware/steam-for-linux",
+          "description": "Steam Linux Beta Issue Tracker"
+        },
+        {
+          "name": "Minigalaxy",
+          "url": "https://sharkwouter.github.io/minigalaxy/",
+          "description": "GOG Client"
+        },
+        {
+          "name": "⁠Online-Fix Linux",
+          "url": "https://github.com/ZzEdovec/onlinefix-linux",
+          "description": "Launch Games w / ⁠Online-Fix Patches"
+        },
+        {
+          "name": "Sober",
+          "url": "https://sober.vinegarhq.org/",
+          "description": "Roblox Linux Port / Vinegar (Studio Only)"
+        },
+        {
+          "name": "Limo",
+          "url": "https://github.com/limo-app/limo",
+          "description": "Nexus Mods Manager for Linux"
+        },
+        {
+          "name": "ssprea-nvidia-control",
+          "url": "https://github.com/ssprea/ssprea-nvidia-control",
+          "description": "GPU Overclocking Tools"
+        },
+        {
+          "name": "CoreCtrl",
+          "url": "https://gitlab.com/corectrl/corectrl",
+          "description": "GPU Overclocking Tools"
+        },
+        {
+          "name": "DXVK",
+          "url": "https://github.com/doitsujin/dxvk",
+          "description": "Vulkan-Based Direct3D for Linux / Wine"
+        },
+        {
+          "name": "⁠D7VK",
+          "url": "https://github.com/WinterSnowfall/d7vk",
+          "description": "Vulkan-Based D3D7 / 6 / 5 for Linux / Wine"
+        },
+        {
+          "name": "⁠dxvk-gplasync",
+          "url": "https://gitlab.com/Ph42oN/dxvk-gplasync/",
+          "description": "DXVK Fork w / Async / Vulkan-Based Direct3D / Stutter Reduction"
+        },
+        {
+          "name": "⁠lsfg-vk",
+          "url": "https://github.com/PancakeTAS/lsfg-vk",
+          "description": "Lossless Scaling for Linux"
+        },
+        {
+          "name": "VKBasAlt",
+          "url": "https://github.com/DadSchoorse/vkBasalt",
+          "description": "Game Post Processing Layer"
+        },
+        {
+          "name": "Liquorix",
+          "url": "https://liquorix.net/",
+          "description": "Linux Gaming Kernels"
+        },
+        {
+          "name": "Xanmod",
+          "url": "https://xanmod.org/",
+          "description": "Linux Gaming Kernels"
+        },
+        {
+          "name": "Frogging",
+          "url": "https://github.com/Frogging-Family/linux-tkg",
+          "description": "Linux Gaming Kernels"
+        },
+        {
+          "name": "Gamemode",
+          "url": "https://github.com/FeralInteractive/gamemode",
+          "description": "Linux System Optimizer"
+        },
+        {
+          "name": "LibreGaming",
+          "url": "https://github.com/Ahmed-Al-Balochi/LibreGaming",
+          "description": "Linux Game Package Downloader"
+        },
+        {
+          "name": "PortMaster",
+          "url": "https://portmaster.games/",
+          "description": "Port Games to Linux Handheld Devices",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Gameboy.live",
+          "url": "https://github.com/HFO4/gameboy.live",
+          "description": "Terminal Game Boy Emulator"
+        },
+        {
+          "name": "QuickPassthrough",
+          "url": "https://github.com/HikariKnight/quickpassthrough",
+          "description": "Simplified QEMU GPU Passthrough"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-adblock-privacy",
+      "title": "Adblock / プライバシー",
+      "resources": [
+        {
+          "name": "Arch Security Wiki",
+          "url": "https://wiki.archlinux.org/title/Security",
+          "description": "Linux Security Guides",
+          "starred": true
+        },
+        {
+          "name": "Linux Hardening",
+          "url": "https://vez.mrsk.me/linux-hardening.html",
+          "description": "Linux Security Guides"
+        },
+        {
+          "name": "2",
+          "url": "https://madaidans-insecurities.github.io/guides/linux-hardening.html",
+          "description": "Linux Security Guides"
+        },
+        {
+          "name": "How to Secure a Linux Server",
+          "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
+          "description": "Linux Security Guides"
+        },
+        {
+          "name": "CryptSetup",
+          "url": "https://gitlab.com/cryptsetup/cryptsetup",
+          "description": "File Encryption",
+          "starred": true
+        },
+        {
+          "name": "gocryptfs",
+          "url": "https://nuetzlich.net/gocryptfs",
+          "description": "File Encryption"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/rfjakob/gocryptfs",
+          "description": "File Encryption"
+        },
+        {
+          "name": "Tomb",
+          "url": "https://dyne.org/software/tomb/",
+          "description": "File Encryption"
+        },
+        {
+          "name": "Securely Wipe Disk",
+          "url": "https://wiki.archlinux.org/title/Securely_wipe_disk",
+          "description": "Linux Disk Wipe Guides"
+        },
+        {
+          "name": "SSD Memory Cell Clearing",
+          "url": "https://wiki.archlinux.org/title/Solid_state_drive/Memory_cell_clearing",
+          "description": "Linux Disk Wipe Guides"
+        },
+        {
+          "name": "JShielder",
+          "url": "https://github.com/Jsitech/JShielder",
+          "description": "Hardening Script for Linux Servers"
+        },
+        {
+          "name": "Lynis",
+          "url": "https://github.com/CISOfy/lynis",
+          "description": "Linux Security Auditing Tool"
+        },
+        {
+          "name": "Lockigest",
+          "url": "https://elma.dev/works/lockigest/",
+          "description": "Screen Locker",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Mistborn",
+          "url": "https://gitlab.com/cyber5k/mistborn",
+          "description": "Manage Cloud Security Apps"
+        },
+        {
+          "name": "OpenSnitch",
+          "url": "https://github.com/evilsocket/opensnitch",
+          "description": "Linux Firewalls"
+        },
+        {
+          "name": "gufw",
+          "url": "https://github.com/costales/gufw",
+          "description": "Linux Firewalls"
+        },
+        {
+          "name": "Tracee",
+          "url": "https://aquasecurity.github.io/tracee/latest",
+          "description": "Runtime Security and Forensics"
+        },
+        {
+          "name": "vnStat",
+          "url": "https://github.com/vergoh/vnstat",
+          "description": "Network Monitors"
+        },
+        {
+          "name": "Howdy",
+          "url": "https://github.com/boltgolt/howdy",
+          "description": "Linux Facial Authentication"
+        },
+        {
+          "name": "USBGuard",
+          "url": "https://github.com/USBGuard/usbguard",
+          "description": "Implement USB Device Authorization Policies"
+        },
+        {
+          "name": "ShuffleStacks",
+          "url": "https://shufflecake.net/",
+          "description": "Create Hidden Volumes"
+        },
+        {
+          "name": "Collision",
+          "url": "https://flathub.org/apps/dev.geopjr.Collision",
+          "description": "Check File Hashes"
+        },
+        {
+          "name": "WhoAmI Project",
+          "url": "https://owerdogan.github.io/whoami-project",
+          "description": "Privacy / Anonymity Tool",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Yubikey Full Disk Encryption",
+          "url": "https://github.com/agherzan/yubikey-full-disk-encryption",
+          "description": "Use YubiKey to unlock a LUKS Partition"
+        },
+        {
+          "name": "Firejail",
+          "url": "https://firejail.wordpress.com/",
+          "description": "Sandboxing Tools"
+        },
+        {
+          "name": "Bubblewrap",
+          "url": "https://github.com/containers/bubblewrap",
+          "description": "Sandboxing Tools"
+        },
+        {
+          "name": "GoogleTeller",
+          "url": "https://github.com/berthubert/googerteller",
+          "description": "Google Tracking Notifications"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-linux-internet",
+      "title": "Linux インターネット",
+      "resources": [
+        {
+          "name": "Nicotine+",
+          "url": "https://nicotine-plus.org/",
+          "description": "File Sharing App",
+          "starred": true
+        },
+        {
+          "name": "Soulseek",
+          "url": "https://www.slsknet.org",
+          "description": "File Sharing App"
+        },
+        {
+          "name": "Linux WiFi Hotspot",
+          "url": "https://github.com/lakinduakash/linux-wifi-hotspot",
+          "description": "Create WiFi Hotspots",
+          "starred": true
+        },
+        {
+          "name": "BTFS",
+          "url": "https://github.com/johang/btfs",
+          "description": "Bittorrent Filesystem"
+        },
+        {
+          "name": "Luakit",
+          "url": "https://luakit.github.io/",
+          "description": "Lightweight Linux Browser"
+        },
+        {
+          "name": "browsh",
+          "url": "https://www.brow.sh/",
+          "description": "Text-Based Browser"
+        },
+        {
+          "name": "ElectronMail",
+          "url": "https://github.com/vladimiry/ElectronMail",
+          "description": "Email Clients"
+        },
+        {
+          "name": "Claws Mail",
+          "url": "https://www.claws-mail.org/",
+          "description": "Email Clients"
+        },
+        {
+          "name": "dodo",
+          "url": "https://github.com/akissinger/dodo",
+          "description": "Email Clients"
+        },
+        {
+          "name": "Akregator",
+          "url": "https://apps.kde.org/akregator/",
+          "description": "RSS Readers"
+        },
+        {
+          "name": "NewsBoat",
+          "url": "https://newsboat.org/",
+          "description": "RSS Readers"
+        },
+        {
+          "name": "NewsFlash",
+          "url": "https://gitlab.com/news-flash/news_flash_gtk",
+          "description": "RSS Readers"
+        },
+        {
+          "name": "Photon",
+          "url": "https://git.sr.ht/~ghost08/photon",
+          "description": "RSS Readers"
+        },
+        {
+          "name": "gorss",
+          "url": "https://github.com/Lallassu/gorss",
+          "description": "RSS Readers"
+        },
+        {
+          "name": "Seahorse",
+          "url": "https://gitlab.gnome.org/GNOME/seahorse",
+          "description": "GNOME Password Manager"
+        },
+        {
+          "name": "gopass",
+          "url": "https://www.gopass.pw/",
+          "description": "CLI Password Manager"
+        },
+        {
+          "name": "KGet",
+          "url": "https://apps.kde.org/kget/",
+          "description": "Download Managers"
+        },
+        {
+          "name": "GabutDM",
+          "url": "https://github.com/gabutakut/gabutdm",
+          "description": "Download Managers"
+        },
+        {
+          "name": "GDown",
+          "url": "https://github.com/wkentaro/gdown",
+          "description": "Google Drive Downloader"
+        },
+        {
+          "name": "google-drive-ocamlfuse",
+          "url": "https://github.com/astrada/google-drive-ocamlfuse",
+          "description": "Mount Google Drive"
+        },
+        {
+          "name": "maestral",
+          "url": "https://maestral.app/",
+          "description": "Dropbox Client"
+        },
+        {
+          "name": "apt-fast",
+          "url": "https://github.com/ilikenwf/apt-fast",
+          "description": "APT Download Accelerator"
+        },
+        {
+          "name": "Nala",
+          "url": "https://gitlab.com/volian/nala",
+          "description": "APT Frontend"
+        },
+        {
+          "name": "aMule",
+          "url": "https://www.amule.org/",
+          "description": "eMule-like P2P Client"
+        },
+        {
+          "name": "⁠OpenWRT",
+          "url": "https://openwrt.org/",
+          "description": "Linux Router Firmware"
+        },
+        {
+          "name": "⁠dae",
+          "url": "https://github.com/daeuniverse/dae",
+          "description": "Linux Router Performance Proxy App / WebUI"
+        },
+        {
+          "name": "Linux Router",
+          "url": "https://github.com/garywill/linux-router",
+          "description": "Set Linux as Router"
+        },
+        {
+          "name": "Netcat",
+          "url": "https://rentry.co/Netcat",
+          "description": "Networking Tool"
+        },
+        {
+          "name": "Bandwhich",
+          "url": "https://github.com/imsnif/bandwhich",
+          "description": "Terminal Bandwidth Utilization Tool"
+        },
+        {
+          "name": "iperf",
+          "url": "https://github.com/esnet/iperf",
+          "description": "Network Bandwidth Test"
+        },
+        {
+          "name": "Rang3r",
+          "url": "https://github.com/floriankunushevci/rang3r",
+          "description": "IP / Port Scanner"
+        },
+        {
+          "name": "sttr",
+          "url": "https://github.com/abhimanyu003/sttr",
+          "description": "Base64 Encryption / Decryption TUI"
+        },
+        {
+          "name": "Netflix Proxy",
+          "url": "https://github.com/ab77/netflix-proxy/",
+          "description": "Streaming Service Proxy"
+        },
+        {
+          "name": "Teams for Linux",
+          "url": "https://github.com/IsmaelMartinez/teams-for-linux",
+          "description": "Collaboration Platform"
+        },
+        {
+          "name": "mx moment",
+          "url": "https://mx-moment.xyz/",
+          "description": "Encrypted Chat Client"
+        },
+        {
+          "name": "Adium",
+          "url": "https://adium.im/",
+          "description": "IRC Clients"
+        },
+        {
+          "name": "Polari",
+          "url": "https://apps.gnome.org/Polari/",
+          "description": "IRC Clients"
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.gnome.org/GNOME/polari",
+          "description": "IRC Clients"
+        },
+        {
+          "name": "Irssi",
+          "url": "https://github.com/irssi/irssi",
+          "description": "IRC Clients"
+        },
+        {
+          "name": "Weechat",
+          "url": "https://weechat.org/",
+          "description": "IRC Clients"
+        },
+        {
+          "name": "Dino",
+          "url": "https://dino.im/",
+          "description": "XMPP Client"
+        },
+        {
+          "name": "gurk-rs",
+          "url": "https://github.com/boxdot/gurk-rs",
+          "description": "Signal Client"
+        },
+        {
+          "name": "ZapZap",
+          "url": "https://rtosta.com/zapzap/",
+          "description": "WhatsApp Client",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "YouTube-Viewer",
+          "url": "https://github.com/trizen/youtube-viewer",
+          "description": "YouTube Clients"
+        },
+        {
+          "name": "Pipe Viewer",
+          "url": "https://github.com/trizen/pipe-viewer",
+          "description": "YouTube Clients"
+        },
+        {
+          "name": "Pipeline",
+          "url": "https://gitlab.com/schmiddi-on-mobile/pipeline",
+          "description": "YouTube Clients"
+        },
+        {
+          "name": "GrayJay",
+          "url": "https://grayjay.app/",
+          "description": "YouTube, Twitch, Rumble, etc. / Avoid Playstore / Guide / Add Platforms / GitLab"
+        },
+        {
+          "name": "Discover",
+          "url": "https://github.com/trigg/Discover",
+          "description": "Discord Overlay"
+        },
+        {
+          "name": "dvm",
+          "url": "https://github.com/diced/dvm",
+          "description": "Discord Version Manager"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-server-selfhosting",
+      "title": "サーバー / セルフホスティング",
+      "resources": [
+        {
+          "name": "Awesome Selfhosted",
+          "url": "https://awesome-selfhosted.net/",
+          "description": "Self-Hosted Software Index",
+          "tags": [
+            "index",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "2",
+          "url": "https://gist.github.com/kvnxiao/27c14760cbec35b4e312e34c856b51a8",
+          "description": "Self-Hosted Software Index",
+          "tags": [
+            "index",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Awesome Selfhosted UI",
+          "url": "https://awesomeselfhosted.netlify.app/",
+          "description": "Self-Hosted Software Index",
+          "tags": [
+            "index",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠Awesome Homelab",
+          "url": "https://github.com/miantiao-me/awesome-homelab/",
+          "description": "Homelab App Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Selfh.st",
+          "url": "https://selfh.st/apps/",
+          "description": "Self-Hosted Software Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Self-Hosting-Guide",
+          "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+          "description": "Self-Hosted Software Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "⁠RackRat",
+          "url": "https://rackrat.net/",
+          "description": "Ebay Rackmount Server Prices / Comparisons",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Homepage",
+          "url": "https://gethomepage.dev/",
+          "description": "Home Server Startpages",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/gethomepage/homepage",
+          "description": "Home Server Startpages"
+        },
+        {
+          "name": "Dashy",
+          "url": "https://dashy.to/",
+          "description": "Home Server Startpages"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Lissy93/dashy",
+          "description": "Home Server Startpages"
+        },
+        {
+          "name": "Flame",
+          "url": "https://github.com/pawelmalak/flame",
+          "description": "Home Server Startpages"
+        },
+        {
+          "name": "Homer",
+          "url": "https://github.com/bastienwirtz/homer",
+          "description": "Home Server Startpages"
+        },
+        {
+          "name": "Lab Dash",
+          "url": "https://github.com/AnthonyGress/lab-dash",
+          "description": "Home Server Startpages"
+        },
+        {
+          "name": "mafl",
+          "url": "https://mafl.hywax.space/",
+          "description": "Home Server Startpages"
+        },
+        {
+          "name": "Homarr",
+          "url": "https://homarr.dev/",
+          "description": "Home Server Startpages"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/homarr-labs/homarr",
+          "description": "Home Server Startpages"
+        },
+        {
+          "name": "Organizr",
+          "url": "https://github.com/causefx/Organizr",
+          "description": "Home Server Startpages"
+        },
+        {
+          "name": "Glance",
+          "url": "https://github.com/glanceapp/glance",
+          "description": "Feed Dashboard"
+        },
+        {
+          "name": "⁠ThingsBoard",
+          "url": "https://github.com/thingsboard/thingsboard",
+          "description": "IoT Device Manager / Visualizer / Data Collection"
+        },
+        {
+          "name": "Self Managed Life",
+          "url": "https://wiki.futo.org/",
+          "description": "FOSS / Self-Hosting Guide / Video"
+        },
+        {
+          "name": "r/SelfHosted Wiki",
+          "url": "https://wiki.r-selfhosted.com/",
+          "description": "Self-Hosting Guides / Resources / Community",
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Server World",
+          "url": "https://www.server-world.info/en/",
+          "description": "Network Server Guides"
+        },
+        {
+          "name": "HowtoForge",
+          "url": "https://www.howtoforge.com/",
+          "description": "Linux Server Software Guides"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/lollipopkit/flutter_server_box",
+          "description": "Linux Server Software Guides"
+        },
+        {
+          "name": "Comfy.Guide",
+          "url": "https://comfy.guide/",
+          "description": "Linux Server Software Guides"
+        },
+        {
+          "name": "serverbox",
+          "url": "https://cdn.lpkt.cn/serverbox/",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "⁠Termix",
+          "url": "https://github.com/Termix-SSH/Termix",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/jVQGdvHDrf",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "EasyPanel",
+          "url": "https://easypanel.io/",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "Webmin",
+          "url": "https://webmin.com/",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/webmin/webmin",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "Cockpit Project",
+          "url": "https://cockpit-project.org/",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "CasaOS",
+          "url": "https://casaos.zimaspace.com/",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/IceWhaleTech/CasaOS",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "1Panel",
+          "url": "https://1panel.pro/",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/1Panel-dev/1Panel",
+          "description": "Linux Server Managers / Status"
+        },
+        {
+          "name": "⁠LXD UI",
+          "url": "https://github.com/canonical/lxd-ui",
+          "description": "Linux Container + Virtual Machine Manager"
+        },
+        {
+          "name": "Proxmox",
+          "url": "https://www.proxmox.com/",
+          "description": "Self-Hosted Server Tools / Virtual Environment"
+        },
+        {
+          "name": "yet another bench script",
+          "url": "https://github.com/masonr/yet-another-bench-script",
+          "description": "Server Performance Script"
+        },
+        {
+          "name": "Docket-Jacket",
+          "url": "https://github.com/linuxserver/docker-jackett",
+          "description": "Docker Jacket Container"
+        },
+        {
+          "name": "arch-delugevpn",
+          "url": "https://github.com/binhex/arch-delugevpn",
+          "description": "Docker with Torrent client and VPN on Arch Linux base"
+        },
+        {
+          "name": "swizzin",
+          "url": "https://swizzin.ltd/",
+          "description": "Seedbox for Ubuntu / Debian"
+        },
+        {
+          "name": "rtinst",
+          "url": "https://github.com/arakasi72/rtinst",
+          "description": "Seedbox Installation Script for Ubuntu / Debian"
+        },
+        {
+          "name": "SeedSync",
+          "url": "https://github.com/ipsingh06/seedsync",
+          "description": "Sync your Seedbox"
+        },
+        {
+          "name": "openmediavault",
+          "url": "https://www.openmediavault.org/",
+          "description": "Self-Hosted Cloud Storage"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/openmediavault/openmediavault/",
+          "description": "Self-Hosted Cloud Storage"
+        },
+        {
+          "name": "SeaFile",
+          "url": "https://www.seafile.com/en/home/",
+          "description": "Self-Hosted Cloud Storage"
+        },
+        {
+          "name": "Linux Server",
+          "url": "https://github.com/ZizzyDizzyMC/linx-server/",
+          "description": "Self-Hosted Cloud Storage"
+        },
+        {
+          "name": "⁠ConvertX",
+          "url": "https://github.com/C4illin/ConvertX",
+          "description": "Self-Hosted Online File Converter"
+        },
+        {
+          "name": "iRedMail",
+          "url": "https://www.iredmail.org/",
+          "description": "Self-Hosted Email Servers"
+        },
+        {
+          "name": "Docker Mailserver",
+          "url": "https://docker-mailserver.github.io/docker-mailserver/edge/",
+          "description": "Self-Hosted Email Servers"
+        },
+        {
+          "name": "UnInbox",
+          "url": "https://github.com/un/inbox",
+          "description": "Self-Hosted Email Servers"
+        },
+        {
+          "name": "Mail-in a Box",
+          "url": "https://mailinabox.email/",
+          "description": "Self-Hosted Email Servers"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-file-tools",
+      "title": "ファイル ツール",
+      "resources": [
+        {
+          "name": "Linux File Backup",
+          "url": "https://github.com/restic/others",
+          "description": "File Backup App List",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Warpinator",
+          "url": "https://github.com/linuxmint/warpinator",
+          "description": "File Sync / Transfer",
+          "starred": true
+        },
+        {
+          "name": "rQuickshare",
+          "url": "https://github.com/Martichou/rquickshare",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "Magic Wormhole",
+          "url": "https://github.com/magic-wormhole/magic-wormhole",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "syncthing",
+          "url": "https://syncthing.net/",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "Tray Support",
+          "url": "https://martchus.github.io/syncthingtray/",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "portal",
+          "url": "https://github.com/SpatiumPortae/portal",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "Zrok",
+          "url": "https://zrok.io/",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "Celeste",
+          "url": "https://flathub.org/apps/com.hunterwittenborn.Celeste",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "2",
+          "url": "https://snapcraft.io/celeste",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/hwittenborn/celeste",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "Cattail",
+          "url": "https://github.com/nerdyslacker/cattail",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "Sharing",
+          "url": "https://github.com/parvardegr/sharing",
+          "description": "File Sync / Transfer"
+        },
+        {
+          "name": "lf",
+          "url": "https://github.com/gokcehan/lf",
+          "description": "Terminal File Managers",
+          "starred": true
+        },
+        {
+          "name": "ranger",
+          "url": "https://ranger.fm/",
+          "description": "Terminal File Managers"
+        },
+        {
+          "name": "Codeberg",
+          "url": "https://codeberg.org/ranger/pages",
+          "description": "Terminal File Managers"
+        },
+        {
+          "name": "nnn",
+          "url": "https://github.com/jarun/nnn",
+          "description": "Terminal File Managers"
+        },
+        {
+          "name": "clifm",
+          "url": "https://github.com/leo-arch/clifm",
+          "description": "Terminal File Managers"
+        },
+        {
+          "name": "fm",
+          "url": "https://github.com/mistakenelf/fm",
+          "description": "Terminal File Managers"
+        },
+        {
+          "name": "superfile",
+          "url": "https://github.com/yorukot/superfile",
+          "description": "Terminal File Managers"
+        },
+        {
+          "name": "Joshuto",
+          "url": "https://github.com/kamiyaa/joshuto",
+          "description": "Terminal File Managers"
+        },
+        {
+          "name": "Baobab",
+          "url": "https://gitlab.gnome.org/GNOME/baobab",
+          "description": "Disk Usage Analyzers / GUI",
+          "starred": true
+        },
+        {
+          "name": "Filelight",
+          "url": "https://apps.kde.org/en-gb/filelight/",
+          "description": "Disk Usage Analyzers / GUI"
+        },
+        {
+          "name": "dut",
+          "url": "https://codeberg.org/201984/dut",
+          "description": "Disk Usage Analyzers / CLI",
+          "starred": true
+        },
+        {
+          "name": "gdu",
+          "url": "https://github.com/dundee/gdu",
+          "description": "Disk Usage Analyzers / CLI"
+        },
+        {
+          "name": "NCDU",
+          "url": "https://dev.yorhel.nl/ncdu",
+          "description": "Disk Usage Analyzers / CLI"
+        },
+        {
+          "name": "ANGRYsearch",
+          "url": "https://github.com/DoTheEvo/ANGRYsearch",
+          "description": "File Explorers / Search"
+        },
+        {
+          "name": "gocatcli",
+          "url": "https://github.com/deadc0de6/gocatcli/",
+          "description": "File Explorers / Search"
+        },
+        {
+          "name": "xplr",
+          "url": "https://xplr.dev/",
+          "description": "File Explorers / Search"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/JmasSPCcz3",
+          "description": "File Explorers / Search"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/sayanarijit/xplr",
+          "description": "File Explorers / Search"
+        },
+        {
+          "name": "logo-ls",
+          "url": "https://github.com/Yash-Handa/logo-ls",
+          "description": "File Explorers / Search"
+        },
+        {
+          "name": "ugrep",
+          "url": "https://ugrep.com",
+          "description": "File Explorers / Search"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Genivia/ugrep",
+          "description": "File Explorers / Search"
+        },
+        {
+          "name": "Achoz",
+          "url": "https://github.com/kcubeterm/achoz",
+          "description": "File Explorers / Search"
+        },
+        {
+          "name": "The Filesystem Hierarchy Standard",
+          "url": "https://i.imgur.com/0vfM4dm.png",
+          "description": "Linux Filesystem Chart"
+        },
+        {
+          "name": "Dolphin",
+          "url": "https://userbase.kde.org/Dolphin",
+          "description": "File Managers"
+        },
+        {
+          "name": "Source Code",
+          "url": "https://invent.kde.org/system/dolphin",
+          "description": "File Managers"
+        },
+        {
+          "name": "SpaceFM",
+          "url": "https://ignorantguru.github.io/spacefm/",
+          "description": "File Managers"
+        },
+        {
+          "name": "pigz",
+          "url": "https://zlib.net/pigz/",
+          "description": "File Archivers / Unzippers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/madler/pigz",
+          "description": "File Archivers / Unzippers"
+        },
+        {
+          "name": "p7zip",
+          "url": "https://p7zip.sourceforge.net/",
+          "description": "File Archivers / Unzippers"
+        },
+        {
+          "name": "GNU Gzip",
+          "url": "https://www.gnu.org/software/gzip/",
+          "description": "File Archivers / Unzippers"
+        },
+        {
+          "name": "Collector",
+          "url": "https://mijorus.it/projects/collector/",
+          "description": "File Drag & Drop"
+        },
+        {
+          "name": "Bash Upload",
+          "url": "https://bashupload.com/",
+          "description": "Bash File Upload 50GB / 3 days"
+        },
+        {
+          "name": "Zoxide",
+          "url": "https://github.com/ajeetdsouza/zoxide",
+          "description": "Improved CD Command"
+        },
+        {
+          "name": "lnav",
+          "url": "https://lnav.org/",
+          "description": "Log File Viewer / Analyzer",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Pika Backup",
+          "url": "https://gitlab.gnome.org/World/pika-backup/",
+          "description": "File Backup / Reocovery Tools"
+        },
+        {
+          "name": "RecoverPy",
+          "url": "https://github.com/PabloLec/RecoverPy",
+          "description": "File Backup / Reocovery Tools"
+        },
+        {
+          "name": "Boxxy",
+          "url": "https://github.com/queer/boxxy",
+          "description": "Contain Files / Directories"
+        },
+        {
+          "name": "Junction",
+          "url": "https://github.com/sonnyp/Junction",
+          "description": "Change File Associations"
+        },
+        {
+          "name": "Krename",
+          "url": "https://apps.kde.org/en-gb/krename/",
+          "description": "Bulk File / Folder Renaming"
+        },
+        {
+          "name": "FSLint",
+          "url": "https://www.pixelbeat.org/fslint/",
+          "description": "Duplicate File Finder"
+        },
+        {
+          "name": "kdiff3",
+          "url": "https://apps.kde.org/en-gb/kdiff3/",
+          "description": "Duplicate File Finder"
+        },
+        {
+          "name": "fclones",
+          "url": "https://github.com/pkolaczk/fclones",
+          "description": "Duplicate File Finder"
+        },
+        {
+          "name": "xdg-ninja",
+          "url": "https://github.com/b3nj5m1n/xdg-ninja",
+          "description": "Unwanted File Finder"
+        },
+        {
+          "name": "rcm",
+          "url": "https://github.com/thoughtbot/rcm",
+          "description": "Manage Dotfiles"
+        },
+        {
+          "name": "PDF Mix",
+          "url": "https://scarpetta.eu/pdfmixtool/",
+          "description": "PDF Editor"
+        },
+        {
+          "name": "gscan2pdf",
+          "url": "https://gscan2pdf.sourceforge.net/",
+          "description": "Turn Documents into PDFs"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-android-on-linux",
+      "title": "Linux上のAndroid",
+      "resources": [
+        {
+          "name": "Waydroid",
+          "url": "https://waydro.id/",
+          "description": "Containerized Android on Linux / Scripts",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Redroid",
+          "url": "https://github.com/remote-android/redroid-doc",
+          "description": "Containerized Android on Linux"
+        },
+        {
+          "name": "Docker-Android",
+          "url": "https://github.com/budtmo/docker-android",
+          "description": "Containerized Android on Linux"
+        },
+        {
+          "name": "Genymotion",
+          "url": "https://www.genymotion.com/",
+          "description": "Android Emulator"
+        },
+        {
+          "name": "Android Studio",
+          "url": "https://developer.android.com/studio",
+          "description": "IDE with Built-in Android Emulator"
+        },
+        {
+          "name": "Android-x86",
+          "url": "https://www.android-x86.org/",
+          "description": "Android-Based OS for PC"
+        },
+        {
+          "name": "adbfs-rootless",
+          "url": "https://github.com/spion/adbfs-rootless",
+          "description": "Mount Android on Linux via ADB"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-terminal-shell",
+      "title": "ターミナル / シェル",
+      "resources": [
+        {
+          "name": "Awesome Shell",
+          "url": "https://github.com/alebcay/awesome-shell",
+          "description": "Linux Shell Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "tldr",
+          "url": "https://tldr.sh/",
+          "description": "Linux Shell Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/tldr-pages/tldr",
+          "description": "Linux Shell Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "AltBox",
+          "url": "https://altbox.dev/",
+          "description": "Linux Shell Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome TUIs",
+          "url": "https://github.com/rothgar/awesome-tuis",
+          "description": "TUI Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "TerminalTrove",
+          "url": "https://terminaltrove.com/",
+          "description": "TUI Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "⁠Awesome Terminal Recorder",
+          "url": "https://github.com/orangekame3/awesome-terminal-recorder",
+          "description": "Terminal Recorder Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "zsh",
+          "url": "https://www.zsh.org/",
+          "description": "Command Line Shells",
+          "starred": true
+        },
+        {
+          "name": "bash",
+          "url": "https://www.gnu.org/software/bash/",
+          "description": "Command Line Shells"
+        },
+        {
+          "name": "fish",
+          "url": "https://fishshell.com/",
+          "description": "Command Line Shells"
+        },
+        {
+          "name": "Elvish",
+          "url": "https://elv.sh/",
+          "description": "Command Line Shells"
+        },
+        {
+          "name": "Es",
+          "url": "https://wryun.github.io/es-shell/",
+          "description": "Command Line Shells"
+        },
+        {
+          "name": "PowerShell",
+          "url": "https://github.com/powershell/powershell",
+          "description": "Command Line Shells"
+        },
+        {
+          "name": "Ion",
+          "url": "https://gitlab.redox-os.org/redox-os/ion",
+          "description": "Command Line Shells"
+        },
+        {
+          "name": "Xonsh",
+          "url": "https://xon.sh/",
+          "description": "Command Line Shells"
+        },
+        {
+          "name": "Nushell",
+          "url": "https://www.nushell.sh/",
+          "description": "Command Line Shells"
+        },
+        {
+          "name": "Alacritty",
+          "url": "https://alacritty.org",
+          "description": "Linux Terminal Emulators",
+          "starred": true
+        },
+        {
+          "name": "Kitty",
+          "url": "https://sw.kovidgoyal.net/kitty/overview/",
+          "description": "Linux Terminal Emulators"
+        },
+        {
+          "name": "Wezterm",
+          "url": "https://wezterm.org",
+          "description": "Linux Terminal Emulators"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/wezterm/wezterm",
+          "description": "Linux Terminal Emulators"
+        },
+        {
+          "name": "tabby",
+          "url": "https://tabby.sh/",
+          "description": "Linux Terminal Emulators"
+        },
+        {
+          "name": "foot",
+          "url": "https://codeberg.org/dnkl/foot",
+          "description": "Linux Terminal Emulators"
+        },
+        {
+          "name": "Simple Terminal",
+          "url": "https://st.suckless.org/",
+          "description": "Linux Terminal Emulators"
+        },
+        {
+          "name": "Wave",
+          "url": "https://www.waveterm.dev/",
+          "description": "Linux Terminal Emulators"
+        },
+        {
+          "name": "Ghostty",
+          "url": "https://ghostty.org/",
+          "description": "Linux Terminal Emulators"
+        },
+        {
+          "name": "yakuake",
+          "url": "https://apps.kde.org/yakuake/",
+          "description": "Linux Terminal Emulators"
+        },
+        {
+          "name": "emacs-eat",
+          "url": "https://codeberg.org/akib/emacs-eat",
+          "description": "Linux Terminal Emulators"
+        },
+        {
+          "name": "LinuxCommand",
+          "url": "https://www.linuxcommand.org/tlcl.php",
+          "description": "Command-Line Lessons",
+          "starred": true
+        },
+        {
+          "name": "Command Line Guide",
+          "url": "https://github.com/jlevy/the-art-of-command-line",
+          "description": "Command-Line Lessons"
+        },
+        {
+          "name": "ManKier",
+          "url": "https://www.mankier.com/",
+          "description": "Command-Line Lessons"
+        },
+        {
+          "name": "Starship",
+          "url": "https://starship.rs/",
+          "description": "Bash / Zsh Prompt"
+        },
+        {
+          "name": "Liquidprompt",
+          "url": "https://github.com/liquidprompt/liquidprompt",
+          "description": "Bash / Zsh Prompt"
+        },
+        {
+          "name": "utils",
+          "url": "https://github.com/Loupeznik/utils",
+          "description": "Linux Shell Tool Scripts"
+        },
+        {
+          "name": "UsefulLinuxShellScripts",
+          "url": "https://github.com/jackrabbit335/UsefulLinuxShellScripts",
+          "description": "Linux Shell Tool Scripts"
+        },
+        {
+          "name": "Gum",
+          "url": "https://github.com/charmbracelet/gum",
+          "description": "Shell Script Creator"
+        },
+        {
+          "name": "ShellCheck",
+          "url": "https://www.shellcheck.net/",
+          "description": "Shell Script Bug Check"
+        },
+        {
+          "name": "⁠ShellScript",
+          "url": "https://www.shellscript.sh/",
+          "description": "Shell Scripting Tutorials"
+        },
+        {
+          "name": "shell-scripting-tutorial",
+          "url": "https://github.com/techarkit/shell-scripting-tutorial",
+          "description": "Shell Scripting Tutorials"
+        },
+        {
+          "name": "Bash Crawl",
+          "url": "https://gitlab.com/slackermedia/bashcrawl",
+          "description": "Linux Command Learning Game"
+        },
+        {
+          "name": "bash_loading_animations",
+          "url": "https://github.com/Silejonu/bash_loading_animations",
+          "description": "Bash Loading Animations"
+        },
+        {
+          "name": "bash-it",
+          "url": "https://github.com/Bash-it/bash-it",
+          "description": "Bash Frameworks"
+        },
+        {
+          "name": "Bashly",
+          "url": "https://bashly.dev/",
+          "description": "Bash Frameworks"
+        },
+        {
+          "name": "zx",
+          "url": "https://google.github.io/zx/",
+          "description": "Write Complex Scripts"
+        },
+        {
+          "name": "dax",
+          "url": "https://github.com/dsherret/dax",
+          "description": "Write Complex Scripts"
+        },
+        {
+          "name": "Basher",
+          "url": "https://www.basher.it/",
+          "description": "Bash Package Manager"
+        },
+        {
+          "name": "bpkg",
+          "url": "https://bpkg.sh/",
+          "description": "Bash Package Manager"
+        },
+        {
+          "name": "Distrobox",
+          "url": "https://distrobox.it/",
+          "description": "Use Distros via Terminal"
+        },
+        {
+          "name": "explainshell.com",
+          "url": "https://explainshell.com/",
+          "description": "Match Command-Line Arguments to Help Text"
+        },
+        {
+          "name": "Tmux",
+          "url": "https://github.com/tmux/tmux",
+          "description": "Terminal Multiplexer / Cheatsheet"
+        },
+        {
+          "name": "Zellij",
+          "url": "https://zellij.dev/",
+          "description": "Terminal Workspace"
+        },
+        {
+          "name": "atuin",
+          "url": "https://atuin.sh/",
+          "description": "Shell History Management",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "cbonsai",
+          "url": "https://gitlab.com/jallbrit/cbonsai",
+          "description": "Generate Bonsai Trees in Terminal"
+        },
+        {
+          "name": "pipes.sh",
+          "url": "https://pipeseroni.github.io/",
+          "description": "Animated Pipes in Terminal"
+        },
+        {
+          "name": "pipes-rs",
+          "url": "https://github.com/lhvy/pipes-rs",
+          "description": "Animated Pipes in Terminal"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-raspberry-pi",
+      "title": "Raspberry Pi",
+      "resources": [
+        {
+          "name": "Awesome Raspberry Pi",
+          "url": "https://github.com/thibmaek/awesome-raspberry-pi",
+          "description": "Raspberry Pi Tools / Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Pi-Apps",
+          "url": "https://pi-apps.io/",
+          "description": "Raspberry Pi App Store",
+          "tags": [
+            "index",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Pinn",
+          "url": "https://github.com/procount/pinn",
+          "description": "Raspberry Pi OS Installer"
+        },
+        {
+          "name": "PiVPN",
+          "url": "https://pivpn.io/",
+          "description": "Raspberry Pi VPN",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "raspberrypiwireguard",
+          "url": "https://github.com/adrianmihalko/raspberrypiwireguard",
+          "description": "Install WireGuard on Raspberry Pi"
+        },
+        {
+          "name": "Raspberry Pi Connect",
+          "url": "https://www.raspberrypi.com/software/connect/",
+          "description": "Raspberry Pi Remote Access"
+        },
+        {
+          "name": "CaribouLite",
+          "url": "https://github.com/cariboulabs/cariboulite",
+          "description": "Raspberry Pi Tx / Rx 6GHz SDR"
+        },
+        {
+          "name": "Piper",
+          "url": "https://github.com/OHF-Voice/piper1-gpl",
+          "description": "Raspberry Pi Text-To-Speech"
+        },
+        {
+          "name": "Pinout",
+          "url": "https://pinout.xyz/",
+          "description": "Raspberry Pi GPIO Pins Guide"
+        },
+        {
+          "name": "Awesome Ricing",
+          "url": "https://github.com/fosslife/awesome-ricing",
+          "description": "Linux Ricing Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "⁠Awesome Linux Ricing",
+          "url": "https://github.com/avtzis/awesome-linux-ricing",
+          "description": "Linux Ricing Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Pling",
+          "url": "https://www.pling.com/s/All-Linux/browse/",
+          "description": "Linux Ricing Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Elkowar's Wacky Widgets",
+          "url": "https://elkowar.github.io/eww",
+          "description": "Widgeting Systems",
+          "starred": true
+        },
+        {
+          "name": "Aylur's GTK Shell",
+          "url": "https://github.com/Aylur/ags",
+          "description": "Widgeting Systems"
+        },
+        {
+          "name": "⁠Quickshell",
+          "url": "https://quickshell.org/",
+          "description": "Widgeting Systems"
+        },
+        {
+          "name": "unixporn",
+          "url": "https://unixporn.github.io/",
+          "description": "Ricing Community",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "dotfiles",
+          "url": "https://dotfiles.github.io/",
+          "description": "GitHub Dotfiles"
+        },
+        {
+          "name": "⁠Chezmoi",
+          "url": "https://www.chezmoi.io/",
+          "description": "Dotfile Managers"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-desktop-environment",
+      "title": "デスクトップ環境",
+      "resources": [
+        {
+          "name": "Desktop Environment Comparison",
+          "url": "https://eylenburg.github.io/de_comparison.htm",
+          "description": "",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Extension Manager",
+          "url": "https://mattjakeman.com/apps/extension-manager",
+          "description": "GNOME Shell Extension Manager"
+        },
+        {
+          "name": "Material Shell",
+          "url": "https://material-shell.com/",
+          "description": "GNOME Tiling Extension"
+        },
+        {
+          "name": "Forge",
+          "url": "https://github.com/forge-ext/forge",
+          "description": "GNOME Tiling Extension"
+        },
+        {
+          "name": "Pop!_OS Shell",
+          "url": "https://github.com/pop-os/shell",
+          "description": "Pop-Shell for GNOME"
+        },
+        {
+          "name": "Guillotine",
+          "url": "https://gitlab.com/ente76/guillotine/",
+          "description": "Execute Commands from a Customizable Menu / GNOME Extension"
+        },
+        {
+          "name": "Hardcode Tray",
+          "url": "https://github.com/bilelmoussaoui/Hardcode-Tray",
+          "description": "Hardcoded Tray Icon Fix"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-window-managers",
+      "title": "ウィンドウマネージャー",
+      "resources": [
+        {
+          "name": "⁠Awesome Wayland",
+          "url": "https://github.com/rcalixte/awesome-wayland",
+          "description": "Wayland Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Window Manager Index",
+          "url": "https://wiki.archlinux.org/title/Window_manager",
+          "description": "List of Window Managers",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Wayland Compositor Index",
+          "url": "https://wiki.archlinux.org/title/Wayland#Compositors",
+          "description": "List of Wayland Compositors",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "We Are Wayland Now",
+          "url": "https://wearewaylandnow.com/",
+          "description": "Wayland Ecosystem Components",
+          "tags": [
+            "index",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "i3wm",
+          "url": "https://i3wm.org",
+          "description": "Manual Tiling Window Manager / Reference Card",
+          "starred": true
+        },
+        {
+          "name": "awesomewm",
+          "url": "https://awesomewm.org",
+          "description": "Dynamic Tiling Window Managers",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/awesomeWM/awesome",
+          "description": "Dynamic Tiling Window Managers"
+        },
+        {
+          "name": "xmonad",
+          "url": "https://xmonad.org",
+          "description": "Dynamic Tiling Window Managers"
+        },
+        {
+          "name": "Qtile",
+          "url": "https://qtile.org/",
+          "description": "Dynamic Tiling Window Managers"
+        },
+        {
+          "name": "dwm",
+          "url": "https://dwm.suckless.org",
+          "description": "Dynamic Tiling Window Managers"
+        },
+        {
+          "name": "Hyprland",
+          "url": "https://hyprland.org/",
+          "description": "Dynamic Tiling Wayland Compositors",
+          "starred": true
+        },
+        {
+          "name": "Resources",
+          "url": "https://github.com/hyprland-community/awesome-hyprland",
+          "description": "Dynamic Tiling Wayland Compositors"
+        },
+        {
+          "name": "Arch Wiki",
+          "url": "https://wiki.archlinux.org/title/Hyprland",
+          "description": "Dynamic Tiling Wayland Compositors"
+        },
+        {
+          "name": "Simple Config",
+          "url": "https://github.com/mylinuxforwork/dotfiles",
+          "description": "Dynamic Tiling Wayland Compositors"
+        },
+        {
+          "name": "2",
+          "url": "https://ii.clsty.link/en/",
+          "description": "Dynamic Tiling Wayland Compositors"
+        },
+        {
+          "name": "niri",
+          "url": "https://github.com/YaLTeR/niri",
+          "description": "Dynamic Tiling Wayland Compositors"
+        },
+        {
+          "name": "Sway",
+          "url": "https://github.com/swaywm/sway",
+          "description": "i3-compatible Wayland Compositors",
+          "starred": true
+        },
+        {
+          "name": "Arch Wiki",
+          "url": "https://wiki.archlinux.org/title/Sway",
+          "description": "i3-compatible Wayland Compositors"
+        },
+        {
+          "name": "SwayFx",
+          "url": "https://github.com/WillPower3309/swayfx",
+          "description": "i3-compatible Wayland Compositors"
+        },
+        {
+          "name": "BSPWM",
+          "url": "https://github.com/baskerville/bspwm",
+          "description": "Hybrid Tiling Window Manager"
+        },
+        {
+          "name": "herbstluftwm",
+          "url": "https://herbstluftwm.org",
+          "description": "Manual Tiling Window Manager"
+        },
+        {
+          "name": "river",
+          "url": "https://github.com/riverwm/river/",
+          "description": "Wayland Compositor"
+        },
+        {
+          "name": "LabWC",
+          "url": "https://github.com/labwc/labwc",
+          "description": "Wayland Compositor"
+        },
+        {
+          "name": "wayfire",
+          "url": "https://github.com/WayfireWM/wayfire/",
+          "description": "Wayland Compositor"
+        },
+        {
+          "name": "picom",
+          "url": "https://github.com/yshui/picom",
+          "description": "Compositor for Standalone X11 Window Managers / Docs",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Polybar (X11)",
+          "url": "https://github.com/polybar/polybar",
+          "description": "Customizable Status Bars"
+        },
+        {
+          "name": "Themes",
+          "url": "https://github.com/adi1090x/polybar-themes",
+          "description": "Customizable Status Bars"
+        },
+        {
+          "name": "Iron Bar",
+          "url": "https://github.com/JakeStanger/ironbar",
+          "description": "Customizable Status Bars"
+        },
+        {
+          "name": "Waybar",
+          "url": "https://github.com/Alexays/Waybar",
+          "description": "Customizable Status Bars"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-linux-themes",
+      "title": "Linuxテーマ",
+      "resources": [
+        {
+          "name": "xfce-look",
+          "url": "https://www.xfce-look.org/",
+          "description": "XFCE Linux Themes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Gnome-Look",
+          "url": "https://www.gnome-look.org/",
+          "description": "GNOME Themes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Hellwal",
+          "url": "https://github.com/danihek/hellwal",
+          "description": "Color Palette Generator for Ricing"
+        },
+        {
+          "name": "Themix",
+          "url": "https://github.com/themix-project/themix-gui",
+          "description": "Linux Themes / GUI"
+        },
+        {
+          "name": "Kvantum",
+          "url": "https://github.com/tsujan/Kvantum",
+          "description": "Linux QT / KDE Theme Engine"
+        },
+        {
+          "name": "⁠nwg-look",
+          "url": "https://github.com/nwg-piotr/nwg-look",
+          "description": "GTK3 Settings Editor"
+        },
+        {
+          "name": "Arc",
+          "url": "https://github.com/jnsh/arc-theme",
+          "description": "Transparent Linux Theme"
+        },
+        {
+          "name": "Ant",
+          "url": "https://github.com/EliverLara/Ant",
+          "description": "Light Linux Theme"
+        },
+        {
+          "name": "AeroThemePlasma",
+          "url": "https://github.com/WackyIdeas/aerothemeplasma",
+          "description": "Windows 7 / Vista Themes for KDE Plasma"
+        },
+        {
+          "name": "2",
+          "url": "https://gitgud.io/wackyideas/aerothemeplasma",
+          "description": "Windows 7 / Vista Themes for KDE Plasma"
+        },
+        {
+          "name": "VistaThemePlasma",
+          "url": "https://gitgud.io/catpswin56/vistathemeplasma/",
+          "description": "Windows 7 / Vista Themes for KDE Plasma"
+        },
+        {
+          "name": "XScreenSaver",
+          "url": "https://www.jwz.org/xscreensaver/",
+          "description": "Linux Screensavers"
+        },
+        {
+          "name": "varietywalls",
+          "url": "https://github.com/varietywalls/variety",
+          "description": "Wallpaper Managers"
+        },
+        {
+          "name": "HydraPaper",
+          "url": "https://hydrapaper.gabmus.org/",
+          "description": "Wallpaper Managers"
+        },
+        {
+          "name": "Video Wallpaper",
+          "url": "https://github.com/ghostlexly/gpu-video-wallpaper",
+          "description": "Use Videos as Animated Wallpapers"
+        },
+        {
+          "name": "Hidamari",
+          "url": "https://github.com/jeffshee/hidamari",
+          "description": "Use Videos as Animated Wallpapers"
+        },
+        {
+          "name": "⁠tint",
+          "url": "https://github.com/ashish0kumar/tint",
+          "description": "Extract Wallpaper Colors for System Scheme / GUI"
+        },
+        {
+          "name": "Polychromatic",
+          "url": "https://polychromatic.app/",
+          "description": "Linux System Light Control"
+        },
+        {
+          "name": "OpenRazer",
+          "url": "https://openrazer.github.io/",
+          "description": "Linux System Light Control"
+        },
+        {
+          "name": "Burn My Windows",
+          "url": "https://github.com/Schneegans/Burn-My-Windows",
+          "description": "Window Closing Effects"
+        },
+        {
+          "name": "theme.sh",
+          "url": "https://github.com/lemnos/theme.sh",
+          "description": "Custom Terminal Themes"
+        },
+        {
+          "name": "NotCurses",
+          "url": "https://github.com/dankamongmen/notcurses",
+          "description": "Custom Terminal Themes"
+        },
+        {
+          "name": "Wiki",
+          "url": "https://nick-black.com/dankwiki/index.php/Notcurses",
+          "description": "Custom Terminal Themes"
+        },
+        {
+          "name": "Shell Color Scripts",
+          "url": "https://gitlab.com/dwt1/shell-color-scripts",
+          "description": "Custom Terminal Themes"
+        },
+        {
+          "name": "2",
+          "url": "https://github.com/stark/Color-Scripts",
+          "description": "Custom Terminal Themes"
+        },
+        {
+          "name": "gibMacOS",
+          "url": "https://github.com/corpnewt/gibMacOS",
+          "description": "Download macOS",
+          "starred": true
+        },
+        {
+          "name": "Mist",
+          "url": "https://github.com/ninxsoft/Mist",
+          "description": "Download macOS"
+        },
+        {
+          "name": "NearDrop",
+          "url": "https://github.com/grishka/NearDrop",
+          "description": "File Sharing Apps",
+          "starred": true
+        },
+        {
+          "name": "maestral",
+          "url": "https://maestral.app/",
+          "description": "File Sharing Apps"
+        },
+        {
+          "name": "shottr",
+          "url": "https://shottr.cc/",
+          "description": "Screenshot Tools",
+          "starred": true
+        },
+        {
+          "name": "⁠Better Shot",
+          "url": "https://www.bettershot.site/",
+          "description": "Screenshot Tools"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/KartikLabhshetwar/better-shot",
+          "description": "Screenshot Tools"
+        },
+        {
+          "name": "Aptonic",
+          "url": "https://aptonic.com/",
+          "description": "Drag-and-Drop Shelf / Quick File Access",
+          "starred": true
+        },
+        {
+          "name": "Ghostty",
+          "url": "https://ghostty.org/",
+          "description": "GPU-Accelerated Terminal Emulator",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Ice Cubes",
+          "url": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884",
+          "description": "Mastodon Client",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Sky.app",
+          "url": "https://github.com/jcsalterego/Sky.app",
+          "description": "Bluesky Client"
+        },
+        {
+          "name": "Beta Profiles",
+          "url": "https://betaprofiles.com/",
+          "description": "Download Pre-Release Versions macOS"
+        },
+        {
+          "name": "CloverBootloader",
+          "url": "https://github.com/CloverHackyColor/CloverBootloader/",
+          "description": "Windows, Mac & Linux Bootloader / Config"
+        },
+        {
+          "name": "Boot Camp",
+          "url": "https://support.apple.com/boot-camp",
+          "description": "Windows Bootloader / DL Script"
+        },
+        {
+          "name": "Tart",
+          "url": "https://tart.run/",
+          "description": "Virtual Machine Manager",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "UTM",
+          "url": "https://mac.getutm.app/",
+          "description": "Virtual Machines / Run Linux or Windows on macOS"
+        },
+        {
+          "name": "VMware",
+          "url": "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion",
+          "description": "Virtual Machines / Run Linux or Windows on macOS"
+        },
+        {
+          "name": "VirtualBuddy",
+          "url": "https://github.com/insidegui/VirtualBuddy",
+          "description": "Virtualize macOS 12 and later on Apple Silicon"
+        },
+        {
+          "name": "Docker OSX",
+          "url": "https://github.com/sickcodes/Docker-OSX",
+          "description": "Mac VM in Docker"
+        },
+        {
+          "name": "SwiftUI Win11",
+          "url": "https://jinxiansen.github.io/Windows11/",
+          "description": "Windows 11 Desktop Client for macOS"
+        },
+        {
+          "name": "OrbStack",
+          "url": "https://orbstack.dev/",
+          "description": "Docker Client"
+        },
+        {
+          "name": "Bookshelf",
+          "url": "https://apps.apple.com/us/app/bookshelf-reading-tracker/id1469372414",
+          "description": "Book Tracker"
+        },
+        {
+          "name": "LimaVM",
+          "url": "https://lima-vm.io/",
+          "description": "Linux VM"
+        },
+        {
+          "name": "CrossOver",
+          "url": "https://www.codeweavers.com/crossover",
+          "description": "Run Windows Apps & Games Without VM / Commercial"
+        },
+        {
+          "name": "PortingKit",
+          "url": "https://www.portingkit.com/",
+          "description": "Run Windows Games / Programs on Mac"
+        },
+        {
+          "name": "PlayOnMac",
+          "url": "https://www.playonmac.com/en/",
+          "description": "Run Windows Games / Programs on Mac"
+        },
+        {
+          "name": "OpenCore",
+          "url": "https://github.com/acidanthera/OpenCorePkg",
+          "description": "Mac Bootloader / Config / Guide"
+        },
+        {
+          "name": "PlayCover",
+          "url": "https://playcover.io/",
+          "description": "Run iOS Apps on Apple Silicon Macs",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "rEFind",
+          "url": "https://www.rodsbooks.com/refind/",
+          "description": "Boot Manager"
+        },
+        {
+          "name": "Kexts",
+          "url": "https://www.tonymacx86.com/resources/categories/kexts.11/",
+          "description": "UEFI Kexts"
+        },
+        {
+          "name": "Adobe Downloader",
+          "url": "https://github.com/X1a0He/Adobe-Downloader/blob/main/readme-en.md",
+          "description": "Adobe Product Downloader"
+        },
+        {
+          "name": "ss64 macOS",
+          "url": "https://ss64.com/mac/",
+          "description": "macOS Bash Commands"
+        },
+        {
+          "name": "Left on Read",
+          "url": "https://leftonread.me/",
+          "description": "iMessage Client"
+        },
+        {
+          "name": "MacBing",
+          "url": "https://goodsnooze.gumroad.com/l/macbing",
+          "description": "AI Chatbots"
+        },
+        {
+          "name": "LlamaChat",
+          "url": "https://www.llamachat.app/",
+          "description": "AI Chatbots"
+        },
+        {
+          "name": "Mollama",
+          "url": "https://apps.apple.com/app/mollama/id6736948278",
+          "description": "AI Chatbots"
+        },
+        {
+          "name": "CodexBar",
+          "url": "https://codexbar.app/",
+          "description": "Menu Bar AI Limit Tracker",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ViennaRSS",
+          "url": "https://www.vienna-rss.com/",
+          "description": "RSS Feed Reader"
+        },
+        {
+          "name": "Tachidesk-Sorayomi",
+          "url": "https://github.com/Suwayomi/Tachidesk-Sorayomi",
+          "description": "Manga Reader / Extensions"
+        },
+        {
+          "name": "Dialect",
+          "url": "https://github.com/dialect-app/dialect",
+          "description": "Translator"
+        },
+        {
+          "name": "Drafts",
+          "url": "https://getdrafts.com/",
+          "description": "Text Editors / Notes"
+        },
+        {
+          "name": "CotEditor",
+          "url": "https://coteditor.com/",
+          "description": "Text Editors / Notes"
+        },
+        {
+          "name": "TextMate",
+          "url": "https://macromates.com/",
+          "description": "Text Editors / Notes"
+        },
+        {
+          "name": "Nebo",
+          "url": "https://apps.apple.com/us/app/nebo-notes-pdf-annotations/id1119601770",
+          "description": "Text Editors / Notes"
+        },
+        {
+          "name": "Strflow",
+          "url": "https://strflow.app/",
+          "description": "Text Editors / Notes"
+        },
+        {
+          "name": "Kyun",
+          "url": "https://github.com/lennart-finke/kyun",
+          "description": "Text Editors / Notes"
+        },
+        {
+          "name": "Notenik",
+          "url": "https://notenik.app/",
+          "description": "Text Editors / Notes"
+        },
+        {
+          "name": "Voodoopad",
+          "url": "https://www.voodoopad.com/",
+          "description": "Text Editors / Notes"
+        },
+        {
+          "name": "Agenda",
+          "url": "https://agenda.com/",
+          "description": "Date-Focused Note Organizer / Forum"
+        },
+        {
+          "name": "Taskpaper",
+          "url": "https://www.taskpaper.com/",
+          "description": "Plain Text To-Do Lists"
+        },
+        {
+          "name": "BibDesk",
+          "url": "https://bibdesk.sourceforge.io/",
+          "description": "Bibliography Manager"
+        },
+        {
+          "name": "Microsoft Office",
+          "url": "https://rentry.co/FMHYB64#macos-office",
+          "description": "Microsoft Office for macOS"
+        },
+        {
+          "name": "Hammerspoon",
+          "url": "https://www.hammerspoon.org/",
+          "description": "Desktop Automation via Lua Scripts"
+        },
+        {
+          "name": "Bunch",
+          "url": "https://bunchapp.co/",
+          "description": "Desktop Automation via Lua Scripts"
+        },
+        {
+          "name": "MacScripter",
+          "url": "https://www.macscripter.net/",
+          "description": "Automation Forum"
+        },
+        {
+          "name": "pongoOS",
+          "url": "https://github.com/checkra1n/pongoOS",
+          "description": "Mac Pre-Boot Executor"
+        },
+        {
+          "name": "Later",
+          "url": "https://getlater.app/",
+          "description": "Restore App Sessions",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "MacVim",
+          "url": "https://macvim.org/",
+          "description": "Code Editors"
+        },
+        {
+          "name": "CodeEdit",
+          "url": "https://www.codeedit.app/",
+          "description": "Code Editors"
+        },
+        {
+          "name": "AuroraEditor",
+          "url": "https://auroraeditor.com/",
+          "description": "Code Editors"
+        },
+        {
+          "name": "OpenCode",
+          "url": "https://opencode.ai/",
+          "description": "Code Editors"
+        },
+        {
+          "name": "SD Buddy",
+          "url": "https://github.com/breadthe/sd-buddy",
+          "description": "Stable Diffusion Apps"
+        },
+        {
+          "name": "CHARL-E",
+          "url": "https://www.charl-e.com/",
+          "description": "Stable Diffusion Apps"
+        },
+        {
+          "name": "Swift Core ML Diffusers",
+          "url": "https://github.com/huggingface/swift-coreml-diffusers",
+          "description": "Stable Diffusion Apps"
+        },
+        {
+          "name": "ColorSlurp",
+          "url": "https://colorslurp.com/",
+          "description": "Color Picker"
+        },
+        {
+          "name": "Material-Colors-native",
+          "url": "https://github.com/BafS/Material-Colors-native",
+          "description": "Color Picker"
+        },
+        {
+          "name": "Use Contrast",
+          "url": "https://usecontrast.com/",
+          "description": "Check Color Contrast Ratios"
+        },
+        {
+          "name": "Sim Daltoinism",
+          "url": "https://michelf.ca/projects/sim-daltonism/",
+          "description": "Color Blindness Simulator"
+        },
+        {
+          "name": "AnimeBox",
+          "url": "https://www.animebox.es/",
+          "description": "Booru Client"
+        },
+        {
+          "name": "Hachidori",
+          "url": "https://malupdaterosx.moe/hachidori/",
+          "description": "Automatically Update MAL / Anilist / Kitsu Lists"
+        },
+        {
+          "name": "Magit!",
+          "url": "https://magit.vc/",
+          "description": "Git Text-Based UI"
+        },
+        {
+          "name": "ProperTree",
+          "url": "https://github.com/corpnewt/ProperTree",
+          "description": "GUI Plist Editor"
+        },
+        {
+          "name": "NHCalc",
+          "url": "https://github.com/KhaosT/nhcalc",
+          "description": "Compute Image NeuralHash"
+        },
+        {
+          "name": "Does It Arm?",
+          "url": "https://doesitarm.com/",
+          "description": "Apple Silicon App Compatibility Chart"
+        },
+        {
+          "name": "SelfControlApp",
+          "url": "https://selfcontrolapp.com/",
+          "description": "Website Blocker"
+        },
+        {
+          "name": "Typist",
+          "url": "https://apps.apple.com/us/app/typist/id415166115?ign-mpt=uo%3D4&mt=12",
+          "description": "Typing Practice"
+        },
+        {
+          "name": "Comet",
+          "url": "https://apps.apple.com/us/app/comet-for-reddit/id1146204813",
+          "description": "Reddit Client"
+        },
+        {
+          "name": "Sink It",
+          "url": "https://apps.apple.com/us/app/sink-it-for-reddit/id6449873635",
+          "description": "Improved Reddit Comment Navigation"
+        },
+        {
+          "name": "Grayscale Mode",
+          "url": "https://github.com/rkbhochalya/grayscale-mode",
+          "description": "Grayscale Control"
+        },
+        {
+          "name": "macOSicons",
+          "url": "https://macosicons.com/",
+          "description": "macOS App Icons"
+        },
+        {
+          "name": "equinux",
+          "url": "https://equinux.github.io/",
+          "description": "OS X Certificate Fix"
+        },
+        {
+          "name": "Lilu",
+          "url": "https://github.com/acidanthera/Lilu",
+          "description": "Kext / Process Patcher"
+        },
+        {
+          "name": "TopNotch",
+          "url": "https://topnotch.app/",
+          "description": "Hide the Notch on MacBooks"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-software-sites",
+      "title": "ソフトウェアサイト",
+      "resources": [
+        {
+          "name": "Awesome macOS",
+          "url": "https://github.com/iCHAIT/awesome-macOS",
+          "description": "FOSS App Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "OpenSourceApple",
+          "url": "https://opensource.apple.com/",
+          "description": "FOSS App Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome Mac",
+          "url": "https://github.com/jaywcjlove/awesome-mac",
+          "description": "FOSS App Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome OS Apps",
+          "url": "https://github.com/serhii-londar/open-source-mac-os-apps",
+          "description": "FOSS App Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Mac Menu Bar",
+          "url": "https://macmenubar.com/",
+          "description": "Menu Bar App Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Homebrew",
+          "url": "https://brew.sh/",
+          "description": "Package Managers / Homebrew GUI",
+          "starred": true
+        },
+        {
+          "name": "Munki",
+          "url": "https://www.munki.org/munki/",
+          "description": "Package Managers / Homebrew GUI"
+        },
+        {
+          "name": "MacApps",
+          "url": "https://macapps.link/en/",
+          "description": "Package Managers / Homebrew GUI"
+        },
+        {
+          "name": "Applite",
+          "url": "https://aerolite.dev/applite",
+          "description": "Package Managers / Homebrew GUI"
+        },
+        {
+          "name": "AppsTorrent",
+          "url": "https://appstorrent.ru/",
+          "description": ""
+        },
+        {
+          "name": "nMac",
+          "url": "https://nmac.to/",
+          "description": ""
+        },
+        {
+          "name": "MacBB",
+          "url": "https://macbb.org/",
+          "description": ""
+        },
+        {
+          "name": "Antibiotic's",
+          "url": "https://t.me/AntibioticsChannel",
+          "description": ""
+        },
+        {
+          "name": "Haxmac",
+          "url": "https://haxmac.cc/",
+          "description": ""
+        },
+        {
+          "name": "Mac Torrents",
+          "url": "https://www.torrentmac.net/",
+          "description": ""
+        },
+        {
+          "name": "MacKed",
+          "url": "https://macked.app/",
+          "description": ""
+        },
+        {
+          "name": "WebCatalog",
+          "url": "https://webcatalog.io/",
+          "description": "Requires Sign-Up"
+        },
+        {
+          "name": "Macintosh Garden",
+          "url": "https://macintoshgarden.org/",
+          "description": "Oldschool Software"
+        },
+        {
+          "name": "MacintoshRepository",
+          "url": "https://www.macintoshrepository.org/",
+          "description": "Oldschool Software"
+        },
+        {
+          "name": "ThriftMac",
+          "url": "https://thriftmac.com/",
+          "description": "Freeware"
+        },
+        {
+          "name": "Sindre Sorhus",
+          "url": "https://sindresorhus.com/apps/free",
+          "description": "Freeware"
+        },
+        {
+          "name": "Latest",
+          "url": "https://github.com/mangerlahn/latest",
+          "description": "Software Updater"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-mac-video",
+      "title": "Mac 動画",
+      "resources": [
+        {
+          "name": "IINA",
+          "url": "https://iina.io/",
+          "description": "Video Player"
+        },
+        {
+          "name": "Hayase",
+          "url": "https://hayase.watch/",
+          "description": "Anime Torrent Streaming App / Extensions"
+        },
+        {
+          "name": "AnymeX",
+          "url": "https://anymex.vercel.app/",
+          "description": "Anime Streaming App / Extension Guide",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Yattee",
+          "url": "https://github.com/yattee/yattee",
+          "description": "YouTube Player"
+        },
+        {
+          "name": "REAL Video Enhancer",
+          "url": "https://github.com/TNTwise/REAL-Video-Enhancer",
+          "description": "Video Upscaling"
+        },
+        {
+          "name": "Cap",
+          "url": "https://cap.so/",
+          "description": "Screen Recorders / Cap GitHub"
+        },
+        {
+          "name": "Kap",
+          "url": "https://getkap.co",
+          "description": "Screen Recorders / Cap GitHub"
+        },
+        {
+          "name": "ScreenTimeLapse",
+          "url": "https://github.com/wkaisertexas/ScreenTimeLapse",
+          "description": "Screen Recorders / Cap GitHub"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-mac-audio",
+      "title": "Mac 音声",
+      "resources": [
+        {
+          "name": "SpotX-Bash",
+          "url": "https://github.com/SpotX-Official/SpotX-Bash",
+          "description": "Spotify Adblockers",
+          "starred": true
+        },
+        {
+          "name": "Mac_Spotify_Adblock",
+          "url": "https://github.com/Devanshu-17/Mac_Spotify_Adblock",
+          "description": "Spotify Adblockers"
+        },
+        {
+          "name": "Spicetify",
+          "url": "https://spicetify.app/",
+          "description": "Spotify Themes & Plugins / Note",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "foobar2000",
+          "url": "https://www.foobar2000.org/mac",
+          "description": "Audio Players"
+        },
+        {
+          "name": "VOX Mac Music Player",
+          "url": "https://vox.rocks/mac-music-player",
+          "description": "Audio Players"
+        },
+        {
+          "name": "Silicio",
+          "url": "https://apps.apple.com/us/app/silicio-mini-player/id933627574",
+          "description": "Audio Mini Player"
+        },
+        {
+          "name": "Alfred Spotify Mini Player",
+          "url": "https://alfred-spotify-mini-player.com/",
+          "description": "Spotify Mini Player"
+        },
+        {
+          "name": "Sonosano",
+          "url": "https://github.com/KRSHH/Sonosano",
+          "description": "Self-Hosted P2P Lossless Music Player"
+        },
+        {
+          "name": "SoundSeer",
+          "url": "https://github.com/jonathangarelick/SoundSeer",
+          "description": "Spotify in Menu Bar"
+        },
+        {
+          "name": "TheBoringNotch",
+          "url": "https://theboring.name/",
+          "description": "Turn Notch into Audio Controller / Calendar",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Nuage",
+          "url": "https://github.com/lbrndnr/nuage-macos",
+          "description": "Soundcloud Client"
+        },
+        {
+          "name": "Garageband",
+          "url": "https://apps.apple.com/us/app/garageband/id682658836?mt=12",
+          "description": "Audio Editor"
+        },
+        {
+          "name": "EQMac",
+          "url": "https://eqmac.app/",
+          "description": "Audio Equalizer"
+        },
+        {
+          "name": "The Levelator",
+          "url": "https://archive.org/details/conversationsnetwork_org-levelator",
+          "description": "Automatic Audio Level Adjustments"
+        },
+        {
+          "name": "Guitarix",
+          "url": "https://guitarix.org/",
+          "description": "Virtual Guitar Amplifier / Plugins"
+        },
+        {
+          "name": "XLD",
+          "url": "https://sourceforge.net/projects/xld/",
+          "description": "Lossless Audio Transcoder"
+        },
+        {
+          "name": "BlackHole",
+          "url": "https://github.com/ExistentialAudio/BlackHole",
+          "description": "Pass Audio to Apps"
+        },
+        {
+          "name": "Cuterdio",
+          "url": "https://cuterdio.com/en",
+          "description": "Radio"
+        },
+        {
+          "name": "Playlisty",
+          "url": "https://apps.apple.com/us/app/playlisty-the-playlist-tool/id1459275972",
+          "description": "Transfer Apple Music Playlists to Spotify"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-mac-image",
+      "title": "Mac 画像",
+      "resources": [
+        {
+          "name": "Gifski",
+          "url": "https://sindresorhus.com/gifski",
+          "description": "Image to GIF Converter",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Darkroom",
+          "url": "https://apps.apple.com/us/app/darkroom-photo-video-editor/id953286746",
+          "description": "Image / Video Editor"
+        },
+        {
+          "name": "SeaShore",
+          "url": "https://sourceforge.net/projects/seashore/",
+          "description": "Image Editor"
+        },
+        {
+          "name": "ImageOptim",
+          "url": "https://imageoptim.com/mac",
+          "description": "Image Optimization"
+        },
+        {
+          "name": "Perspec",
+          "url": "https://github.com/ad-si/Perspec",
+          "description": "Correct Perspective of Images"
+        },
+        {
+          "name": "Draw Things",
+          "url": "https://apps.apple.com/us/app/draw-things-ai-generation/id6444050820",
+          "description": "AI Image Drawing Tool"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-mac-gaming",
+      "title": "Mac ゲーム",
+      "resources": [
+        {
+          "name": "Torrminatorr",
+          "url": "https://forum.torrminatorr.com/",
+          "description": "Mac Games",
+          "starred": true
+        },
+        {
+          "name": "AppleGamingWiki",
+          "url": "https://applegamingwiki.com/",
+          "description": "Mac Game Fixes / Compatibility",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Mac Gaming DB",
+          "url": "https://macgamingdb.app/",
+          "description": "Mac Game Fixes / Compatibility",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Goldberg",
+          "url": "https://github.com/inflation/goldberg_emulator",
+          "description": "Steam Multiplayer Client Emulator",
+          "starred": true
+        },
+        {
+          "name": "SCNLOG",
+          "url": "https://scnlog.me/games/mac/",
+          "description": "Mac Games"
+        },
+        {
+          "name": "RuTracker",
+          "url": "https://rutracker.org/forum/viewforum.php?f=960",
+          "description": "Mac Games / Tools"
+        },
+        {
+          "name": "AppsTorrent",
+          "url": "https://appstorrent.ru/games/",
+          "description": "Mac Games"
+        },
+        {
+          "name": "MacintoshRepository",
+          "url": "https://www.macintoshrepository.org/games/",
+          "description": "Oldschool Mac Games"
+        },
+        {
+          "name": "Mac Source Ports",
+          "url": "https://www.macsourceports.com/",
+          "description": "Run Old Mac Games"
+        },
+        {
+          "name": "Heroic Games Launcher",
+          "url": "https://heroicgameslauncher.com/",
+          "description": "Epic / GOG / Prime Games Launcher",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Mythic",
+          "url": "https://getmythic.app/",
+          "description": "Epic Games Launcher",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "NASOS",
+          "url": "https://archive.org/download/nNASOS1.8/nNASOS1.8.zip",
+          "description": "Gamecube iso.dec to ISO Converter"
+        },
+        {
+          "name": "r/MacGaming",
+          "url": "https://www.reddit.com/r/macgaming/",
+          "description": "Mac Gaming Community",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "cemu.emiyl",
+          "url": "https://cemu.emiyl.com/",
+          "description": "CEMU Compatibility List"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-mac-adblock-privacy",
+      "title": "Mac Adblock / プライバシー",
+      "resources": [
+        {
+          "name": "Awesome OSX Security",
+          "url": "https://github.com/ashishb/osx-and-ios-security-awesome",
+          "description": "Mac Security Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Malwarebytes",
+          "url": "https://www.malwarebytes.com/mac-download",
+          "description": "Antivirus",
+          "starred": true
+        },
+        {
+          "name": "BlockBlock",
+          "url": "https://objective-see.org/products/blockblock.html",
+          "description": "Antivirus"
+        },
+        {
+          "name": "KnockKnock",
+          "url": "https://objective-see.org/products/knockknock.html",
+          "description": "Antivirus"
+        },
+        {
+          "name": "⁠uBO Lite Safari",
+          "url": "https://apps.apple.com/app/ublock-origin-lite/id6745342698",
+          "description": "Safari Adblockers"
+        },
+        {
+          "name": "AdGuard Safari",
+          "url": "https://adguard.com/en/adguard-safari/overview.html",
+          "description": "Safari Adblockers"
+        },
+        {
+          "name": "Guide",
+          "url": "https://avieshek.wordpress.com/2024/07/07/how-to-filter-ads-and-block-popups-on-iphone-and-macos/",
+          "description": "Safari Adblockers"
+        },
+        {
+          "name": "wBlock",
+          "url": "https://apps.apple.com/app/wblock/id6746388723",
+          "description": "Safari Adblockers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/0xCUB3/wBlock",
+          "description": "Safari Adblockers"
+        },
+        {
+          "name": "Stay",
+          "url": "https://apps.apple.com/app/stay-for-safari/id1591620171",
+          "description": "Safari Adblockers"
+        },
+        {
+          "name": "1Blocker",
+          "url": "https://1blocker.com/",
+          "description": "DNS Adblocker"
+        },
+        {
+          "name": "Lockdown Privacy",
+          "url": "https://lockdownprivacy.com/",
+          "description": "Block Trackers / Ads"
+        },
+        {
+          "name": "Gas Mask",
+          "url": "https://github.com/2ndalpha/gasmask",
+          "description": "Block Ads via Host Files"
+        },
+        {
+          "name": "macOS Privacy Guide",
+          "url": "https://github.com/drduh/macOS-Security-and-Privacy-Guide",
+          "description": "Mac Privacy & Security Guides"
+        },
+        {
+          "name": "DNS Party",
+          "url": "https://encrypted-dns.party/",
+          "description": "Encrypted DNS Profiles"
+        },
+        {
+          "name": "LuLu",
+          "url": "https://objective-see.org/products/lulu.html",
+          "description": "Mac Firewall"
+        },
+        {
+          "name": "RansomWhere?",
+          "url": "https://objective-see.org/products/ransomwhere.html",
+          "description": "Ransomware Blocker"
+        },
+        {
+          "name": "OverSight",
+          "url": "https://objective-see.org/products/oversight.html",
+          "description": "Webcam / Mic Monitor"
+        },
+        {
+          "name": "SuspiciousPackage",
+          "url": "https://www.mothersruin.com/software/SuspiciousPackage/get.html",
+          "description": "Analyze PKG Files"
+        },
+        {
+          "name": "Santa",
+          "url": "https://github.com/northpolesec/santa",
+          "description": "Binary Authorization System"
+        },
+        {
+          "name": "DHS",
+          "url": "https://objective-see.org/products/dhs.html",
+          "description": "Dylib Hijack Scanner"
+        },
+        {
+          "name": "GPG Suite",
+          "url": "https://gpgtools.org/",
+          "description": "Encrypt & Sign Data / Communications"
+        },
+        {
+          "name": "What's Your Sign?",
+          "url": "https://objective-see.org/products/whatsyoursign.html",
+          "description": "View File Cryptographic Signatures"
+        },
+        {
+          "name": "Tracker Zapper",
+          "url": "https://rknight.me/apps/tracker-zapper/",
+          "description": "Remove URL Tracking Elements"
+        },
+        {
+          "name": "LinkLiar",
+          "url": "https://halo.github.io/LinkLiar/",
+          "description": "Spoof MAC Address"
+        },
+        {
+          "name": "Kextviewr",
+          "url": "https://objective-see.org/products/kextviewr.html",
+          "description": "View All Kernel Modules"
+        },
+        {
+          "name": "mac_apt",
+          "url": "https://github.com/ydkhatri/mac_apt",
+          "description": "Artifact Parsing Tool"
+        },
+        {
+          "name": "OpenVPN",
+          "url": "https://tunnelblick.net/",
+          "description": "VPN Tunnel"
+        },
+        {
+          "name": "Passepartout",
+          "url": "https://passepartoutvpn.app/",
+          "description": "VPN Tunnel"
+        },
+        {
+          "name": "MailTrackerBlocker",
+          "url": "https://apparition47.github.io/MailTrackerBlocker/",
+          "description": "Privacy-Based Email Client"
+        },
+        {
+          "name": "Status",
+          "url": "https://status.app/",
+          "description": "Encrypted Messaging Client"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-mac-internet",
+      "title": "Mac インターネット",
+      "resources": [
+        {
+          "name": "KeePassXC",
+          "url": "https://keepassxc.org/download/#macos",
+          "description": "Password Managers"
+        },
+        {
+          "name": "Strongbox",
+          "url": "https://strongboxsafe.com/",
+          "description": "Password Managers"
+        },
+        {
+          "name": "What Route",
+          "url": "https://whatroute.net/",
+          "description": "Network Diagnostic Tool"
+        },
+        {
+          "name": "ElectronMail",
+          "url": "https://github.com/vladimiry/ElectronMail",
+          "description": "Email Client"
+        },
+        {
+          "name": "Browserino",
+          "url": "https://github.com/AlexStrNik/Browserino",
+          "description": "Browser Prompter"
+        },
+        {
+          "name": "Orion",
+          "url": "https://kagi.com/orion/",
+          "description": "Browser with Chrome + Firefox Extension Support",
+          "tags": [
+            "Discord"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-system-tools",
+      "title": "System ツール",
+      "resources": [
+        {
+          "name": "AppleDB",
+          "url": "https://appledb.dev/",
+          "description": "Apple Device / Software Info Database",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Mac Menu Bar",
+          "url": "https://macmenubar.com/",
+          "description": "Menu Bar App Directory",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Alfred",
+          "url": "https://www.alfredapp.com/",
+          "description": "Keystroke Launchers / Spotlight Replacements / Alfred Workflows / Themes / Albert GitHub",
+          "starred": true
+        },
+        {
+          "name": "Raycast",
+          "url": "https://www.raycast.com/",
+          "description": "Keystroke Launchers / Spotlight Replacements / Alfred Workflows / Themes / Albert GitHub"
+        },
+        {
+          "name": "Albert",
+          "url": "https://albertlauncher.github.io/",
+          "description": "Keystroke Launchers / Spotlight Replacements / Alfred Workflows / Themes / Albert GitHub"
+        },
+        {
+          "name": "Quicksilver",
+          "url": "https://qsapp.com/",
+          "description": "Keystroke Launchers / Spotlight Replacements / Alfred Workflows / Themes / Albert GitHub"
+        },
+        {
+          "name": "KeyboardCowboy",
+          "url": "https://github.com/zenangst/KeyboardCowboy",
+          "description": "Keystroke Launchers / Spotlight Replacements / Alfred Workflows / Themes / Albert GitHub"
+        },
+        {
+          "name": "SOL",
+          "url": "https://sol.ospfranco.com/",
+          "description": "Keystroke Launchers / Spotlight Replacements / Alfred Workflows / Themes / Albert GitHub"
+        },
+        {
+          "name": "CustomShortcuts",
+          "url": "https://www.houdah.com/customShortcuts/",
+          "description": "Custom Keyboard Shortcuts",
+          "starred": true
+        },
+        {
+          "name": "Karabiner-Elements",
+          "url": "https://karabiner-elements.pqrs.org/",
+          "description": "Custom Keyboard Shortcuts"
+        },
+        {
+          "name": "ShortcutKeeper",
+          "url": "https://shortcutkeeper.com/",
+          "description": "Custom Keyboard Shortcuts"
+        },
+        {
+          "name": "alt-tab-macos",
+          "url": "https://alt-tab-macos.netlify.app/",
+          "description": "Windows-Style Alt-Tab for Mac",
+          "starred": true
+        },
+        {
+          "name": "MuMuPlayer",
+          "url": "https://www.mumuplayer.com/",
+          "description": "Android on macOS"
+        },
+        {
+          "name": "NoxPlayer",
+          "url": "https://www.bignox.com/",
+          "description": "Android on macOS"
+        },
+        {
+          "name": "Genymotion",
+          "url": "https://www.genymotion.com/download/",
+          "description": "Android on macOS"
+        },
+        {
+          "name": "Advanced macOS Commands",
+          "url": "https://saurabhs.org/advanced-macos-commands",
+          "description": "Advanced Command-Line Tools"
+        },
+        {
+          "name": "Conky",
+          "url": "https://conky.cc",
+          "description": "Hardware / System Monitors / Conky Colors"
+        },
+        {
+          "name": "eul",
+          "url": "https://github.com/gao-sun/eul",
+          "description": "Hardware / System Monitors / Conky Colors"
+        },
+        {
+          "name": "Stats",
+          "url": "https://github.com/exelban/stats",
+          "description": "Hardware / System Monitors / Conky Colors"
+        },
+        {
+          "name": "Mission Center",
+          "url": "https://gitlab.com/mission-center-devs/mission-center",
+          "description": "Hardware / System Monitors / Conky Colors"
+        },
+        {
+          "name": "MacFetch",
+          "url": "https://github.com/gantoreno/macfetch",
+          "description": "Hardware / System Monitors / Conky Colors"
+        },
+        {
+          "name": "Hot",
+          "url": "https://github.com/macmade/hot",
+          "description": "CPU Monitor"
+        },
+        {
+          "name": "TaskExplorer",
+          "url": "https://objective-see.org/products/taskexplorer.html",
+          "description": "Task Manager / Viewer"
+        },
+        {
+          "name": "Mole",
+          "url": "https://github.com/tw93/Mole",
+          "description": "System Cleanup / Optimization Multi-Tool"
+        },
+        {
+          "name": "Pearcleaner",
+          "url": "https://itsalin.com/appInfo/?id=pearcleaner",
+          "description": "System Cleanup / Uninstaller",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "BetterDisplay",
+          "url": "https://github.com/waydabber/BetterDisplay",
+          "description": "Display Controller / Custom Resolutions / HDR Control"
+        },
+        {
+          "name": "DisplayPlacer",
+          "url": "https://github.com/jakehilborn/displayplacer",
+          "description": "Dual Monitor Manager"
+        },
+        {
+          "name": "KeyPad",
+          "url": "https://apps.apple.com/in/app/keypad-bluetooth-keyboard/id1491684442",
+          "description": "Connect Mac Keyboard to Mobile Devices"
+        },
+        {
+          "name": "LinearMouse",
+          "url": "https://linearmouse.app/",
+          "description": "Mouse Remapping"
+        },
+        {
+          "name": "MacMouseFix",
+          "url": "https://macmousefix.com/",
+          "description": "Mouse Remapping"
+        },
+        {
+          "name": "Pinch",
+          "url": "https://github.com/danqing/Pinch",
+          "description": "Trackpad Pinch to Zoom Gesture"
+        },
+        {
+          "name": "MiddleClick",
+          "url": "https://github.com/artginzburg/MiddleClick",
+          "description": "Middle / Scroll Click via 3 Finger Tap"
+        },
+        {
+          "name": "Scroll Reverser",
+          "url": "https://pilotmoon.com/scrollreverser/",
+          "description": "Per-Device Scroll Settings"
+        },
+        {
+          "name": "KeyClu",
+          "url": "https://sergii.tatarenkov.name/keyclu/support/",
+          "description": "Shortcut CheatSheet for Current Application"
+        },
+        {
+          "name": "KeyCastr",
+          "url": "https://github.com/keycastr/keycastr",
+          "description": "Keystroke Visualizer"
+        },
+        {
+          "name": "⁠FineTune",
+          "url": "https://github.com/ronitsingh10/FineTune",
+          "description": "Volume Mixer / Per App Volume Control / Routing / EQ / Booster"
+        },
+        {
+          "name": "MonitorControl",
+          "url": "https://monitorcontrol.app/",
+          "description": "External Monitor Brightness / Volume Control"
+        },
+        {
+          "name": "BackgroundMusic",
+          "url": "https://github.com/kyleneideck/BackgroundMusic",
+          "description": "Volume Mixer / Auto-Pause"
+        },
+        {
+          "name": "MacThrottle",
+          "url": "https://github.com/angristan/MacThrottle",
+          "description": "Menu Bar Thermal Throttling Tracker"
+        },
+        {
+          "name": "AlDente",
+          "url": "https://apphousekitchen.com/",
+          "description": "Charging Manager"
+        },
+        {
+          "name": "BatteryBuddy",
+          "url": "https://batterybuddy.app/",
+          "description": "Cute Battery Indicator"
+        },
+        {
+          "name": "AirBattery",
+          "url": "https://github.com/lihaoyun6/AirBattery",
+          "description": "Device Battery Trackers"
+        },
+        {
+          "name": "CoconutBattery",
+          "url": "https://www.coconut-flavour.com/coconutbattery/",
+          "description": "Device Battery Trackers"
+        },
+        {
+          "name": "Macs Fan Control",
+          "url": "https://github.com/crystalidea/macs-fan-control",
+          "description": "Fan Controller"
+        },
+        {
+          "name": "Touché",
+          "url": "https://redsweater.com/touche/",
+          "description": "Touch Bar Simulator"
+        },
+        {
+          "name": "Sentinel",
+          "url": "https://github.com/alienator88/Sentinel",
+          "description": "SwiftUI Gatekeeper Config GUI"
+        },
+        {
+          "name": "USBMap",
+          "url": "https://github.com/corpnewt/USBMap",
+          "description": "Map macOS USB Ports"
+        },
+        {
+          "name": "Actions",
+          "url": "https://sindresorhus.com/actions",
+          "description": "Additional Shortcuts App Actions"
+        },
+        {
+          "name": "pock",
+          "url": "https://pock.app/",
+          "description": "Touch Bar Widget Manager",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Übersicht",
+          "url": "https://tracesof.net/uebersicht/",
+          "description": "System Command Widgets"
+        },
+        {
+          "name": "Itsycal",
+          "url": "https://www.mowglii.com/itsycal/",
+          "description": "Menu Bar Calendar"
+        },
+        {
+          "name": "Clocker",
+          "url": "https://abhishekbanthia.com/clocker/",
+          "description": "Menu Bar Meetings Calendars"
+        },
+        {
+          "name": "MeetingBar",
+          "url": "https://meetingbar.app/",
+          "description": "Menu Bar Meetings Calendars"
+        },
+        {
+          "name": "xbar",
+          "url": "https://xbarapp.com/",
+          "description": "Manage Menu Bar Items",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "MacLaunch",
+          "url": "https://github.com/hazcod/maclaunch",
+          "description": "Manage Startup Items"
+        },
+        {
+          "name": "Ice",
+          "url": "https://icemenubar.app/",
+          "description": "Menu Bar Manager",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "OnlySwitch",
+          "url": "https://github.com/jacklandrin/OnlySwitch",
+          "description": "Menu Bar Toggle Switches"
+        },
+        {
+          "name": "Sloth",
+          "url": "https://github.com/sveinbjornt/Sloth",
+          "description": "Process Manager"
+        },
+        {
+          "name": "Amphetamine",
+          "url": "https://apps.apple.com/app/amphetamine/id937984704",
+          "description": "Prevent Sleep Mode / Highly Configurable"
+        },
+        {
+          "name": "KeepingYouAwake",
+          "url": "https://github.com/newmarcel/KeepingYouAwake",
+          "description": "Prevent Sleep Mode / Lightweight"
+        },
+        {
+          "name": "Yabai",
+          "url": "https://github.com/koekeishiya/yabai",
+          "description": "Window Managers"
+        },
+        {
+          "name": "Amethyst",
+          "url": "https://ianyh.com/amethyst/",
+          "description": "Window Managers"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ianyh/Amethyst",
+          "description": "Window Managers"
+        },
+        {
+          "name": "AeroSpace",
+          "url": "https://github.com/nikitabobko/AeroSpace",
+          "description": "Window Managers"
+        },
+        {
+          "name": "1Piece",
+          "url": "https://app1piece.com/",
+          "description": "Window Managers"
+        },
+        {
+          "name": "Loop",
+          "url": "https://github.com/MrKai77/Loop",
+          "description": "Window Managers"
+        },
+        {
+          "name": "Phoenix",
+          "url": "https://kasper.github.io/phoenix/",
+          "description": "Window Managers"
+        },
+        {
+          "name": "Rectangle",
+          "url": "https://rectangleapp.com/",
+          "description": "Window Managers"
+        },
+        {
+          "name": "Maccy",
+          "url": "https://maccy.app/",
+          "description": "Clipboard Managers"
+        },
+        {
+          "name": "ClipBook",
+          "url": "https://clipbook.app/",
+          "description": "Clipboard Managers"
+        },
+        {
+          "name": "ClipPocket",
+          "url": "https://github.com/dhahd/ClipPocket",
+          "description": "Clipboard Managers"
+        },
+        {
+          "name": "clipboard-history",
+          "url": "https://github.com/SUPERCILEX/clipboard-history",
+          "description": "Clipboard Managers"
+        },
+        {
+          "name": "TRex",
+          "url": "https://trex.ameba.co/",
+          "description": "Clipboard Managers"
+        },
+        {
+          "name": "Pictogram",
+          "url": "https://pictogramapp.com/",
+          "description": "Custom App Icons"
+        },
+        {
+          "name": "IconSet",
+          "url": "https://github.com/tale/iconset",
+          "description": "Custom App Icons"
+        },
+        {
+          "name": "IconChamp",
+          "url": "https://www.macenhance.com/iconchamp.html",
+          "description": "Custom App Icons"
+        },
+        {
+          "name": "Tintd",
+          "url": "https://www.tintd.app/",
+          "description": "Change Folder Colors"
+        },
+        {
+          "name": "Manila",
+          "url": "https://github.com/neilsardesai/Manila",
+          "description": "Change Folder Colors"
+        },
+        {
+          "name": "MacPaper",
+          "url": "https://github.com/naomisphere/macpaper/",
+          "description": "Mac Wallpaper Manager"
+        },
+        {
+          "name": "Dynamic Wallpaper Club",
+          "url": "https://dynamicwallpaper.club/",
+          "description": "Dynamic Wallpaper App"
+        },
+        {
+          "name": "wallpapper",
+          "url": "https://github.com/mczachurski/wallpapper",
+          "description": "Dynamic Wallpaper Creators"
+        },
+        {
+          "name": "Equinox",
+          "url": "https://equinoxmac.com/",
+          "description": "Dynamic Wallpaper Creators"
+        },
+        {
+          "name": "Plash",
+          "url": "https://sindresorhus.com/plash",
+          "description": "Use Website as Wallpaper"
+        },
+        {
+          "name": "100 macOS Screensavers",
+          "url": "https://github.com/bjdehang/100-macos-screensavers",
+          "description": "Minimalist Screensavers"
+        },
+        {
+          "name": "DarkModeBuddy",
+          "url": "https://github.com/insidegui/DarkModeBuddy",
+          "description": "System Dark Mode Apps"
+        },
+        {
+          "name": "ThemeKit",
+          "url": "https://github.com/luckymarmot/ThemeKit",
+          "description": "System Dark Mode Apps"
+        },
+        {
+          "name": "Magic Trace",
+          "url": "https://github.com/janestreet/magic-trace",
+          "description": "Performance Analysis with Intel PT"
+        }
+      ]
+    },
+    {
+      "id": "linux-macos-file-tools",
+      "title": "ファイル ツール",
+      "resources": [
+        {
+          "name": "PeaZip",
+          "url": "https://peazip.github.io/peazip-macos.html",
+          "description": "File Archivers / PeaZip GitHub",
+          "starred": true
+        },
+        {
+          "name": "The Unarchiver",
+          "url": "https://theunarchiver.com/",
+          "description": "File Archivers / PeaZip GitHub"
+        },
+        {
+          "name": "unxip",
+          "url": "https://github.com/saagarjha/unxip",
+          "description": "File Archivers / PeaZip GitHub"
+        },
+        {
+          "name": "Keka",
+          "url": "https://www.keka.io/",
+          "description": "File Archivers / PeaZip GitHub"
+        },
+        {
+          "name": "Readdle",
+          "url": "https://readdle.com/documents",
+          "description": "Multipurpose File Tool",
+          "starred": true
+        },
+        {
+          "name": "OpenMTP",
+          "url": "https://openmtp.ganeshrvel.com/",
+          "description": "Mac / Android File Transfer",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Progress",
+          "url": "https://github.com/Xfennec/progress",
+          "description": "Show Copied Data Progress"
+        },
+        {
+          "name": "Bruji",
+          "url": "https://www.bruji.com/",
+          "description": "Media Cataloging Software Suite"
+        },
+        {
+          "name": "superfile",
+          "url": "https://superfile.netlify.app/",
+          "description": "Terminal File Manager",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "macFUSE",
+          "url": "https://macfuse.github.io/",
+          "description": "Mac File Integration",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "JDownloader",
+          "url": "https://jdownloader.org/jdownloader2",
+          "description": "File Download Manager / Debloat / Dark Theme / Dracula Theme / Warning"
+        },
+        {
+          "name": "Go Speed",
+          "url": "https://gopeed.com/",
+          "description": "File Download Manager / Extension / Plugins",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Progressive Downloader",
+          "url": "https://macpsd.net/",
+          "description": "File Download Manager"
+        },
+        {
+          "name": "eza",
+          "url": "https://eza.rocks/",
+          "description": "Modern ls Replacement"
+        },
+        {
+          "name": "Transnomino",
+          "url": "https://www.transnomino.com/",
+          "description": "Bulk File / Folder Renaming"
+        },
+        {
+          "name": "Riffo",
+          "url": "https://riffo.ai/rename",
+          "description": "Bulk File / Folder Renaming"
+        },
+        {
+          "name": "fzf",
+          "url": "https://github.com/junegunn/fzf",
+          "description": "Fuzzy Finders"
+        },
+        {
+          "name": "skim",
+          "url": "https://github.com/skim-rs/skim",
+          "description": "Fuzzy Finders"
+        },
+        {
+          "name": "FlyingCarpet",
+          "url": "https://github.com/spieglt/FlyingCarpet",
+          "description": "Cross-Platform AirDrop / Guide"
+        },
+        {
+          "name": "ATL ISO Archive",
+          "url": "https://iso.atl.dev/",
+          "description": "Linux / BSD ISO Archive",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome-ttygames",
+          "url": "https://github.com/ligurio/awesome-ttygames",
+          "description": "Unix ASCII Games",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome BSD",
+          "url": "https://github.com/DiscoverBSD/awesome-bsd",
+          "description": "BSD Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Hardware for BSD",
+          "url": "https://bsd-hardware.info/",
+          "description": "BSD Hardware Compatibility Database",
+          "tags": [
+            "index",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "UnitedBSD",
+          "url": "https://www.unitedbsd.com/",
+          "description": "BSD Forum / Community"
+        },
+        {
+          "name": "FreeBSD Wiki",
+          "url": "https://wiki.freebsd.org/",
+          "description": "FreeBSD Wiki / Guides / Docs"
+        },
+        {
+          "name": "Pkgs",
+          "url": "https://pkgs.org/",
+          "description": "Searchable Unix-Like Package Database"
+        },
+        {
+          "name": "Repology",
+          "url": "https://repology.org/",
+          "description": "Searchable Unix-Like Package Database"
+        },
+        {
+          "name": "GameShell",
+          "url": "https://github.com/phyver/GameShell",
+          "description": "Unix Shell Learning Game"
+        },
+        {
+          "name": "Modern Unix",
+          "url": "https://github.com/ibraheemdev/modern-unix",
+          "description": "Unix Shells"
+        },
+        {
+          "name": "wpgtk",
+          "url": "https://deviantfero.github.io/wpgtk",
+          "description": "Fully Customizable Unix Color Schemer"
+        },
+        {
+          "name": "Plan9Port",
+          "url": "https://9fans.github.io/plan9port/",
+          "description": "Unix Port for Plan9 Libraries + Programs",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    }
+  ]
+}

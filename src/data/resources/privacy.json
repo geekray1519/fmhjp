@@ -1,0 +1,2827 @@
+{
+  "id": "privacy",
+  "slug": "privacy",
+  "title": "プライバシー / セキュリティ",
+  "description": "VPN、広告ブロック、プライバシー保護ツール",
+  "icon": "🛡️",
+  "color": "from-emerald-500 to-teal-600",
+  "subcategories": [
+    {
+      "id": "privacy-general",
+      "title": "一般",
+      "resources": [
+        {
+          "name": "uBlock Origin",
+          "url": "https://github.com/gorhill/uBlock",
+          "description": "Adblockers / Redundant Extensions",
+          "starred": true
+        },
+        {
+          "name": "uBO Lite",
+          "url": "https://github.com/uBlockOrigin/uBOL-home",
+          "description": "Adblockers / Redundant Extensions"
+        },
+        {
+          "name": "AdGuard",
+          "url": "https://github.com/AdguardTeam/AdguardBrowserExtension",
+          "description": "Adblockers / Redundant Extensions"
+        },
+        {
+          "name": "SponsorBlock",
+          "url": "https://sponsor.ajay.app/",
+          "description": "Skip Sponsored YouTube Ads / X",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Disblock Origin",
+          "url": "https://codeberg.org/AllPurposeMat/Disblock-Origin",
+          "description": "Hide Discord Nitro / Boost Ads"
+        },
+        {
+          "name": "Discord Adblock",
+          "url": "https://codeberg.org/ridge/Discord-AdBlock",
+          "description": "Hide Discord Nitro / Boost Ads"
+        },
+        {
+          "name": "Popup Blocker (strict)",
+          "url": "https://github.com/schomery/popup-blocker",
+          "description": "Popup Blockers / Userscript"
+        },
+        {
+          "name": "Popupblocker All",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/popupblockerall/",
+          "description": "Popup Blockers / Userscript"
+        },
+        {
+          "name": "PopUpOFF",
+          "url": "https://popupoff.org/",
+          "description": "Popup Blockers / Userscript"
+        },
+        {
+          "name": "BehindTheOverlay",
+          "url": "https://github.com/NicolaeNMV/BehindTheOverlay",
+          "description": "Hide Website Overlays"
+        },
+        {
+          "name": "⁠Spot SponsorBlock",
+          "url": "https://spotsponsorblock.org/",
+          "description": "Skip Sponsored Spotify Podcast Ads"
+        },
+        {
+          "name": "BilibiliSponsorBlock",
+          "url": "https://github.com/hanydd/BilibiliSponsorBlock",
+          "description": "Skip Sponsored Bilibili Ads"
+        }
+      ],
+      "note": "Many sites contain ads, popups or redirects, so 広告ブロッカーの使用を強く推奨します. 複数の一般的な広告ブロッカーを同時に使用すると不具合の原因になるため避けてください. Combining general 広告ブロッカー with tools like SponsorBlock is fine."
+    },
+    {
+      "id": "privacy-adblock-filters",
+      "title": "広告ブロックフィルター",
+      "resources": [
+        {
+          "name": "LegitimateURLShortener",
+          "url": "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt",
+          "description": "Query Parameter Cleaning Rules",
+          "starred": true
+        },
+        {
+          "name": "Hagezi Blocklists",
+          "url": "https://github.com/hagezi/dns-blocklists",
+          "description": "Blocklist Collection"
+        },
+        {
+          "name": "FilterLists",
+          "url": "https://filterlists.com/",
+          "description": "Filter / Host List Directory"
+        },
+        {
+          "name": "FMHY Filterlist",
+          "url": "https://github.com/fmhy/FMHYFilterlist",
+          "description": "Unsafe Sites Filter"
+        },
+        {
+          "name": "⁠Huge AI Blocklist",
+          "url": "https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist",
+          "description": "Removes AI Imagery from Search Engines"
+        }
+      ],
+      "note": "必ず確認してください extra uBO filters in settings before trying third-party filter lists."
+    },
+    {
+      "id": "privacy-dns-adblocking",
+      "title": "DNS広告ブロック",
+      "resources": [
+        {
+          "name": "DNS Providers",
+          "url": "https://adguard-dns.io/kb/general/dns-providers/",
+          "description": "DNS Provider Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Pi-Hole",
+          "url": "https://pi-hole.net/",
+          "description": "Self-Hosted DNS Adblocking / X",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "AdGuard Home",
+          "url": "https://adguard.com/en/adguard-home/overview.html",
+          "description": "Self-Hosted DNS Adblocking / Balena-AdGuard / X",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "Telegram",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Mullvad DNS",
+          "url": "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/",
+          "description": "DNS Adblocking / Filtering / Extension",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "DNS Speed Test",
+          "url": "https://dnsspeedtest.online/",
+          "description": "DNS Speed Tests"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/BrainicHQ/DoHSpeedTest",
+          "description": "DNS Speed Tests"
+        },
+        {
+          "name": "DNS Perf",
+          "url": "https://dnsperf.com/dns-speed-benchmark",
+          "description": "DNS Speed Tests"
+        },
+        {
+          "name": "NameBench",
+          "url": "https://code.google.com/archive/p/namebench/",
+          "description": "DNS Speed Tests"
+        },
+        {
+          "name": "YogaDNS",
+          "url": "https://yogadns.com/",
+          "description": "Custom DNS Client for Windows"
+        },
+        {
+          "name": "NextDNS",
+          "url": "https://nextdns.io",
+          "description": "Customizable DNS Adblocking Service / Video"
+        },
+        {
+          "name": "LibreDNS",
+          "url": "https://libredns.gr/",
+          "description": "DNS Adblocking / GitLab"
+        },
+        {
+          "name": "Tiarap",
+          "url": "https://doh.tiar.app/",
+          "description": "DNS Adblocking",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Rethink DNS",
+          "url": "https://rethinkdns.com/configure",
+          "description": "DNS Adblocking"
+        },
+        {
+          "name": "DNSWarden",
+          "url": "https://dnswarden.com/",
+          "description": "DNS Adblocking",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Blocky",
+          "url": "https://0xerr0r.github.io/blocky/latest/",
+          "description": "DNS Adblocking",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "AdGuard DNS",
+          "url": "https://adguard-dns.io/",
+          "description": "Customizable DNS Adblocking Service / X",
+          "tags": [
+            "Subreddit",
+            "Telegram"
+          ]
+        },
+        {
+          "name": "Control D",
+          "url": "https://controld.com/free-dns",
+          "description": "Customizable DNS Adblocking Service / X",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "NxFilter",
+          "url": "https://nxfilter.org/",
+          "description": "Self-Hosted Customizable DNS Adblocking",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "TBlock",
+          "url": "https://tblock.me/",
+          "description": "DNS Adblocking Client / Source Code"
+        },
+        {
+          "name": "Diversion",
+          "url": "https://diversion.ch/",
+          "description": "Asuswrt-Merlin Router Adblock Manager"
+        },
+        {
+          "name": "Phishing Army",
+          "url": "https://phishing.army/",
+          "description": "DNS Phishing Blocklist / X"
+        },
+        {
+          "name": "Technitium",
+          "url": "https://technitium.com/dns",
+          "description": "Self-Hosted DNS Server",
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
+        }
+      ],
+      "note": "If your goal is to block browser ads, it's best to just stick with uBlock Origin, as additional filters can cause conflicts or anti-adblock."
+    },
+    {
+      "id": "privacy-ios-adblockinghttpswwwredditcomrfreemediaheckyeahwikiandroidwiki25b7iosadblocking",
+      "title": "iOS広告ブロック",
+      "resources": [
+        {
+          "name": "r/Antivirus Index",
+          "url": "https://www.reddit.com/r/antivirus/wiki/index/",
+          "description": "Antivirus Tool Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Malwarebytes",
+          "url": "https://www.malwarebytes.com/",
+          "description": "Antivirus / X",
+          "starred": true
+        },
+        {
+          "name": "ESET",
+          "url": "https://rentry.co/FMHYB64#eset",
+          "description": "Antivirus / X"
+        },
+        {
+          "name": "AdwCleaner",
+          "url": "https://www.malwarebytes.com/adwcleaner/",
+          "description": "Anti-Adware / X",
+          "starred": true
+        },
+        {
+          "name": "Triage",
+          "url": "https://tria.ge/",
+          "description": "Online Sandboxes",
+          "starred": true
+        },
+        {
+          "name": "Cuckoo",
+          "url": "https://cuckoo.cert.ee/",
+          "description": "Online Sandboxes"
+        },
+        {
+          "name": "Security / Antivirus Multireddit",
+          "url": "https://www.reddit.com/user/goretsky/m/security/",
+          "description": "Reddit Communities",
+          "starred": true
+        },
+        {
+          "name": "FMHY SafeGuard",
+          "url": "https://fmhy.github.io/FMHY-SafeGuard/",
+          "description": "Detects if Current Site is Trusted / Untrusted",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/forums/f/22/virus-trojan-spyware-and-malware-removal-help/",
+          "description": "Malware Removal Forums / Note"
+        },
+        {
+          "name": "Malwarebytes Forums",
+          "url": "https://forums.malwarebytes.com/forum/7-windows-malware-removal-help-support/",
+          "description": "Malware Removal Forums / Note"
+        },
+        {
+          "name": "Sysnative",
+          "url": "https://www.sysnative.com/forums/forums/security-arena.66/",
+          "description": "Malware Removal Forums / Note"
+        },
+        {
+          "name": "Sandboxie Plus",
+          "url": "https://sandboxie-plus.com/",
+          "description": "Sandbox Environment / Guide",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Windows Sandbox",
+          "url": "https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview",
+          "description": "Full Virtual Machine Sandbox Environment"
+        },
+        {
+          "name": "Dangerzone",
+          "url": "https://dangerzone.rocks/",
+          "description": "Convert Malicious PDFs to Safe Files",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "No More Ransom",
+          "url": "https://www.nomoreransom.org/en/decryption-tools.html",
+          "description": "Ransomware Decryption Tools"
+        },
+        {
+          "name": "ID Ransomware",
+          "url": "https://id-ransomware.malwarehunterteam.com/",
+          "description": "Ransomware Identification Tool"
+        },
+        {
+          "name": "ConfigureDefender",
+          "url": "https://github.com/AndyFul/ConfigureDefender",
+          "description": "Configure Windows Defender Settings"
+        }
+      ],
+      "note": "It's best to keep Windows Defenders real-time protection on. You can select ‘Allow on device’ for pirated software detections like patches, or exclude by ‘File‘ in ‘Exclusions’ for false positives when needed + More Info."
+    },
+    {
+      "id": "privacy-file-scanners",
+      "title": "ファイルスキャナー",
+      "resources": [
+        {
+          "name": "The Second Opinion",
+          "url": "https://jijirae.github.io/thesecondopinion/index.html",
+          "description": "Portable Malware Scanners / Removal Tools",
+          "tags": [
+            "index",
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://rentry.co/thesecondopinion"
+          ]
+        },
+        {
+          "name": "VirusTotal",
+          "url": "https://www.virustotal.com/",
+          "description": "Online File Scanner",
+          "starred": true
+        },
+        {
+          "name": "Scan Results Guide",
+          "url": "https://claraiscute.neocities.org/Guides/vtguide/",
+          "description": "Online File Scanner"
+        },
+        {
+          "name": "2",
+          "url": "https://claraiscute.pages.dev/Guides/vtguide/",
+          "description": "Online File Scanner"
+        },
+        {
+          "name": "Hybrid Analysis",
+          "url": "https://hybrid-analysis.com/",
+          "description": "Online File Scanner"
+        },
+        {
+          "name": "Microsoft Safety Scanner",
+          "url": "https://learn.microsoft.com/en-us/defender-endpoint/safety-scanner-download",
+          "description": "On-demand AV Scanner"
+        },
+        {
+          "name": "Manalyzer",
+          "url": "https://manalyzer.org/",
+          "description": "PE File Scanner",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "YARA",
+          "url": "https://virustotal.github.io/yara/",
+          "description": "Malware Identification Tool",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Winitor",
+          "url": "https://www.winitor.com/",
+          "description": "EXE Malware Assessment"
+        },
+        {
+          "name": "pyWhat",
+          "url": "https://github.com/bee-san/pyWhat",
+          "description": "Identify Anything",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Grype",
+          "url": "https://github.com/anchore/grype",
+          "description": "Container Images Vulnerability Scanner"
+        },
+        {
+          "name": "Jotti",
+          "url": "https://virusscan.jotti.org/en",
+          "description": "Online File Scanner"
+        },
+        {
+          "name": "Filescan.io",
+          "url": "https://www.filescan.io/",
+          "description": "Online File Scanner / X",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠MetaDefender Cloud",
+          "url": "https://metadefender.com/",
+          "description": "Online File Scanner / X",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Farbar",
+          "url": "https://www.bleepingcomputer.com/download/farbar-recovery-scan-tool/",
+          "description": "Local File Scanner / Guide"
+        }
+      ]
+    },
+    {
+      "id": "privacy-site-legitimacy-check",
+      "title": "サイト正当性チェック",
+      "resources": [
+        {
+          "name": "URL Void",
+          "url": "https://www.urlvoid.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "URLScan",
+          "url": "https://urlscan.io/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Trend Micro",
+          "url": "https://global.sitesafety.trendmicro.com/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "ScamAdviser",
+          "url": "https://www.scamadviser.com/",
+          "description": ""
+        },
+        {
+          "name": "IsLegitSite",
+          "url": "https://www.islegitsite.com/",
+          "description": ""
+        },
+        {
+          "name": "ZScaler",
+          "url": "https://zulu.zscaler.com/",
+          "description": ""
+        },
+        {
+          "name": "Talos",
+          "url": "https://talosintelligence.com/",
+          "description": ""
+        },
+        {
+          "name": "Tails",
+          "url": "https://tails.net/",
+          "description": "Privacy-Focused Operating Systems",
+          "starred": true
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/torproject",
+          "description": "Privacy-Focused Operating Systems"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/torproject",
+          "description": "Privacy-Focused Operating Systems"
+        },
+        {
+          "name": "Whonix",
+          "url": "https://www.whonix.org/",
+          "description": "Privacy-Focused Operating Systems"
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/s/Whonix",
+          "description": "Privacy-Focused Operating Systems"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Whonix",
+          "description": "Privacy-Focused Operating Systems"
+        },
+        {
+          "name": "Qubes",
+          "url": "https://www.qubes-os.org/",
+          "description": "Privacy-Focused Operating Systems"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/QubesOS",
+          "description": "Privacy-Focused Operating Systems"
+        },
+        {
+          "name": "W10Privacy",
+          "url": "https://www.w10privacy.de/english-home/",
+          "description": "Privacy and Data Protection Tools"
+        },
+        {
+          "name": "Telemetry.md",
+          "url": "https://gist.github.com/ave9858/a2153957afb053f7d0e7ffdd6c3dcb89",
+          "description": "Disable Windows 10 / 11 Telemetry"
+        },
+        {
+          "name": "Agent DVR",
+          "url": "https://www.ispyconnect.com/",
+          "description": "Security Camera Systems"
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://www.reddit.com/r/ispyconnect/",
+          "description": "Security Camera Systems"
+        },
+        {
+          "name": "Frigate",
+          "url": "https://frigate.video/",
+          "description": "Security Camera Systems"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/blakeblackshear/frigate",
+          "description": "Security Camera Systems"
+        },
+        {
+          "name": "Smart Sec Cam",
+          "url": "https://github.com/scottbarnesg/smart-sec-cam",
+          "description": "Security Camera Systems"
+        },
+        {
+          "name": "ZoneMinder",
+          "url": "https://zoneminder.com/",
+          "description": "Security Camera Systems"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/tHYyP9k66q",
+          "description": "Security Camera Systems"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ZoneMinder/ZoneMinder/",
+          "description": "Security Camera Systems"
+        },
+        {
+          "name": "⁠go2rtc",
+          "url": "https://github.com/AlexxIT/go2rtc",
+          "description": "Security Camera Bridge + Stream Manager"
+        },
+        {
+          "name": "Team Elite",
+          "url": "https://www.te-home.net/",
+          "description": "Security Software"
+        },
+        {
+          "name": "YourDigitalRights",
+          "url": "https://yourdigitalrights.org/",
+          "description": "Get Organizations to Delete Your Personal Data"
+        },
+        {
+          "name": "Big Ass Data Broker Opt-Out List",
+          "url": "https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List",
+          "description": "List of Data Broker Opt-Out Resources"
+        },
+        {
+          "name": "⁠DataRequests",
+          "url": "https://www.datarequests.org/",
+          "description": "GDPR Request Generator / Tools"
+        },
+        {
+          "name": "Surfer Protocol",
+          "url": "https://github.com/Surfer-Org/Protocol",
+          "description": "Multi-Platform User Data Exporter",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "GnuPG",
+          "url": "https://gnupg.org/",
+          "description": "Data / Communication Encryption Tool / Installer"
+        },
+        {
+          "name": "PrivNote",
+          "url": "https://privnote.com/",
+          "description": "Send Self-Destructing Messages"
+        },
+        {
+          "name": "SafeNote",
+          "url": "https://safenote.co/",
+          "description": "Send Self-Destructing Messages"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/devrolabs",
+          "description": "Send Self-Destructing Messages"
+        },
+        {
+          "name": "Burn.Link",
+          "url": "https://burn.link/",
+          "description": "Send Self-Destructing Messages"
+        },
+        {
+          "name": "ThisLinkWillSelfDestruct",
+          "url": "https://thislinkwillselfdestruct.com/",
+          "description": "Send Self-Destructing Messages"
+        },
+        {
+          "name": "s.cr",
+          "url": "https://s.cr/",
+          "description": "Send Self-Destructing Messages"
+        },
+        {
+          "name": "Burn My Note",
+          "url": "https://www.burnmynote.link/",
+          "description": "Send Self-Destructing Messages"
+        },
+        {
+          "name": "OneTimeSecret",
+          "url": "https://onetimesecret.com/",
+          "description": "Send Self-Destructing Messages"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/onetimesecret/onetimesecret",
+          "description": "Send Self-Destructing Messages"
+        },
+        {
+          "name": "Forensic Focus",
+          "url": "https://www.forensicfocus.com/forums/",
+          "description": "Digital Forensics Discussion Forums"
+        },
+        {
+          "name": "SurveillanceWatch",
+          "url": "https://www.surveillancewatch.io/",
+          "description": "Surveillance Company Connections"
+        },
+        {
+          "name": "ALPR Watch",
+          "url": "https://alprwatch.org/",
+          "description": "AI Automated License Plate Reader Cameras / ALPR Maps"
+        },
+        {
+          "name": "DeFlock",
+          "url": "https://deflock.me/",
+          "description": "AI Automated License Plate Reader Cameras / ALPR Maps"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/aV7v4R3sKT",
+          "description": "AI Automated License Plate Reader Cameras / ALPR Maps"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/FoggedLens/deflock",
+          "description": "AI Automated License Plate Reader Cameras / ALPR Maps"
+        },
+        {
+          "name": "ALPR Watch",
+          "url": "https://alpr.watch/",
+          "description": "Track Local Government Surveillance Tech Meetings"
+        },
+        {
+          "name": "People Over Papers",
+          "url": "https://iceout.org/en/",
+          "description": "ICE Activity Information / Maps"
+        },
+        {
+          "name": "ICE Map",
+          "url": "https://www.icemap.dev/",
+          "description": "ICE Activity Information / Maps"
+        },
+        {
+          "name": "If An Agent Knocks",
+          "url": "https://docs.google.com/document/d/176Yds1p63Q3iaKilw0luChMzlJhODdiPvF2I4g9eIXo/",
+          "description": "Best Practices if Contacted by Agents"
+        }
+      ]
+    },
+    {
+      "id": "privacy-privacy-indexes",
+      "title": "プライバシー Indexes",
+      "resources": [
+        {
+          "name": "Privacy Guides",
+          "url": "https://www.privacyguides.org/",
+          "description": "Educational Guide / Discuss.onion / Matrix",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://privacyguides.github.io/privacyguides.org/",
+            "https://privacyguides-org-production.b-cdn.net/en/"
+          ]
+        },
+        {
+          "name": "Surveillance Self-Defense",
+          "url": "https://ssd.eff.org/",
+          "description": "Educational Guide",
+          "starred": true
+        },
+        {
+          "name": "The New Oil",
+          "url": "https://thenewoil.org/",
+          "description": "Educational Guide",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "No Trace",
+          "url": "https://www.notrace.how/",
+          "description": "Educational Guide /.onion",
+          "starred": true
+        },
+        {
+          "name": "The Hitchhiker’s Guide",
+          "url": "https://anonymousplanet.org/",
+          "description": "Extensive Online Anonymity Guides",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Anon-Planet/thgtoa",
+          "description": "Extensive Online Anonymity Guides"
+        },
+        {
+          "name": "The OPSEC Bible",
+          "url": "https://bible.beginnerprivacy.com/opsec/",
+          "description": "Extensive Online Anonymity Guides"
+        },
+        {
+          "name": ".onion",
+          "url": "http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion/",
+          "description": "Extensive Online Anonymity Guides"
+        },
+        {
+          "name": "SimpleX Chat",
+          "url": "http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/simplex.html",
+          "description": "Extensive Online Anonymity Guides"
+        },
+        {
+          "name": "Consumer Rights Wiki",
+          "url": "https://consumerrights.wiki/",
+          "description": "Documents Practices That Impact Consumer Rights",
+          "starred": true
+        },
+        {
+          "name": "Lissy93's Awesome Privacy",
+          "url": "https://awesome-privacy.xyz/",
+          "description": "Privacy App / Service"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/lissy93/awesome-privacy",
+          "description": "Privacy App / Service"
+        },
+        {
+          "name": "Awesome Security Hardening",
+          "url": "https://github.com/decalage2/awesome-security-hardening",
+          "description": "Privacy App / Service"
+        },
+        {
+          "name": "pluja's Awesome Privacy",
+          "url": "https://pluja.github.io/awesome-privacy/",
+          "description": "Privacy App / Service"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/pluja/awesome-privacy",
+          "description": "Privacy App / Service"
+        },
+        {
+          "name": "Defensive Computing Checklist",
+          "url": "https://defensivecomputingchecklist.com/",
+          "description": "Educational Guide"
+        },
+        {
+          "name": "OPSEC guide",
+          "url": "https://whos-zycher.github.io/opsec-guide/",
+          "description": "Educational Guide"
+        },
+        {
+          "name": "PrivSec",
+          "url": "https://privsec.dev/",
+          "description": "Educational Guide",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Digital Defense",
+          "url": "https://digital-defense.io/",
+          "description": "Personal Checklist for Privacy & Security",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "AvoidTheHack",
+          "url": "https://avoidthehack.com/",
+          "description": "Educational Blog",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Hostux",
+          "url": "https://hostux.network/",
+          "description": "Privacy Tools / Source Code"
+        },
+        {
+          "name": "Privacy Settings",
+          "url": "https://github.com/StellarSand/privacy-settings",
+          "description": "Privacy Setting Guides"
+        },
+        {
+          "name": "Privacy Not Included",
+          "url": "https://www.mozillafoundation.org/en/privacynotincluded/",
+          "description": "Product Privacy Ratings"
+        },
+        {
+          "name": "EncryptedList",
+          "url": "https://encryptedlist.xyz/",
+          "description": "List of Encrypted Services / Apps"
+        },
+        {
+          "name": "Awesome Vehicle Security",
+          "url": "https://github.com/jaredthecoder/awesome-vehicle-security",
+          "description": "Vehicle Security Resources"
+        }
+      ]
+    },
+    {
+      "id": "privacy-network-security",
+      "title": "Network セキュリティ",
+      "resources": [
+        {
+          "name": "I2P",
+          "url": "https://geti2p.net/en/",
+          "description": "Encrypted Private Network Layer / GitLab"
+        },
+        {
+          "name": "Simplewall",
+          "url": "https://github.com/henrypp/simplewall",
+          "description": "Firewall"
+        },
+        {
+          "name": "Fort",
+          "url": "https://github.com/tnodir/fort",
+          "description": "Firewall"
+        },
+        {
+          "name": "WFC",
+          "url": "https://www.binisoft.org/wfc.php",
+          "description": "Firewall"
+        }
+      ]
+    },
+    {
+      "id": "privacy-ios-privacyhttpswwwredditcomrfreemediaheckyeahwikiandroidwiki25b7iosprivacy",
+      "title": "iOS プライバシー",
+      "resources": [
+        {
+          "name": "Google Alt List",
+          "url": "https://www.techspot.com/article/2752-all-google-alternatives/",
+          "description": "Google App Alternatives",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "r/degoogle",
+          "url": "https://www.reddit.com/r/degoogle",
+          "description": "Google App Alternatives",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "No More Google",
+          "url": "https://nomoregoogle.com/",
+          "description": "Google App Alternatives",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "PrivacySpy",
+          "url": "https://privacyspy.org/",
+          "description": "Sites Privacy Policies",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/politiwatch/privacyspy",
+          "description": "Sites Privacy Policies"
+        },
+        {
+          "name": "ToS;DR",
+          "url": "https://tosdr.org/",
+          "description": "Sites Privacy Policies"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/tosdr",
+          "description": "Sites Privacy Policies"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/tosdr",
+          "description": "Sites Privacy Policies"
+        },
+        {
+          "name": "JustDeleteMe",
+          "url": "https://justdeleteme.xyz/",
+          "description": "Find / Terminate Old Accounts",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Phish Report",
+          "url": "https://phish.report/",
+          "description": "Report Phishing Sites"
+        },
+        {
+          "name": "OpenPhish",
+          "url": "https://openphish.com/",
+          "description": "Report Phishing Sites"
+        },
+        {
+          "name": "Netcraft Report",
+          "url": "https://report.netcraft.com/report",
+          "description": "Report Phishing Sites"
+        },
+        {
+          "name": "isitPhishing",
+          "url": "https://isitphishing.org/",
+          "description": "Report Phishing Sites"
+        },
+        {
+          "name": "PhishStats",
+          "url": "https://phishstats.info/",
+          "description": "Report Phishing Sites"
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/joinchat/AAAAAElZRwd0aBrYTaHHcQ",
+          "description": "Report Phishing Sites"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/eschultze/phishstats-api-network",
+          "description": "Report Phishing Sites"
+        },
+        {
+          "name": "PhishTank",
+          "url": "https://phishtank.org/",
+          "description": "Report Phishing Sites"
+        },
+        {
+          "name": "DNS Jumper",
+          "url": "https://www.sordum.org/7952/dns-jumper-v2-3/",
+          "description": "DNS Switcher"
+        },
+        {
+          "name": "⁠OnionHop",
+          "url": "https://www.onionhop.de/",
+          "description": "Tor Network Client / Onion Routing",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "PeerTube",
+          "url": "https://joinpeertube.org/",
+          "description": "Decentralized Video Hosting / Tools",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "tweetXer",
+          "url": "https://github.com/lucahammer/tweetXer",
+          "description": "Delete X.com Posts"
+        },
+        {
+          "name": "delete-likes-from-x-com.md",
+          "url": "https://gist.github.com/aymericbeaumet/d1d6799a1b765c3c8bc0b675b1a1547d",
+          "description": "Delete X.com Likes / Favorites"
+        },
+        {
+          "name": "Power Delete Suite",
+          "url": "https://github.com/j0be/PowerDeleteSuite",
+          "description": "Reddit Auto Post Delete"
+        },
+        {
+          "name": "Hyphanet",
+          "url": "https://www.hyphanet.org/",
+          "description": "Browse / Publish Freenet Sites",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-browser-privacy",
+      "title": "ブラウザ プライバシー",
+      "resources": [
+        {
+          "name": "Browser Privacy Guides",
+          "url": "https://www.privacyguides.org/en/desktop-browsers",
+          "description": "Browser Privacy / Setup Guides",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Tor Browser",
+          "url": "https://www.torproject.org/",
+          "description": "Onion-Routed Browser / TG Downloads / Bridges /.onion / GitLab",
+          "starred": true,
+          "mirrors": [
+            "https://tor.eff.org/"
+          ]
+        },
+        {
+          "name": "Mullvad Browser",
+          "url": "https://mullvad.net/en/browser",
+          "description": "Tor Browser Fork (without Tor network)",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "arkenfox",
+          "url": "https://github.com/arkenfox/user.js",
+          "description": "Firefox Privacy Tweak / Video / GUI / Warning",
+          "starred": true
+        },
+        {
+          "name": "⁠Phoenix",
+          "url": "https://codeberg.org/celenity/Phoenix",
+          "description": "Firefox Privacy Tweak / Warning",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "LibreWolf",
+          "url": "https://librewolf.net/",
+          "description": "Custom Privacy-Focused Firefox / Auto-Updater / Source Code",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "Brave Browser",
+          "url": "https://brave.com/",
+          "description": "Privacy Chromium Browser",
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Encrypted SNI",
+          "url": "https://www.cloudflare.com/ssl/encrypted-sni/",
+          "description": "Cloudflare Browser Check"
+        }
+      ]
+    },
+    {
+      "id": "privacy-password-privacy-2fa",
+      "title": "Password プライバシー / 2FA",
+      "resources": [
+        {
+          "name": "2FA Directory",
+          "url": "https://2fa.directory/",
+          "description": "List of Sites with 2FA Support",
+          "tags": [
+            "index",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Ente Auth",
+          "url": "https://ente.io/auth/",
+          "description": "2FA / All Platforms",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Aegis",
+          "url": "https://getaegis.app/",
+          "description": "2FA / Android / X",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Stratum",
+          "url": "https://stratumauth.com",
+          "description": "2FA / Android",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Password Strength Chart",
+          "url": "https://i.ibb.co/B2Vz3hSj/89x5g3t4xrxe1.png",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "2FAS",
+          "url": "https://2fas.com/",
+          "description": "2FA / Android, iOS",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠Proton Authenticator",
+          "url": "https://proton.me/authenticator",
+          "description": "2FA / All Platforms",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Mauth",
+          "url": "https://github.com/X1nto/Mauth",
+          "description": "2FA / Android"
+        },
+        {
+          "name": "FreeOTPPlus",
+          "url": "https://github.com/helloworld1/FreeOTPPlus",
+          "description": "2FA / Android"
+        },
+        {
+          "name": "KeePassXC",
+          "url": "https://keepassxc.org/",
+          "description": "2FA / Windows, Mac, Linux / Guide",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "AuthMe",
+          "url": "https://authme.levminer.com/",
+          "description": "2FA / Windows, Mac, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Yubioath",
+          "url": "https://developers.yubico.com/yubioath-flutter/",
+          "description": "2FA / YubiKey Support / Windows, Android",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "OTPClient",
+          "url": "https://github.com/paolostivanin/OTPClient",
+          "description": "2FA / Linux"
+        },
+        {
+          "name": "Sentinel",
+          "url": "https://getsentinel.io/",
+          "description": "2FA / Mac, Android, iOS"
+        },
+        {
+          "name": "OTP Auth",
+          "url": "https://apps.apple.com/app/otp-auth/id659877384",
+          "description": "2FA / iOS"
+        },
+        {
+          "name": "Tofu",
+          "url": "https://www.tofuauth.com/",
+          "description": "2FA / iOS",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Authenticator",
+          "url": "https://authenticator.cc/",
+          "description": "2FA Browser Extension",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "2FAuth",
+          "url": "https://docs.2fauth.app/",
+          "description": "Self-Hosted / Web",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "VaultWarden",
+          "url": "https://github.com/dani-garcia/vaultwarden",
+          "description": "Unofficial Bitwarden Server Backend / Self-Hosted"
+        },
+        {
+          "name": "OTP Helper",
+          "url": "https://github.com/jd1378/otphelper",
+          "description": "Extract OTP Tokens"
+        },
+        {
+          "name": "steamguard-cli",
+          "url": "https://github.com/dyc3/steamguard-cli",
+          "description": "Generate Steam 2FA Codes"
+        }
+      ]
+    },
+    {
+      "id": "privacy-encrypted-messengers",
+      "title": "暗号化メッセンジャー",
+      "resources": [
+        {
+          "name": "Eylenburg Comparisons",
+          "url": "https://eylenburg.github.io/im_comparison.htm",
+          "description": "Chat App Indexes / Comparisons",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "SecuChart",
+          "url": "https://bkil.gitlab.io/secuchart/",
+          "description": "Chat App Indexes / Comparisons",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Messenger-Matrix",
+          "url": "https://www.messenger-matrix.de/messenger-matrix-en.html",
+          "description": "Chat App Indexes / Comparisons",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Secure Messaging Apps",
+          "url": "https://www.securemessagingapps.com/",
+          "description": "Chat App Indexes / Comparisons",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "SimpleX",
+          "url": "https://simplex.chat/",
+          "description": "All Platforms",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Signal",
+          "url": "https://signal.org/",
+          "description": "All Platforms / Requires Phone / or Molly / Some NSFW / Stickers",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Briar",
+          "url": "https://briarproject.org/",
+          "description": "",
+          "starred": true
+        },
+        {
+          "name": "Desktop",
+          "url": "https://briarproject.org/download-briar-desktop/",
+          "description": ""
+        },
+        {
+          "name": "GitLab",
+          "url": "https://code.briarproject.org/briar/briar",
+          "description": ""
+        },
+        {
+          "name": "Matrix",
+          "url": "https://matrix.org/",
+          "description": ""
+        },
+        {
+          "name": "Mod Bot",
+          "url": "https://github.com/matrix-org/mjolnir",
+          "description": ""
+        },
+        {
+          "name": "Clients / Resources",
+          "url": "https://matrix.org/ecosystem/",
+          "description": ""
+        },
+        {
+          "name": "Servers",
+          "url": "https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html",
+          "description": ""
+        },
+        {
+          "name": "2",
+          "url": "https://tatsumoto.neocities.org/blog/list-of-matrix-servers.html",
+          "description": ""
+        },
+        {
+          "name": "3",
+          "url": "https://gitlab.com/famedly/conduit",
+          "description": ""
+        },
+        {
+          "name": "4",
+          "url": "https://joinmatrix.org/servers/",
+          "description": ""
+        },
+        {
+          "name": "5",
+          "url": "https://archive.md/4xZE4",
+          "description": ""
+        },
+        {
+          "name": "6",
+          "url": "https://wiki.asra.gr/en:public_servers",
+          "description": ""
+        },
+        {
+          "name": "Wire",
+          "url": "https://wire.com/en/download/",
+          "description": "All Platforms / Requires Phone",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Session",
+          "url": "https://getsession.org/",
+          "description": "All Platforms",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Keybase",
+          "url": "https://keybase.io/",
+          "description": "All Platforms",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Jami",
+          "url": "https://jami.net/",
+          "description": "All Platforms / GitLab"
+        },
+        {
+          "name": "Tox",
+          "url": "https://tox.chat/",
+          "description": "All Platforms"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/TokTok/c-toxcore",
+          "description": "All Platforms"
+        },
+        {
+          "name": "qTox",
+          "url": "https://qtox.github.io/",
+          "description": "All Platforms"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/TokTok/qTox",
+          "description": "All Platforms"
+        },
+        {
+          "name": "Cabal",
+          "url": "https://cabal.chat/",
+          "description": "P2P / Serverless All Platforms",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Linphone",
+          "url": "https://www.linphone.org/",
+          "description": "All Platforms / GitLab"
+        },
+        {
+          "name": "Berty",
+          "url": "https://berty.tech/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/berty/berty",
+          "description": ""
+        },
+        {
+          "name": "Ricochet Refresh",
+          "url": "https://www.ricochetrefresh.net/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/blueprint-freespeech/ricochet-refresh",
+          "description": ""
+        },
+        {
+          "name": "Cwtch",
+          "url": "https://docs.cwtch.im",
+          "description": ""
+        },
+        {
+          "name": "GitLab",
+          "url": "https://git.openprivacy.ca/cwtch.im/cwtch",
+          "description": ""
+        },
+        {
+          "name": "Delta Chat",
+          "url": "https://delta.chat/",
+          "description": "Decentralized Email-Based Messenger / Windows, Mac, Linux, Android"
+        },
+        {
+          "name": "Status",
+          "url": "https://status.app/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/status-im",
+          "description": ""
+        },
+        {
+          "name": "Damus",
+          "url": "https://damus.io/",
+          "description": ""
+        },
+        {
+          "name": "MySudo",
+          "url": "https://anonyome.com/individuals/mysudo/",
+          "description": ""
+        },
+        {
+          "name": "Databag",
+          "url": "https://github.com/balzack/databag",
+          "description": "Self-Hosted / Android, iOS, Web",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ssh-chat",
+          "url": "https://github.com/shazow/ssh-chat",
+          "description": "SSH Chat"
+        },
+        {
+          "name": "Devzat",
+          "url": "https://github.com/quackduck/devzat",
+          "description": "SSH Chat"
+        }
+      ]
+    },
+    {
+      "id": "privacy-email-privacy",
+      "title": "メールプライバシー",
+      "resources": [
+        {
+          "name": "Proton Mail",
+          "url": "https://proton.me/mail",
+          "description": "1GB Free / Encrypted Email /.onion / Note",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Disroot",
+          "url": "https://disroot.org/en/services/email",
+          "description": "1GB Free / Encrypted Email"
+        },
+        {
+          "name": "Tuta",
+          "url": "https://tuta.com/",
+          "description": "Encrypted Email",
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "DNMX",
+          "url": "https://dnmx.cc/",
+          "description": "Onion-Based Email"
+        },
+        {
+          "name": "Mailvelope",
+          "url": "https://mailvelope.com/",
+          "description": "Give Emails PGP Encryption",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Email Privacy Tester",
+          "url": "https://www.emailprivacytester.com/",
+          "description": "Email Privacy Test / GitLab"
+        },
+        {
+          "name": "SecLists",
+          "url": "https://seclists.org/",
+          "description": "Security Mailing List Archive"
+        }
+      ]
+    },
+    {
+      "id": "privacy-data-breach-monitoring",
+      "title": "データ漏洩監視",
+      "resources": [
+        {
+          "name": "Have I Been Pwned?",
+          "url": "https://haveibeenpwned.com/",
+          "description": "Monitor Email Breaches",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/HaveIBeenPwned",
+          "description": "Monitor Email Breaches"
+        },
+        {
+          "name": "F-Secure",
+          "url": "https://www.f-secure.com/en/identity-theft-checker",
+          "description": "Monitor Email Breaches"
+        },
+        {
+          "name": "X",
+          "url": "https://x.com/FSecure",
+          "description": "Monitor Email Breaches"
+        },
+        {
+          "name": "Have I Been Pwned Passwords",
+          "url": "https://haveibeenpwned.com/Passwords",
+          "description": "Password Breach Check",
+          "starred": true
+        },
+        {
+          "name": "Mozilla Monitor",
+          "url": "https://monitor.mozilla.org/",
+          "description": "Data Breach Check / Requires Sign-Up",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "BreachDirectory",
+          "url": "https://breachdirectory.org",
+          "description": "Data Breach Search Engines"
+        },
+        {
+          "name": "Snusbase",
+          "url": "https://snusbase.com/",
+          "description": "Data Breach Search Engines"
+        },
+        {
+          "name": "Leak Lookup",
+          "url": "https://leak-lookup.com/",
+          "description": "Data Breach Search Engines"
+        },
+        {
+          "name": "Trufflehog",
+          "url": "https://trufflesecurity.com/",
+          "description": "Data Breach Search Engines"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/8Hzbrnkr7E",
+          "description": "Data Breach Search Engines"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/trufflesecurity/trufflehog",
+          "description": "Data Breach Search Engines"
+        },
+        {
+          "name": "LeakPeek",
+          "url": "https://leakpeek.com/",
+          "description": "Data Breach Search Engines"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/mNxhSRWKwq",
+          "description": "Data Breach Search Engines"
+        },
+        {
+          "name": "Intelligence X",
+          "url": "https://intelx.io/",
+          "description": "Password Breach Check",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "ScatteredSecrets",
+          "url": "https://scatteredsecrets.com/",
+          "description": "Password Breach Check"
+        },
+        {
+          "name": "BreachDetective",
+          "url": "https://breachdetective.com/",
+          "description": "Password Breach Check"
+        }
+      ]
+    },
+    {
+      "id": "privacy-fingerprinting-tracking",
+      "title": "フィンガープリント / トラッキング",
+      "resources": [
+        {
+          "name": "CreepJS",
+          "url": "https://abrahamjuliot.github.io/creepjs",
+          "description": "Tracking / Fingerprinting Tests",
+          "starred": true
+        },
+        {
+          "name": "webkay",
+          "url": "https://webkay.robinlinus.com/",
+          "description": "Tracking / Fingerprinting Tests"
+        },
+        {
+          "name": "browserrecon",
+          "url": "https://www.computec.ch/projekte/browserrecon/?s=scan",
+          "description": "Tracking / Fingerprinting Tests"
+        },
+        {
+          "name": "TZP",
+          "url": "https://arkenfox.github.io/TZP/tzp.html",
+          "description": "Tracking / Fingerprinting Tests"
+        },
+        {
+          "name": "Cover Your Tracks",
+          "url": "https://coveryourtracks.eff.org/",
+          "description": "Tracking / Fingerprinting Tests"
+        },
+        {
+          "name": "PersonalData",
+          "url": "https://personaldata.info/",
+          "description": "Tracking / Fingerprinting Tests"
+        },
+        {
+          "name": "ClearURLs",
+          "url": "https://docs.clearurls.xyz",
+          "description": "Clean URLs / Remove Tracking Elements from URLs / Can Break Sites"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ClearURLs/Addon",
+          "description": "Clean URLs / Remove Tracking Elements from URLs / Can Break Sites"
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.com/KevinRoebert/ClearUrls",
+          "description": "Clean URLs / Remove Tracking Elements from URLs / Can Break Sites"
+        },
+        {
+          "name": "URLCleaner",
+          "url": "https://urlcleaner.net/",
+          "description": "Clean URLs / Remove Tracking Elements from URLs / Can Break Sites"
+        },
+        {
+          "name": "Webbkoll",
+          "url": "https://webbkoll.5july.net/",
+          "description": "Site Tracking Info"
+        },
+        {
+          "name": "Blacklight",
+          "url": "https://themarkup.org/blacklight",
+          "description": "Site Tracking Info"
+        },
+        {
+          "name": "Data Removal Guide",
+          "url": "https://inteltechniques.com/workbook.html",
+          "description": "Remove Online Data"
+        },
+        {
+          "name": "GameIndustry",
+          "url": "https://gameindustry.eu/en/",
+          "description": "Block Trackers in Desktop / Mobile Games"
+        },
+        {
+          "name": "BrowserLeaks",
+          "url": "https://browserleaks.com/",
+          "description": "IP Leak Tests"
+        },
+        {
+          "name": "Do I leak?",
+          "url": "https://www.top10vpn.com/tools/do-i-leak/",
+          "description": "IP Leak Tests"
+        },
+        {
+          "name": "IPLeak.net",
+          "url": "https://ipleak.net",
+          "description": "IP Leak Tests"
+        },
+        {
+          "name": "JShelter",
+          "url": "https://jshelter.org/",
+          "description": "Prevent Fingerprinting / Warning / Source Code"
+        },
+        {
+          "name": "Locale Switcher",
+          "url": "https://chromewebstore.google.com/detail/locale-switcher/kngfjpghaokedippaapkfihdlmmlafcc",
+          "description": "Change Language Identifier",
+          "tags": [
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://addons.mozilla.org/en-US/firefox/addon/languageswitch"
+          ]
+        },
+        {
+          "name": "AnonymousRedirect",
+          "url": "https://adguardteam.github.io/AnonymousRedirect/",
+          "description": "Anonymize Links"
+        },
+        {
+          "name": "X.com Direct",
+          "url": "https://greasyfork.org/en/scripts/404632",
+          "description": "Removes t.co Tracking from X.com"
+        }
+      ]
+    },
+    {
+      "id": "privacy-search-engines",
+      "title": "検索エンジン",
+      "resources": [
+        {
+          "name": "Search Engine Party",
+          "url": "https://searchengine.party/",
+          "description": "Privacy Search Engine Comparisons / GitLab",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Instance Scores",
+          "url": "https://searx.neocities.org/instancescores",
+          "description": "Searx Instance Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Searx Index",
+          "url": "https://www.startpage.com/sp/search?q=%22powered%20by%20Searx%22",
+          "description": "Searx Instance Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "FMHY Searx",
+          "url": "https://searx.fmhy.net/",
+          "description": "SearXNG Instances / Metasearch / Matrix",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "searx.space",
+          "url": "https://searx.space/",
+          "description": "SearXNG Instances / Metasearch / Matrix",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": ".onion",
+          "url": "http://searxspbitokayvkhzhsnljde7rqmn7rvoga6e4waeub3h7ug3nghoad.onion/",
+          "description": "SearXNG Instances / Metasearch / Matrix",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Brave Search",
+          "url": "https://search.brave.com/",
+          "description": "Independent / Supports DDB Bangs",
+          "starred": true
+        },
+        {
+          "name": "DuckDuckGo",
+          "url": "https://start.duckduckgo.com/",
+          "description": "Metasearch / Bing Based / Shortcuts",
+          "starred": true,
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "Fuck Off Google",
+          "url": "https://search.fuckoffgoogle.net/",
+          "description": "Searx Instances / Metasearch"
+        },
+        {
+          "name": "searx.neocities",
+          "url": "https://searx.neocities.org/",
+          "description": "Searx Instances / Metasearch"
+        },
+        {
+          "name": "nixnet",
+          "url": "https://searx.nixnet.services/",
+          "description": "Searx Instances / Metasearch"
+        },
+        {
+          "name": "monocles",
+          "url": "https://monocles.de/",
+          "description": "Searx Instances / Metasearch"
+        },
+        {
+          "name": "LibreY",
+          "url": "https://ly.owo.si/",
+          "description": "Metasearch / Instances",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠Nilch",
+          "url": "https://nilch.org/",
+          "description": "AI Free / Metasearch"
+        },
+        {
+          "name": "4get",
+          "url": "https://4get.ca/",
+          "description": "Metasearch / Source Code"
+        },
+        {
+          "name": "Mojeek",
+          "url": "https://www.mojeek.com/",
+          "description": "Independent",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "YaCy",
+          "url": "https://yacy.net/",
+          "description": "Decentralized / P2P Independent",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Startpage",
+          "url": "https://www.startpage.com/",
+          "description": "Google Based",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "SearXNG",
+          "url": "https://docs.searxng.org/",
+          "description": "Self-Hosted / Metasearch",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Techlore Chart",
+          "url": "https://techlore.tech/vpn",
+          "description": "VPN Comparison Charts",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "VPN Relationships",
+          "url": "https://kumu.io/Windscribe/vpn-relationships",
+          "description": "VPN Relationship Map",
+          "tags": [
+            "index"
+          ],
+          "mirrors": [
+            "https://windscribe.com/vpnmap"
+          ]
+        },
+        {
+          "name": "WARP",
+          "url": "https://one.one.one.one/",
+          "description": "Free / Unlimited / Wireguard (kill switch) / Config Generator / Alt Client",
+          "starred": true
+        },
+        {
+          "name": "Proton VPN",
+          "url": "https://protonvpn.com",
+          "description": "Unlimited / Wireguard / Torrent Guide",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "Telegram",
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Windscribe",
+          "url": "https://windscribe.com",
+          "description": "No Torrenting w / Free Plan / 10GB Monthly",
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "RiseupVPN",
+          "url": "https://riseup.net/en/vpn",
+          "description": "Free / Unlimited",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "AirVPN",
+          "url": "https://airvpn.org/",
+          "description": "Paid /.onion / GitLab",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Mullvad VPN",
+          "url": "https://mullvad.net/",
+          "description": "Paid / No-Logging / Port Warning /.onion",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "IVPN",
+          "url": "https://www.ivpn.net/",
+          "description": "Paid / No Logging / Port Warning",
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Nym",
+          "url": "https://nym.com/",
+          "description": "Paid / 5-Hop Mixnet",
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "PrivadoVPN",
+          "url": "https://privadovpn.com/software",
+          "description": "Free / 10GB Monthly / Unlimited Accounts via Temp Mail"
+        },
+        {
+          "name": "Calyx VPN",
+          "url": "https://calyxos.org/docs/guide/apps/calyx-vpn/",
+          "description": "Free / Unlimited"
+        }
+      ],
+      "note": "Outside of WARP it's generally best to use a paid VPN, especially if you have privacy or speed in mind. Free VPNs are mostly useful for things like unblocking websites. 忘れずに bind your VPN to your client to avoid ISP letters."
+    },
+    {
+      "id": "privacy-vpn-server",
+      "title": "VPNサーバー",
+      "resources": [
+        {
+          "name": "WireGuard",
+          "url": "https://www.wireguard.com/",
+          "description": "VPN Tunnel / Guide / Web UI / Source Code",
+          "starred": true
+        },
+        {
+          "name": "Tailscale",
+          "url": "https://tailscale.com/",
+          "description": "WireGuard Mesh",
+          "starred": true
+        },
+        {
+          "name": "⁠NetBird",
+          "url": "https://netbird.io/",
+          "description": "WireGuard Mesh"
+        },
+        {
+          "name": "Amnezia",
+          "url": "https://amnezia.org/",
+          "description": "VPN Server",
+          "tags": [
+            "Subreddit",
+            "Telegram",
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://storage.googleapis.com/amnezia/amnezia.org"
+          ]
+        },
+        {
+          "name": "OpenVPN",
+          "url": "https://openvpn.net/",
+          "description": "VPN Server"
+        },
+        {
+          "name": "WGDashboard",
+          "url": "https://wgdashboard.dev/",
+          "description": "WireGuard Panel / AmneziaWG",
+          "tags": [
+            "Subreddit",
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠Twingate",
+          "url": "https://www.twingate.com/",
+          "description": "Zero Trust Access Tunnel"
+        },
+        {
+          "name": "⁠Headscale",
+          "url": "https://github.com/juanfont/headscale",
+          "description": "Self Hosted Tailscale"
+        },
+        {
+          "name": "⁠Nebula",
+          "url": "https://github.com/slackhq/nebula",
+          "description": "Mesh VPN Server"
+        },
+        {
+          "name": "ZeroTier",
+          "url": "https://www.zerotier.com/",
+          "description": "Mesh VPN Server"
+        },
+        {
+          "name": "IPsec VPN",
+          "url": "https://github.com/hwdsl2/setup-ipsec-vpn",
+          "description": "VPN Server"
+        },
+        {
+          "name": "Cloudflare Tunnels",
+          "url": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
+          "description": "Application Tunnel / VPN Alternative / WireGuard"
+        },
+        {
+          "name": "Cloud WireGuard Guide",
+          "url": "https://github.com/rajannpatel/Pi-Hole-on-Google-Compute-Engine-Free-Tier-with-Full-Tunnel-and-Split-Tunnel-Wireguard-VPN-Configs",
+          "description": "WireGuard + Pi-hole VPN using Google Cloud"
+        },
+        {
+          "name": "tinc VPN",
+          "url": "https://www.tinc-vpn.org/",
+          "description": "VPN Tunnel / GitLab",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "WireHole",
+          "url": "https://github.com/IAmStoxe/wirehole",
+          "description": "WireGuard + Pi-hole VPN / Web UI"
+        },
+        {
+          "name": "OpenConnect",
+          "url": "https://gitlab.com/openconnect/openconnect",
+          "description": "SSL VPN / GUI"
+        },
+        {
+          "name": "Pritunl",
+          "url": "https://pritunl.com/",
+          "description": "VPN Server",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Algo VPN",
+          "url": "https://blog.trailofbits.com/2016/12/12/meet-algo-the-vpn-that-works/",
+          "description": "Cloud VPN",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "SShuttle",
+          "url": "https://sshuttle.readthedocs.io/en",
+          "description": "SSH VPN Server",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "DSVPN",
+          "url": "https://github.com/jedisct1/dsvpn",
+          "description": "Simple VPN Server"
+        },
+        {
+          "name": "Openconnect",
+          "url": "https://ocserv.gitlab.io/www/index.html",
+          "description": "SSL VPN Server"
+        }
+      ]
+    },
+    {
+      "id": "privacy-vpn-tools",
+      "title": "VPN ツール",
+      "resources": [
+        {
+          "name": "VPN Binding Guide",
+          "url": "https://wispydocs.pages.dev/torrenting/",
+          "description": "Bind VPN to Torrent Client to Avoid ISP Letters",
+          "starred": true
+        },
+        {
+          "name": "⁠WireSock",
+          "url": "https://wiresock.net/",
+          "description": "WireGuard Split Tunneling Clients"
+        },
+        {
+          "name": "⁠Tunnl",
+          "url": "https://tunnl.to/",
+          "description": "WireGuard Split Tunneling Clients"
+        },
+        {
+          "name": "WG Tunnel",
+          "url": "https://wgtunnel.com/",
+          "description": "WireGuard Client / AmneziaWG / Android",
+          "tags": [
+            "Telegram",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "VPN Hotspot",
+          "url": "https://github.com/Mygod/VPNHotspot",
+          "description": "Share VPN Connection over Hotspot / Rooted Android"
+        },
+        {
+          "name": "Gluetun",
+          "url": "https://github.com/qdm12/gluetun",
+          "description": "VPN using Docker"
+        },
+        {
+          "name": "Psiphon",
+          "url": "https://psiphon.ca/",
+          "description": "Hybrid Proxy VPN App"
+        },
+        {
+          "name": "Lantern",
+          "url": "https://lantern.io/",
+          "description": "Proxy App / Slowed Past 250MB",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "FreeSocks",
+          "url": "https://freesocks.org/",
+          "description": "Shadowsocks App",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Snowflake",
+          "url": "https://snowflake.torproject.org/",
+          "description": "Tor Proxy Browser Extension"
+        },
+        {
+          "name": "Censor Tracker",
+          "url": "https://censortracker.org/",
+          "description": "Proxy Extensions"
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/CensorTracker_feedback",
+          "description": "Proxy Extensions"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/censortracker/censortracker",
+          "description": "Proxy Extensions"
+        },
+        {
+          "name": "SmartProxy",
+          "url": "https://github.com/salarcode/SmartProxy",
+          "description": "Proxy Extensions"
+        },
+        {
+          "name": "FoxyProxy",
+          "url": "https://getfoxyproxy.org/",
+          "description": "Proxy Extensions"
+        },
+        {
+          "name": "ZeroOmega",
+          "url": "https://github.com/zero-peak/ZeroOmega",
+          "description": "Proxy Extensions"
+        },
+        {
+          "name": "Acrylic",
+          "url": "https://mayakron.altervista.org/",
+          "description": "Local DNS Proxy"
+        },
+        {
+          "name": "SimpleDnsCrypt",
+          "url": "https://github.com/instantsc/SimpleDnsCrypt",
+          "description": "Local DNS Encryption Proxy"
+        },
+        {
+          "name": "DNSCrypt",
+          "url": "https://dnscrypt.info/",
+          "description": "Local DNS Encryption Proxy"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/DNSCrypt/dnscrypt-proxy",
+          "description": "Local DNS Encryption Proxy"
+        }
+      ]
+    },
+    {
+      "id": "privacy-proxy-servers",
+      "title": "プロキシサーバー",
+      "resources": [
+        {
+          "name": "Censordex",
+          "url": "https://censordex.fr.to/",
+          "description": "Server Setup",
+          "starred": true
+        },
+        {
+          "name": "3X-UI",
+          "url": "https://github.com/MHSanaei/3x-ui",
+          "description": "Proxy Panel / Guide",
+          "starred": true,
+          "tags": [
+            "Telegram"
+          ]
+        },
+        {
+          "name": "Project X",
+          "url": "https://github.com/XTLS/Xray-core",
+          "description": "Xray Proxy Core",
+          "starred": true,
+          "tags": [
+            "Telegram"
+          ]
+        },
+        {
+          "name": "NaïveProxy",
+          "url": "https://github.com/klzgrad/naiveproxy",
+          "description": "Chromium-based Proxy"
+        },
+        {
+          "name": "Hysteria",
+          "url": "https://v2.hysteria.network/",
+          "description": "Speed Focused Proxy Protocol",
+          "tags": [
+            "Telegram",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Shadowsocks",
+          "url": "https://shadowsocks.org/",
+          "description": "Simple Proxy Protocol",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "sing-box",
+          "url": "https://sing-box.sagernet.org/",
+          "description": "Proxy Core",
+          "tags": [
+            "Telegram",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Amnezia",
+          "url": "https://amnezia.org/self-hosted",
+          "description": "Multi Protocol Server",
+          "tags": [
+            "Subreddit",
+            "Telegram",
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://storage.googleapis.com/amnezia/amnezia.org"
+          ]
+        },
+        {
+          "name": "Hiddify Manager",
+          "url": "https://hiddify.com/",
+          "description": "Proxy Panel",
+          "tags": [
+            "Telegram",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Outline",
+          "url": "https://getoutline.org/",
+          "description": "Shadowsocks Server"
+        },
+        {
+          "name": "Subreddit",
+          "url": "https://www.reddit.com/r/outlinevpn/",
+          "description": "Shadowsocks Server"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Jigsaw-Code/",
+          "description": "Shadowsocks Server"
+        },
+        {
+          "name": "VpnHood",
+          "url": "https://github.com/vpnhood/VpnHood",
+          "description": "Proxy Server"
+        },
+        {
+          "name": "Scramjet",
+          "url": "https://docs.titaniumnetwork.org/proxies/scramjet/",
+          "description": "Web Proxy Server"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/MercuryWorkshop/scramjet/",
+          "description": "Web Proxy Server"
+        },
+        {
+          "name": "Nebula",
+          "url": "https://github.com/NebulaServices/Nebula",
+          "description": "Web Proxy Server"
+        },
+        {
+          "name": "Nginx Proxy Manager",
+          "url": "https://nginxproxymanager.com",
+          "description": "Reverse Proxy UI",
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-proxy-clients",
+      "title": "Proxy クライアント",
+      "resources": [
+        {
+          "name": "v2rayN",
+          "url": "https://github.com/2dust/v2rayN",
+          "description": "Proxy Client / Windows, Mac, Linux",
+          "starred": true
+        },
+        {
+          "name": "NekoBox",
+          "url": "https://matsuridayo.github.io/",
+          "description": "Proxy Client / Android",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "v2rayNG",
+          "url": "https://github.com/2dust/v2rayNG",
+          "description": "Proxy Client / Android"
+        },
+        {
+          "name": "MahsaNG",
+          "url": "https://github.com/GFW-knocker/MahsaNG",
+          "description": "Proxy Client / Android"
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/s/mahsa_net",
+          "description": "Proxy Client / Android"
+        },
+        {
+          "name": "Hiddify",
+          "url": "https://hiddify.com/",
+          "description": "Proxy Client / All Platforms",
+          "tags": [
+            "Telegram",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Amnezia",
+          "url": "https://amnezia.org/",
+          "description": "Proxy Client / All Platforms",
+          "tags": [
+            "Subreddit",
+            "Telegram",
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://storage.googleapis.com/amnezia/amnezia.org"
+          ]
+        },
+        {
+          "name": "Shadowsocks",
+          "url": "https://shadowsocks.org/doc/getting-started.html#gui-clients",
+          "description": "Shadowsocks Client / All Platforms",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "sing-box",
+          "url": "https://sing-box.sagernet.org/clients/",
+          "description": "Proxy Client / Mac, Android",
+          "tags": [
+            "Telegram",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Throne",
+          "url": "https://throneproj.github.io/",
+          "description": "Proxy Client / Sing-Box GUI / Windows, Mac, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "V2Box",
+          "url": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box",
+          "description": ""
+        },
+        {
+          "name": "V2Box",
+          "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690",
+          "description": ""
+        },
+        {
+          "name": "ClashVerge",
+          "url": "https://www.clashverge.dev/",
+          "description": "Proxy Client / Windows, Mac, Linux",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Streisand",
+          "url": "https://streisand.pages.dev/",
+          "description": "Proxy Client / Mac, iOS"
+        },
+        {
+          "name": "⁠FlClash",
+          "url": "https://github.com/chen08209/FlClash/blob/main/README.md",
+          "description": ""
+        },
+        {
+          "name": "husi",
+          "url": "https://github.com/xchacha20-poly1305/husi",
+          "description": "Proxy Client / Android"
+        },
+        {
+          "name": "Proxifier",
+          "url": "https://www.proxifier.com/",
+          "description": "Add Proxy Functionality to Apps / Windows, Mac, Android"
+        },
+        {
+          "name": "wireproxy",
+          "url": "https://github.com/whyvl/wireproxy",
+          "description": "WireGuard as Proxy / Windows, Mac, Linux"
+        }
+      ]
+    },
+    {
+      "id": "privacy-anti-censorship",
+      "title": "検閲回避",
+      "resources": [
+        {
+          "name": "⁠Net4people",
+          "url": "https://github.com/net4people/bbs/issues",
+          "description": "Worldwide Censorship Circumvention Discussion",
+          "starred": true
+        },
+        {
+          "name": "ByeDPIAndroid",
+          "url": "https://github.com/dovecoteescapee/ByeDPIAndroid",
+          "description": "Network Packet Alter Tool / Android",
+          "starred": true
+        },
+        {
+          "name": "zapret",
+          "url": "https://github.com/bol-van/zapret",
+          "description": "Network Packet Alter Tool",
+          "starred": true
+        },
+        {
+          "name": "SpoofDPI",
+          "url": "https://github.com/xvzc/SpoofDPI",
+          "description": "Network Packet Alter Tool"
+        },
+        {
+          "name": "GoodbyeDPI",
+          "url": "https://github.com/ValdikSS/GoodbyeDPI/",
+          "description": "Network Packet Alter Tool"
+        },
+        {
+          "name": "DNSveil",
+          "url": "https://msasanmh.github.io/DNSveil/",
+          "description": "DNS Client",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "DNSTT.XYZ",
+          "url": "https://dnstt.xyz/",
+          "description": "Mobile DNS Tunnels / Censorship Bypass"
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/dnstt_xyz",
+          "description": "Mobile DNS Tunnels / Censorship Bypass"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/dnstt-xyz/dnstt_xyz_app",
+          "description": "Mobile DNS Tunnels / Censorship Bypass"
+        },
+        {
+          "name": "⁠HTTP Injector",
+          "url": "https://play.google.com/store/apps/details?id=com.evozi.injector",
+          "description": "Mobile DNS Tunnels / Censorship Bypass"
+        },
+        {
+          "name": "⁠HTTP Custom",
+          "url": "https://play.google.com/store/apps/details?id=xyz.easypro.httpcustom",
+          "description": "Mobile DNS Tunnels / Censorship Bypass"
+        },
+        {
+          "name": "⁠NetMod VPN",
+          "url": "https://play.google.com/store/apps/details?id=com.netmod.syna",
+          "description": "Mobile DNS Tunnels / Censorship Bypass"
+        },
+        {
+          "name": "DarkTunnel",
+          "url": "https://play.google.com/store/apps/details?id=net.darktunnel.app",
+          "description": "Mobile DNS Tunnels / Censorship Bypass"
+        },
+        {
+          "name": "⁠FilterWatch",
+          "url": "https://filter.watch/english/",
+          "description": "Censorship News / Articles"
+        },
+        {
+          "name": "ByeByeDPI",
+          "url": "https://github.com/romanvht/ByeByeDPI/blob/master/README-en.md",
+          "description": "Network Packet Alter / Packet Level Proxies"
+        },
+        {
+          "name": "⁠Paqet",
+          "url": "https://github.com/hanselime/paqet",
+          "description": "Network Packet Alter / Packet Level Proxies"
+        },
+        {
+          "name": "PowerTunnel",
+          "url": "https://github.com/krlvm/PowerTunnel",
+          "description": "Network Packet Alter / Packet Level Proxies"
+        },
+        {
+          "name": "Green Tunnel",
+          "url": "https://github.com/SadeghHayeri/GreenTunnel",
+          "description": "Network Packet Alter / Packet Level Proxies"
+        },
+        {
+          "name": "YouTubeUnblock",
+          "url": "https://github.com/Waujito/youtubeUnblock",
+          "description": "Unblock YouTube with SNI Spoof / OpenWrt / Entware Routers"
+        },
+        {
+          "name": "Scamalytics",
+          "url": "https://scamalytics.com/",
+          "description": "Check IP Blacklists"
+        }
+      ]
+    },
+    {
+      "id": "privacy-proxy-sites",
+      "title": "プロキシサイト",
+      "resources": [
+        {
+          "name": "Holy Unblocker",
+          "url": "https://holyunblocker.org/",
+          "description": ""
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/QuiteAFancyEmerald/Holy-Unblocker",
+          "description": ""
+        },
+        {
+          "name": "Titanium Network",
+          "url": "https://titaniumnetwork.org/services/",
+          "description": "Multi Proxy / Instances",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠US5",
+          "url": "https://us5.thetravelingtourguide.com/",
+          "description": "Multi-Site + App Proxy / Adblocker",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "SSLSecureProxy",
+          "url": "https://www.sslsecureproxy.com/",
+          "description": "",
+          "mirrors": [
+            "https://www.4everproxy.com/",
+            "https://www.hideip.co/"
+          ]
+        },
+        {
+          "name": "ProxyOf2",
+          "url": "https://proxyof2.com/",
+          "description": ""
+        },
+        {
+          "name": "Phantom",
+          "url": "https://phantom.lol/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/goshadow",
+          "description": ""
+        },
+        {
+          "name": "Reflect4",
+          "url": "https://reflect4.me/",
+          "description": ""
+        },
+        {
+          "name": "CroxyProxy",
+          "url": "https://www.croxyproxy.com/",
+          "description": ""
+        },
+        {
+          "name": "Blockaway",
+          "url": "https://www.blockaway.net/",
+          "description": ""
+        },
+        {
+          "name": "Delusionz",
+          "url": "https://delusionz.xyz/",
+          "description": ""
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/invite/Dpj8C8SAmH",
+          "description": ""
+        },
+        {
+          "name": "ProxyPal",
+          "url": "https://proxypal.net/",
+          "description": ""
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/PlainProxies",
+          "description": ""
+        },
+        {
+          "name": "Proxyium",
+          "url": "https://proxyium.com/",
+          "description": ""
+        },
+        {
+          "name": "Google Translate",
+          "url": "https://translate.google.com/",
+          "description": ""
+        },
+        {
+          "name": "Note",
+          "url": "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/google-translate-note.md",
+          "description": ""
+        },
+        {
+          "name": "Proxy Checker",
+          "url": "https://proxy-checker.net/",
+          "description": "Proxy Scrapers / Checkers"
+        },
+        {
+          "name": "proxy-scraper",
+          "url": "https://github.com/iw4p/proxy-scraper",
+          "description": "Proxy Scrapers / Checkers"
+        },
+        {
+          "name": "proxy-scraper-checker",
+          "url": "https://github.com/monosans/proxy-scraper-checker",
+          "description": "Proxy Scrapers / Checkers"
+        },
+        {
+          "name": "CheckSocks5",
+          "url": "https://checksocks5.com/",
+          "description": "SOCKS5 Proxy Checker"
+        },
+        {
+          "name": "Knaben.info",
+          "url": "https://knaben.info/",
+          "description": "Torrent Site Proxies"
+        }
+      ],
+      "note": "ご注意ください many proxy sites log info like IP address, sites visited, etc. They're useful for unblocking sites, but not very useful for privacy."
+    }
+  ]
+}

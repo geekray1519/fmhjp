@@ -1,0 +1,4465 @@
+{
+  "id": "social-media-tools",
+  "slug": "social-media-tools",
+  "title": "SNSツール",
+  "description": "SNS管理、YouTube、Reddit、Twitter関連ツール",
+  "icon": "💬",
+  "color": "from-sky-500 to-blue-600",
+  "subcategories": [
+    {
+      "id": "social-media-tools-general",
+      "title": "一般",
+      "resources": [
+        {
+          "name": "Farside",
+          "url": "https://farside.link/",
+          "description": "Frontend Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "2",
+          "url": "https://cf.farside.link/",
+          "description": "Frontend Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "canine.tools",
+          "url": "https://canine.tools/services/",
+          "description": "Frontend Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "PrivacyRedirect",
+          "url": "https://privacyredirect.com/",
+          "description": "Frontend Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "alternative-frontends",
+          "url": "https://github.com/ParniDEO/alternative-front-ends-unofficial",
+          "description": "Frontend Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "GrayJay",
+          "url": "https://grayjay.app/",
+          "description": "YouTube, Twitch, Rumble, etc. / Avoid Playstore / Guide / Add Platforms / GitLab",
+          "starred": true
+        },
+        {
+          "name": "SocialBlade",
+          "url": "https://socialblade.com/",
+          "description": "Social Media Stats",
+          "starred": true
+        },
+        {
+          "name": "LiveCounts",
+          "url": "https://livecounts.io/",
+          "description": "Live Social Media Stats",
+          "starred": true
+        },
+        {
+          "name": "LibRedirect",
+          "url": "https://libredirect.github.io/",
+          "description": "Frontend Redirect Extensions",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/libredirect/browser_extension",
+          "description": "Frontend Redirect Extensions"
+        },
+        {
+          "name": "Predirect",
+          "url": "https://github.com/libreom/predirect",
+          "description": "Frontend Redirect Extensions"
+        },
+        {
+          "name": "Proxy Redirect",
+          "url": "https://openuserjs.org/scripts/sjehuda/Proxy_Redirect",
+          "description": "Frontend Redirect Extensions"
+        },
+        {
+          "name": "Numblr",
+          "url": "https://github.com/heyLu/numblr",
+          "description": "Self-Hosted Frontend Redirect"
+        },
+        {
+          "name": "Binternet",
+          "url": "https://github.com/Ahwxorg/Binternet",
+          "description": "Pinterest Frontends / Viewers"
+        },
+        {
+          "name": "Pinvibe",
+          "url": "https://www.pinvibe.com/",
+          "description": "Pinterest Frontends / Viewers"
+        },
+        {
+          "name": "Proxitok",
+          "url": "https://github.com/pablouser1/ProxiTok",
+          "description": "TikTok Frontends / Viewers"
+        },
+        {
+          "name": "Urlebird",
+          "url": "https://urlebird.com/",
+          "description": "TikTok Frontends / Viewers"
+        },
+        {
+          "name": "OffTikTok",
+          "url": "https://www.offtiktok.com/",
+          "description": "TikTok Frontends / Viewers"
+        },
+        {
+          "name": "TikTok Tools",
+          "url": "https://omar-thing.site/",
+          "description": "TikTok Search, Story Viewer, Repost Viewer, and URL Tracker",
+          "tags": [
+            "Telegram"
+          ]
+        },
+        {
+          "name": "Social-Searcher",
+          "url": "https://www.social-searcher.com/",
+          "description": "Social Media Search Engines"
+        },
+        {
+          "name": "WeVerify",
+          "url": "https://cse.google.com/cse?cx=006976128084956795641:ad1xj14zfap",
+          "description": "Social Media Search Engines"
+        },
+        {
+          "name": "Social Media Hacker List",
+          "url": "https://github.com/MobileFirstLLC/social-media-hacker-list",
+          "description": "Social Media Apps / Tools"
+        },
+        {
+          "name": "ExportComments",
+          "url": "https://exportcomments.com/",
+          "description": "Export Social Media Comments"
+        },
+        {
+          "name": "socid_extractor",
+          "url": "https://github.com/soxoj/socid-extractor",
+          "description": "Extract Social Media User Info from Pages"
+        },
+        {
+          "name": "BlackTwist",
+          "url": "https://www.blacktwist.app/",
+          "description": "Free Threads Analytics"
+        },
+        {
+          "name": "Schedul",
+          "url": "https://www.schedulthreads.com",
+          "description": "Threads Content Publishing & Scheduling"
+        },
+        {
+          "name": "CleanSnap",
+          "url": "https://www.cleansnap.co/",
+          "description": "Customize Social Media Screenshots"
+        },
+        {
+          "name": "embeddr.top",
+          "url": "https://embeddr.top/",
+          "description": "Discord Video Embedders",
+          "starred": true
+        },
+        {
+          "name": "x266.mov",
+          "url": "https://x266.mov/discord-embed/",
+          "description": "Discord Video Embedders"
+        },
+        {
+          "name": "⁠Discord Embed Fixer",
+          "url": "https://fixembed.site/",
+          "description": "Discord Video Embedders"
+        },
+        {
+          "name": "npf.is",
+          "url": "https://discord.nfp.is/",
+          "description": "Discord Video Embedders"
+        },
+        {
+          "name": "stolen.shoes",
+          "url": "https://stolen.shoes/",
+          "description": "Discord Video Embedders"
+        },
+        {
+          "name": "embeds.video",
+          "url": "https://embeds.video/",
+          "description": "Discord Video Embedders"
+        },
+        {
+          "name": "embedez",
+          "url": "https://embedez.com/",
+          "description": "Social Link Embedders",
+          "starred": true
+        },
+        {
+          "name": "X",
+          "url": "https://x.com/embedez",
+          "description": "Social Link Embedders"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/FmW9c8gtCp",
+          "description": "Social Link Embedders"
+        },
+        {
+          "name": "FxEmbed",
+          "url": "https://github.com/FxEmbed/FxEmbed",
+          "description": "Social Link Embedders"
+        },
+        {
+          "name": "Disblock Origin",
+          "url": "https://codeberg.org/AllPurposeMat/Disblock-Origin",
+          "description": "Hide Nitro / Boost Ads",
+          "starred": true
+        },
+        {
+          "name": "Discord Adblock",
+          "url": "https://codeberg.org/ridge/Discord-AdBlock",
+          "description": "Hide Nitro / Boost Ads"
+        },
+        {
+          "name": "OpenAsar",
+          "url": "https://openasar.dev/",
+          "description": "Better Performance with Improved app.asar / Note",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠Nelly",
+          "url": "https://nelly.tools/",
+          "description": "Discord Web Tools"
+        },
+        {
+          "name": "AnswersOverflow",
+          "url": "https://www.answeroverflow.com/",
+          "description": "Discord Search Engine",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Discord Profile Viewer",
+          "url": "https://addynrpfp.vercel.app/",
+          "description": "View / Download Discord User's Avatar or Banner"
+        },
+        {
+          "name": "Disbox",
+          "url": "https://disboxapp.github.io/web/",
+          "description": "Discord Cloud Storage"
+        },
+        {
+          "name": "Discord Chat Exporter",
+          "url": "https://github.com/Tyrrrz/DiscordChatExporter",
+          "description": "Archive / Export Discord Chats"
+        },
+        {
+          "name": "Python",
+          "url": "https://github.com/mahtoid/DiscordChatExporterPy",
+          "description": "Archive / Export Discord Chats"
+        },
+        {
+          "name": "Discord History Tracker",
+          "url": "https://dht.chylex.com/",
+          "description": "Archive / Export Discord Chats"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/chylex/Discord-History-Tracker",
+          "description": "Archive / Export Discord Chats"
+        },
+        {
+          "name": "Wumpus Central",
+          "url": "https://discord.gg/zZ6szdKQu6",
+          "description": "Discord Experimental Server Hub"
+        },
+        {
+          "name": "SimpleDiscordCrypt",
+          "url": "https://gitlab.com/An0/SimpleDiscordCrypt",
+          "description": "Discord Message Encryption",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Discrub",
+          "url": "https://github.com/prathercc/discrub-ext",
+          "description": "Message Manipulation Tools / Always Delay 3+ Seconds"
+        },
+        {
+          "name": "Undiscord",
+          "url": "https://github.com/victornpb/undiscord/",
+          "description": "Message Manipulation Tools / Always Delay 3+ Seconds"
+        },
+        {
+          "name": "dsc.gg",
+          "url": "https://dsc.gg/",
+          "description": "Create Custom Discord Invites"
+        },
+        {
+          "name": "instaparty",
+          "url": "https://instaparty.gg/",
+          "description": "Temporary Discord Servers"
+        },
+        {
+          "name": "Discord Templates",
+          "url": "https://discordtemplates.me/",
+          "description": "Discord Server Templates"
+        },
+        {
+          "name": "discord-badges",
+          "url": "https://github.com/mezotv/discord-badges",
+          "description": "Discord Badge Info"
+        },
+        {
+          "name": "Discord Previews",
+          "url": "https://discordpreviews.com/",
+          "description": "Get Early Access to Discord Features / X",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Discord-Api",
+          "url": "https://discord.gg/discord-api",
+          "description": "Discord API Chat"
+        },
+        {
+          "name": "Discord-Datamining",
+          "url": "https://github.com/Discord-Datamining/Discord-Datamining",
+          "description": "Discord Datamining via JS Files"
+        },
+        {
+          "name": "Discord TTS Bot",
+          "url": "https://docs.moonstar-x.dev/discord-tts-bot/",
+          "description": "Text to Speech for Discord"
+        },
+        {
+          "name": "Embed Visualizer",
+          "url": "https://embed.discord.website/",
+          "description": "Preview Embeds"
+        },
+        {
+          "name": "EB",
+          "url": "https://eb.nadeko.bot/",
+          "description": "Preview Embeds"
+        },
+        {
+          "name": "BetterTwitFix",
+          "url": "https://github.com/dylanpdx/BetterTwitFix",
+          "description": "Fix X.com / Telegram Embeds"
+        },
+        {
+          "name": "InstagramEmbed",
+          "url": "https://www.vxinstagram.com/",
+          "description": "Fix Instagram Embeds"
+        },
+        {
+          "name": "⁠fxTikTok",
+          "url": "https://github.com/okdargy/fxTikTok",
+          "description": "Fix TikTok Embeds"
+        },
+        {
+          "name": "Discord Packages",
+          "url": "https://github.com/peterhanania/discord-package",
+          "description": "View Discord Packages / Self Host for Privacy",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Hammertime",
+          "url": "https://hammertime.cyou/",
+          "description": "Discord Timestamp Generators"
+        },
+        {
+          "name": "Dank.tools",
+          "url": "https://dank.tools/discord-timestamp",
+          "description": "Discord Timestamp Generators"
+        },
+        {
+          "name": "⁠DiscTimestamps",
+          "url": "https://disctimestamps.com/",
+          "description": "Discord Timestamp Generators"
+        },
+        {
+          "name": "discordtimestampgenerator.net",
+          "url": "https://discordtimestampgenerator.net/",
+          "description": "Discord Timestamp Generators"
+        },
+        {
+          "name": "discord-timestamps",
+          "url": "https://r.3v.fi/discord-timestamps/",
+          "description": "Discord Timestamp Generators"
+        },
+        {
+          "name": "haystackfs",
+          "url": "https://github.com/dhrumilp15/haystackfs",
+          "description": "Discord File Search"
+        },
+        {
+          "name": "TagMap",
+          "url": "https://tagmap.io/",
+          "description": "Meet People with Similar Interests"
+        },
+        {
+          "name": "reddit-moderator-toolbox",
+          "url": "https://github.com/toolbox-team/reddit-moderator-toolbox",
+          "description": "Reddit Moderation Toolbox"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-discord-clients",
+      "title": "Discord クライアント",
+      "resources": [
+        {
+          "name": "Discord3rdParties",
+          "url": "https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties",
+          "description": "Discord Clients Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Vencord",
+          "url": "https://vencord.dev/",
+          "description": "Discord Client Mod",
+          "starred": true
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/D9uwnFnqmd",
+          "description": "Discord Client Mod"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Vendicated/Vencord",
+          "description": "Discord Client Mod"
+        },
+        {
+          "name": "Vesktop",
+          "url": "https://vesktop.dev/",
+          "description": "Discord Client Mod"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Vencord/Vesktop",
+          "description": "Discord Client Mod"
+        },
+        {
+          "name": "WebCord",
+          "url": "https://github.com/SpacingBat3/WebCord",
+          "description": "Privacy-Hardened Client",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Equicord",
+          "url": "https://equicord.org",
+          "description": "Discord Client Mod / Plugins"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/5Xh2W87egW",
+          "description": "Discord Client Mod / Plugins"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Equicord/Equicord",
+          "description": "Discord Client Mod / Plugins"
+        },
+        {
+          "name": "⁠Equibop",
+          "url": "https://equibop.org/",
+          "description": "Discord Client Mod / Plugins"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Equicord/Equibop",
+          "description": "Discord Client Mod / Plugins"
+        },
+        {
+          "name": "Replugged",
+          "url": "https://replugged.dev/",
+          "description": "Discord Client Mod",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Legcord",
+          "url": "https://legcord.app/",
+          "description": "Discord Client / Lightweight / Privacy-Fork",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "BetterDiscord",
+          "url": "https://betterdiscord.app/",
+          "description": "Discord Client Mod / Plugins / Banned Plugins",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "abaddon",
+          "url": "https://github.com/uowuo/abaddon",
+          "description": "Discord Client Mod / Lightweight",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Discordo",
+          "url": "https://github.com/ayn2op/discordo",
+          "description": "Discord Terminal Client"
+        },
+        {
+          "name": "Spacebar",
+          "url": "https://github.com/spacebarchat/spacebarchat",
+          "description": "Self-Hostable Discord Compatible Client"
+        },
+        {
+          "name": "Dorion",
+          "url": "https://spikehd.github.io/projects/dorion/",
+          "description": "Lightweight Discord Client",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Dissent",
+          "url": "https://github.com/diamondburned/dissent",
+          "description": "GTK4 Discord Client"
+        },
+        {
+          "name": "Discord Portable",
+          "url": "https://portapps.io/app/discord-portable/",
+          "description": "Portable Discord Stable"
+        },
+        {
+          "name": "PTB PortApps",
+          "url": "https://portapps.io/app/discord-ptb-portable/",
+          "description": "Portable Discord Stable"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-client-customization",
+      "title": "クライアント Customization",
+      "resources": [
+        {
+          "name": "Client Themes",
+          "url": "https://betterdiscord.app/themes",
+          "description": "Client Theme Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Discord Themes",
+          "url": "https://github.com/topics/discord-theme",
+          "description": "Client Theme Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Discohook",
+          "url": "https://discohook.app/",
+          "description": "Embed Generators",
+          "starred": true
+        },
+        {
+          "name": "Embed Creator",
+          "url": "https://embed.dan.onl/",
+          "description": "Embed Generators"
+        },
+        {
+          "name": "Embed Generator",
+          "url": "https://message.style/",
+          "description": "Embed Generators"
+        },
+        {
+          "name": "CustomRP",
+          "url": "https://www.customrp.xyz/",
+          "description": "Customizable Rich Presence",
+          "starred": true
+        },
+        {
+          "name": "geetRPCS",
+          "url": "https://geetrpcs.vercel.app/",
+          "description": "Customizable Rich Presence"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/makcrtve/geetRPCS",
+          "description": "Customizable Rich Presence"
+        },
+        {
+          "name": "BD Editor",
+          "url": "https://bdeditor.dev/",
+          "description": "Client Theme Editor"
+        },
+        {
+          "name": "Overlayed",
+          "url": "https://overlayed.dev/",
+          "description": "Alternative Discord VC Overlay",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "BeautifulDiscord",
+          "url": "https://github.com/leovoel/BeautifulDiscord",
+          "description": "Custom CSS Support"
+        },
+        {
+          "name": "Coloured-Text-Generator",
+          "url": "https://rebane2001.com/discord-colored-text-generator/",
+          "description": "Discord ANSI Text Generator"
+        },
+        {
+          "name": "Auto Creavite",
+          "url": "https://auto.creavite.co/icons",
+          "description": "Animated Icon / Banner Generator"
+        },
+        {
+          "name": "Discord Avatar Maker",
+          "url": "https://discord-avatar-maker.app/",
+          "description": "Discord Avatar Creator"
+        },
+        {
+          "name": "Better Default Discord",
+          "url": "https://better-default-discord.netlify.app/",
+          "description": "Improved Default Discord Avatars"
+        },
+        {
+          "name": "Pfps.gg",
+          "url": "https://pfps.gg/",
+          "description": "Find Discord Avatars"
+        },
+        {
+          "name": "USRBG",
+          "url": "https://github.com/Discord-Custom-Covers/usrbg",
+          "description": "Custom Discord Profile Backgrounds",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "mgcounts",
+          "url": "https://tags.mgcounts.com/",
+          "description": "Discord Server Tag Lists"
+        },
+        {
+          "name": "Discord.band",
+          "url": "https://discord.band/tags",
+          "description": "Discord Server Tag Lists"
+        },
+        {
+          "name": "Emoji List",
+          "url": "https://discords.com/emoji-list",
+          "description": "Discord Emojis / GIFs"
+        },
+        {
+          "name": "Slackmoji",
+          "url": "https://github.com/seanprashad/slackmoji",
+          "description": "Discord Emojis / GIFs"
+        },
+        {
+          "name": "emoji.gg",
+          "url": "https://emoji.gg/",
+          "description": "Discord Emojis / GIFs"
+        },
+        {
+          "name": "Discord-Emoji-Downloader",
+          "url": "https://thatiemsz.github.io/Discord-Emoji-Downloader/",
+          "description": "Emoji Downloader"
+        },
+        {
+          "name": "ImageClipboard",
+          "url": "https://imageclipboard.com/",
+          "description": "Free Discord Nitro Emojis"
+        },
+        {
+          "name": "Snowsgiving Icons & Emotes",
+          "url": "https://web.archive.org/web/20230729100139/https://cdn.discordapp.com/attachments/689605845058715801/862281806820278292/Snow.zip",
+          "description": "Snowsgiving Event Icons / Emojis"
+        },
+        {
+          "name": "Discord Text to Emoji",
+          "url": "https://jtprince.com/discord/",
+          "description": "Convert Text to Discord Emojis"
+        },
+        {
+          "name": "Stickers.gg",
+          "url": "https://stickers.gg",
+          "description": "Free Discord Stickers"
+        },
+        {
+          "name": "PreMiD",
+          "url": "https://premid.app/",
+          "description": "Display Web Activity in Discord Status",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Music Presence",
+          "url": "https://musicpresence.app/",
+          "description": "Audio Player Rich Presence",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://musicpresence.pocha.moe/"
+          ]
+        },
+        {
+          "name": "Jellyfin RPC",
+          "url": "https://github.com/Radiicall/jellyfin-rpc",
+          "description": "Jellyfin Rich Presence"
+        },
+        {
+          "name": "Adobe Discord RPC",
+          "url": "https://github.com/teeteeteeteetee/adobe-discord-rpc",
+          "description": "Adobe Rich Presence"
+        },
+        {
+          "name": "PS3 Rich",
+          "url": "https://github.com/zorua98741/PS3-Rich-Presence-for-Discord",
+          "description": "PS3 Rich Presence"
+        },
+        {
+          "name": "discord-vscode",
+          "url": "https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode",
+          "description": "VSCode Rich Presence",
+          "tags": [
+            "GitHub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-discord-bots",
+      "title": "Discordボット",
+      "resources": [
+        {
+          "name": "FreeStuff Bot",
+          "url": "https://freestuffbot.xyz/",
+          "description": "Free Games Alert Bot",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "Discord"
+          ]
+        },
+        {
+          "name": "FixEmbed",
+          "url": "https://fixembed.app/",
+          "description": "Fix Embeds on Discord Bot",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "esmBot",
+          "url": "https://github.com/esmBot/esmBot",
+          "description": "Multi-Tool Discord Bot"
+        },
+        {
+          "name": "NotQuiteNitro",
+          "url": "https://nqn.blue/",
+          "description": "Discord Nitro Alternative"
+        },
+        {
+          "name": "fmbot",
+          "url": "https://fmbot.xyz/",
+          "description": "Discord Voice Chat Scrobbling"
+        },
+        {
+          "name": "Chuu",
+          "url": "https://github.com/ishwi/Chuu",
+          "description": "Last.fm Discord Bot"
+        },
+        {
+          "name": "Craig",
+          "url": "https://craig.chat/",
+          "description": "Voice Channel Recorder Bot / Backup"
+        },
+        {
+          "name": "MonitoRSS",
+          "url": "https://monitorss.xyz/",
+          "description": "RSS Discord Bots"
+        },
+        {
+          "name": "ReadyBot",
+          "url": "https://readybot.io/",
+          "description": "RSS Discord Bots"
+        },
+        {
+          "name": "Discord Music Bot",
+          "url": "https://github.com/SudhanPlayz/Discord-MusicBot",
+          "description": "Music Bots"
+        },
+        {
+          "name": "Music-bot",
+          "url": "https://github.com/ZerioDev/Music-bot",
+          "description": "Music Bots"
+        },
+        {
+          "name": "MusicBot",
+          "url": "https://github.com/jagrosh/MusicBot",
+          "description": "Music Bots"
+        },
+        {
+          "name": "Steambase Bot",
+          "url": "https://steambase.io/tools/steam-discord-bot",
+          "description": "Steam Insights Bot"
+        },
+        {
+          "name": "Red Discordbot",
+          "url": "https://github.com/Cog-Creators/Red-DiscordBot",
+          "description": "Self-Hostable Discord Moderation Bots"
+        },
+        {
+          "name": "Discord-Bot",
+          "url": "https://github.com/CorwinDev/Discord-Bot",
+          "description": "Self-Hostable Discord Moderation Bots"
+        },
+        {
+          "name": "Loritta",
+          "url": "https://github.com/LorittaBot/Loritta",
+          "description": "Self-Hostable Discord Moderation Bots"
+        },
+        {
+          "name": "Wickbot",
+          "url": "https://wickbot.com/",
+          "description": "Discord Security Bot"
+        },
+        {
+          "name": "anti-phishing-bot",
+          "url": "https://github.com/Benricheson101/anti-phishing-bot",
+          "description": "Discord Anti-Phishing Bot"
+        },
+        {
+          "name": "Automod Config",
+          "url": "https://docs.google.com/spreadsheets/d/1pUGVAARMBadmNqQW6cPKhSaT-uYDgQlRBnlQ9TMDXTI/edit#gid=730346323",
+          "description": "Automod Bot Config"
+        },
+        {
+          "name": "Modmail",
+          "url": "https://github.com/modmail-dev/modmail",
+          "description": "Discord Modmail Bot"
+        },
+        {
+          "name": "Discord-Linux",
+          "url": "https://discord-linux.com/",
+          "description": "Linux Container Bot"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-server-bot-indexes",
+      "title": "サーバー / ボットインデックス",
+      "resources": [
+        {
+          "name": "Discord Servers",
+          "url": "https://discord.com/servers",
+          "description": "Server Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Alternatives to MEE6",
+          "url": "https://alternativestomee6.com/",
+          "description": "MEE6 Alternatives",
+          "tags": [
+            "index",
+            "Discord"
+          ]
+        },
+        {
+          "name": "UnFocused",
+          "url": "https://www.unfocused.org/",
+          "description": "Server Index",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "DISBOARD",
+          "url": "https://disboard.org/",
+          "description": "Server Index"
+        },
+        {
+          "name": "Discords.com",
+          "url": "https://discords.com/",
+          "description": "Server / Bot Index"
+        },
+        {
+          "name": "Discord Me",
+          "url": "https://discord.me/",
+          "description": "Server / Bot Index"
+        },
+        {
+          "name": "DiscordServers.com",
+          "url": "https://discordservers.com/",
+          "description": "Server / Bot Index"
+        },
+        {
+          "name": "Disforge",
+          "url": "https://disforge.com/servers",
+          "description": "Server / Bot Index"
+        },
+        {
+          "name": "Open Source Projects",
+          "url": "https://discord.com/open-source",
+          "description": "Server / Bot Index"
+        },
+        {
+          "name": "Disdex",
+          "url": "https://disdex.io/",
+          "description": "Server Index"
+        },
+        {
+          "name": "Top.gg",
+          "url": "https://top.gg/",
+          "description": "Bot Index"
+        },
+        {
+          "name": "Bots on Discord",
+          "url": "https://bots.ondiscord.xyz/",
+          "description": "Bot Index"
+        },
+        {
+          "name": "Discord Bots",
+          "url": "https://discord.bots.gg/",
+          "description": "Bot Index"
+        },
+        {
+          "name": "Discord Services",
+          "url": "https://discordservices.net/",
+          "description": "Bot Index"
+        },
+        {
+          "name": "Discord Bot List",
+          "url": "https://discordbotlist.com/",
+          "description": "Bot Index"
+        },
+        {
+          "name": "Botlist.me",
+          "url": "https://botlist.me/",
+          "description": "Bot Index"
+        },
+        {
+          "name": "Void Bots",
+          "url": "https://voidbots.net/",
+          "description": "Bot Index"
+        },
+        {
+          "name": "Reddit Stream",
+          "url": "https://reddit-stream.com/",
+          "description": "Live Thread Viewer",
+          "starred": true
+        },
+        {
+          "name": "Reddit Enhancement Suite",
+          "url": "https://redditenhancementsuite.com/",
+          "description": "Reddit Enhancement Extensions / Scripts",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/honestbleeps/Reddit-Enhancement-Suite",
+          "description": "Reddit Enhancement Extensions / Scripts"
+        },
+        {
+          "name": "Reddit++",
+          "url": "https://greasyfork.org/en/scripts/490046",
+          "description": "Reddit Enhancement Extensions / Scripts"
+        },
+        {
+          "name": "Reddit Fix",
+          "url": "https://greasyfork.org/en/scripts/404497-reddit-fix",
+          "description": "Reddit Enhancement Extensions / Scripts"
+        },
+        {
+          "name": "Reddit Extension",
+          "url": "https://lawrenzo.com/p/reddit-extension",
+          "description": "Reddit Enhancement Extensions / Scripts"
+        },
+        {
+          "name": "RedditEnhancer",
+          "url": "https://github.com/joelacus/RedditEnhancer",
+          "description": "Reddit Enhancement Extensions / Scripts"
+        },
+        {
+          "name": "RedditMod2",
+          "url": "https://greasyfork.org/en/scripts/29724-redditmod2",
+          "description": "Reddit Enhancement Extensions / Scripts"
+        },
+        {
+          "name": "Redlib",
+          "url": "https://github.com/redlib-org/redlib-instances/blob/main/instances.md",
+          "description": "Reddit Frontends / Viewers",
+          "starred": true
+        },
+        {
+          "name": "2",
+          "url": "https://github.com/libreddit/libreddit-instances/blob/master/instances.md",
+          "description": "Reddit Frontends / Viewers"
+        },
+        {
+          "name": "Photon",
+          "url": "https://photon-reddit.com/",
+          "description": "Reddit Frontends / Viewers"
+        },
+        {
+          "name": "RDX",
+          "url": "https://rdx.overdevs.com/",
+          "description": "Reddit Frontends / Viewers"
+        },
+        {
+          "name": "Old Reddit Redirect",
+          "url": "https://github.com/tom-james-watson/old-reddit-redirect",
+          "description": "Redirect New Reddit to Old",
+          "starred": true
+        },
+        {
+          "name": "Teamdoko Old Reddit",
+          "url": "https://teamdoko.com/products/old-reddit-for-safari",
+          "description": "Redirect New Reddit to Old"
+        },
+        {
+          "name": "Newsit",
+          "url": "https://newsit.benwinding.com/",
+          "description": "Webpage Comments Widget",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Redditp",
+          "url": "https://redditp.com/",
+          "description": "Reddit TikTok Style Viewers"
+        },
+        {
+          "name": "Reddit Viewer",
+          "url": "https://reddit-viewer.com/",
+          "description": "Reddit TikTok Style Viewers"
+        },
+        {
+          "name": "Beleave",
+          "url": "https://beleave.virock.org/",
+          "description": "Subreddit Cleaners / Managers"
+        },
+        {
+          "name": "SubCleaner",
+          "url": "https://www.subcleaner.com/",
+          "description": "Subreddit Cleaners / Managers"
+        },
+        {
+          "name": "Bookmarkeddit",
+          "url": "https://bookmarkeddit.com/",
+          "description": "Saved Post Manager / Organizer / Note",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Reddit Comber",
+          "url": "https://redditcomber.com/",
+          "description": "Reddit Keyword Notifications"
+        },
+        {
+          "name": "Sub Notification",
+          "url": "https://redd.it/5mz9z5",
+          "description": "Reddit Keyword Notifications"
+        },
+        {
+          "name": "Reddit Preview",
+          "url": "https://redditpreview.com/",
+          "description": "Preview Reddit Posts"
+        },
+        {
+          "name": "RedditRaffler",
+          "url": "https://www.redditraffler.com/",
+          "description": "Reddit Raffle System"
+        },
+        {
+          "name": "⁠SubHarbor",
+          "url": "https://subharbor.com/",
+          "description": "Subreddit Backup Pages"
+        },
+        {
+          "name": "⁠DownloaderForReddit",
+          "url": "https://github.com/MalloyDelacroix/DownloaderForReddit",
+          "description": "Download / Archive Subreddits"
+        },
+        {
+          "name": "PowerDeleteSuite",
+          "url": "https://github.com/j0be/PowerDeleteSuite",
+          "description": "Reddit Auto Post Delete"
+        },
+        {
+          "name": "SnooSnoop",
+          "url": "https://snoosnoop.com/",
+          "description": "Reddit Account Analyzer"
+        },
+        {
+          "name": "⁠Reddit Migrate",
+          "url": "https://github.com/nileshnk/reddit-migrate",
+          "description": "Reddit Account Migrator"
+        },
+        {
+          "name": "Reddit Emojis",
+          "url": "https://greasyfork.org/en/scripts/443011",
+          "description": "Emojis for Old Reddit"
+        },
+        {
+          "name": "Subreddit Tabs",
+          "url": "https://greasyfork.org/en/scripts/460086",
+          "description": "Subreddit Icon Tabs"
+        },
+        {
+          "name": "⁠Sink It",
+          "url": "https://gosinkit.com/",
+          "description": "Improved Reddit Comment Navigation"
+        },
+        {
+          "name": "Reddit Comment Highlights",
+          "url": "https://github.com/aesy/reddit-comment-highlights",
+          "description": "Highlight New Comments"
+        },
+        {
+          "name": "infini.wtf",
+          "url": "https://infini.wtf/",
+          "description": "Reddit Image Search"
+        },
+        {
+          "name": "Load Reddit Images Directly",
+          "url": "https://github.com/nopperl/load-reddit-images-directly",
+          "description": "Direct Image Viewer"
+        },
+        {
+          "name": "UniversalScammerList",
+          "url": "https://www.universalscammerlist.com/",
+          "description": "List of Reddit Scammers"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-reddit-downloaders",
+      "title": "Reddit ダウンローダー",
+      "resources": [
+        {
+          "name": "gallery-dl",
+          "url": "https://github.com/mikf/gallery-dl",
+          "description": "Reddit Bulk Image Downloaders"
+        },
+        {
+          "name": "saveddit",
+          "url": "https://github.com/p-ranav/saveddit",
+          "description": "Reddit Bulk Media Downloaders"
+        },
+        {
+          "name": "RapidSave",
+          "url": "https://rapidsave.com/",
+          "description": "Reddit Video / GIF Downloader"
+        }
+      ],
+      "note": "You can also download Reddit videos by commenting \"/u/SaveVideo\"."
+    },
+    {
+      "id": "social-media-tools-reddit-alternatives",
+      "title": "Reddit代替",
+      "resources": [
+        {
+          "name": "Raddle",
+          "url": "https://raddle.me/",
+          "description": "Minimalist / Privacy-Focused"
+        },
+        {
+          "name": "r/RedditAlternatives",
+          "url": "https://reddit.com/r/RedditAlternatives",
+          "description": "Find Reddit Alternatives"
+        },
+        {
+          "name": "Tildes",
+          "url": "https://tildes.net/",
+          "description": "Non-Profit / User-Driven Discussion"
+        },
+        {
+          "name": "Ramble",
+          "url": "https://ramble.pw/",
+          "description": "Privacy-Focused"
+        },
+        {
+          "name": "Discuit",
+          "url": "https://discuit.org/",
+          "description": "Centralized Reddit Alt with User Control"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-reddit-search",
+      "title": "Reddit 検索",
+      "resources": [
+        {
+          "name": "Reveddit",
+          "url": "https://www.reveddit.com/",
+          "description": "View Deleted Reddit Posts / Comments"
+        },
+        {
+          "name": "Reddit Uncensored",
+          "url": "https://github.com/Fubs/reddit-uncensored",
+          "description": "View Deleted Reddit Posts / Comments"
+        },
+        {
+          "name": "New PullPush",
+          "url": "https://ihsoyct.github.io/",
+          "description": "Advanced Reddit Search"
+        },
+        {
+          "name": "Reddit Search",
+          "url": "https://samac.io/",
+          "description": "Advanced Reddit Search"
+        },
+        {
+          "name": "PullPush Search",
+          "url": "https://search.pullpush.io/",
+          "description": "Advanced Reddit Search"
+        },
+        {
+          "name": "Better Reddit Search",
+          "url": "https://betterredditsearch.web.app/",
+          "description": "Advanced Reddit Search"
+        },
+        {
+          "name": "Redditle",
+          "url": "https://redditle.com/",
+          "description": "Reddit-Only Google Search"
+        },
+        {
+          "name": "Arctic Shift",
+          "url": "https://arctic-shift.photon-reddit.com/",
+          "description": "Reddit Archive Dump Search",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Reddit Dump Files",
+          "url": "https://academictorrents.com/browse.php?search=stuck_in_the_matrix%2C+Watchful1%2C+RaiderBDev&sort_field=added&sort_dir=DESC",
+          "description": "Reddit Comment Archives"
+        },
+        {
+          "name": "redarcs",
+          "url": "https://the-eye.eu/redarcs/",
+          "description": "Reddit Post Archive Tools / Note"
+        },
+        {
+          "name": "RedditMetis",
+          "url": "https://redditmetis.com/",
+          "description": "Reddit Profile Information"
+        },
+        {
+          "name": "Reddit-User-Analyser",
+          "url": "https://reddit-user-analyser.netlify.app/",
+          "description": "Reddit Profile Information"
+        },
+        {
+          "name": "Redective",
+          "url": "https://www.redective.com/",
+          "description": "Reddit Profile Information"
+        },
+        {
+          "name": "rComments",
+          "url": "https://github.com/iampueroo/rComments",
+          "description": "Explore Comments / Replies without Clicking a Post"
+        },
+        {
+          "name": "ScrollDrop",
+          "url": "https://scrolldrop.com/",
+          "description": "Reddit Media Crawler"
+        },
+        {
+          "name": "Wiki Downloader",
+          "url": "https://github.com/michealespinola/reddit.wikidownloader",
+          "description": "Reddit Wiki Page Scraper"
+        },
+        {
+          "name": "Find on Reddit",
+          "url": "https://chromewebstore.google.com/detail/find-on-reddit/jbcdpeekakanklckgooknpbonojhjncm",
+          "description": "Find Discussions of the Current URL"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-subreddit-discovery",
+      "title": "Subreddit発見",
+      "resources": [
+        {
+          "name": "r/ListOfSubreddits",
+          "url": "https://www.reddit.com/r/ListOfSubreddits/",
+          "description": "Subreddits Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Vizit",
+          "url": "https://redditstuff.github.io/sna/vizit/",
+          "description": "Visualize Related Subreddits",
+          "starred": true
+        },
+        {
+          "name": "sayit",
+          "url": "https://anvaka.github.io/sayit/",
+          "description": "Visualize Related Subreddits"
+        },
+        {
+          "name": "subreddit_map",
+          "url": "https://www.jacobsilterra.com/subreddit_map/network/index.html",
+          "description": "Visualize Related Subreddits"
+        },
+        {
+          "name": "SubredditMentionsGraph",
+          "url": "https://dmarx.github.io/SubredditMentionsGraph/network/",
+          "description": "Visualize Related Subreddits"
+        },
+        {
+          "name": "FindAReddit",
+          "url": "https://www.findareddit.com/",
+          "description": "Get Subreddit Suggestions",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "Subreddit Calculator",
+          "url": "https://trevor.shinyapps.io/subalgebra/",
+          "description": "Find Similar Subreddits"
+        },
+        {
+          "name": "redsim",
+          "url": "https://anvaka.github.io/redsim/",
+          "description": "Find Similar Subreddits"
+        },
+        {
+          "name": "Map of Reddit",
+          "url": "https://anvaka.github.io/map-of-reddit",
+          "description": "Subreddit Maps"
+        },
+        {
+          "name": "Reddit Map",
+          "url": "https://redditmap.social/",
+          "description": "Subreddit Maps"
+        },
+        {
+          "name": "subreddits",
+          "url": "https://subreddits.org/",
+          "description": "Find Random Subreddits"
+        },
+        {
+          "name": "r/wowthissubexists",
+          "url": "https://www.reddit.com/r/wowthissubexists/",
+          "description": "Find Niche Subreddits"
+        },
+        {
+          "name": "Subreddit Stats",
+          "url": "https://subredditstats.com/",
+          "description": "Subreddits Stats / Ranking"
+        },
+        {
+          "name": "SubRanking",
+          "url": "https://subranking.com/",
+          "description": "Subreddits Stats / Ranking"
+        },
+        {
+          "name": "TDirectory",
+          "url": "https://tdirectory.me/",
+          "description": "Telegram Channel Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Telemetr",
+          "url": "https://telemetr.io/en",
+          "description": "Telegram Channel Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "TGStat",
+          "url": "https://tgstat.com/",
+          "description": "Telegram Channel Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Awesome Telegram",
+          "url": "https://github.com/ebertti/awesome-telegram",
+          "description": "Telegram Channel Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "TelegramChannels",
+          "url": "https://telegramchannels.me/",
+          "description": "Telegram Channel Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "ComBot Groups",
+          "url": "https://combot.org/top/telegram/groups",
+          "description": "Top Telegram Groups Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Telegago",
+          "url": "https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0",
+          "description": "Telegram CSEs"
+        },
+        {
+          "name": "2",
+          "url": "https://cse.google.com/cse?cx=006249643689853114236:a3iibfpwexa",
+          "description": "Telegram CSEs"
+        },
+        {
+          "name": "Lyzem",
+          "url": "https://lyzem.com/",
+          "description": "Telegram CSEs"
+        },
+        {
+          "name": "xTea",
+          "url": "https://xtea.io/ts_en.html",
+          "description": "Telegram CSEs"
+        },
+        {
+          "name": "TG-ME",
+          "url": "https://www.tg-me.com/",
+          "description": "Telegram CSEs"
+        },
+        {
+          "name": "SaveRestrictedContentBot",
+          "url": "https://github.com/vasusen-code/SaveRestrictedContentBot",
+          "description": "Save Restricted Content"
+        },
+        {
+          "name": "Telesco.pe",
+          "url": "https://telesco.pe/",
+          "description": "Telegram Round Video Recorder"
+        },
+        {
+          "name": "TGCF",
+          "url": "https://github.com/aahnik/tgcf",
+          "description": "Telegram Message Forwarding"
+        },
+        {
+          "name": "TheFeedReaderBot",
+          "url": "https://thefeedreaderbot.com/",
+          "description": "RSS Reader"
+        },
+        {
+          "name": "tg-channel-cloner-workers",
+          "url": "https://gitlab.com/ParveenBhadooOfficial/tg-channel-cloner-workers",
+          "description": "Clone Telegram Channels"
+        },
+        {
+          "name": "tasra",
+          "url": "https://the-eye.eu/tasra/",
+          "description": "Telegram Channel Archive"
+        },
+        {
+          "name": "CHPic",
+          "url": "https://chpic.su/",
+          "description": "Telegram Sticker / Emojis"
+        },
+        {
+          "name": "Stickers Cloud",
+          "url": "https://stickers.cloud/en",
+          "description": "Telegram Sticker / Emojis"
+        },
+        {
+          "name": "ComBot Stickers",
+          "url": "https://combot.org/telegram/stickers",
+          "description": "Telegram Sticker / Emojis"
+        },
+        {
+          "name": "moe_sticker_bot",
+          "url": "https://t.me/moe_sticker_bot",
+          "description": "Telegram Sticker / Emojis"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-telegram-clients",
+      "title": "Telegram クライアント",
+      "resources": [
+        {
+          "name": "AyuGram",
+          "url": "https://docs.ayugram.one/downloads/",
+          "description": "Desktop Client / Chat",
+          "starred": true,
+          "tags": [
+            "Telegram",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Materialgram",
+          "url": "https://kukuruzka165.github.io/materialgram/",
+          "description": "Desktop Client / Portable",
+          "starred": true
+        },
+        {
+          "name": "Unigram",
+          "url": "https://github.com/UnigramDev/Unigram",
+          "description": "Desktop Client",
+          "starred": true
+        },
+        {
+          "name": "Forkgram",
+          "url": "https://github.com/Forkgram/tdesktop",
+          "description": "Desktop Client"
+        },
+        {
+          "name": "64Gram",
+          "url": "https://github.com/TDesktop-x64/tdesktop",
+          "description": "Desktop Client",
+          "tags": [
+            "Telegram"
+          ]
+        },
+        {
+          "name": "VideoGram",
+          "url": "https://vidogram.org/",
+          "description": "Desktop Client"
+        },
+        {
+          "name": "VanillaTG",
+          "url": "https://t.me/VanillaTG",
+          "description": "Client Themes"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-telegram-file-tools",
+      "title": "Telegram ファイル ツール",
+      "resources": [
+        {
+          "name": "Teldrive",
+          "url": "https://teldrive-docs.pages.dev/",
+          "description": "File Manager / Uploader",
+          "starred": true,
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "tdl",
+          "url": "https://docs.iyear.me/tdl/",
+          "description": "File Download / Upload Tool",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "File-Sharing-Bot",
+          "url": "https://github.com/CodeXBotz/File-Sharing-Bot",
+          "description": "Upload Files to Telegram"
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/CodeXBotz",
+          "description": "Upload Files to Telegram"
+        },
+        {
+          "name": "TelegramCloud",
+          "url": "https://github.com/iw4p/telegram-cloud",
+          "description": "Upload Files to Telegram"
+        },
+        {
+          "name": "easy_share_bot",
+          "url": "https://t.me/easy_share_bot",
+          "description": "Upload Files to Telegram"
+        },
+        {
+          "name": "UploadBot",
+          "url": "https://t.me/uploadbot",
+          "description": "Upload Files to Telegram"
+        },
+        {
+          "name": "TG-FileStreamBot",
+          "url": "https://github.com/EverythingSuckz/TG-FileStreamBot",
+          "description": "Telegram File Streaming"
+        },
+        {
+          "name": "MediaDownBot",
+          "url": "https://t.me/mediadownbot",
+          "description": "Media Downloaders"
+        },
+        {
+          "name": "WZML-X",
+          "url": "https://github.com/SilentDemonSD/WZML-X",
+          "description": "Media Downloaders"
+        },
+        {
+          "name": "Telegram Media Downloader",
+          "url": "https://greasyfork.org/en/scripts/446342",
+          "description": "Media Downloaders"
+        },
+        {
+          "name": "TopSaverBot",
+          "url": "https://t.me/TopSaverBot",
+          "description": "Media Downloaders"
+        },
+        {
+          "name": "CatdlBot",
+          "url": "https://t.me/CatdlBot",
+          "description": "Media Downloaders"
+        },
+        {
+          "name": "DownloadsMasterBot",
+          "url": "https://t.me/DownloadsMasterBot",
+          "description": "Media Downloaders"
+        },
+        {
+          "name": "Musvkrobot",
+          "url": "https://t.me/musvkrobot",
+          "description": "Video Downloader"
+        },
+        {
+          "name": "GdriveXbot",
+          "url": "https://t.me/TheGdriveXBot",
+          "description": "Google Drive Upload Bots"
+        },
+        {
+          "name": "google-drive-telegram-bot",
+          "url": "https://github.com/viperadnan-git/",
+          "description": "Google Drive Upload Bots"
+        },
+        {
+          "name": "MEGA Uploader X",
+          "url": "https://t.me/MegaUploadXbot",
+          "description": "Remote Mega File Upload Bot"
+        },
+        {
+          "name": "Mega-Bot",
+          "url": "https://github.com/Itz-fork/Mega.nz-Bot",
+          "description": "Remote Mega File Upload Bot"
+        },
+        {
+          "name": "OneDrive X",
+          "url": "https://t.me/onedrivexbot",
+          "description": "Remote OneDrive File Upload Bot"
+        },
+        {
+          "name": "telegram-download-daemon",
+          "url": "https://github.com/alfem/telegram-download-daemon/",
+          "description": "Download Large Telegram Files"
+        },
+        {
+          "name": "convrt_bot",
+          "url": "https://t.me/convrt_bot",
+          "description": "File Converters"
+        },
+        {
+          "name": "FileConvertBot",
+          "url": "https://t.me/FileConvertBot",
+          "description": "File Converters"
+        },
+        {
+          "name": "newfileconverterbot",
+          "url": "https://t.me/newfileconverterbot",
+          "description": "File Converters"
+        },
+        {
+          "name": "pdfbot",
+          "url": "https://t.me/pdfbot",
+          "description": "File Converters"
+        },
+        {
+          "name": "ILovePDF",
+          "url": "https://github.com/nabilanavab/ilovepdf",
+          "description": "Telegram File to PDF Converter"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-telegram-bots",
+      "title": "Telegramボット",
+      "resources": [
+        {
+          "name": "BotsArchive",
+          "url": "https://t.me/BotsArchive",
+          "description": "Telegram Bots Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "TelegramBotsList",
+          "url": "https://danyspin97.github.io/TelegramBotsList/",
+          "description": "Telegram Bots Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "borodutch.eth",
+          "url": "https://borodutch.com/",
+          "description": "Telegram Bots Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Searchee Bot",
+          "url": "https://t.me/SearcheeBot",
+          "description": "Telegram Channel Search Bot"
+        },
+        {
+          "name": "Rose",
+          "url": "https://t.me/MissRose_bot",
+          "description": "Telegram Group Managers"
+        },
+        {
+          "name": "GroupHelpBot",
+          "url": "https://t.me/GroupHelpBot",
+          "description": "Telegram Group Managers"
+        },
+        {
+          "name": "TediCross",
+          "url": "https://github.com/TediCross/TediCross",
+          "description": "Telegram to Discord Bridge"
+        },
+        {
+          "name": "WatgBridge",
+          "url": "https://github.com/akshettrj/watgbridge",
+          "description": "Telegram to WhatsApp Bridge"
+        },
+        {
+          "name": "Mautrix",
+          "url": "https://github.com/mautrix/telegram",
+          "description": "Telegram to Matrix Bridge"
+        },
+        {
+          "name": "Callmebot",
+          "url": "https://www.callmebot.com/",
+          "description": "Trigger Voice Calls or Chats"
+        },
+        {
+          "name": "Skeddy",
+          "url": "https://skeddy.me/",
+          "description": "Telegram Reminder Bot"
+        },
+        {
+          "name": "Reddit2Telegram",
+          "url": "https://github.com/Fillll/reddit2telegram",
+          "description": "Reddit Post Bot"
+        },
+        {
+          "name": "rss2tg_bot",
+          "url": "https://t.me/rss2tg_bot",
+          "description": "RSS Feed Bots"
+        },
+        {
+          "name": "TheFeedReaderBot",
+          "url": "https://t.me/TheFeedReaderBot",
+          "description": "RSS Feed Bots"
+        },
+        {
+          "name": "ShortUrlBot",
+          "url": "https://t.me/ShortUrlBot",
+          "description": "Link Shortener Bots"
+        },
+        {
+          "name": "AiImageBot",
+          "url": "https://t.me/AiImageBot",
+          "description": "Text to Image"
+        },
+        {
+          "name": "Shieldy Bot",
+          "url": "https://t.me/shieldy_bot",
+          "description": "Spam Protection Bot",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "r/TelegramBots",
+          "url": "https://www.reddit.com/r/TelegramBots/",
+          "description": "Telegram Bots Discussion"
+        },
+        {
+          "name": "PocketTube",
+          "url": "https://pockettube.io/",
+          "description": "Subscription Managers",
+          "starred": true
+        },
+        {
+          "name": "Kadium",
+          "url": "https://kadium.kasper.space/",
+          "description": "Subscription Managers"
+        },
+        {
+          "name": "Youtube-shorts block",
+          "url": "https://github.com/doma-itachi/Youtube-shorts-block",
+          "description": "Play Shorts In The Normal Desktop Interface"
+        },
+        {
+          "name": "Shorts Deflector",
+          "url": "https://evenevan.github.io/shorts-deflector/",
+          "description": "Play Shorts In The Normal Desktop Interface"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/evenevan/shorts-deflector",
+          "description": "Play Shorts In The Normal Desktop Interface"
+        },
+        {
+          "name": "Remove YouTube Shorts",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-shorts/",
+          "description": "Hide YouTube Shorts"
+        },
+        {
+          "name": "Hide YT Shorts Filter List",
+          "url": "https://github.com/gijsdev/ublock-hide-yt-shorts",
+          "description": "Hide YouTube Shorts"
+        },
+        {
+          "name": "YouTube Wrapped",
+          "url": "https://videorecap.viewodyssey.com/",
+          "description": "Personal YouTube Rewind"
+        },
+        {
+          "name": "LocalTube Manager",
+          "url": "https://localtubemanager.pages.dev/",
+          "description": "Subscribe, Like Videos, Make Playlists without Account",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "YouTube-Subscriptions-RSS",
+          "url": "https://github.com/jeb5/YouTube-Subscriptions-RSS",
+          "description": "Export Subscriptions to RSS Feed"
+        },
+        {
+          "name": "YouTube Subscription History",
+          "url": "https://xxluke.de/subscription-history/",
+          "description": "Subscription History Tracker"
+        },
+        {
+          "name": "MassYoutubeUnsubscriber",
+          "url": "https://github.com/DomHeadroom/MassYoutubeUnsubscriber",
+          "description": "Bulk Remove YouTube Subscriptions"
+        },
+        {
+          "name": "YouTube Spammer Purge",
+          "url": "https://github.com/ThioJoe/YT-Spammer-Purge",
+          "description": "Delete All YouTube Spam Comments / Domain List"
+        },
+        {
+          "name": "Playboard",
+          "url": "https://playboard.co",
+          "description": "YouTube Channel Stats"
+        },
+        {
+          "name": "Viewstats",
+          "url": "https://www.viewstats.com/",
+          "description": "YouTube Channel Stats"
+        },
+        {
+          "name": "vidIQ",
+          "url": "https://vidiq.com/extension/",
+          "description": "YouTube Viewership Data"
+        },
+        {
+          "name": "yt2pod",
+          "url": "https://github.com/frou/yt2pod",
+          "description": "Create Podcasts from YouTube Channels"
+        },
+        {
+          "name": "SpeechChat",
+          "url": "https://speechchat.com/",
+          "description": "Text to Speech Client"
+        },
+        {
+          "name": "songs-to-youtube",
+          "url": "https://github.com/7x11x13/songs-to-youtube",
+          "description": "Convert Audio Files and Upload to YouTube"
+        },
+        {
+          "name": "YTSubConverter",
+          "url": "https://github.com/arcusmaximus/YTSubConverter",
+          "description": "Styled YouTube Subtitles"
+        },
+        {
+          "name": "Amara",
+          "url": "https://amara.org/en/",
+          "description": "Import Local Subtitles to YouTube / Edge"
+        },
+        {
+          "name": "SubtitlesForYoutube",
+          "url": "https://github.com/yashagarwal1411/SubtitlesForYoutube",
+          "description": "Import Local Subtitles to YouTube / Edge"
+        },
+        {
+          "name": "ChatReplay",
+          "url": "https://chatreplay.stream/",
+          "description": "Livestream Chat Replay"
+        },
+        {
+          "name": "LiveTL",
+          "url": "https://kentonishi.com/LiveTL/",
+          "description": "Livestream Chat Translator"
+        },
+        {
+          "name": "YT Boost Chat",
+          "url": "https://greasyfork.org/en/scripts/520755",
+          "description": "Reduce YouTube Chat Memory Usage"
+        },
+        {
+          "name": "YT RM3",
+          "url": "https://greasyfork.org/en/scripts/521342",
+          "description": "Reduce YouTube Chat Memory Usage"
+        },
+        {
+          "name": "YT LiveChat Flusher",
+          "url": "https://github.com/ys-j/YoutubeLiveChatFlusher",
+          "description": "Add Bullet Chatting (Danmaku) to Livestreams"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-youtube-customization",
+      "title": "YouTubeカスタマイズ",
+      "resources": [
+        {
+          "name": "Return YouTube Dislike",
+          "url": "https://returnyoutubedislike.com/",
+          "description": "View YouTube Dislikes / Web App",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "DeArrow",
+          "url": "https://dearrow.ajay.app/",
+          "description": "Reduce Sensationalism / Clickbait",
+          "starred": true
+        },
+        {
+          "name": "UnTrap",
+          "url": "https://untrap.app/",
+          "description": "Distraction-Free YouTube",
+          "starred": true
+        },
+        {
+          "name": "TubeMod",
+          "url": "https://github.com/Pedro-Gregorio/TubeMod",
+          "description": "Distraction-Free YouTube"
+        },
+        {
+          "name": "Less Addictive YouTube",
+          "url": "https://github.com/AlexisDrain/Less-Addictive-YouTube",
+          "description": "Distraction-Free YouTube"
+        },
+        {
+          "name": "VORAPIS",
+          "url": "https://vorapis.pages.dev/",
+          "description": "Classic YouTube Layout / Increased Performance / Extra Themes",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "ImprovedTube",
+          "url": "https://improvedtube.com/",
+          "description": "YouTube Enhancement Extensions"
+        },
+        {
+          "name": "YouTube Alchemy",
+          "url": "https://greasyfork.org/en/scripts/521686",
+          "description": "YouTube Enhancement Extensions"
+        },
+        {
+          "name": "Tweaks for YT",
+          "url": "https://inzk.dev/tweaks-for-youtube/",
+          "description": "YouTube Enhancement Extensions"
+        },
+        {
+          "name": "Magic Actions",
+          "url": "https://www.chromeactions.com/",
+          "description": "YouTube Enhancement Extensions"
+        },
+        {
+          "name": "YouTube Tweaks",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-tweaks/",
+          "description": "YouTube Enhancement Extensions"
+        },
+        {
+          "name": "Chrome",
+          "url": "https://chrome.google.com/webstore/detail/youtube-tweaks/oeakphpfoaeggagmgphfejmfjbhjfhhh",
+          "description": "YouTube Enhancement Extensions"
+        },
+        {
+          "name": "Enhancer for YT",
+          "url": "https://www.mrfdev.com/enhancer-for-youtube",
+          "description": "YouTube Enhancement Extensions"
+        },
+        {
+          "name": "PKGA",
+          "url": "https://greasyfork.org/en/scripts/442089",
+          "description": "Improved YouTube Theater Mode"
+        },
+        {
+          "name": "YouTube WideScreen",
+          "url": "https://greasyfork.org/en/scripts/409893",
+          "description": "Improved YouTube Theater Mode"
+        },
+        {
+          "name": "YouTube Hide Watched",
+          "url": "https://github.com/EvHaus/youtube-hide-watched",
+          "description": "Toggle Visibility of Watched Videos / Shorts"
+        },
+        {
+          "name": "Fast Forward YT Shorts",
+          "url": "https://greasyfork.org/en/scripts/466438",
+          "description": "Add Seek Hotkeys to Shorts"
+        },
+        {
+          "name": "Thumbnail Rating Bar",
+          "url": "https://github.com/elliotwaite/thumbnail-rating-bar-for-youtube",
+          "description": "Display Like / Dislike Ratio on Thumbnails"
+        },
+        {
+          "name": "YT Like-Dislike Shortcut",
+          "url": "https://github.com/avi12/youtube-like-dislike-shortcut",
+          "description": "Add Like / Dislike Hotkeys"
+        },
+        {
+          "name": "YT: Not Interested",
+          "url": "https://greasyfork.org/en/scripts/396936-yt-not-interested-in-one-click",
+          "description": "Show \"Not Interested\" and \"Don't Recommend\" Buttons"
+        },
+        {
+          "name": "YouTube Search Fixer",
+          "url": "https://phoennix.gitlab.io/youtubesearchfix/",
+          "description": "Declutter Search Results / Homepage"
+        },
+        {
+          "name": "BlockTube",
+          "url": "https://github.com/amitbl/blocktube",
+          "description": "YouTube Content Blocker"
+        },
+        {
+          "name": "YTBlock",
+          "url": "https://chromewebstore.google.com/detail/ytblock-block-any-content/nedcanggplmbbgmlpcjiafgjcpdimpea",
+          "description": "YouTube Content Blocker"
+        },
+        {
+          "name": "YouTube Fixes",
+          "url": "https://greasyfork.org/en/scripts/405614",
+          "description": "YouTube Tweaks"
+        },
+        {
+          "name": "Restore Handle to Custom",
+          "url": "https://greasyfork.org/en/scripts/468740",
+          "description": "Shows Display Name Instead of Handle"
+        },
+        {
+          "name": "Focused YouTube",
+          "url": "https://github.com/makaroni4/focused_youtube",
+          "description": "Minimalist YouTube"
+        },
+        {
+          "name": "yt-neuter",
+          "url": "https://github.com/mchangrh/yt-neuter",
+          "description": "Minimalist YouTube"
+        },
+        {
+          "name": "Non-Rounded Design",
+          "url": "https://greasyfork.org/en/scripts/453802",
+          "description": "Revert YouTube's New Rounded Design"
+        },
+        {
+          "name": "Timestamped YouTube Comments",
+          "url": "https://chromewebstore.google.com/detail/timestamped-youtube-comme/gnpppldhfbbagiaalkddddajadhlgofm",
+          "description": "View Timestamped Comments"
+        },
+        {
+          "name": "Tabview YouTube",
+          "url": "https://greasyfork.org/en/scripts/501249",
+          "description": "View Comments / Info in Tab View"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-players-frontends",
+      "title": "プレーヤー / フロントエンド",
+      "resources": [
+        {
+          "name": "FreeTube",
+          "url": "https://freetubeapp.io/",
+          "description": "Local YouTube Frontend",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Invidious",
+          "url": "https://invidious.io/",
+          "description": "YouTube Frontend / Instances / TUI",
+          "starred": true
+        },
+        {
+          "name": "Materialious",
+          "url": "https://materialio.us/",
+          "description": "YouTube Frontend / Instances / TUI"
+        },
+        {
+          "name": "GrayJay",
+          "url": "https://grayjay.app/",
+          "description": "YouTube, Twitch, Rumble, etc. / Avoid Playstore / Guide / Add Platforms / GitLab",
+          "starred": true
+        },
+        {
+          "name": "YouTube Notes",
+          "url": "https://instadeq.com/youtube-notes/",
+          "description": "YouTube Note-Taking Frontend"
+        },
+        {
+          "name": "Walrus",
+          "url": "https://joinwalrus.tv/",
+          "description": "YouTube Watch Parties"
+        },
+        {
+          "name": "Sync-Tube",
+          "url": "https://sync-tube.de/",
+          "description": "YouTube Watch Parties"
+        },
+        {
+          "name": "YouTube Party",
+          "url": "https://youtubeparty.netlify.app/",
+          "description": "YouTube Watch Parties"
+        },
+        {
+          "name": "Hergetto",
+          "url": "https://hergetto.live/",
+          "description": "YouTube Watch Parties"
+        },
+        {
+          "name": "TwitchTheater",
+          "url": "https://twitchtheater.tv/",
+          "description": "Watch Multiple YouTube Videos"
+        },
+        {
+          "name": "VidGrid",
+          "url": "https://vidgrid.tk.gg/",
+          "description": "Watch Multiple YouTube Videos"
+        },
+        {
+          "name": "YouTube Multiplier",
+          "url": "https://www.youtubemultiplier.com/",
+          "description": "Watch Multiple YouTube Videos"
+        },
+        {
+          "name": "ViewSync",
+          "url": "https://viewsync.net/",
+          "description": "Watch Multiple YouTube Videos"
+        },
+        {
+          "name": "YouTube Clone KMP",
+          "url": "https://github.com/KhubaibKhan4/Youtube-Clone-KMP",
+          "description": "YouTube Frontend"
+        },
+        {
+          "name": "Piped",
+          "url": "https://piped.private.coffee/",
+          "description": "YouTube Frontend / Requires Sign-Up",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "youtube-local",
+          "url": "https://github.com/user234683/youtube-local",
+          "description": "YouTube Frontend"
+        },
+        {
+          "name": "yt-local",
+          "url": "https://git.sr.ht/~heckyel/yt-local",
+          "description": "YouTube Frontend"
+        },
+        {
+          "name": "YouT-ube",
+          "url": "https://www.yout-ube.com/",
+          "description": "Use YouTube Full Window Player"
+        },
+        {
+          "name": "⁠MUI",
+          "url": "https://muitube.com/",
+          "description": "Use YouTube Full Window Player"
+        },
+        {
+          "name": "Ytfzf",
+          "url": "https://github.com/pystardust/ytfzf",
+          "description": "Terminal YouTube Players"
+        },
+        {
+          "name": "YewTube",
+          "url": "https://github.com/mps-youtube/yewtube",
+          "description": "Terminal YouTube Players"
+        },
+        {
+          "name": "VacuumTube",
+          "url": "https://github.com/shy1132/VacuumTube",
+          "description": "TV Version of YouTube on PC"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-video-tools",
+      "title": "動画ツール",
+      "resources": [
+        {
+          "name": "polsy.org.uk",
+          "url": "https://polsy.org.uk/stuff/ytrestrict.cgi",
+          "description": "Video Region Restriction Checker",
+          "starred": true
+        },
+        {
+          "name": "⁠YouTube No Translation",
+          "url": "https://youtube-no-translation.vercel.app/",
+          "description": "Disable YouTube Auto Translations",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Video Resumer",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/video-resumer/",
+          "description": "Remembers Where You Left Off in Video"
+        },
+        {
+          "name": "Jump Cutter",
+          "url": "https://github.com/WofWca/jumpcutter",
+          "description": "Skip Silent Parts of Videos"
+        },
+        {
+          "name": "Rotate YouTube Video",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/rotate-youtube-video/",
+          "description": "Rotate, Zoom, & Mirror Videos"
+        },
+        {
+          "name": "YouTube Upload Time",
+          "url": "https://chromewebstore.google.com/detail/youtube-upload-time/nenoecmaibjcahoahnmeinahlapheblg",
+          "description": "Check Exact Upload Time / Date of Videos"
+        },
+        {
+          "name": "Annotations Data Archive",
+          "url": "https://archive.org/details/youtubeannotations",
+          "description": "Restore Video Annotations"
+        },
+        {
+          "name": "YouTube Metadata",
+          "url": "https://mattw.io/youtube-metadata/",
+          "description": "YouTube Video Metadata Viewer"
+        },
+        {
+          "name": "yt_clipper",
+          "url": "https://github.com/exwm/yt_clipper",
+          "description": "Crop YouTube Videos / Create Clips"
+        },
+        {
+          "name": "Looptube",
+          "url": "https://www.looptube.xyz/",
+          "description": "Loop YouTube Videos / Segments"
+        },
+        {
+          "name": "YourCodecs",
+          "url": "https://github.com/undecV/YourCodecs",
+          "description": "Enable / Disable Player Codecs"
+        },
+        {
+          "name": "Video Speed Controller",
+          "url": "https://github.com/igrigorik/videospeed",
+          "description": "Control Speed of YouTube Videos"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-playlist-tools",
+      "title": "Playlist ツール",
+      "resources": [
+        {
+          "name": "playlists.at",
+          "url": "https://playlists.at/",
+          "description": "Playlist Creators / Chrome Extension",
+          "starred": true
+        },
+        {
+          "name": "TubeSync",
+          "url": "https://github.com/meeb/tubesync",
+          "description": "Sync YouTube Channels / Playlists to a Media Server"
+        },
+        {
+          "name": "ytcc",
+          "url": "https://github.com/woefe/ytcc",
+          "description": "Keep Track of Your Playlists"
+        },
+        {
+          "name": "Multiselect (Firefox)",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/multiselect-for-youtube/",
+          "description": "Playlist Manager"
+        },
+        {
+          "name": "Multiselect (Chrome)",
+          "url": "https://chromewebstore.google.com/detail/gpgbiinpmelaihndlegbgfkmnpofgfei",
+          "description": "Playlist Manager"
+        },
+        {
+          "name": "Export YT Playlists",
+          "url": "https://export-youtube-playlist.vercel.app/",
+          "description": "Export Playlists to Excel, CSV, Text or Bookmark HTML ⁠"
+        },
+        {
+          "name": "Playlist Randomizer",
+          "url": "https://playlist-randomizer.com/",
+          "description": "YouTube Playlist Randomizer"
+        },
+        {
+          "name": "playlist.tools",
+          "url": "https://playlist.tools/",
+          "description": "Reverse YouTube Playlists"
+        },
+        {
+          "name": "YT Playlist Length",
+          "url": "https://ytplaylist-len.sharats.dev/",
+          "description": "Playlist Length Checkers"
+        },
+        {
+          "name": "2",
+          "url": "https://ytplaylist-length.codingdeft.com/",
+          "description": "Playlist Length Checkers"
+        },
+        {
+          "name": "Length Checker",
+          "url": "https://youtube-playlist-length-calculator.onrender.com/",
+          "description": "Playlist Length Checkers"
+        },
+        {
+          "name": "YouTubePlaylistMerge",
+          "url": "https://rentry.org/YouTubePlaylistMerge",
+          "description": "Playlist Merge Guide"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-youtube-downloaders",
+      "title": "YouTube ダウンローダー",
+      "resources": [
+        {
+          "name": "YT-DL GUI Index",
+          "url": "https://www.reddit.com/r/youtubedl/wiki/info-guis",
+          "description": "List of YouTube Downloader GUIs",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Parabolic",
+          "url": "https://github.com/NickvisionApps/Parabolic",
+          "description": "Cross-Platform YT-DLP GUIs",
+          "starred": true
+        },
+        {
+          "name": "Tartube",
+          "url": "https://tartube.sourceforge.io/",
+          "description": "Cross-Platform YT-DLP GUIs"
+        },
+        {
+          "name": "JDownloader",
+          "url": "https://jdownloader.org/jdownloader2",
+          "description": "YouTube Downloader App / Warning",
+          "starred": true
+        },
+        {
+          "name": "yt-dlp",
+          "url": "https://github.com/yt-dlp/yt-dlp",
+          "description": "YouTube CLI Downloader / Commands",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "YoutubeDownloader",
+          "url": "https://github.com/Tyrrrz/YoutubeDownloader",
+          "description": "YouTube Downloader App",
+          "starred": true
+        },
+        {
+          "name": "Stacher",
+          "url": "https://stacher.io/",
+          "description": "Cross-Platform YT-DL GUIs"
+        },
+        {
+          "name": "youtube-dl-gui",
+          "url": "https://github.com/oleksis/youtube-dl-gui",
+          "description": "Cross-Platform YT-DL GUIs"
+        },
+        {
+          "name": "Open Video Downloader",
+          "url": "https://github.com/StefanLobbenmeier/youtube-dl-gui",
+          "description": "Cross-Platform YT-DL GUIs"
+        },
+        {
+          "name": "yt-dlp-gui",
+          "url": "https://github.com/kannagi0303/yt-dlp-gui",
+          "description": "YT-DLP GUIs"
+        },
+        {
+          "name": "Easy Installer",
+          "url": "https://github.com/kazukikasama/youtube-dlp-gui-installer",
+          "description": "YT-DLP GUIs"
+        },
+        {
+          "name": "⁠Social Saver",
+          "url": "https://socialsaver.site/",
+          "description": "YT-DLP GUIs"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/VishalKaleria/social-saver/",
+          "description": "YT-DLP GUIs"
+        },
+        {
+          "name": "ytdlp-interface",
+          "url": "https://github.com/ErrorFlynn/ytdlp-interface",
+          "description": "YT-DLP GUIs"
+        },
+        {
+          "name": "Vividl",
+          "url": "https://github.com/Bluegrams/Vividl",
+          "description": "YT-DLP GUIs"
+        },
+        {
+          "name": "Cube YouTube Downloader",
+          "url": "https://github.com/database64128/youtube-dl-wpf",
+          "description": "YouTube-DL GUI"
+        },
+        {
+          "name": "YTDL-PATCHED",
+          "url": "https://github.com/ytdl-patched/ytdl-patched",
+          "description": "YouTube CLI Downloader / YT-DLP Fork"
+        },
+        {
+          "name": "yoink.tools",
+          "url": "https://yoink.tools/",
+          "description": "YouTube Downloader / Online",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠YT1s",
+          "url": "https://yt1s.com.co/",
+          "description": "YouTube Downloader / Online"
+        },
+        {
+          "name": "⁠YTDown",
+          "url": "https://ytdown.io/",
+          "description": "YouTube Downloader / Online"
+        },
+        {
+          "name": "CNVMP3",
+          "url": "https://cnvmp3.com/",
+          "description": "YouTube Downloader / Online",
+          "tags": [
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "SongCharts",
+          "url": "https://dl2mp3.to/",
+          "description": "YouTube Downloader / Online"
+        },
+        {
+          "name": "⁠Wayback YouTube",
+          "url": "https://www.waybackyt.download/",
+          "description": "Download Deleted YouTube Videos via Wayback Machine"
+        },
+        {
+          "name": "Pinchflat",
+          "url": "https://github.com/kieraneglin/pinchflat",
+          "description": "Self-Hosted YT-DLP"
+        },
+        {
+          "name": "MeTube",
+          "url": "https://github.com/alexta69/metube",
+          "description": "Self-Hosted YT-DLP"
+        },
+        {
+          "name": "YoutubeDL-Material",
+          "url": "https://github.com/Tzahi12345/YoutubeDL-Material",
+          "description": "Self-Hosted YT-DLP"
+        },
+        {
+          "name": "yt-dlp Web UI",
+          "url": "https://github.com/marcopiovanello/yt-dlp-web-ui",
+          "description": "Self-Hosted YT-DLP"
+        },
+        {
+          "name": "ytarchive",
+          "url": "https://github.com/Kethsar/ytarchive",
+          "description": "YouTube Livestream Downloader"
+        },
+        {
+          "name": "Tube All Images",
+          "url": "https://imageyoutube.com/",
+          "description": "Download YouTube Images"
+        },
+        {
+          "name": "YTThumbnailHD",
+          "url": "https://ytthumbnailhd.com/",
+          "description": "Download Video Thumbnails"
+        },
+        {
+          "name": "YT-Thumbnail-Grabber",
+          "url": "https://youtube-thumbnail-grabber.org/",
+          "description": "Download Video Thumbnails"
+        },
+        {
+          "name": "ThumbnailDownloader",
+          "url": "https://www.thumbnaildownloader.art/",
+          "description": "Download Video Thumbnails"
+        },
+        {
+          "name": "YT Thumbnail Grabber",
+          "url": "https://youtube-thumbnail-grabber.com/",
+          "description": "Download Video Thumbnails"
+        },
+        {
+          "name": "youtube-comment-downloader",
+          "url": "https://github.com/egbertbouman/youtube-comment-downloader",
+          "description": "Download YouTube Comments"
+        },
+        {
+          "name": "YT Subtitle Downloader",
+          "url": "https://greasyfork.org/en/scripts/520194",
+          "description": "Download Video Subtitles"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-youtube-search",
+      "title": "YouTube 検索",
+      "resources": [
+        {
+          "name": "YT Channel Spreadsheet",
+          "url": "https://docs.google.com/spreadsheets/d/1xZm5BcQTYJx8sfSuqHExHtIOPtSfod8beHKtYzp8DxE/",
+          "description": "YouTube Channel Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "YouTube_Channels",
+          "url": "https://github.com/PrejudiceNeutrino/YouTube_Channels",
+          "description": "YouTube Channel Indexes",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Favoree",
+          "url": "https://www.favoree.io/",
+          "description": "Discover / Search YouTube Channels",
+          "starred": true
+        },
+        {
+          "name": "ChannelCrawler",
+          "url": "https://channelcrawler.com/",
+          "description": "Discover / Search YouTube Channels"
+        },
+        {
+          "name": "YouTube Advanced Search",
+          "url": "https://playlists.at/youtube/search/",
+          "description": "Search Engine",
+          "starred": true
+        },
+        {
+          "name": "Filmot",
+          "url": "https://filmot.com/",
+          "description": "Search within YouTube Transcripts / Firefox / Chrome",
+          "starred": true
+        },
+        {
+          "name": "CTRL-F-VIDEO",
+          "url": "https://github.com/Evan-Wildenhain/CTRL-F-VIDEO",
+          "description": "Search within YouTube Transcripts / Firefox / Chrome"
+        },
+        {
+          "name": "comb.io",
+          "url": "https://comb.io/",
+          "description": "Clip / Phrase Search Engines"
+        },
+        {
+          "name": "clip.cafe",
+          "url": "https://clip.cafe/",
+          "description": "Clip / Phrase Search Engines"
+        },
+        {
+          "name": "InPhrase",
+          "url": "https://inphrase.com/",
+          "description": "Clip / Phrase Search Engines"
+        },
+        {
+          "name": "Yarn",
+          "url": "https://yarn.co/",
+          "description": "Clip / Phrase Search Engines"
+        },
+        {
+          "name": "yt-fts",
+          "url": "https://github.com/NotJoeMartinez/yt-fts",
+          "description": "Full-Text Search of Subtitles from Channels / Videos"
+        },
+        {
+          "name": "Icono",
+          "url": "https://www.icono-search.com/",
+          "description": "Description-Based Video Search",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "MW Geofind",
+          "url": "https://mattw.io/youtube-geofind/location",
+          "description": "Find Geotagged Videos"
+        },
+        {
+          "name": "TubeTrotter",
+          "url": "https://www.tubetrotter.live/",
+          "description": "Find Geotagged Videos"
+        },
+        {
+          "name": "YT Comment Viewer",
+          "url": "https://commentviewer.com/",
+          "description": "Comment Search / View Censored Comments"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/sameerdash2/comment-viewer",
+          "description": "Comment Search / View Censored Comments"
+        },
+        {
+          "name": "CommentShark",
+          "url": "https://www.commentshark.com/youtube-comment-searcher",
+          "description": "Comment Search / View Censored Comments"
+        },
+        {
+          "name": "Hadzy",
+          "url": "https://hadzy.com/",
+          "description": "Comment Search / View Censored Comments"
+        },
+        {
+          "name": "YCF",
+          "url": "https://ytcomment.kmcat.uk/",
+          "description": "Comment Search / View Censored Comments"
+        },
+        {
+          "name": "Tokin",
+          "url": "https://tokin.tv/",
+          "description": "Find Trending / Hidden Gem Videos"
+        },
+        {
+          "name": "IMG_0001",
+          "url": "https://walzr.com/IMG_0001",
+          "description": "Find Random YouTube Videos"
+        },
+        {
+          "name": "YTStalker",
+          "url": "https://ytstalker.mov/",
+          "description": "Find Random YouTube Videos"
+        },
+        {
+          "name": "Gloria o Devoto",
+          "url": "https://gloriaodevoto.vercel.app/",
+          "description": "Find Random YouTube Videos"
+        },
+        {
+          "name": "Random Video",
+          "url": "https://random-video.com/",
+          "description": "Find Random YouTube Videos"
+        },
+        {
+          "name": "YouTube’s Recycle Bin",
+          "url": "https://docs.google.com/document/d/1mV5PhumaIJ8mtH8XmohqXkk5fjK_HlqcineMccPQm5A/",
+          "description": "Find Videos with <100 Views"
+        },
+        {
+          "name": "X",
+          "url": "https://x.com/MingKasterMK/",
+          "description": "Find Videos with <100 Views"
+        },
+        {
+          "name": "Project Random",
+          "url": "https://0xbeef.co.uk/random",
+          "description": "Find Videos with <100 Views"
+        },
+        {
+          "name": "ObscureTube",
+          "url": "https://obscuretube.com/",
+          "description": "Find Videos with <100 Views"
+        },
+        {
+          "name": "petittube",
+          "url": "https://petittube.com/fullscreen.php",
+          "description": "Find Videos with <100 Views"
+        },
+        {
+          "name": "Find-Unfinished-YT",
+          "url": "https://rentry.co/find-unfinished-yt",
+          "description": "Find Partially Watched Videos"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-youtube-archiving",
+      "title": "YouTubeアーカイブ",
+      "resources": [
+        {
+          "name": "YouTube Video Finder",
+          "url": "https://findyoutubevideo.thetechrobo.ca/",
+          "description": "Multi-Site Archive Search / Try Refreshing or Re-searching",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Tubeup",
+          "url": "https://github.com/bibanon/tubeup",
+          "description": "YouTube Video to IA Uploader"
+        },
+        {
+          "name": "Tube Archivist",
+          "url": "https://www.tubearchivist.com/",
+          "description": "Self-Hosted YouTube Media Server",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "yark",
+          "url": "https://github.com/Owez/yark",
+          "description": "YouTube Channel Archiver"
+        },
+        {
+          "name": "Filmot",
+          "url": "https://filmot.com/unlistedSearch",
+          "description": "Search Unlisted Videos"
+        },
+        {
+          "name": "Hobune",
+          "url": "https://hobune.stream/",
+          "description": "YouTube Video Archives"
+        },
+        {
+          "name": "PreserveTube",
+          "url": "https://preservetube.com/",
+          "description": "YouTube Video Archives"
+        },
+        {
+          "name": "youtubecrawl",
+          "url": "https://archive.org/details/youtubecrawl",
+          "description": "Captures of Pages from YouTube (IA)"
+        },
+        {
+          "name": "Filmot Title Restorer",
+          "url": "https://greasyfork.org/en/scripts/430202-filmot-title-restorer",
+          "description": "Restore Titles of Deleted / Private Videos"
+        },
+        {
+          "name": "quite a playlist",
+          "url": "https://quiteaplaylist.com/",
+          "description": "Restore Titles of Deleted / Private Videos"
+        },
+        {
+          "name": "RecoverMy.Video",
+          "url": "https://www.recovermy.video/",
+          "description": "Restore Titles of Deleted / Private Videos"
+        },
+        {
+          "name": "Twitch Extensions",
+          "url": "https://dashboard.twitch.tv/extensions/categories/43f48606-8b91-4149-94e6-02def012c79f",
+          "description": "Twitch Extensions Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "FrankerFacez",
+          "url": "https://www.frankerfacez.com/",
+          "description": "Twitch Enhancement Extensions",
+          "starred": true
+        },
+        {
+          "name": "BetterTTV",
+          "url": "https://betterttv.com/",
+          "description": "Twitch Enhancement Extensions"
+        },
+        {
+          "name": "7TV",
+          "url": "https://7tv.app/",
+          "description": "Twitch Enhancement Extensions"
+        },
+        {
+          "name": "TwitchNoSub",
+          "url": "https://github.com/besuper/TwitchNoSub",
+          "description": "Watch Sub Only Twitch Videos",
+          "starred": true
+        },
+        {
+          "name": "Sub-Vod",
+          "url": "https://www.sub-vod.fr/",
+          "description": "Watch Sub Only Twitch Videos"
+        },
+        {
+          "name": "twitchnosub",
+          "url": "https://twitchnosub.com/",
+          "description": "Watch Sub Only Twitch Videos"
+        },
+        {
+          "name": "Stream Scheme",
+          "url": "https://www.streamscheme.com/",
+          "description": "Livestreaming Guides / Resources",
+          "starred": true
+        },
+        {
+          "name": "⁠Twitch Gearbox",
+          "url": "https://gearbox.crunchprank.net/twitch/filter.php",
+          "description": "Twitch Advanced Search"
+        },
+        {
+          "name": "Gumbo",
+          "url": "https://github.com/seldszar/gumbo",
+          "description": "Twitch Stream Trackers"
+        },
+        {
+          "name": "Twitch-Live",
+          "url": "https://github.com/yungsamd17/Twitch-Live",
+          "description": "Twitch Stream Trackers"
+        },
+        {
+          "name": "HypeTrigger",
+          "url": "https://hypetrigger.io/",
+          "description": "Automatically Create Clips"
+        },
+        {
+          "name": "Twitch Clip Search",
+          "url": "https://www.twitch-clip-search.com/",
+          "description": "Search for Clips"
+        },
+        {
+          "name": "VODarchive",
+          "url": "https://vodarchive.com/",
+          "description": "Twitch Video Archives"
+        },
+        {
+          "name": "TwitchArchive",
+          "url": "https://twitcharchive.com/",
+          "description": "Twitch Video Archives"
+        },
+        {
+          "name": "Twitch Previews",
+          "url": "https://github.com/MarkM-dev/Previews-client",
+          "description": "Twitch Video Previews"
+        },
+        {
+          "name": "Previews",
+          "url": "https://previews-app.com/",
+          "description": "Twitch Video Previews"
+        },
+        {
+          "name": "Unwanted Twitch",
+          "url": "https://github.com/kwaschny/unwanted-twitch",
+          "description": "Hide Twitch Categories / Channels"
+        },
+        {
+          "name": "vTwitch",
+          "url": "https://vtwitch.com/",
+          "description": "Show Chat Below Player"
+        },
+        {
+          "name": "JChat",
+          "url": "https://www.giambaj.it/twitch/jchat/",
+          "description": "Show Twitch Chat on Screen"
+        },
+        {
+          "name": "Hide-Twitch-Chat-Users",
+          "url": "https://github.com/mikeyaworski/Hide-Twitch-Chat-Users",
+          "description": "Hide Twitch Chat Users"
+        },
+        {
+          "name": "TwitchChatDanmaku",
+          "url": "https://github.com/wheatup/TwitchChatDanmaku",
+          "description": "Transparent Twitch Chat"
+        },
+        {
+          "name": "Transparent-Twitch-Chat",
+          "url": "https://github.com/chylex/Transparent-Twitch-Chat",
+          "description": "Transparent Twitch Chat"
+        },
+        {
+          "name": "Transparent Twitch Chat Overlay",
+          "url": "https://github.com/baffler/Transparent-Twitch-Chat-Overlay",
+          "description": "Transparent Twitch Chat"
+        },
+        {
+          "name": "Screenshot Twitch",
+          "url": "https://github.com/eramdam/userscripts/blob/main/Screenshot%20Twitch.user.js",
+          "description": "Add Screenshot Button to Twitch"
+        },
+        {
+          "name": "Twitch Drops Miner",
+          "url": "https://github.com/DevilXD/TwitchDropsMiner",
+          "description": "Auto Claim Twitch Drops"
+        },
+        {
+          "name": "TwitchRSS",
+          "url": "https://twitchrss.appspot.com/",
+          "description": "Twitch RSS Generators"
+        },
+        {
+          "name": "twitchrss",
+          "url": "https://twitchrss.com/",
+          "description": "Twitch RSS Generators"
+        },
+        {
+          "name": "Streamlink Twitch GUI",
+          "url": "https://github.com/streamlink/streamlink-twitch-gui",
+          "description": "Twitch Browser for Streamlink"
+        },
+        {
+          "name": "get stream",
+          "url": "https://pwn.sh/tools/getstream.html",
+          "description": "Extract Twitch URLs"
+        },
+        {
+          "name": "Lurker.tv",
+          "url": "https://www.lurker.tv/",
+          "description": "Discord Server-Based Twitch Stream Recs"
+        },
+        {
+          "name": "Twitch TV OBS Subtitles",
+          "url": "https://github.com/stephenlb/twitch-tv-obs-subtitles/",
+          "description": "Add Subtitles to Twitch Stream"
+        },
+        {
+          "name": "StreamLadder",
+          "url": "https://streamladder.com/",
+          "description": "Social Media Templates for Twitch Clips"
+        },
+        {
+          "name": "TwitchLeak",
+          "url": "https://twitchleak.netlify.app/",
+          "description": "Twitch Top Earners Table"
+        },
+        {
+          "name": "TwitchQuotes",
+          "url": "https://www.twitchquotes.com/",
+          "description": "Twitch Copypastas"
+        },
+        {
+          "name": "TwitchEmotes",
+          "url": "https://twitchemotes.com/",
+          "description": "Global Twitch Emotes"
+        },
+        {
+          "name": "ChatGuessr",
+          "url": "https://chatguessr.com/",
+          "description": "GeoGuessr for Twitch"
+        },
+        {
+          "name": "SullyGnome",
+          "url": "https://sullygnome.com/",
+          "description": "Twitch Stats"
+        },
+        {
+          "name": "TwitchInsights",
+          "url": "https://twitchinsights.net/",
+          "description": "Twitch Stats"
+        },
+        {
+          "name": "StreamCharts",
+          "url": "https://streamscharts.com/",
+          "description": "Twitch Stats"
+        },
+        {
+          "name": "TwitchTracker",
+          "url": "https://twitchtracker.com/",
+          "description": "Twitch Stats"
+        },
+        {
+          "name": "Rumble",
+          "url": "https://rumble.com/",
+          "description": "Twitch Alternative"
+        },
+        {
+          "name": "Kick",
+          "url": "https://kick.com/",
+          "description": "Twitch Alternative"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-twitch-players",
+      "title": "Twitchプレーヤー",
+      "resources": [
+        {
+          "name": "Chatterino",
+          "url": "https://chatterino.com/",
+          "description": "Twitch Chat Clients",
+          "starred": true
+        },
+        {
+          "name": "2",
+          "url": "https://github.com/SevenTV/chatterino7",
+          "description": "Twitch Chat Clients"
+        },
+        {
+          "name": "Chatterino Homies",
+          "url": "https://chatterinohomies.com/",
+          "description": "Twitch Chat Clients"
+        },
+        {
+          "name": "Chatty",
+          "url": "https://chatty.github.io/",
+          "description": "Twitch Chat Clients"
+        },
+        {
+          "name": "Orion",
+          "url": "https://alamminsalo.github.io/orion/",
+          "description": "Twitch Desktop Clients"
+        },
+        {
+          "name": "Twitch App",
+          "url": "https://gitlab.com/linuxbombay/twitch-application/application",
+          "description": "Twitch Desktop Clients"
+        },
+        {
+          "name": "Tress",
+          "url": "https://gitlab.com/Ignamarte/tress",
+          "description": "Twitch Desktop Clients"
+        },
+        {
+          "name": "SpeechChat",
+          "url": "https://speechchat.com/",
+          "description": "Twitch Text to Speech Client"
+        },
+        {
+          "name": "Twineo",
+          "url": "https://codeberg.org/CloudyyUw/twineo",
+          "description": "Twitch Frontend / Viewer"
+        },
+        {
+          "name": "Walrus",
+          "url": "https://joinwalrus.tv/",
+          "description": "Make Twitch Watch Parties"
+        },
+        {
+          "name": "MultiTwitch.tv",
+          "url": "https://multitwitch.tv/",
+          "description": "Twitch Multi-Stream"
+        },
+        {
+          "name": "MultiTwitch.co",
+          "url": "https://multitwitch.co/",
+          "description": "Twitch Multi-Stream"
+        },
+        {
+          "name": "Twitch3D",
+          "url": "https://hjjg200.github.io/twitch3d/",
+          "description": "Twitch Multi-Stream"
+        },
+        {
+          "name": "Multi",
+          "url": "https://multi.raredrop.co/",
+          "description": "Twitch Multi-Stream"
+        },
+        {
+          "name": "MultiStre.am",
+          "url": "https://multistre.am/",
+          "description": "Twitch Multi-Stream"
+        },
+        {
+          "name": "MultiStreamer",
+          "url": "https://multistreamer.lucidnet.app/",
+          "description": "Twitch Multi-Stream"
+        },
+        {
+          "name": "TwitchTheater",
+          "url": "https://twitchtheater.tv/",
+          "description": "Twitch Multi-Stream"
+        },
+        {
+          "name": "Twitchls",
+          "url": "https://twitchls.com/",
+          "description": "HTML5 Twitch Stream Player"
+        },
+        {
+          "name": "nobody.live",
+          "url": "https://nobody.live/",
+          "description": "Random Stream Roulette"
+        },
+        {
+          "name": "Twitch Roulette",
+          "url": "https://twitchroulette.net/",
+          "description": "Random Stream Roulette"
+        },
+        {
+          "name": "Twitch Replay",
+          "url": "https://www.twitch-replay.com/",
+          "description": "Twitch Video Player"
+        },
+        {
+          "name": "Twitch Lurker",
+          "url": "https://github.com/mikeyaworski/Twitch-Lurker",
+          "description": "Twitch Stream Auto-Open"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-twitch-adblockers",
+      "title": "Twitch広告ブロッカー",
+      "resources": [
+        {
+          "name": "TwitchAdSolutions",
+          "url": "https://github.com/pixeltris/TwitchAdSolutions",
+          "description": "Solutions / Scripts for Blocking Twitch Ads",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "AdGuard Extra",
+          "url": "https://github.com/AdguardTeam/AdGuardExtra",
+          "description": "Twitch Adblocker",
+          "starred": true
+        },
+        {
+          "name": "TTV LOL PRO",
+          "url": "https://github.com/younesaassila/ttv-lol-pro",
+          "description": "Twitch Adblocker / Proxies"
+        },
+        {
+          "name": "PurpleAdblock",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/purpleadblock/",
+          "description": "Twitch Adblocker"
+        },
+        {
+          "name": "luminous-ttv",
+          "url": "https://github.com/AlyoshaVasilieva/luminous-ttv",
+          "description": "Twitch Adblocker"
+        },
+        {
+          "name": "PurpleTV",
+          "url": "https://purpletv.aeong.win/",
+          "description": "Mobile Ad-Free Twitch Apps"
+        },
+        {
+          "name": "Alpha",
+          "url": "https://t.me/pubTwAlpha",
+          "description": "Mobile Ad-Free Twitch Apps"
+        },
+        {
+          "name": "Telegram",
+          "url": "https://t.me/pubTw",
+          "description": "Mobile Ad-Free Twitch Apps"
+        },
+        {
+          "name": "TwitchAdBlock",
+          "url": "https://github.com/level3tjg/TwitchAdBlock",
+          "description": "Mobile Ad-Free Twitch Apps"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-twitch-downloaders",
+      "title": "Twitch ダウンローダー",
+      "resources": [
+        {
+          "name": "ClipsGameLab",
+          "url": "https://clipsgamelab.github.io/#/download",
+          "description": "Video Downloaders"
+        },
+        {
+          "name": "Twiclips",
+          "url": "https://twiclips.com/",
+          "description": "Video Downloaders"
+        },
+        {
+          "name": "clipsey",
+          "url": "https://clipsey.com/",
+          "description": "Video Downloaders"
+        },
+        {
+          "name": "twitch-dl",
+          "url": "https://github.com/ihabunek/twitch-dl",
+          "description": "CLI Video Downloaders"
+        },
+        {
+          "name": "twitch-downloader",
+          "url": "https://github.com/jybp/twitch-downloader",
+          "description": "CLI Video Downloaders"
+        },
+        {
+          "name": "Twitch Downloader",
+          "url": "https://github.com/lay295/TwitchDownloader",
+          "description": "Desktop Video Downloaders"
+        },
+        {
+          "name": "TwitchLink",
+          "url": "https://twitchlink.github.io/",
+          "description": "Desktop Video Downloaders"
+        },
+        {
+          "name": "TwitchRecover",
+          "url": "https://github.com/TwitchRecover/TwitchRecover",
+          "description": "Recover / View / Download Twitch Videos"
+        },
+        {
+          "name": "Twitch-Chat-Downloader",
+          "url": "https://github.com/PetterKraabol/Twitch-Chat-Downloader",
+          "description": "Download Twitch Chat Messages"
+        },
+        {
+          "name": "XCancel",
+          "url": "https://xcancel.com/",
+          "description": "X.com Frontends / Viewers",
+          "starred": true
+        },
+        {
+          "name": "nitter",
+          "url": "https://nitter.net/",
+          "description": "X.com Frontends / Viewers"
+        },
+        {
+          "name": "3",
+          "url": "https://nitter.poast.org/",
+          "description": "X.com Frontends / Viewers"
+        },
+        {
+          "name": "Instances",
+          "url": "https://status.d420.de/",
+          "description": "X.com Frontends / Viewers"
+        },
+        {
+          "name": "2",
+          "url": "https://github.com/zedeus/nitter/wiki/Instances",
+          "description": "X.com Frontends / Viewers"
+        },
+        {
+          "name": "⁠sotwe",
+          "url": "https://www.sotwe.com/",
+          "description": "X.com Frontends / Viewers"
+        },
+        {
+          "name": "twstalker",
+          "url": "https://twstalker.com/",
+          "description": "X.com Frontends / Viewers"
+        },
+        {
+          "name": "⁠Twitter Viewer",
+          "url": "https://xtwitterviewer.com/",
+          "description": "X.com Frontends / Viewers"
+        },
+        {
+          "name": "Trends24",
+          "url": "https://trends24.in/",
+          "description": "Trending Hashtags Trackers",
+          "starred": true
+        },
+        {
+          "name": "GetDayTrends",
+          "url": "https://getdaytrends.com/",
+          "description": "Trending Hashtags Trackers"
+        },
+        {
+          "name": "r/Twitter",
+          "url": "https://reddit.com/r/Twitter",
+          "description": "X.com Subreddit",
+          "starred": true
+        },
+        {
+          "name": "Typefully",
+          "url": "https://typefully.com/",
+          "description": "Schedule Tweets"
+        },
+        {
+          "name": "Chirr App",
+          "url": "https://getchirrapp.com/",
+          "description": "Turn Articles into X.com Threads / Firefox / Chrome"
+        },
+        {
+          "name": "Klear",
+          "url": "https://klear.com/free-tools/find-twitter-influencers",
+          "description": "Find Influencers"
+        },
+        {
+          "name": "FollowerWonk",
+          "url": "https://followerwonk.com/",
+          "description": "Find / Analyze / Optimize Followers"
+        },
+        {
+          "name": "Community Notes Leaderboard",
+          "url": "https://community-notes-leaderboard.com/",
+          "description": "X.com Community Notes Leaderboard"
+        },
+        {
+          "name": "Osomenet",
+          "url": "https://osome.iu.edu/tools/osomenet/",
+          "description": "Twitter Info Spread Data"
+        },
+        {
+          "name": "Twitter Mass Unfollow",
+          "url": "https://github.com/luqmanoop/twitter-mass-unfollow",
+          "description": "X.com Unfollow Tool"
+        },
+        {
+          "name": "Twitter Detector",
+          "url": "https://github.com/stilliard/Twitter-detector",
+          "description": "Detect X.com Link on a Page"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-twitterx-archiving",
+      "title": "Twitter/Xアーカイブ",
+      "resources": [
+        {
+          "name": "Thread Safe",
+          "url": "https://github.com/dkaslovsky/thread-safe",
+          "description": "Twitter Backup Tool"
+        },
+        {
+          "name": "TwitterMediaHarvest",
+          "url": "https://github.com/EltonChou/TwitterMediaHarvest",
+          "description": "Twitter Media Downloaders"
+        },
+        {
+          "name": "⁠twmd",
+          "url": "https://github.com/mmpx12/twitter-media-downloader",
+          "description": "Twitter Media Downloaders"
+        },
+        {
+          "name": "InThisTweet",
+          "url": "https://inthistweet.app/",
+          "description": "Twitter Media Downloaders"
+        },
+        {
+          "name": "Twitsave",
+          "url": "https://twitsave.com/",
+          "description": "Download Twitter Videos"
+        },
+        {
+          "name": "sssTwitter",
+          "url": "https://ssstwitter.com/",
+          "description": "Download Twitter Videos"
+        },
+        {
+          "name": "Pikaso",
+          "url": "https://x.com/pikaso_me",
+          "description": "Twitter Screenshot Bot"
+        },
+        {
+          "name": "memory.lol",
+          "url": "https://github.com/travisbrown/memory.lol/",
+          "description": "Twitter Account Archive"
+        },
+        {
+          "name": "Ghost Archive",
+          "url": "https://ghostarchive.org/",
+          "description": "Twitter Archive Services"
+        },
+        {
+          "name": "Megalodon",
+          "url": "https://megalodon.jp/",
+          "description": "Twitter Archive Services"
+        },
+        {
+          "name": "Twitter Archive Parser",
+          "url": "https://github.com/timhutton/twitter-archive-parser",
+          "description": "Tweet Archivers"
+        },
+        {
+          "name": "twitter-web-exporter",
+          "url": "https://github.com/prinsss/twitter-web-exporter",
+          "description": "Tweet Archivers"
+        },
+        {
+          "name": "Twayback Machine",
+          "url": "https://staringispolite.github.io/twayback-machine/",
+          "description": "View Users' Old Tweets"
+        },
+        {
+          "name": "TweetedAt",
+          "url": "https://oduwsdl.github.io/tweetedat/",
+          "description": "View Tweet Dates"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-twitterx-customization",
+      "title": "Twitter/Xカスタマイズ",
+      "resources": [
+        {
+          "name": "Control Panel for Twitter",
+          "url": "https://soitis.dev/control-panel-for-twitter",
+          "description": "Twitter Enhancement Extensions",
+          "starred": true
+        },
+        {
+          "name": "Minimal Twitter",
+          "url": "https://typefully.com/minimal-twitter",
+          "description": "Minimal Twitter Themes"
+        },
+        {
+          "name": "OldTwitter",
+          "url": "https://github.com/dimdenGD/OldTwitter",
+          "description": "Original Twitter Theme"
+        },
+        {
+          "name": "GoodTwitter2",
+          "url": "https://github.com/Bl4Cc4t/GoodTwitter2",
+          "description": "Original Twitter Theme"
+        },
+        {
+          "name": "OldTweetDeck",
+          "url": "https://github.com/dimdenGD/OldTweetDeck",
+          "description": "Twitter Dashboard"
+        },
+        {
+          "name": "Twitter Plus",
+          "url": "https://greasyfork.org/en/scripts/387969",
+          "description": "View Twitter Images in Original Quality"
+        },
+        {
+          "name": "Twitter Demetricator",
+          "url": "https://bengrosser.com/projects/twitter-demetricator/",
+          "description": "Remove All Twitter Metrics"
+        },
+        {
+          "name": "Thread Reader App",
+          "url": "https://threadreaderapp.com/",
+          "description": "Unroll Twitter Threads / Search"
+        },
+        {
+          "name": "Hide Content Warning",
+          "url": "https://greasyfork.org/en/scripts/437359",
+          "description": "Remove Sensitive Content Blur"
+        },
+        {
+          "name": "Disable Blur",
+          "url": "https://userstyles.world/style/15658/",
+          "description": "Remove Sensitive Content Blur"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-bluesky-tools",
+      "title": "Bluesky ツール",
+      "resources": [
+        {
+          "name": "Awesome Bluesky",
+          "url": "https://github.com/fishttp/awesome-bluesky",
+          "description": "Bluesky Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "BlueskyDirectory",
+          "url": "https://blueskydirectory.com/",
+          "description": "Bluesky Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Bluesky",
+          "url": "https://bsky.app/",
+          "description": "Federated Twitter Alternative / App Directory / Twitter Import / TUI / Dashboard",
+          "starred": true
+        },
+        {
+          "name": "DarkSky",
+          "url": "https://github.com/FireCubeStudios/DarkSky",
+          "description": "Bluesky Client"
+        },
+        {
+          "name": "Facebook Ad Filters",
+          "url": "https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_facebook",
+          "description": "Facebook Filters",
+          "starred": true
+        },
+        {
+          "name": "FBPurity",
+          "url": "https://www.fbpurity.com/",
+          "description": "Facebook Enhancement Extensions"
+        },
+        {
+          "name": "Social Tools",
+          "url": "https://chromewebstore.google.com/detail/social-tools/llbdoljkknpjgfcnbnoiehjcgancpjmd",
+          "description": "Block \"Sending\" & \"Seen\" Facebook Chat Indicators"
+        },
+        {
+          "name": "⁠FB Login Wall Remover",
+          "url": "https://greasyfork.org/en/scripts/548145",
+          "description": "Remove Facebook Login Wall"
+        },
+        {
+          "name": "Charcoal Dark Mode",
+          "url": "https://chromewebstore.google.com/detail/charcoal-dark-mode-for-me/aaekanoannlhnajolbijaoflfhikcgng",
+          "description": "Facebook Messenger Dark Mode"
+        },
+        {
+          "name": "Facebook Matrix",
+          "url": "https://plessas.net/facebookmatrix",
+          "description": "Facebook Search Formulas"
+        },
+        {
+          "name": "Graph.tips",
+          "url": "https://graph.tips/beta/",
+          "description": "Advanced Facebook Search Tool"
+        },
+        {
+          "name": "WhoPostedWhat",
+          "url": "https://whopostedwhat.com/",
+          "description": "Facebook Post Search"
+        },
+        {
+          "name": "FB.Zone",
+          "url": "https://fb.zone/",
+          "description": "Color Themes for Facebook"
+        },
+        {
+          "name": "Remove FBclid",
+          "url": "https://chromewebstore.google.com/detail/remove-fbclid-and-utm/ehkdoijaaigomfliimepliikhjkoipob",
+          "description": "Removes fbclid and utm_ Query Parameters in URLs"
+        },
+        {
+          "name": "News Feed Eradicator",
+          "url": "https://west.io/news-feed-eradicator/",
+          "description": "Hide Facebook News Feed"
+        },
+        {
+          "name": "Lookup ID",
+          "url": "https://lookup-id.com/",
+          "description": "Find Facebook ID"
+        },
+        {
+          "name": "Unlike-Everything",
+          "url": "https://github.com/tlorien/Unlike-Everything-on-Facebook",
+          "description": "Remove All Facebook Likes"
+        },
+        {
+          "name": "KittyGram",
+          "url": "https://kittygr.am/",
+          "description": "Instagram Frontends"
+        },
+        {
+          "name": "2",
+          "url": "https://instagram.fsky.io/",
+          "description": "Instagram Frontends"
+        },
+        {
+          "name": "3",
+          "url": "https://kittygram.fsky.io/",
+          "description": "Instagram Frontends"
+        },
+        {
+          "name": ".onion",
+          "url": "http://instab6cpzrbczpkrvjj3gutly5qx3o2xzpyhlmtwthtzjmjw4tppvad.onion/",
+          "description": "Instagram Frontends"
+        },
+        {
+          "name": "Codeberg",
+          "url": "https://codeberg.org/irelephant/kittygram",
+          "description": "Instagram Frontends"
+        },
+        {
+          "name": "Imginn",
+          "url": "https://imginn.com",
+          "description": "Instagram Frontends"
+        },
+        {
+          "name": "otzberg",
+          "url": "https://www.otzberg.net/iguserid/index.php",
+          "description": "ID Finder"
+        },
+        {
+          "name": "Find-User-ID",
+          "url": "https://codeofaninja.com/tools/find-instagram-user-id/",
+          "description": "ID Finder"
+        },
+        {
+          "name": "Image Counter",
+          "url": "https://openuserjs.org/scripts/darkred/Instagram_-_visible_images_counter",
+          "description": "Count Page Images"
+        },
+        {
+          "name": "InstaAddict",
+          "url": "https://github.com/Androz2091/instaddict",
+          "description": "Instagram Addiction Test"
+        },
+        {
+          "name": "Unfollow-Everyone",
+          "url": "https://github.com/tlorien/Unfollow-Everyone-on-Instagram",
+          "description": "Bulk Instagram Unfollow"
+        },
+        {
+          "name": "InstagramUnfollowers",
+          "url": "https://davidarroyo1234.github.io/InstagramUnfollowers/",
+          "description": "Check Who Follows Back",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Instagram Experiments Guide",
+          "url": "https://github.com/daniiii5/Public-Guide",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-viewers-downloaders",
+      "title": "Viewers / ダウンローダー",
+      "resources": [
+        {
+          "name": "Instaloader",
+          "url": "https://instaloader.github.io/",
+          "description": "CLI Downloader",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/instaloader/instaloader",
+          "description": "CLI Downloader"
+        },
+        {
+          "name": "FastDL",
+          "url": "https://fastdl.app/en2",
+          "description": "Online Downloaders"
+        },
+        {
+          "name": "Weynstag",
+          "url": "https://www.google.com/amp/s/weynstag.com/amp.php/",
+          "description": "Online Downloaders"
+        },
+        {
+          "name": "SaveFromWeb",
+          "url": "https://www.savefromweb.com/",
+          "description": "Online Downloaders"
+        },
+        {
+          "name": "Dumpor",
+          "url": "https://dumpor.io/",
+          "description": "Anonymous Story / Profile Viewers"
+        },
+        {
+          "name": "2",
+          "url": "https://greatfon.io/",
+          "description": "Anonymous Story / Profile Viewers"
+        },
+        {
+          "name": "anonyig",
+          "url": "https://anonyig.com/",
+          "description": "Anonymous Story / Profile Viewers"
+        },
+        {
+          "name": "mollygram",
+          "url": "https://mollygram.com/",
+          "description": "Anonymous Story / Profile Viewers"
+        },
+        {
+          "name": "IG Helper",
+          "url": "https://greasyfork.org/en/scripts/404535",
+          "description": "Userscripts"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/SN-Koarashi/ig-helper/",
+          "description": "Userscripts"
+        },
+        {
+          "name": "IG Download Button",
+          "url": "https://greasyfork.org/en/scripts/406535-instagram-download-button",
+          "description": "Userscripts"
+        },
+        {
+          "name": "ESUIT",
+          "url": "https://chromewebstore.google.com/detail/esuit-photos-downloader-f/adighedbfmnpjcjlloooichmbjdefane",
+          "description": "Chrome Extension"
+        },
+        {
+          "name": "Bear Blog",
+          "url": "https://bearblog.dev/",
+          "description": "Minimalist Blogging Platforms",
+          "starred": true
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/HermanMartinus/bearblog",
+          "description": "Minimalist Blogging Platforms"
+        },
+        {
+          "name": "⁠TinyBones",
+          "url": "https://tinybones.pages.dev/",
+          "description": "Minimalist Blogging Platforms"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/itzcozi/tinybones",
+          "description": "Minimalist Blogging Platforms"
+        },
+        {
+          "name": "Mataroa",
+          "url": "https://mataroa.blog/",
+          "description": "Minimalist Blogging Platforms"
+        },
+        {
+          "name": "smol.pub",
+          "url": "https://smol.pub/",
+          "description": "Minimalist Blogging Platforms"
+        },
+        {
+          "name": "Key",
+          "url": "https://m15o.ichi.city/smolpub/key-request.html",
+          "description": "Minimalist Blogging Platforms"
+        },
+        {
+          "name": "Telescope",
+          "url": "https://telescope.ac/",
+          "description": "Publishing Platform"
+        },
+        {
+          "name": "Dreamwidth",
+          "url": "https://www.dreamwidth.org/",
+          "description": "Blogging Platform"
+        },
+        {
+          "name": "Haven",
+          "url": "https://havenweb.org/",
+          "description": "Self-Hosted Blogging Platforms"
+        },
+        {
+          "name": "WriteFreely",
+          "url": "https://writefreely.org/",
+          "description": "Self-Hosted Blogging Platforms"
+        },
+        {
+          "name": "Notepin",
+          "url": "https://notepin.co/",
+          "description": "Anonymous Blogging Platform"
+        },
+        {
+          "name": "Hexo",
+          "url": "https://hexo.io/",
+          "description": "Static Blog Template / Themes",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Zonelets",
+          "url": "https://zonelets.net/",
+          "description": "Static Blog Template"
+        },
+        {
+          "name": "twtxt",
+          "url": "https://github.com/buckket/twtxt",
+          "description": "Decentralized Minimalist Microblogging Service"
+        },
+        {
+          "name": "Emanates Docs",
+          "url": "https://emanates.deepjyoti30.dev/",
+          "description": "Make GitHub-Based Blogs"
+        },
+        {
+          "name": "CoverView",
+          "url": "https://coverview.vercel.app/",
+          "description": "Blog Banner Creator"
+        },
+        {
+          "name": "Tumlook",
+          "url": "https://www.tumlook.com/",
+          "description": "Tumblr Frontends"
+        },
+        {
+          "name": "Tumgik",
+          "url": "https://www.tumgik.com/",
+          "description": "Tumblr Frontends"
+        },
+        {
+          "name": "PriviBlur",
+          "url": "https://github.com/syeopite/priviblur",
+          "description": "Tumblr Frontends"
+        },
+        {
+          "name": "Pillowfort",
+          "url": "https://www.pillowfort.social/",
+          "description": "Tumblr Alternatives"
+        },
+        {
+          "name": "tumblr-utils",
+          "url": "https://github.com/cebtenzzre/tumblr-utils",
+          "description": "Tumblr Utilities"
+        },
+        {
+          "name": "XKit",
+          "url": "https://github.com/AprilSylph/XKit-Rewritten",
+          "description": "Tumblr Enhancement Extension"
+        },
+        {
+          "name": "tumbex",
+          "url": "https://www.tumbex.com/",
+          "description": "Tumblr Search"
+        },
+        {
+          "name": "Outbox for Tumblr",
+          "url": "https://github.com/AprilSylph/Outbox-for-Tumblr",
+          "description": "Tumblr Outbox"
+        },
+        {
+          "name": "TumblrOriginalPostFinder",
+          "url": "https://jetblackcode.com/TumblrOriginalPostFinder",
+          "description": "Tumblr Post Finder"
+        },
+        {
+          "name": "Tumbl Backup Guide",
+          "url": "https://docs.google.com/document/d/1yBWlk-yEgpSoEh3c9oLhz_kbLtUGqbqzOpCtJsvQgjI/",
+          "description": "Tumblr Backup Tools"
+        },
+        {
+          "name": "TumblThree",
+          "url": "https://tumblthreeapp.github.io/TumblThree/",
+          "description": "Tumblr Backup Tools"
+        },
+        {
+          "name": "Palettes for Tumblr",
+          "url": "https://github.com/AprilSylph/Palettes-for-Tumblr",
+          "description": "Tumblr Palettes"
+        },
+        {
+          "name": "Filtering Plus",
+          "url": "https://github.com/AprilSylph/Filtering-Plus",
+          "description": "Improved Filtering"
+        },
+        {
+          "name": "Fediverse.Party",
+          "url": "https://fediverse.party/",
+          "description": "Fediverse Software Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Fediverse Observer",
+          "url": "https://fediverse.observer/",
+          "description": "Fediverse Instances",
+          "starred": true
+        },
+        {
+          "name": "Nostr",
+          "url": "https://nstart.me/",
+          "description": "Federated Twitter Alternative / Apps / Resources"
+        },
+        {
+          "name": "FediDB",
+          "url": "https://fedidb.org/",
+          "description": "Network Statistics"
+        },
+        {
+          "name": "The Federation",
+          "url": "https://the-federation.info/",
+          "description": "Network Statistics"
+        },
+        {
+          "name": "Fedi.Tips",
+          "url": "https://fedi.tips/",
+          "description": "Fediverse Guide"
+        },
+        {
+          "name": "FediSearch",
+          "url": "https://fedi-search.com/",
+          "description": "Fediverse Search"
+        },
+        {
+          "name": "Fedi.Garden",
+          "url": "https://fedi.garden/",
+          "description": "Curated User Directory"
+        },
+        {
+          "name": "Fediverse People Directory",
+          "url": "https://fediverse.info/explore/people",
+          "description": "Self-Submitted User Directory"
+        },
+        {
+          "name": "Hubzilla Public Sites",
+          "url": "https://hubzilla.org/pubsites",
+          "description": "Hubzilla Instances"
+        },
+        {
+          "name": "Friendica Directory",
+          "url": "https://dir.friendica.social/servers",
+          "description": "Friendica Instances"
+        },
+        {
+          "name": "Lemmy",
+          "url": "https://join-lemmy.org/",
+          "description": "Decentralized Social Networks"
+        },
+        {
+          "name": "Tools",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media/#wiki_.25B7_lemmy_tools",
+          "description": "Decentralized Social Networks"
+        },
+        {
+          "name": "Mastodon",
+          "url": "https://joinmastodon.org/",
+          "description": "Decentralized Social Networks"
+        },
+        {
+          "name": "Tools",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media/#wiki_.25B7_mastodon_tools",
+          "description": "Decentralized Social Networks"
+        },
+        {
+          "name": "Diaspora",
+          "url": "https://diasporafoundation.org/",
+          "description": "Decentralized Social Networks"
+        },
+        {
+          "name": "Friendica",
+          "url": "https://friendi.ca",
+          "description": "Decentralized Social Networks"
+        },
+        {
+          "name": "FediverseRedirect",
+          "url": "https://github.com/zacharee/MastodonRedirect",
+          "description": "Frontend Redirect"
+        },
+        {
+          "name": "Bridgy Fed",
+          "url": "https://fed.brid.gy/",
+          "description": "Fediverse Bridge"
+        },
+        {
+          "name": "PodcastAP",
+          "url": "https://podcastap.com/",
+          "description": "Podcast Feed Bridge"
+        },
+        {
+          "name": "The Fediverse Report",
+          "url": "https://fediversereport.com/",
+          "description": "Fediverse News"
+        },
+        {
+          "name": "FediBuzz",
+          "url": "https://fedi.buzz/in/en",
+          "description": "Fediverse Trends"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-mastodon-tools",
+      "title": "Mastodon ツール",
+      "resources": [
+        {
+          "name": "Awesome Mastodon",
+          "url": "https://hueyy.github.io/awesome-mastodon/",
+          "description": "Mastodon Resources",
+          "tags": [
+            "index"
+          ],
+          "mirrors": [
+            "https://github.com/hyperupcall/awesome-mastodon"
+          ]
+        },
+        {
+          "name": "instances.social",
+          "url": "https://instances.social/",
+          "description": "Mastodon Instances",
+          "starred": true
+        },
+        {
+          "name": "Mastodon Near Me",
+          "url": "http://mastodon-near.me/",
+          "description": "Mastodon Instances"
+        },
+        {
+          "name": "Mastodon Apps",
+          "url": "https://joinmastodon.org/apps",
+          "description": "Mastodon Client List",
+          "starred": true
+        },
+        {
+          "name": "Phanpy",
+          "url": "https://phanpy.social/",
+          "description": "Mastodon Clients"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/cheeaun/phanpy",
+          "description": "Mastodon Clients"
+        },
+        {
+          "name": "Mastodeck",
+          "url": "https://mastodeck.com/",
+          "description": "Mastodon Clients"
+        },
+        {
+          "name": "Fediwall",
+          "url": "https://fediwall.social/",
+          "description": "View Public Timelines / Hashtags"
+        },
+        {
+          "name": "Followgraph",
+          "url": "https://followgraph.vercel.app/",
+          "description": "Find Mastodon Users"
+        },
+        {
+          "name": "StreetPass",
+          "url": "https://streetpass.social/",
+          "description": "Find Mastodon Users"
+        },
+        {
+          "name": "MastoGizmos",
+          "url": "https://mastogizmos.com/",
+          "description": "Mastodon Search Tools"
+        },
+        {
+          "name": "western.social",
+          "url": "https://western.social/",
+          "description": "User Search"
+        },
+        {
+          "name": "Tootfinder",
+          "url": "https://www.tootfinder.ch/",
+          "description": "Opt-In Full Text Search"
+        },
+        {
+          "name": "Mastodon Scheduler",
+          "url": "https://scheduler.mastodon.tools/",
+          "description": "Schedule Posts"
+        },
+        {
+          "name": "FediPlan",
+          "url": "https://plan.fedilab.app/",
+          "description": "Schedule Posts"
+        },
+        {
+          "name": "Mastodon List Manager",
+          "url": "https://www.mastodonlistmanager.org/main",
+          "description": "Bulk List Editors"
+        },
+        {
+          "name": "Mastodon Lists Manager",
+          "url": "https://mastodon-lists-manager.huey.xyz/",
+          "description": "Bulk List Editors"
+        },
+        {
+          "name": "Mastodon Share Bookmarklet Creator",
+          "url": "https://eai04191.github.io/mastodon-share-let-maker/index.html",
+          "description": "Quick Share Bookmarklet"
+        },
+        {
+          "name": "fedv.link",
+          "url": "https://fedv.link/",
+          "description": "Mastodon Link Redirect"
+        },
+        {
+          "name": "Mastodon Embed Timeline",
+          "url": "https://gitlab.com/idotj/mastodon-embed-timeline",
+          "description": "Embedded Mastodon Feeds"
+        },
+        {
+          "name": "Mastofeed",
+          "url": "https://mastofeed.com/",
+          "description": "Embedded Mastodon Feeds"
+        },
+        {
+          "name": "Cheap Bots, Toot Sweet!",
+          "url": "https://cheapbotstootsweet.com/",
+          "description": "Create Bots"
+        },
+        {
+          "name": "emojos.in",
+          "url": "https://emojos.in/",
+          "description": "Mastodon Custom Emoji Lists"
+        },
+        {
+          "name": "MastoMetrics",
+          "url": "https://mastometrics.com/",
+          "description": "Mastodon Analytics"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-lemmy-tools",
+      "title": "Lemmy ツール",
+      "resources": [
+        {
+          "name": "Lemmy Explorer",
+          "url": "https://lemmyverse.net/",
+          "description": "Lemmy Instances",
+          "starred": true
+        },
+        {
+          "name": "Awesome Lemmy Instances",
+          "url": "https://github.com/maltfield/awesome-lemmy-instances",
+          "description": "Lemmy Instances"
+        },
+        {
+          "name": "Lemmy Apps",
+          "url": "https://join-lemmy.org/apps",
+          "description": "Lemmy Client List",
+          "starred": true
+        },
+        {
+          "name": "Divisions by zero",
+          "url": "https://lemmy.dbzer0.com/",
+          "description": "Piracy Focused Instance",
+          "starred": true
+        },
+        {
+          "name": "Quiblr",
+          "url": "https://quiblr.com/",
+          "description": "Lemmy Instance Browser",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "LemmyTools",
+          "url": "https://github.com/howdy-tsc/LemmyTools",
+          "description": "Lemmy Improvement Extension"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-pixelfed-tools",
+      "title": "Pixelfed ツール",
+      "resources": [
+        {
+          "name": "Pixelfed Apps",
+          "url": "https://pixelfed.org/mobile-apps",
+          "description": "Pixelfed Client List",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "The Federation Pixelfed",
+          "url": "https://the-federation.info/platform/26",
+          "description": "Pixelfed Instances"
+        },
+        {
+          "name": "FediDB Pixelfed",
+          "url": "https://fedidb.org/software/pixelfed",
+          "description": "Pixelfed Instances"
+        },
+        {
+          "name": "Fediverse Observer Pixelfed",
+          "url": "https://pixelfed.fediverse.observer/list",
+          "description": "Pixelfed Instances"
+        },
+        {
+          "name": "Pixelfed.social",
+          "url": "https://pixelfed.social/",
+          "description": "Pixelfed Instance"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-peertube-tools",
+      "title": "Peertube ツール",
+      "resources": [
+        {
+          "name": "Peertube Apps",
+          "url": "https://docs.joinpeertube.org/use/third-party-application",
+          "description": "Peertube Client List",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "Sepia Search",
+          "url": "https://joinpeertube.org/browse-content",
+          "description": "Peertube Search Engine",
+          "mirrors": [
+            "https://sepiasearch.org/"
+          ]
+        },
+        {
+          "name": "Peertube Instances",
+          "url": "https://joinpeertube.org/instances",
+          "description": "Peertube Instances",
+          "mirrors": [
+            "https://instances.joinpeertube.org/instances"
+          ]
+        },
+        {
+          "name": "The Federation Peertube",
+          "url": "https://the-federation.info/platform/29",
+          "description": "Peertube Instances"
+        },
+        {
+          "name": "FediDB Peertube",
+          "url": "https://fedidb.org/software/peertube",
+          "description": "Peertube Instances"
+        },
+        {
+          "name": "Fediverse Observer Peertube",
+          "url": "https://peertube.fediverse.observer/list",
+          "description": "Peertube Instances"
+        },
+        {
+          "name": "4chan X",
+          "url": "https://www.4chan-x.net/",
+          "description": "Enhancement Extensions"
+        },
+        {
+          "name": "SpookyX",
+          "url": "https://github.com/Fiddlekins/SpookyX",
+          "description": "Enhancement Extensions"
+        },
+        {
+          "name": "Dollchan",
+          "url": "https://dollchan.net/",
+          "description": "Enhancement Extensions"
+        },
+        {
+          "name": "Lurka",
+          "url": "https://github.com/AdamSalma/Lurka",
+          "description": "Desktop Client"
+        },
+        {
+          "name": "Kuroba",
+          "url": "https://github.com/Adamantcheese/Kuroba",
+          "description": "4chan Mobile Apps"
+        },
+        {
+          "name": "Chan",
+          "url": "https://github.com/moffatman/chan",
+          "description": "4chan Mobile Apps"
+        },
+        {
+          "name": "RedditChan",
+          "url": "https://reddit-chan.vercel.app/",
+          "description": "Reddit Style 4chan Web Client"
+        },
+        {
+          "name": "4Webm",
+          "url": "https://www.4webm.org/",
+          "description": "Load All Webm Videos in 4chan Thread"
+        },
+        {
+          "name": "4stats",
+          "url": "https://4stats.io/",
+          "description": "4chan Board / Thread Stats"
+        },
+        {
+          "name": "Mass Reply",
+          "url": "https://github.com/HamletDuFromage/4chan-mass-reply",
+          "description": "Mass Reply on 4chan"
+        },
+        {
+          "name": "Reply All",
+          "url": "https://gitlab.com/lucadou/4chan-reply-all",
+          "description": "Mass Reply on 4chan"
+        },
+        {
+          "name": "Anon Files Names",
+          "url": "https://greasyfork.org/en/scripts/435220",
+          "description": "Anonymizes File Names"
+        },
+        {
+          "name": "4chan GhostPostMixer",
+          "url": "https://github.com/g-gundam/4chan-ghostpostmixer",
+          "description": "Interleave Deleted Posts from Archives"
+        },
+        {
+          "name": "4chan Captcha Solver",
+          "url": "https://github.com/drunohazarb/4chan-captcha-solver",
+          "description": "Auto Captcha Solvers"
+        },
+        {
+          "name": "Bypass Derefer",
+          "url": "https://greasyfork.org/en/scripts/451259",
+          "description": "Remove Link Derefer"
+        },
+        {
+          "name": "Extra Flags for 4chan",
+          "url": "https://gitlab.com/flagtism/Extra-Flags-for-4chan",
+          "description": "Add More Flags to 4chan"
+        },
+        {
+          "name": "ss21",
+          "url": "https://github.com/saxamaphone69/ss21",
+          "description": "4chan Themes"
+        },
+        {
+          "name": "OneeChan",
+          "url": "https://github.com/KevinParnell/OneeChan",
+          "description": "4chan Themes"
+        },
+        {
+          "name": "4cheddit",
+          "url": "https://greasyfork.org/en/scripts/16672",
+          "description": "4chan Themes"
+        }
+      ]
+    },
+    {
+      "id": "social-media-tools-4chan-archives",
+      "title": "4chanアーカイブ",
+      "resources": [
+        {
+          "name": "4chanSearch",
+          "url": "https://4chansearch.com/",
+          "description": "Search 4chan Archives"
+        },
+        {
+          "name": "4search",
+          "url": "https://4search.neocities.org/",
+          "description": "Search 4chan Archives"
+        },
+        {
+          "name": "4rchive",
+          "url": "https://4rchive.org/",
+          "description": "Misc 4chan Archives"
+        },
+        {
+          "name": "sup/tg/",
+          "url": "https://suptg.thisisnotatrueending.com/",
+          "description": "Misc 4chan Archives"
+        },
+        {
+          "name": "Palanq.win",
+          "url": "https://archive.palanq.win/",
+          "description": "Misc 4chan Archives"
+        },
+        {
+          "name": "AyaseQuart",
+          "url": "https://ayasequart.org/fts",
+          "description": "Misc 4chan Archives"
+        },
+        {
+          "name": "Desuarchive",
+          "url": "https://desuarchive.org/",
+          "description": "Misc 4chan Archives"
+        },
+        {
+          "name": "arch.b4k",
+          "url": "https://arch.b4k.dev/",
+          "description": "Misc 4chan Archives"
+        },
+        {
+          "name": "Archived.Moe",
+          "url": "https://archived.moe/",
+          "description": "Misc 4chan Archives"
+        },
+        {
+          "name": "The /b/ Archive",
+          "url": "https://thebarchive.com/",
+          "description": "Misc 4chan Archives"
+        },
+        {
+          "name": "Oldfriend Archive",
+          "url": "https://old.sage.moe/",
+          "description": "2004 - 2014 Archive"
+        },
+        {
+          "name": "Ten Billion",
+          "url": "https://archive.org/details/4chan_threads_archive_10_billion",
+          "description": "2006 - 2008 Archive"
+        },
+        {
+          "name": "4Museum",
+          "url": "https://4museum.neocities.org/",
+          "description": "2006 - 2008 Archive"
+        },
+        {
+          "name": "4GBs of 4chan Threads",
+          "url": "https://archive.org/details/4chan-threads-2009-2012",
+          "description": "2009 - 2012 Archive"
+        },
+        {
+          "name": "Archive.4plebs",
+          "url": "https://archive.4plebs.org/",
+          "description": "2013 - 2023 Archive"
+        },
+        {
+          "name": "BibAnon",
+          "url": "https://vyrd.bibanon.org/",
+          "description": "Vyrd's Archive"
+        },
+        {
+          "name": "Yotsuba Catalog",
+          "url": "https://catalog.neet.tv/",
+          "description": "Yotsuba Archive"
+        }
+      ],
+      "note": "ご注意ください that some of these contain both SFW and NSFW content."
+    }
+  ]
+}

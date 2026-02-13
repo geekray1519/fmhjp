@@ -1,7 +1,7 @@
-import { categories } from "@/data/categories";
+import { categories } from "@/data";
 import { CategoryCard } from "@/components/CategoryCard";
 import { AdBanner } from "@/components/AdBanner";
-import { Search, BookOpen, Star, TrendingUp } from "lucide-react";
+import { Search, BookOpen, Star, TrendingUp, Sparkles } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -12,16 +12,38 @@ export default function Home() {
     0
   );
 
+  const totalSubcategories = categories.reduce(
+    (sum, cat) => sum + cat.subcategories.length,
+    0
+  );
+
   // Pick starred resources from across categories for the featured section
-  const featuredResources = categories
+  const allStarred = categories
     .flatMap((cat) =>
       cat.subcategories.flatMap((sub) =>
         sub.resources
           .filter((r) => r.starred)
           .map((r) => ({ ...r, categoryTitle: cat.title, categorySlug: cat.slug, categoryIcon: cat.icon }))
       )
-    )
-    .slice(0, 8);
+    );
+
+  // Deterministic pseudo-random selection based on day of year
+  const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000);
+  const shuffled = allStarred.sort((a, b) => {
+    const ha = (a.name.charCodeAt(0) * 31 + dayOfYear) % 1000;
+    const hb = (b.name.charCodeAt(0) * 31 + dayOfYear) % 1000;
+    return ha - hb;
+  });
+  const featuredResources = shuffled.slice(0, 12);
+
+  // Top categories by resource count
+  const popularCategories = [...categories]
+    .map((cat) => ({
+      ...cat,
+      resourceCount: cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0),
+    }))
+    .sort((a, b) => b.resourceCount - a.resourceCount)
+    .slice(0, 6);
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,7 +62,7 @@ export default function Home() {
           <p className="mt-4 text-lg sm:text-xl text-muted max-w-2xl mx-auto leading-relaxed">
             インターネット上の無料リソースを集めた
             <br className="hidden sm:block" />
-            最大のコレクション
+            日本最大級のコレクション
           </p>
         </div>
 
@@ -68,12 +90,17 @@ export default function Home() {
           </div>
           <div className="w-px h-8 bg-border" />
           <div>
-            <div className="text-2xl sm:text-3xl font-bold gradient-text">{totalResources}+</div>
+            <div className="text-2xl sm:text-3xl font-bold gradient-text">{totalResources.toLocaleString()}+</div>
             <div className="text-xs text-muted mt-1">リソース</div>
           </div>
           <div className="w-px h-8 bg-border" />
           <div>
-            <div className="text-2xl sm:text-3xl font-bold gradient-text">毎日</div>
+            <div className="text-2xl sm:text-3xl font-bold gradient-text">{totalSubcategories}+</div>
+            <div className="text-xs text-muted mt-1">セクション</div>
+          </div>
+          <div className="w-px h-8 bg-border" />
+          <div>
+            <div className="text-2xl sm:text-3xl font-bold gradient-text">毎月</div>
             <div className="text-xs text-muted mt-1">更新</div>
           </div>
         </div>
@@ -83,28 +110,31 @@ export default function Home() {
       <section className="pb-12">
         <div className="flex items-center gap-2 mb-6">
           <TrendingUp size={20} className="text-accent" />
-          <h2 className="text-xl font-bold">今週のおすすめ</h2>
+          <h2 className="text-xl font-bold">おすすめリソース</h2>
+          <span className="text-xs text-muted ml-auto">{allStarred.length}件のおすすめから厳選</span>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
           {featuredResources.map((resource, i) => (
             <a
-              key={resource.name}
+              key={resource.name + resource.categorySlug}
               href={resource.url}
               target="_blank"
               rel="noopener noreferrer"
               className="group block p-4 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 transition-all duration-300 hover:shadow-lg hover:shadow-accent/5 animate-fade-in"
-              style={{ animationDelay: `${i * 50}ms` }}
+              style={{ animationDelay: `${i * 40}ms` }}
             >
               <div className="flex items-center gap-2 mb-2">
                 <Star size={12} className="text-amber-400 fill-amber-400" />
-                <span className="text-xs text-muted">{resource.categoryIcon} {resource.categoryTitle}</span>
+                <span className="text-xs text-muted truncate">{resource.categoryIcon} {resource.categoryTitle}</span>
               </div>
               <h3 className="font-semibold text-sm group-hover:text-accent transition-colors truncate">
                 {resource.name}
               </h3>
-              <p className="mt-1 text-xs text-muted leading-relaxed line-clamp-2">
-                {resource.description}
-              </p>
+              {resource.description && (
+                <p className="mt-1 text-xs text-muted leading-relaxed line-clamp-2">
+                  {resource.description}
+                </p>
+              )}
             </a>
           ))}
         </div>
@@ -112,9 +142,31 @@ export default function Home() {
 
       <AdBanner slot="home-top" className="mb-8" />
 
+      {/* Popular Categories */}
+      <section className="pb-12">
+        <div className="flex items-center gap-2 mb-6">
+          <Sparkles size={20} className="text-accent" />
+          <h2 className="text-xl font-bold">人気カテゴリ</h2>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+          {popularCategories.map((cat, i) => (
+            <Link
+              key={cat.id}
+              href={`/${cat.slug}`}
+              className="group text-center p-4 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 transition-all duration-300 animate-fade-in"
+              style={{ animationDelay: `${i * 50}ms` }}
+            >
+              <div className="text-3xl mb-2">{cat.icon}</div>
+              <div className="text-xs font-medium group-hover:text-accent transition-colors truncate">{cat.title}</div>
+              <div className="text-[10px] text-muted mt-1">{cat.resourceCount.toLocaleString()} リソース</div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       <section id="categories" className="pb-16">
         <div className="flex items-center justify-between mb-8">
-          <h2 className="text-2xl font-bold">カテゴリ一覧</h2>
+          <h2 className="text-2xl font-bold">全カテゴリ一覧</h2>
           <span className="text-xs text-muted">{categories.length} カテゴリ</span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
