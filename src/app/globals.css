@@ -238,6 +238,24 @@ body {
   animation: scale-in 0.4s ease-out forwards;
 }
 
+/* Animated underline for links */
+.link-underline {
+  position: relative;
+}
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--accent);
+  transition: width 0.3s ease;
+}
+.link-underline:hover::after {
+  width: 100%;
+}
+
 /* Selection color */
 ::selection {
   background-color: rgba(99, 102, 241, 0.3);
