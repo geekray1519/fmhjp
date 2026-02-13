@@ -143,29 +143,51 @@ export default function Home() {
           <span className="text-xs text-muted ml-auto">{allStarred.length}件のおすすめから厳選</span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
-          {featuredResources.map((resource, i) => (
-            <a
-              key={resource.name + resource.categorySlug}
-              href={resource.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block p-4 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 transition-all duration-300 hover:shadow-lg hover:shadow-accent/5 animate-fade-in"
-              style={{ animationDelay: `${i * 40}ms` }}
-            >
-              <div className="flex items-center gap-2 mb-2">
-                <Star size={12} className="text-amber-400 fill-amber-400" />
-                <span className="text-xs text-muted truncate">{resource.categoryIcon} {resource.categoryTitle}</span>
-              </div>
-              <h3 className="font-semibold text-sm group-hover:text-accent transition-colors truncate">
-                {resource.name}
-              </h3>
-              {resource.description && (
-                <p className="mt-1 text-xs text-muted leading-relaxed line-clamp-2">
-                  {resource.description}
-                </p>
-              )}
-            </a>
-          ))}
+          {featuredResources.map((resource, i) => {
+            let domain = "";
+            try { domain = new URL(resource.url).hostname.replace(/^www\./, ""); } catch { /* */ }
+            return (
+              <a
+                key={resource.name + resource.categorySlug}
+                href={resource.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block p-4 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 transition-all duration-300 hover:shadow-lg hover:shadow-accent/5 card-lift animate-fade-in starred-glow"
+                style={{ animationDelay: `${i * 40}ms` }}
+              >
+                <div className="flex items-center justify-between mb-2">
+                  <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-accent/10 text-[10px] text-accent font-medium">
+                    {resource.categoryIcon} {resource.categoryTitle}
+                  </span>
+                  <Star size={12} className="text-amber-400 fill-amber-400 shrink-0" />
+                </div>
+                <div className="flex items-center gap-2 mb-1">
+                  {domain && (
+                    /* eslint-disable-next-line @next/next/no-img-element */
+                    <img
+                      src={`https://www.google.com/s2/favicons?domain=${domain}&sz=16`}
+                      alt=""
+                      className="favicon-img shrink-0"
+                      loading="lazy"
+                      width={14}
+                      height={14}
+                    />
+                  )}
+                  <h3 className="font-semibold text-sm group-hover:text-accent transition-colors truncate">
+                    {resource.name}
+                  </h3>
+                </div>
+                {resource.description && (
+                  <p className="text-xs text-muted leading-relaxed line-clamp-2">
+                    {resource.description}
+                  </p>
+                )}
+                {domain && (
+                  <p className="mt-2 text-[10px] text-muted/60 truncate">{domain}</p>
+                )}
+              </a>
+            );
+          })}
         </div>
       </section>
 

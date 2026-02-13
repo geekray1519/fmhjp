@@ -94,7 +94,9 @@ export default function ContactPage() {
                 name="name"
                 placeholder="山田太郎"
                 required
-                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all"
+                aria-required="true"
+                autoComplete="name"
+                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all invalid:border-red-500/50 invalid:focus:ring-red-500/50"
               />
             </div>
 
@@ -112,7 +114,9 @@ export default function ContactPage() {
                 name="email"
                 placeholder="example@example.com"
                 required
-                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all"
+                aria-required="true"
+                autoComplete="email"
+                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all invalid:border-red-500/50 invalid:focus:ring-red-500/50"
               />
             </div>
 
@@ -130,7 +134,8 @@ export default function ContactPage() {
                 name="subject"
                 placeholder="お問い合わせの件名"
                 required
-                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all"
+                aria-required="true"
+                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all invalid:border-red-500/50 invalid:focus:ring-red-500/50"
               />
             </div>
 
@@ -148,7 +153,8 @@ export default function ContactPage() {
                 placeholder="お問い合わせの内容をお書きください..."
                 rows={6}
                 required
-                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all resize-none"
+                aria-required="true"
+                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all resize-none invalid:border-red-500/50 invalid:focus:ring-red-500/50"
               />
             </div>
 

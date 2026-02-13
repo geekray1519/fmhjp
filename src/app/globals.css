@@ -318,3 +318,46 @@ html {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+/* Print styles */
+@media print {
+  header, footer, aside, nav,
+  .ad-container,
+  button[aria-label="ページトップに戻る"],
+  .fixed {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+
+  a {
+    color: black !important;
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #666;
+  }
+
+  .card-lift {
+    transform: none !important;
+  }
+
+  .border-border {
+    border-color: #ddd !important;
+  }
+
+  .bg-card, .bg-card-hover, .bg-background {
+    background: white !important;
+  }
+}
