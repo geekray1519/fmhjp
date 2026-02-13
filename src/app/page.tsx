@@ -195,9 +195,14 @@ export default function Home() {
 
       {/* Popular Categories */}
       <section className="pb-12">
-        <div className="flex items-center gap-2 mb-6">
-          <Sparkles size={20} className="text-accent" />
-          <h2 className="text-xl font-bold">人気カテゴリ</h2>
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-2">
+            <Sparkles size={20} className="text-accent" />
+            <h2 className="text-xl font-bold">人気カテゴリ</h2>
+          </div>
+          <Link href="#categories" className="text-xs text-muted hover:text-accent transition-colors">
+            すべて見る →
+          </Link>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
           {popularCategories.map((cat, i) => (
