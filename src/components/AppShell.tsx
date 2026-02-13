@@ -7,12 +7,14 @@ import { Footer } from "./Footer";
 import { ScrollToTop } from "./ScrollToTop";
 import { MobileNav } from "./MobileNav";
 import { KeyboardShortcuts } from "./KeyboardShortcuts";
+import { NavigationProgress } from "./NavigationProgress";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <NavigationProgress />
       <Header
         onMenuToggle={() => setSidebarOpen(!sidebarOpen)}
         menuOpen={sidebarOpen}

@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { categories } from "@/data";
 import { CategoryContent } from "@/components/CategoryContent";
 import { AdBanner } from "@/components/AdBanner";
-import { ChevronRight, ChevronLeft, Home } from "lucide-react";
+import { ChevronRight, ChevronLeft, Home, Star } from "lucide-react";
 import Link from "next/link";
 
 interface PageProps {
@@ -44,6 +44,11 @@ export default async function CategoryPage({ params }: PageProps) {
     0
   );
 
+  const starredCount = category.subcategories.reduce(
+    (sum, sub) => sum + sub.resources.filter((r) => r.starred).length,
+    0
+  );
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <nav className="flex items-center gap-2 text-sm text-muted mb-8">
@@ -55,21 +60,31 @@ export default async function CategoryPage({ params }: PageProps) {
         <span className="text-foreground font-medium">{category.title}</span>
       </nav>
 
-      <div className="mb-8">
-        <div className="flex items-center gap-4 mb-3">
-          <span className="text-4xl">{category.icon}</span>
-          <div>
-            <h1 className="text-3xl font-bold">{category.title}</h1>
-            <p className="text-sm text-muted mt-1">{category.description}</p>
+      <div className="mb-8 relative overflow-hidden rounded-2xl border border-border bg-card p-6 sm:p-8">
+        <div className={`absolute inset-0 opacity-[0.03] bg-gradient-to-br ${category.color}`} />
+        <div className={`absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r ${category.color}`} />
+        <div className="relative z-10">
+          <div className="flex items-center gap-4 mb-3">
+            <span className="text-5xl">{category.icon}</span>
+            <div>
+              <h1 className="text-3xl font-bold">{category.title}</h1>
+              <p className="text-sm text-muted mt-1 max-w-2xl">{category.description}</p>
+            </div>
           </div>
-        </div>
-        <div className="flex gap-3 mt-4 text-xs text-muted">
-          <span className="px-3 py-1.5 rounded-full bg-accent/10 text-accent font-medium">
-            {totalResources} リソース
-          </span>
-          <span className="px-3 py-1.5 rounded-full bg-card border border-border">
-            {category.subcategories.length} セクション
-          </span>
+          <div className="flex flex-wrap gap-2 mt-4 text-xs text-muted">
+            <span className="px-3 py-1.5 rounded-full bg-accent/10 text-accent font-medium">
+              {totalResources.toLocaleString()} リソース
+            </span>
+            <span className="px-3 py-1.5 rounded-full bg-background border border-border">
+              {category.subcategories.length} セクション
+            </span>
+            {starredCount > 0 && (
+              <span className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-amber-500/10 text-amber-500 font-medium">
+                <Star size={10} className="fill-amber-500" />
+                {starredCount} おすすめ
+              </span>
+            )}
+          </div>
         </div>
       </div>
 
