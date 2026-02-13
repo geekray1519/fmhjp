@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ChevronRight, Home, Zap, BookOpen, Users, Target, Star } from "lucide-react";
+import { ChevronRight, Home, Zap, BookOpen, Users, Target, Star, Command, Bookmark, Keyboard, Search } from "lucide-react";
 import { categories } from "@/data";
 import type { Metadata } from "next";
 
@@ -230,6 +230,49 @@ export default function AboutPage() {
                   登録や料金は一切必要ありません。
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Features */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">✨ 主な機能</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="p-4 rounded-xl border border-border bg-card text-sm">
+              <div className="flex items-center gap-2 mb-2">
+                <Command size={16} className="text-accent" />
+                <h3 className="font-semibold">コマンドパレット</h3>
+              </div>
+              <p className="text-muted text-xs">
+                Ctrl+K で即座に検索。キーボード操作だけでリソースを見つけられます。
+              </p>
+            </div>
+            <div className="p-4 rounded-xl border border-border bg-card text-sm">
+              <div className="flex items-center gap-2 mb-2">
+                <Bookmark size={16} className="text-accent" />
+                <h3 className="font-semibold">ブックマーク</h3>
+              </div>
+              <p className="text-muted text-xs">
+                お気に入りのリソースを保存して、いつでもすぐにアクセス。
+              </p>
+            </div>
+            <div className="p-4 rounded-xl border border-border bg-card text-sm">
+              <div className="flex items-center gap-2 mb-2">
+                <Search size={16} className="text-accent" />
+                <h3 className="font-semibold">高速検索</h3>
+              </div>
+              <p className="text-muted text-xs">
+                {totalResources.toLocaleString()}以上のリソースをミリ秒で検索。カテゴリフィルター、おすすめフィルター付き。
+              </p>
+            </div>
+            <div className="p-4 rounded-xl border border-border bg-card text-sm">
+              <div className="flex items-center gap-2 mb-2">
+                <Keyboard size={16} className="text-accent" />
+                <h3 className="font-semibold">キーボードショートカット</h3>
+              </div>
+              <p className="text-muted text-xs">
+                ? キーでショートカット一覧を表示。パワーユーザー向けの操作性。
+              </p>
             </div>
           </div>
         </section>
