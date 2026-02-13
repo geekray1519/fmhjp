@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fmhjp.vercel.app/sitemap.xml
+Sitemap: https://fmhyjp.vercel.app/sitemap.xml

@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     "ゲーム",
     "AI",
   ],
-  metadataBase: new URL("https://fmhjp.vercel.app"),
+  metadataBase: new URL("https://fmhyjp.vercel.app"),
   openGraph: {
     title: "FMHJP - 無料リソースガイド",
     description:
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ja_JP",
     siteName: "FMHJP",
-    url: "https://fmhjp.vercel.app",
+    url: "https://fmhyjp.vercel.app",
   },
   twitter: {
     card: "summary_large_image",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://fmhjp.vercel.app",
+    canonical: "https://fmhyjp.vercel.app",
   },
 };
 

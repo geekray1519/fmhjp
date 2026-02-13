@@ -2,7 +2,7 @@ import { categories } from "@/data";
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://fmhjp.vercel.app";
+  const baseUrl = "https://fmhyjp.vercel.app";
 
   const categoryPages = categories.map((cat) => ({
     url: `${baseUrl}/${cat.slug}`,

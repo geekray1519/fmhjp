@@ -43,10 +43,10 @@ export default function ContactPage() {
               </div>
             </div>
             <a
-              href="mailto:contact@fmhjp.com"
+              href="mailto:contact@fmhyjp.com"
               className="inline-flex items-center gap-2 text-accent hover:underline font-medium text-sm"
             >
-              contact@fmhjp.com
+              contact@fmhyjp.com
               <ChevronRight size={14} />
             </a>
           </div>
