@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { categories } from "@/data";
-import { Home, BookOpen, Search } from "lucide-react";
+import { Home, BookOpen, Search, Bookmark } from "lucide-react";
 
 interface SidebarProps {
   open: boolean;
@@ -114,6 +114,22 @@ export function Sidebar({ open, onClose }: SidebarProps) {
           >
             <Search size={16} />
             <span>検索</span>
+          </Link>
+
+          <Link
+            href="/bookmarks"
+            onClick={onClose}
+            className={`
+              flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-medium
+              transition-all duration-200
+              ${pathname === "/bookmarks"
+                ? "bg-accent/10 text-accent"
+                : "text-muted hover:text-foreground hover:bg-card"
+              }
+            `}
+          >
+            <Bookmark size={16} />
+            <span>ブックマーク</span>
           </Link>
 
           <Link

@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import { Resource } from "@/lib/types";
-import { ExternalLink, Star, Copy, Check, Link2 } from "lucide-react";
+import { ExternalLink, Star, Copy, Check, Link2, Bookmark } from "lucide-react";
 import { useToast } from "./ToastProvider";
+import { useBookmarks } from "./BookmarksProvider";
 
 interface ResourceCardProps {
   resource: Resource;
@@ -21,7 +22,9 @@ function getDomain(url: string): string {
 export function ResourceCard({ resource }: ResourceCardProps) {
   const domain = getDomain(resource.url);
   const { showToast } = useToast();
+  const { isBookmarked, toggleBookmark } = useBookmarks();
   const [copied, setCopied] = useState(false);
+  const bookmarked = isBookmarked(resource.url);
 
   const handleCopyUrl = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -33,6 +36,18 @@ export function ResourceCard({ resource }: ResourceCardProps) {
     }).catch(() => {
       showToast("コピーに失敗しました", "error");
     });
+  };
+
+  const handleToggleBookmark = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    toggleBookmark({
+      name: resource.name,
+      url: resource.url,
+      description: resource.description,
+      starred: resource.starred,
+    });
+    showToast(bookmarked ? "ブックマークを解除しました" : "ブックマークに追加しました");
   };
 
   return (
@@ -89,7 +104,21 @@ export function ResourceCard({ resource }: ResourceCardProps) {
             ))}
           </div>
         </div>
-        <div className="flex items-center gap-1 shrink-0 mt-1">
+        <div className="flex items-center gap-0.5 shrink-0 mt-1">
+          <button
+            onClick={handleToggleBookmark}
+            className={`p-1 rounded-md transition-all hover:bg-card-hover ${
+              bookmarked
+                ? "opacity-100 text-accent"
+                : "opacity-0 group-hover:opacity-100 text-muted hover:text-accent"
+            }`}
+            title={bookmarked ? "ブックマーク解除" : "ブックマーク追加"}
+          >
+            <Bookmark
+              size={13}
+              className={bookmarked ? "fill-accent" : ""}
+            />
+          </button>
           <button
             onClick={handleCopyUrl}
             className="p-1 rounded-md opacity-0 group-hover:opacity-100 transition-all hover:bg-card-hover text-muted hover:text-accent"

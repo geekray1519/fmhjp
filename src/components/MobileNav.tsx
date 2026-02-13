@@ -2,12 +2,12 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { Home, Search, BookOpen, Shield, Wrench } from "lucide-react";
+import { Home, Search, Bookmark, BookOpen, Wrench } from "lucide-react";
 
 const NAV_ITEMS = [
   { href: "/", icon: Home, label: "ホーム" },
   { href: "/search", icon: Search, label: "検索" },
-  { href: "/privacy", icon: Shield, label: "プライバシー" },
+  { href: "/bookmarks", icon: Bookmark, label: "保存済み" },
   { href: "/system-tools", icon: Wrench, label: "ツール" },
   { href: "/beginners-guide", icon: BookOpen, label: "ガイド" },
 ];
