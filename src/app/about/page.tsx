@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ChevronRight, Home, Zap, BookOpen, Users, Target } from "lucide-react";
+import { ChevronRight, Home, Zap, BookOpen, Users, Target, Star } from "lucide-react";
+import { categories } from "@/data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,10 +9,19 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const totalResources = categories.reduce(
+    (sum, cat) => sum + cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0),
+    0
+  );
+  const totalStarred = categories.reduce(
+    (sum, cat) => sum + cat.subcategories.reduce((s, sub) => s + sub.resources.filter((r) => r.starred).length, 0),
+    0
+  );
   const stats = [
-    { icon: BookOpen, label: "カテゴリ数", value: "24" },
-    { icon: Zap, label: "リソース数", value: "21,000+" },
-    { icon: Users, label: "毎月更新", value: "自動更新" },
+    { icon: BookOpen, label: "カテゴリ数", value: `${categories.length}` },
+    { icon: Zap, label: "リソース数", value: `${totalResources.toLocaleString()}+` },
+    { icon: Star, label: "おすすめ", value: `${totalStarred.toLocaleString()}+` },
+    { icon: Users, label: "更新頻度", value: "毎月" },
   ];
 
   return (
@@ -61,7 +71,7 @@ export default function AboutPage() {
               <p className="text-muted">
                 ソフトウェア、エンターテインメント、教育、プライバシーツール、
                 開発者ツール、ゲーム、AI、その他多くのカテゴリから、
-                21,000以上の厳選されたリソースを提供しています。
+                {totalResources.toLocaleString()}以上の厳選されたリソースを提供しています。
               </p>
             </div>
 
@@ -98,7 +108,7 @@ export default function AboutPage() {
         {/* Statistics */}
         <section>
           <h2 className="text-2xl font-bold mb-4">FMHJPの規模</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {stats.map((stat, i) => {
               const Icon = stat.icon;
               return (
