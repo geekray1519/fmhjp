@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { categories } from "@/data";
-import { Home, BookOpen, Search, Bookmark } from "lucide-react";
+import { Home, BookOpen, Search, Bookmark, ChevronDown } from "lucide-react";
 
 interface SidebarProps {
   open: boolean;
@@ -28,6 +28,7 @@ const MORE_SLUGS = ["unsafe", "storage"];
 
 export function Sidebar({ open, onClose }: SidebarProps) {
   const pathname = usePathname();
+  const [collapsedGroups, setCollapsedGroups] = useState<Record<string, boolean>>({});
 
   // Close on Escape key
   useEffect(() => {
@@ -37,6 +38,10 @@ export function Sidebar({ open, onClose }: SidebarProps) {
     document.addEventListener("keydown", handleEscape);
     return () => document.removeEventListener("keydown", handleEscape);
   }, [open, onClose]);
+
+  const toggleGroup = (group: string) => {
+    setCollapsedGroups((prev) => ({ ...prev, [group]: !prev[group] }));
+  };
 
   const renderCategoryLink = (slug: string) => {
     const cat = categories.find((c) => c.slug === slug);
@@ -150,27 +155,71 @@ export function Sidebar({ open, onClose }: SidebarProps) {
 
           {/* Wiki group */}
           <div className="pt-4 pb-1.5">
-            <span className="px-3 text-[10px] font-semibold uppercase tracking-widest text-muted/70">
-              Wiki
-            </span>
+            <button
+              onClick={() => toggleGroup("wiki")}
+              className="flex items-center justify-between w-full px-3 group"
+            >
+              <span className="text-[10px] font-semibold uppercase tracking-widest text-muted/70 group-hover:text-muted transition-colors">
+                Wiki
+              </span>
+              <ChevronDown
+                size={12}
+                className={`text-muted/50 transition-transform duration-200 ${collapsedGroups.wiki ? "-rotate-90" : ""}`}
+              />
+            </button>
           </div>
-          {WIKI_SLUGS.map(renderCategoryLink)}
+          {!collapsedGroups.wiki && WIKI_SLUGS.map(renderCategoryLink)}
 
           {/* Tools group */}
           <div className="pt-4 pb-1.5">
-            <span className="px-3 text-[10px] font-semibold uppercase tracking-widest text-muted/70">
-              ツール
-            </span>
+            <button
+              onClick={() => toggleGroup("tools")}
+              className="flex items-center justify-between w-full px-3 group"
+            >
+              <span className="text-[10px] font-semibold uppercase tracking-widest text-muted/70 group-hover:text-muted transition-colors">
+                ツール
+              </span>
+              <ChevronDown
+                size={12}
+                className={`text-muted/50 transition-transform duration-200 ${collapsedGroups.tools ? "-rotate-90" : ""}`}
+              />
+            </button>
           </div>
-          {TOOLS_SLUGS.map(renderCategoryLink)}
+          {!collapsedGroups.tools && TOOLS_SLUGS.map(renderCategoryLink)}
 
           {/* More group */}
           <div className="pt-4 pb-1.5">
-            <span className="px-3 text-[10px] font-semibold uppercase tracking-widest text-muted/70">
-              その他
-            </span>
+            <button
+              onClick={() => toggleGroup("more")}
+              className="flex items-center justify-between w-full px-3 group"
+            >
+              <span className="text-[10px] font-semibold uppercase tracking-widest text-muted/70 group-hover:text-muted transition-colors">
+                その他
+              </span>
+              <ChevronDown
+                size={12}
+                className={`text-muted/50 transition-transform duration-200 ${collapsedGroups.more ? "-rotate-90" : ""}`}
+              />
+            </button>
           </div>
-          {MORE_SLUGS.map(renderCategoryLink)}
+          {!collapsedGroups.more && MORE_SLUGS.map(renderCategoryLink)}
+
+          {/* Quick stats */}
+          <div className="mt-6 mx-3 p-3 rounded-xl bg-card/50 border border-border text-center">
+            <div className="flex items-center justify-around text-[10px] text-muted">
+              <div>
+                <div className="font-bold text-foreground text-xs">{categories.length}</div>
+                <div>カテゴリ</div>
+              </div>
+              <div className="w-px h-6 bg-border" />
+              <div>
+                <div className="font-bold text-foreground text-xs">
+                  {categories.reduce((sum, cat) => sum + cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0), 0).toLocaleString()}
+                </div>
+                <div>リソース</div>
+              </div>
+            </div>
+          </div>
         </nav>
       </aside>
     </>
