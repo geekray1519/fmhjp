@@ -46,6 +46,15 @@ export const metadata: Metadata = {
     "漫画",
     "ゲーム",
     "AI",
+    "トレント",
+    "エミュレーター",
+    "音楽ダウンロード",
+    "動画ダウンロード",
+    "開発者ツール",
+    "画像編集",
+    "Linux",
+    "セキュリティ",
+    "ブラウザ拡張",
   ],
   metadataBase: new URL("https://fmhyjp.vercel.app"),
   openGraph: {
@@ -108,6 +117,15 @@ export default function RootLayout({
                     "https://fmhyjp.vercel.app/search?q={search_term_string}",
                 },
                 "query-input": "required name=search_term_string",
+              },
+              publisher: {
+                "@type": "Organization",
+                name: "FMHJP",
+                url: "https://fmhyjp.vercel.app",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://fmhyjp.vercel.app/icon.svg",
+                },
               },
             }),
           }}
