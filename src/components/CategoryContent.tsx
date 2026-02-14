@@ -288,8 +288,18 @@ export function CategoryContent({ category }: CategoryContentProps) {
         </div>
 
         {shownResourceCount === 0 && (
-          <div className="rounded-xl border border-border bg-card p-6 text-sm text-muted">
-            条件に一致するリソースが見つかりませんでした。
+          <div className="rounded-xl border border-border bg-card p-6 text-sm text-muted text-center">
+            <div className="text-4xl mb-3">🔍</div>
+            <p className="font-medium text-foreground mb-1">条件に一致するリソースが見つかりません</p>
+            <p className="text-xs">検索テキストやフィルターを変更してみてください。</p>
+            {(starredOnly || normalizedQuery) && (
+              <button
+                onClick={() => { setStarredOnly(false); setSearchText(""); }}
+                className="mt-3 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg bg-accent/10 text-accent hover:bg-accent/20 transition-colors"
+              >
+                フィルターをリセット
+              </button>
+            )}
           </div>
         )}
       </div>
@@ -297,7 +307,7 @@ export function CategoryContent({ category }: CategoryContentProps) {
       <aside className="hidden lg:block w-56 shrink-0">
         <div className="sticky top-24 rounded-xl border border-border bg-card p-4">
           <p className="text-xs font-semibold tracking-wide text-muted mb-3">目次</p>
-          <nav className="space-y-1">
+          <nav className="space-y-1 max-h-[60vh] overflow-y-auto scrollbar-hide">
             {visibleSubcategories.map((sub) => (
               <a
                 key={sub.id}
@@ -311,6 +321,9 @@ export function CategoryContent({ category }: CategoryContentProps) {
               </a>
             ))}
           </nav>
+          <div className="mt-3 pt-3 border-t border-border text-[10px] text-muted text-center">
+            {visibleSubcategories.length} セクション · {shownResourceCount} リソース
+          </div>
         </div>
       </aside>
     </div>
