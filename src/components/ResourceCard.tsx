@@ -137,6 +137,7 @@ export function ResourceCard({ resource, highlightQuery }: ResourceCardProps) {
                 {tag}
               </span>
             ))}
+          </div>
           {/* Expandable mirror links */}
           {showMirrors && resource.mirrors && resource.mirrors.length > 0 && (
             <div className="mt-2 p-2 rounded-lg bg-card-hover border border-border space-y-1">
@@ -160,7 +161,6 @@ export function ResourceCard({ resource, highlightQuery }: ResourceCardProps) {
               })}
             </div>
           )}
-          </div>
         </div>
         <div className="flex items-center gap-0.5 shrink-0 mt-1">
           <button

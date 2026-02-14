@@ -236,7 +236,7 @@ function SearchContent() {
         )}
 
         {/* Autocomplete suggestions dropdown */}
-        {showSuggestions && suggestions.length > 0 && !query.trim() && (
+        {showSuggestions && suggestions.length > 0 && inputValue.trim() !== query.trim() && (
           <div
             ref={suggestionsRef}
             id="search-suggestions"

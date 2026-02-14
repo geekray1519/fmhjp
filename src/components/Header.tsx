@@ -15,12 +15,12 @@ interface HeaderProps {
 const WIKI_SLUGS = [
   "privacy", "ai", "video", "audio", "gaming", "reading",
   "downloading", "torrenting", "educational", "mobile",
-  "linux-macos", "non-english", "misc",
+  "linux-macos", "non-english", "misc", "unsafe",
 ];
 const TOOLS_SLUGS = [
   "system-tools", "file-tools", "internet-tools", "social-media-tools",
   "text-tools", "gaming-tools", "image-tools", "video-tools",
-  "developer-tools",
+  "developer-tools", "storage",
 ];
 
 export function Header({ onMenuToggle, menuOpen }: HeaderProps) {

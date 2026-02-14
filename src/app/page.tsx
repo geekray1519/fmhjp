@@ -75,7 +75,7 @@ export default function Home() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <section className="py-16 sm:py-24 text-center relative overflow-hidden rounded-3xl animate-gradient-mesh -mx-2 px-2">
+      <section className="py-16 sm:py-24 mb-8 text-center relative overflow-hidden rounded-3xl animate-gradient-mesh -mx-2 px-2">
         {/* Background glow effects */}
         <div className="absolute inset-0 -z-10">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-indigo-500/20 via-purple-500/20 to-pink-500/20 rounded-full blur-3xl" />
@@ -160,7 +160,7 @@ export default function Home() {
       </section>
 
       {/* Daily Tip Banner */}
-      <section className="pb-8">
+      <section className="pb-10">
         <div className="p-4 rounded-2xl border border-accent/20 bg-accent/5 flex items-start sm:items-center gap-3 animate-fade-in">
           <div className="p-2 rounded-xl bg-accent/10 shrink-0">
             <Lightbulb size={18} className="text-accent" />
@@ -317,7 +317,7 @@ export default function Home() {
         <div className="h-px bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
       </div>
 
-      <section id="categories" className="pb-16">
+      <section id="categories" className="pb-16 scroll-mt-24">
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-3">
             <h2 className="text-2xl font-bold">全カテゴリ一覧</h2>
