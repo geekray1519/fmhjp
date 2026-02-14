@@ -3,6 +3,7 @@ import { categories } from "@/data";
 import { CategoryContent } from "@/components/CategoryContent";
 import { AdBanner } from "@/components/AdBanner";
 import { ShareButton } from "@/components/ShareButton";
+import { CategoryViewTracker } from "@/components/CategoryViewTracker";
 import { ChevronRight, ChevronLeft, Home, Star } from "lucide-react";
 import Link from "next/link";
 
@@ -73,6 +74,7 @@ export default async function CategoryPage({ params }: PageProps) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <CategoryViewTracker slug={slug} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}

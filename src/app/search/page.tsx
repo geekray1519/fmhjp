@@ -6,9 +6,10 @@ import { categories } from "@/data";
 import { ResourceCard } from "@/components/ResourceCard";
 import { useSearchHistory } from "@/components/SearchHistoryProvider";
 import { SearchResult } from "@/lib/types";
-import { Search, X, ChevronDown, Clock, Star, Filter, Trash2, ArrowDownAZ } from "lucide-react";
+import { Search, X, ChevronDown, Clock, Star, Filter, Trash2, ArrowDownAZ, ExternalLink } from "lucide-react";
 
 const RESULTS_PER_PAGE = 50;
+const MAX_SUGGESTIONS = 8;
 
 function SearchSkeleton() {
   return (
@@ -45,8 +46,11 @@ function SearchContent() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [starredOnly, setStarredOnly] = useState(false);
   const [sortStarredFirst, setSortStarredFirst] = useState(false);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [selectedSuggestionIndex, setSelectedSuggestionIndex] = useState(-1);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const suggestionsRef = useRef<HTMLDivElement>(null);
   const { history, addSearch, removeSearch, clearHistory } = useSearchHistory();
 
   // "/" key focuses search input
@@ -85,6 +89,24 @@ function SearchContent() {
     }
     prevQueryRef.current = query;
   }, [query, addSearch]);
+
+  // Autocomplete suggestions (lightweight — just resource names)
+  const suggestions = useMemo(() => {
+    if (!inputValue.trim() || inputValue.trim().length < 2) return [];
+    const q = inputValue.toLowerCase();
+    const found: { name: string; url: string; category: string; icon: string }[] = [];
+    for (const cat of categories) {
+      for (const sub of cat.subcategories) {
+        for (const resource of sub.resources) {
+          if (resource.name.toLowerCase().includes(q)) {
+            found.push({ name: resource.name, url: resource.url, category: cat.title, icon: cat.icon });
+            if (found.length >= MAX_SUGGESTIONS) return found;
+          }
+        }
+      }
+    }
+    return found;
+  }, [inputValue]);
 
   const results = useMemo<SearchResult[]>(() => {
     if (!query.trim()) return [];
@@ -171,18 +193,81 @@ function SearchContent() {
           ref={searchInputRef}
           type="text"
           value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
+          onChange={(e) => {
+            setInputValue(e.target.value);
+            setShowSuggestions(true);
+            setSelectedSuggestionIndex(-1);
+          }}
+          onFocus={() => setShowSuggestions(true)}
+          onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
+          onKeyDown={(e) => {
+            if (!showSuggestions || suggestions.length === 0) return;
+            if (e.key === "ArrowDown") {
+              e.preventDefault();
+              setSelectedSuggestionIndex((prev) => Math.min(prev + 1, suggestions.length - 1));
+            } else if (e.key === "ArrowUp") {
+              e.preventDefault();
+              setSelectedSuggestionIndex((prev) => Math.max(prev - 1, -1));
+            } else if (e.key === "Enter" && selectedSuggestionIndex >= 0) {
+              e.preventDefault();
+              const selected = suggestions[selectedSuggestionIndex];
+              setInputValue(selected.name);
+              setQuery(selected.name);
+              setShowSuggestions(false);
+              setSelectedSuggestionIndex(-1);
+            }
+          }}
           placeholder="リソースを検索... (例: VPN, 広告ブロック, アニメ)"
           className="w-full pl-12 pr-12 py-4 bg-card border border-border rounded-2xl text-base focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-all placeholder:text-muted"
           autoFocus
+          role="combobox"
+          aria-expanded={showSuggestions && suggestions.length > 0}
+          aria-autocomplete="list"
+          aria-controls="search-suggestions"
         />
         {inputValue && (
           <button
-            onClick={() => { setInputValue(""); setQuery(""); setSelectedCategory(null); setStarredOnly(false); }}
+            onClick={() => { setInputValue(""); setQuery(""); setSelectedCategory(null); setStarredOnly(false); setShowSuggestions(false); }}
             className="absolute right-4 top-1/2 -translate-y-1/2 text-muted hover:text-foreground transition-colors p-1"
           >
             <X size={18} />
           </button>
+        )}
+
+        {/* Autocomplete suggestions dropdown */}
+        {showSuggestions && suggestions.length > 0 && !query.trim() && (
+          <div
+            ref={suggestionsRef}
+            id="search-suggestions"
+            role="listbox"
+            className="absolute top-full left-0 right-0 mt-2 bg-background border border-border rounded-xl shadow-xl shadow-black/10 overflow-hidden z-50 animate-scale-in"
+          >
+            <p className="px-4 py-2 text-[10px] font-semibold uppercase tracking-wider text-muted">候補</p>
+            {suggestions.map((suggestion, idx) => (
+              <button
+                key={suggestion.name + suggestion.url}
+                role="option"
+                aria-selected={idx === selectedSuggestionIndex}
+                onClick={() => {
+                  setInputValue(suggestion.name);
+                  setQuery(suggestion.name);
+                  setShowSuggestions(false);
+                }}
+                className={`w-full flex items-center gap-3 px-4 py-2.5 text-sm text-left transition-colors ${
+                  idx === selectedSuggestionIndex
+                    ? "bg-accent/10 text-accent"
+                    : "text-foreground hover:bg-card-hover"
+                }`}
+              >
+                <span className="shrink-0">{suggestion.icon}</span>
+                <div className="flex-1 min-w-0">
+                  <span className="font-medium truncate block">{suggestion.name}</span>
+                  <span className="text-[10px] text-muted">{suggestion.category}</span>
+                </div>
+                <ExternalLink size={12} className="text-muted shrink-0" />
+              </button>
+            ))}
+          </div>
         )}
       </div>
 

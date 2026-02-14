@@ -216,15 +216,21 @@ export function Header({ onMenuToggle, menuOpen }: HeaderProps) {
 
             <div className="flex items-center gap-2">
               <button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                onClick={() => {
+                  document.documentElement.classList.add("theme-transitioning");
+                  setTheme(theme === "dark" ? "light" : "dark");
+                  setTimeout(() => {
+                    document.documentElement.classList.remove("theme-transitioning");
+                  }, 500);
+                }}
                 className="p-2 rounded-lg hover:bg-card transition-colors"
                 aria-label="テーマ切り替え"
               >
                 {mounted ? (
                   theme === "dark" ? (
-                    <Sun size={18} />
+                    <Sun size={18} className="transition-transform duration-300 hover:rotate-45" />
                   ) : (
-                    <Moon size={18} />
+                    <Moon size={18} className="transition-transform duration-300 hover:-rotate-12" />
                   )
                 ) : (
                   <div className="w-[18px] h-[18px]" />

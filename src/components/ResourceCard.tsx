@@ -2,9 +2,10 @@
 
 import { useState, useCallback } from "react";
 import { Resource } from "@/lib/types";
-import { ExternalLink, Star, Copy, Check, Link2, Bookmark, Globe } from "lucide-react";
+import { ExternalLink, Star, Copy, Check, Link2, Bookmark, Globe, Info } from "lucide-react";
 import { useToast } from "./ToastProvider";
 import { useBookmarks } from "./BookmarksProvider";
+import { useResourceDetail } from "./ResourceDetailProvider";
 
 interface ResourceCardProps {
   resource: Resource;
@@ -23,6 +24,7 @@ export function ResourceCard({ resource }: ResourceCardProps) {
   const domain = getDomain(resource.url);
   const { showToast } = useToast();
   const { isBookmarked, toggleBookmark } = useBookmarks();
+  const { openDetail } = useResourceDetail();
   const [copied, setCopied] = useState(false);
   const [showMirrors, setShowMirrors] = useState(false);
   const [faviconError, setFaviconError] = useState(false);
@@ -146,6 +148,17 @@ export function ResourceCard({ resource }: ResourceCardProps) {
           </div>
         </div>
         <div className="flex items-center gap-0.5 shrink-0 mt-1">
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              openDetail(resource);
+            }}
+            className="p-1 rounded-md opacity-0 group-hover:opacity-100 transition-all hover:bg-card-hover text-muted hover:text-accent"
+            title="詳細を見る"
+          >
+            <Info size={13} />
+          </button>
           <button
             onClick={handleToggleBookmark}
             className={`p-1 rounded-md transition-all hover:bg-card-hover ${

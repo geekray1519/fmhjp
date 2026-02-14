@@ -7,6 +7,7 @@ import { ToastProvider } from "@/components/ToastProvider";
 import { BookmarksProvider } from "@/components/BookmarksProvider";
 import { SearchHistoryProvider } from "@/components/SearchHistoryProvider";
 import { AppShell } from "@/components/AppShell";
+import { ResourceDetailProvider } from "@/components/ResourceDetailProvider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -112,6 +113,7 @@ export default function RootLayout({
         <ThemeProvider>
           <BookmarksProvider>
             <SearchHistoryProvider>
+            <ResourceDetailProvider>
             <ToastProvider>
               <a
                 href="#main-content"
@@ -121,6 +123,7 @@ export default function RootLayout({
               </a>
               <AppShell>{children}</AppShell>
             </ToastProvider>
+            </ResourceDetailProvider>
             </SearchHistoryProvider>
           </BookmarksProvider>
         </ThemeProvider>

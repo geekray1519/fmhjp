@@ -1,6 +1,7 @@
 import { categories } from "@/data";
 import { CategoryCard } from "@/components/CategoryCard";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import { RecentlyViewed } from "@/components/RecentlyViewed";
 import { AdBanner, InFeedAd } from "@/components/AdBanner";
 import { Search, BookOpen, Star, TrendingUp, Sparkles, Zap, Shield, Globe, Lightbulb, Keyboard, Command, Shuffle } from "lucide-react";
 import Link from "next/link";
@@ -174,6 +175,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Recently Viewed */}
+      <RecentlyViewed />
 
       {/* Featured Resources */}
       <section className="pb-12">

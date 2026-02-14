@@ -10,8 +10,10 @@ export const metadata: Metadata = {
 
 const steps = [
   {
+    id: "step-1",
     icon: Shield,
     title: "1. 広告ブロッカーをインストール",
+    shortTitle: "広告ブロッカー",
     description: "まず最初に、広告ブロッカーをインストールしましょう。これにより、悪質な広告やポップアップから保護されます。",
     recommendation: "uBlock Origin が最もおすすめです。Firefox または Chrome のアドオンストアからインストールできます。",
     link: "/privacy",
@@ -19,8 +21,10 @@ const steps = [
     color: "from-emerald-500 to-teal-600",
   },
   {
+    id: "step-2",
     icon: Globe,
     title: "2. 安全なブラウザを使う",
+    shortTitle: "安全なブラウザ",
     description: "プライバシーを保護するブラウザを使いましょう。Firefox は最も推奨されるブラウザの一つです。",
     recommendation: "Firefox + uBlock Origin の組み合わせが基本です。さらに高度なプライバシーが必要なら Tor Browser を検討してください。",
     link: "/privacy",
@@ -28,8 +32,10 @@ const steps = [
     color: "from-blue-500 to-indigo-600",
   },
   {
+    id: "step-3",
     icon: AlertTriangle,
     title: "3. 使い捨てメールを活用",
+    shortTitle: "使い捨てメール",
     description: "サインアップが必要なサイトでは、使い捨てメールアドレスを使いましょう。個人のメールアドレスを守ることができます。",
     recommendation: "Temp Mail や Guerrilla Mail などの一時メールサービスを使用しましょう。",
     link: "/misc",
@@ -37,8 +43,10 @@ const steps = [
     color: "from-amber-500 to-orange-600",
   },
   {
+    id: "step-4",
     icon: Download,
     title: "4. ダウンロードの安全性を確認",
+    shortTitle: "安全なダウンロード",
     description: "ファイルをダウンロードする前に、必ずVirusTotalなどでスキャンしましょう。信頼できるソースからのみダウンロードしてください。",
     recommendation: "VirusTotal (virustotal.com) にファイルをアップロードして、安全性を確認する習慣をつけましょう。",
     link: "/downloading",
@@ -46,8 +54,10 @@ const steps = [
     color: "from-cyan-500 to-blue-600",
   },
   {
+    id: "step-5",
     icon: Smartphone,
     title: "5. モバイルも保護する",
+    shortTitle: "モバイル保護",
     description: "スマートフォンでも広告ブロックやプライバシー保護は重要です。Android では F-Droid、iOS では AltStore が役立ちます。",
     recommendation: "Android: ReVanced で YouTube の広告をブロック。iOS: AltStore でサイドロードアプリを活用。",
     link: "/mobile",
@@ -55,8 +65,10 @@ const steps = [
     color: "from-lime-500 to-green-600",
   },
   {
+    id: "step-6",
     icon: BookOpen,
     title: "6. 常に最新情報をチェック",
+    shortTitle: "最新情報チェック",
     description: "サイトのURLは変更されることがあります。FMHJPを定期的にチェックして、最新のリソースを確認しましょう。",
     recommendation: "ブックマークに追加して、定期的にアクセスしてください。",
     link: "/",
@@ -76,7 +88,7 @@ const tips = [
 
 export default function BeginnersGuidePage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <nav className="flex items-center gap-2 text-sm text-muted mb-8">
         <Link href="/" className="hover:text-foreground transition-colors flex items-center gap-1">
           <Home size={14} />
@@ -86,109 +98,160 @@ export default function BeginnersGuidePage() {
         <span className="text-foreground font-medium">初心者ガイド</span>
       </nav>
 
-      <div className="mb-12">
-        <h1 className="text-4xl font-extrabold mb-4">
-          <span className="gradient-text">初心者ガイド</span>
-        </h1>
-        <p className="text-lg text-muted leading-relaxed">
-          インターネット上の無料リソースを安全に活用するための基本を学びましょう。
-          このガイドでは、最初にやるべきことをステップバイステップで解説します。
-        </p>
-        <div className="mt-3 flex items-center gap-3 text-xs text-muted">
-          <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-card border border-border">
-            📖 約5分で読めます
-          </span>
-          <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-card border border-border">
-            {steps.length} ステップ
-          </span>
-        </div>
-      </div>
-
-      <div className="space-y-6 mb-16">
-        {steps.map((step, i) => {
-          const Icon = step.icon;
-          return (
-            <div
-              key={i}
-              className="relative p-6 rounded-2xl border border-border bg-card hover:bg-card-hover transition-all duration-300 animate-fade-in group"
-              style={{ animationDelay: `${i * 80}ms` }}
-            >
-              <div className={`absolute inset-0 opacity-0 group-hover:opacity-5 transition-opacity duration-300 bg-gradient-to-br ${step.color} rounded-2xl`} />
-              <div className="relative z-10">
-                <div className="flex items-start gap-4">
-                  <div className={`p-3 rounded-xl bg-gradient-to-br ${step.color} text-white shrink-0`}>
-                    <Icon size={24} />
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <h2 className="text-xl font-bold mb-2">{step.title}</h2>
-                    <p className="text-sm text-muted leading-relaxed mb-3">{step.description}</p>
-                    <div className="p-3 rounded-lg bg-accent/5 border border-accent/10 text-sm text-foreground leading-relaxed mb-4">
-                      💡 {step.recommendation}
-                    </div>
-                    <Link
-                      href={step.link}
-                      className="inline-flex items-center gap-1.5 text-sm text-accent hover:underline font-medium"
-                    >
-                      {step.linkText}
-                      <ChevronRight size={14} />
-                    </Link>
-                  </div>
-                </div>
-              </div>
+      <div className="lg:flex lg:gap-8">
+        {/* Main content */}
+        <div className="flex-1 min-w-0">
+          <div className="mb-12">
+            <h1 className="text-4xl font-extrabold mb-4">
+              <span className="gradient-text">初心者ガイド</span>
+            </h1>
+            <p className="text-lg text-muted leading-relaxed">
+              インターネット上の無料リソースを安全に活用するための基本を学びましょう。
+              このガイドでは、最初にやるべきことをステップバイステップで解説します。
+            </p>
+            <div className="mt-3 flex items-center gap-3 text-xs text-muted">
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-card border border-border">
+                📖 約5分で読めます
+              </span>
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-card border border-border">
+                {steps.length} ステップ
+              </span>
             </div>
-          );
-        })}
-      </div>
+          </div>
 
-      <div className="mb-16">
-        <h2 className="text-2xl font-bold mb-6">知っておくと便利なヒント</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          {tips.map((tip, i) => (
-            <div
-              key={i}
-              className="p-4 rounded-xl border border-border bg-card text-sm leading-relaxed animate-fade-in"
-              style={{ animationDelay: `${(steps.length + i) * 60}ms` }}
-            >
-              {tip}
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="mb-16">
-        <div className="flex items-center gap-2 mb-6">
-          <Layers size={20} className="text-accent" />
-          <h2 className="text-2xl font-bold">全{categories.length}カテゴリ</h2>
-        </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-          {categories.map((cat) => {
-            const count = cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0);
-            return (
-              <Link
-                key={cat.id}
-                href={`/${cat.slug}`}
-                className="group flex items-center gap-3 p-3 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 transition-all"
+          {/* Progress bar */}
+          <div className="mb-8 flex items-center gap-1">
+            {steps.map((step) => (
+              <a
+                key={step.id}
+                href={`#${step.id}`}
+                className="flex-1 h-1.5 rounded-full overflow-hidden"
+                title={step.shortTitle}
               >
-                <span className="text-xl shrink-0">{cat.icon}</span>
-                <div className="min-w-0">
-                  <div className="text-xs font-medium group-hover:text-accent transition-colors truncate">{cat.title}</div>
-                  <div className="text-[10px] text-muted">{count.toLocaleString()} リソース</div>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </div>
+                <div className={`h-full rounded-full bg-gradient-to-r ${step.color}`} />
+              </a>
+            ))}
+          </div>
 
-      <div className="text-center py-8 border-t border-border">
-        <p className="text-sm text-muted mb-4">準備はできましたか？さっそくリソースを探しましょう！</p>
-        <Link
-          href="/search"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-xl font-medium text-sm hover:opacity-90 transition-opacity"
-        >
-          リソースを検索する
-          <ChevronRight size={16} />
-        </Link>
+          <div className="space-y-6 mb-16">
+            {steps.map((step, i) => {
+              const Icon = step.icon;
+              return (
+                <div
+                  key={i}
+                  id={step.id}
+                  className="relative p-6 rounded-2xl border border-border bg-card hover:bg-card-hover transition-all duration-300 animate-fade-in group scroll-mt-20"
+                  style={{ animationDelay: `${i * 80}ms` }}
+                >
+                  <div className={`absolute inset-0 opacity-0 group-hover:opacity-5 transition-opacity duration-300 bg-gradient-to-br ${step.color} rounded-2xl`} />
+                  <div className="relative z-10">
+                    <div className="flex items-start gap-4">
+                      <div className={`p-3 rounded-xl bg-gradient-to-br ${step.color} text-white shrink-0`}>
+                        <Icon size={24} />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <h2 className="text-xl font-bold mb-2">{step.title}</h2>
+                        <p className="text-sm text-muted leading-relaxed mb-3">{step.description}</p>
+                        <div className="p-3 rounded-lg bg-accent/5 border border-accent/10 text-sm text-foreground leading-relaxed mb-4">
+                          💡 {step.recommendation}
+                        </div>
+                        <Link
+                          href={step.link}
+                          className="inline-flex items-center gap-1.5 text-sm text-accent hover:underline font-medium"
+                        >
+                          {step.linkText}
+                          <ChevronRight size={14} />
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          <div id="tips" className="mb-16 scroll-mt-20">
+            <h2 className="text-2xl font-bold mb-6">知っておくと便利なヒント</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {tips.map((tip, i) => (
+                <div
+                  key={i}
+                  className="p-4 rounded-xl border border-border bg-card text-sm leading-relaxed animate-fade-in"
+                  style={{ animationDelay: `${(steps.length + i) * 60}ms` }}
+                >
+                  {tip}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div id="all-categories" className="mb-16 scroll-mt-20">
+            <div className="flex items-center gap-2 mb-6">
+              <Layers size={20} className="text-accent" />
+              <h2 className="text-2xl font-bold">全{categories.length}カテゴリ</h2>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {categories.map((cat) => {
+                const count = cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0);
+                return (
+                  <Link
+                    key={cat.id}
+                    href={`/${cat.slug}`}
+                    className="group flex items-center gap-3 p-3 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 transition-all"
+                  >
+                    <span className="text-xl shrink-0">{cat.icon}</span>
+                    <div className="min-w-0">
+                      <div className="text-xs font-medium group-hover:text-accent transition-colors truncate">{cat.title}</div>
+                      <div className="text-[10px] text-muted">{count.toLocaleString()} リソース</div>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="text-center py-8 border-t border-border">
+            <p className="text-sm text-muted mb-4">準備はできましたか？さっそくリソースを探しましょう！</p>
+            <Link
+              href="/search"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-xl font-medium text-sm hover:opacity-90 transition-opacity"
+            >
+              リソースを検索する
+              <ChevronRight size={16} />
+            </Link>
+          </div>
+        </div>
+
+        {/* Sticky TOC sidebar */}
+        <aside className="hidden lg:block w-52 shrink-0">
+          <div className="sticky top-24 rounded-xl border border-border bg-card p-4">
+            <p className="text-xs font-semibold tracking-wide text-muted mb-3">目次</p>
+            <nav className="space-y-1">
+              {steps.map((step) => (
+                <a
+                  key={step.id}
+                  href={`#${step.id}`}
+                  className="toc-item flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-muted"
+                >
+                  <span className="truncate">{step.shortTitle}</span>
+                </a>
+              ))}
+              <div className="my-2 border-t border-border" />
+              <a
+                href="#tips"
+                className="toc-item flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-muted"
+              >
+                💡 ヒント
+              </a>
+              <a
+                href="#all-categories"
+                className="toc-item flex items-center gap-2 rounded-md px-2 py-1.5 text-xs text-muted"
+              >
+                📁 全カテゴリ
+              </a>
+            </nav>
+          </div>
+        </aside>
       </div>
     </div>
   );
