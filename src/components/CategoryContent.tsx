@@ -285,7 +285,7 @@ export function CategoryContent({ category }: CategoryContentProps) {
                     <div id={`content-${sub.id}`} role="region" aria-label={sub.title}>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         {visibleResources.map((resource) => (
-                          <ResourceCard key={resource.name + resource.url} resource={resource} />
+                          <ResourceCard key={resource.name + resource.url} resource={resource} highlightQuery={debouncedSearchText} />
                         ))}
                       </div>
 
