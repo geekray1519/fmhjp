@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { categories } from "@/data";
-import { Heart, ArrowUp } from "lucide-react";
+import { Heart, ArrowUp, Zap } from "lucide-react";
 
 export function Footer() {
   const totalResources = categories.reduce(
     (sum, cat) => sum + cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0),
+    0
+  );
+  const totalSubcategories = categories.reduce(
+    (sum, cat) => sum + cat.subcategories.length,
     0
   );
 
@@ -22,29 +26,44 @@ export function Footer() {
   return (
     <footer className="mt-16 gradient-top-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Stats banner */}
+        <div className="mb-10 p-4 rounded-2xl bg-accent/5 border border-accent/10 flex flex-wrap items-center justify-center gap-6 text-center">
+          <div>
+            <div className="text-lg font-bold text-accent">{categories.length}</div>
+            <div className="text-[10px] text-muted">カテゴリ</div>
+          </div>
+          <div className="w-px h-8 bg-border" />
+          <div>
+            <div className="text-lg font-bold text-accent">{totalResources.toLocaleString()}+</div>
+            <div className="text-[10px] text-muted">リソース</div>
+          </div>
+          <div className="w-px h-8 bg-border" />
+          <div>
+            <div className="text-lg font-bold text-accent">{totalSubcategories}+</div>
+            <div className="text-[10px] text-muted">セクション</div>
+          </div>
+          <div className="w-px h-8 bg-border" />
+          <div className="flex items-center gap-1.5">
+            <Zap size={14} className="text-accent" />
+            <div className="text-[10px] text-muted">毎月自動更新</div>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <span className="text-xl font-bold gradient-text">FMHJP</span>
             <p className="mt-3 text-sm text-muted leading-relaxed">
-              {totalResources.toLocaleString()}以上の無料リソースを日本語で紹介する最大級のキュレーションサイト。
+              インターネット上の無料リソースを日本語で紹介する最大級のキュレーションサイト。
             </p>
-            <div className="mt-4 flex items-center gap-4 text-xs text-muted">
-              <span className="px-2 py-1 rounded-full bg-accent/10 text-accent font-medium">
-                {categories.length} カテゴリ
-              </span>
-              <span className="px-2 py-1 rounded-full bg-card border border-border">
-                毎月更新
-              </span>
-            </div>
           </div>
           <div>
             <h3 className="font-semibold text-sm mb-3 text-foreground">ナビゲーション</h3>
             <ul className="space-y-2.5 text-sm text-muted">
-              <li><Link href="/" className="hover:text-accent transition-colors">ホーム</Link></li>
-              <li><Link href="/search" className="hover:text-accent transition-colors">検索</Link></li>
-              <li><Link href="/bookmarks" className="hover:text-accent transition-colors">ブックマーク</Link></li>
-              <li><Link href="/beginners-guide" className="hover:text-accent transition-colors">初心者ガイド</Link></li>
-              <li><Link href="/about" className="hover:text-accent transition-colors">このサイトについて</Link></li>
+              <li><Link href="/" className="link-underline hover:text-accent transition-colors">ホーム</Link></li>
+              <li><Link href="/search" className="link-underline hover:text-accent transition-colors">検索</Link></li>
+              <li><Link href="/bookmarks" className="link-underline hover:text-accent transition-colors">ブックマーク</Link></li>
+              <li><Link href="/beginners-guide" className="link-underline hover:text-accent transition-colors">初心者ガイド</Link></li>
+              <li><Link href="/about" className="link-underline hover:text-accent transition-colors">このサイトについて</Link></li>
             </ul>
           </div>
           <div>
@@ -52,7 +71,7 @@ export function Footer() {
             <ul className="space-y-2.5 text-sm text-muted">
               {topCategories.map((cat) => (
                 <li key={cat.slug}>
-                  <Link href={`/${cat.slug}`} className="hover:text-accent transition-colors inline-flex items-center gap-1.5">
+                  <Link href={`/${cat.slug}`} className="link-underline hover:text-accent transition-colors inline-flex items-center gap-1.5">
                     <span className="text-xs">{cat.icon}</span>
                     {cat.title}
                   </Link>
@@ -63,9 +82,9 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-sm mb-3 text-foreground">法的情報</h3>
             <ul className="space-y-2.5 text-sm text-muted">
-              <li><Link href="/privacy-policy" className="hover:text-accent transition-colors">プライバシーポリシー</Link></li>
-              <li><Link href="/terms" className="hover:text-accent transition-colors">利用規約</Link></li>
-              <li><Link href="/contact" className="hover:text-accent transition-colors">お問い合わせ</Link></li>
+              <li><Link href="/privacy-policy" className="link-underline hover:text-accent transition-colors">プライバシーポリシー</Link></li>
+              <li><Link href="/terms" className="link-underline hover:text-accent transition-colors">利用規約</Link></li>
+              <li><Link href="/contact" className="link-underline hover:text-accent transition-colors">お問い合わせ</Link></li>
             </ul>
           </div>
         </div>
