@@ -3,8 +3,9 @@ import { ChevronRight, Home, Lock, Mail } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "プライバシーポリシー - FMHJP",
+  title: "プライバシーポリシー",
   description: "FMHJPのプライバシーポリシー。Cookie使用、個人情報の取り扱い、Google AdSenseについて。",
+  alternates: { canonical: "https://fmhyjp.vercel.app/privacy-policy" },
 };
 
 export default function PrivacyPolicyPage() {

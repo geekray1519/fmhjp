@@ -4,8 +4,9 @@ import { ContactForm } from "@/components/ContactForm";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "お問い合わせ - FMHJP",
+  title: "お問い合わせ",
   description: "FMHJPへのお問い合わせ。ご質問、ご提案、ご指摘をお送りください。",
+  alternates: { canonical: "https://fmhyjp.vercel.app/contact" },
 };
 
 export default function ContactPage() {

@@ -4,8 +4,9 @@ import { categories } from "@/data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "初心者ガイド - FMHJP",
+  title: "初心者ガイド",
   description: "インターネットの無料リソースを安全に活用するための初心者ガイド。広告ブロック、VPN、安全なダウンロードの基本を学びましょう。",
+  alternates: { canonical: "https://fmhyjp.vercel.app/beginners-guide" },
 };
 
 const steps = [

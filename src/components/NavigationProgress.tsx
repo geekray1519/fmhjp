@@ -25,6 +25,9 @@ export function NavigationProgress() {
 
   // Listen for link clicks to start the progress bar
   useEffect(() => {
+    let timer1: ReturnType<typeof setTimeout>;
+    let timer2: ReturnType<typeof setTimeout>;
+
     const handleClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       const anchor = target.closest("a");
@@ -38,16 +41,18 @@ export function NavigationProgress() {
       setProgress(30);
       setVisible(true);
       // Simulate slow progress
-      const timer1 = setTimeout(() => setProgress(60), 100);
-      const timer2 = setTimeout(() => setProgress(80), 300);
-      return () => {
-        clearTimeout(timer1);
-        clearTimeout(timer2);
-      };
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      timer1 = setTimeout(() => setProgress(60), 100);
+      timer2 = setTimeout(() => setProgress(80), 300);
     };
 
     document.addEventListener("click", handleClick);
-    return () => document.removeEventListener("click", handleClick);
+    return () => {
+      document.removeEventListener("click", handleClick);
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+    };
   }, []);
 
   if (!visible && progress === 0) return null;

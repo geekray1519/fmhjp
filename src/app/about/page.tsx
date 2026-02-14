@@ -4,8 +4,9 @@ import { categories } from "@/data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "このサイトについて - FMHJP",
+  title: "このサイトについて",
   description: "FMHJPについて。インターネット上の無料リソースを日本語で紹介するキュレーションサイト。",
+  alternates: { canonical: "https://fmhyjp.vercel.app/about" },
 };
 
 export default function AboutPage() {

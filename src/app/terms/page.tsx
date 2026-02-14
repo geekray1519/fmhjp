@@ -3,8 +3,9 @@ import { ChevronRight, Home, AlertTriangle } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "利用規約 - FMHJP",
+  title: "利用規約",
   description: "FMHJPの利用規約。サービスの説明、免責事項、知的財産権について。",
+  alternates: { canonical: "https://fmhyjp.vercel.app/terms" },
 };
 
 export default function TermsPage() {
