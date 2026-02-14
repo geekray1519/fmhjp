@@ -92,7 +92,7 @@ export default function RootLayout({
   return (
     <html lang="ja" suppressHydrationWarning>
       <head>
-        <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_ADSENSE_ID || ""} />
+        <meta name="google-adsense-account" content={(process.env.NEXT_PUBLIC_ADSENSE_ID || "").trim()} />
         <meta name="theme-color" content="#030712" media="(prefers-color-scheme: dark)" />
         <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)" />
         <link rel="dns-prefetch" href="https://www.google.com" />
@@ -156,7 +156,7 @@ export default function RootLayout({
         {process.env.NEXT_PUBLIC_ADSENSE_ID && (
           <Script
             async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_ID}`}
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_ID.trim()}`}
             crossOrigin="anonymous"
             strategy="afterInteractive"
             data-overlays="bottom"

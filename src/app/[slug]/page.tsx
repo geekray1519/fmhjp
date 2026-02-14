@@ -50,13 +50,28 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps) {
   const { slug } = await params;
   const category = categories.find((c) => c.slug === slug);
-  if (!category) return { title: "見つかりません - FMHJP" };
+  if (!category) return { title: "見つかりません" };
+
+  const totalResources = category.subcategories.reduce(
+    (sum, sub) => sum + sub.resources.length,
+    0
+  );
+  const fullDescription = `${category.description} — ${totalResources.toLocaleString()}件の無料リソースを日本語で紹介。`;
+
   return {
-    title: `${category.title} - FMHJP`,
-    description: category.description,
+    title: category.title,
+    description: fullDescription,
     openGraph: {
       title: `${category.title} - FMHJP`,
-      description: category.description,
+      description: fullDescription,
+    },
+    twitter: {
+      card: "summary_large_image" as const,
+      title: `${category.title} - FMHJP`,
+      description: fullDescription,
+    },
+    alternates: {
+      canonical: `https://fmhyjp.vercel.app/${slug}`,
     },
   };
 }
