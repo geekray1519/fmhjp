@@ -1,14 +1,32 @@
 "use client";
 
+import { useState, useMemo } from "react";
 import { useBookmarks } from "@/components/BookmarksProvider";
 import { useToast } from "@/components/ToastProvider";
-import { Bookmark, ExternalLink, Star, Trash2, X } from "lucide-react";
+import { Bookmark, ExternalLink, Star, Trash2, X, Download, SortAsc, Clock, ArrowDownAZ } from "lucide-react";
 import Link from "next/link";
+
+type SortMode = "newest" | "oldest" | "name";
 
 export default function BookmarksPage() {
   const { bookmarks, toggleBookmark, clearBookmarks, bookmarkCount } =
     useBookmarks();
   const { showToast } = useToast();
+  const [sortMode, setSortMode] = useState<SortMode>("newest");
+
+  const sortedBookmarks = useMemo(() => {
+    const sorted = [...bookmarks];
+    switch (sortMode) {
+      case "newest":
+        return sorted.sort((a, b) => b.addedAt - a.addedAt);
+      case "oldest":
+        return sorted.sort((a, b) => a.addedAt - b.addedAt);
+      case "name":
+        return sorted.sort((a, b) => a.name.localeCompare(b.name, "ja"));
+      default:
+        return sorted;
+    }
+  }, [bookmarks, sortMode]);
 
   const handleRemove = (url: string, name: string) => {
     toggleBookmark({ name, url, description: "" });
@@ -20,9 +38,24 @@ export default function BookmarksPage() {
     showToast("すべてのブックマークを削除しました");
   };
 
+  const handleExport = () => {
+    const lines = bookmarks.map(
+      (b) => `${b.name}\n  URL: ${b.url}${b.description ? `\n  説明: ${b.description}` : ""}\n  追加日: ${new Date(b.addedAt).toLocaleDateString("ja-JP")}`
+    );
+    const content = `FMHJP ブックマーク (${new Date().toLocaleDateString("ja-JP")})\n${"=".repeat(40)}\n\n${lines.join("\n\n")}`;
+    const blob = new Blob([content], { type: "text/plain;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `fmhjp-bookmarks-${new Date().toISOString().slice(0, 10)}.txt`;
+    a.click();
+    URL.revokeObjectURL(url);
+    showToast("ブックマークをエクスポートしました");
+  };
+
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-start sm:items-center justify-between gap-4 mb-6 flex-col sm:flex-row">
         <div>
           <h1 className="text-3xl font-bold flex items-center gap-3">
             <Bookmark size={28} className="text-accent" />
@@ -33,15 +66,50 @@ export default function BookmarksPage() {
           </p>
         </div>
         {bookmarkCount > 0 && (
-          <button
-            onClick={handleClearAll}
-            className="inline-flex items-center gap-2 px-3 py-2 text-xs rounded-lg border border-border text-muted hover:text-red-500 hover:border-red-500/30 transition-all"
-          >
-            <Trash2 size={12} />
-            すべて削除
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={handleExport}
+              className="inline-flex items-center gap-2 px-3 py-2 text-xs rounded-lg border border-border text-muted hover:text-accent hover:border-accent/30 transition-all"
+            >
+              <Download size={12} />
+              エクスポート
+            </button>
+            <button
+              onClick={handleClearAll}
+              className="inline-flex items-center gap-2 px-3 py-2 text-xs rounded-lg border border-border text-muted hover:text-red-500 hover:border-red-500/30 transition-all"
+            >
+              <Trash2 size={12} />
+              すべて削除
+            </button>
+          </div>
         )}
       </div>
+
+      {/* Sort controls */}
+      {bookmarkCount > 1 && (
+        <div className="flex items-center gap-2 mb-4">
+          <SortAsc size={14} className="text-muted" />
+          <div className="flex gap-1">
+            {([
+              { key: "newest" as const, label: "新しい順", icon: Clock },
+              { key: "oldest" as const, label: "古い順", icon: Clock },
+              { key: "name" as const, label: "名前順", icon: ArrowDownAZ },
+            ]).map(({ key, label }) => (
+              <button
+                key={key}
+                onClick={() => setSortMode(key)}
+                className={`px-2.5 py-1 text-[10px] rounded-full border transition-all ${
+                  sortMode === key
+                    ? "bg-accent/10 text-accent border-accent/30 font-medium"
+                    : "bg-card border-border text-muted hover:border-accent/20 hover:text-accent"
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {bookmarkCount === 0 ? (
         <div className="text-center py-20">
@@ -71,7 +139,7 @@ export default function BookmarksPage() {
         </div>
       ) : (
         <div className="space-y-2">
-          {bookmarks.map((item) => (
+          {sortedBookmarks.map((item) => (
             <div
               key={item.url}
               className={`group flex items-start gap-4 p-4 rounded-xl border border-border bg-card hover:bg-card-hover transition-all ${

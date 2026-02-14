@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { Resource } from "@/lib/types";
-import { ExternalLink, Star, Copy, Check, Link2, Bookmark } from "lucide-react";
+import { ExternalLink, Star, Copy, Check, Link2, Bookmark, Globe } from "lucide-react";
 import { useToast } from "./ToastProvider";
 import { useBookmarks } from "./BookmarksProvider";
 
@@ -25,7 +25,12 @@ export function ResourceCard({ resource }: ResourceCardProps) {
   const { isBookmarked, toggleBookmark } = useBookmarks();
   const [copied, setCopied] = useState(false);
   const [showMirrors, setShowMirrors] = useState(false);
+  const [faviconError, setFaviconError] = useState(false);
   const bookmarked = isBookmarked(resource.url);
+
+  const handleFaviconError = useCallback(() => {
+    setFaviconError(true);
+  }, []);
 
   const handleCopyUrl = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -77,15 +82,20 @@ export function ResourceCard({ resource }: ResourceCardProps) {
           <div className="mt-2 flex flex-wrap items-center gap-1.5">
             {domain && (
               <span className="inline-flex items-center gap-1 px-2 py-0.5 text-[10px] rounded-full bg-card-hover text-muted border border-border">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={`https://www.google.com/s2/favicons?domain=${domain}&sz=16`}
-                  alt=""
-                  className="favicon-img"
-                  loading="lazy"
-                  width={14}
-                  height={14}
-                />
+                {faviconError ? (
+                  <Globe size={12} className="text-muted/50 shrink-0" />
+                ) : (
+                  /* eslint-disable-next-line @next/next/no-img-element */
+                  <img
+                    src={`https://www.google.com/s2/favicons?domain=${domain}&sz=16`}
+                    alt=""
+                    className="favicon-img"
+                    loading="lazy"
+                    width={14}
+                    height={14}
+                    onError={handleFaviconError}
+                  />
+                )}
                 {domain}
               </span>
             )}

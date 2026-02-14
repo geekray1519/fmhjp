@@ -6,7 +6,7 @@ import { categories } from "@/data";
 import { ResourceCard } from "@/components/ResourceCard";
 import { useSearchHistory } from "@/components/SearchHistoryProvider";
 import { SearchResult } from "@/lib/types";
-import { Search, X, ChevronDown, Clock, Star, Filter, Trash2 } from "lucide-react";
+import { Search, X, ChevronDown, Clock, Star, Filter, Trash2, ArrowDownAZ } from "lucide-react";
 
 const RESULTS_PER_PAGE = 50;
 
@@ -44,6 +44,7 @@ function SearchContent() {
   const [isSearching, setIsSearching] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [starredOnly, setStarredOnly] = useState(false);
+  const [sortStarredFirst, setSortStarredFirst] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const { history, addSearch, removeSearch, clearHistory } = useSearchHistory();
@@ -113,7 +114,7 @@ function SearchContent() {
     return found;
   }, [query]);
 
-  // Apply category and starred filters
+  // Apply category and starred filters, then sort
   const filteredResults = useMemo(() => {
     let filtered = results;
     if (selectedCategory) {
@@ -122,8 +123,15 @@ function SearchContent() {
     if (starredOnly) {
       filtered = filtered.filter((r) => r.resource.starred);
     }
+    if (sortStarredFirst) {
+      filtered = [...filtered].sort((a, b) => {
+        if (a.resource.starred && !b.resource.starred) return -1;
+        if (!a.resource.starred && b.resource.starred) return 1;
+        return 0;
+      });
+    }
     return filtered;
-  }, [results, selectedCategory, starredOnly]);
+  }, [results, selectedCategory, starredOnly, sortStarredFirst]);
 
   const visibleResults = filteredResults.slice(0, visibleCount);
   const remaining = filteredResults.length - visibleCount;
@@ -236,6 +244,17 @@ function SearchContent() {
               >
                 <Star size={10} className={starredOnly ? "fill-amber-500" : ""} />
                 おすすめのみ
+              </button>
+              <button
+                onClick={() => { setSortStarredFirst(!sortStarredFirst); setVisibleCount(RESULTS_PER_PAGE); }}
+                className={`px-3 py-1.5 text-xs rounded-full border transition-all inline-flex items-center gap-1 ${
+                  sortStarredFirst
+                    ? "bg-accent/10 text-accent border-accent/30 font-medium"
+                    : "bg-card border-border text-muted hover:border-accent/20 hover:text-accent"
+                }`}
+              >
+                <ArrowDownAZ size={10} />
+                おすすめ優先
               </button>
             </div>
           )}
