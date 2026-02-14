@@ -62,26 +62,26 @@ export default async function CategoryPage({ params }: PageProps) {
         <span className="text-foreground font-medium">{category.title}</span>
       </nav>
 
-      <div className="mb-8 relative overflow-hidden rounded-2xl border border-border bg-card p-6 sm:p-8">
+      <div className="mb-8 relative overflow-hidden rounded-2xl border border-border bg-card p-4 sm:p-6 lg:p-8">
         <div className={`absolute inset-0 opacity-[0.03] bg-gradient-to-br ${category.color}`} />
         <div className={`absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r ${category.color}`} />
         <div className="relative z-10">
-          <div className="flex items-center gap-4 mb-3">
-            <span className="text-5xl">{category.icon}</span>
-            <div>
-              <h1 className="text-3xl font-bold">{category.title}</h1>
-              <p className="text-sm text-muted mt-1 max-w-2xl">{category.description}</p>
+          <div className="flex items-start sm:items-center gap-3 sm:gap-4 mb-3">
+            <span className="text-4xl sm:text-5xl">{category.icon}</span>
+            <div className="min-w-0">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold">{category.title}</h1>
+              <p className="text-xs sm:text-sm text-muted mt-1 max-w-2xl line-clamp-2">{category.description}</p>
             </div>
           </div>
-          <div className="flex flex-wrap gap-2 mt-4 text-xs text-muted">
-            <span className="px-3 py-1.5 rounded-full bg-accent/10 text-accent font-medium">
+          <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-3 sm:mt-4 text-xs text-muted">
+            <span className="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-accent/10 text-accent font-medium">
               {totalResources.toLocaleString()} リソース
             </span>
-            <span className="px-3 py-1.5 rounded-full bg-background border border-border">
+            <span className="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-background border border-border">
               {category.subcategories.length} セクション
             </span>
             {starredCount > 0 && (
-              <span className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-amber-500/10 text-amber-500 font-medium">
+              <span className="inline-flex items-center gap-1 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-amber-500/10 text-amber-500 font-medium">
                 <Star size={10} className="fill-amber-500" />
                 {starredCount} おすすめ
               </span>

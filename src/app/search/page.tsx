@@ -4,8 +4,9 @@ import { useState, useMemo, useEffect, useRef, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { categories } from "@/data";
 import { ResourceCard } from "@/components/ResourceCard";
+import { useSearchHistory } from "@/components/SearchHistoryProvider";
 import { SearchResult } from "@/lib/types";
-import { Search, X, ChevronDown, Clock, Star, Filter } from "lucide-react";
+import { Search, X, ChevronDown, Clock, Star, Filter, Trash2 } from "lucide-react";
 
 const RESULTS_PER_PAGE = 50;
 
@@ -45,6 +46,7 @@ function SearchContent() {
   const [starredOnly, setStarredOnly] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const { history, addSearch, removeSearch, clearHistory } = useSearchHistory();
 
   // "/" key focuses search input
   useEffect(() => {
@@ -73,6 +75,15 @@ function SearchContent() {
       if (debounceRef.current) clearTimeout(debounceRef.current);
     };
   }, [inputValue, query]);
+
+  // Add to search history when query is set
+  const prevQueryRef = useRef("");
+  useEffect(() => {
+    if (query.trim() && query !== prevQueryRef.current) {
+      addSearch(query.trim());
+    }
+    prevQueryRef.current = query;
+  }, [query, addSearch]);
 
   const results = useMemo<SearchResult[]>(() => {
     if (!query.trim()) return [];
@@ -280,13 +291,57 @@ function SearchContent() {
           )}
         </>
       ) : (
-        <div className="text-center py-16">
-          <div className="text-6xl mb-4">✨</div>
-          <h2 className="text-xl font-bold mb-2">何をお探しですか？</h2>
-          <p className="text-sm text-muted max-w-md mx-auto">
-            上の検索ボックスにキーワードを入力して、{totalResources.toLocaleString()}以上の無料リソースから検索しましょう。
-          </p>
-          <div className="mt-6 flex flex-wrap justify-center gap-2">
+        <div className="py-16">
+          <div className="text-center">
+            <div className="text-6xl mb-4">✨</div>
+            <h2 className="text-xl font-bold mb-2">何をお探しですか？</h2>
+            <p className="text-sm text-muted max-w-md mx-auto">
+              上の検索ボックスにキーワードを入力して、{totalResources.toLocaleString()}以上の無料リソースから検索しましょう。
+            </p>
+          </div>
+
+          {/* Recent searches */}
+          {history.length > 0 && (
+            <div className="mt-8 max-w-lg mx-auto">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-sm font-medium text-muted flex items-center gap-2">
+                  <Clock size={14} />
+                  最近の検索
+                </h3>
+                <button
+                  onClick={clearHistory}
+                  className="text-xs text-muted hover:text-red-400 transition-colors flex items-center gap-1"
+                >
+                  <Trash2 size={12} />
+                  クリア
+                </button>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {history.map((search) => (
+                  <div
+                    key={search}
+                    className="group inline-flex items-center gap-1.5 pl-3 pr-1.5 py-2 text-sm rounded-full bg-card border border-border hover:bg-card-hover hover:border-accent/30 transition-all"
+                  >
+                    <button
+                      onClick={() => { setInputValue(search); setQuery(search); }}
+                      className="text-muted hover:text-foreground transition-colors"
+                    >
+                      {search}
+                    </button>
+                    <button
+                      onClick={() => removeSearch(search)}
+                      className="p-0.5 rounded-full text-muted/40 hover:text-red-400 hover:bg-red-400/10 opacity-0 group-hover:opacity-100 transition-all"
+                      title="削除"
+                    >
+                      <X size={12} />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="mt-8 flex flex-wrap justify-center gap-2">
             {["VPN", "広告ブロック", "アニメ", "エミュレーター", "AI", "漫画", "YouTube", "Discord", "ゲーム", "音楽"].map((tag) => (
               <button
                 key={tag}
@@ -299,7 +354,7 @@ function SearchContent() {
           </div>
 
           {/* Popular categories quick access */}
-          <div className="mt-10">
+          <div className="mt-10 text-center">
             <h3 className="text-sm font-medium text-muted mb-4">カテゴリから探す</h3>
             <div className="flex flex-wrap justify-center gap-2">
               {categories.slice(0, 12).map((cat) => (

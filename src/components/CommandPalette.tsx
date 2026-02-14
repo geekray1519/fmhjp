@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { categories } from "@/data";
 import { Resource } from "@/lib/types";
+import { useSearchHistory } from "./SearchHistoryProvider";
 import {
   Search,
   X,
@@ -13,6 +14,8 @@ import {
   ArrowDown,
   CornerDownLeft,
   Hash,
+  Clock,
+  Trash2,
 } from "lucide-react";
 
 interface CommandPaletteProps {
@@ -43,10 +46,36 @@ const POPULAR_TAGS = [
 
 const MAX_RESULTS = 20;
 
+// Pre-compute category resource counts
+const CATEGORY_RESOURCE_COUNTS = new Map<string, number>(
+  categories.map((cat) => [
+    cat.id,
+    cat.subcategories.reduce((sum, sub) => sum + sub.resources.length, 0),
+  ])
+);
+
+function HighlightText({ text, query }: { text: string; query: string }) {
+  if (!query.trim()) return <>{text}</>;
+  const escaped = query.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const regex = new RegExp(`(${escaped})`, "gi");
+  const parts = text.split(regex);
+  return (
+    <>
+      {parts.map((part, i) =>
+        regex.test(part) ? (
+          <mark key={i} className="bg-accent/20 text-accent rounded-sm px-0.5">{part}</mark>
+        ) : (
+          <span key={i}>{part}</span>
+        )
+      )}
+    </>
+  );
+}
+
 export function CommandPalette({ open, onClose }: CommandPaletteProps) {
   const [query, setQuery] = useState("");
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const [recentSearches, setRecentSearches] = useState<string[]>([]);
+  const { history, addSearch, removeSearch, clearHistory } = useSearchHistory();
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
@@ -125,25 +154,22 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
 
   const navigateToResult = useCallback(
     (result: PaletteResult) => {
+      addSearch(query.trim());
       window.open(result.resource.url, "_blank", "noopener,noreferrer");
       onClose();
     },
-    [onClose]
+    [onClose, query, addSearch]
   );
 
   const submitSearch = useCallback(
     (searchQuery: string) => {
       const q = searchQuery.trim();
       if (!q) return;
-      // Add to recent searches
-      setRecentSearches((prev) => {
-        const filtered = prev.filter((s) => s !== q);
-        return [q, ...filtered].slice(0, 5);
-      });
+      addSearch(q);
       router.push(`/search?q=${encodeURIComponent(q)}`);
       onClose();
     },
-    [router, onClose]
+    [router, onClose, addSearch]
   );
 
   const handleKeyDown = useCallback(
@@ -183,7 +209,7 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
   const hasQuery = query.trim().length > 0;
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-start justify-center pt-[15vh] sm:pt-[20vh]">
+    <div className="fixed inset-0 z-[100] flex items-start justify-center pt-[5vh] sm:pt-[20vh]">
       {/* Backdrop */}
       <div
         className="absolute inset-0 bg-black/50 backdrop-blur-sm animate-fade-in"
@@ -192,7 +218,7 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
 
       {/* Modal */}
       <div
-        className="relative w-full max-w-xl mx-4 bg-background border border-border rounded-2xl shadow-2xl shadow-black/20 animate-scale-in overflow-hidden"
+        className="relative w-full max-w-xl mx-2 sm:mx-4 bg-background border border-border rounded-2xl shadow-2xl shadow-black/20 animate-scale-in overflow-hidden"
         role="dialog"
         aria-modal="true"
         aria-label="コマンドパレット検索"
@@ -268,12 +294,12 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
                             selectedIndex === idx ? "text-accent" : ""
                           }`}
                         >
-                          {result.resource.name}
+                          <HighlightText text={result.resource.name} query={query} />
                         </span>
                       </div>
                       {result.resource.description && (
                         <p className="text-xs text-muted truncate mt-0.5">
-                          {result.resource.description}
+                          <HighlightText text={result.resource.description} query={query} />
                         </p>
                       )}
                       <div className="flex items-center gap-2 mt-1">
@@ -314,23 +340,42 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
             )
           ) : (
             <div className="py-2">
-              {/* Recent searches */}
-              {recentSearches.length > 0 && (
+              {/* Recent searches from localStorage */}
+              {history.length > 0 && (
                 <>
-                  <div className="px-4 py-1.5 text-[10px] font-medium text-muted uppercase tracking-wider">
-                    最近の検索
-                  </div>
-                  {recentSearches.map((search) => (
+                  <div className="px-4 py-1.5 flex items-center justify-between">
+                    <span className="text-[10px] font-medium text-muted uppercase tracking-wider flex items-center gap-1.5">
+                      <Clock size={10} />
+                      最近の検索
+                    </span>
                     <button
-                      key={search}
-                      onClick={() => {
-                        setQuery(search);
-                      }}
-                      className="w-full flex items-center gap-3 px-4 py-2.5 text-left hover:bg-card-hover transition-colors"
+                      onClick={clearHistory}
+                      className="text-[10px] text-muted hover:text-red-400 transition-colors flex items-center gap-1"
                     >
-                      <Search size={14} className="text-muted/50 shrink-0" />
-                      <span className="text-sm text-muted">{search}</span>
+                      <Trash2 size={9} />
+                      クリア
                     </button>
+                  </div>
+                  {history.map((search) => (
+                    <div
+                      key={search}
+                      className="group/history flex items-center gap-3 px-4 py-2.5 hover:bg-card-hover transition-colors"
+                    >
+                      <button
+                        onClick={() => setQuery(search)}
+                        className="flex-1 flex items-center gap-3 text-left min-w-0"
+                      >
+                        <Clock size={14} className="text-muted/50 shrink-0" />
+                        <span className="text-sm text-muted truncate">{search}</span>
+                      </button>
+                      <button
+                        onClick={() => removeSearch(search)}
+                        className="p-1 text-muted/40 hover:text-red-400 opacity-0 group-hover/history:opacity-100 transition-all shrink-0"
+                        title="削除"
+                      >
+                        <X size={12} />
+                      </button>
+                    </div>
                   ))}
                   <div className="my-1 border-t border-border" />
                 </>
@@ -353,12 +398,12 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
                 ))}
               </div>
 
-              {/* Quick category access */}
+              {/* Quick category access with resource counts */}
               <div className="my-1 border-t border-border" />
               <div className="px-4 py-1.5 text-[10px] font-medium text-muted uppercase tracking-wider">
                 カテゴリ
               </div>
-              <div className="px-2 py-1 grid grid-cols-2 gap-0.5">
+              <div className="px-2 py-1 grid grid-cols-1 sm:grid-cols-2 gap-0.5">
                 {categories.slice(0, 8).map((cat) => (
                   <button
                     key={cat.id}
@@ -369,7 +414,10 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
                     className="flex items-center gap-2 px-3 py-2 rounded-lg text-xs text-muted hover:text-foreground hover:bg-card-hover transition-colors text-left"
                   >
                     <span>{cat.icon}</span>
-                    <span className="truncate">{cat.title}</span>
+                    <span className="truncate flex-1">{cat.title}</span>
+                    <span className="text-[10px] text-muted/50">
+                      {(CATEGORY_RESOURCE_COUNTS.get(cat.id) || 0).toLocaleString()}
+                    </span>
                   </button>
                 ))}
               </div>

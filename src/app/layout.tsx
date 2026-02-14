@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { ToastProvider } from "@/components/ToastProvider";
 import { BookmarksProvider } from "@/components/BookmarksProvider";
+import { SearchHistoryProvider } from "@/components/SearchHistoryProvider";
 import { AppShell } from "@/components/AppShell";
 
 const inter = Inter({
@@ -110,6 +111,7 @@ export default function RootLayout({
       >
         <ThemeProvider>
           <BookmarksProvider>
+            <SearchHistoryProvider>
             <ToastProvider>
               <a
                 href="#main-content"
@@ -119,6 +121,7 @@ export default function RootLayout({
               </a>
               <AppShell>{children}</AppShell>
             </ToastProvider>
+            </SearchHistoryProvider>
           </BookmarksProvider>
         </ThemeProvider>
         {process.env.NEXT_PUBLIC_ADSENSE_ID && (

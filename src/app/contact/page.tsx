@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ChevronRight, Home, Mail, MessageSquare, User } from "lucide-react";
+import { ChevronRight, Home, Mail, MessageSquare } from "lucide-react";
+import { ContactForm } from "@/components/ContactForm";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -79,109 +80,23 @@ export default function ContactPage() {
 
         {/* Contact Form */}
         <div className="lg:col-span-2">
-          <form className="space-y-6 p-6 rounded-2xl border border-border bg-card">
-            {/* Name Field */}
-            <div>
-              <label htmlFor="name" className="block text-sm font-semibold mb-2">
-                <div className="flex items-center gap-2">
-                  <User size={16} className="text-accent" />
-                  お名前 <span className="text-red-500">*</span>
-                </div>
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="山田太郎"
-                required
-                aria-required="true"
-                autoComplete="name"
-                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all invalid:border-red-500/50 invalid:focus:ring-red-500/50"
-              />
-            </div>
+          <ContactForm />
 
-            {/* Email Field */}
-            <div>
-              <label htmlFor="email" className="block text-sm font-semibold mb-2">
-                <div className="flex items-center gap-2">
-                  <Mail size={16} className="text-accent" />
-                  メールアドレス <span className="text-red-500">*</span>
-                </div>
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="example@example.com"
-                required
-                aria-required="true"
-                autoComplete="email"
-                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all invalid:border-red-500/50 invalid:focus:ring-red-500/50"
-              />
-            </div>
-
-            {/* Subject Field */}
-            <div>
-              <label htmlFor="subject" className="block text-sm font-semibold mb-2">
-                <div className="flex items-center gap-2">
-                  <MessageSquare size={16} className="text-accent" />
-                  件名 <span className="text-red-500">*</span>
-                </div>
-              </label>
-              <input
-                type="text"
-                id="subject"
-                name="subject"
-                placeholder="お問い合わせの件名"
-                required
-                aria-required="true"
-                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all invalid:border-red-500/50 invalid:focus:ring-red-500/50"
-              />
-            </div>
-
-            {/* Message Field */}
-            <div>
-              <label htmlFor="message" className="block text-sm font-semibold mb-2">
-                <div className="flex items-center gap-2">
-                  <MessageSquare size={16} className="text-accent" />
-                  メッセージ <span className="text-red-500">*</span>
-                </div>
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                placeholder="お問い合わせの内容をお書きください..."
-                rows={6}
-                required
-                aria-required="true"
-                className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all resize-none invalid:border-red-500/50 invalid:focus:ring-red-500/50"
-              />
-            </div>
-
-            {/* Privacy Notice */}
-            <div className="p-4 rounded-lg bg-accent/5 border border-accent/10 text-xs text-muted leading-relaxed">
-              <p className="mb-2">
-                <span className="font-semibold text-foreground">プライバシーについて：</span>
-              </p>
-              <p>
-                ご入力いただいた個人情報は、お問い合わせへの対応のみに使用され、
-                他の目的で使用されることはありません。
-                詳細は
-                <Link href="/privacy-policy" className="text-accent hover:underline">
-                  プライバシーポリシー
-                </Link>
-                をご覧ください。
-              </p>
-            </div>
-
-            {/* Submit Button */}
-            <button
-              type="submit"
-              className="w-full px-6 py-3 bg-accent text-white rounded-lg font-semibold text-sm hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-background"
-            >
-              送信
-            </button>
-          </form>
+          {/* Privacy Notice */}
+          <div className="mt-4 p-4 rounded-lg bg-accent/5 border border-accent/10 text-xs text-muted leading-relaxed">
+            <p className="mb-2">
+              <span className="font-semibold text-foreground">プライバシーについて：</span>
+            </p>
+            <p>
+              ご入力いただいた個人情報は、お問い合わせへの対応のみに使用され、
+              他の目的で使用されることはありません。
+              詳細は
+              <Link href="/privacy-policy" className="text-accent hover:underline">
+                プライバシーポリシー
+              </Link>
+              をご覧ください。
+            </p>
+          </div>
         </div>
       </div>
 
