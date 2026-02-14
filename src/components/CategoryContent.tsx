@@ -1,10 +1,42 @@
 "use client";
 
-import { useState, useCallback, useEffect, useMemo } from "react";
+import { useState, useCallback, useEffect, useMemo, useRef } from "react";
 import { Category } from "@/lib/types";
 import { ResourceCard } from "@/components/ResourceCard";
 import { AdBanner, InFeedAd } from "@/components/AdBanner";
 import { Star, Filter, ChevronDown, ChevronRight, ArrowUp, Search, ChevronsDownUp, ChevronsUpDown } from "lucide-react";
+
+/** Lazy-render wrapper: only renders children when in/near viewport */
+function LazySection({ children, className, ...props }: React.HTMLAttributes<HTMLDivElement> & { children: React.ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px 0px" } // pre-load 200px before viewport
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div ref={ref} className={className} {...props}>
+      {visible ? children : (
+        <div className="h-32 flex items-center justify-center">
+          <div className="h-4 w-4 rounded-full bg-accent/20 animate-pulse" />
+        </div>
+      )}
+    </div>
+  );
+}
 
 interface CategoryContentProps {
   category: Category;
@@ -213,76 +245,80 @@ export function CategoryContent({ category }: CategoryContentProps) {
 
             const isCollapsed = collapsedSubs[sub.id] ?? false;
 
+            // Lazy load subcategories after the 4th one
+            const Wrapper = i >= 4 ? LazySection : "div";
+
             return (
-              <section
-                key={sub.id}
-                id={sub.id}
-                data-toc-section="true"
-                className="scroll-mt-20"
-              >
-                <button
-                  onClick={() => toggleCollapse(sub.id)}
-                  className="mb-4 w-full text-left group"
-                  aria-expanded={!isCollapsed}
-                  aria-controls={`content-${sub.id}`}
+              <Wrapper key={sub.id}>
+                <section
+                  id={sub.id}
+                  data-toc-section="true"
+                  className="scroll-mt-20"
                 >
-                  <div className="flex items-center gap-2">
-                    <ChevronRight
-                      size={16}
-                      className={`text-muted transition-transform duration-200 ${isCollapsed ? "" : "rotate-90"}`}
-                    />
-                    <h2 className="text-xl font-bold group-hover:text-accent transition-colors">{sub.title}</h2>
-                    <span className="text-xs text-muted px-2 py-0.5 rounded-full bg-card border border-border">
-                      {filteredResources.length}
-                    </span>
-                  </div>
-                  {!isCollapsed && sub.description && (
-                    <p className="mt-1 ml-6 text-sm text-muted">{sub.description}</p>
-                  )}
-                  {!isCollapsed && sub.note && (
-                    <div className="mt-2 ml-6 p-3 rounded-lg bg-accent/5 border border-accent/10 text-xs text-muted leading-relaxed">
-                      {sub.note}
+                  <button
+                    onClick={() => toggleCollapse(sub.id)}
+                    className="mb-4 w-full text-left group"
+                    aria-expanded={!isCollapsed}
+                    aria-controls={`content-${sub.id}`}
+                  >
+                    <div className="flex items-center gap-2">
+                      <ChevronRight
+                        size={16}
+                        className={`text-muted transition-transform duration-200 ${isCollapsed ? "" : "rotate-90"}`}
+                      />
+                      <h2 className="text-xl font-bold group-hover:text-accent transition-colors">{sub.title}</h2>
+                      <span className="text-xs text-muted px-2 py-0.5 rounded-full bg-card border border-border">
+                        {filteredResources.length}
+                      </span>
+                    </div>
+                    {!isCollapsed && sub.description && (
+                      <p className="mt-1 ml-6 text-sm text-muted">{sub.description}</p>
+                    )}
+                    {!isCollapsed && sub.note && (
+                      <div className="mt-2 ml-6 p-3 rounded-lg bg-accent/5 border border-accent/10 text-xs text-muted leading-relaxed">
+                        {sub.note}
+                      </div>
+                    )}
+                  </button>
+
+                  {!isCollapsed && (
+                    <div id={`content-${sub.id}`} role="region" aria-label={sub.title}>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        {visibleResources.map((resource) => (
+                          <ResourceCard key={resource.name + resource.url} resource={resource} />
+                        ))}
+                      </div>
+
+                      {remaining > 0 && (
+                        <button
+                          onClick={() => showMore(sub.id)}
+                          className="mt-4 w-full flex items-center justify-center gap-2 py-3 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 text-sm text-muted hover:text-accent transition-all"
+                        >
+                          <ChevronDown size={16} />
+                          もっと見る（残り {remaining}件）
+                        </button>
+                      )}
+
+                      {visibleCount > ITEMS_PER_PAGE && (
+                        <button
+                          onClick={() => {
+                            const el = document.getElementById(sub.id);
+                            if (el) el.scrollIntoView({ behavior: "smooth" });
+                          }}
+                          className="mt-3 flex items-center gap-1 text-xs text-muted hover:text-accent transition-colors ml-auto"
+                        >
+                          <ArrowUp size={12} />
+                          セクション先頭に戻る
+                        </button>
+                      )}
                     </div>
                   )}
-                </button>
 
-                {!isCollapsed && (
-                  <div id={`content-${sub.id}`} role="region" aria-label={sub.title}>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      {visibleResources.map((resource) => (
-                        <ResourceCard key={resource.name + resource.url} resource={resource} />
-                      ))}
-                    </div>
-
-                    {remaining > 0 && (
-                      <button
-                        onClick={() => showMore(sub.id)}
-                        className="mt-4 w-full flex items-center justify-center gap-2 py-3 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 text-sm text-muted hover:text-accent transition-all"
-                      >
-                        <ChevronDown size={16} />
-                        もっと見る（残り {remaining}件）
-                      </button>
-                    )}
-
-                    {visibleCount > ITEMS_PER_PAGE && (
-                      <button
-                        onClick={() => {
-                          const el = document.getElementById(sub.id);
-                          if (el) el.scrollIntoView({ behavior: "smooth" });
-                        }}
-                        className="mt-3 flex items-center gap-1 text-xs text-muted hover:text-accent transition-colors ml-auto"
-                      >
-                        <ArrowUp size={12} />
-                        セクション先頭に戻る
-                      </button>
-                    )}
-                  </div>
-                )}
-
-                {i === 1 && <AdBanner className="mt-6" />}
-                {i === 5 && <InFeedAd className="mt-6" />}
-                {i === 10 && <AdBanner className="mt-6" />}
-              </section>
+                  {i === 1 && <AdBanner className="mt-6" />}
+                  {i === 5 && <InFeedAd className="mt-6" />}
+                  {i === 10 && <AdBanner className="mt-6" />}
+                </section>
+              </Wrapper>
             );
           })}
         </div>

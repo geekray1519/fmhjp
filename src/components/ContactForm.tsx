@@ -84,8 +84,33 @@ export function ContactForm() {
 
     setIsSubmitting(true);
 
-    // Simulate submission delay
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    // Build mailto link as fallback contact method
+    const mailtoSubject = encodeURIComponent(`[FMHJP] ${formData.subject}`);
+    const mailtoBody = encodeURIComponent(
+      `名前: ${formData.name}\nメール: ${formData.email}\n\n${formData.message}`
+    );
+    const mailtoLink = `mailto:konkonrei1519@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+
+    // Try Web3Forms first (free tier, no API key needed for basic usage)
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          access_key: "YOUR_ACCESS_KEY", // placeholder — falls through to mailto
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        }),
+      });
+      if (!res.ok) throw new Error("API error");
+      const data = await res.json();
+      if (!data.success) throw new Error("Submission failed");
+    } catch {
+      // Fallback: open mailto link
+      window.open(mailtoLink, "_blank");
+    }
 
     setIsSubmitting(false);
     setFormData({ name: "", email: "", subject: "", message: "" });

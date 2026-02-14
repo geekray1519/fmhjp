@@ -86,9 +86,26 @@ const tips = [
   "⚠️ 「ミラー」や「代替URL」を使う場合は、公式サイトから確認してからアクセスしてください。",
 ];
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: steps.map((step) => ({
+    "@type": "Question",
+    name: step.title.replace(/^\d+\.\s*/, ""),
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: `${step.description} ${step.recommendation}`,
+    },
+  })),
+};
+
 export default function BeginnersGuidePage() {
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <nav className="flex items-center gap-2 text-sm text-muted mb-8">
         <Link href="/" className="hover:text-foreground transition-colors flex items-center gap-1">
           <Home size={14} />

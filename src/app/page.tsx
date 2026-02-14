@@ -75,7 +75,7 @@ export default function Home() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <section className="py-16 sm:py-24 text-center relative overflow-hidden">
+      <section className="py-16 sm:py-24 text-center relative overflow-hidden rounded-3xl animate-gradient-mesh -mx-2 px-2">
         {/* Background glow effects */}
         <div className="absolute inset-0 -z-10">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-indigo-500/20 via-purple-500/20 to-pink-500/20 rounded-full blur-3xl" />
