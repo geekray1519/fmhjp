@@ -9,6 +9,7 @@ import { useResourceDetail } from "./ResourceDetailProvider";
 
 interface ResourceCardProps {
   resource: Resource;
+  highlightQuery?: string;
 }
 
 function getDomain(url: string): string {
@@ -20,7 +21,21 @@ function getDomain(url: string): string {
   }
 }
 
-export function ResourceCard({ resource }: ResourceCardProps) {
+function highlightText(text: string, query?: string): React.ReactNode {
+  if (!query || !query.trim()) return text;
+  const q = query.trim();
+  const idx = text.toLowerCase().indexOf(q.toLowerCase());
+  if (idx === -1) return text;
+  return (
+    <>
+      {text.slice(0, idx)}
+      <mark className="bg-accent/20 text-accent rounded-sm px-0.5">{text.slice(idx, idx + q.length)}</mark>
+      {text.slice(idx + q.length)}
+    </>
+  );
+}
+
+export function ResourceCard({ resource, highlightQuery }: ResourceCardProps) {
   const domain = getDomain(resource.url);
   const { showToast } = useToast();
   const { isBookmarked, toggleBookmark } = useBookmarks();
@@ -73,12 +88,12 @@ export function ResourceCard({ resource }: ResourceCardProps) {
               <Star size={14} className="text-amber-400 fill-amber-400 shrink-0" />
             )}
             <h3 className="font-semibold text-sm group-hover:text-accent transition-colors truncate">
-              {resource.name}
+              {highlightQuery ? highlightText(resource.name, highlightQuery) : resource.name}
             </h3>
           </div>
           {resource.description && (
             <p className="mt-1 text-xs text-muted leading-relaxed line-clamp-2">
-              {resource.description}
+              {highlightQuery ? highlightText(resource.description, highlightQuery) : resource.description}
             </p>
           )}
           <div className="mt-2 flex flex-wrap items-center gap-1.5">

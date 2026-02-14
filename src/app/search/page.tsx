@@ -380,7 +380,7 @@ function SearchContent() {
                           {(idx === 0 || items[idx - 1].subcategory !== item.subcategory) && (
                             <p className="text-[10px] text-muted mb-1.5 mt-2 first:mt-0 px-1">{item.subcategory}</p>
                           )}
-                          <ResourceCard resource={item.resource} />
+                          <ResourceCard resource={item.resource} highlightQuery={query} />
                         </div>
                       ))}
                     </div>

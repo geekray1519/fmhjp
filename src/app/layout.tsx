@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Noto_Sans_JP } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { ToastProvider } from "@/components/ToastProvider";
@@ -126,6 +128,8 @@ export default function RootLayout({
                 メインコンテンツへスキップ
               </a>
               <AppShell>{children}</AppShell>
+              <Analytics />
+              <SpeedInsights />
             </ToastProvider>
             </ResourceDetailProvider>
             </SearchHistoryProvider>
