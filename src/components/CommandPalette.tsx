@@ -16,6 +16,7 @@ import {
   Hash,
   Clock,
   Trash2,
+  History,
 } from "lucide-react";
 
 interface CommandPaletteProps {
@@ -75,6 +76,7 @@ function HighlightText({ text, query }: { text: string; query: string }) {
 export function CommandPalette({ open, onClose }: CommandPaletteProps) {
   const [query, setQuery] = useState("");
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const [recentlyViewed, setRecentlyViewed] = useState<string[]>([]);
   const { history, addSearch, removeSearch, clearHistory } = useSearchHistory();
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
@@ -85,6 +87,14 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
     if (open) {
       setQuery("");
       setSelectedIndex(0);
+      // Load recently viewed from localStorage
+      try {
+        const stored = localStorage.getItem("fmhjp-recently-viewed");
+        if (stored) {
+          const items = JSON.parse(stored) as { slug: string }[];
+          setRecentlyViewed(items.map((i) => i.slug));
+        }
+      } catch { /* */ }
       // Small delay to ensure the modal is rendered
       requestAnimationFrame(() => {
         inputRef.current?.focus();
@@ -377,6 +387,36 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
                       </button>
                     </div>
                   ))}
+                  <div className="my-1 border-t border-border" />
+                </>
+              )}
+
+              {/* Recently viewed categories */}
+              {recentlyViewed.length > 0 && (
+                <>
+                  <div className="px-4 py-1.5 text-[10px] font-medium text-muted uppercase tracking-wider flex items-center gap-1.5">
+                    <History size={10} />
+                    最近見たカテゴリ
+                  </div>
+                  <div className="px-2 py-1 grid grid-cols-1 sm:grid-cols-2 gap-0.5">
+                    {recentlyViewed.slice(0, 6).map((slug) => {
+                      const cat = categories.find((c) => c.slug === slug);
+                      if (!cat) return null;
+                      return (
+                        <button
+                          key={cat.id}
+                          onClick={() => {
+                            router.push(`/${cat.slug}`);
+                            onClose();
+                          }}
+                          className="flex items-center gap-2 px-3 py-2 rounded-lg text-xs text-muted hover:text-foreground hover:bg-card-hover transition-colors text-left"
+                        >
+                          <span>{cat.icon}</span>
+                          <span className="truncate flex-1">{cat.title}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
                   <div className="my-1 border-t border-border" />
                 </>
               )}
