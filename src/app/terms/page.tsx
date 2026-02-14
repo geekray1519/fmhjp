@@ -23,7 +23,7 @@ export default function TermsPage() {
         <h1 className="text-4xl font-extrabold mb-4">
           <span className="gradient-text">利用規約</span>
         </h1>
-        <p className="text-sm text-muted">最終更新日: 2026年2月13日</p>
+        <p className="text-sm text-muted">最終更新日: 2026年2月14日</p>
       </div>
 
       <div className="space-y-8">

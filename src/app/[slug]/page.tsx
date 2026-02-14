@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { categories } from "@/data";
 import { CategoryContent } from "@/components/CategoryContent";
 import { AdBanner } from "@/components/AdBanner";
+import { ShareButton } from "@/components/ShareButton";
 import { ChevronRight, ChevronLeft, Home, Star } from "lucide-react";
 import Link from "next/link";
 
@@ -109,6 +110,7 @@ export default async function CategoryPage({ params }: PageProps) {
                 {starredCount} おすすめ
               </span>
             )}
+            <ShareButton title={`${category.title} - FMHJP`} />
           </div>
         </div>
       </div>
