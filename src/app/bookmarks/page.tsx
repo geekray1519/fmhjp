@@ -5,6 +5,7 @@ import { useBookmarks } from "@/components/BookmarksProvider";
 import { useToast } from "@/components/ToastProvider";
 import { Bookmark, ExternalLink, Star, Trash2, X, Download, SortAsc, Clock, ArrowDownAZ, Search } from "lucide-react";
 import Link from "next/link";
+import { AdBanner } from "@/components/AdBanner";
 
 type SortMode = "newest" | "oldest" | "name";
 
@@ -168,6 +169,9 @@ export default function BookmarksPage() {
         </div>
       ) : (
         <div className="space-y-2">
+          {sortedBookmarks.length > 5 && (
+            <AdBanner className="mb-4" />
+          )}
           {sortedBookmarks.map((item) => (
             <div
               key={item.url}
