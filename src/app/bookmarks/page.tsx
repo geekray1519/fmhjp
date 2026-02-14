@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { useBookmarks } from "@/components/BookmarksProvider";
 import { useToast } from "@/components/ToastProvider";
-import { Bookmark, ExternalLink, Star, Trash2, X, Download, SortAsc, Clock, ArrowDownAZ } from "lucide-react";
+import { Bookmark, ExternalLink, Star, Trash2, X, Download, SortAsc, Clock, ArrowDownAZ, Search } from "lucide-react";
 import Link from "next/link";
 
 type SortMode = "newest" | "oldest" | "name";
@@ -13,20 +13,27 @@ export default function BookmarksPage() {
     useBookmarks();
   const { showToast } = useToast();
   const [sortMode, setSortMode] = useState<SortMode>("newest");
+  const [filterText, setFilterText] = useState("");
 
   const sortedBookmarks = useMemo(() => {
-    const sorted = [...bookmarks];
+    let filtered = [...bookmarks];
+    if (filterText.trim()) {
+      const q = filterText.toLowerCase();
+      filtered = filtered.filter(
+        (b) => b.name.toLowerCase().includes(q) || b.description.toLowerCase().includes(q)
+      );
+    }
     switch (sortMode) {
       case "newest":
-        return sorted.sort((a, b) => b.addedAt - a.addedAt);
+        return filtered.sort((a, b) => b.addedAt - a.addedAt);
       case "oldest":
-        return sorted.sort((a, b) => a.addedAt - b.addedAt);
+        return filtered.sort((a, b) => a.addedAt - b.addedAt);
       case "name":
-        return sorted.sort((a, b) => a.name.localeCompare(b.name, "ja"));
+        return filtered.sort((a, b) => a.name.localeCompare(b.name, "ja"));
       default:
-        return sorted;
+        return filtered;
     }
-  }, [bookmarks, sortMode]);
+  }, [bookmarks, sortMode, filterText]);
 
   const handleRemove = (url: string, name: string) => {
     toggleBookmark({ name, url, description: "" });
@@ -84,6 +91,28 @@ export default function BookmarksPage() {
           </div>
         )}
       </div>
+
+      {/* Search filter */}
+      {bookmarkCount > 3 && (
+        <div className="relative mb-4">
+          <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted" />
+          <input
+            type="text"
+            value={filterText}
+            onChange={(e) => setFilterText(e.target.value)}
+            placeholder="ブックマークを検索..."
+            className="w-full pl-9 pr-3 py-2 text-sm bg-card border border-border rounded-xl outline-none focus:border-accent/40 transition-colors"
+          />
+          {filterText && (
+            <button
+              onClick={() => setFilterText("")}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-muted hover:text-foreground transition-colors"
+            >
+              <X size={14} />
+            </button>
+          )}
+        </div>
+      )}
 
       {/* Sort controls */}
       {bookmarkCount > 1 && (
@@ -184,7 +213,7 @@ export default function BookmarksPage() {
               </div>
               <button
                 onClick={() => handleRemove(item.url, item.name)}
-                className="p-1.5 rounded-md text-muted/50 hover:text-red-500 hover:bg-red-500/10 transition-all opacity-0 group-hover:opacity-100 shrink-0"
+                className="p-1.5 rounded-md text-muted/50 hover:text-red-500 hover:bg-red-500/10 transition-all sm:opacity-0 sm:group-hover:opacity-100 shrink-0"
                 title="削除"
               >
                 <X size={14} />

@@ -465,17 +465,23 @@ function SearchContent() {
           {/* Popular categories quick access */}
           <div className="mt-10 text-center">
             <h3 className="text-sm font-medium text-muted mb-4">カテゴリから探す</h3>
-            <div className="flex flex-wrap justify-center gap-2">
-              {categories.slice(0, 12).map((cat) => (
-                <a
-                  key={cat.id}
-                  href={`/${cat.slug}`}
-                  className="inline-flex items-center gap-1.5 px-3 py-2 text-xs rounded-xl bg-card border border-border hover:bg-card-hover hover:border-accent/30 transition-all"
-                >
-                  <span>{cat.icon}</span>
-                  <span>{cat.title}</span>
-                </a>
-              ))}
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 max-w-2xl mx-auto">
+              {categories.slice(0, 12).map((cat) => {
+                const count = cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0);
+                return (
+                  <a
+                    key={cat.id}
+                    href={`/${cat.slug}`}
+                    className="group flex items-center gap-2.5 p-3 rounded-xl bg-card border border-border hover:bg-card-hover hover:border-accent/30 transition-all text-left"
+                  >
+                    <span className="text-lg shrink-0">{cat.icon}</span>
+                    <div className="min-w-0">
+                      <div className="text-xs font-medium group-hover:text-accent transition-colors truncate">{cat.title}</div>
+                      <div className="text-[10px] text-muted">{count.toLocaleString()}</div>
+                    </div>
+                  </a>
+                );
+              })}
             </div>
           </div>
         </div>
