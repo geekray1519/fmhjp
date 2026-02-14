@@ -121,6 +121,7 @@ export function Header({ onMenuToggle, menuOpen }: HeaderProps) {
                           {WIKI_SLUGS.map((slug) => {
                             const cat = getCat(slug);
                             if (!cat) return null;
+                            const count = cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0);
                             return (
                               <Link
                                 key={cat.id}
@@ -131,7 +132,8 @@ export function Header({ onMenuToggle, menuOpen }: HeaderProps) {
                                 <span className="w-5 text-center text-base">
                                   {cat.icon}
                                 </span>
-                                <span className="truncate">{cat.title}</span>
+                                <span className="truncate flex-1">{cat.title}</span>
+                                <span className="text-[10px] text-muted/60 tabular-nums">{count}</span>
                               </Link>
                             );
                           })}
@@ -147,6 +149,7 @@ export function Header({ onMenuToggle, menuOpen }: HeaderProps) {
                           {TOOLS_SLUGS.map((slug) => {
                             const cat = getCat(slug);
                             if (!cat) return null;
+                            const count = cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0);
                             return (
                               <Link
                                 key={cat.id}
@@ -157,7 +160,8 @@ export function Header({ onMenuToggle, menuOpen }: HeaderProps) {
                                 <span className="w-5 text-center text-base">
                                   {cat.icon}
                                 </span>
-                                <span className="truncate">{cat.title}</span>
+                                <span className="truncate flex-1">{cat.title}</span>
+                                <span className="text-[10px] text-muted/60 tabular-nums">{count}</span>
                               </Link>
                             );
                           })}
