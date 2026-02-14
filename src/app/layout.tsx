@@ -80,6 +80,30 @@ export default function RootLayout({
     <html lang="ja" suppressHydrationWarning>
       <head>
         <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_ADSENSE_ID || ""} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "FMHJP",
+              alternateName: "FMHJP - 無料リソースガイド",
+              url: "https://fmhyjp.vercel.app",
+              description:
+                "インターネット上の無料リソースを集めた最大のコレクション。ソフトウェア、エンターテインメント、教育、プライバシーツールなど。",
+              inLanguage: "ja",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate:
+                    "https://fmhyjp.vercel.app/search?q={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
       </head>
       <body
         className={`${inter.variable} ${notoSansJP.variable} antialiased`}
