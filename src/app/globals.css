@@ -518,3 +518,43 @@ mark {
   align-items: center;
   justify-content: center;
 }
+
+/* Gradient section divider */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
+
+/* Smooth card entrance */
+@keyframes card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.animate-card-enter {
+  animation: card-enter 0.4s ease-out forwards;
+}
+
+/* Text gradient animation for hero elements */
+@keyframes text-shine {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animate-text-shine {
+  background-size: 200% auto;
+  animation: text-shine 4s linear infinite;
+}
+
+/* Drop shadow for icons */
+.icon-glow {
+  filter: drop-shadow(0 2px 4px rgba(99, 102, 241, 0.2));
+}
+.dark .icon-glow {
+  filter: drop-shadow(0 2px 4px rgba(129, 140, 248, 0.15));
+}

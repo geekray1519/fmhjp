@@ -92,15 +92,17 @@ export default async function CategoryPage({ params }: PageProps) {
         <span className="text-foreground font-medium">{category.title}</span>
       </nav>
 
-      <div className="mb-8 relative overflow-hidden rounded-2xl border border-border bg-card p-4 sm:p-6 lg:p-8">
-        <div className={`absolute inset-0 opacity-[0.03] bg-gradient-to-br ${category.color}`} />
-        <div className={`absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r ${category.color}`} />
+      <div className="mb-8 relative overflow-hidden rounded-2xl border border-border bg-card p-5 sm:p-6 lg:p-8">
+        <div className={`absolute inset-0 opacity-[0.04] bg-gradient-to-br ${category.color}`} />
+        <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${category.color}`} />
+        {/* Decorative corner glow */}
+        <div className={`absolute -top-20 -right-20 w-40 h-40 opacity-[0.08] bg-gradient-to-br ${category.color} rounded-full blur-3xl`} />
         <div className="relative z-10">
           <div className="flex items-start sm:items-center gap-3 sm:gap-4 mb-3">
-            <span className="text-4xl sm:text-5xl">{category.icon}</span>
+            <span className="text-4xl sm:text-5xl drop-shadow-sm">{category.icon}</span>
             <div className="min-w-0">
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold">{category.title}</h1>
-              <p className="text-xs sm:text-sm text-muted mt-1 max-w-2xl line-clamp-2">{category.description}</p>
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight">{category.title}</h1>
+              <p className="text-xs sm:text-sm text-muted mt-1 max-w-2xl line-clamp-2 leading-relaxed">{category.description}</p>
             </div>
           </div>
           <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-3 sm:mt-4 text-xs text-muted">
@@ -130,13 +132,16 @@ export default async function CategoryPage({ params }: PageProps) {
         {prevCategory ? (
           <Link
             href={`/${prevCategory.slug}`}
-            className="group flex items-center gap-3 p-4 rounded-xl border border-border hover:border-accent/30 hover:bg-card transition-all"
+            className="group flex items-center gap-3 p-4 rounded-xl border border-border hover:border-accent/30 hover:bg-card hover:shadow-lg hover:shadow-accent/5 transition-all"
           >
             <ChevronLeft size={20} className="text-muted group-hover:text-accent transition-colors shrink-0" />
             <div className="min-w-0">
               <div className="text-[10px] text-muted uppercase tracking-wider">前のカテゴリ</div>
               <div className="text-sm font-medium truncate group-hover:text-accent transition-colors">
                 {prevCategory.icon} {prevCategory.title}
+              </div>
+              <div className="text-[10px] text-muted/60 mt-0.5">
+                {prevCategory.subcategories.reduce((s, sub) => s + sub.resources.length, 0).toLocaleString()} リソース
               </div>
             </div>
           </Link>
@@ -146,12 +151,15 @@ export default async function CategoryPage({ params }: PageProps) {
         {nextCategory ? (
           <Link
             href={`/${nextCategory.slug}`}
-            className="group flex items-center justify-end gap-3 p-4 rounded-xl border border-border hover:border-accent/30 hover:bg-card transition-all text-right"
+            className="group flex items-center justify-end gap-3 p-4 rounded-xl border border-border hover:border-accent/30 hover:bg-card hover:shadow-lg hover:shadow-accent/5 transition-all text-right"
           >
             <div className="min-w-0">
               <div className="text-[10px] text-muted uppercase tracking-wider">次のカテゴリ</div>
               <div className="text-sm font-medium truncate group-hover:text-accent transition-colors">
                 {nextCategory.icon} {nextCategory.title}
+              </div>
+              <div className="text-[10px] text-muted/60 mt-0.5">
+                {nextCategory.subcategories.reduce((s, sub) => s + sub.resources.length, 0).toLocaleString()} リソース
               </div>
             </div>
             <ChevronRight size={20} className="text-muted group-hover:text-accent transition-colors shrink-0" />
