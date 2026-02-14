@@ -319,6 +319,27 @@ html {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06), 0 2px 8px rgba(99, 102, 241, 0.04);
 }
 
+/* Modal overlay animations */
+@keyframes modal-backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes modal-content-in {
+  from { opacity: 0; transform: translateY(24px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animate-modal-backdrop {
+  animation: modal-backdrop-in 0.2s ease-out forwards;
+}
+.animate-modal-content {
+  animation: modal-content-in 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Category card gradient line in light mode */
+:root .category-card-hover:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(99, 102, 241, 0.06);
+}
+
 /* Page enter animation */
 @keyframes page-enter {
   from { opacity: 0; transform: translateY(6px); }

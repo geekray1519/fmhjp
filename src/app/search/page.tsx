@@ -375,7 +375,12 @@ function SearchContent() {
                     </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {items.map((item, idx) => (
-                        <ResourceCard key={item.resource.name + item.subcategory + idx} resource={item.resource} />
+                        <div key={item.resource.name + item.subcategory + idx}>
+                          {(idx === 0 || items[idx - 1].subcategory !== item.subcategory) && (
+                            <p className="text-[10px] text-muted mb-1.5 mt-2 first:mt-0 px-1">{item.subcategory}</p>
+                          )}
+                          <ResourceCard resource={item.resource} />
+                        </div>
                       ))}
                     </div>
                   </section>

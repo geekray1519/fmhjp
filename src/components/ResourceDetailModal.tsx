@@ -89,12 +89,12 @@ export function ResourceDetailModal({ resource, onClose }: ResourceDetailModalPr
     <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center">
       {/* Backdrop */}
       <div
-        className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-fade-in"
+        className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-modal-backdrop"
         onClick={onClose}
       />
 
       {/* Modal */}
-      <div className="relative w-full sm:max-w-lg mx-0 sm:mx-4 bg-background border border-border rounded-t-2xl sm:rounded-2xl shadow-2xl animate-slide-up max-h-[85vh] overflow-y-auto">
+      <div className="relative w-full sm:max-w-lg mx-0 sm:mx-4 bg-background border border-border rounded-t-2xl sm:rounded-2xl shadow-2xl animate-modal-content max-h-[85vh] overflow-y-auto">
         {/* Header */}
         <div className="sticky top-0 bg-background/95 backdrop-blur-sm border-b border-border px-5 py-4 flex items-center justify-between z-10">
           <div className="flex items-center gap-2 min-w-0">

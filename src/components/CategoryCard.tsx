@@ -18,7 +18,7 @@ export function CategoryCard({ category, index }: CategoryCardProps) {
   return (
     <Link
       href={`/${category.slug}`}
-      className="group relative block p-6 rounded-2xl border border-border bg-card hover:bg-card-hover overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 animate-fade-in"
+      className="group relative block p-6 rounded-2xl border border-border bg-card hover:bg-card-hover overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 animate-fade-in category-card-hover"
       style={{ animationDelay: `${Math.min(index, 8) * 60}ms` }}
     >
       {/* Top gradient accent line */}
