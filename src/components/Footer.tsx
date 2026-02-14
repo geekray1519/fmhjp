@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { categories } from "@/data";
-import { Heart } from "lucide-react";
+import { Heart, ArrowUp } from "lucide-react";
 
 export function Footer() {
   const totalResources = categories.reduce(
@@ -75,7 +75,17 @@ export function Footer() {
             <Heart size={10} className="text-pink-500 fill-pink-500" />
             無料リソースの日本語キュレーション
           </p>
-          <p className="text-[10px]">データは毎月1日に自動更新されます</p>
+          <div className="flex items-center gap-4">
+            <p className="text-[10px]">データは毎月1日に自動更新されます</p>
+            <a
+              href="#main-content"
+              className="inline-flex items-center gap-1 text-[10px] text-muted hover:text-accent transition-colors"
+              aria-label="ページトップへ"
+            >
+              <ArrowUp size={10} />
+              トップへ
+            </a>
+          </div>
         </div>
       </div>
     </footer>

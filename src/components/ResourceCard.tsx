@@ -154,17 +154,17 @@ export function ResourceCard({ resource }: ResourceCardProps) {
               e.stopPropagation();
               openDetail(resource);
             }}
-            className="p-1 rounded-md opacity-0 group-hover:opacity-100 transition-all hover:bg-card-hover text-muted hover:text-accent"
+            className="p-1.5 sm:p-1 rounded-md sm:opacity-0 sm:group-hover:opacity-100 transition-all hover:bg-card-hover text-muted hover:text-accent"
             title="詳細を見る"
           >
             <Info size={13} />
           </button>
           <button
             onClick={handleToggleBookmark}
-            className={`p-1 rounded-md transition-all hover:bg-card-hover ${
+            className={`p-1.5 sm:p-1 rounded-md transition-all hover:bg-card-hover ${
               bookmarked
                 ? "opacity-100 text-accent"
-                : "opacity-0 group-hover:opacity-100 text-muted hover:text-accent"
+                : "sm:opacity-0 sm:group-hover:opacity-100 text-muted hover:text-accent"
             }`}
             title={bookmarked ? "ブックマーク解除" : "ブックマーク追加"}
           >
@@ -175,7 +175,7 @@ export function ResourceCard({ resource }: ResourceCardProps) {
           </button>
           <button
             onClick={handleCopyUrl}
-            className="p-1 rounded-md opacity-0 group-hover:opacity-100 transition-all hover:bg-card-hover text-muted hover:text-accent"
+            className="p-1.5 sm:p-1 rounded-md sm:opacity-0 sm:group-hover:opacity-100 transition-all hover:bg-card-hover text-muted hover:text-accent"
             title="URLをコピー"
           >
             {copied ? (

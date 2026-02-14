@@ -130,48 +130,46 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Categories */}
+        {/* Category Stats Chart */}
         <section>
-          <h2 className="text-2xl font-bold mb-4">カテゴリ一覧</h2>
-          <div className="p-4 rounded-xl border border-border bg-card">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-              <div className="text-muted">
-                <p className="font-semibold text-foreground mb-2">🎬 エンターテインメント</p>
-                <ul className="list-disc list-inside space-y-1 text-muted">
-                  <li>動画 / 映画 / アニメ</li>
-                  <li>音楽 / ポッドキャスト</li>
-                  <li>読書 / 漫画</li>
-                  <li>ゲーム / エミュレーション</li>
-                </ul>
-              </div>
-              <div className="text-muted">
-                <p className="font-semibold text-foreground mb-2">🛠️ ツール & 開発</p>
-                <ul className="list-disc list-inside space-y-1 text-muted">
-                  <li>開発者ツール</li>
-                  <li>プログラミング</li>
-                  <li>デザインツール</li>
-                  <li>AI / 機械学習</li>
-                </ul>
-              </div>
-              <div className="text-muted">
-                <p className="font-semibold text-foreground mb-2">🔒 プライバシー & セキュリティ</p>
-                <ul className="list-disc list-inside space-y-1 text-muted">
-                  <li>広告ブロック / プライバシー</li>
-                  <li>VPN / プロキシ</li>
-                  <li>暗号化ツール</li>
-                  <li>セキュリティ</li>
-                </ul>
-              </div>
-              <div className="text-muted">
-                <p className="font-semibold text-foreground mb-2">📚 その他</p>
-                <ul className="list-disc list-inside space-y-1 text-muted">
-                  <li>教育 / 学習</li>
-                  <li>ダウンロード</li>
-                  <li>モバイルアプリ</li>
-                  <li>その他のツール</li>
-                </ul>
-              </div>
-            </div>
+          <h2 className="text-2xl font-bold mb-4">カテゴリ別リソース数</h2>
+          <div className="p-4 rounded-xl border border-border bg-card space-y-2">
+            {[...categories]
+              .map((cat) => ({
+                ...cat,
+                count: cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0),
+                starCount: cat.subcategories.reduce((s, sub) => s + sub.resources.filter((r) => r.starred).length, 0),
+              }))
+              .sort((a, b) => b.count - a.count)
+              .map((cat) => {
+                const pct = Math.round((cat.count / totalResources) * 100);
+                return (
+                  <Link
+                    key={cat.id}
+                    href={`/${cat.slug}`}
+                    className="group flex items-center gap-3 p-2 rounded-lg hover:bg-card-hover transition-colors"
+                  >
+                    <span className="w-6 text-center shrink-0">{cat.icon}</span>
+                    <span className="w-28 sm:w-36 text-xs font-medium truncate group-hover:text-accent transition-colors shrink-0">
+                      {cat.title}
+                    </span>
+                    <div className="flex-1 h-5 bg-background rounded-full overflow-hidden border border-border">
+                      <div
+                        className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full transition-all duration-500"
+                        style={{ width: `${Math.max(pct, 2)}%` }}
+                      />
+                    </div>
+                    <span className="text-[10px] text-muted w-16 text-right shrink-0">
+                      {cat.count.toLocaleString()}
+                    </span>
+                    {cat.starCount > 0 && (
+                      <span className="text-[10px] text-amber-500 w-10 text-right shrink-0">
+                        ⭐{cat.starCount}
+                      </span>
+                    )}
+                  </Link>
+                );
+              })}
           </div>
         </section>
 
