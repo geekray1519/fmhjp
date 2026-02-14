@@ -38,17 +38,25 @@ export function Toast({
 
   return (
     <div
-      className={`fixed bottom-6 left-1/2 z-[200] -translate-x-1/2 transition-all duration-300 ease-out ${
+      className={`fixed bottom-20 sm:bottom-6 left-1/2 z-[200] -translate-x-1/2 transition-all duration-300 ease-out ${
         show
-          ? "opacity-100 translate-y-0"
-          : "opacity-0 translate-y-4"
+          ? "opacity-100 translate-y-0 scale-100"
+          : "opacity-0 translate-y-4 scale-95"
       }`}
     >
-      <div className="flex items-center gap-2 px-4 py-2.5 bg-card border border-border rounded-xl shadow-lg shadow-black/10 text-sm">
+      <div className={`flex items-center gap-2.5 px-4 py-3 rounded-xl shadow-xl text-sm font-medium ${
+        type === "success"
+          ? "bg-card border border-green-500/20 shadow-green-500/5"
+          : "bg-card border border-red-500/20 shadow-red-500/5"
+      }`}>
         {type === "success" ? (
-          <Check size={14} className="text-green-500 shrink-0" />
+          <div className="p-1 rounded-full bg-green-500/10">
+            <Check size={12} className="text-green-500 shrink-0" />
+          </div>
         ) : (
-          <X size={14} className="text-red-500 shrink-0" />
+          <div className="p-1 rounded-full bg-red-500/10">
+            <X size={12} className="text-red-500 shrink-0" />
+          </div>
         )}
         <span>{message}</span>
       </div>
