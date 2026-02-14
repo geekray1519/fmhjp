@@ -6,8 +6,36 @@ import { ShareButton } from "@/components/ShareButton";
 import { CategoryViewTracker } from "@/components/CategoryViewTracker";
 import { ReadingProgressBar } from "@/components/ReadingProgressBar";
 import { CategoryBreadcrumb } from "@/components/CategoryBreadcrumb";
-import { ChevronRight, ChevronLeft, Home, Star } from "lucide-react";
+import { ChevronRight, ChevronLeft, Home, Star, Sparkles } from "lucide-react";
 import Link from "next/link";
+
+// Related category mapping (manual curation for better cross-discovery)
+const RELATED_MAP: Record<string, string[]> = {
+  "ai": ["developer-tools", "text-tools", "image-tools"],
+  "video": ["video-tools", "downloading", "torrenting"],
+  "audio": ["video", "downloading", "misc"],
+  "gaming": ["gaming-tools", "downloading", "torrenting"],
+  "reading": ["educational", "text-tools", "non-english"],
+  "downloading": ["torrenting", "video", "audio"],
+  "torrenting": ["downloading", "video", "privacy"],
+  "educational": ["reading", "ai", "developer-tools"],
+  "mobile": ["system-tools", "gaming", "privacy"],
+  "privacy": ["internet-tools", "system-tools", "mobile"],
+  "linux-macos": ["system-tools", "developer-tools", "file-tools"],
+  "non-english": ["reading", "educational", "misc"],
+  "misc": ["internet-tools", "social-media-tools", "storage"],
+  "system-tools": ["file-tools", "developer-tools", "linux-macos"],
+  "file-tools": ["system-tools", "storage", "internet-tools"],
+  "internet-tools": ["privacy", "social-media-tools", "system-tools"],
+  "social-media-tools": ["internet-tools", "image-tools", "video-tools"],
+  "text-tools": ["ai", "developer-tools", "educational"],
+  "gaming-tools": ["gaming", "system-tools", "downloading"],
+  "image-tools": ["video-tools", "ai", "social-media-tools"],
+  "video-tools": ["video", "image-tools", "audio"],
+  "developer-tools": ["ai", "text-tools", "system-tools"],
+  "storage": ["file-tools", "system-tools", "internet-tools"],
+  "unsafe": ["privacy", "downloading", "torrenting"],
+};
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -127,8 +155,42 @@ export default async function CategoryPage({ params }: PageProps) {
 
       <AdBanner className="mt-8" />
 
+      {/* Related Categories */}
+      {RELATED_MAP[slug] && (
+        <div className="mt-12 pt-8 border-t border-border">
+          <div className="flex items-center gap-2 mb-4">
+            <Sparkles size={16} className="text-accent" />
+            <h2 className="text-sm font-semibold text-muted">関連カテゴリ</h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {RELATED_MAP[slug].map((relSlug) => {
+              const rel = categories.find((c) => c.slug === relSlug);
+              if (!rel) return null;
+              const relCount = rel.subcategories.reduce((s, sub) => s + sub.resources.length, 0);
+              return (
+                <Link
+                  key={rel.id}
+                  href={`/${rel.slug}`}
+                  className="group flex items-center gap-3 p-3 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 hover:shadow-md transition-all"
+                >
+                  <span className="text-2xl shrink-0">{rel.icon}</span>
+                  <div className="min-w-0">
+                    <div className="text-sm font-medium group-hover:text-accent transition-colors truncate">
+                      {rel.title}
+                    </div>
+                    <div className="text-[10px] text-muted">
+                      {relCount.toLocaleString()} リソース
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* Prev / Next navigation */}
-      <div className="mt-12 pt-8 border-t border-border grid grid-cols-2 gap-4">
+      <div className="mt-8 pt-8 border-t border-border grid grid-cols-2 gap-4">
         {prevCategory ? (
           <Link
             href={`/${prevCategory.slug}`}

@@ -189,7 +189,12 @@ export default function Home() {
         <div className="flex items-center gap-2 mb-6">
           <TrendingUp size={20} className="text-accent" />
           <h2 className="text-xl font-bold">おすすめリソース</h2>
-          <span className="text-xs text-muted ml-auto">{allStarred.length}件のおすすめから厳選</span>
+          <span className="px-2 py-0.5 text-[10px] font-medium rounded-full bg-amber-500/10 text-amber-500">
+            厳選 {featuredResources.length}
+          </span>
+          <span className="text-xs text-muted ml-auto hidden sm:inline">
+            全{allStarred.length}件のおすすめから日替わりでピックアップ
+          </span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
           {featuredResources.map((resource, i) => {
@@ -314,8 +319,13 @@ export default function Home() {
 
       <section id="categories" className="pb-16">
         <div className="flex items-center justify-between mb-8">
-          <h2 className="text-2xl font-bold">全カテゴリ一覧</h2>
-          <span className="text-xs text-muted">{categories.length} カテゴリ</span>
+          <div className="flex items-center gap-3">
+            <h2 className="text-2xl font-bold">全カテゴリ一覧</h2>
+            <span className="px-2.5 py-1 text-[10px] font-medium rounded-full bg-accent/10 text-accent">
+              {categories.length}
+            </span>
+          </div>
+          <span className="text-xs text-muted">{totalResources.toLocaleString()} リソース</span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {categories.map((category, i) => (
