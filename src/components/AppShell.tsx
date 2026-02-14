@@ -21,7 +21,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       />
       <div className="flex">
         <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-        <main id="main-content" className="flex-1 min-w-0 pb-16 sm:pb-0">
+        <main id="main-content" className="flex-1 min-w-0 pb-16 sm:pb-0 animate-page-enter">
           {children}
           <Footer />
         </main>

@@ -42,6 +42,7 @@ export function Footer() {
             <ul className="space-y-2.5 text-sm text-muted">
               <li><Link href="/" className="hover:text-accent transition-colors">ホーム</Link></li>
               <li><Link href="/search" className="hover:text-accent transition-colors">検索</Link></li>
+              <li><Link href="/bookmarks" className="hover:text-accent transition-colors">ブックマーク</Link></li>
               <li><Link href="/beginners-guide" className="hover:text-accent transition-colors">初心者ガイド</Link></li>
               <li><Link href="/about" className="hover:text-accent transition-colors">このサイトについて</Link></li>
             </ul>

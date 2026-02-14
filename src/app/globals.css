@@ -11,12 +11,12 @@
 }
 
 :root {
-  --background: #fafbfc;
+  --background: #f8fafc;
   --foreground: #0f172a;
   --card: #ffffff;
-  --card-hover: #f8fafc;
-  --border: #e5e7eb;
-  --muted: #6b7280;
+  --card-hover: #f1f5f9;
+  --border: #e2e8f0;
+  --muted: #64748b;
   --accent: #6366f1;
 }
 
@@ -297,6 +297,36 @@ html {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* Light mode specific enhancements */
+:root .starred-glow {
+  border-left: 3px solid rgba(245, 158, 11, 0.5);
+  background-color: rgba(245, 158, 11, 0.04);
+  box-shadow: 0 1px 6px rgba(245, 158, 11, 0.06);
+}
+
+/* Subtle hover shadow for cards in light mode */
+:root .card-lift:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06), 0 2px 8px rgba(99, 102, 241, 0.04);
+}
+
+/* Page enter animation */
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-page-enter {
+  animation: page-enter 0.35s ease-out forwards;
+}
+
+/* Pulse subtle for tips */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s ease-in-out infinite;
 }
 
 /* Respect reduced motion preferences */
