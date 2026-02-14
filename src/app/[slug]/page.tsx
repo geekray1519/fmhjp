@@ -51,8 +51,31 @@ export default async function CategoryPage({ params }: PageProps) {
     0
   );
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: "https://fmhyjp.vercel.app",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: category.title,
+        item: `https://fmhyjp.vercel.app/${category.slug}`,
+      },
+    ],
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <nav className="flex items-center gap-2 text-sm text-muted mb-8">
         <Link href="/" className="hover:text-foreground transition-colors flex items-center gap-1">
           <Home size={14} />

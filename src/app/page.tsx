@@ -2,8 +2,21 @@ import { categories } from "@/data";
 import { CategoryCard } from "@/components/CategoryCard";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { AdBanner, InFeedAd } from "@/components/AdBanner";
-import { Search, BookOpen, Star, TrendingUp, Sparkles, Zap, Shield, Globe } from "lucide-react";
+import { Search, BookOpen, Star, TrendingUp, Sparkles, Zap, Shield, Globe, Lightbulb, Keyboard, Command } from "lucide-react";
 import Link from "next/link";
+
+const DAILY_TIPS = [
+  { tip: "Ctrl+K でコマンドパレットを開いて素早く検索できます", icon: "keyboard" },
+  { tip: "? キーでキーボードショートカット一覧を表示できます", icon: "keyboard" },
+  { tip: "リソースカードの右上にあるブックマークアイコンで保存できます", icon: "bookmark" },
+  { tip: "おすすめリソースには⭐マークがついています", icon: "star" },
+  { tip: "カテゴリページの目次から素早くセクションに移動できます", icon: "navigate" },
+  { tip: "検索ページで / キーを押すと検索入力にフォーカスします", icon: "search" },
+  { tip: "ミラーリンクがあるリソースは代替URLからもアクセスできます", icon: "link" },
+  { tip: "ダークモード/ライトモードはヘッダーの月/太陽アイコンで切替", icon: "theme" },
+  { tip: "毎月自動で最新のリソース情報に更新されます", icon: "update" },
+  { tip: "URLコピーボタンでリソースのリンクを簡単に共有できます", icon: "share" },
+];
 
 export default function Home() {
   const totalResources = categories.reduce(
@@ -135,6 +148,23 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Daily Tip Banner */}
+      <section className="pb-8">
+        <div className="p-4 rounded-2xl border border-accent/20 bg-accent/5 flex items-start sm:items-center gap-3 animate-fade-in">
+          <div className="p-2 rounded-xl bg-accent/10 shrink-0">
+            <Lightbulb size={18} className="text-accent" />
+          </div>
+          <div className="flex-1 min-w-0">
+            <span className="text-[10px] font-semibold uppercase tracking-wider text-accent">
+              今日のヒント
+            </span>
+            <p className="text-sm text-foreground mt-0.5">
+              {DAILY_TIPS[dayOfYear % DAILY_TIPS.length].tip}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Resources */}
       <section className="pb-12">
         <div className="flex items-center gap-2 mb-6">
@@ -217,6 +247,37 @@ export default function Home() {
               <div className="text-[10px] text-muted mt-1">{cat.resourceCount.toLocaleString()} リソース</div>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Keyboard Shortcuts Hints */}
+      <section className="pb-12">
+        <div className="flex items-center gap-2 mb-4">
+          <Keyboard size={20} className="text-accent" />
+          <h2 className="text-xl font-bold">キーボードショートカット</h2>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="p-3 rounded-xl border border-border bg-card flex items-center gap-3">
+            <div className="flex items-center gap-1 shrink-0">
+              <kbd className="px-1.5 py-0.5 text-[10px] font-mono bg-background border border-border rounded">
+                <Command size={10} className="inline -mt-0.5" />
+              </kbd>
+              <kbd className="px-1.5 py-0.5 text-[10px] font-mono bg-background border border-border rounded">K</kbd>
+            </div>
+            <span className="text-xs text-muted">検索を開く</span>
+          </div>
+          <div className="p-3 rounded-xl border border-border bg-card flex items-center gap-3">
+            <kbd className="px-2 py-0.5 text-[10px] font-mono bg-background border border-border rounded shrink-0">/</kbd>
+            <span className="text-xs text-muted">検索にフォーカス</span>
+          </div>
+          <div className="p-3 rounded-xl border border-border bg-card flex items-center gap-3">
+            <kbd className="px-2 py-0.5 text-[10px] font-mono bg-background border border-border rounded shrink-0">?</kbd>
+            <span className="text-xs text-muted">ショートカット一覧</span>
+          </div>
+          <div className="p-3 rounded-xl border border-border bg-card flex items-center gap-3">
+            <kbd className="px-2 py-0.5 text-[10px] font-mono bg-background border border-border rounded shrink-0">Esc</kbd>
+            <span className="text-xs text-muted">モーダルを閉じる</span>
+          </div>
         </div>
       </section>
 
