@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useId } from "react";
 
 interface AdBannerProps {
   slot?: string;
@@ -27,20 +27,25 @@ export function AdBanner({
 }: AdBannerProps) {
   const adRef = useRef<HTMLModElement>(null);
   const pushed = useRef(false);
+  const id = useId();
 
   useEffect(() => {
     if (!ADSENSE_ID || pushed.current) return;
 
+    // Wait for AdSense script to be available
     const timer = setTimeout(() => {
       try {
-        if (typeof window !== "undefined") {
-          (window.adsbygoogle = window.adsbygoogle || []).push({});
-          pushed.current = true;
+        if (typeof window !== "undefined" && adRef.current) {
+          const adElement = adRef.current;
+          if (adElement && adElement.getAttribute("data-ad-status") !== "filled") {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+            pushed.current = true;
+          }
         }
       } catch {
-        // AdSense script not loaded yet
+        // AdSense script not loaded yet or ad already pushed
       }
-    }, 100);
+    }, 200);
 
     return () => clearTimeout(timer);
   }, []);
@@ -50,10 +55,14 @@ export function AdBanner({
 
   return (
     <div className={`ad-container my-6 ${className}`}>
+      <div className="text-[10px] text-muted/40 text-center mb-1 select-none">
+        スポンサー
+      </div>
       <ins
         ref={adRef}
+        key={id}
         className="adsbygoogle"
-        style={{ display: "block", textAlign: "center" }}
+        style={{ display: "block", textAlign: "center", minHeight: "90px" }}
         data-ad-client={ADSENSE_ID}
         {...(slot ? { "data-ad-slot": slot } : {})}
         data-ad-format={format}
@@ -85,6 +94,18 @@ export function InArticleAd({ className = "" }: { className?: string }) {
     <AdBanner
       format="fluid"
       layoutKey="-gw-3+1f-69+7a"
+      className={className}
+    />
+  );
+}
+
+/**
+ * Sidebar ad - サイドバーに配置するレクタングル広告
+ */
+export function SidebarAd({ className = "" }: { className?: string }) {
+  return (
+    <AdBanner
+      format="rectangle"
       className={className}
     />
   );

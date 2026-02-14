@@ -28,12 +28,15 @@ export function MobileNav() {
             <Link
               key={item.href}
               href={item.href}
-              className={`flex flex-col items-center gap-0.5 px-3 py-1.5 rounded-lg transition-colors ${
+              className={`relative flex flex-col items-center gap-0.5 px-3 py-1.5 rounded-lg transition-colors ${
                 isActive
                   ? "text-accent"
                   : "text-muted hover:text-foreground"
               }`}
             >
+              {isActive && (
+                <span className="absolute -top-1 left-1/2 -translate-x-1/2 w-4 h-0.5 rounded-full bg-accent" />
+              )}
               <Icon size={20} strokeWidth={isActive ? 2.5 : 1.8} />
               <span className="text-[10px] font-medium">{item.label}</span>
             </Link>

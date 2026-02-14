@@ -7,6 +7,7 @@ import { ResourceCard } from "@/components/ResourceCard";
 import { useSearchHistory } from "@/components/SearchHistoryProvider";
 import { SearchResult } from "@/lib/types";
 import { Search, X, ChevronDown, Clock, Star, Filter, Trash2, ArrowDownAZ, ExternalLink } from "lucide-react";
+import { AdBanner } from "@/components/AdBanner";
 
 const RESULTS_PER_PAGE = 50;
 const MAX_SUGGESTIONS = 8;
@@ -386,6 +387,9 @@ function SearchContent() {
                   </section>
                 ))}
               </div>
+
+              {/* Ad between results and load more */}
+              {filteredResults.length > 10 && <AdBanner className="mt-6" />}
 
               {remaining > 0 && (
                 <button
