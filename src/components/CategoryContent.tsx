@@ -4,7 +4,7 @@ import { useState, useCallback, useEffect, useMemo } from "react";
 import { Category } from "@/lib/types";
 import { ResourceCard } from "@/components/ResourceCard";
 import { AdBanner, InFeedAd } from "@/components/AdBanner";
-import { Star, Filter, ChevronDown, ChevronRight, ArrowUp, Search } from "lucide-react";
+import { Star, Filter, ChevronDown, ChevronRight, ArrowUp, Search, ChevronsDownUp, ChevronsUpDown } from "lucide-react";
 
 interface CategoryContentProps {
   category: Category;
@@ -165,7 +165,22 @@ export function CategoryContent({ category }: CategoryContentProps) {
             <Star size={12} className={starredOnly ? "fill-amber-400" : ""} />
             おすすめのみ ({starredCount})
           </button>
-          <span className="text-xs text-muted" aria-live="polite" aria-atomic="true">
+          <button
+            onClick={() => {
+              const allCollapsed = visibleSubcategories.every((sub) => collapsedSubs[sub.id]);
+              const newState: Record<string, boolean> = {};
+              visibleSubcategories.forEach((sub) => { newState[sub.id] = !allCollapsed; });
+              setCollapsedSubs(newState);
+            }}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-card border border-border text-muted hover:text-accent hover:border-accent/30 transition-all"
+          >
+            {visibleSubcategories.every((sub) => collapsedSubs[sub.id]) ? (
+              <><ChevronsUpDown size={12} /> すべて展開</>
+            ) : (
+              <><ChevronsDownUp size={12} /> すべて折りたたむ</>
+            )}
+          </button>
+          <span className="text-xs text-muted ml-auto" aria-live="polite" aria-atomic="true">
             <Filter size={12} className="inline mr-1" />
             {shownResourceCount} リソース表示中
           </span>
