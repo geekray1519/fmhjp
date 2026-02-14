@@ -2,7 +2,7 @@ import { categories } from "@/data";
 import { CategoryCard } from "@/components/CategoryCard";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { AdBanner, InFeedAd } from "@/components/AdBanner";
-import { Search, BookOpen, Star, TrendingUp, Sparkles, Zap, Shield, Globe, Lightbulb, Keyboard, Command } from "lucide-react";
+import { Search, BookOpen, Star, TrendingUp, Sparkles, Zap, Shield, Globe, Lightbulb, Keyboard, Command, Shuffle } from "lucide-react";
 import Link from "next/link";
 
 const DAILY_TIPS = [
@@ -60,6 +60,9 @@ export default function Home() {
   });
   const featuredResources = shuffled.slice(0, 12);
 
+  // Random category for "discover" button
+  const randomCategory = categories[dayOfYear % categories.length];
+
   // Top categories by resource count
   const popularCategories = [...categories]
     .map((cat) => ({
@@ -108,6 +111,13 @@ export default function Home() {
           >
             <BookOpen size={16} />
             初心者ガイド
+          </Link>
+          <Link
+            href={`/${randomCategory.slug}`}
+            className="inline-flex items-center gap-2 px-6 py-3 border border-border rounded-xl font-medium text-sm hover:bg-card transition-colors"
+          >
+            <Shuffle size={16} />
+            {randomCategory.icon} ランダム探索
           </Link>
         </div>
 
@@ -281,6 +291,8 @@ export default function Home() {
         </div>
       </section>
 
+      <AdBanner className="mb-8" />
+
       <section id="categories" className="pb-16">
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-2xl font-bold">全カテゴリ一覧</h2>
@@ -292,8 +304,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      <AdBanner className="mb-8" />
     </div>
   );
 }

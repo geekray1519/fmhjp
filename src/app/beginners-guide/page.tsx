@@ -94,6 +94,14 @@ export default function BeginnersGuidePage() {
           インターネット上の無料リソースを安全に活用するための基本を学びましょう。
           このガイドでは、最初にやるべきことをステップバイステップで解説します。
         </p>
+        <div className="mt-3 flex items-center gap-3 text-xs text-muted">
+          <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-card border border-border">
+            📖 約5分で読めます
+          </span>
+          <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-card border border-border">
+            {steps.length} ステップ
+          </span>
+        </div>
       </div>
 
       <div className="space-y-6 mb-16">
