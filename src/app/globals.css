@@ -121,11 +121,16 @@ html.theme-transitioning *::after {
 }
 
 .toc-item {
-  transition: color 0.2s;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 
 .toc-item:hover {
   color: var(--accent);
+}
+
+/* Reading progress bar track */
+.reading-progress-track {
+  background: color-mix(in srgb, var(--border) 30%, transparent);
 }
 
 /* Gradient top border for footer */

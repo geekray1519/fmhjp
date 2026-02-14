@@ -6,7 +6,7 @@ import { ResourceCard } from "@/components/ResourceCard";
 import { AdBanner, InFeedAd } from "@/components/AdBanner";
 import { Star, Filter, ChevronDown, ChevronRight, ArrowUp, Search, ChevronsDownUp, ChevronsUpDown } from "lucide-react";
 
-/** Lazy-render wrapper: only renders children when in/near viewport */
+/** Lazy-render wrapper: only renders children when in/near viewport, with entrance animation */
 function LazySection({ children, className, ...props }: React.HTMLAttributes<HTMLDivElement> & { children: React.ReactNode }) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
@@ -29,7 +29,9 @@ function LazySection({ children, className, ...props }: React.HTMLAttributes<HTM
 
   return (
     <div ref={ref} className={className} {...props}>
-      {visible ? children : (
+      {visible ? (
+        <div className="animate-fade-in">{children}</div>
+      ) : (
         <div className="h-32 flex items-center justify-center">
           <div className="h-4 w-4 rounded-full bg-accent/20 animate-pulse" />
         </div>
@@ -253,7 +255,7 @@ export function CategoryContent({ category }: CategoryContentProps) {
                 <section
                   id={sub.id}
                   data-toc-section="true"
-                  className="scroll-mt-20"
+                  className="scroll-mt-24"
                 >
                   <button
                     onClick={() => toggleCollapse(sub.id)}
@@ -266,17 +268,17 @@ export function CategoryContent({ category }: CategoryContentProps) {
                         size={16}
                         className={`text-muted transition-transform duration-200 ${isCollapsed ? "" : "rotate-90"}`}
                       />
-                      <h2 className="text-xl font-bold group-hover:text-accent transition-colors">{sub.title}</h2>
-                      <span className="text-xs text-muted px-2 py-0.5 rounded-full bg-card border border-border">
+                      <h2 className="text-lg sm:text-xl font-bold group-hover:text-accent transition-colors">{sub.title}</h2>
+                      <span className="text-[10px] text-muted/70 px-2 py-0.5 rounded-full bg-card border border-border tabular-nums">
                         {filteredResources.length}
                       </span>
                     </div>
                     {!isCollapsed && sub.description && (
-                      <p className="mt-1 ml-6 text-sm text-muted">{sub.description}</p>
+                      <p className="mt-1 ml-6 text-xs sm:text-sm text-muted leading-relaxed">{sub.description}</p>
                     )}
                     {!isCollapsed && sub.note && (
                       <div className="mt-2 ml-6 p-3 rounded-lg bg-accent/5 border border-accent/10 text-xs text-muted leading-relaxed">
-                        {sub.note}
+                        💡 {sub.note}
                       </div>
                     )}
                   </button>
@@ -343,19 +345,26 @@ export function CategoryContent({ category }: CategoryContentProps) {
       <aside className="hidden lg:block w-56 shrink-0">
         <div className="sticky top-24 rounded-xl border border-border bg-card p-4">
           <p className="text-xs font-semibold tracking-wide text-muted mb-3">目次</p>
-          <nav className="space-y-1 max-h-[60vh] overflow-y-auto scrollbar-hide">
-            {visibleSubcategories.map((sub) => (
-              <a
-                key={sub.id}
-                href={`#${sub.id}`}
-                className={`toc-item flex items-center justify-between gap-2 rounded-md px-2 py-1.5 text-sm text-muted ${
-                  activeSubId === sub.id ? "toc-active" : ""
-                }`}
-              >
-                <span className="truncate">{sub.title}</span>
-                <span className="text-[10px] text-muted">{sub.count}</span>
-              </a>
-            ))}
+          <nav className="space-y-0.5 max-h-[60vh] overflow-y-auto scrollbar-hide">
+            {visibleSubcategories.map((sub) => {
+              const isActive = activeSubId === sub.id;
+              return (
+                <a
+                  key={sub.id}
+                  href={`#${sub.id}`}
+                  className={`toc-item flex items-center justify-between gap-2 rounded-md px-2 py-1.5 text-xs transition-all ${
+                    isActive
+                      ? "toc-active bg-accent/5 border-l-2 border-accent pl-2.5"
+                      : "text-muted border-l-2 border-transparent hover:border-border pl-2.5"
+                  }`}
+                >
+                  <span className="truncate">{sub.title}</span>
+                  <span className={`text-[10px] tabular-nums ${isActive ? "text-accent" : "text-muted/60"}`}>
+                    {sub.count}
+                  </span>
+                </a>
+              );
+            })}
           </nav>
           <div className="mt-3 pt-3 border-t border-border text-[10px] text-muted text-center">
             {visibleSubcategories.length} セクション · {shownResourceCount} リソース

@@ -179,6 +179,11 @@ export default function Home() {
       {/* Recently Viewed */}
       <RecentlyViewed />
 
+      {/* Section divider */}
+      <div className="pb-4">
+        <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+      </div>
+
       {/* Featured Resources */}
       <section className="pb-12">
         <div className="flex items-center gap-2 mb-6">
@@ -236,6 +241,11 @@ export default function Home() {
       </section>
 
       <InFeedAd className="mb-8" />
+
+      {/* Section divider */}
+      <div className="pb-4">
+        <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+      </div>
 
       {/* Popular Categories */}
       <section className="pb-12">
@@ -296,6 +306,11 @@ export default function Home() {
       </section>
 
       <AdBanner className="mb-8" />
+
+      {/* Section divider */}
+      <div className="pb-4">
+        <div className="h-px bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
+      </div>
 
       <section id="categories" className="pb-16">
         <div className="flex items-center justify-between mb-8">
