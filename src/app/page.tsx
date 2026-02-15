@@ -2,7 +2,7 @@ import { categories } from "@/data";
 import { CategoryCard } from "@/components/CategoryCard";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { RecentlyViewed } from "@/components/RecentlyViewed";
-import { AdBanner, InFeedAd } from "@/components/AdBanner";
+import { AdBanner, InFeedAd, MultiplexAd } from "@/components/AdBanner";
 import { Search, BookOpen, Star, TrendingUp, Sparkles, Zap, Shield, Globe, Lightbulb, Keyboard, Command, Shuffle } from "lucide-react";
 import Link from "next/link";
 
@@ -317,7 +317,7 @@ export default function Home() {
         <div className="h-px bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
       </div>
 
-      <section id="categories" className="pb-16 scroll-mt-24">
+      <section id="categories" className="pb-12 scroll-mt-24">
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-3">
             <h2 className="text-2xl font-bold">全カテゴリ一覧</h2>
@@ -333,6 +333,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* Multiplex ad at bottom of page */}
+      <MultiplexAd className="mb-12" />
     </div>
   );
 }

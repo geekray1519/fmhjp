@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect, useMemo, useRef } from "react";
 import { Category } from "@/lib/types";
 import { ResourceCard } from "@/components/ResourceCard";
-import { AdBanner, InFeedAd } from "@/components/AdBanner";
+import { InFeedAd, InArticleAd, MultiplexAd, SidebarAd, getAdPositions } from "@/components/AdBanner";
 import { Star, Filter, ChevronDown, ChevronRight, ArrowUp, Search, ChevronsDownUp, ChevronsUpDown } from "lucide-react";
 
 /** Lazy-render wrapper: only renders children when in/near viewport, with entrance animation */
@@ -166,6 +166,8 @@ export function CategoryContent({ category }: CategoryContentProps) {
     0
   );
 
+  const adPositions = useMemo(() => getAdPositions(category.subcategories.length), [category.subcategories.length]);
+
   return (
     <div className="lg:flex lg:items-start lg:gap-8">
       <div className="flex-1 min-w-0">
@@ -250,6 +252,9 @@ export function CategoryContent({ category }: CategoryContentProps) {
             // Lazy load subcategories after the 4th one
             const Wrapper = i >= 4 ? LazySection : "div";
 
+            // Dynamic ad positions based on total subcategory count (computed once via memo)
+            const showAd = adPositions.includes(i);
+
             return (
               <Wrapper key={sub.id}>
                 <section
@@ -316,14 +321,15 @@ export function CategoryContent({ category }: CategoryContentProps) {
                     </div>
                   )}
 
-                  {i === 1 && <AdBanner className="mt-6" />}
-                  {i === 5 && <InFeedAd className="mt-6" />}
-                  {i === 10 && <AdBanner className="mt-6" />}
+                  {showAd && (i % 2 === 0 ? <InFeedAd className="mt-6" /> : <InArticleAd className="mt-6" />)}
                 </section>
               </Wrapper>
             );
           })}
         </div>
+
+        {/* Multiplex ad at bottom of all subcategories */}
+        <MultiplexAd className="mt-10" />
 
         {shownResourceCount === 0 && (
           <div className="rounded-xl border border-border bg-card p-6 text-sm text-muted text-center">
@@ -370,6 +376,8 @@ export function CategoryContent({ category }: CategoryContentProps) {
             {visibleSubcategories.length} セクション · {shownResourceCount} リソース
           </div>
         </div>
+        {/* Sticky sidebar ad below TOC */}
+        <SidebarAd className="mt-4" />
       </aside>
     </div>
   );

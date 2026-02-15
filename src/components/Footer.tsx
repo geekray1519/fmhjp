@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { categories } from "@/data";
-import { Heart, ArrowUp, Zap } from "lucide-react";
+import { Heart, ArrowUp, Zap, Coffee } from "lucide-react";
 
 export function Footer() {
   const totalResources = categories.reduce(
@@ -63,6 +63,7 @@ export function Footer() {
               <li><Link href="/search" className="link-underline hover:text-accent transition-colors">検索</Link></li>
               <li><Link href="/bookmarks" className="link-underline hover:text-accent transition-colors">ブックマーク</Link></li>
               <li><Link href="/beginners-guide" className="link-underline hover:text-accent transition-colors">初心者ガイド</Link></li>
+              <li><Link href="/faq" className="link-underline hover:text-accent transition-colors">よくある質問</Link></li>
               <li><Link href="/about" className="link-underline hover:text-accent transition-colors">このサイトについて</Link></li>
             </ul>
           </div>
@@ -85,7 +86,18 @@ export function Footer() {
               <li><Link href="/privacy-policy" className="link-underline hover:text-accent transition-colors">プライバシーポリシー</Link></li>
               <li><Link href="/terms" className="link-underline hover:text-accent transition-colors">利用規約</Link></li>
               <li><Link href="/contact" className="link-underline hover:text-accent transition-colors">お問い合わせ</Link></li>
+              <li><Link href="/sponsor" className="link-underline hover:text-accent transition-colors">掲載について</Link></li>
             </ul>
+            {/* Ko-fi donation button */}
+            <a
+              href="https://ko-fi.com/fmhjp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#FF5E5B]/10 text-[#FF5E5B] hover:bg-[#FF5E5B]/20 border border-[#FF5E5B]/20 text-xs font-medium transition-all hover:scale-[1.02]"
+            >
+              <Coffee size={14} />
+              コーヒーで応援する
+            </a>
           </div>
         </div>
         <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted">

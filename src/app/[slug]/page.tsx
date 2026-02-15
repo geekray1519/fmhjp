@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import { categories } from "@/data";
 import { CategoryContent } from "@/components/CategoryContent";
-import { AdBanner } from "@/components/AdBanner";
 import { ShareButton } from "@/components/ShareButton";
 import { CategoryViewTracker } from "@/components/CategoryViewTracker";
 import { ReadingProgressBar } from "@/components/ReadingProgressBar";
@@ -167,8 +166,6 @@ export default async function CategoryPage({ params }: PageProps) {
       </div>
 
       <CategoryContent category={category} />
-
-      <AdBanner className="mt-8" />
 
       {/* Related Categories */}
       {RELATED_MAP[slug] && (

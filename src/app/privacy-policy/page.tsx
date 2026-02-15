@@ -106,6 +106,25 @@ export default function PrivacyPolicyPage() {
           </div>
         </section>
 
+        {/* Affiliate Disclosure */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">アフィリエイト広告について（景品表示法に基づく表記）</h2>
+          <div className="p-4 rounded-xl border border-border bg-card text-sm leading-relaxed space-y-3">
+            <p className="text-muted">
+              当サイトの一部のリンクにはアフィリエイトリンクが含まれています。
+              これらのリンクを通じて商品やサービスを購入された場合、当サイトが報酬を受け取ることがあります。
+            </p>
+            <p className="text-muted">
+              アフィリエイトリンクを含むコンテンツには「PR」または「広告」の表示を行っています。
+              ユーザーの皆様に追加費用が発生することはありません。
+            </p>
+            <p className="text-muted">
+              当サイトは、アフィリエイト報酬の有無にかかわらず、
+              すべてのリソースを公平かつ正確に紹介することを心がけています。
+            </p>
+          </div>
+        </section>
+
         {/* Third-party Advertising */}
         <section>
           <h2 className="text-2xl font-bold mb-4">サードパーティ広告配信について</h2>
