@@ -227,29 +227,70 @@ const POPADS_ID = process.env.NEXT_PUBLIC_POPADS_ID;
 const HILLTOP_ID = process.env.NEXT_PUBLIC_HILLTOP_ID;
 const EXOCLICK_ID = process.env.NEXT_PUBLIC_EXOCLICK_ID;
 
-/**
- * PropellerAds ネイティブバナー広告
- * Zone ID を NEXT_PUBLIC_PROPELLER_ID に設定して有効化
- */
-export function PropellerAd({ className = "" }: { className?: string }) {
+/* ─────────── Shared lazy-load hook ─────────── */
+
+function useLazyLoad(rootMargin = "200px") {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
   const loaded = useRef(false);
 
   useEffect(() => {
+    if (isVisible) return;
     const el = containerRef.current;
     if (!el) return;
     const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setIsVisible(true); observer.disconnect(); } },
-      { rootMargin: "200px" }
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin }
     );
     observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, [isVisible, rootMargin]);
+
+  const markLoaded = () => {
+    if (loaded.current) return false;
+    loaded.current = true;
+    return true;
+  };
+
+  return { containerRef, isVisible, markLoaded };
+}
+
+/* ─────────── Shared ad shell ─────────── */
+
+function AdShell({
+  containerRef,
+  className,
+  minHeight = "250px",
+  label = "広告",
+  children,
+}: {
+  containerRef: React.RefObject<HTMLDivElement | null>;
+  className: string;
+  minHeight?: string;
+  label?: string;
+  children?: React.ReactNode;
+}) {
+  return (
+    <div ref={containerRef} className={`ad-container my-6 ${className}`} style={{ minHeight }}>
+      <div className="text-[10px] text-muted/40 text-center mb-1 select-none">{label}</div>
+      {children}
+    </div>
+  );
+}
+
+/**
+ * PropellerAds ネイティブバナー広告
+ */
+export function PropellerAd({ className = "" }: { className?: string }) {
+  const { containerRef, isVisible, markLoaded } = useLazyLoad();
 
   useEffect(() => {
-    if (!isVisible || loaded.current || !PROPELLER_ID) return;
-    loaded.current = true;
+    if (!isVisible || !PROPELLER_ID || !markLoaded()) return;
     const container = containerRef.current;
     if (!container) return;
     const script = document.createElement("script");
@@ -257,41 +298,25 @@ export function PropellerAd({ className = "" }: { className?: string }) {
     script.setAttribute("data-cfasync", "false");
     script.src = `//thubanoa.com/${PROPELLER_ID}/invoke.js`;
     container.appendChild(script);
-  }, [isVisible]);
+  }, [isVisible, containerRef, markLoaded]);
 
   if (!PROPELLER_ID) return null;
 
   return (
-    <div ref={containerRef} className={`ad-container my-6 ${className}`} style={{ minHeight: "250px" }}>
-      <div className="text-[10px] text-muted/40 text-center mb-1 select-none">広告</div>
+    <AdShell containerRef={containerRef} className={className}>
       {isVisible && <div id={`propeller-${PROPELLER_ID}`} />}
-    </div>
+    </AdShell>
   );
 }
 
 /**
  * Adsterra ネイティブバナー広告
- * Zone ID を NEXT_PUBLIC_ADSTERRA_ID に設定して有効化
  */
 export function AdsterraAd({ className = "" }: { className?: string }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
-  const loaded = useRef(false);
+  const { containerRef, isVisible, markLoaded } = useLazyLoad();
 
   useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setIsVisible(true); observer.disconnect(); } },
-      { rootMargin: "200px" }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    if (!isVisible || loaded.current || !ADSTERRA_ID) return;
-    loaded.current = true;
+    if (!isVisible || !ADSTERRA_ID || !markLoaded()) return;
     const container = containerRef.current;
     if (!container) return;
     const script = document.createElement("script");
@@ -299,41 +324,25 @@ export function AdsterraAd({ className = "" }: { className?: string }) {
     script.setAttribute("data-cfasync", "false");
     script.src = `//www.highperformanceformat.com/${ADSTERRA_ID}/invoke.js`;
     container.appendChild(script);
-  }, [isVisible]);
+  }, [isVisible, containerRef, markLoaded]);
 
   if (!ADSTERRA_ID) return null;
 
   return (
-    <div ref={containerRef} className={`ad-container my-6 ${className}`} style={{ minHeight: "250px" }}>
-      <div className="text-[10px] text-muted/40 text-center mb-1 select-none">広告</div>
+    <AdShell containerRef={containerRef} className={className}>
       {isVisible && <div id={`adsterra-${ADSTERRA_ID}`} />}
-    </div>
+    </AdShell>
   );
 }
 
 /**
  * AdMaven バナー広告
- * Site ID を NEXT_PUBLIC_ADMAVEN_ID に設定して有効化
  */
 export function AdMavenAd({ className = "" }: { className?: string }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
-  const loaded = useRef(false);
+  const { containerRef, isVisible, markLoaded } = useLazyLoad();
 
   useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setIsVisible(true); observer.disconnect(); } },
-      { rootMargin: "200px" }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    if (!isVisible || loaded.current || !ADMAVEN_ID) return;
-    loaded.current = true;
+    if (!isVisible || !ADMAVEN_ID || !markLoaded()) return;
     const container = containerRef.current;
     if (!container) return;
     const script = document.createElement("script");
@@ -342,82 +351,50 @@ export function AdMavenAd({ className = "" }: { className?: string }) {
     script.src = `//d3bch2djbkgold.cloudfront.net/tag.min.js`;
     script.setAttribute("data-zone", ADMAVEN_ID);
     container.appendChild(script);
-  }, [isVisible]);
+  }, [isVisible, containerRef, markLoaded]);
 
   if (!ADMAVEN_ID) return null;
 
   return (
-    <div ref={containerRef} className={`ad-container my-6 ${className}`} style={{ minHeight: "250px" }}>
-      <div className="text-[10px] text-muted/40 text-center mb-1 select-none">広告</div>
+    <AdShell containerRef={containerRef} className={className}>
       {isVisible && <div id={`admaven-${ADMAVEN_ID}`} />}
-    </div>
+    </AdShell>
   );
 }
 
 /**
  * AdsKeeper ネイティブウィジェット広告
- * Widget ID を NEXT_PUBLIC_ADSKEEPER_WIDGET に設定して有効化
  */
 export function AdsKeeperAd({ className = "" }: { className?: string }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
-  const loaded = useRef(false);
+  const { containerRef, isVisible, markLoaded } = useLazyLoad();
 
   useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setIsVisible(true); observer.disconnect(); } },
-      { rootMargin: "200px" }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    if (!isVisible || loaded.current || !ADSKEEPER_WIDGET) return;
-    loaded.current = true;
+    if (!isVisible || !ADSKEEPER_WIDGET || !markLoaded()) return;
     const container = containerRef.current;
     if (!container) return;
     const script = document.createElement("script");
     script.async = true;
     script.src = `https://jsc.adskeeper.co.uk/f/m/${ADSKEEPER_WIDGET}.js`;
     container.appendChild(script);
-  }, [isVisible]);
+  }, [isVisible, containerRef, markLoaded]);
 
   if (!ADSKEEPER_WIDGET) return null;
 
   return (
-    <div ref={containerRef} className={`ad-container my-6 ${className}`} style={{ minHeight: "300px" }}>
-      <div className="text-[10px] text-muted/40 text-center mb-1 select-none">おすすめコンテンツ</div>
+    <AdShell containerRef={containerRef} className={className} minHeight="300px" label="おすすめコンテンツ">
       {isVisible && <div id={`adskeeper-widget-${ADSKEEPER_WIDGET}`} />}
-    </div>
+    </AdShell>
   );
 }
 
 /**
  * ExoClick バナー広告
- * Zone ID を NEXT_PUBLIC_EXOCLICK_ID に設定して有効化
  */
 export function ExoClickAd({ className = "" }: { className?: string }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
-  const loaded = useRef(false);
+  const { containerRef, isVisible, markLoaded } = useLazyLoad();
 
   useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setIsVisible(true); observer.disconnect(); } },
-      { rootMargin: "200px" }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    if (!isVisible || loaded.current || !EXOCLICK_ID) return;
-    loaded.current = true;
+    if (!isVisible || !EXOCLICK_ID || !markLoaded()) return;
     const container = containerRef.current;
     if (!container) return;
     const script = document.createElement("script");
@@ -431,24 +408,20 @@ export function ExoClickAd({ className = "" }: { className?: string }) {
     const push = document.createElement("script");
     push.textContent = `(AdProvider = window.AdProvider || []).push({"serve": {}});`;
     container.appendChild(push);
-  }, [isVisible]);
+  }, [isVisible, containerRef, markLoaded]);
 
   if (!EXOCLICK_ID) return null;
 
   return (
-    <div ref={containerRef} className={`ad-container my-6 ${className}`} style={{ minHeight: "250px" }}>
-      <div className="text-[10px] text-muted/40 text-center mb-1 select-none">広告</div>
-    </div>
+    <AdShell containerRef={containerRef} className={className} />
   );
 }
 
 /**
  * 複数ネットワーク統合広告スロット
  * 設定されたネットワークの中から順番に1つ表示する。
- * AdSense > Adsterra > PropellerAds > AdMaven > ExoClick の優先順位。
  */
 export function ThirdPartyAdSlot({ className = "", position = 0 }: { className?: string; position?: number }) {
-  // 設定されているネットワーク数に応じてローテーション
   const networks: Array<{ id: string | undefined; Component: React.FC<{ className?: string }> }> = [
     { id: ADSTERRA_ID, Component: AdsterraAd },
     { id: PROPELLER_ID, Component: PropellerAd },
@@ -458,7 +431,6 @@ export function ThirdPartyAdSlot({ className = "", position = 0 }: { className?:
 
   if (networks.length === 0) return null;
 
-  // Rotate through available networks based on position
   const selected = networks[position % networks.length];
   const { Component } = selected;
   return <Component className={className} />;
@@ -466,8 +438,7 @@ export function ThirdPartyAdSlot({ className = "", position = 0 }: { className?:
 
 /**
  * HilltopAds / PopAds — ポップアンダー型
- * これらはグローバルスクリプトとして layout.tsx で読み込む。
- * コンポーネントとしてのレンダリングは不要（自動ポップアンダー）。
+ * グローバルスクリプトとして AppShell で読み込む。
  */
 export function usePopunderNetworks() {
   // PopAds
@@ -478,13 +449,12 @@ export function usePopunderNetworks() {
     script.src = `//c1.popads.net/pop.js`;
     script.setAttribute("data-cfasync", "false");
     document.body.appendChild(script);
-    // Set popads config
     const config = document.createElement("script");
     config.textContent = `var defined_pop_under_config = { "id": "${POPADS_ID}" };`;
     document.head.appendChild(config);
     return () => {
-      document.body.removeChild(script);
-      document.head.removeChild(config);
+      try { document.body.removeChild(script); } catch { /* already removed */ }
+      try { document.head.removeChild(config); } catch { /* already removed */ }
     };
   }, []);
 
@@ -496,6 +466,8 @@ export function usePopunderNetworks() {
     script.src = `//www.cleverwebserver.com/${HILLTOP_ID}/invoke.js`;
     script.setAttribute("data-cfasync", "false");
     document.body.appendChild(script);
-    return () => { document.body.removeChild(script); };
+    return () => {
+      try { document.body.removeChild(script); } catch { /* already removed */ }
+    };
   }, []);
 }

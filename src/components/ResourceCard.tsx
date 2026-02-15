@@ -50,7 +50,6 @@ export function ResourceCard({ resource, highlightQuery }: ResourceCardProps) {
   }, []);
 
   const handleCopyUrl = (e: React.MouseEvent) => {
-    e.preventDefault();
     e.stopPropagation();
     navigator.clipboard.writeText(resource.url).then(() => {
       setCopied(true);
@@ -62,7 +61,6 @@ export function ResourceCard({ resource, highlightQuery }: ResourceCardProps) {
   };
 
   const handleToggleBookmark = (e: React.MouseEvent) => {
-    e.preventDefault();
     e.stopPropagation();
     toggleBookmark({
       name: resource.name,
@@ -73,13 +71,21 @@ export function ResourceCard({ resource, highlightQuery }: ResourceCardProps) {
     showToast(bookmarked ? "ブックマークを解除しました" : "ブックマークに追加しました");
   };
 
+  const handleCardClick = useCallback((e: React.MouseEvent) => {
+    // Don't navigate if clicking a button or interactive element
+    const target = e.target as HTMLElement;
+    if (target.closest("button") || target.closest("a")) return;
+    window.open(resource.url, "_blank", "noopener,noreferrer");
+  }, [resource.url]);
+
   return (
-    <a
-      href={resource.url}
-      target="_blank"
-      rel="noopener noreferrer"
+    <div
+      role="link"
+      tabIndex={0}
+      onClick={handleCardClick}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); window.open(resource.url, "_blank", "noopener,noreferrer"); } }}
       title={resource.url}
-      className={`group block p-4 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 transition-all duration-300 hover:shadow-lg hover:shadow-accent/5 card-lift ${resource.starred ? "starred-glow" : ""}`}
+      className={`group block p-4 rounded-xl border border-border bg-card hover:bg-card-hover hover:border-accent/30 transition-all duration-300 hover:shadow-lg hover:shadow-accent/5 card-lift cursor-pointer ${resource.starred ? "starred-glow" : ""}`}
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex-1 min-w-0">
@@ -119,7 +125,6 @@ export function ResourceCard({ resource, highlightQuery }: ResourceCardProps) {
             {resource.mirrors && resource.mirrors.length > 0 && (
               <button
                 onClick={(e) => {
-                  e.preventDefault();
                   e.stopPropagation();
                   setShowMirrors(!showMirrors);
                 }}
@@ -165,7 +170,6 @@ export function ResourceCard({ resource, highlightQuery }: ResourceCardProps) {
         <div className="flex items-center gap-0.5 shrink-0 mt-1">
           <button
             onClick={(e) => {
-              e.preventDefault();
               e.stopPropagation();
               openDetail(resource);
             }}
@@ -205,6 +209,6 @@ export function ResourceCard({ resource, highlightQuery }: ResourceCardProps) {
           />
         </div>
       </div>
-    </a>
+    </div>
   );
 }
