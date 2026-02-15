@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect, useRef, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { categories } from "@/data";
 import { ResourceCard } from "@/components/ResourceCard";
 import { useSearchHistory } from "@/components/SearchHistoryProvider";
@@ -476,7 +477,7 @@ function SearchContent() {
               {categories.slice(0, 12).map((cat) => {
                 const count = cat.subcategories.reduce((s, sub) => s + sub.resources.length, 0);
                 return (
-                  <a
+                  <Link
                     key={cat.id}
                     href={`/${cat.slug}`}
                     className="group flex items-center gap-2.5 p-3 rounded-xl bg-card border border-border hover:bg-card-hover hover:border-accent/30 transition-all text-left"
@@ -486,7 +487,7 @@ function SearchContent() {
                       <div className="text-xs font-medium group-hover:text-accent transition-colors truncate">{cat.title}</div>
                       <div className="text-[10px] text-muted">{count.toLocaleString()}</div>
                     </div>
-                  </a>
+                  </Link>
                 );
               })}
             </div>
