@@ -2,7 +2,7 @@ import { categories } from "@/data";
 import { CategoryCard } from "@/components/CategoryCard";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { RecentlyViewed } from "@/components/RecentlyViewed";
-import { AdBanner, InFeedAd, MultiplexAd } from "@/components/AdBanner";
+import { AdBanner, InFeedAd, MultiplexAd, ThirdPartyAdSlot, AdsKeeperAd } from "@/components/AdBanner";
 import { Search, BookOpen, Star, TrendingUp, Sparkles, Zap, Shield, Globe, Lightbulb, Keyboard, Command, Shuffle } from "lucide-react";
 import Link from "next/link";
 
@@ -247,6 +247,9 @@ export default function Home() {
 
       <InFeedAd className="mb-8" />
 
+      {/* Third-party ad slot */}
+      <ThirdPartyAdSlot className="mb-8" position={0} />
+
       {/* Section divider */}
       <div className="pb-4">
         <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
@@ -335,7 +338,11 @@ export default function Home() {
       </section>
 
       {/* Multiplex ad at bottom of page */}
-      <MultiplexAd className="mb-12" />
+      <MultiplexAd className="mb-8" />
+
+      {/* AdsKeeper native widget + third-party rotation */}
+      <AdsKeeperAd className="mb-8" />
+      <ThirdPartyAdSlot className="mb-12" position={1} />
     </div>
   );
 }
