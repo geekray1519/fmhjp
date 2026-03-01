@@ -184,6 +184,12 @@
           ]
         },
         {
+          "name": "fluffle",
+          "url": "https://fluffle.cc/",
+          "description": "Markdown Support / Source",
+          "starred": true
+        },
+        {
           "name": "Katbin",
           "url": "https://katb.in/",
           "description": "Plain Text",
@@ -193,9 +199,9 @@
           ]
         },
         {
-          "name": "fluffle",
-          "url": "https://fluffle.cc/",
-          "description": "Markdown Support / Source"
+          "name": "⁠Pretrey",
+          "url": "https://pretrey.fmhy.bid/",
+          "description": "Markdown / Dynamic Content Support"
         },
         {
           "name": "Text.is",
@@ -250,9 +256,27 @@
           "description": "Multi-Syntax / Markdown Support"
         },
         {
+          "name": "Paste.to",
+          "url": "https://paste.to/",
+          "description": "Markdown Support"
+        },
+        {
+          "name": "TxtBin",
+          "url": "https://txtbin.org/",
+          "description": "Markdown Support"
+        },
+        {
           "name": "dpaste.com",
           "url": "https://dpaste.com/",
           "description": "Multi-Syntax / Markdown Support"
+        },
+        {
+          "name": "Paste",
+          "url": "https://paste.boxlabs.uk/",
+          "description": "Multi-Syntax / Markdown Support",
+          "tags": [
+            "GitHub"
+          ]
         },
         {
           "name": "⁠Codepasta",
@@ -283,6 +307,14 @@
           "description": "Multi-Syntax"
         },
         {
+          "name": "pastemyst",
+          "url": "https://paste.myst.rs/",
+          "description": "Multi-Syntax",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
           "name": "CentOS Pastebin",
           "url": "https://paste.centos.org/",
           "description": "Multi-Syntax"
@@ -303,9 +335,13 @@
           "description": "Plain Text"
         },
         {
-          "name": "bin",
-          "url": "https://basedbin.fly.dev/",
-          "description": "Minimal Pastebin"
+          "name": "⁠Memochō",
+          "url": "https://bin.kv2.dev/",
+          "description": "Minimal Pastebins",
+          "mirrors": [
+            "https://github.com/SitiSchu/memocho",
+            "https://basedbin.fly.dev/"
+          ]
         },
         {
           "name": "txt.fyi",
@@ -1665,6 +1701,14 @@
           ]
         },
         {
+          "name": "⁠QSV",
+          "url": "https://github.com/dathere/qsv",
+          "description": "CSV CLI Toolkits",
+          "mirrors": [
+            "https://github.com/medialab/xan"
+          ]
+        },
+        {
           "name": "⁠Proton Sheets",
           "url": "https://proton.me/drive/sheets",
           "description": "Online Spreadsheet Viewers / CSV Editors",
@@ -1686,26 +1730,18 @@
           ]
         },
         {
-          "name": "Baserow",
-          "url": "https://baserow.io/",
+          "name": "Framacalc",
+          "url": "https://framacalc.org/",
           "description": "Collaborative Spreadsheets",
           "mirrors": [
-            "https://gitlab.com/baserow/baserow",
-            "https://framacalc.org/",
             "https://ethercalc.net/",
-            "https://github.com/nocodb/nocodb",
-            "https://airtable.com/"
+            "https://github.com/audreyt/ethercalc"
           ]
         },
         {
           "name": "Jamovi",
           "url": "https://www.jamovi.org/",
           "description": "Statistical Spreadsheets"
-        },
-        {
-          "name": "Excel Practice Online",
-          "url": "https://excel-practice-online.com/",
-          "description": "Excel Practice / Guides"
         },
         {
           "name": "Excel Macro Mastery",
@@ -2071,6 +2107,7 @@
             "https://wieslawsoltes.github.io/Asciistrator/",
             "https://files.littlebird.com.au/ascii-sketch.html",
             "https://jp.itch.io/playscii",
+            "https://monosketch.io/",
             "https://picoe.ca/products/pablodraw/"
           ]
         },
@@ -2308,8 +2345,11 @@
         },
         {
           "name": "⁠Markpad",
-          "url": "https://github.com/alecdotdev/Markpad",
-          "description": "Lightweight / Minimal"
+          "url": "https://markpad.sftwr.dev/",
+          "description": "Lightweight / Minimal",
+          "tags": [
+            "GitHub"
+          ]
         }
       ]
     },
@@ -2341,9 +2381,11 @@
         {
           "name": "⁠MathCheap",
           "url": "https://mathcheap.xyz/",
-          "description": "AI-Powered LaTex Editor w / Image to Text OCR",
-          "tags": [
-            "Discord"
+          "description": "AI-Powered LaTex Editors",
+          "mirrors": [
+            "https://discord.gg/Q4chBVDFvK",
+            "https://prism.openai.com/",
+            "https://discord.com/invite/ffMZrSxUQa"
           ]
         },
         {
@@ -2686,6 +2728,18 @@
           "starred": true
         },
         {
+          "name": "Font Analyzer",
+          "url": "https://font-analyzer-six.vercel.app/",
+          "description": "Find Similar Fonts",
+          "starred": true,
+          "mirrors": [
+            "https://fonts.adobe.com/fonts/vs/upload",
+            "https://www.whatfontis.com/",
+            "https://www.myfonts.com/pages/whatthefont",
+            "http://www.identifont.com/"
+          ]
+        },
+        {
           "name": "Transfonter",
           "url": "https://transfonter.org/",
           "description": "Create CSS @font-face Kits"
@@ -2697,17 +2751,6 @@
           "mirrors": [
             "https://www.xiles.app/",
             "https://github.com/FontManager/font-manager"
-          ]
-        },
-        {
-          "name": "Adobe Fonts",
-          "url": "https://fonts.adobe.com/fonts/vs/upload",
-          "description": "Find Similar Fonts",
-          "mirrors": [
-            "https://font-analyzer-six.vercel.app/",
-            "https://www.whatfontis.com/",
-            "https://www.myfonts.com/pages/whatthefont",
-            "http://www.identifont.com/"
           ]
         },
         {

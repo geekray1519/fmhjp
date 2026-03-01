@@ -1246,6 +1246,8 @@
           "description": "Screenshot Tools",
           "starred": true,
           "mirrors": [
+            "https://gradia.alexandervanhee.be/",
+            "https://github.com/AlexanderVanhee/Gradia",
             "https://github.com/resurrecting-open-source-projects/scrot"
           ]
         },
@@ -1607,6 +1609,11 @@
           "name": "QuickPassthrough",
           "url": "https://github.com/HikariKnight/quickpassthrough",
           "description": "Simplified QEMU GPU Passthrough"
+        },
+        {
+          "name": "⁠WiVRn",
+          "url": "https://wivrn.github.io/",
+          "description": "Wirelessly Stream PC VR Games from Linux to Standalone VR Headset"
         }
       ]
     },
@@ -1989,7 +1996,7 @@
         {
           "name": "⁠RackRat",
           "url": "https://rackrat.net/",
-          "description": "Ebay Rackmount Server Prices / Comparisons",
+          "description": "eBay Rackmount Server Prices / Comparisons",
           "tags": [
             "index"
           ]
@@ -3058,8 +3065,8 @@
         },
         {
           "name": "CrossOver",
-          "url": "https://www.codeweavers.com/crossover",
-          "description": "Run Windows Apps & Games Without VM / Commercial"
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_software_sites2",
+          "description": "Run Windows on Mac"
         },
         {
           "name": "PortingKit",
@@ -3370,11 +3377,6 @@
           "description": ""
         },
         {
-          "name": "Haxmac",
-          "url": "https://haxmac.cc/",
-          "description": ""
-        },
-        {
           "name": "Mac Torrents",
           "url": "https://www.torrentmac.net/",
           "description": ""
@@ -3428,7 +3430,7 @@
         {
           "name": "Hayase",
           "url": "https://hayase.watch/",
-          "description": "Anime Torrent Streaming App / Extensions"
+          "description": "Anime Torrent Streaming App / Extensions / Wiki"
         },
         {
           "name": "AnymeX",
@@ -3460,6 +3462,11 @@
             "https://getkap.co",
             "https://github.com/wkaisertexas/ScreenTimeLapse"
           ]
+        },
+        {
+          "name": "⁠LonelyScreen",
+          "url": "https://www.lonelyscreen.com/",
+          "description": "AirPlay Receiver for PC / macOS"
         }
       ]
     },
@@ -3471,10 +3478,7 @@
           "name": "SpotX-Bash",
           "url": "https://github.com/SpotX-Official/SpotX-Bash",
           "description": "Spotify Adblockers",
-          "starred": true,
-          "mirrors": [
-            "https://github.com/Devanshu-17/Mac_Spotify_Adblock"
-          ]
+          "starred": true
         },
         {
           "name": "Spicetify",

@@ -375,7 +375,7 @@
           "description": "Adobe Extension Installer"
         }
       ],
-      "note": "常に scan downloaded software with VirusTotal before installation or run it in a sandboxed environment like Sandboxie to prevent system compromise."
+      "note": "常に scan downloaded software with VirusTotal before installation or run it in a sandboxed environment like Sandboxie to prevent system compromise. 注意： any apps with fake names are generally not worth using."
     },
     {
       "id": "downloading-foss-sites",
@@ -433,22 +433,22 @@
         {
           "name": "Opensource Builders",
           "url": "https://opensource.builders/",
-          "description": "FOSS Alt Search"
+          "description": "FOSS Alt Directory"
         },
         {
           "name": "⁠AlternativeOSS",
           "url": "https://alternativeoss.com/",
-          "description": "FOSS Alt Search"
+          "description": "FOSS Alt Directory"
         },
         {
           "name": "OpenAlternative",
           "url": "https://openalternative.co/",
-          "description": "FOSS Alt Search"
+          "description": "FOSS Alt Directory"
         },
         {
           "name": "opensourcealternative.to",
           "url": "https://www.opensourcealternative.to/",
-          "description": "FOSS Alt Search"
+          "description": "FOSS Alt Directory"
         },
         {
           "name": "Awesome CLI Apps",
@@ -878,7 +878,7 @@
         },
         {
           "name": "Debrid Services Comparison",
-          "url": "https://debridcompare.xyz",
+          "url": "https://debridcompare.pages.dev/",
           "description": "",
           "tags": [
             "index"
@@ -910,9 +910,22 @@
           "description": "Bypass Premium Link Speed Limits"
         },
         {
+          "name": "⁠MixDebrid",
+          "url": "https://mixdebrid.com/",
+          "description": "Bypass Premium Link Speed Limits"
+        },
+        {
           "name": "Multi-OCH Helper",
           "url": "https://greasyfork.org/en/scripts/13884-multi-och-helper",
           "description": "Quickly Send DDL Links to Premiumize & NoPremium"
+        },
+        {
+          "name": "Debrid Media Manager",
+          "url": "https://debridmediamanager.com/",
+          "description": "⁠Debrid Managers",
+          "mirrors": [
+            "https://discord.gg/B3QKzPRjhM"
+          ]
         }
       ]
     }

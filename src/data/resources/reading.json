@@ -79,7 +79,10 @@
         {
           "name": "WeLib",
           "url": "https://welib.org/",
-          "description": "Anna's Archive Mirror / Unofficial"
+          "description": "Anna's Archive Mirror / Unofficial",
+          "mirrors": [
+            "https://welib.st/"
+          ]
         },
         {
           "name": "eBookBB",
@@ -157,6 +160,11 @@
           "description": "US Banned Books"
         },
         {
+          "name": "⁠Inventaire",
+          "url": "https://inventaire.io/",
+          "description": "Community Library / Book Lending"
+        },
+        {
           "name": "⁠Shelfmark",
           "url": "https://github.com/calibrain/shelfmark",
           "description": "Ebook Downloader"
@@ -217,7 +225,10 @@
           "name": "Project Gutenberg",
           "url": "https://www.gutenberg.org/",
           "description": "Historical Fiction / Nonfiction / Australia / Canada / Nordic",
-          "starred": true
+          "starred": true,
+          "mirrors": [
+            "https://lex-books.com/"
+          ]
         },
         {
           "name": "Unglue.it",
@@ -506,9 +517,9 @@
           ]
         },
         {
-          "name": "KoReader",
+          "name": "KOReader",
           "url": "https://koreader.rocks/",
-          "description": "Ebook Reader / Windows, Linux, Android",
+          "description": "Ebook Reader / Windows, Linux, Android / Plugins",
           "starred": true,
           "tags": [
             "GitHub"
@@ -521,16 +532,9 @@
           "starred": true
         },
         {
-          "name": "Calibre",
-          "url": "https://calibre-ebook.com/",
-          "description": "Ebook Reader / Windows, Mac, Linux",
-          "starred": true
-        },
-        {
           "name": "Foxit",
           "url": "https://www.foxit.com/pdf-reader/",
-          "description": "PDF Reader / All Platforms / Features (search) / Warning",
-          "starred": true
+          "description": "PDF Reader / All Platforms / Features (search) / Warning"
         },
         {
           "name": "PlayTorrio",
@@ -1117,6 +1121,11 @@
         {
           "name": "WuxiaWorld.com",
           "url": "https://www.wuxiaworld.com/",
+          "description": "Online Reading"
+        },
+        {
+          "name": "⁠WuxiaDreams",
+          "url": "https://wuxiadreams.com/",
           "description": "Online Reading"
         },
         {
@@ -1730,6 +1739,19 @@
           "description": "Islamic Research App"
         },
         {
+          "name": "Sikh National Archives",
+          "url": "https://www.sikhnationalarchives.com/",
+          "description": "Sikhism Book / Login Required",
+          "mirrors": [
+            "https://sikhbookclub.com/"
+          ]
+        },
+        {
+          "name": "Sri Granth",
+          "url": "https://www.srigranth.org/",
+          "description": "Guru Granth Sahib Translation"
+        },
+        {
           "name": "Halakhah",
           "url": "https://www.halakhah.com/",
           "description": "Talmud Translation"
@@ -1783,7 +1805,7 @@
         {
           "name": "AudiobookBay",
           "url": "https://audiobookbay.lu/",
-          "description": "Torrents / Warning",
+          "description": "Torrents / Frontend / Warning",
           "starred": true
         },
         {
@@ -1962,7 +1984,10 @@
         {
           "name": "Project Gutenberg",
           "url": "https://www.gutenberg.org/browse/categories/1",
-          "description": "Historical Fiction / Nonfiction"
+          "description": "Historical Fiction / Nonfiction",
+          "mirrors": [
+            "https://lex-books.com/"
+          ]
         },
         {
           "name": "PlayTorrio",
@@ -2259,18 +2284,6 @@
           "starred": true
         },
         {
-          "name": "MangaDex",
-          "url": "https://mangadex.org/",
-          "description": "",
-          "starred": true,
-          "mirrors": [
-            "https://mangadex-dl.mansuf.link/",
-            "https://github.com/frozenpandaman/mangadex-dl",
-            "https://www.reddit.com/r/mangadex/",
-            "https://discord.gg/mangadex"
-          ]
-        },
-        {
           "name": "⁠Comix",
           "url": "https://comix.to/",
           "description": "",
@@ -2300,6 +2313,18 @@
             "https://www.mangakakalot.gg",
             "https://www.natomanga.com/",
             "https://discord.gg/Qhz84GGvE9"
+          ]
+        },
+        {
+          "name": "MangaDex",
+          "url": "https://mangadex.org/",
+          "description": "",
+          "starred": true,
+          "mirrors": [
+            "https://mangadex-dl.mansuf.link/",
+            "https://github.com/frozenpandaman/mangadex-dl",
+            "https://www.reddit.com/r/mangadex/",
+            "https://discord.gg/mangadex"
           ]
         },
         {
@@ -2348,6 +2373,14 @@
           "name": "mangapill",
           "url": "https://mangapill.com/",
           "description": ""
+        },
+        {
+          "name": "⁠MangaTaro",
+          "url": "https://mangataro.org/",
+          "description": "",
+          "mirrors": [
+            "https://discord.gg/FKd8XVneCw"
+          ]
         },
         {
           "name": "⁠WeebDex",
@@ -2533,8 +2566,8 @@
         },
         {
           "name": "PDFMagazines",
-          "url": "https://pdfmagazines.club/",
-          "description": "Novafile",
+          "url": "https://pdfmagazines.club/news/",
+          "description": "Novafile / Some NSFW",
           "starred": true
         },
         {
@@ -2592,11 +2625,6 @@
         {
           "name": "ENMagazine",
           "url": "https://t.me/enmagazine",
-          "description": "Telegram"
-        },
-        {
-          "name": "ItsAllInEnglish",
-          "url": "https://t.me/itsallinenglishs",
           "description": "Telegram"
         },
         {
@@ -3112,6 +3140,7 @@
           "url": "https://quod.lib.umich.edu/e/eebogroup/",
           "description": "Historical Texts / Books",
           "mirrors": [
+            "https://repository.library.brown.edu/studio/collections/library/",
             "https://digitalcollections.nypl.org/",
             "https://acdc.amherst.edu/"
           ]
@@ -3174,7 +3203,12 @@
         {
           "name": "ToposText",
           "url": "https://topostext.org/",
-          "description": "Historical Greek Documents"
+          "description": "Greek Historical Documents"
+        },
+        {
+          "name": "Panjab Digital Library",
+          "url": "http://www.panjabdigilib.org/",
+          "description": "Panjab Historical Documents"
         },
         {
           "name": "Jewish Virtual Library",
@@ -3636,6 +3670,11 @@
           "description": "Retracted Research Papers"
         },
         {
+          "name": "Ai2 Asta",
+          "url": "https://asta.allen.ai/",
+          "description": "AI Scientific Paper Search"
+        },
+        {
           "name": "HAL",
           "url": "https://hal.science/",
           "description": "Scientific Paper Search"
@@ -3862,10 +3901,14 @@
           "description": "Declassified Epstein Files / Viewer Discretion Advised / Contains Censored NSFW Images",
           "starred": true,
           "mirrors": [
+            "https://github.com/stonesalltheway1/Epstein-Pipeline",
             "https://www.jmail.world/",
             "https://jmailarchive.org/",
+            "https://jmail.world/wiki",
+            "https://epsteinsecrets.com/",
             "https://www.justice.gov/epstein",
             "https://epsteinvisualizer.com/",
+            "https://officialepsteinfiles.org/",
             "https://epstein-files-browser.vercel.app/"
           ]
         },
@@ -3962,7 +4005,10 @@
         {
           "name": "OATD",
           "url": "https://oatd.org/",
-          "description": "Theses / Dissertations"
+          "description": "Theses / Dissertations",
+          "mirrors": [
+            "https://repository.library.brown.edu/studio/collections/dissertation/"
+          ]
         },
         {
           "name": "lol my thesis",
@@ -4265,6 +4311,14 @@
           "url": "https://leagueofcomicgeeks.com/",
           "description": "Comic Tracking / Database / Releases",
           "starred": true
+        },
+        {
+          "name": "⁠Midloop",
+          "url": "https://midloop.net/",
+          "description": "Book Release Date Tracker",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "Listal",
@@ -4623,6 +4677,12 @@
           "tags": [
             "index"
           ]
+        },
+        {
+          "name": "Calibre",
+          "url": "https://calibre-ebook.com/",
+          "description": "Ebook Manager & Reader / Windows, Mac, Linux",
+          "starred": true
         },
         {
           "name": "Spreeder",

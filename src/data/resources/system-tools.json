@@ -900,7 +900,7 @@
         {
           "name": "VirtualBox",
           "url": "https://www.virtualbox.org/",
-          "description": "Virtual Machine / Portable",
+          "description": "Virtual Machine",
           "starred": true
         },
         {
@@ -1728,14 +1728,14 @@
           ]
         },
         {
-          "name": "SonyHeadphonesClient",
-          "url": "https://github.com/Plutoberth/SonyHeadphonesClient",
-          "description": "Sony Headphones Clone"
-        },
-        {
           "name": "Audiocheck",
           "url": "https://www.audiocheck.net/",
           "description": "Audio Tests"
+        },
+        {
+          "name": "SonyHeadphonesClient",
+          "url": "https://github.com/mos9527/SonyHeadphonesClient",
+          "description": "Sony Headphones Clone"
         },
         {
           "name": "LowAudioLatency",

@@ -404,7 +404,8 @@
             "https://artvee.com/",
             "https://www.moma.org/collection/",
             "https://www.guggenheim.org/collection-online",
-            "https://www.deutsche-digitale-bibliothek.de/?lang=en"
+            "https://www.deutsche-digitale-bibliothek.de/?lang=en",
+            "https://www.nga.gov"
           ]
         }
       ]
@@ -829,6 +830,14 @@
           "name": "Challenge List",
           "url": "https://challengelist.gd/challenges/",
           "description": "Challenge Level List"
+        },
+        {
+          "name": "Index ⁠HDL",
+          "url": "https://hdl.pages.dev/",
+          "description": "Hard Demon List",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "LRR Demonlist",
@@ -1317,6 +1326,14 @@
           ]
         },
         {
+          "name": "⁠PandoraLauncher",
+          "url": "https://pandora.moulberry.com/",
+          "description": "Launcher",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
           "name": "GDLauncher",
           "url": "https://gdlauncher.com/",
           "description": "Launcher",
@@ -1328,6 +1345,14 @@
           "name": "WineGDK",
           "url": "https://github.com/Weather-OS/WineGDK",
           "description": "Bedrock Launcher / macOS / Linux"
+        },
+        {
+          "name": "Amethyst",
+          "url": "https://github.com/AngelAuraMC/Amethyst-Android",
+          "description": "Mobile Launcher / Android, iOS",
+          "tags": [
+            "Discord"
+          ]
         }
       ],
       "note": "The following options require an official Minecraft アカウント to use."
@@ -1861,7 +1886,9 @@
             "https://www.receivesmsonline.net/",
             "https://www.smspool.net/free-sms-verification",
             "https://receive-smss.live/",
-            "https://esimplus.me/temporary-numbers"
+            "https://esimplus.me/temporary-numbers",
+            "https://www.receivesms.co/",
+            "https://getfreesmsnumber.com/"
           ]
         }
       ]
@@ -2018,7 +2045,8 @@
             "https://pictogrammers.com/",
             "https://svgstack.com/",
             "https://iconshelf.com/",
-            "https://tabler.io/icons"
+            "https://tabler.io/icons",
+            "https://freesvg.org/"
           ]
         }
       ]
@@ -2204,7 +2232,8 @@
             "https://scrollcoupons.com/",
             "https://t.me/scroll_coupons",
             "https://udemyxpert.com/",
-            "https://t.me/UdemyXpert"
+            "https://t.me/UdemyXpert",
+            "https://m.forasm.com/courses/"
           ]
         }
       ],

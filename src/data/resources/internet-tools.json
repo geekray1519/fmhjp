@@ -59,6 +59,7 @@
             "https://userstyles.world/style/17413",
             "https://github.com/sindresorhus/fast-cli",
             "https://speed.cloudflare.com/",
+            "https://github.com/kavehtehrani/cloudflare-speed-cli",
             "https://openspeedtest.com/",
             "https://github.com/openspeedtest/Speed-Test",
             "https://librespeed.org/"
@@ -205,7 +206,7 @@
           "mirrors": [
             "https://keepass.info/download.html",
             "https://keepass.info/plugins.html",
-            "https://subdavis.com/Tusk/",
+            "https://tusk.subdavis.com/",
             "https://keepassxc.org/"
           ]
         },
@@ -354,6 +355,14 @@
           "description": "Unlimited / Custom URLs"
         },
         {
+          "name": "OneURL",
+          "url": "https://www.oneurl.live/",
+          "description": "Unlimited / Custom URLs",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
           "name": "BioSites",
           "url": "https://biosites.com/",
           "description": "Unlimited / Custom URLs"
@@ -452,6 +461,8 @@
           "starred": true,
           "mirrors": [
             "https://coy.im/",
+            "https://prose.org/",
+            "https://github.com/processone/fluux-messenger/",
             "https://profanity-im.github.io/",
             "https://github.com/profanity-im/profanity",
             "https://www.xabber.com/"
@@ -473,11 +484,15 @@
           "description": "Bridge for Multiple Chat Apps"
         },
         {
+          "name": "⁠Fluxer",
+          "url": "https://fluxer.app/",
+          "description": "Communication Platform / Discord Alt / Server Index"
+        },
+        {
           "name": "Miranda NG",
           "url": "https://www.miranda-ng.org/en/",
           "description": "General Chat Apps",
           "mirrors": [
-            "https://escargot.chat/",
             "https://weechat.org/"
           ]
         },
@@ -692,6 +707,15 @@
           "starred": true
         },
         {
+          "name": "rss.fmhy",
+          "url": "https://rss.fmhy.bid/",
+          "description": "RSS Reader / Web-Based",
+          "starred": true,
+          "mirrors": [
+            "https://freshrss.prodottoinrete.com/i/"
+          ]
+        },
+        {
           "name": "RSS Guard",
           "url": "https://github.com/martinrotter/rssguard",
           "description": "RSS Reader / Multi-Platform / Scraper",
@@ -742,11 +766,6 @@
           "tags": [
             "GitHub"
           ]
-        },
-        {
-          "name": "rss.fmhy",
-          "url": "https://rss.fmhy.bid/",
-          "description": "RSS Reader / Web-Based"
         },
         {
           "name": "WebFeed",
@@ -1927,6 +1946,14 @@
           "description": "ai6.net / nm3tyz"
         },
         {
+          "name": "Kutt",
+          "url": "https://kutt.it/",
+          "description": "Account Required",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
           "name": "Anon.to",
           "url": "https://anon.to/",
           "description": "Anonymous URLs / anon.to / 7SWqpG"
@@ -2086,7 +2113,7 @@
             "https://www.thunderbird.net/en-US/",
             "https://github.com/Ximi1970/systray-x",
             "https://matrix.to/#/#thunderbird:mozilla.org",
-            "https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#thunderbird"
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/thunderbird.md"
           ]
         },
         {
@@ -2308,6 +2335,11 @@
           "description": "Forever / 2 Days / 1 Domain"
         },
         {
+          "name": "⁠Driftz Mail",
+          "url": "https://driftz.net/",
+          "description": "23 Domains"
+        },
+        {
           "name": "Spambox",
           "url": "https://spambox.xyz/",
           "description": "Forever / 1 Day / 4 Domains",
@@ -2359,6 +2391,11 @@
           "name": "Tempmailo",
           "url": "https://tempmailo.com/",
           "description": "2 Days / 2 Days / N / A"
+        },
+        {
+          "name": "Xeramail",
+          "url": "https://xeramail.com/",
+          "description": "1 Day / 1 Day / 2 Domains"
         },
         {
           "name": "Vmail.DEV",
@@ -2595,7 +2632,7 @@
         {
           "name": "Raindrop.io",
           "url": "https://raindrop.io/",
-          "description": "Cross-Platform Manager",
+          "description": "Cross-Platform Manager / TUI",
           "starred": true
         },
         {
@@ -2690,9 +2727,10 @@
         },
         {
           "name": "Linkwarden",
-          "url": "https://github.com/linkwarden/linkwarden",
+          "url": "https://linkwarden.app/",
           "description": "Self-Hosted Managers",
           "mirrors": [
+            "https://github.com/linkwarden/linkwarden",
             "https://karakeep.app/",
             "https://github.com/karakeep-app/karakeep",
             "https://github.com/shaarli/Shaarli",
@@ -3290,11 +3328,6 @@
           "description": "Connect Browser to External Apps"
         },
         {
-          "name": "xBrowserSync",
-          "url": "https://www.xbrowsersync.org/",
-          "description": "Browser Syncing"
-        },
-        {
           "name": "Stylebot",
           "url": "https://stylebot.dev/",
           "description": "Modify Webpages"
@@ -3472,11 +3505,6 @@
           "name": "Session Alive",
           "url": "https://github.com/arunelias/session-alive/",
           "description": "Keep Website Sessions Alive"
-        },
-        {
-          "name": "Caffeine",
-          "url": "https://webextension.org/listing/caffeine.html",
-          "description": "Prevent OS from Sleeping"
         },
         {
           "name": "Broken Link Checker",
@@ -3832,6 +3860,11 @@
           "name": "Popup Tab Switcher",
           "url": "https://github.com/dvdvdmt/popup-tab-switcher",
           "description": "Improved Tab Switching"
+        },
+        {
+          "name": "Caffeine",
+          "url": "https://webextension.org/listing/caffeine.html",
+          "description": "Prevent OS from Sleeping"
         },
         {
           "name": "uAutoPagerize",

@@ -97,6 +97,11 @@
           "description": "Unsafe Sites Filter"
         },
         {
+          "name": "AI uBlock Blacklist",
+          "url": "https://github.com/alvi-se/ai-ublock-blacklist",
+          "description": "Blocks AI Generated Sites"
+        },
+        {
           "name": "⁠Huge AI Blocklist",
           "url": "https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist",
           "description": "Removes AI Imagery from Search Engines"
@@ -421,7 +426,7 @@
         {
           "name": "Jotti",
           "url": "https://virusscan.jotti.org/en",
-          "description": ""
+          "description": "Online File Scanner"
         },
         {
           "name": "⁠Threat Insights Portal",
@@ -492,18 +497,18 @@
           "description": ""
         },
         {
-          "name": "Tails",
-          "url": "https://tails.net/",
+          "name": "Whonix",
+          "url": "https://www.whonix.org/",
           "description": "Privacy-Focused Operating Systems",
           "starred": true,
           "mirrors": [
-            "https://t.me/torproject",
-            "https://github.com/torproject",
-            "https://www.whonix.org/",
             "https://t.me/s/Whonix",
             "https://github.com/Whonix",
             "https://www.qubes-os.org/",
-            "https://github.com/QubesOS"
+            "https://github.com/QubesOS",
+            "https://tails.net/",
+            "https://t.me/torproject",
+            "https://github.com/torproject"
           ]
         },
         {
@@ -630,7 +635,7 @@
         {
           "name": "Privacy Guides",
           "url": "https://www.privacyguides.org/",
-          "description": "Educational Guide / Discuss.onion / Matrix",
+          "description": "Educational Guide / Discuss /.onion / Matrix",
           "starred": true,
           "tags": [
             "GitHub"
@@ -693,6 +698,16 @@
         {
           "name": "Defensive Computing Checklist",
           "url": "https://defensivecomputingchecklist.com/",
+          "description": "Educational Guide"
+        },
+        {
+          "name": "⁠Whonix Wiki",
+          "url": "https://www.whonix.org/wiki",
+          "description": "Educational Guide"
+        },
+        {
+          "name": "⁠Kicksecure Wiki",
+          "url": "https://www.kicksecure.com/wiki",
           "description": "Educational Guide"
         },
         {
@@ -1114,6 +1129,25 @@
           ]
         },
         {
+          "name": "Matrix Clients",
+          "url": "https://matrix.org/ecosystem/clients/",
+          "description": "",
+          "tags": [
+            "index"
+          ],
+          "mirrors": [
+            "https://github.com/matrix-org/mjolnir",
+            "https://matrix.org/ecosystem/",
+            "https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html",
+            "https://tatsumoto.neocities.org/blog/list-of-matrix-servers.html",
+            "https://gitlab.com/famedly/conduit",
+            "https://joinmatrix.org/servers/",
+            "https://archive.md/4xZE4",
+            "https://wiki.asra.gr/en:public_servers",
+            "https://masl.dev/"
+          ]
+        },
+        {
           "name": "SimpleX",
           "url": "https://simplex.chat/",
           "description": "All Platforms",
@@ -1139,21 +1173,6 @@
           "mirrors": [
             "https://briarproject.org/download-briar-desktop/",
             "https://code.briarproject.org/briar/briar"
-          ]
-        },
-        {
-          "name": "Matrix",
-          "url": "https://matrix.org/",
-          "description": "",
-          "mirrors": [
-            "https://github.com/matrix-org/mjolnir",
-            "https://matrix.org/ecosystem/",
-            "https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html",
-            "https://tatsumoto.neocities.org/blog/list-of-matrix-servers.html",
-            "https://gitlab.com/famedly/conduit",
-            "https://joinmatrix.org/servers/",
-            "https://archive.md/4xZE4",
-            "https://wiki.asra.gr/en:public_servers"
           ]
         },
         {
@@ -1277,7 +1296,8 @@
             "https://github.com/quackduck/devzat"
           ]
         }
-      ]
+      ],
+      "note": "ご注意ください that even with e2ee enabled metadata may still be visible to your homeserver and homeservers of those you're chatting with."
     },
     {
       "id": "privacy-email-privacy",
@@ -1502,15 +1522,15 @@
           ]
         },
         {
-          "name": "FMHY Searx",
-          "url": "https://searx.fmhy.net/",
+          "name": "searx.space",
+          "url": "https://searx.space/",
           "description": "SearXNG Instances / Metasearch / Matrix",
           "starred": true,
           "tags": [
             "GitHub"
           ],
           "mirrors": [
-            "https://searx.space/",
+            "https://searx.fmhy.net/",
             "http://searxspbitokayvkhzhsnljde7rqmn7rvoga6e4waeub3h7ug3nghoad.onion/"
           ]
         },
@@ -1523,7 +1543,7 @@
         {
           "name": "DuckDuckGo",
           "url": "https://start.duckduckgo.com/",
-          "description": "Metasearch / Bing Based / Shortcuts",
+          "description": "Metasearch / Bing Based / AI Free / Lite / HTML / Shortcuts",
           "starred": true,
           "tags": [
             "Subreddit"
@@ -1748,7 +1768,7 @@
         {
           "name": "⁠Headscale",
           "url": "https://github.com/juanfont/headscale",
-          "description": "Self Hosted Tailscale"
+          "description": "Self-Hosted Tailscale"
         },
         {
           "name": "⁠Nebula",

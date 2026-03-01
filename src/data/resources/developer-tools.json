@@ -253,6 +253,11 @@
           "description": "Webhook Tools"
         },
         {
+          "name": "⁠Nept",
+          "url": "https://nept.cloud/",
+          "description": "Instantly Deploy 20+ Frameworks (Deploy Next.js, Python, Go, etc.)"
+        },
+        {
           "name": "Libraries.io",
           "url": "https://libraries.io/",
           "description": "Package, Framework & Tool Search"
@@ -642,12 +647,27 @@
         {
           "name": "Qdrant",
           "url": "https://qdrant.tech/",
-          "description": "-Database Manager"
+          "description": "Database Manager"
         },
         {
           "name": "Gel",
           "url": "https://www.geldata.com/",
           "description": "Database Manager"
+        },
+        {
+          "name": "AirTable",
+          "url": "https://airtable.com/",
+          "description": "Database Manager / Sign-Up Required"
+        },
+        {
+          "name": "Baserow",
+          "url": "https://baserow.io/",
+          "description": "Database Manager / Sign-Up Required / GitLab"
+        },
+        {
+          "name": "NocoDB",
+          "url": "https://github.com/nocodb/nocodb",
+          "description": "Database Manager / Sign-Up Required"
         },
         {
           "name": "Sqlable",
@@ -1004,6 +1024,11 @@
           "name": "For the Badge",
           "url": "https://forthebadge.com/",
           "description": "Custom GitHub Badges"
+        },
+        {
+          "name": "⁠Profile Readme Generator",
+          "url": "https://github.com/maurodesouza/profile-readme-generator",
+          "description": "GitHub Profile Generator / Editor"
         },
         {
           "name": "GitHub Spray",
@@ -1563,6 +1588,11 @@
           "name": "Basic Computer Games",
           "url": "https://github.com/coding-horror/basic-computer-games",
           "description": "Basic Computer Game Examples"
+        },
+        {
+          "name": "⁠Decompedia",
+          "url": "https://decomp.wiki/",
+          "description": "Game Decomp Resources"
         },
         {
           "name": "Forgix",
@@ -2560,76 +2590,8 @@
       ]
     },
     {
-      "id": "developer-tools-coding-assistants",
-      "title": "コーディングアシスタント",
-      "resources": [
-        {
-          "name": "Gemini CLI",
-          "url": "https://google-gemini.github.io/gemini-cli/",
-          "description": "Coding AI",
-          "starred": true,
-          "tags": [
-            "GitHub"
-          ],
-          "mirrors": [
-            "https://aistudio.google.com/app/apps"
-          ]
-        },
-        {
-          "name": "Design Arena",
-          "url": "https://www.designarena.ai/",
-          "description": "Multi-LLM Coding AI / No Direct / Side by Side Mode / Reset Limits / w Temp Mail"
-        },
-        {
-          "name": "Devv",
-          "url": "https://devv.ai/",
-          "description": "Coding Search Engine",
-          "tags": [
-            "GitHub"
-          ]
-        },
-        {
-          "name": "Pieces",
-          "url": "https://pieces.app/",
-          "description": "Multi-LLM Coding AI / GPT-4 / 4o for Free"
-        },
-        {
-          "name": "Supermaven",
-          "url": "https://supermaven.com/",
-          "description": "Tab Completion Coding AI / No Sign-Up",
-          "tags": [
-            "Discord"
-          ]
-        },
-        {
-          "name": "Qodo",
-          "url": "https://www.qodo.ai/",
-          "description": "Coding AI"
-        },
-        {
-          "name": "Denigma",
-          "url": "https://denigma.app/",
-          "description": "Coding AI / No Sign-Up",
-          "tags": [
-            "Discord"
-          ]
-        },
-        {
-          "name": "Code Web Chat",
-          "url": "https://codeweb.chat/",
-          "description": "Coding AI / No Sign-Up",
-          "tags": [
-            "GitHub",
-            "Discord",
-            "Subreddit"
-          ]
-        }
-      ],
-      "note": "ご注意ください many coding AIs run in root, so it's best to avoid giving them full drive / root access to avoid any sort of issues or accidental deletions. 忘れずに backup code first before running the AI or prompts, as they can sometimes break things."
-    },
-    {
-      "id": "developer-tools-ide-extensions-agents",
-      "title": "IDE 拡張機能 / Agents",
+      "id": "developer-tools-coding-agents-extensions",
+      "title": "Coding Agents / 拡張機能",
       "resources": [
         {
           "name": "Aider",
@@ -2642,14 +2604,18 @@
           ]
         },
         {
-          "name": "⁠Google Antigravity",
-          "url": "https://antigravity.google/",
-          "description": "Coding AI / Gemini 3 / Opus 4.6 / Limits Reset Weekly / Account Manager / Usage Tracker"
+          "name": "Gemini CLI",
+          "url": "https://google-gemini.github.io/gemini-cli/",
+          "description": "Coding AI / Gemini 3 Flash / Pro",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
         },
         {
-          "name": "GitHub Copilot",
-          "url": "https://github.com/features/copilot",
-          "description": "Coding AI"
+          "name": "⁠Google Antigravity",
+          "url": "https://antigravity.google/",
+          "description": "Coding AI / Gemini 3 / Claude Opus 4.6 / Limits Reset Weekly / Account Manager / Usage Tracker"
         },
         {
           "name": "Windsurf",
@@ -2663,15 +2629,16 @@
         {
           "name": "OpenCode",
           "url": "https://opencode.ai/",
-          "description": "Coding AI / Resources",
+          "description": "Coding AI / GPT-5 nano / Minimax-M2.5 / Resources",
           "tags": [
+            "Discord",
             "GitHub"
           ]
         },
         {
           "name": "Qwen Code",
           "url": "https://github.com/QwenLM/qwen-code",
-          "description": "Coding AI / 60 Per Minute / 1K Daily / Docs / Limits"
+          "description": "Coding AI / Qwen3-Coder / Qwen3.5-Plus (Qwen3.5-397B-A17B) / 60 Per Minute / 1K Daily / Docs / Limits"
         },
         {
           "name": "Cline",
@@ -2726,28 +2693,108 @@
           "tags": [
             "Discord"
           ]
+        },
+        {
+          "name": "Code Web Chat",
+          "url": "https://codeweb.chat/",
+          "description": "Coding AI / No Sign-Up",
+          "tags": [
+            "GitHub",
+            "Discord",
+            "Subreddit"
+          ]
+        },
+        {
+          "name": "Supermaven",
+          "url": "https://supermaven.com/",
+          "description": "Tab Completion Coding AI / No Sign-Up",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Qodo",
+          "url": "https://www.qodo.ai/",
+          "description": "Coding AI"
+        },
+        {
+          "name": "Ampcode",
+          "url": "https://ampcode.com/",
+          "description": "Coding AI"
         }
       ],
-      "note": "Use caution with autonomous agents; they can modify files and execute terminal commands. Running in a container or VM is recommended."
+      "note": "ご注意ください many coding AIs run in root, so it's best to avoid giving them full drive / root access to avoid any sort of issues or accidental deletions as they can modify files and execute terminal commands. 忘れずに backup code first before running the AI or prompts, as they can sometimes break things. Running in a container or VM is recommended."
     },
     {
       "id": "developer-tools-web-app-builders",
       "title": "Web / アプリビルダー",
       "resources": [
         {
-          "name": "⁠Orchids",
-          "url": "https://orchids.app/",
-          "description": "Text to Site Code"
+          "name": "Arena",
+          "url": "https://arena.ai/code",
+          "description": "AI Website Builder / Multiple Models / Reset Limits w / Cookie Delete or Temp Mail / X",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "AI Studio",
+          "url": "https://aistudio.google.com/app/apps",
+          "description": "Gemini 3.1 Pro Coding AI / 11 Daily / Requires Sign-Up",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠Z.ai",
+          "url": "https://chat.z.ai/",
+          "description": "AI Website Builder / GLM-5 / Unlimited",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Design Arena",
+          "url": "https://www.designarena.ai/",
+          "description": "Multi-LLM Coding AI / No Direct / Side by Side Mode / Reset Limits / w Temp Mail",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Yupp.ai",
+          "url": "https://yupp.ai/",
+          "description": "Multi-LLM Coding AI / Google Login Required / X",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "Perchance",
+          "url": "https://perchance.org/minimal#edit",
+          "description": "App Builders",
+          "mirrors": [
+            "https://www.reddit.com/r/perchance/",
+            "https://discord.gg/43qAQEVV9a",
+            "https://fragments.e2b.dev/",
+            "https://discord.com/invite/U7KEcGErtQ",
+            "https://github.com/e2b-dev",
+            "https://websim.com/",
+            "https://discord.gg/websim",
+            "https://www.reddit.com/r/websim",
+            "https://x.com/websim_ai",
+            "https://huggingface.co/spaces/akhaliq/anycoder",
+            "https://llamacoder.together.ai/",
+            "https://github.com/Nutlope/llamacoder"
+          ]
         },
         {
           "name": "v0",
           "url": "https://v0.app/",
           "description": "Text to Site Code"
-        },
-        {
-          "name": "DeepSite",
-          "url": "https://huggingface.co/spaces/enzostvs/deepsite",
-          "description": "Text to Site Code / Limits"
         },
         {
           "name": "Bolt.new",
@@ -2759,17 +2806,11 @@
           ]
         },
         {
-          "name": "⁠Rork",
-          "url": "https://rork.com/",
-          "description": "App Builders",
-          "mirrors": [
-            "https://greasyfork.org/en/scripts/538090",
-            "https://fragments.e2b.dev/",
-            "https://discord.com/invite/U7KEcGErtQ",
-            "https://github.com/e2b-dev",
-            "https://huggingface.co/spaces/akhaliq/anycoder",
-            "https://llamacoder.together.ai/",
-            "https://github.com/Nutlope/llamacoder"
+          "name": "Devv",
+          "url": "https://devv.ai/",
+          "description": "Coding Search Engine",
+          "tags": [
+            "GitHub"
           ]
         }
       ]
@@ -2796,14 +2837,22 @@
           ]
         },
         {
+          "name": "Skills",
+          "url": "https://skills.sh/",
+          "description": "Add Capabilities to AI Agents"
+        },
+        {
           "name": "⁠Code2prompt",
           "url": "https://github.com/mufeedvh/code2prompt",
           "description": "Codebase To LLM Prompt"
         },
         {
-          "name": "PR-Agent",
-          "url": "https://github.com/qodo-ai/pr-agent",
-          "description": "Automated Pull Request Reviews"
+          "name": "⁠CodeRabbit",
+          "url": "https://www.coderabbit.ai/",
+          "description": "Pull Request Reviews / Feedback",
+          "mirrors": [
+            "https://github.com/qodo-ai/pr-agent"
+          ]
         },
         {
           "name": "Gitingest",
@@ -2813,6 +2862,11 @@
             "https://repomix.com/",
             "https://github.com/yamadashy/repomix"
           ]
+        },
+        {
+          "name": "Pieces",
+          "url": "https://pieces.app/",
+          "description": "Multi-LLM Coding Search Engine"
         },
         {
           "name": "⁠Awesome Explorer",
@@ -3642,6 +3696,11 @@
           ]
         },
         {
+          "name": "⁠Tech Playground",
+          "url": "https://tech-playground.com/",
+          "description": "Playground for Server-Side Tech"
+        },
+        {
           "name": "Wappalyzer",
           "url": "https://www.wappalyzer.com/",
           "description": "Identify Technologies on Websites / Addons"
@@ -3820,6 +3879,11 @@
           "mirrors": [
             "https://www.htmlcommentbox.com/"
           ]
+        },
+        {
+          "name": "Can I Email?",
+          "url": "https://www.caniemail.com/",
+          "description": "Email Functionality Check"
         },
         {
           "name": "Typebot",
@@ -4607,11 +4671,6 @@
           "description": "Themes / Plugins Forum / Requires Sign-Up"
         },
         {
-          "name": "WordPress Themes & Plugins",
-          "url": "https://t.me/wpthemesandplugins",
-          "description": "Themes / Telegram"
-        },
-        {
           "name": "Visual CSS Editor",
           "url": "https://chromewebstore.google.com/detail/visual-css-editor/cibffnhhlfippmhdmdkcfecncoaegdkh",
           "description": "WordPress Site Designer"
@@ -4748,6 +4807,7 @@
           "url": "https://pa11y.org/",
           "description": "Accessibility Evaluation Tools",
           "mirrors": [
+            "https://a11ysupport.io/",
             "https://wave.webaim.org/",
             "https://www.ssa.gov/accessibility/andi/help/install.html",
             "https://a11ygator.chialab.io/"
@@ -4835,8 +4895,10 @@
           "mirrors": [
             "https://svg.wtf/",
             "https://freesvgeditor.com/",
+            "https://drawsvg.org/drawsvg.html",
             "https://boxy-svg.com/",
             "https://mossaik.app/",
+            "https://editor.svg-gen.com/",
             "https://www.svgviewer.dev/"
           ]
         },
@@ -4986,6 +5048,7 @@
           ],
           "mirrors": [
             "https://www.servers.fyi/",
+            "https://vpspricetracker.com/",
             "https://bitcoin-vps.com/"
           ]
         },
@@ -5254,15 +5317,21 @@
       "title": "動的ページホスティング",
       "resources": [
         {
-          "name": "netlify",
-          "url": "https://www.netlify.com/",
-          "description": "",
+          "name": "Cloudflare Workers",
+          "url": "https://workers.cloudflare.com/",
+          "description": "Unlimited Storage (20MB Each) / Unlimited Bandwidth",
           "starred": true
         },
         {
           "name": "vercel",
           "url": "https://vercel.com/",
-          "description": "",
+          "description": "1GB Storage / 100GB Bandwidth",
+          "starred": true
+        },
+        {
+          "name": "netlify",
+          "url": "https://www.netlify.com/",
+          "description": "10GB Storage / 100GB Bandwidth",
           "starred": true
         },
         {
@@ -5460,12 +5529,6 @@
       "id": "developer-tools-static-page-hosting",
       "title": "静的ページホスティング",
       "resources": [
-        {
-          "name": "Cloudflare Workers",
-          "url": "https://workers.cloudflare.com/",
-          "description": "Unlimited Storage (20MB Each) / Unlimited Bandwidth",
-          "starred": true
-        },
         {
           "name": "Cloudflare Pages",
           "url": "https://pages.cloudflare.com/",
@@ -5668,12 +5731,25 @@
         {
           "name": "CVE Details",
           "url": "https://www.cvedetails.com/",
-          "description": "CVE Details"
+          "description": "CVE Details / Search",
+          "mirrors": [
+            "https://app.opencve.io/cve/"
+          ]
         },
         {
           "name": "AllSafe",
           "url": "https://github.com/t0thkr1s/allsafe",
           "description": "Intentionally Vulnerable Android App"
+        },
+        {
+          "name": "⁠Iocaine",
+          "url": "https://iocaine.madhouse-project.org/",
+          "description": "Anti-Web Crawler Software",
+          "mirrors": [
+            "https://git.madhouse-project.org/iocaine/iocaine",
+            "https://anubis.techaro.lol/",
+            "https://github.com/TecharoHQ/anubis"
+          ]
         }
       ]
     },

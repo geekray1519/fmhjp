@@ -42,6 +42,7 @@
           "url": "https://audionplayer.com/",
           "description": "Streaming / Plugin-Based",
           "tags": [
+            "Discord",
             "GitHub"
           ]
         },
@@ -79,10 +80,9 @@
         {
           "name": "Nuclear",
           "url": "https://nuclearplayer.com/",
-          "description": "Streaming",
+          "description": "Streaming / [GitHub](https: / github.com / NuclearPlayer / nuclear-xrd",
           "tags": [
-            "Discord",
-            "GitHub"
+            "Discord"
           ]
         },
         {
@@ -111,7 +111,7 @@
       "resources": [
         {
           "name": "HiFi Tidal Instances",
-          "url": "https://github.com/SamidyFR/monochrome/blob/main/INSTANCES.md",
+          "url": "https://github.com/monochrome-music/monochrome/blob/main/INSTANCES.md",
           "description": "Tidal Instance List",
           "tags": [
             "index"
@@ -174,12 +174,15 @@
         {
           "name": "Spotify",
           "url": "https://open.spotify.com/",
-          "description": "Web Player / Enhanced UI / Lyrics / Lyrics Script"
+          "description": "Web Player / Lyrics / Lyrics Script"
         },
         {
           "name": "squid.wtf",
           "url": "https://tidal.squid.wtf",
-          "description": "HiFi Tidal Instance"
+          "description": "HiFi Tidal Instance",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "Deezer",
@@ -359,6 +362,11 @@
           "starred": true
         },
         {
+          "name": "Dream of the 90s",
+          "url": "https://www.youtube.com/@Dreamofthe90s/playlists",
+          "description": "Obscure 90s"
+        },
+        {
           "name": "CitizenFreak",
           "url": "https://citizenfreak.com/",
           "description": "Canadian Music"
@@ -369,9 +377,9 @@
           "description": "Indonesian Music"
         },
         {
-          "name": "Dream of the 90s",
-          "url": "https://www.youtube.com/@Dreamofthe90s/playlists",
-          "description": "Obscure 90s"
+          "name": "DigLib",
+          "url": "https://diglib.library.vanderbilt.edu/ama-browse.pl",
+          "description": "East African Recordings"
         },
         {
           "name": "Tasso Music",
@@ -402,11 +410,6 @@
           "name": "Measuring Polyphony",
           "url": "https://measuringpolyphony.org/",
           "description": "Digital Encoding of Late Medieval Music"
-        },
-        {
-          "name": "DigLib",
-          "url": "https://diglib.library.vanderbilt.edu/ama-browse.pl",
-          "description": "East African Recordings"
         }
       ]
     },
@@ -1557,11 +1560,6 @@
           "description": "Search Spotify Record Labels"
         },
         {
-          "name": "ReleaseFeed",
-          "url": "https://releasefeed.elomatreb.eu/",
-          "description": "Create RSS Feeds of Favorite Artists"
-        },
-        {
           "name": "xmplaylist",
           "url": "https://xmplaylist.com/",
           "description": "Listen to SiriusXM Channels on Spotify"
@@ -1698,7 +1696,10 @@
           "name": "squid.wtf",
           "url": "https://squid.wtf/",
           "description": "Amazon Music / KHInsider / Qobuz / Soundcloud / Tidal / FLAC",
-          "starred": true
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "Monochrome",
@@ -1735,7 +1736,7 @@
         {
           "name": "QQDL",
           "url": "https://tidal.qqdl.site/",
-          "description": "Tidal / FLAC / Full List"
+          "description": "Tidal / FLAC"
         },
         {
           "name": "Spotisaver",
@@ -1745,7 +1746,7 @@
         {
           "name": "⁠am-dl",
           "url": "https://am-dl.pages.dev/",
-          "description": "Apple Music / AAC-M4A"
+          "description": "Apple Music / AAC-M4A / ALAC / Atmos"
         },
         {
           "name": "Jumo-DL",
@@ -1825,7 +1826,7 @@
         },
         {
           "name": "Votify",
-          "url": "https://github.com/glomatico/votify",
+          "url": "https://github.com/GladistonXD/votify-fix",
           "description": "Spotify / 160kb Free / 320kb Premium / Requires WVD Keys",
           "tags": [
             "Discord"
@@ -1865,6 +1866,7 @@
           "url": "https://audionplayer.com/",
           "description": "Tidal",
           "tags": [
+            "Discord",
             "GitHub"
           ]
         },
@@ -1912,6 +1914,11 @@
           "url": "https://t.me/MusicsHuntersbot",
           "description": "Spotify / Apple / Tidal / Deezer / 320kb MP3",
           "starred": true
+        },
+        {
+          "name": "AIO Stream Bot",
+          "url": "https://t.me/streamaiobot",
+          "description": "Spotify / Apple / Deezer / Qobuz / Tidal and more"
         },
         {
           "name": "DeezerMusicBot",
@@ -2007,6 +2014,104 @@
           "name": "r/xTrill",
           "url": "https://reddit.com/r/xTrill",
           "description": "Download App / Backup"
+        },
+        {
+          "name": "FLAC Attack",
+          "url": "https://flacattack.net/",
+          "description": "FLAC",
+          "mirrors": [
+            "https://lossless-music.org/"
+          ]
+        },
+        {
+          "name": "⁠T2Tunes",
+          "url": "https://t2tunes.site/",
+          "description": "FLAC"
+        },
+        {
+          "name": "FlacMusic",
+          "url": "https://www.flacmusic.info/",
+          "description": "FLAC"
+        },
+        {
+          "name": "Lossless-FLAC",
+          "url": "https://lossless-flac.com/",
+          "description": "FLAC"
+        },
+        {
+          "name": "DiscogC",
+          "url": "https://www.discogc.com/",
+          "description": "FLAC"
+        },
+        {
+          "name": "LosslessAlbums",
+          "url": "https://losslessalbums.club/",
+          "description": "FLAC"
+        },
+        {
+          "name": "⁠Music and Books",
+          "url": "https://musicsandbooks.org/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "IntMusic",
+          "url": "https://intmusic.net/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "Gangster",
+          "url": "https://gangster.su/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "GetRockMusic",
+          "url": "https://getrockmusic.net/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "Core Radio",
+          "url": "https://coreradio.online/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "AlterPortal",
+          "url": "https://alterportal.net/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "ShareMania",
+          "url": "https://sharemania.us/",
+          "description": "FLAC / MP3 / M4A"
+        },
+        {
+          "name": "Plastinka",
+          "url": "https://plastinka.org/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "Exystence",
+          "url": "https://exystence.net/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "ThemFire",
+          "url": "https://themfire.pro/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "Music Rider",
+          "url": "https://musicrider.org/",
+          "description": "MP3 / FLAC"
+        },
+        {
+          "name": "FindFlac",
+          "url": "https://findflac.com/",
+          "description": "FLAC / MP3 / MP4"
+        },
+        {
+          "name": "iPlusFree",
+          "url": "https://www7.iplusfree.org/",
+          "description": "iTunes M4A"
         },
         {
           "name": "VK::MP3",
@@ -2120,99 +2225,6 @@
           "name": "zvu4no",
           "url": "https://zvu4no.org/",
           "description": "MP3"
-        },
-        {
-          "name": "FLAC Attack",
-          "url": "https://flacattack.net/",
-          "description": "FLAC",
-          "mirrors": [
-            "https://lossless-music.org/"
-          ]
-        },
-        {
-          "name": "FlacMusic",
-          "url": "https://www.flacmusic.info/",
-          "description": "FLAC"
-        },
-        {
-          "name": "Lossless-FLAC",
-          "url": "https://lossless-flac.com/",
-          "description": "FLAC"
-        },
-        {
-          "name": "DiscogC",
-          "url": "https://www.discogc.com/",
-          "description": "FLAC"
-        },
-        {
-          "name": "LosslessAlbums",
-          "url": "https://losslessalbums.club/",
-          "description": "FLAC"
-        },
-        {
-          "name": "⁠Music and Books",
-          "url": "https://musicsandbooks.org/",
-          "description": "MP3 / FLAC"
-        },
-        {
-          "name": "IntMusic",
-          "url": "https://intmusic.net/",
-          "description": "MP3 / FLAC"
-        },
-        {
-          "name": "Gangster",
-          "url": "https://gangster.su/",
-          "description": "MP3 / FLAC"
-        },
-        {
-          "name": "GetRockMusic",
-          "url": "https://getrockmusic.net/",
-          "description": "MP3 / FLAC"
-        },
-        {
-          "name": "Core Radio",
-          "url": "https://coreradio.online/",
-          "description": "MP3 / FLAC"
-        },
-        {
-          "name": "AlterPortal",
-          "url": "https://alterportal.net/",
-          "description": "MP3 / FLAC"
-        },
-        {
-          "name": "ShareMania",
-          "url": "https://sharemania.us/",
-          "description": "FLAC / MP3 / M4A"
-        },
-        {
-          "name": "Plastinka",
-          "url": "https://plastinka.org/",
-          "description": "MP3 / FLAC"
-        },
-        {
-          "name": "Exystence",
-          "url": "https://exystence.net/",
-          "description": "MP3 / FLAC"
-        },
-        {
-          "name": "ThemFire",
-          "url": "https://themfire.pro/",
-          "description": "MP3 / FLAC"
-        },
-        {
-          "name": "Music Rider",
-          "url": "https://musicrider.org/",
-          "description": "MP3 / FLAC"
-        },
-        {
-          "name": "FindFlac",
-          "url": "https://findflac.com/",
-          "description": "FLAC / MP3 / MP4"
-        },
-        {
-          "name": "iPlusFree",
-          "url": "https://www7.iplusfree.org/",
-          "description": "iTunes M4A"
         },
         {
           "name": "xprm",
@@ -2735,8 +2747,11 @@
         {
           "name": "Squidify",
           "url": "https://www.squidify.org",
-          "description": "Game / Anime Soundtracks / Resources",
+          "description": "Game / Anime Soundtracks",
           "starred": true,
+          "tags": [
+            "Discord"
+          ],
           "mirrors": [
             "https://www.squidify.net/"
           ]
@@ -2962,6 +2977,8 @@
           "description": "Get Album Release Updates",
           "starred": true,
           "mirrors": [
+            "https://midloop.net/",
+            "https://discord.gg/AvUxR59Yv5",
             "https://drop-watch.ghost.io/",
             "https://www.musicbutler.io/",
             "https://www.brew.fm/"
@@ -3165,6 +3182,14 @@
           "description": "Ratings / Reviews"
         },
         {
+          "name": "⁠Pitchfork",
+          "url": "https://pitchfork.com/",
+          "description": "Reviews",
+          "mirrors": [
+            "https://the-fork.vercel.app/"
+          ]
+        },
+        {
           "name": "Charts and Culture",
           "url": "https://pastebin.com/uRDJVGkL",
           "description": "Music Recommendation Directory"
@@ -3200,6 +3225,9 @@
           "description": "Music Comps & Edits",
           "tags": [
             "Discord"
+          ],
+          "mirrors": [
+            "https://rentry.co/CET"
           ]
         }
       ]
@@ -3253,6 +3281,11 @@
             "https://charts.spotify.com/home",
             "https://www.superfridaychart.com/"
           ]
+        },
+        {
+          "name": "⁠BestSellingAlbums",
+          "url": "https://bestsellingalbums.org/",
+          "description": "Album Chart Database"
         },
         {
           "name": "BoilTheFrog",
@@ -3579,6 +3612,7 @@
           "url": "https://audionplayer.com/",
           "description": "Feature-Rich",
           "tags": [
+            "Discord",
             "GitHub"
           ]
         },
@@ -3620,7 +3654,10 @@
         {
           "name": "Museeks",
           "url": "https://museeks.io/",
-          "description": ""
+          "description": "",
+          "mirrors": [
+            "https://github.com/martpie/museeks"
+          ]
         },
         {
           "name": "Audacious",
@@ -3948,6 +3985,11 @@
         {
           "name": "Chrome",
           "url": "https://chromewebstore.google.com/detail/shazam-find-song-names-fr/mmioliijnhnoblpgimnlajmefafdfilb",
+          "description": "Android, iOS, Web / (search) /,"
+        },
+        {
+          "name": "2",
+          "url": "https://chromewebstore.google.com/detail/librezam/kolhjbddamlepljhchmgmlabaanmpegk",
           "description": "Android, iOS, Web / (search) /,"
         },
         {
@@ -4820,7 +4862,7 @@
         {
           "name": "Kits4Beats",
           "url": "https://kits4beats.com/",
-          "description": "Download / Torrent",
+          "description": "Sound Effects",
           "starred": true,
           "tags": [
             "Telegram"
@@ -4829,18 +4871,59 @@
         {
           "name": "PLUGG SUPPLY",
           "url": "https://t.me/pluggsupply",
-          "description": "Telegram / VK",
+          "description": "Sound Effects / Telegram / VK",
           "starred": true
         },
         {
           "name": "OrangeFreeSounds",
           "url": "https://orangefreesounds.com/",
-          "description": "Free-to-Use",
-          "starred": true,
+          "description": "Sound Effects",
+          "starred": true
+        },
+        {
+          "name": "FreeSoundsLibrary",
+          "url": "https://www.freesoundslibrary.com/",
+          "description": "Sound Effects"
+        },
+        {
+          "name": "BandLab Samples",
+          "url": "https://www.bandlab.com/sounds/free-samples",
+          "description": "Sound Effects"
+        },
+        {
+          "name": "SoundGator",
+          "url": "https://www.soundgator.com/",
+          "description": "Sound Effects"
+        },
+        {
+          "name": "GDC",
+          "url": "https://sonniss.com/gameaudiogdc",
+          "description": "Sound Effects"
+        },
+        {
+          "name": "⁠BigSoundBank",
+          "url": "https://bigsoundbank.com/",
+          "description": "Sound Effects"
+        },
+        {
+          "name": "Citizen DJ",
+          "url": "https://citizen-dj.labs.loc.gov/",
+          "description": "Sound Effects"
+        },
+        {
+          "name": "Free Adobe SFX",
+          "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
+          "description": "Sound Effects"
+        },
+        {
+          "name": "r/LoopKits",
+          "url": "https://www.reddit.com/r/loopkits/",
+          "description": "User-Submitted Sound Effects",
           "mirrors": [
-            "https://www.freesoundslibrary.com/",
-            "https://www.bandlab.com/sounds/free-samples",
-            "https://www.soundgator.com/"
+            "https://freesound.org/",
+            "https://www.voicy.network/",
+            "https://www.looperman.com/loops",
+            "https://sampleswap.org/"
           ]
         },
         {
@@ -4880,38 +4963,12 @@
           ]
         },
         {
-          "name": "r/LoopKits",
-          "url": "https://www.reddit.com/r/loopkits/",
-          "description": "User-Submitted",
-          "mirrors": [
-            "https://freesound.org/",
-            "https://www.voicy.network/",
-            "https://www.looperman.com/loops",
-            "https://sampleswap.org/"
-          ]
-        },
-        {
-          "name": "Free Adobe SFX",
-          "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
-          "description": ""
-        },
-        {
           "name": "BBC Sound Effects",
           "url": "https://sound-effects.bbcrewind.co.uk/",
           "description": "",
           "mirrors": [
             "https://github.com/get-iplayer/get_iplayer"
           ]
-        },
-        {
-          "name": "GDC",
-          "url": "https://sonniss.com/gameaudiogdc",
-          "description": "Royalty Free Sound Effects Archive"
-        },
-        {
-          "name": "Citizen DJ",
-          "url": "https://citizen-dj.labs.loc.gov/",
-          "description": "Free-to-Use Sounds from the Library of Congress"
         },
         {
           "name": "SNES Soundfonts",

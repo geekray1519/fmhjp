@@ -192,7 +192,8 @@
             "https://t.me/joinchat/AAAAAFVMhwX7IzS5hMc8OQ"
           ]
         }
-      ]
+      ],
+      "note": "ご注意ください some modded APK サイトs will list apps with fake names which are generally not worth using."
     },
     {
       "id": "mobile-telegram-channels",
@@ -925,7 +926,7 @@
         {
           "name": "Dumpus",
           "url": "https://github.com/dumpus-app/dumpus-app",
-          "description": "View Discord Data / Self host for Privacy",
+          "description": "View Discord Data / Self-Host for Privacy",
           "tags": [
             "Discord"
           ]
@@ -1005,7 +1006,7 @@
           "description": "Snapchat Clients",
           "mirrors": [
             "https://github.com/particle-box/PurrfectSnap",
-            "https://github.com/bocajthomas/SE-Extended",
+            "https://git.seextended.org/bocajthomas/SE-Extended",
             "https://t.me/SE_Extended_CI"
           ]
         }
@@ -1398,6 +1399,11 @@
           "description": "Wallpapers"
         },
         {
+          "name": "r/Amoledbackgrounds",
+          "url": "https://www.reddit.com/r/Amoledbackgrounds/",
+          "description": "Amoled Wallpapers ⁠"
+        },
+        {
           "name": "Diffuse",
           "url": "https://diffuse.app/",
           "description": "Live Audio Wallpapers"
@@ -1411,6 +1417,11 @@
             "https://arcticons.com/",
             "https://f-droid.org/packages/com.kaanelloed.iconeration/"
           ]
+        },
+        {
+          "name": "Phonetones",
+          "url": "https://rentry.co/FMHYB64#phonetones",
+          "description": "Ringtones"
         }
       ]
     },
@@ -1627,10 +1638,7 @@
         {
           "name": "BCR",
           "url": "https://github.com/chenxiaolong/BCR",
-          "description": "Call Recorders",
-          "mirrors": [
-            "https://github.com/nicorac/bcr-gui"
-          ]
+          "description": "Call Recorder / GUI"
         },
         {
           "name": "Logger",
@@ -1660,7 +1668,8 @@
           "url": "https://github.com/tmo1/sms-ie",
           "description": "Import / Export SMS Messages"
         }
-      ]
+      ],
+      "note": "注意： alternative SMS apps don't support RCS."
     },
     {
       "id": "mobile-root-flash",
@@ -1772,7 +1781,7 @@
       "title": "オペレーティングシステム",
       "resources": [
         {
-          "name": "Android ROM Comparisons",
+          "name": "Android Privacy ROM Comparisons",
           "url": "https://eylenburg.github.io/android_comparison.htm",
           "description": "",
           "tags": [
@@ -2101,10 +2110,17 @@
           "name": "Unified Remote",
           "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
           "description": "Control PC with App",
-          "starred": true,
-          "mirrors": [
-            "https://www.unifiedremote.com/"
-          ]
+          "starred": true
+        },
+        {
+          "name": "2",
+          "url": "https://www.unifiedremote.com/",
+          "description": "Control PC with App"
+        },
+        {
+          "name": "KDE Connect",
+          "url": "https://kdeconnect.kde.org/",
+          "description": "Control PC with App"
         },
         {
           "name": "Tooly",
@@ -2117,17 +2133,37 @@
         {
           "name": "LightCut",
           "url": "https://play.google.com/store/apps/details?id=com.lightcut.videoeditor",
-          "description": "Video Editors",
-          "mirrors": [
-            "https://play.google.com/store/apps/details?id=com.losslessvideocutter",
-            "https://github.com/devhyper/open-video-editor",
-            "https://play.google.com/store/apps/details?id=com.vaux.vaux_editor"
-          ]
+          "description": "Video Editors"
+        },
+        {
+          "name": "⁠Lossless Video Cutter",
+          "url": "https://play.google.com/store/apps/details?id=com.losslessvideocutter",
+          "description": "Video Editors"
+        },
+        {
+          "name": "open-video-editor",
+          "url": "https://github.com/devhyper/open-video-editor",
+          "description": "Video Editors"
+        },
+        {
+          "name": "InShot",
+          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
+          "description": "Video Editors"
+        },
+        {
+          "name": "Vaux",
+          "url": "https://play.google.com/store/apps/details?id=com.vaux.vaux_editor",
+          "description": "Video Editors"
         },
         {
           "name": "Inverse AI",
           "url": "https://play.google.com/store/apps/details?id=com.inverseai.video_converter",
           "description": "Video Converter / Compressor"
+        },
+        {
+          "name": "⁠Compressor",
+          "url": "https://github.com/JoshAtticus/Compressor",
+          "description": "Video Compressor"
         },
         {
           "name": "auto-auto-rotate",
@@ -2272,6 +2308,11 @@
           "description": "Use Device as PC Virtual Pen"
         },
         {
+          "name": "Google Slides",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.slides",
+          "description": "Make Presentations"
+        },
+        {
           "name": "Listy",
           "url": "https://listy.is/",
           "description": "Create Lists of Anything",
@@ -2378,7 +2419,20 @@
           "name": "AdGuard Premium",
           "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
           "description": "Adblocking App",
-          "starred": true
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Adguard",
+          "url": "https://adguard.com/en/adguard-android/overview.html",
+          "description": "Adblocking App",
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
         },
         {
           "name": "uBlock Origin",
@@ -2495,11 +2549,6 @@
           "description": "App Permission Manager"
         },
         {
-          "name": "⁠AppLock",
-          "url": "https://github.com/PranavPurwar/AppLock",
-          "description": "App Locker / Works without Root / Note"
-        },
-        {
           "name": "Orbot",
           "url": "https://orbot.app/en/",
           "description": "Tor Proxy Apps",
@@ -2510,7 +2559,7 @@
         {
           "name": "Privacy Guides",
           "url": "https://www.privacyguides.org/en/android/",
-          "description": "Educational Guide / Discuss.onion / Matrix",
+          "description": "Educational Guide / Discuss /.onion / Matrix",
           "tags": [
             "GitHub"
           ],
@@ -2601,7 +2650,7 @@
             "https://twitter.com/bitwarden",
             "https://reddit.com/r/bitwarden",
             "https://github.com/bitwarden",
-            "https://proton.me/pass",
+            "https://proton.me/pass/download/android",
             "https://authpass.app/",
             "https://github.com/yogeshpaliyal/KeyPass",
             "https://play.google.com/store/apps/details?id=keepass2android.keepass2android",
@@ -2615,7 +2664,7 @@
           "starred": true,
           "mirrors": [
             "https://github.com/thunderbird/thunderbird-android",
-            "https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#thunderbird",
+            "https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/thunderbird.md",
             "https://f-droid.org/packages/de.monocles.mail/",
             "https://email.faircode.eu/"
           ]
@@ -3160,7 +3209,10 @@
         {
           "name": "Markor",
           "url": "https://fossdroid.com/a/markor.html",
-          "description": "Text Editor with Markdown Support"
+          "description": "Text Editors",
+          "mirrors": [
+            "https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.docs"
+          ]
         },
         {
           "name": "neutriNote",
@@ -3264,8 +3316,13 @@
           "description": "Document Scanners"
         },
         {
+          "name": "Google Sheets",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.sheets",
+          "description": "Document Editor / Reader"
+        },
+        {
           "name": "LibreOffice Viewer",
-          "url": "https://f-droid.org/packages/org.documentfoundation.libreoffice/",
+          "url": "https://www.libreoffice.org/download/android-and-ios/",
           "description": "Document Reader"
         },
         {
@@ -3376,6 +3433,14 @@
             "https://github.com/binwiederhier/ntfy",
             "https://github.com/caronc/apprise",
             "https://pingme.lmno.pk/"
+          ]
+        },
+        {
+          "name": "DoNotNotify",
+          "url": "https://donotnotify.com/",
+          "description": "Notification Blocker / Manager",
+          "tags": [
+            "GitHub"
           ]
         },
         {
@@ -3546,8 +3611,8 @@
           "description": "App Blocker"
         },
         {
-          "name": "ScreenZen",
-          "url": "https://play.google.com/store/apps/details?id=com.screenzen",
+          "name": "⁠ScreenZen",
+          "url": "https://screenzen.co/",
           "description": "Website / App Blocker"
         },
         {
@@ -3740,6 +3805,11 @@
           "name": "omWeather",
           "url": "https://github.com/woheller69/omweather",
           "description": ""
+        },
+        {
+          "name": "⁠Flowx",
+          "url": "https://flowx.io/",
+          "description": "Weather Visualization / Map"
         },
         {
           "name": "Suntimes",
@@ -4739,11 +4809,6 @@
           "description": "Radio App"
         },
         {
-          "name": "DI.FM",
-          "url": "https://play.google.com/store/apps/details?id=com.audioaddict.di",
-          "description": "Electronic Radio"
-        },
-        {
           "name": "Nightwave Plaza",
           "url": "https://play.google.com/store/apps/details?id=one.plaza.nightwaveplaza",
           "description": "Nightwave Radio"
@@ -4887,11 +4952,6 @@
           ]
         },
         {
-          "name": "Cinema HD",
-          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
-          "description": "Movies / TV"
-        },
-        {
           "name": "Movie HD",
           "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
           "description": "Movies / TV / Requires AMPlayer"
@@ -4937,6 +4997,14 @@
           "description": "Movies / TV"
         },
         {
+          "name": "⁠Uriel",
+          "url": "https://uriel-app.vercel.app/",
+          "description": "Movies / TV / Anime",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
           "name": "Flixoid",
           "url": "https://rentry.co/FMHYB64#flixoid",
           "description": "Movies / TV"
@@ -4975,6 +5043,11 @@
           "name": "Amnis",
           "url": "https://play.google.com/store/apps/details?id=com.amnis",
           "description": "Stream Videos from Torrents"
+        },
+        {
+          "name": "PiliPlus",
+          "url": "https://github.com/bggRGjQaUbCoE/PiliPlus",
+          "description": "Improved Bilibili Client"
         },
         {
           "name": "MovieDB",
@@ -5175,7 +5248,7 @@
         {
           "name": "Hayase",
           "url": "https://hayase.watch/",
-          "description": "Torrent Streaming App / Extensions"
+          "description": "Torrent Streaming App / Extensions / Wiki"
         }
       ]
     },
@@ -5183,15 +5256,6 @@
       "id": "mobile-android-live-tv",
       "title": "AndroidライブTV",
       "resources": [
-        {
-          "name": "TiviMate",
-          "url": "https://play.google.com/store/apps/details?id=ar.tvplayer.tv",
-          "description": "IPTV Player",
-          "starred": true,
-          "mirrors": [
-            "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks"
-          ]
-        },
         {
           "name": "Perfect IPTV Player",
           "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
@@ -5238,11 +5302,6 @@
           "description": "Sports"
         },
         {
-          "name": "CRICFy",
-          "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks",
-          "description": "Sports"
-        },
-        {
           "name": "FreeTV",
           "url": "https://github.com/phstudio2/FreeTV",
           "description": "Live TV App",
@@ -5284,7 +5343,7 @@
         {
           "name": "LibreTube",
           "url": "https://libretube.dev/",
-          "description": "Ad-Free YouTube",
+          "description": "Ad-Free YouTube / SponsorBlock / ReturnYTDislikes",
           "starred": true
         },
         {
@@ -5371,6 +5430,18 @@
           "description": "YouTube Player"
         },
         {
+          "name": "iOS Emulators",
+          "url": "https://emulation.gametechwiki.com/index.php/IOS_emulators",
+          "description": "List of iOS Emulators",
+          "tags": [
+            "index"
+          ],
+          "mirrors": [
+            "https://www.reddit.com/r/EmulationOniOS/",
+            "https://discord.gg/VSpc2KwBDr"
+          ]
+        },
+        {
           "name": "Bitwarden",
           "url": "https://bitwarden.com/download/apple-iphone-password-manager/",
           "description": "Password Managers",
@@ -5380,6 +5451,7 @@
             "https://reddit.com/r/bitwarden",
             "https://github.com/bitwarden",
             "https://keepassium.com/",
+            "https://proton.me/pass/download/ios",
             "https://authpass.app/",
             "https://strongboxsafe.com/"
           ]
@@ -5464,7 +5536,7 @@
         {
           "name": "Blip",
           "url": "https://apps.apple.com/in/app/blip-send-files-in-a-click/id6463305181",
-          "description": "File Transfer"
+          "description": "File Transfer / Turn \"Searchable by Name\" Off in Settings"
         },
         {
           "name": "fGet",
@@ -5497,8 +5569,14 @@
           "mirrors": [
             "https://strflow.app/",
             "https://apps.apple.com/app/id6464237904",
+            "https://apps.apple.com/us/app/google-docs/id842842640",
             "https://bear.app/"
           ]
+        },
+        {
+          "name": "Google Sheets",
+          "url": "https://apps.apple.com/us/app/google-sheets/id842849113",
+          "description": "Document Editor / Reader"
         },
         {
           "name": "Noteful",
@@ -5600,7 +5678,10 @@
         {
           "name": "Keynote",
           "url": "https://apps.apple.com/app/id361285480",
-          "description": "Make Presentations"
+          "description": "Make Presentations",
+          "mirrors": [
+            "https://apps.apple.com/us/app/google-slides/id879478102"
+          ]
         },
         {
           "name": "WiFi Map",
@@ -5726,11 +5807,6 @@
           ]
         },
         {
-          "name": "Microsoft Lens",
-          "url": "https://apps.apple.com/app/id975925059",
-          "description": "Scan & Digitize Documents"
-        },
-        {
           "name": "Sim Daltoinism",
           "url": "https://michelf.ca/projects/sim-daltonism/",
           "description": "Color Blindness Simulator"
@@ -5756,6 +5832,11 @@
             "https://github.com/FriesI23/mhabit",
             "https://apps.apple.com/app/id1593891243"
           ]
+        },
+        {
+          "name": "⁠ScreenZen",
+          "url": "https://screenzen.co/",
+          "description": "Website / App Blocker"
         },
         {
           "name": "⁠Apple Config Guide",
@@ -6098,8 +6179,7 @@
           "description": "Sideloading Guides",
           "starred": true,
           "mirrors": [
-            "https://ios.cfw.guide/sideloading-apps/",
-            "https://avieshek.wordpress.com/2024/06/11/how-to-sideload-on-ios/"
+            "https://ios.cfw.guide/sideloading-apps/"
           ]
         },
         {
@@ -6142,14 +6222,17 @@
           "description": "Non-Jailbreak Sideloading"
         },
         {
+          "name": "⁠iloader",
+          "url": "https://iloader.app/",
+          "description": "Non-Jailbreak Sideloading",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
           "name": "LiveContainer",
           "url": "https://github.com/khanhduytran0/LiveContainer",
           "description": "Run Apps Without Installing / Bypass Sidestore limits"
-        },
-        {
-          "name": "IPA iBot",
-          "url": "https://t.me/ipa_ibot",
-          "description": "Apple Dev Certificate Manager Bot"
         },
         {
           "name": "⁠BlacklistBeGone",
@@ -6181,7 +6264,11 @@
           "name": "AdGuard",
           "url": "https://adguard.com/en/adguard-ios/overview.html",
           "description": "Adblocker / Guide / Pro (requires patch)",
-          "starred": true
+          "starred": true,
+          "tags": [
+            "Subreddit",
+            "GitHub"
+          ]
         },
         {
           "name": "Brave",
@@ -6211,6 +6298,14 @@
           "name": "Stay",
           "url": "https://apps.apple.com/app/stay-for-safari/id1591620171",
           "description": "Safari Adblocker / Userscript Manager"
+        },
+        {
+          "name": "wBlock",
+          "url": "https://apps.apple.com/app/wblock/id6746388723",
+          "description": "Safari Adblocker",
+          "tags": [
+            "GitHub"
+          ]
         },
         {
           "name": "iSponsorBlock",
@@ -6532,10 +6627,6 @@
           "description": "X.com Apps",
           "starred": true,
           "mirrors": [
-            "https://github.com/crimera/twitter-apk",
-            "https://github.com/lluni/twitter-apk",
-            "https://t.me/pikopatches",
-            "https://github.com/crimera/piko",
             "https://github.com/NeoFreeBird/app"
           ]
         },
@@ -6594,6 +6685,11 @@
             "https://www.skeetsapp.com/",
             "https://apps.apple.com/app/bluesky-social/id6444370199"
           ]
+        },
+        {
+          "name": "⁠Bluesky Tracker",
+          "url": "https://blueskytracker.app/",
+          "description": "Bluesky Network Manager / Insights"
         },
         {
           "name": "Chan",
@@ -6791,11 +6887,6 @@
           "name": "Radio Garden",
           "url": "https://apps.apple.com/app/radio-garden-live/id1339670993",
           "description": "Radio App"
-        },
-        {
-          "name": "DI.FM",
-          "url": "https://apps.apple.com/app/id375242617",
-          "description": "Electronic Radio"
         }
       ]
     },
@@ -6892,6 +6983,14 @@
           "description": "Movies / TV"
         },
         {
+          "name": "⁠Uriel",
+          "url": "https://uriel-app.vercel.app/",
+          "description": "Movies / TV / Anime",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
           "name": "⁠Mojuru",
           "url": "https://www.mojuru.app/",
           "description": "Movies / TV / Anime / Extension-Based / Modules",
@@ -6932,7 +7031,7 @@
         },
         {
           "name": "Tunity",
-          "url": "https://tunity.com/",
+          "url": "https://tunity.tempurl.host/",
           "description": "Hear Any Muted TV / US Only"
         }
       ]

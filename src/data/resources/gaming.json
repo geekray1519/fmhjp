@@ -171,14 +171,6 @@
           ]
         },
         {
-          "name": "⁠GoMorGames",
-          "url": "https://gomorgames.com/",
-          "description": "Download",
-          "tags": [
-            "Discord"
-          ]
-        },
-        {
           "name": "appnetica",
           "url": "https://appnetica.com/",
           "description": "Torrent / Pre-Installed / Use Translator",
@@ -284,11 +276,6 @@
             "https://trendingnow.games/free",
             "https://acid-play.com/"
           ]
-        },
-        {
-          "name": "Anti Denuvo Sanctuary",
-          "url": "https://rentry.co/FMHYB64#ads",
-          "description": "Denuvo Games / Works Offline"
         },
         {
           "name": "ROM Heaven CSF",
@@ -447,11 +434,13 @@
           ]
         },
         {
-          "name": "Alpha Beta Gamer",
-          "url": "https://alphabetagamer.com/",
+          "name": "Playtester",
+          "url": "https://playtester.io/",
           "description": "Play Games in Alpha / Beta Testing",
-          "tags": [
-            "Discord"
+          "mirrors": [
+            "https://discord.gg/A5yzKNP7FE",
+            "https://alphabetagamer.com/",
+            "https://discord.gg/3Gtqp9BDeY"
           ]
         },
         {
@@ -856,7 +845,7 @@
         },
         {
           "name": "TheGamingEmporium",
-          "url": "https://www.thegamingemporium.com/",
+          "url": "https://thegamingemporium.com/categories/decompilations-recompilations/",
           "description": "Game Ports, Decompilations, etc",
           "tags": [
             "index"
@@ -1069,7 +1058,8 @@
             "https://github.com/luanti-org",
             "https://www.classicube.net/",
             "https://discord.com/invite/DvYYyRw",
-            "https://github.com/UnknownShadow200/ClassiCube"
+            "https://github.com/UnknownShadow200/ClassiCube",
+            "https://cubyz.net/"
           ]
         },
         {
@@ -1100,6 +1090,21 @@
           "description": "Silent Hill 2 Mod Project"
         },
         {
+          "name": "OpenTTD",
+          "url": "https://www.openttd.org/",
+          "description": "Open-Source Transport Tycoon",
+          "tags": [
+            "Subreddit",
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠CorsixTH",
+          "url": "https://corsixth.com/",
+          "description": "Theme Hospital Re-Implementation"
+        },
+        {
           "name": "⁠DevilutionX",
           "url": "https://devilutionx.com/",
           "description": "Open-Source Modified Diablo 1",
@@ -1115,7 +1120,7 @@
         {
           "name": "Sonic 3 A.I.R.",
           "url": "https://sonic3air.org/",
-          "description": "Sonic 3 & Knuckles Enhanced / Mods",
+          "description": "Sonic 3 & Knuckles Enhanced / Mods (Official), Alt",
           "tags": [
             "Discord",
             "GitHub"
@@ -1170,16 +1175,6 @@
           "url": "https://www.freeciv.org/",
           "description": "Civilization Remake",
           "tags": [
-            "GitHub"
-          ]
-        },
-        {
-          "name": "OpenTTD",
-          "url": "https://www.openttd.org/",
-          "description": "Transport Tycoon Remake",
-          "tags": [
-            "Subreddit",
-            "Discord",
             "GitHub"
           ]
         },
@@ -1322,6 +1317,28 @@
       "title": "リバイバルプロジェクト",
       "resources": [
         {
+          "name": "Falcon BMS",
+          "url": "https://www.falcon-bms.com/",
+          "description": "Falcon 4.0 Modernization Project / Wiki / Forum / YouTube",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "FlightGear",
+          "url": "https://www.flightgear.org/",
+          "description": "Open-Source Flight Simulator / X / GitLab"
+        },
+        {
+          "name": "Sonic Runners Revival",
+          "url": "https://sonicrunners.com/",
+          "description": "⁠Sonic Runners Revival",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
           "name": "Age of the Ring",
           "url": "https://www.moddb.com/mods/the-horse-lords-a-total-modification-for-bfme",
           "description": "LOTR: The Battle for Middle-Earth II Revival Mod",
@@ -1338,31 +1355,9 @@
           ]
         },
         {
-          "name": "Falcon BMS",
-          "url": "https://www.falcon-bms.com/",
-          "description": "Falcon 4.0 Modernization Project / Forum",
-          "tags": [
-            "Subreddit",
-            "Discord"
-          ]
-        },
-        {
-          "name": "FlightGear",
-          "url": "https://www.flightgear.org/",
-          "description": "Open-Source Flight Simulator / GitLab"
-        },
-        {
           "name": "OpenNox",
           "url": "https://github.com/opennox/opennox",
           "description": "Nox Revival Project",
-          "tags": [
-            "Discord"
-          ]
-        },
-        {
-          "name": "Sonic Runners Revival",
-          "url": "https://sonicrunners.com/",
-          "description": "⁠Sonic Runners Revival",
           "tags": [
             "Discord"
           ]
@@ -1621,11 +1616,6 @@
           "description": "ROM Downloader / Manager"
         },
         {
-          "name": "⁠MyriFetch",
-          "url": "https://github.com/CrabbieMike/MyriFetch",
-          "description": "ROM Downloader"
-        },
-        {
           "name": "⁠Romm",
           "url": "https://romm.app/",
           "description": "Self-Hosted ROM Manager",
@@ -1695,7 +1685,7 @@
         {
           "name": "r/ROMs Mega",
           "url": "https://r-roms.github.io/",
-          "description": "ROMs / Pastebins",
+          "description": "ROMs",
           "tags": [
             "index"
           ]
@@ -1703,7 +1693,7 @@
         {
           "name": "Myrient",
           "url": "https://rentry.co/FMHYB64#myrient",
-          "description": "ROMs / Downloader",
+          "description": "ROMs",
           "starred": true,
           "tags": [
             "Telegram",
@@ -1973,6 +1963,7 @@
             "https://discord.com/invite/e7xffWFf9p",
             "https://pleasuredome.github.io/pleasuredome/mame/",
             "https://mameworld.info/",
+            "https://mdk.cab/",
             "http://adb.arcadeitalia.net/default.php?lang=en"
           ]
         },
@@ -2096,6 +2087,14 @@
           "name": "SwitchROMS",
           "url": "https://switchroms.io/",
           "description": "ROMs / Switch"
+        },
+        {
+          "name": "SwitchGamesMall",
+          "url": "https://switchgamesmall.icu/",
+          "description": "ROMs / Switch",
+          "mirrors": [
+            "https://smallgames.ch/"
+          ]
         },
         {
           "name": "RetroNDS",
@@ -2909,6 +2908,11 @@
           "description": "Daily Word + Puzzle Games"
         },
         {
+          "name": "⁠Wordsmyth",
+          "url": "https://www.playwordsmyth.com/",
+          "description": "Daily Word Transformation Game"
+        },
+        {
           "name": "Make a Word Search",
           "url": "http://www.makeawordsearch.net/",
           "description": "Word Search Creators",
@@ -2944,6 +2948,11 @@
         {
           "name": "Squaredle",
           "url": "https://squaredle.app/",
+          "description": "Daily Word Puzzle"
+        },
+        {
+          "name": "⁠Glyph",
+          "url": "https://glyph.today/",
           "description": "Daily Word Puzzle"
         },
         {
@@ -3126,6 +3135,7 @@
           "url": "https://www.mahjongfun.com/",
           "description": "Mahjong Games",
           "mirrors": [
+            "https://voxjong.com/",
             "https://mahjong4friends.com/",
             "https://classic-mahjong.com/",
             "https://themahjong.com/"
@@ -3275,6 +3285,11 @@
           "name": "Kung Fu Chess",
           "url": "https://www.kfchess.com/",
           "description": "Real-Time Chess Without Turns"
+        },
+        {
+          "name": "⁠Blindfold Chess",
+          "url": "https://www.blindfold-chess.online/",
+          "description": "Play Blindfold Chess Against Stockfish"
         },
         {
           "name": "Pokemon Chess",
@@ -4158,6 +4173,7 @@
             "https://sketchful.io/",
             "https://reddit.com/r/Sketchful",
             "https://discord.gg/MEvtMCv",
+            "https://drawwars.io/",
             "https://www.drawize.com/",
             "https://gartic.io/"
           ]
@@ -4754,6 +4770,14 @@
           "description": "Survival Browser Game"
         },
         {
+          "name": "⁠Noxious",
+          "url": "https://noxious.gg/",
+          "description": "Multiplayer Sandbox / MMORPG",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
           "name": "Kingdom of Loathing",
           "url": "https://www.kingdomofloathing.com/",
           "description": "Comedy RPG"
@@ -4801,11 +4825,15 @@
         {
           "name": "Hordes.io",
           "url": "https://hordes.io/",
-          "description": "Browser MMORPGs",
-          "mirrors": [
-            "https://discord.com/invite/hordes",
-            "https://aberoth.com/"
+          "description": "Browser MMORPG",
+          "tags": [
+            "Discord"
           ]
+        },
+        {
+          "name": "Aberoth",
+          "url": "https://aberoth.com/",
+          "description": "Browser MMORPG"
         },
         {
           "name": "RPGMaker Game Archive",
@@ -5135,6 +5163,16 @@
           "description": "Music / Song Guessing Games"
         },
         {
+          "name": "⁠Whatsamusic",
+          "url": "https://whatsamook.games/mu",
+          "description": "Music / Song Guessing Games"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/NM7x5R6",
+          "description": "Music / Song Guessing Games"
+        },
+        {
           "name": "Bandle",
           "url": "https://bandle.app/",
           "description": "Music / Song Guessing Games"
@@ -5204,6 +5242,11 @@
           "name": "ChessGuessr",
           "url": "https://www.chessguessr.com/",
           "description": "Chess Style Guessing Game"
+        },
+        {
+          "name": "⁠Dialed",
+          "url": "https://dialed.gg/",
+          "description": "Color Memory Game"
         },
         {
           "name": "Huedle",

@@ -36,7 +36,7 @@
           "description": "Fix Arabic Language on Reddit"
         }
       ],
-      "note": "Use this section for media (movies, music, books). For installing software, games, or APKs, use the English sections unless the source is highly trusted (e.g., m0nkrus)."
+      "note": "Use this section for media (movies, music, books). For installing software, games, or APKs, use the English sections unless the source is highly trusted (e.g., m0nkrus). Try a VPN if サイトs are blocked."
     },
     {
       "id": "non-english-downloading",
@@ -312,6 +312,11 @@
         {
           "name": "KenManga",
           "url": "https://ar.kenmanga.com/",
+          "description": "Manga"
+        },
+        {
+          "name": "⁠Eshadow",
+          "url": "https://www.eshadow.net/",
           "description": "Manga"
         },
         {
@@ -1029,6 +1034,7 @@
           "mirrors": [
             "https://www.bilibili.tv/",
             "https://xfangfang.github.io/wiliwili/",
+            "https://greasyfork.org/en/scripts/467511",
             "https://greasyfork.org/en/scripts/467474",
             "https://github.com/hanydd/BilibiliSponsorBlock",
             "https://github.com/the1812/Bilibili-Evolved"
@@ -1586,6 +1592,19 @@
           "mirrors": [
             "https://posilej.cz/"
           ]
+        },
+        {
+          "name": "FuckCards",
+          "url": "https://fuckcards.store/",
+          "description": "Public Czech Club Cards / Android App",
+          "mirrors": [
+            "https://nocard.cz/"
+          ]
+        },
+        {
+          "name": "spojenka",
+          "url": "https://spojenka.cz/",
+          "description": "Public Czech Transport App"
         }
       ]
     },
@@ -1682,7 +1701,10 @@
         {
           "name": "Dupe",
           "url": "https://dupe.cz/",
-          "description": "Movies / TV / Anime / Concerts / 1080p / Geoblocked"
+          "description": "Movies / TV / Anime / Concerts / 1080p / Geoblocked",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "svetserialu",
@@ -2015,11 +2037,6 @@
           "description": "Video / Audio / ROMs / Books"
         },
         {
-          "name": "Cpasbien",
-          "url": "https://www1.cpasbien.to/",
-          "description": "Video / Audio / ROMs / Books"
-        },
-        {
           "name": "Sharewood",
           "url": "https://www.sharewood.tv/",
           "description": "Video / Audio / ROMs / Books / Requires Sign-Up"
@@ -2097,7 +2114,7 @@
         {
           "name": "TF1",
           "url": "https://www.tf1.fr/",
-          "description": "Movies / TV / Anime / Live TV / Requires French VPN for Some Content"
+          "description": "Live TV / Movies / TV / Anime / Requires French VPN for Some Content"
         },
         {
           "name": "cinestream",
@@ -2326,15 +2343,6 @@
           "name": "ORAEDES",
           "url": "https://oraedes.fr/",
           "description": "Occult / Esoteric"
-        },
-        {
-          "name": "Tarnkappe",
-          "url": "https://tarnkappe.info/forum/",
-          "description": "Piracy Discussion",
-          "starred": true,
-          "tags": [
-            "Telegram"
-          ]
         },
         {
           "name": "RR.Topliste",
@@ -2730,7 +2738,7 @@
         {
           "name": "tenies",
           "url": "https://tenies.gr/",
-          "description": "Movies / TV / Anime / Live TV / Live Sports"
+          "description": "Movies / TV / Anime"
         },
         {
           "name": "filmatic",
@@ -3033,7 +3041,7 @@
         {
           "name": "VegaMovies",
           "url": "https://vegamovies.gratis/",
-          "description": "Movies / TV / Anime / 1080p / 4K",
+          "description": "Movies / TV / Anime / 4K / 1080p",
           "starred": true,
           "tags": [
             "Telegram"
@@ -3066,7 +3074,7 @@
         {
           "name": "⁠XDMovies",
           "url": "https://xdmovies.site/",
-          "description": "Movies / TV / 1080p / 4K",
+          "description": "Movies / TV / 4K / 1080p",
           "starred": true
         },
         {
@@ -3090,7 +3098,7 @@
         {
           "name": "AToZ Cartoonist",
           "url": "https://atozcartoonist.me/",
-          "description": "Cartoons / Anime / Sub / Dub / 1080p",
+          "description": "Anime / Cartoons / Sub / Dub / 1080p",
           "starred": true
         },
         {
@@ -3112,7 +3120,7 @@
         {
           "name": "TamilMV",
           "url": "https://www.1tamilmv.farm/",
-          "description": "Movies / TV / Sub / Dub / 1080p / 4K / Anime / Indian Languages",
+          "description": "Movies / TV / Anime / Sub / Dub / 4K / 1080p / Indian Languages",
           "starred": true
         },
         {
@@ -3189,7 +3197,7 @@
         {
           "name": "OlaMovies",
           "url": "https://new1.olamovies.onl/",
-          "description": "Movies / TV / Sub / Dub / 1080p / 4K / Use Adblock / Requests"
+          "description": "Movies / TV / Sub / Dub / 4K / 1080p / Use Adblock / Requests"
         },
         {
           "name": "Fojik",
@@ -3230,11 +3238,6 @@
         {
           "name": "AnimeAcademy",
           "url": "https://animeacademy.in/",
-          "description": "Anime / Sub / Dub / 1080p"
-        },
-        {
-          "name": "AnimeSalt",
-          "url": "https://animesalt.top/",
           "description": "Anime / Sub / Dub / 1080p"
         },
         {
@@ -3279,7 +3282,7 @@
         {
           "name": "TamilMV",
           "url": "https://www.1tamilmv.farm/",
-          "description": "Movies / TV / Sub / Dub / 1080p / 4K / Anime / Indian Languages",
+          "description": "Movies / TV / Anime / Sub / Dub / 4K / 1080p / Indian Languages",
           "starred": true
         }
       ]
@@ -3315,10 +3318,11 @@
         {
           "name": "⁠Animelok",
           "url": "https://animelok.site/",
-          "description": "Anime / Cartoons / 1080p / Auto-Next",
+          "description": "Anime / Cartoons / 1080p / Auto-Next / Mirrors",
           "starred": true,
           "tags": [
-            "Telegram"
+            "Telegram",
+            "Discord"
           ]
         },
         {
@@ -3339,19 +3343,23 @@
           "description": "Anime",
           "starred": true,
           "mirrors": [
-            "https://animesalt.top/"
+            "https://animesalt.top/",
+            "http://piratexplay.cc/"
           ]
         },
         {
           "name": "MultiMovies",
           "url": "https://multimovies.guru",
           "description": "Movies / TV /.guru Always Redirects to Main",
-          "starred": true
+          "starred": true,
+          "tags": [
+            "Telegram"
+          ]
         },
         {
           "name": "TamilMV",
           "url": "https://www.1tamilmv.farm/",
-          "description": "Movies / TV / Sub / Dub / 1080p / 4K / Anime / Indian Languages"
+          "description": "Movies / TV / Anime / Sub / Dub / 4K / 1080p / Indian Languages"
         },
         {
           "name": "Einthusan",
@@ -3383,47 +3391,47 @@
         {
           "name": "TamilGun",
           "url": "https://tamilgun.group/",
-          "description": "Tamil Movies / TV / Dub / 720p / 1080p"
+          "description": "Tamil Movies / TV / Dub / 1080p / 720p"
         },
         {
-          "name": "tamilbulb",
-          "url": "https://tamilbulb.world/",
-          "description": "Tamil Movie / TV"
+          "name": "tamildhool",
+          "url": "https://www.tamildhool.net/",
+          "description": "TV / Serial"
         },
         {
           "name": "tamilpirates",
           "url": "https://tamilpirates.icu/",
-          "description": "Tamil & Indian languages Movies / TV / Dub / 720p / 1080p"
+          "description": "Tamil & Indian languages Movies / TV / Dub / 1080p / 720p"
         },
         {
-          "name": "MiniTV",
-          "url": "https://www.amazon.in/minitv",
-          "description": "Movies / TV / Sub / 1080p"
+          "name": "TamilBlasters",
+          "url": "https://tamilblasters.tampa/",
+          "description": "Movies / TV / 1080p / 720p"
         },
         {
-          "name": "HindiMovie",
-          "url": "https://m.vk.com/hindimovie",
-          "description": "Movies / Dub / 1080p"
+          "name": "1TamilMV",
+          "url": "https://www.1tamilmv.ru/",
+          "description": "Movies / TV / 1080p / 720p"
         },
         {
-          "name": "Fixer",
-          "url": "https://fixer.buzz/",
-          "description": "Movies / TV / Anime"
+          "name": "Pulsar",
+          "url": "https://pulsar.fm/",
+          "description": "Music / 320kbps"
         },
         {
-          "name": "rtally",
-          "url": "https://www.rtally.xyz/",
-          "description": "Movies / TV / Anime"
+          "name": "Bolly2Tolly",
+          "url": "https://www.bolly2tolly.net/",
+          "description": "Movies / TV / Dub"
         },
         {
-          "name": "Watch Movies",
-          "url": "https://www.watch-movies.com.pk/",
-          "description": "Movies / TV / Anime"
+          "name": "Isaimini",
+          "url": "https://isaimini.com.co/",
+          "description": "Movies / 4K / 1080p"
         },
         {
           "name": "HDMovie1",
           "url": "https://hdmovie1.free.nf/",
-          "description": "Movies / TV / Dub / 1080p / 4K"
+          "description": "Movies / TV / Dub / 4K / 1080p"
         },
         {
           "name": "moviesflix",
@@ -3474,7 +3482,10 @@
         {
           "name": "Aniflix",
           "url": "https://aniflix.uno/",
-          "description": "Anime"
+          "description": "Anime",
+          "tags": [
+            "Telegram"
+          ]
         },
         {
           "name": "desidubanime",
@@ -4819,6 +4830,14 @@
           ]
         },
         {
+          "name": "FilmWeb",
+          "url": "https://www.filmweb.pl/vod/free",
+          "description": "Free w / Ads Service Index",
+          "tags": [
+            "index"
+          ]
+        },
+        {
           "name": "Obejrzyj",
           "url": "https://www.obejrzyj.to/",
           "description": "Movies / TV",
@@ -4910,11 +4929,6 @@
           "name": "centrum-dramy",
           "url": "https://centrum-dramy.pl/",
           "description": "Asian Drama"
-        },
-        {
-          "name": "FilmWeb",
-          "url": "https://www.filmweb.pl/vod/free",
-          "description": "Free w / Ads"
         },
         {
           "name": "Rakuten",
@@ -5024,7 +5038,7 @@
         {
           "name": "Naikamu",
           "url": "https://naikamu.com/",
-          "description": "Anime Streaming App / Android"
+          "description": "Anime Streaming App / Android, iOS"
         },
         {
           "name": "adapter",
@@ -5855,6 +5869,14 @@
           "name": "RKN Dump Check",
           "url": "https://t.me/u2ckbot",
           "description": "Censorship Check"
+        },
+        {
+          "name": "⁠EtoNeYa",
+          "url": "https://tseya.a9fm.site/",
+          "description": "Mobile Network Censorship Bypass",
+          "mirrors": [
+            "https://lowik.gitverse.site/lowik/"
+          ]
         },
         {
           "name": "Mail.ru",
@@ -6901,12 +6923,12 @@
         {
           "name": "LatinoMegaHD",
           "url": "https://www.latinomegahd.net/",
-          "description": "Movies / TV / 1080p / 4K / Latino"
+          "description": "Movies / TV / 4K / 1080p / Latino"
         },
         {
           "name": "GDRIVELatinoHD",
           "url": "https://gdrivelatinohd.net",
-          "description": "Movies / TV / 1080p / 4K / Latino",
+          "description": "Movies / TV / 4K / 1080p / Latino",
           "mirrors": [
             "https://gdrivelatino.net/"
           ]
@@ -7304,6 +7326,11 @@
           "description": "Movies / TV / Latino"
         },
         {
+          "name": "Tubi Spanish",
+          "url": "https://tubitv.com/category/spanish_language",
+          "description": "Free w / Ads"
+        },
+        {
           "name": "tele-libre",
           "url": "https://tele-libre.fans/",
           "description": "Live TV"
@@ -7449,7 +7476,7 @@
         {
           "name": "AtresPlayer",
           "url": "https://www.atresplayer.com/",
-          "description": "Movies / TV / Live TV / Castilian"
+          "description": "Live TV / Movies / TV / Castilian"
         },
         {
           "name": "Cine Libre Online",
@@ -7924,7 +7951,7 @@
         {
           "name": "Dizi Film Botu",
           "url": "https://t.me/Difix9Bot",
-          "description": "TV / Sub / Dub / Anime / 1080p / 2K / 4K / Movies / TV / Documentaries",
+          "description": "Movies / TV / Anime / Sub / Dub / 4K / 2K / 1080p / Documentaries",
           "starred": true
         },
         {

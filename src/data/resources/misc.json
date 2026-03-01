@@ -638,8 +638,8 @@
           ]
         },
         {
-          "name": "MapOfTheBest",
-          "url": "https://mapofthebest.com/",
+          "name": "Dolici",
+          "url": "https://dolici.com/",
           "description": "Top Restaurant List",
           "tags": [
             "index"
@@ -759,6 +759,16 @@
           "name": "Too Good To Go",
           "url": "https://www.toogoodtogo.com/",
           "description": "Surplus Food Marketplace"
+        },
+        {
+          "name": "Boycott Buddy",
+          "url": "https://www.boycottbuddy.app/",
+          "description": "Identify Brands with Unethical Practices (child labor, slave labor, etc.)"
+        },
+        {
+          "name": "⁠Slave Free Chocolate",
+          "url": "https://www.slavefreechocolate.org/",
+          "description": "Chocolatiers that use Ethically Sourced (child slavery free) Cocoa"
         }
       ]
     },
@@ -1051,6 +1061,7 @@
           "url": "https://www.sweethome3d.com/",
           "description": "Interior Design Apps",
           "mirrors": [
+            "https://planner5d.com/",
             "https://www.homestyler.com/"
           ]
         },
@@ -1445,6 +1456,11 @@
           "description": "ADSB Tracking for Single Board Computers"
         },
         {
+          "name": "⁠Notamify",
+          "url": "https://notamify.com/",
+          "description": "Decode NOTAMs / Track Flight Delays"
+        },
+        {
           "name": "Awesome Maps",
           "url": "https://github.com/simsieg/awesome-maps",
           "description": "Online Map Resources",
@@ -1475,13 +1491,23 @@
         {
           "name": "CrisisWatch",
           "url": "https://www.crisisgroup.org/crisiswatch",
-          "description": "Global Conflicts Map",
+          "description": "Global Conflict Maps",
           "starred": true,
           "mirrors": [
             "https://acleddata.com/data/",
             "https://www.cfr.org/global-conflict-tracker",
             "https://liveuamap.com/",
+            "https://world-monitor.com/",
+            "https://www.conflictly.app/",
             "https://israelpalestine.liveuamap.com/"
+          ]
+        },
+        {
+          "name": "World Monitor",
+          "url": "https://worldmonitor.app/",
+          "description": "Real-Time News Map / Tech Version",
+          "tags": [
+            "GitHub"
           ]
         },
         {
@@ -2435,6 +2461,17 @@
           ]
         },
         {
+          "name": "World Monitor",
+          "url": "https://worldmonitor.app/",
+          "description": "Real-Time News Aggregators / Monitors / Maps",
+          "mirrors": [
+            "https://tech.worldmonitor.app/",
+            "https://github.com/koala73/worldmonitor",
+            "https://www.conflictly.app/",
+            "https://world-monitor.com/"
+          ]
+        },
+        {
           "name": "News as Facts",
           "url": "https://newsasfacts.com/",
           "description": "Wiki-Based News"
@@ -2695,6 +2732,14 @@
           "url": "https://news.ycombinator.com/",
           "description": "Tech News / Tools",
           "starred": true
+        },
+        {
+          "name": "World Monitor",
+          "url": "https://tech.worldmonitor.app/",
+          "description": "Real-Time Tech News Aggregator / Monitor / Map",
+          "tags": [
+            "GitHub"
+          ]
         },
         {
           "name": "AlternativeTo Aggregator",
@@ -3551,6 +3596,9 @@
           "description": "",
           "tags": [
             "index"
+          ],
+          "mirrors": [
+            "https://transfemscience.org/misc/"
           ]
         },
         {
@@ -3564,6 +3612,7 @@
           "url": "https://transharmreduction.org/",
           "description": "HRT Safety Guides / Testing",
           "mirrors": [
+            "https://pghrt.diy",
             "https://diyhrt.info/"
           ]
         },
@@ -3584,6 +3633,11 @@
           "tags": [
             "GitHub"
           ]
+        },
+        {
+          "name": "FTM Resource Guide",
+          "url": "https://www.ftmguide.org/",
+          "description": "FTM Resources / Guidance"
         },
         {
           "name": "Trans Reads",
@@ -3810,6 +3864,11 @@
           "name": "SocJobRumors",
           "url": "https://www.socjobrumors.com/",
           "description": "Sociology Job Market Forum"
+        },
+        {
+          "name": "BLS",
+          "url": "https://www.bls.gov/",
+          "description": "U.S. Bureau of Labor Statistics"
         },
         {
           "name": "Side Hustle Stack",
@@ -4325,6 +4384,11 @@
           "name": "FOSS Jobs",
           "url": "https://www.fossjobs.net/",
           "description": "FOSS Project Jobs"
+        },
+        {
+          "name": "⁠Hiresail",
+          "url": "https://hiresail.vercel.app/",
+          "description": "Freelance Work / Swipe Style Search / Resume Generator"
         },
         {
           "name": "Authentic Jobs",
@@ -4898,6 +4962,7 @@
           "url": "https://www.blockchain.com/explorer",
           "description": "Live Crypto Prices / Blockchain Explorers",
           "mirrors": [
+            "https://velo.xyz/",
             "https://github.com/shorthouse/CoinWatch",
             "https://hivexplorer.com/",
             "https://blockchair.com/",
@@ -5023,6 +5088,14 @@
           "name": "⁠RedRecs",
           "url": "https://www.redrecs.com/",
           "description": "Reddit Product Rankings, Summaries, and Comments / Methodology"
+        },
+        {
+          "name": "⁠BuyItForLife",
+          "url": "https://buyitforlife.com/",
+          "description": "Durable Product Shopping Guide",
+          "tags": [
+            "Subreddit"
+          ]
         },
         {
           "name": "⁠NoBids",
@@ -5201,7 +5274,10 @@
         {
           "name": "Build List",
           "url": "https://buildlist.org/",
-          "description": "On-Demand Online Manufacturers"
+          "description": "On-Demand Online Manufacturers",
+          "mirrors": [
+            "https://partsmadefast.com/"
+          ]
         }
       ],
       "note": "It's recommended to store cryptocurrency offline in cold wallets such as Electrum, rather than exchanges like Binance or others. This increases security and gives you full control of your assets. 必ず install a 広告ブロッカー when using these サイトs."
@@ -5326,6 +5402,11 @@
           "description": "PC Building Community"
         },
         {
+          "name": "⁠Mini PC Guide / Comparisons",
+          "url": "https://docs.google.com/spreadsheets/d/1MSVzjTK5bubSo7_pltKbWausKWoVUYynNdouj4GlIdE",
+          "description": ""
+        },
+        {
           "name": "⁠MoboMaps",
           "url": "https://mobomaps.com/",
           "description": "Motherboard Visualizations / Info"
@@ -5418,6 +5499,11 @@
           "name": "⁠r/HTBuyingGuides",
           "url": "https://www.reddit.com/r/HTBuyingGuides/",
           "description": "Home Theater Buying Guides"
+        },
+        {
+          "name": "Dolby Vision Stuff",
+          "url": "https://docs.google.com/spreadsheets/d/15i0a84uiBtWiHZ5CXZZ7wygLFXwYOd84",
+          "description": "Dolby Vision (HDR) Playback Guide"
         },
         {
           "name": "DisplaySpecifications",
@@ -5573,7 +5659,7 @@
         {
           "name": "⁠RackRat",
           "url": "https://rackrat.net/",
-          "description": "Ebay Rackmount Server Prices / Comparisons"
+          "description": "eBay Rackmount Server Prices / Comparisons"
         }
       ]
     },
@@ -5924,6 +6010,7 @@
             "https://ultimatewheelspin.com/",
             "https://pickerwheel.com/",
             "https://spinthewheelgenerator.com/",
+            "https://spinthewheel.io/",
             "https://heyspinner.com/",
             "https://thespinnerwheel.com/",
             "https://wheelofnames.com/"
@@ -6097,6 +6184,11 @@
           "description": "Text / Encode-Decode / Code / Random / Image"
         },
         {
+          "name": "⁠99Tools",
+          "url": "https://99tools.net/",
+          "description": "Text / Encode-Decode / Code / Random / Image"
+        },
+        {
           "name": "Framasoft",
           "url": "https://degooglisons-internet.org/en/",
           "description": "Text / Collaboration"
@@ -6110,6 +6202,11 @@
           "name": "Disroot",
           "url": "https://disroot.org/en/#services",
           "description": "Text / Social Media"
+        },
+        {
+          "name": "Private.coffee",
+          "url": "https://private.coffee/services.html",
+          "description": "Text / Code"
         },
         {
           "name": "RandomTools",
@@ -6241,7 +6338,10 @@
           "name": "Habitica",
           "url": "https://habitica.com/",
           "description": "Achievement Style Productivity App",
-          "starred": true
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ]
         },
         {
           "name": "Zoneless",
@@ -6288,6 +6388,11 @@
           "name": "Cold Turkey",
           "url": "https://getcoldturkey.com/",
           "description": "Site Blocker / Productivity App"
+        },
+        {
+          "name": "⁠ScreenZen",
+          "url": "https://screenzen.co/",
+          "description": "Site / App Blocker"
         },
         {
           "name": "SelfControlApp",
@@ -7228,6 +7333,11 @@
           "description": "Type Things into Existence"
         },
         {
+          "name": "⁠HammyHome",
+          "url": "https://hammyhome.com/",
+          "description": "Interactive Virtual Pet Hamsters"
+        },
+        {
           "name": "Nicky Case",
           "url": "https://ncase.me/",
           "description": "Interactive Social Simulations / Puzzles"
@@ -7752,6 +7862,14 @@
           "description": "Game of Thrones Map"
         },
         {
+          "name": "⁠Git City",
+          "url": "https://www.thegitcity.com/",
+          "description": "3D GitHub City",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
           "name": "DamnInteresting",
           "url": "https://www.damninteresting.com/",
           "description": "Interesting Stories"
@@ -7805,6 +7923,11 @@
           "name": "House Creep",
           "url": "https://www.housecreep.com/",
           "description": "Homes with A Curious or Criminal History"
+        },
+        {
+          "name": "⁠Detective Board",
+          "url": "https://www.detectiveboard.io/",
+          "description": "Make / Explore Community Detective Boards"
         },
         {
           "name": "Wiby",
@@ -8051,13 +8174,9 @@
           "description": "Worlds Hardest Internet Riddle"
         },
         {
-          "name": "Politiscales",
-          "url": "https://politiscales.party/",
-          "description": "Political Alignment Test",
-          "mirrors": [
-            "https://8dreams.github.io/",
-            "https://8values.github.io/"
-          ]
+          "name": "PoliticalTests",
+          "url": "https://politicaltests.github.io/",
+          "description": "Political Alignment Tests"
         },
         {
           "name": "HowNormalAmI?",
@@ -8191,6 +8310,16 @@
         {
           "name": "mangolinkworld",
           "url": "https://www.mangolinkworld.com/",
+          "description": ""
+        },
+        {
+          "name": "Insecam",
+          "url": "http://www.insecam.org/en/",
+          "description": ""
+        },
+        {
+          "name": "CameraFTP",
+          "url": "https://www.cameraftp.com/cameraftp/publish/publishedcameras.aspx",
           "description": ""
         },
         {

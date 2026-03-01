@@ -20,7 +20,9 @@
           "mirrors": [
             "https://cf.farside.link/",
             "https://canine.tools/services/",
+            "https://nerdvpn.de/",
             "https://privacyredirect.com/",
+            "https://nadeko.net/",
             "https://github.com/ParniDEO/alternative-front-ends-unofficial"
           ]
         },
@@ -183,9 +185,9 @@
           "description": "View / Download Discord User's Avatar or Banner"
         },
         {
-          "name": "Disbox",
-          "url": "https://disboxapp.github.io/web/",
-          "description": "Discord Cloud Storage"
+          "name": "DAVB",
+          "url": "https://rentry.co/FMHYB64#davb",
+          "description": "Discord Age Verification Bypass"
         },
         {
           "name": "Discord Chat Exporter",
@@ -232,6 +234,11 @@
           "name": "Discord Templates",
           "url": "https://discordtemplates.me/",
           "description": "Discord Server Templates"
+        },
+        {
+          "name": "Discord Quest Script",
+          "url": "https://rentry.co/FMHYB64#discord-quests",
+          "description": "Discord Quest Auto-Complete"
         },
         {
           "name": "discord-badges",
@@ -287,7 +294,7 @@
         {
           "name": "Discord Packages",
           "url": "https://github.com/peterhanania/discord-package",
-          "description": "View Discord Packages / Self Host for Privacy",
+          "description": "View Discord Packages / Self-Host for Privacy",
           "tags": [
             "Discord"
           ]
@@ -623,9 +630,12 @@
         {
           "name": "FixEmbed",
           "url": "https://fixembed.app/",
-          "description": "Fix Embeds on Discord Bot",
-          "tags": [
-            "GitHub"
+          "description": "Discord Embed Fix Bots",
+          "mirrors": [
+            "https://github.com/kenhendricks00/FixEmbed",
+            "https://embedded.gallery/",
+            "https://discord.com/invite/Be9yDnBPBw",
+            "https://github.com/seriaati/embed-fixer"
           ]
         },
         {
@@ -659,15 +669,6 @@
           "description": "RSS Discord Bots",
           "mirrors": [
             "https://readybot.io/"
-          ]
-        },
-        {
-          "name": "Discord Music Bot",
-          "url": "https://github.com/SudhanPlayz/Discord-MusicBot",
-          "description": "Music Bots",
-          "mirrors": [
-            "https://github.com/ZerioDev/Music-bot",
-            "https://github.com/jagrosh/MusicBot"
           ]
         },
         {
@@ -1033,7 +1034,6 @@
           "url": "https://ihsoyct.github.io/",
           "description": "Advanced Reddit Search",
           "mirrors": [
-            "https://samac.io/",
             "https://search.pullpush.io/",
             "https://betterredditsearch.web.app/"
           ]
@@ -2042,7 +2042,7 @@
         },
         {
           "name": "⁠YTDown",
-          "url": "https://ytdown.io/",
+          "url": "https://app.ytdown.to/en7/",
           "description": "YouTube Downloader / Online"
         },
         {
@@ -2138,7 +2138,7 @@
         {
           "name": "Filmot",
           "url": "https://filmot.com/",
-          "description": "Search within YouTube Transcripts / Firefox / Chrome",
+          "description": "Search within YouTube Subs, Captsions & Transcripts / Firefox / Chrome",
           "starred": true,
           "mirrors": [
             "https://github.com/Evan-Wildenhain/CTRL-F-VIDEO"
@@ -2256,11 +2256,13 @@
           "description": "Search Unlisted Videos"
         },
         {
-          "name": "Hobune",
-          "url": "https://hobune.stream/",
+          "name": "PreserveTube",
+          "url": "https://preservetube.com/",
           "description": "YouTube Video Archives",
           "mirrors": [
-            "https://preservetube.com/"
+            "https://preservetube.net/",
+            "https://preservetube.org/",
+            "https://hobune.stream/"
           ]
         },
         {
@@ -2552,6 +2554,12 @@
           ]
         },
         {
+          "name": "VAFT UBO Script",
+          "url": "https://github.com/pixeltris/TwitchAdSolutions?tab=readme-ov-file#applying-a-script-ublock-origin",
+          "description": "Twitch Adblocker",
+          "starred": true
+        },
+        {
           "name": "AdGuard Extra",
           "url": "https://github.com/AdguardTeam/AdGuardExtra",
           "description": "Twitch Adblocker",
@@ -2564,7 +2572,7 @@
         },
         {
           "name": "PurpleAdblock",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/purpleadblock/",
+          "url": "https://github.com/arthurbolsoni/Purple-adblock",
           "description": "Twitch Adblocker"
         },
         {
@@ -2858,6 +2866,11 @@
           "name": "⁠FB Login Wall Remover",
           "url": "https://greasyfork.org/en/scripts/548145",
           "description": "Remove Facebook Login Wall"
+        },
+        {
+          "name": "⁠Messenger Plus",
+          "url": "https://messenger-plus.com/",
+          "description": "Facebook Messenger Desktop App / Tray Icon / Notifications"
         },
         {
           "name": "Charcoal Dark Mode",
@@ -3346,7 +3359,7 @@
           "description": "Lemmy Instances",
           "starred": true,
           "mirrors": [
-            "https://github.com/maltfield/awesome-lemmy-instances"
+            "https://github.com/Fedihosting-Foundation-Forks/awesome-lemmy-instances"
           ]
         },
         {

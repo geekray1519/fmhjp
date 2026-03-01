@@ -34,6 +34,11 @@
           ]
         },
         {
+          "name": "⁠LonelyScreen",
+          "url": "https://www.lonelyscreen.com/",
+          "description": "AirPlay Receiver for PC / macOS"
+        },
+        {
           "name": "Deep-Live-Cam",
           "url": "https://github.com/hacksider/Deep-Live-Cam",
           "description": "Video Face Swap Tools",
@@ -216,7 +221,7 @@
         {
           "name": "⁠Streamain",
           "url": "https://streamain.com/",
-          "description": "Unlimited / Unlimited / Forever"
+          "description": "Unlimited / Forever"
         },
         {
           "name": "Vidmoly",
@@ -488,7 +493,7 @@
         },
         {
           "name": "Av1an",
-          "url": "https://github.com/master-of-zen/Av1an",
+          "url": "https://github.com/rust-av/Av1an",
           "description": "Video Encoding / Windows, Mac, Linux"
         },
         {
@@ -627,10 +632,9 @@
           "name": "ffmpeg-web",
           "url": "https://ffmpeg-web.netlify.app/",
           "description": "FFmpeg Web App",
-          "tags": [
-            "GitHub"
-          ],
           "mirrors": [
+            "https://github.com/Dinoosauro/ffmpeg-web",
+            "https://ffmpeg.wide.video/",
             "https://ffmpegwasm.netlify.app/",
             "https://ffmpeg.gcc.ac.cn/"
           ]
@@ -792,6 +796,11 @@
           ]
         },
         {
+          "name": "⁠Overlays",
+          "url": "https://overlays.uno/",
+          "description": "Live Stream Overlays"
+        },
+        {
           "name": "Amuse",
           "url": "https://6klabs.com/amuse",
           "description": "Now Playing Overlays",
@@ -906,22 +915,25 @@
           ]
         },
         {
+          "name": "MPV Clients",
+          "url": "https://mpv.rocks/",
+          "description": "Video Player / Custom Builder / Frontends",
+          "starred": true,
+          "tags": [
+            "GitHub"
+          ],
+          "mirrors": [
+            "https://mpc-qt.github.io/",
+            "https://mpv.io/"
+          ]
+        },
+        {
           "name": "MPC-HC",
           "url": "https://github.com/clsid2/mpc-hc/",
           "description": "Video Player / YT-DL Support / OpenSubtitles Bypass",
           "starred": true,
           "mirrors": [
-            "https://mpc-qt.github.io/",
             "https://sourceforge.net/projects/mpcbe/"
-          ]
-        },
-        {
-          "name": "MPV",
-          "url": "https://mpv.io/",
-          "description": "Video Player / Custom Builder / Frontends",
-          "starred": true,
-          "tags": [
-            "GitHub"
           ]
         },
         {
@@ -1379,14 +1391,6 @@
           "description": "Media Server Automation"
         },
         {
-          "name": "Huntarr",
-          "url": "https://github.com/plexguide/Huntarr.io",
-          "description": "Automate Media Server Missing Content / Quality Upgrades",
-          "tags": [
-            "Discord"
-          ]
-        },
-        {
           "name": "Seanime",
           "url": "https://seanime.app/",
           "description": "Anime Server"
@@ -1782,6 +1786,11 @@
           ]
         },
         {
+          "name": "DRM Bypass Toolkit",
+          "url": "https://rentry.co/FMHYB64#dbt",
+          "description": "DRM Bypass Guide"
+        },
+        {
           "name": "⁠VideoDL",
           "url": "https://github.com/CharlesPikachu/videodl",
           "description": "Multi-Site"
@@ -1794,6 +1803,11 @@
         {
           "name": "⁠OFA Downloader",
           "url": "https://oneforalldownloader.com/",
+          "description": "Multi-Site / Online"
+        },
+        {
+          "name": "⁠imov.life",
+          "url": "https://imov.life/",
           "description": "Multi-Site / Online"
         },
         {
@@ -1892,6 +1906,11 @@
         {
           "name": "Enhancr",
           "url": "https://github.com/mafiosnik777/enhancr",
+          "description": "Video Upscaling"
+        },
+        {
+          "name": "Warlock-Studio",
+          "url": "https://github.com/Ivan-Ayub97/Warlock-Studio",
           "description": "Video Upscaling"
         },
         {
@@ -2002,11 +2021,6 @@
           "description": "Video Editor"
         },
         {
-          "name": "EZVid",
-          "url": "https://www.ezvid.com/",
-          "description": "Video Editor"
-        },
-        {
           "name": "OpenShot",
           "url": "https://www.openshot.org/",
           "description": "Video Editor"
@@ -2099,6 +2113,15 @@
           "description": "",
           "mirrors": [
             "https://discord.gg/xJVXbQVPZP"
+          ]
+        },
+        {
+          "name": "FreeCut",
+          "url": "https://www.freecut.net/",
+          "description": "",
+          "mirrors": [
+            "https://freecut-sandy.vercel.app/",
+            "https://github.com/walterlow/freecut"
           ]
         },
         {
@@ -2480,9 +2503,12 @@
           "description": "Pixel Art Animation Tools",
           "mirrors": [
             "https://graphicsgale.com/us/",
+            "https://poxil.vercel.app/",
+            "https://github.com/F4tal1t/Poxil",
             "https://pixelfromhell.itch.io/jpixel",
             "https://github.com/aseprite/aseprite",
             "https://youtu.be/Z4Enx-Nb43E",
+            "https://github.com/krush62/KPix",
             "https://encelo.itch.io/spookyghost"
           ]
         },

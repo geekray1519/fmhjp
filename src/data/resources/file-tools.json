@@ -270,7 +270,7 @@
         {
           "name": "File Converter",
           "url": "https://file-converter.io/",
-          "description": "Convert / Compress Files",
+          "description": "Offline / Convert & Compress Files / Windows",
           "starred": true,
           "tags": [
             "GitHub"
@@ -279,17 +279,26 @@
         {
           "name": "VERT",
           "url": "https://vert.sh/",
-          "description": "",
+          "description": "Online for Videos / Offline for Other Formats",
           "starred": true,
-          "mirrors": [
-            "https://discord.gg/8XXZ7TFFrK",
-            "https://github.com/VERT-sh/VERT"
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
+          "name": "Convert to it!",
+          "url": "https://p2r3.github.io/convert/",
+          "description": "Online / File Converter",
+          "starred": true,
+          "tags": [
+            "GitHub"
           ]
         },
         {
           "name": "Aconvert",
           "url": "https://www.aconvert.com/",
-          "description": "Various Converters / 40MB",
+          "description": "Online / Various Converters / 40MB",
           "starred": true
         },
         {
@@ -314,7 +323,7 @@
         {
           "name": "Deark",
           "url": "https://entropymine.com/deark/",
-          "description": "Decode and Convert Files",
+          "description": "Decode and Convert Files / Windows, Mac, Linux",
           "tags": [
             "GitHub"
           ]
@@ -327,7 +336,7 @@
         {
           "name": "Shutter Encoder",
           "url": "https://www.shutterencoder.com/",
-          "description": "File Converter",
+          "description": "File Converter / Windows, Mac, Linux",
           "tags": [
             "GitHub"
           ]
@@ -335,42 +344,42 @@
         {
           "name": "videoutils",
           "url": "https://www.videoutils.com/",
-          "description": "File Converter / 500MB"
+          "description": "Online / File Converter / 500MB"
         },
         {
           "name": "⁠OfflineConvert",
           "url": "https://www.offlineconvert.com/",
-          "description": "File Converter"
+          "description": "Offline / File Converter"
         },
         {
           "name": "Xconvert",
           "url": "https://www.xconvert.com",
-          "description": "File Converter / 400MB"
+          "description": "Online / File Converter / 400MB"
         },
         {
           "name": "FreeConvert",
           "url": "https://www.freeconvert.com/",
-          "description": "Unlimited / Clear Cookies"
+          "description": "Online / Unlimited / Clear Cookies"
         },
         {
           "name": "ConvertFiles",
           "url": "https://www.convertfiles.com/",
-          "description": "File Converter / 250MB"
+          "description": "Online / File Converter / 250MB"
         },
         {
           "name": "Convertio",
           "url": "https://convertio.co/",
-          "description": "File Converter / 100MB"
+          "description": "Online / File Converter / 100MB"
         },
         {
           "name": "AnyConvert",
           "url": "https://anyconv.com/",
-          "description": "File Converter / 100MB"
+          "description": "Online / File Converter / 100MB"
         },
         {
           "name": "MiConv",
           "url": "https://miconv.com/",
-          "description": "File Converter / 75MB"
+          "description": "Online / File Converter / 75MB"
         },
         {
           "name": "⁠ConvertX",
@@ -593,7 +602,7 @@
         {
           "name": "SyncThing",
           "url": "https://syncthing.net/",
-          "description": "Cross-Platform File Sync / Tray Support",
+          "description": "Cross-Platform File Sync / Android / Tray Support",
           "starred": true,
           "tags": [
             "GitHub"
@@ -1229,7 +1238,7 @@
         {
           "name": "Blip",
           "url": "https://blip.net/",
-          "description": "Desktop / Mobile Transfer",
+          "description": "Desktop / Mobile Transfer / Turn \"Searchable by Name\" Off in Settings",
           "starred": true
         },
         {
@@ -1305,7 +1314,10 @@
         {
           "name": "IPFS",
           "url": "https://ipfs.tech/",
-          "description": "Desktop / Mobile Transfer"
+          "description": "Desktop / Mobile Transfer",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "aQRoss",
@@ -1408,13 +1420,31 @@
         {
           "name": "Pixeldrain",
           "url": "https://pixeldrain.com/",
-          "description": "10GB / 60 Days After Last Download (10% min) / Speedtest",
+          "description": "10GB / 60 Days After Last Download (10% min) / Speedtest / Bypass",
           "starred": true
         },
         {
           "name": "VikingFile",
           "url": "https://vikingfile.com/",
-          "description": "Unlimited / 15 Days After Last Download",
+          "description": "Unlimited / 15 Days After Last Download / Use Adblocker",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠Rootz",
+          "url": "https://rootz.so/",
+          "description": "25GB / 15 Days After Last Download / Unlimited for Backstage Users",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "⁠ZeroFS",
+          "url": "https://zerofs.link/",
+          "description": "Unlimited / 30 Days After Last Download / CLI",
           "starred": true,
           "tags": [
             "Discord"
@@ -1434,15 +1464,6 @@
           ]
         },
         {
-          "name": "⁠Rootz",
-          "url": "https://rootz.so/",
-          "description": "25GB / 15 Days After Last Download / Unlimited for Backstage Users",
-          "starred": true,
-          "tags": [
-            "Discord"
-          ]
-        },
-        {
           "name": "Catbox",
           "url": "https://catbox.moe/",
           "description": "200MB / Forever / Proxy",
@@ -1455,14 +1476,6 @@
           "starred": true
         },
         {
-          "name": "⁠ZeroFS",
-          "url": "https://zerofs.link/",
-          "description": "Unlimited / 30 Days After Last Download / CLI",
-          "tags": [
-            "Discord"
-          ]
-        },
-        {
           "name": "FileMirage",
           "url": "https://filemirage.com/",
           "description": "50GB / 30 Days After Last View"
@@ -1473,9 +1486,14 @@
           "description": "100GB / 15 Days After Last Download"
         },
         {
+          "name": "Litterbox",
+          "url": "https://litterbox.catbox.moe/",
+          "description": "1GB / 3 Days"
+        },
+        {
           "name": "Transfer.it",
           "url": "https://transfer.it/",
-          "description": "Unlimited / 90 Days / Owned by Mega.nz"
+          "description": "Unlimited / 90 Days / Owned by MEGA.nz"
         },
         {
           "name": "DesiUpload",
@@ -1867,7 +1885,7 @@
           "starred": true
         },
         {
-          "name": "mega",
+          "name": "MEGA",
           "url": "https://mega.io/",
           "description": "20GB Free / 3 Months / ~$10 for 3TB",
           "starred": true,
@@ -1881,7 +1899,7 @@
           "description": "5GB Free / 2 Years / ~$2 for 1TB"
         },
         {
-          "name": "filen",
+          "name": "Filen",
           "url": "https://filen.io/",
           "description": "10GB Free / 3 Months / ~$8 for 1TB / Requires Sign-Up for Sharing"
         },
@@ -2146,7 +2164,7 @@
           "starred": true
         },
         {
-          "name": "Mega Account Generators",
+          "name": "MEGA Account Generators",
           "url": "https://rentry.co/FMHYB64#mega-gen",
           "description": "Account Gen / Unlimited Upload Size / Fix",
           "starred": true

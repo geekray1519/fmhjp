@@ -13,7 +13,7 @@
         {
           "name": "AI Studio",
           "url": "https://aistudio.google.com/app/prompts/new_chat",
-          "description": "Gemini 3 Pro Preview / 11 Daily / Requires Sign-Up",
+          "description": "Gemini 3.1 Pro / 11 Daily / Requires Sign-Up",
           "starred": true,
           "tags": [
             "Subreddit",
@@ -23,7 +23,7 @@
         {
           "name": "Grok",
           "url": "https://grok.com/",
-          "description": "Grok 4 Fast (96 daily) / Grok 4.1 (24 daily) / Rate Display",
+          "description": "Grok 4 Fast (96 daily) / Grok 4.1 (24 daily) / Grok 4.20 (8 per 4 hours) / Rate Display",
           "starred": true,
           "tags": [
             "Subreddit",
@@ -42,7 +42,7 @@
         {
           "name": "Gemini",
           "url": "https://gemini.google.com/",
-          "description": "Gemini 3 Pro Preview (5 per day) / Gemini 3 Flash (Unlimited) / Limits",
+          "description": "Gemini 3.1 Pro Preview (5 daily) / Gemini 3 Flash (unlimited) / Limits",
           "starred": true,
           "tags": [
             "Subreddit",
@@ -52,7 +52,7 @@
         {
           "name": "Kimi",
           "url": "https://www.kimi.com/",
-          "description": "Kimi-K2.5 (Thinking) / Slides / Google Login or Phone # Required",
+          "description": "Kimi K2.5 (Thinking) / Slides / Google Login or Phone # Required",
           "starred": true,
           "tags": [
             "Subreddit",
@@ -63,7 +63,7 @@
         {
           "name": "DeepSeek",
           "url": "https://chat.deepseek.com/",
-          "description": "DeepSeek-V3.2 / Requires Sign-Up / Unlimited",
+          "description": "DeepSeek V3.2 / Requires Sign-Up / Unlimited",
           "starred": true,
           "tags": [
             "Subreddit",
@@ -91,7 +91,7 @@
         {
           "name": "Qwen",
           "url": "https://chat.qwen.ai/",
-          "description": "Qwen3-Max / Unlimited",
+          "description": "Qwen3.5-Plus (Qwen3.5-397B-A17B) / Unlimited",
           "tags": [
             "Subreddit",
             "Discord",
@@ -101,7 +101,7 @@
         {
           "name": "Claude",
           "url": "https://claude.ai/",
-          "description": "Claude 4.5 Sonnet / Requires Google Login / Learning Resources / Usage Tracker",
+          "description": "Claude Sonnet 4.6 / Requires Google Login / Resources / Learning / Usage Tracker",
           "tags": [
             "Subreddit",
             "Discord"
@@ -113,6 +113,15 @@
           "description": "ERNIE 5.0 Preview 1220 / x1 Demo / 4.5 Demo / x1 Demo"
         },
         {
+          "name": "MiniMax AI",
+          "url": "https://agent.minimax.io/",
+          "description": "Gemini 3 Pro / MiniMax-M2.5",
+          "tags": [
+            "Discord",
+            "GitHub"
+          ]
+        },
+        {
           "name": "Mistral",
           "url": "https://chat.mistral.ai",
           "description": "Mistral Large 3",
@@ -122,18 +131,9 @@
           ]
         },
         {
-          "name": "MiniMax AI",
-          "url": "https://agent.minimax.io/",
-          "description": "MiniMax-M2.5",
-          "tags": [
-            "Discord",
-            "GitHub"
-          ]
-        },
-        {
           "name": "⁠Ai2 Playground",
           "url": "https://playground.allenai.org/",
-          "description": "Olmo3.1 32B / No Sign-Up",
+          "description": "Olmo 3.1 32B / No Sign-Up",
           "tags": [
             "Discord"
           ]
@@ -141,12 +141,12 @@
         {
           "name": "⁠LongCat",
           "url": "https://longcat.chat/",
-          "description": "LongCat-Flash-Chat / Requires Sign-Up / Unlimited / X"
+          "description": "LongCat Flash Reasoning / Requires Sign-Up / Unlimited / X"
         },
         {
           "name": "⁠Cohere",
           "url": "https://dashboard.cohere.com/playground/chat",
-          "description": "Command-A-Reasoning / 1000 Monthly / Requires Sign-Up",
+          "description": "Command A Reasoning / 1000 Monthly / Requires Sign-Up",
           "tags": [
             "Discord"
           ]
@@ -154,7 +154,7 @@
         {
           "name": "⁠Solar",
           "url": "https://console.upstage.ai/playground/chat",
-          "description": "Solar Pro 2 Model / No Sign-Up",
+          "description": "Solar Pro 3 / No Sign-Up",
           "tags": [
             "Discord"
           ]
@@ -194,11 +194,6 @@
           "name": "Dolphin Chat",
           "url": "https://chat.dphn.ai/",
           "description": "Dolphin 24B / No Sign-Up"
-        },
-        {
-          "name": "⁠dots-demo",
-          "url": "https://huggingface.co/spaces/rednote-hilab/dots-demo",
-          "description": "Dots Chatbot / No Sign-Up"
         }
       ]
     },
@@ -208,7 +203,7 @@
       "resources": [
         {
           "name": "Arena",
-          "url": "https://arena.ai/?mode=direct",
+          "url": "https://arena.ai/text/direct",
           "description": "Multiple Models / No Sign-Up / Reset Limits w / Cookie Delete or Temp Mail / OpenAI Bridge / X",
           "starred": true,
           "tags": [
@@ -216,28 +211,18 @@
           ]
         },
         {
-          "name": "⁠Indic LLM Arena",
-          "url": "https://arena.ai4bharat.org/#/chat",
-          "description": "GPT-5.2 / Gemini 3 Pro / Claude Sonnet 4.5 / Multiple Chatbots",
-          "starred": true
-        },
-        {
           "name": "Yupp.ai",
           "url": "https://yupp.ai/",
-          "description": "Multiple Models / Google Login Required",
+          "description": "Multiple Models / Google Login Required / X",
           "tags": [
+            "Subreddit",
             "Discord"
           ]
         },
         {
-          "name": "Design Arena",
-          "url": "https://www.designarena.ai/",
-          "description": "Multiple Models / Requires Sign-Up / No Direct / Side by Side Mode / Reset Limits / w Temp Mail"
-        },
-        {
           "name": "⁠ISH",
-          "url": "https://beta.ish.chat/",
-          "description": "GPT-5.2 / Gemini 3 Pro / Claude Opus 4.5 / Unlimited Ad-Based / Github Login",
+          "url": "https://ish.chat/",
+          "description": "Multiple Generators",
           "tags": [
             "Subreddit",
             "Discord"
@@ -246,27 +231,38 @@
         {
           "name": "AI Assistant",
           "url": "https://aiassistantbot.pages.dev/",
-          "description": "Deepseek-V3.2 / GLM-4.7 / Kimi K2.5 / Mistral Large 3 / Multiple Models / No Sign-Up"
+          "description": "Deepseek V3.2 / GLM-4.7 / Kimi K2.5 / Multiple Models / No Sign-Up"
+        },
+        {
+          "name": "⁠Indic LLM Arena",
+          "url": "https://arena.ai4bharat.org/#/chat",
+          "description": "Gemini- 3 Flash / Multiple Chatbots / Unlimited",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "Khoj",
           "url": "https://app.khoj.dev/",
-          "description": "Gemini 3 Flash / DeepSeek V3.2 / Grok 4.1 Fast (non-reasoning) / Reset Limits w / Temp Mail"
-        },
-        {
-          "name": "Cerebras Chat",
-          "url": "https://chat.cerebras.ai/",
-          "description": "GLM 4.7 / Qwen3 235B / Requires Sign-Up"
+          "description": "Gemini 3 Flash / Grok 4.1 Fast / Reset Limits w / Temp Mail",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "NVIDIA NIM",
           "url": "https://build.nvidia.com/",
-          "description": "GLM -4.7 / Kimi K2.5 / Multiple Generators / No Sign-Up"
+          "description": "GLM-5 / Kimi K2.5 / No Sign-Up"
+        },
+        {
+          "name": "Cerebras Chat",
+          "url": "https://chat.cerebras.ai/",
+          "description": "GLM-4.7 / Qwen3-235B / Requires Sign-Up"
         },
         {
           "name": "Groq",
           "url": "https://console.groq.com/playground",
-          "description": "Kimi K2-0905 / GPT-OSS 120B / Requires Sign-Up / Limits",
+          "description": "Kimi K2-0905 / GPT-OSS-120B / Requires Sign-Up / Limits",
           "tags": [
             "Discord"
           ]
@@ -274,7 +270,7 @@
         {
           "name": "⁠Together.ai",
           "url": "https://chat.together.ai/",
-          "description": "GLM 4.7 / Kimi K2.5 / Up-To 110 Daily",
+          "description": "GLM-5 / Kimi K2.5 / Up To 110 Daily",
           "tags": [
             "Discord"
           ]
@@ -282,7 +278,7 @@
         {
           "name": "⁠Woozlit",
           "url": "https://woozlit.com/",
-          "description": "DeepSeek V3.2 / Gemini 3 pro / Multiple Models / No Sign-Up",
+          "description": "Gemini 3.1 Pro / Gemini 3 Flash / DeepSeek V3.2 / Multiple Models",
           "tags": [
             "Discord"
           ]
@@ -290,7 +286,7 @@
         {
           "name": "Duck AI",
           "url": "https://duck.ai/chat?q=DuckDuckGo+AI+Chat&duckai=1",
-          "description": "GPT-4o mini / GPT-5 mini / No Sign-Up"
+          "description": "Claude Haiku 4.5 / GPT-5 mini / No Sign-Up"
         }
       ]
     },
@@ -378,7 +374,10 @@
         {
           "name": "SciSpace",
           "url": "https://scispace.com/",
-          "description": "Research Chatbot"
+          "description": "Research Chatbot",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "⁠iAsk AI",
@@ -388,7 +387,10 @@
         {
           "name": "⁠Bohrium",
           "url": "https://www.bohrium.com/",
-          "description": "Research Chatbot"
+          "description": "Research Chatbot",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "Scinito",
@@ -402,6 +404,11 @@
           "tags": [
             "GitHub"
           ]
+        },
+        {
+          "name": "Alphaxiv",
+          "url": "https://www.alphaxiv.org/",
+          "description": "Document Chatbot"
         },
         {
           "name": "PrivateGPT",
@@ -838,6 +845,8 @@
             "index"
           ],
           "mirrors": [
+            "https://www.llm-prices.com/",
+            "https://github.com/simonw/llm-prices",
             "https://pricepertoken.com/"
           ]
         },
@@ -859,6 +868,11 @@
           "tags": [
             "index"
           ]
+        },
+        {
+          "name": "⁠LLM Timeline",
+          "url": "https://llm-timeline.com/",
+          "description": "Interactive LLM History Timeline"
         },
         {
           "name": "tldraw computer",
@@ -1120,7 +1134,10 @@
           "name": "Artificial Analysis",
           "url": "https://artificialanalysis.ai/",
           "description": "Chatbot, Image, and Video Benchmarks / X",
-          "starred": true
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "⁠Kaggle Benchmarks",
@@ -1154,7 +1171,11 @@
         {
           "name": "Yupp Leaderboard",
           "url": "https://yupp.ai/leaderboard",
-          "description": "Chatbot Leaderboards / Benchmarks"
+          "description": "Chatbot Leaderboards / Benchmarks / X",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
         },
         {
           "name": "Context Arena",
@@ -1200,7 +1221,10 @@
         {
           "name": "⁠DesignArena",
           "url": "https://www.designarena.ai/leaderboard/",
-          "description": "AI Design Benchmarks"
+          "description": "AI Design Benchmarks / X",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "⁠EQ-Bench",
@@ -1356,14 +1380,16 @@
           ]
         },
         {
-          "name": "Bing Create",
-          "url": "https://www.bing.com/images/create",
-          "description": "Sora 1 / No Image Input"
+          "name": "⁠Klipy",
+          "url": "https://klipy.com/create/gif-maker/",
+          "description": "Veo 3 / GIF Only / 4s-5s / Unlimited / Requires Sign-Up",
+          "starred": true
         },
         {
           "name": "Arena",
           "url": "https://arena.ai/?chat-modality=video",
           "description": "3 Daily / Requires Sign-Up / Random Models / Reset Limits w / Temp Mail / End-Watermark / X",
+          "starred": true,
           "tags": [
             "Discord"
           ]
@@ -1371,12 +1397,15 @@
         {
           "name": "Design Arena",
           "url": "https://www.designarena.ai/",
-          "description": "Multiple Models / No Direct / Side by Side Mode / Reset Limits / w Temp Mail"
+          "description": "Multiple Models / No Direct / Side by Side Mode / Reset Limits / w Temp Mail / X",
+          "tags": [
+            "Discord"
+          ]
         },
         {
-          "name": "Sora",
-          "url": "https://openai.com/index/sora/",
-          "description": "6 Daily / Remove Watermarks / Signup Guide"
+          "name": "Bing Create",
+          "url": "https://www.bing.com/images/create",
+          "description": "Sora 1 / No Image Input"
         },
         {
           "name": "Wan AI",
@@ -1389,6 +1418,29 @@
           "description": "Wan AI / Wan 2.6 / Image to Video"
         },
         {
+          "name": "⁠HunyuanVideo",
+          "url": "https://hunyuan.tencent.com/modelSquare/home/play?modelId=303&from=/visual",
+          "description": "Unlimited / Requires Sign-Up"
+        },
+        {
+          "name": "Sora",
+          "url": "https://openai.com/index/sora/",
+          "description": "6 Daily / Remove Watermarks / Signup Guide"
+        },
+        {
+          "name": "⁠Vheer",
+          "url": "https://vheer.com/",
+          "description": "Unlimited / No Sign-Up / X",
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Meta AI",
+          "url": "https://www.meta.ai/",
+          "description": "Unlimited / Requires Sign-Up"
+        },
+        {
           "name": "Qwen",
           "url": "https://chat.qwen.ai/",
           "description": "5 / 12 Per Hour",
@@ -1398,24 +1450,9 @@
           ]
         },
         {
-          "name": "⁠Vheer",
-          "url": "https://vheer.com/",
-          "description": "Unlimited / No Sign-Up"
-        },
-        {
           "name": "AIFreeVideo",
           "url": "https://aifreevideo.com/",
           "description": "Unlimited / MiniMax Video-01 / Requires Sign-Up"
-        },
-        {
-          "name": "Meta AI",
-          "url": "https://www.meta.ai/",
-          "description": "Unlimited / Requires Sign-Up"
-        },
-        {
-          "name": "⁠Klipy",
-          "url": "https://klipy.com/",
-          "description": "Veo 3 / GIFs / 4s-5s / Unlimited / Requires Sign-Up"
         },
         {
           "name": "ModelScope Video",
@@ -1428,14 +1465,17 @@
           "description": "Veo 3 / 10 Monthly"
         },
         {
-          "name": "Google Flow",
-          "url": "https://labs.google/fx/tools/flow",
-          "description": "Veo 3.1 (5 Monthly)"
-        },
-        {
           "name": "Dreamina",
           "url": "https://dreamina.capcut.com/ai-tool/home",
           "description": "120 Credits Daily"
+        },
+        {
+          "name": "Google Flow",
+          "url": "https://labs.google/fx/tools/flow",
+          "description": "Veo 3.1 (5 Monthly)",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "PixVerse",
@@ -1446,22 +1486,12 @@
           ]
         },
         {
-          "name": "Opal Veo 3",
-          "url": "https://opal.withgoogle.com/?flow=drive:/16qMbrhlc7gjTfI1zpnKbyoBxEcDRi4om&shared&mode=app",
-          "description": "Veo 3 / Use Alt Account"
-        },
-        {
           "name": "Genmo",
           "url": "https://www.genmo.ai/",
           "description": "30 Monthly",
           "tags": [
             "GitHub"
           ]
-        },
-        {
-          "name": "Vivago",
-          "url": "https://vivago.ai/",
-          "description": "1 Daily"
         },
         {
           "name": "FramePack",
@@ -1490,9 +1520,30 @@
           ]
         },
         {
+          "name": "Google Flow",
+          "url": "https://labs.google/fx/tools/flow",
+          "description": "Nano Banana Pro / Nano Banana 2 / Google Login / Unlimited",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
+        },
+        {
+          "name": "Google AI Mode",
+          "url": "https://google.com/aimode",
+          "description": "Nano Banana 2 / Unlimited / Google Login",
+          "starred": true,
+          "tags": [
+            "Discord"
+          ],
+          "mirrors": [
+            "https://www.google.com/search?udm=50"
+          ]
+        },
+        {
           "name": "Arena",
           "url": "https://arena.ai/?mode=direct&chat-modality=image",
-          "description": "GPT Image 1.5 / Nano Banana Pro / Multiple Generators / Editing / Reset Limits w / Cookie Delete or Temp Mail / X",
+          "description": "Multiple Generators / Editing / Reset Limits w / Cookie Delete or Temp Mail / X",
           "starred": true,
           "tags": [
             "Discord"
@@ -1501,7 +1552,7 @@
         {
           "name": "Gemini",
           "url": "https://gemini.google.com/",
-          "description": "Nano Banana (100 per day) / Nano Banana Pro (5 per day) / Google Login Required / Region-Based / Remove Watermarks",
+          "description": "Nano Banana 2 (20 per day) / Google Login / Remove Watermarks",
           "starred": true,
           "tags": [
             "Discord"
@@ -1510,7 +1561,7 @@
         {
           "name": "AI Studio",
           "url": "https://aistudio.google.com/generate-image",
-          "description": "Imagen 4 + Ultra / Nano Banana / Google Login Required",
+          "description": "Nano Banana / Google Login",
           "starred": true,
           "tags": [
             "Discord"
@@ -1523,24 +1574,33 @@
           "name": "Khoj",
           "url": "https://app.khoj.dev/?v=app",
           "description": "Nano Banana / Imagen 4 / Unlimited",
-          "starred": true
+          "starred": true,
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "Bing Create",
           "url": "https://www.bing.com/images/create",
-          "description": "Unlimited / GPT-4o / DALL-E-3 / Editing / Unlimited / Generating / Sign-Up Required",
+          "description": "Unlimited / GPT Image 1 / DALL-E 3 / Editing / Generating / Sign-Up",
           "starred": true
         },
         {
           "name": "Dreamina",
           "url": "https://dreamina.capcut.com/ai-tool/home",
-          "description": "120 Credits Daily / Seedream 4.5 / Nano Banana / Sign-Up Required",
+          "description": "120 Credits Daily / Seedream 4.5 / Nano Banana / Sign-Up",
+          "starred": true
+        },
+        {
+          "name": "⁠Hunyuan Image Generation",
+          "url": "https://hunyuan.tencent.com/visual",
+          "description": "Generating / Editing / 3D / Sign-Up / Unlimited",
           "starred": true
         },
         {
           "name": "Perchance",
           "url": "https://perchance.org/ai-photo-generator",
-          "description": "Chroma-Based / Unlimited / No Sign-Up / Resources / Lemmy",
+          "description": "Chroma-Based / Unlimited / Resources / Lemmy",
           "starred": true,
           "tags": [
             "Subreddit",
@@ -1553,30 +1613,32 @@
         {
           "name": "Yupp.ai",
           "url": "https://yupp.ai/",
-          "description": "GPT Image 1.5 / Nano Banana Pro / Multiple Generators / Google Login Required",
+          "description": "Multiple Generators / Google Login / X",
           "tags": [
+            "Subreddit",
             "Discord"
           ]
         },
         {
           "name": "Design Arena",
           "url": "https://www.designarena.ai/",
-          "description": "Multiple Generators / Editing / Sign-up Required / No Direct / Side by Side Mode / Reset Limits / w Temp Mail"
+          "description": "Multiple Generators / Editing / Sign-up / No Direct / Side by Side Mode / Reset Limits / w Temp Mail",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "⁠GeminiGenAI",
           "url": "https://geminigen.ai/app/imagen",
-          "description": "Nano Banana Pro / Login Required / Reset Limits w / Temp Mail / Note"
-        },
-        {
-          "name": "⁠Hunyuan Image Generation",
-          "url": "https://hunyuan.tencent.com/image/en",
-          "description": "HunyuanImage 3.0-Instruct / Unlimited"
+          "description": "Nano Banana Pro / Sign-up / Reset Limits w / Temp Mail / Note",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "Grok",
           "url": "https://grok.com/",
-          "description": "Traffic-Based / Editing / Generating / Requires Sign-Up",
+          "description": "Traffic-Based / Editing / Generating / Sign-Up",
           "tags": [
             "Subreddit",
             "Discord"
@@ -1585,7 +1647,7 @@
         {
           "name": "Qwen",
           "url": "https://chat.qwen.ai/",
-          "description": "30 Per 24 Hours / Editing / Requires Sign-Up",
+          "description": "30 Per 24 Hours / Editing / Sign-Up",
           "tags": [
             "Discord",
             "GitHub"
@@ -1594,7 +1656,7 @@
         {
           "name": "Recraft",
           "url": "https://www.recraft.ai/",
-          "description": "30 Daily / Requires Sign-Up",
+          "description": "30 Daily / Sign-Up",
           "tags": [
             "Discord"
           ]
@@ -1602,7 +1664,7 @@
         {
           "name": "Reve Image",
           "url": "https://app.reve.com",
-          "description": "20 Daily / Editing / Requires Sign-Up / X",
+          "description": "20 Daily / Editing / Sign-Up / X",
           "tags": [
             "Discord"
           ]
@@ -1610,7 +1672,7 @@
         {
           "name": "ImageFX",
           "url": "https://labs.google/fx/tools/image-fx",
-          "description": "Imagen 4 / Unlimited / Region-Based / Requires Sign-Up",
+          "description": "Imagen 4 / Unlimited / Region-Based / Sign-Up",
           "tags": [
             "Discord"
           ]
@@ -1618,30 +1680,30 @@
         {
           "name": "TheresAnAIForThat",
           "url": "https://theresanaiforthat.com/@taaft/image-to-image-generator/",
-          "description": "Unlimited / Editing / Flux Kontext Dev"
+          "description": "Editing / Unlimited / Flux Kontext Dev",
+          "mirrors": [
+            "https://vheer.com/",
+            "https://x.com/VheerAI",
+            "https://discord.com/invite/33qfQRCp5j"
+          ]
         },
         {
           "name": "AIGazou",
           "url": "https://muryou-aigazou.com/",
-          "description": "Flux / Z-Image Turbo / Unlimited / No Sign-Up / Seedream 3 / GPT Image 1 / 10 Daily / Requires Sign-Up",
+          "description": "Flux / Z-Image Turbo / Unlimited / Seedream 3 / GPT Image 1 / 10 Daily / Sign-Up",
           "tags": [
             "Discord"
           ]
         },
         {
           "name": "⁠ZonerAI",
-          "url": "https://zonerai.com/",
-          "description": "Flux Schnell / Unlimited / Editing / 4k / Sign-up-required"
+          "url": "https://zonerai.com/en/image-editor",
+          "description": "Flux Schnell / Unlimited / Editing / 4K / Sign-Up"
         },
         {
           "name": "Meta AI",
           "url": "https://www.meta.ai/",
-          "description": "Unlimited / Requires Sign-Up"
-        },
-        {
-          "name": "⁠Vheer",
-          "url": "https://vheer.com/",
-          "description": "Unlimited / Flux Kontext Dev / Flux Schnell"
+          "description": "Unlimited / Sign-Up"
         },
         {
           "name": "ModelScope Images",
@@ -1649,12 +1711,10 @@
           "description": "Qwen Image Edit / Z-Image Turbo / 100 Credits Daily / Model Cost Varies / Note"
         },
         {
-          "name": "⁠ISH",
-          "url": "https://beta.ish.chat/",
+          "name": "⁠FlatAI",
+          "url": "https://flatai.org/ai-image-generator-free-no-signup/",
           "description": "Z-Image Turbo",
           "mirrors": [
-            "https://www.reddit.com/r/Ishchat/",
-            "https://discord.gg/cwDTVKyKJz",
             "https://pollinations.ai/play",
             "https://z-gen-turbo.vercel.app/"
           ]
@@ -1662,7 +1722,7 @@
         {
           "name": "⁠Ernie",
           "url": "https://ernie.baidu.com/",
-          "description": "Unlimited / Editing / Requires Sign-Up"
+          "description": "Unlimited / Editing / Sign-Up"
         },
         {
           "name": "LongCat AI",
@@ -1689,12 +1749,12 @@
         {
           "name": "⁠Coze",
           "url": "https://space.coze.cn/",
-          "description": "Seadream 4.0 / SoTA Image Gen / 50 Daily / Requires Sign-Up with Phone / US Select CA"
+          "description": "Seadream 4.0 / 50 Daily / Sign-Up with Phone / US Select CA"
         },
         {
           "name": "AIImagetoImage",
           "url": "https://aiimagetoimage.io/",
-          "description": "Nano Banana / Editing / No Sign-Up",
+          "description": "Nano Banana / Editing",
           "mirrors": [
             "https://image-editor.org/"
           ]
@@ -1845,6 +1905,14 @@
           "description": ""
         },
         {
+          "name": "Dione",
+          "url": "https://getdione.app/",
+          "description": "",
+          "mirrors": [
+            "https://github.com/dioneapp/dioneapp"
+          ]
+        },
+        {
           "name": "Sygil WebUI",
           "url": "https://sygil-dev.github.io/sygil-webui/",
           "description": "",
@@ -1875,9 +1943,12 @@
           "description": "Plugin-Based / Self-Hosted / NVIDIA Required"
         },
         {
-          "name": "⁠Amuse",
-          "url": "https://huggingface.co/TensorStack/Amuse",
-          "description": "Stable Diffusion for AMD Systems / X"
+          "name": "⁠Diffuse",
+          "url": "https://huggingface.co/TensorStack/Diffuse",
+          "description": "Stable Diffusion for AMD Systems",
+          "tags": [
+            "Discord"
+          ]
         }
       ]
     },
@@ -2101,11 +2172,6 @@
           "tags": [
             "GitHub"
           ]
-        },
-        {
-          "name": "WOMBO",
-          "url": "https://www.wombo.ai/",
-          "description": "AI Powered Lip Sync"
         }
       ]
     },

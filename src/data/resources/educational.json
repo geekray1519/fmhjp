@@ -27,13 +27,18 @@
         {
           "name": "DocumentaryArea",
           "url": "https://www.documentaryarea.com/",
-          "description": "(or use PIP)",
+          "description": ", (or use PIP)",
           "starred": true
         },
         {
           "name": "Remove Watermark",
+          "url": "https://pastebin.com/e77cHmgm",
+          "description": ", (or use PIP)"
+        },
+        {
+          "name": "Chrome",
           "url": "https://github.com/acridsoul/Clear-Mark",
-          "description": "(or use PIP)"
+          "description": ", (or use PIP)"
         },
         {
           "name": "Documentary+",
@@ -46,6 +51,11 @@
           "url": "https://1337x.to/top-100-documentaries",
           "description": "Torrent",
           "starred": true
+        },
+        {
+          "name": "YT Video Essay Hall of Fame",
+          "url": "https://docs.google.com/spreadsheets/d/1pMlfjJ4gb0vMt2xrQITBMzWypNHMj-lWKkK1KC6EjxA/edit?gid=88681539",
+          "description": "YouTube Video Essay Archive / Frontend"
         },
         {
           "name": "LearnOutLoud",
@@ -526,14 +536,6 @@
           "description": "Mineralogy Database"
         },
         {
-          "name": "AirVectors",
-          "url": "https://www.airvectors.net/",
-          "description": "Aircraft Indexes / Images",
-          "mirrors": [
-            "https://www.planespotters.net/"
-          ]
-        },
-        {
           "name": "ShipSpotting",
           "url": "https://www.shipspotting.com/",
           "description": "Ship Index / Images"
@@ -581,6 +583,11 @@
             "https://www.instructables.com/",
             "https://creativepark.canon/en/index.html"
           ]
+        },
+        {
+          "name": "⁠Low Tech Magazine",
+          "url": "https://solar.lowtechmagazine.com/",
+          "description": "Sustainable DIY Tech Guides"
         },
         {
           "name": "cholyknight",
@@ -657,11 +664,6 @@
           "name": "BeatBlackjack",
           "url": "https://www.beatblackjack.org/",
           "description": "Learn Blackjack Card Counting"
-        },
-        {
-          "name": "Excel Practice Online",
-          "url": "https://excel-practice-online.com/",
-          "description": "Excel Practice / Guides"
         },
         {
           "name": "ActivistHandbook",
@@ -794,21 +796,6 @@
           "description": "Greek History Encyclopedia"
         },
         {
-          "name": "Theoi",
-          "url": "https://www.theoi.com/",
-          "description": "Greek Mythology"
-        },
-        {
-          "name": "Germanic Mythology",
-          "url": "https://www.germanicmythology.com/index.html",
-          "description": "Germanic Mythology"
-        },
-        {
-          "name": "Inuit Myths",
-          "url": "https://www.inuitmyths.com/index.htm",
-          "description": "Inuit Mythology"
-        },
-        {
           "name": "Mission US",
           "url": "https://www.mission-us.org/",
           "description": "American History Learning Games"
@@ -872,6 +859,11 @@
           "description": "Art / Cultural Object History"
         },
         {
+          "name": "Free Classic Image",
+          "url": "https://freeclassicimages.com/",
+          "description": "Vintage / Retro Image Collection / Some NSFW"
+        },
+        {
           "name": "⁠gwulo",
           "url": "https://gwulo.com/",
           "description": "Historical Hong Kong Photo Archive"
@@ -879,7 +871,10 @@
         {
           "name": "CARI",
           "url": "https://cari.institute/",
-          "description": "Design Aesthetics History"
+          "description": "Design Aesthetics History",
+          "mirrors": [
+            "https://www.are.na/consumer-aesthetics-research-institute/channels"
+          ]
         },
         {
           "name": "ChinesePosters",
@@ -920,6 +915,21 @@
           "name": "GodChecker",
           "url": "https://www.godchecker.com/",
           "description": "Religion / Mythology History"
+        },
+        {
+          "name": "Theoi",
+          "url": "https://www.theoi.com/",
+          "description": "Greek Mythology"
+        },
+        {
+          "name": "Germanic Mythology",
+          "url": "https://www.germanicmythology.com/index.html",
+          "description": "Germanic Mythology"
+        },
+        {
+          "name": "Inuit Myths",
+          "url": "https://www.inuitmyths.com/index.htm",
+          "description": "Inuit Mythology"
         },
         {
           "name": "ObscUrban Legend Wiki",
@@ -1649,10 +1659,11 @@
         {
           "name": "⁠Integrity Index",
           "url": "https://integrityindex.us/",
-          "description": "US Political Finance Integrity Database / Discord",
+          "description": "US Political Finance Integrity Database",
           "starred": true,
           "tags": [
-            "Subreddit"
+            "Subreddit",
+            "Discord"
           ]
         },
         {
@@ -1735,6 +1746,11 @@
           "name": "OpenSecrets",
           "url": "https://www.opensecrets.org/",
           "description": "Government Money Tracking"
+        },
+        {
+          "name": "BLS",
+          "url": "https://www.bls.gov/",
+          "description": "U.S. Bureau of Labor Statistics"
         },
         {
           "name": "If It Were My Home",
@@ -2016,7 +2032,7 @@
             "index"
           ],
           "mirrors": [
-            "https://www.falstad.com/"
+            "https://www.falstad.com/mathphysics.html"
           ]
         },
         {
@@ -2192,6 +2208,14 @@
           ]
         },
         {
+          "name": "Math and Science Lectures",
+          "url": "https://github.com/Developer-Y/math-science-video-lectures",
+          "description": "Index of Math + Science Video Courses",
+          "tags": [
+            "index"
+          ]
+        },
+        {
           "name": "Number Academy",
           "url": "https://number.academy/",
           "description": "Encyclopedia of Numbers",
@@ -2251,6 +2275,16 @@
           "description": "Mathematics Encyclopedias",
           "mirrors": [
             "https://ncatlab.org/nlab/show/mathematics"
+          ]
+        },
+        {
+          "name": "⁠Immortal's Maths Problems",
+          "url": "https://www.math.umd.edu/~immortal/",
+          "description": "Math Practice / Guides",
+          "mirrors": [
+            "https://web.evanchen.cc/",
+            "https://tutorial.math.lamar.edu/",
+            "https://math.libretexts.org/Bookshelves"
           ]
         },
         {
@@ -2394,14 +2428,6 @@
           "name": "IXL Learning",
           "url": "https://au.ixl.com/math/",
           "description": "Math Practice / Quizzes"
-        },
-        {
-          "name": "Pauls Online Math Notes",
-          "url": "https://tutorial.math.lamar.edu/",
-          "description": "Math Practice / Guides",
-          "mirrors": [
-            "https://math.libretexts.org/Bookshelves"
-          ]
         },
         {
           "name": "HSCMathsByTopic",
@@ -2569,6 +2595,16 @@
           "description": "Engineering Software"
         },
         {
+          "name": "⁠Animated Engines",
+          "url": "https://animatedengines.com/",
+          "description": "Engine Animations / Explanations"
+        },
+        {
+          "name": "507 Movements",
+          "url": "https://507movements.com/toc.html",
+          "description": "Mechanical Movement Animations"
+        },
+        {
           "name": "Robot Shop",
           "url": "https://community.robotshop.com/",
           "description": "Robotics Forum"
@@ -2608,10 +2644,11 @@
           "description": "Learn Circuit Design"
         },
         {
-          "name": "⁠Fritzing",
-          "url": "https://gist.github.com/RyanLua/fc2457d87641bb39754278b01a647526",
-          "description": "Electronic Circuit Design Tools",
+          "name": "Falstad",
+          "url": "https://www.falstad.com/circuit/",
+          "description": "Electronic Circuit Design / Simulation Tools",
           "mirrors": [
+            "https://gist.github.com/RyanLua/fc2457d87641bb39754278b01a647526",
             "https://devbisme.github.io/skidl/",
             "https://github.com/devbisme/skidl",
             "https://docs.atopile.io/atopile/quickstart",
@@ -2661,9 +2698,20 @@
           "description": "Engineering Multireddit"
         },
         {
+          "name": "⁠McMaster",
+          "url": "https://www.mcmaster.com/",
+          "description": "Free 3D Printable Hardware Parts + Tools",
+          "mirrors": [
+            "https://www.3dfindit.com/en/"
+          ]
+        },
+        {
           "name": "Build List",
           "url": "https://buildlist.org/",
-          "description": "On-Demand Online Manufacturers"
+          "description": "On-Demand Online Manufacturers",
+          "mirrors": [
+            "https://partsmadefast.com/"
+          ]
         }
       ]
     },
@@ -2700,7 +2748,10 @@
         {
           "name": "⁠The Rocketry Forum",
           "url": "https://www.rocketryforum.com/",
-          "description": "Rocketry Forums / Community"
+          "description": "Rocketry Forums / Community",
+          "mirrors": [
+            "https://www.oldrocketforum.com/"
+          ]
         },
         {
           "name": "⁠r/rocketry",
@@ -2723,7 +2774,7 @@
         {
           "name": "Half Cat Rocketry",
           "url": "https://www.halfcatrocketry.com/",
-          "description": "Liquid Rocket Motor Info / Resources / X",
+          "description": "Liquid Rocket Motor Guide / Info / Resources / X",
           "tags": [
             "Discord",
             "GitHub"
@@ -2792,9 +2843,31 @@
           "description": "Internal Ballistics Simulator"
         },
         {
+          "name": "AirVectors",
+          "url": "https://www.airvectors.net/",
+          "description": "Aircraft Indexes / Images",
+          "mirrors": [
+            "https://www.planespotters.net/"
+          ]
+        },
+        {
           "name": "Flight Mechanics",
           "url": "https://www.aircraftflightmechanics.com",
           "description": "Aircraft Flight Mechanics Learning"
+        },
+        {
+          "name": "Falcon BMS",
+          "url": "https://www.falcon-bms.com/",
+          "description": "Falcon 4.0 Modernization Project / Wiki / Forum / YouTube",
+          "tags": [
+            "Subreddit",
+            "Discord"
+          ]
+        },
+        {
+          "name": "FlightGear",
+          "url": "https://www.flightgear.org/",
+          "description": "Open-Source Flight Simulator / X / GitLab"
         },
         {
           "name": "⁠Av8n",
@@ -2838,6 +2911,22 @@
           "name": "OpenDroneMap",
           "url": "https://www.opendronemap.org/",
           "description": "Drone Mapping Software"
+        },
+        {
+          "name": "Open Drone Logbook",
+          "url": "https://opendronelog.com/",
+          "description": "FOSS Drone Log",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠Langostino",
+          "url": "https://github.com/swarm-subnet/Langostino",
+          "description": "Decentralized AI Drone Pilot Platform / Learning / X",
+          "tags": [
+            "Discord"
+          ]
         },
         {
           "name": "Stolen Drone",
@@ -3071,6 +3160,11 @@
         {
           "name": "The Periodic Table Of Elements",
           "url": "https://periodictableofchemicalelements.com/",
+          "description": "Interactive Table"
+        },
+        {
+          "name": "⁠Zperiod",
+          "url": "https://zperiod.app/",
           "description": "Interactive Table"
         },
         {
@@ -3986,7 +4080,7 @@
         {
           "name": "Orbiter",
           "url": "https://www.orbiter-forum.com/",
-          "description": "Spaceflight Simulator",
+          "description": "Open Source Spaceflight Simulator",
           "tags": [
             "Subreddit",
             "GitHub"
@@ -4027,9 +4121,12 @@
         {
           "name": "LexiLogos",
           "url": "https://www.lexilogos.com/english/index.htm",
-          "description": "Multi-Language Dictionary Index",
+          "description": "Language Dictionary Indexes",
           "tags": [
             "index"
+          ],
+          "mirrors": [
+            "https://lyricstranslate.com/en/resources"
           ]
         },
         {
@@ -4065,6 +4162,14 @@
           "url": "https://readlang.com/",
           "description": "Learn a Language via Web Browsing",
           "starred": true
+        },
+        {
+          "name": "⁠Lute",
+          "url": "https://luteorg.github.io/lute-manual",
+          "description": "Learn a Language via Reading",
+          "tags": [
+            "GitHub"
+          ]
         },
         {
           "name": "Language Learners",
@@ -4105,6 +4210,11 @@
           "name": "Refold",
           "url": "https://refold.la/",
           "description": "Language Learning Roadmap"
+        },
+        {
+          "name": "⁠Lengualytics",
+          "url": "https://www.lengualytics.com/",
+          "description": "Comprehensible Input Tracker / Resources"
         },
         {
           "name": "LingoDeer",
@@ -4468,12 +4578,22 @@
           ]
         },
         {
+          "name": "⁠IELTS Liz",
+          "url": "https://ieltsliz.com/",
+          "description": "IELTS Test Preparation"
+        },
+        {
           "name": "yell0wsuit",
           "url": "https://yell0wsuit.page/english.html",
           "description": "Word Learning Site",
           "mirrors": [
             "https://www.oxfordlearnersdictionaries.com/"
           ]
+        },
+        {
+          "name": "CEFR Lookup",
+          "url": "https://cefrlookup.com/",
+          "description": "CEFR Word Level Lookup"
         },
         {
           "name": "Podcasts in English",
@@ -4575,6 +4695,11 @@
           "mirrors": [
             "https://reader.manabi.io/"
           ]
+        },
+        {
+          "name": "⁠VNClub",
+          "url": "https://vnclub.org/",
+          "description": "Learn Japanese via Visual Novels"
         },
         {
           "name": "Learn Japanese Grammar",
@@ -4722,6 +4847,14 @@
           ]
         },
         {
+          "name": "⁠Refold Mandarin",
+          "url": "https://zenith-raincoat-5cf.notion.site/Refold-Mandarin-Resources-d54bfade358b4d0a88b5600acb99582b",
+          "description": "- Chinese Learning Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
           "name": "SinoSplice",
           "url": "https://www.sinosplice.com/",
           "description": "- Chinese Learning Resources",
@@ -4852,6 +4985,7 @@
           "url": "https://corpus.eduhk.hk/cantonese/e_index.html",
           "description": "Cantonese Learning / Practice",
           "mirrors": [
+            "https://opencantonese.org/",
             "https://www.polyu.edu.hk/clc/cantonese/home/?lang=en",
             "https://www.eduhk.hk/cle/resources/Mini_MOOC2/index.htm"
           ]
@@ -4900,7 +5034,10 @@
         {
           "name": "Jyutping",
           "url": "https://jyutping.org/en/",
-          "description": "Cantonese Romanization System"
+          "description": "Learn Cantonese Romanization System",
+          "mirrors": [
+            "https://chaaklau.github.io/LearnDuck/"
+          ]
         }
       ]
     },
@@ -4931,8 +5068,11 @@
         {
           "name": "SpanishDict",
           "url": "https://www.spanishdict.com/",
-          "description": "Spanish Translation Dictionary",
-          "starred": true
+          "description": "Spanish Translation Dictionaries",
+          "starred": true,
+          "mirrors": [
+            "https://www.linguee.es/"
+          ]
         },
         {
           "name": "Spanish-English",
@@ -4981,11 +5121,14 @@
       "title": "ドイツ語",
       "resources": [
         {
-          "name": "German Resources",
-          "url": "https://docs.google.com/document/d/1J5PJK0qStw2DHQHdRHuKIfq_bJrZkFarQVT7fkz13tg/edit#heading=h.biavq1413l4t",
+          "name": "⁠German Learning Roadmap",
+          "url": "https://learngerman.pages.dev/",
           "description": "German Language Resources",
           "tags": [
             "index"
+          ],
+          "mirrors": [
+            "https://docs.google.com/document/d/1J5PJK0qStw2DHQHdRHuKIfq_bJrZkFarQVT7fkz13tg/edit#heading=h.biavq1413l4t"
           ]
         },
         {
@@ -5203,6 +5346,11 @@
           "description": "ASL Learning / Dictionary"
         },
         {
+          "name": "The ASL Calendar",
+          "url": "https://discord.gg/QU6vMSYN7y",
+          "description": "ASL Community / Resources"
+        },
+        {
           "name": "⁠SooSL",
           "url": "https://www.soosl.net/",
           "description": "Create Custom Sign Language Dictionaries"
@@ -5415,6 +5563,7 @@
             "index"
           ],
           "mirrors": [
+            "https://t.me/Immortal_Chess_Network",
             "https://thechessdirectory.com/",
             "https://redd.it/u43nrc"
           ]
@@ -5458,7 +5607,7 @@
           ]
         },
         {
-          "name": "List Study",
+          "name": "Listudy",
           "url": "https://listudy.org/en",
           "description": "Chess Lessons"
         },
@@ -5646,6 +5795,19 @@
           "name": "Cruinne's D&D Reading Room",
           "url": "https://arcadia.net/Cruinne/DnD/Articles/worldbuilding.html",
           "description": "D&D Worldbuilding Checklist"
+        },
+        {
+          "name": "⁠DiceCloud",
+          "url": "https://dicecloud.com/",
+          "description": "D&D 5e Character Manager",
+          "tags": [
+            "GitHub"
+          ]
+        },
+        {
+          "name": "⁠DMHeroes",
+          "url": "https://dmheroes.com/",
+          "description": "D&D NPC Generator / Classic"
         },
         {
           "name": "Tetra-cube",
@@ -6614,6 +6776,11 @@
           "description": "Computer Science Courses"
         },
         {
+          "name": "⁠SEE",
+          "url": "https://see.stanford.edu/",
+          "description": "Computer Science Courses"
+        },
+        {
           "name": "CollegeComendium",
           "url": "https://collegecompendium.org/",
           "description": "Computer Science Courses"
@@ -6699,6 +6866,14 @@
           "name": "Awesome DataScience",
           "url": "https://github.com/academic/awesome-datascience",
           "description": "Data Science Resources",
+          "tags": [
+            "index"
+          ]
+        },
+        {
+          "name": "⁠Awesome Data Analysis",
+          "url": "https://github.com/PavelGrigoryevDS/awesome-data-analysis",
+          "description": "Data Analysis Resources",
           "tags": [
             "index"
           ]
@@ -7486,12 +7661,6 @@
           ]
         },
         {
-          "name": "OnePrep",
-          "url": "https://oneprep.xyz/",
-          "description": "SAT Practice Exams / Questions",
-          "starred": true
-        },
-        {
           "name": "SAT Slayer",
           "url": "https://www.satslayer.org/",
           "description": "SAT Practice Exams / Questions",
@@ -7502,6 +7671,11 @@
         {
           "name": "⁠Mcelroy Tutoring",
           "url": "https://www.mcelroytutoring.com/lower.php?url=44-official-sat-pdfs-and-82-official-act-pdf-practice-tests-free",
+          "description": "SAT Practice Exams / Questions"
+        },
+        {
+          "name": "OnePrep",
+          "url": "https://oneprep.xyz/",
           "description": "SAT Practice Exams / Questions"
         },
         {
@@ -8464,6 +8638,11 @@
           "name": "CDPedia",
           "url": "https://cdpedia.python.org.ar/index.en.es.html",
           "description": "Offline View"
+        },
+        {
+          "name": "⁠WikiBoard",
+          "url": "https://www.wikiboard.org/",
+          "description": "Pin Board Style Browser"
         },
         {
           "name": "Substance",

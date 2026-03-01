@@ -13,7 +13,7 @@
         {
           "name": "RuTracker",
           "url": "https://rutracker.org/",
-          "description": "Video / Audio / Comics / Magazines / Software / Requires Sign-Up",
+          "description": "Video / Audio / Comics / Magazines / Requires Sign-Up",
           "starred": true,
           "mirrors": [
             "https://rutracker.net/"
@@ -183,11 +183,6 @@
         {
           "name": "uIndex",
           "url": "https://uindex.org/",
-          "description": ""
-        },
-        {
-          "name": "BTSearch",
-          "url": "https://btsearch.19950817.xyz/en",
           "description": ""
         },
         {
@@ -499,7 +494,6 @@
           "mirrors": [
             "https://claraiscute.pages.dev/Guides/private-trackers/",
             "https://www.reddit.com/r/TrackersInfo/wiki/official_recruitments/",
-            "https://igwiki.lyci.de/wiki/Private_trackers",
             "https://inviteroute.github.io/sheet/",
             "https://inviteroute.github.io/graph/"
           ]
